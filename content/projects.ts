@@ -7,4 +7,5 @@ export const projects = [
   { name: 'WAIKE Research Ops', repo: 'waike-research-ops', track: 'WAIKE Ops' },
   { name: 'gunnchos Hardware ID', repo: 'gunnchos-hardware-industrial-design', track: 'Hardware ID' },
   { name: 'gunnchos Device OS', repo: 'gunnchos-device-os', track: 'Device OS' },
+  { name: 'gunnchAI3k WAIKE Tutor', repo: 'gunnchAI3k', track: 'WAIKE Ops' },
 ];
