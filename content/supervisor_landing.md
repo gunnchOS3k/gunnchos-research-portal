@@ -13,4 +13,4 @@ Community-scale AI-RAN, digital twin, edge measurement, and NTN resilience resea
 Feedback on research questions, dataset strategy, Oulu/CWC fit, publication path.
 
 ## Not claiming
-Oulu affiliation, operational 6G, certified hardware, validated results.
+University affiliation, operational 6G, certified hardware, validated results.
