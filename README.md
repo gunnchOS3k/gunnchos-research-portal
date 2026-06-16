@@ -17,6 +17,9 @@
 | [MISSION_ALIGNMENT.md](MISSION_ALIGNMENT.md) | Mission pillars and safe language |
 | [CLAIMS_TO_EVIDENCE.md](CLAIMS_TO_EVIDENCE.md) | Portfolio-level evidence matrix |
 | [REPRODUCIBILITY.md](REPRODUCIBILITY.md) | How to verify docs and CI across repos |
+| [docs/ROLE_FIT_OVERVIEW.md](docs/ROLE_FIT_OVERVIEW.md) | **Role-specific proof paths** (SecOps, Access Risk, RTL) |
+| [docs/DEMO_INDEX.md](docs/DEMO_INDEX.md) | Runnable mock demos index |
+| [docs/HARDENING_REVIEW_STATUS.md](docs/HARDENING_REVIEW_STATUS.md) | Draft PR / CI review tracker |
 
 ---
 
