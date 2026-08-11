@@ -1,14 +1,10 @@
-# Roadmap — gunnchos-research-portal
+# Roadmap (navigation view)
 
-Part of the **gunnchOS3k MLV — 7GC AI-RAN Digital Twin Program**.
+| Now (Cycle 3A) | Next (blocked) | Later |
+|---|---|---|
+| WP-012 Product Charter + portal IA | WP-001 EVT0-1.0 freeze | DVT/PVT, certification, pilots |
+| WP-011R Device Lab independent acceptance | Physical EVT correlation | Carrier engagement (owner-authorized) |
 
-Portfolio index.
+This portal roadmap is informational. Work-packet authority lives in field-kit.
 
-## Phase: Concept / EVT-0 (research scaffold)
-
-- [ ] Core docs and reproducibility checklist
-- [ ] CI green on main
-- [ ] Integration contracts with sibling repos
-- [ ] Professor / student / community demo scripts
-
-See `program/master_roadmap.md` in the local spine workspace for program-level milestones.
+Prior portal roadmap stub preserved conceptually; detailed research incubation history remains under `docs/history/` and research repos.
