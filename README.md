@@ -6,11 +6,14 @@ This is not the Product Charter. The charter lives in [`gunnchos-7gc-ai-ran-fiel
 
 ## Start here
 
+**Zero-context entry (Cycle 3A.2):** begin at this README, then [START_HERE.md](START_HERE.md).  
+Profile README is **OWNER_DEFERRED** / non-blocking — do not treat it as required.
+
 1. [START_HERE.md](START_HERE.md) — 30-second orientation
 2. [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md) — five first-party products
 3. [STATUS.md](STATUS.md) — what is real vs pending
 4. [REPO_CATALOG.md](REPO_CATALOG.md) — where to contribute
-5. Profile front door: [`gunnchOS3k/gunnchOS3k`](https://github.com/gunnchOS3k/gunnchOS3k)
+5. Audience guides under [audiences/](audiences/)
 
 ## Mission (defensible)
 
