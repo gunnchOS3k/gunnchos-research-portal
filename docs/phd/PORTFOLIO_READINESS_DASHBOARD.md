@@ -1,6 +1,6 @@
 # Portfolio readiness dashboard
 
-Generated: 2026-08-18T18:05:41Z
+Generated: 2026-08-18T18:13:42Z
 Generator: `scripts/audit_portfolio.py`
 Branch context: live checkouts under `/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos`
 
@@ -32,9 +32,9 @@ INDEPENDENT_REPRODUCTION = PENDING
 | `pedestrian-pursuit` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `86d981c0e975` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
 | `beatlink-party` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `206cb8501180` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
 | `edge-io-measurement-node` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `009f227d3257` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `PHYSICAL_PENDING` | `EXTERNAL_PENDING` | `HUMAN_QA_PENDING` | `EMULATED` |
-| `gunnchos-research-portal` | — | `public` | `cursor/supervisor-ready-portfolio-release-001` | `eb54f72737ce` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `ntn-resilience-sim` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `065dfa9241b9` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `7gc-digital-twin` | RQ1 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `482c0c4a699b` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `gunnchos-research-portal` | — | `public` | `cursor/supervisor-ready-portfolio-release-001` | `9ea2fd69e950` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `ntn-resilience-sim` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `e7ed8504e1e5` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `7gc-digital-twin` | RQ1 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `86996b82e778` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
 | `spectrumx-ai-ran-gary` | RQ2 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `4ac16c4a1e8f` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `OPEN_DATA_BACKED` |
 | `gunnchos-gpu-nr-baseband-platform` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `60c6ea5f29de` | `PARTIAL` | `FAIL_DIGITAL` | `BLOCKED_GPU` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
 | `readygary-6g-beam-selection` | RQ2 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `5ef9a4a65b3c` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |

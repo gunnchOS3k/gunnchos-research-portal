@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.supervisor_contact_snapshot.v1",
-  "generated_at": "2026-08-18T18:05:28Z",
+  "generated_at": "2026-08-18T18:13:28Z",
   "local_date": "2026-08-18",
   "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "affiliation_claim": "NONE \u2014 no University of Oulu affiliation, admission, funding, or supervisor commitment",
@@ -79,7 +79,7 @@
         "draft": true,
         "mergeable": "MERGEABLE",
         "merge_state": "CLEAN",
-        "head": "50dc7a34d4e80fa5535c9b48ba55f87f6fcd127a",
+        "head": "68630a04c6d3cee863dfcdcb85b9ba371952d2e2",
         "ci": "PASS",
         "failing_or_pending": []
       }
@@ -158,12 +158,10 @@
         "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/78",
         "draft": true,
         "mergeable": "MERGEABLE",
-        "merge_state": "UNSTABLE",
-        "head": "e256cb0f19a186df901b875915073e9f8ed5cc25",
-        "ci": "FAIL",
-        "failing_or_pending": [
-          "wp014-actual-production-runtime"
-        ]
+        "merge_state": "CLEAN",
+        "head": "050878b5e317f05c7d239b0607a3772daef775d4",
+        "ci": "PASS",
+        "failing_or_pending": []
       }
     },
     {
@@ -239,10 +237,10 @@
         "number": 37,
         "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/37",
         "draft": true,
-        "mergeable": "CONFLICTING",
-        "merge_state": "DIRTY",
-        "head": "9ecd68e728b0cd06221f1ab5ccfe2dc206d962ff",
-        "ci": "NO_CHECKS",
+        "mergeable": "MERGEABLE",
+        "merge_state": "CLEAN",
+        "head": "009f227d32574f83af24c00939092994a8f8f028",
+        "ci": "PASS",
         "failing_or_pending": []
       }
     },
@@ -251,8 +249,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "eb54f72737ce4602ad132b2e27afac11976d3079",
-      "sha12": "eb54f72737ce",
+      "sha": "9ea2fd69e950079c5e6930e7a11684c39883aa43",
+      "sha12": "9ea2fd69e950",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
@@ -260,13 +258,10 @@
         "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/7",
         "draft": true,
         "mergeable": "MERGEABLE",
-        "merge_state": "UNSTABLE",
-        "head": "eb54f72737ce4602ad132b2e27afac11976d3079",
-        "ci": "FAIL",
-        "failing_or_pending": [
-          "check",
-          "check"
-        ]
+        "merge_state": "CLEAN",
+        "head": "9ea2fd69e950079c5e6930e7a11684c39883aa43",
+        "ci": "PASS",
+        "failing_or_pending": []
       }
     },
     {
@@ -274,8 +269,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/ntn-resilience-sim",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "065dfa9241b905528d3a58394409888eff2a3a6b",
-      "sha12": "065dfa9241b9",
+      "sha": "e7ed8504e1e531af53d43ea713183cb48de9b6a1",
+      "sha12": "e7ed8504e1e5",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
@@ -283,12 +278,10 @@
         "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/pull/27",
         "draft": true,
         "mergeable": "MERGEABLE",
-        "merge_state": "UNSTABLE",
-        "head": "bf2ac3ca15a9db31bfc09ce138cfdc927d69a95e",
-        "ci": "FAIL",
-        "failing_or_pending": [
-          "test"
-        ]
+        "merge_state": "CLEAN",
+        "head": "e7ed8504e1e531af53d43ea713183cb48de9b6a1",
+        "ci": "PASS",
+        "failing_or_pending": []
       }
     },
     {
@@ -296,8 +289,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/7gc-digital-twin",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "482c0c4a699b5f1acf16c8a0d8c4bed90192f2b3",
-      "sha12": "482c0c4a699b",
+      "sha": "86996b82e77840adf16f715acff472ab23e1c055",
+      "sha12": "86996b82e778",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
@@ -305,12 +298,10 @@
         "url": "https://github.com/gunnchOS3k/7gc-digital-twin/pull/30",
         "draft": true,
         "mergeable": "MERGEABLE",
-        "merge_state": "UNSTABLE",
-        "head": "f79f958082bf04673c402af9758d1031d31d21e3",
-        "ci": "FAIL",
-        "failing_or_pending": [
-          "test"
-        ]
+        "merge_state": "CLEAN",
+        "head": "86996b82e77840adf16f715acff472ab23e1c055",
+        "ci": "PASS",
+        "failing_or_pending": []
       }
     },
     {
@@ -328,7 +319,7 @@
         "draft": true,
         "mergeable": "MERGEABLE",
         "merge_state": "CLEAN",
-        "head": "ab4b4a4bb3b26aea13f987f63f28122f732681a8",
+        "head": "4ac16c4a1e8fe614e321c938f3e1f74cb7c4b237",
         "ci": "PASS",
         "failing_or_pending": []
       }

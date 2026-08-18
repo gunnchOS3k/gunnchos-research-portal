@@ -1,6 +1,6 @@
 # Supervisor contact snapshot — 2026-08-18
 
-Generated: 2026-08-18T18:05:28Z  
+Generated: 2026-08-18T18:13:28Z  
 Generator: `make supervisor-snapshot` (`scripts/supervisor_snapshot.py`)  
 **Do not send.** This is a package for owner review.
 
@@ -60,14 +60,14 @@ DIGITAL packet prepared; DIGITAL_FABRICATION_PASS=FALSE; PHYSICAL_PENDING
 | `archive-of-life-artifact-world` | 32 | `6419a35d1341` | PASS | MERGEABLE | UNDOCUMENTED | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `gunnchAI3k` | 42 | `9a659a6400cc` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `waike-research-ops` | 52 | `554c364aa0ec` | PASS | MERGEABLE | see REPRODUCIBILITY.md | STRUCTURED_CURRENT_FUTURE_LEGACY |
-| `anime-aggressors` | 78 | `050878b5e317` | FAIL | MERGEABLE | UNDOCUMENTED | STRUCTURED_CURRENT_FUTURE_LEGACY |
+| `anime-aggressors` | 78 | `050878b5e317` | PASS | MERGEABLE | UNDOCUMENTED | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `gunnchos-emergent-service-intent-protocols` | 3 | `b703408121c3` | PASS | MERGEABLE | see REPRODUCIBILITY.md | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `pedestrian-pursuit` | 19 | `86d981c0e975` | PASS | MERGEABLE | UNDOCUMENTED | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `beatlink-party` | 22 | `206cb8501180` | PASS | MERGEABLE | UNDOCUMENTED | STRUCTURED_CURRENT_FUTURE_LEGACY |
-| `edge-io-measurement-node` | 37 | `009f227d3257` | NO_CHECKS | CONFLICTING | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
-| `gunnchos-research-portal` | 7 | `eb54f72737ce` | FAIL | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
-| `ntn-resilience-sim` | 27 | `065dfa9241b9` | FAIL | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
-| `7gc-digital-twin` | 30 | `482c0c4a699b` | FAIL | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
+| `edge-io-measurement-node` | 37 | `009f227d3257` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
+| `gunnchos-research-portal` | 7 | `9ea2fd69e950` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
+| `ntn-resilience-sim` | 27 | `e7ed8504e1e5` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
+| `7gc-digital-twin` | 30 | `86996b82e778` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `spectrumx-ai-ran-gary` | 100 | `4ac16c4a1e8f` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `gunnchos-gpu-nr-baseband-platform` | 3 | `60c6ea5f29de` | IN_PROGRESS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
 | `readygary-6g-beam-selection` | 24 | `5ef9a4a65b3c` | PASS | MERGEABLE | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |
