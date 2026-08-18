@@ -448,6 +448,25 @@ def compute_gates(records: list[dict[str, Any]], pixel_authorized: bool) -> dict
     }
 
 
+WORKTREE_ALIASES = {
+    "gunnchos-device-os": "gunnchos-device-os-supervisor-ready",
+    "archive-of-life-artifact-world": "archive-of-life-artifact-world-supervisor-ready",
+    "pedestrian-pursuit": "pedestrian-pursuit-supervisor-ready",
+}
+
+
+def checkout_path(repos_root: Path, portal: Path, name: str) -> Path:
+    """Prefer supervisor-ready worktrees so dirty original clones stay untouched."""
+    if name == "gunnchos-research-portal":
+        return portal
+    alias = WORKTREE_ALIASES.get(name)
+    if alias:
+        alt = repos_root / alias
+        if alt.exists():
+            return alt
+    return repos_root / name
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--portal-root", type=Path, default=Path(__file__).resolve().parents[1])
@@ -461,18 +480,22 @@ def main() -> int:
     parser.add_argument("--write", action="store_true", default=True)
     parser.add_argument("--no-write", action="store_true")
     parser.add_argument("--pixel-authorized", action="store_true")
+    parser.add_argument(
+        "--allow-missing-siblings",
+        action="store_true",
+        help="GitHub Actions portal-only CI: sibling checkouts are absent by design. "
+        "Do not treat missing spine repos as a portal-file defect.",
+    )
     args = parser.parse_args()
-    portal = args.portal_root
-    repos_root = args.repos_root or portal.parent
+    portal = args.portal_root.resolve()
+    repos_root = (args.repos_root.resolve() if args.repos_root else portal.parent)
     roles_doc = load_roles(portal)
     role_by_name = {r["repository"]: r for r in roles_doc["repositories"]}
 
     records = []
     missing = []
     for name in SCOPE:
-        path = portal if name == "gunnchos-research-portal" else repos_root / name
-        if name == "gunnchos-research-portal":
-            path = portal
+        path = checkout_path(repos_root, portal, name)
         if not path.exists():
             missing.append(name)
             continue
@@ -481,6 +504,9 @@ def main() -> int:
 
     pixel_authorized = args.pixel_authorized
     gates = compute_gates(records, pixel_authorized)
+    if missing:
+        # Incomplete spine must not look like AUTOMATABLE PASS.
+        gates["AUTOMATABLE_SUPERVISOR_READY"] = "FAIL"
     manifest = {
         "schema": "gunnchos.supervisor_ready_manifest.v1",
         "generated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -514,6 +540,9 @@ def main() -> int:
     print(f"AUTOMATABLE_SUPERVISOR_READY={gates['AUTOMATABLE_SUPERVISOR_READY']}")
     print(f"CONTACT_SUPERVISOR_READY={gates['CONTACT_SUPERVISOR_READY']}")
     print(f"repos_audited={len(records)} missing={missing}")
+    if missing and args.allow_missing_siblings:
+        print("isolated_portal_ci: missing sibling checkouts recorded, not a portal CI failure")
+        return 0
     return 0 if not missing else 1
 
 

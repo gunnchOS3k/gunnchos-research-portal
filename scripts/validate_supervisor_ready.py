@@ -28,6 +28,9 @@ REQUIRED_PHD = [
     "docs/phd/PHYSICAL_REALIZATION_BOUNDARY.md",
     "docs/phd/RESEARCH_PLAN_ALIGNMENT_REPORT.md",
     "docs/phd/EVIDENCE_TAXONOMY.md",
+    "docs/phd/PUBLICATION_PIPELINE.md",
+    "docs/phd/ACTIVE_RESEARCH_ROADMAP.md",
+    "docs/product/CHARTER_TRACEABILITY_MATRIX.md",
 ]
 
 REQUIRED_PACKETS = [
@@ -52,6 +55,20 @@ REQUIRED_UML = [
     "docs/uml/current/package_repository.md",
     "docs/uml/current/activity_audience_navigation.md",
     "docs/uml/current/deployment.md",
+]
+
+REQUIRED_CONTACT = [
+    "docs/phd/contact_package/README.md",
+    "docs/phd/contact_package/one_sentence.md",
+    "docs/phd/contact_package/abstract_100.md",
+    "docs/phd/contact_package/abstract_250.md",
+    "docs/phd/contact_package/three_rqs.md",
+    "docs/phd/contact_package/funding_checklist.md",
+    "docs/phd/contact_package/supervision_questions.md",
+    "research_manuscripts/VENUE_READINESS_MATRIX.md",
+    "research_manuscripts/paper1_service_continuity/README.md",
+    "research_manuscripts/paper2_cross_layer_orchestration/README.md",
+    "research_manuscripts/paper3_tn_ntn_resilience/README.md",
 ]
 
 FORBIDDEN_CLAIM_PATTERNS = [
@@ -82,10 +99,13 @@ ALLOWED_STATUSES = {
 
 def main() -> int:
     errors: list[str] = []
-    for rel in REQUIRED_PHD + REQUIRED_PACKETS + REQUIRED_UML:
+    for rel in REQUIRED_PHD + REQUIRED_PACKETS + REQUIRED_UML + REQUIRED_CONTACT:
         path = PORTAL / rel
         if not path.exists():
             errors.append(f"missing {rel}")
+        elif rel.endswith("one_sentence.md"):
+            if path.stat().st_size < 40:
+                errors.append(f"too_short {rel}")
         elif path.stat().st_size < 80:
             errors.append(f"too_short {rel}")
 

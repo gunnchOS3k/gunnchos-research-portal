@@ -30,7 +30,9 @@ Latency, jitter, blockage, handover, backhaul failure, compute placement, energy
 **Research status (honest).**  
 The experimental computing/communications **infrastructure is implemented and digitally exercisable**. Independently reproduced results, physical RF/lab measurements, and supervisor-visible access to two private repos remain **pending**. See [PORTFOLIO_READINESS_DASHBOARD.md](PORTFOLIO_READINESS_DASHBOARD.md).
 
-**Research plan (canonical).** [THESIS_AT_A_GLANCE.md](THESIS_AT_A_GLANCE.md) · [RESEARCH_SCOPE_AND_BOUNDARIES.md](RESEARCH_SCOPE_AND_BOUNDARIES.md)
+**Research plan (canonical).** [THESIS_AT_A_GLANCE.md](THESIS_AT_A_GLANCE.md) · [RESEARCH_SCOPE_AND_BOUNDARIES.md](RESEARCH_SCOPE_AND_BOUNDARIES.md) · [PUBLICATION_PIPELINE.md](PUBLICATION_PIPELINE.md) · [contact_package/](contact_package/)
+
+**Snapshot.** [contact_snapshots/LATEST.md](contact_snapshots/LATEST.md) (regenerate with `make supervisor-snapshot`)
 
 **Core evidence map.** [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md)
 

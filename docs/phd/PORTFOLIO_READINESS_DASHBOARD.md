@@ -1,6 +1,6 @@
 # Portfolio readiness dashboard
 
-Generated: 2026-08-18T17:06:42Z
+Generated: 2026-08-18T18:05:41Z
 Generator: `scripts/audit_portfolio.py`
 Branch context: live checkouts under `/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos`
 
@@ -22,22 +22,22 @@ INDEPENDENT_REPRODUCTION = PENDING
 
 | Repository | RQ | Class | Branch | Commit | UML | Digital | Physical | External | Human QA | Evidence |
 |---|---|---|---|---|---|---|---|---|---|---|
-| `gunnchos-device-os` | RQ1 | `core` | `tmp-image-fit` | `a1e11efcb502` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `PHYSICAL_PENDING` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `gunnchos-hardware-industrial-design` | — | `supporting` | `stream/c-pkt-003-evt-firmware` | `39cf58ebf412` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `PHYSICAL_PENDING` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `archive-of-life-artifact-world` | — | `supporting` | `stream/b-pkt-003-scientific-lifeling-expedition` | `6d55f6bbc535` | `MISSING` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
-| `gunnchAI3k` | — | `supporting` | `stream/b-pkt-003-data-dashboards-mastery` | `1875d32ea5f9` | `MISSING` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `SYNTHETIC_SIM` |
-| `waike-research-ops` | — | `supporting` | `stream/b-pkt-003-data-dashboards-digital-rc` | `ecf43ac5030b` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `SYNTHETIC_SIM` |
-| `anime-aggressors` | — | `supporting` | `stream/b-pkt-002-playtest-polish` | `36e7f0257496` | `MISSING` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
-| `gunnchos-emergent-service-intent-protocols` | — | `supporting` | `cursor/oulu-publication-grade-science` | `785d35d3973d` | `MISSING` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `pedestrian-pursuit` | — | `supporting` | `stream/b-pkt-001-playtest-polish` | `c34f7d960422` | `MISSING` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
-| `beatlink-party` | — | `supporting` | `main` | `4fc8fe017634` | `MISSING` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
-| `edge-io-measurement-node` | RQ3 | `core` | `main` | `a1cd2e95c62e` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `PHYSICAL_PENDING` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `EMULATED` |
-| `gunnchos-research-portal` | — | `public` | `cursor/supervisor-ready-portfolio-release-001` | `88a6e7251bbd` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `ntn-resilience-sim` | RQ3 | `core` | `cursor/corrective-depth-gates-4-6` | `7ec94c219237` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `7gc-digital-twin` | RQ1 | `core` | `cursor/corrective-depth-gates-4-6` | `62126f700db4` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `spectrumx-ai-ran-gary` | RQ2 | `core` | `cursor/corrective-depth-gates-4-6` | `c7e2905f4bc4` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `OPEN_DATA_BACKED` |
-| `gunnchos-gpu-nr-baseband-platform` | — | `supporting` | `cursor/nvidia-real-nr-aerial-depth` | `3730f236c7d4` | `MISSING` | `FAIL_DIGITAL` | `BLOCKED_GPU` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
-| `readygary-6g-beam-selection` | RQ2 | `core` | `cursor/corrective-depth-gates-4-6` | `525405cb19d7` | `PLACEHOLDER_README_ONLY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `gunnchos-device-os` | RQ1 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `65c33a03fdfc` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `PHYSICAL_PENDING` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `gunnchos-hardware-industrial-design` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `68630a04c6d3` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `PHYSICAL_PENDING` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `archive-of-life-artifact-world` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `6419a35d1341` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
+| `gunnchAI3k` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `9a659a6400cc` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `SYNTHETIC_SIM` |
+| `waike-research-ops` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `554c364aa0ec` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `SYNTHETIC_SIM` |
+| `anime-aggressors` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `050878b5e317` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
+| `gunnchos-emergent-service-intent-protocols` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `b703408121c3` | `PARTIAL` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `pedestrian-pursuit` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `86d981c0e975` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
+| `beatlink-party` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `206cb8501180` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
+| `edge-io-measurement-node` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `009f227d3257` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `PHYSICAL_PENDING` | `EXTERNAL_PENDING` | `HUMAN_QA_PENDING` | `EMULATED` |
+| `gunnchos-research-portal` | — | `public` | `cursor/supervisor-ready-portfolio-release-001` | `eb54f72737ce` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `ntn-resilience-sim` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `065dfa9241b9` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `7gc-digital-twin` | RQ1 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `482c0c4a699b` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `spectrumx-ai-ran-gary` | RQ2 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `4ac16c4a1e8f` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `OPEN_DATA_BACKED` |
+| `gunnchos-gpu-nr-baseband-platform` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `60c6ea5f29de` | `PARTIAL` | `FAIL_DIGITAL` | `BLOCKED_GPU` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `readygary-6g-beam-selection` | RQ2 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `5ef9a4a65b3c` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
 
 ## How to regenerate
 
