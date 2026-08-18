@@ -5,6 +5,8 @@ Audit date: 2026-08-18. Host: local spine checkouts under
 
 This document records **failures as well as strengths**. It is the factual baseline before the supervisor-ready implementation pass. Live SHAs refresh via `make audit` into [PORTFOLIO_READINESS_DASHBOARD.md](PORTFOLIO_READINESS_DASHBOARD.md) and `portfolio/supervisor_ready_manifest.yaml`.
 
+**Superseded after the digital-closure pass (2026-08-18):** GPU NR and emergent-intent are **public**; Pixel 6a digital install+launch smoke is **PASS** (`HUMAN_QA_PENDING` for playtest). Independent reproduction and EVT/RF remain pending.
+
 ## Method
 
 For each of the 16 in-scope repositories: current branch, HEAD, dirty/untracked count, remote, presence of README/Makefile/CI/UML/LICENSE/CITATION/REPRODUCIBILITY, Android trees, and placeholder UML. No history rewrite. No merge to `main`. Pixel 6a: `adb devices` observed device `27211JEGR06194` **unauthorized** → not PASS.

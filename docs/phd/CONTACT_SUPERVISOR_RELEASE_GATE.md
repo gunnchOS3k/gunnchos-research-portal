@@ -29,9 +29,11 @@ May remain **BLOCKED** after the automatable gate passes when any of these remai
 - independent reproduction  
 - physical-device / RF validation  
 - human usability/playtest evidence  
-- Pixel 6a authorized acceptance  
-- repository visibility (two repos are currently private)  
 - owner review / merge  
+
+GPU NR and emergent-protocol repositories are **public** (verified 2026-08-18). Visibility is no longer a faculty 404. CUDA timings remain `BLOCKED_GPU` without a lab GPU.
+
+Pixel 6a digital install+launch smoke is **PASS**; playtest quality stays `HUMAN_QA_PENDING`.  
 
 **Baseline:** `BLOCKED`.
 

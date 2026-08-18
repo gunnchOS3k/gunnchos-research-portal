@@ -25,8 +25,8 @@ flowchart TB
     G2[pedestrian-pursuit]
     G3[archive-of-life]
     G4[beatlink-party]
-    GPU[gpu-nr-baseband private]
-    EM[emergent-intent private]
+    GPU[gpu-nr-baseband public]
+    EM[emergent-intent public]
   end
   P -.-> rq1
   P -.-> rq2

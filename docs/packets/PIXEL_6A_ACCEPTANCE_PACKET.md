@@ -1,44 +1,28 @@
 # Pixel 6a acceptance packet
 
-**Status:** `HUMAN_QA_PENDING` / `PIXEL_6A_READY = BLOCKED`
+**Status:** `PIXEL_6A_READY = PASS` for digital install+launch smoke. Fun/usability remains `HUMAN_QA_PENDING`.
 
-## Why blocked
+## Authorized session (2026-08-18)
 
-`adb devices` on 2026-08-18 showed `27211JEGR06194	unauthorized`. Cursor cannot complete install, launch, or touch-flow evidence without an authorized session.
+USB-C Pixel 6a serial `27211JEGR06194` (`product:bluejay`, Android 17) listed as **device** (authorized). Install/launch smoke executed:
 
-## Prerequisite
+| App | Package | Install | Launch | PIXEL_6A_READY |
+|---|---|---|---|---|
+| Edge I/O | `org.gunnchos.edgeio.debug` | PASS (this-session APK) | PASS | PASS |
+| BeatLink | `com.gunnchos.beatlinkparty` | PASS (uninstall + reinstall after signature mismatch) | PASS | PASS |
+| Archive of Life | `com.gunnchos.archiveoflife` | PREEXISTING_ON_DEVICE | PASS | PASS |
+| Anime Aggressors | `com.gunnchos.animeaggressors` | PASS (this-session APK) | PASS | PASS |
+| Pedestrian Pursuit | `com.gunnchos.pedestrianpursuit` | PREEXISTING_ON_DEVICE | PASS | PASS |
 
-Edmund unlocks the Pixel 6a, accepts the USB debugging prompt, and confirms:
+Per-app evidence: each Android-capable repo `artifacts/pixel6a/ACCEPTANCE.json`.
+
+This is **not** RF proof, not playtest quality, and not a signed store release. Archive/Pedestrian this-session APK rebuild remains a separate export (preexisting packages launched).
+
+## Prerequisite (if the prompt returns)
+
+Unlock the Pixel 6a, accept USB debugging, then:
 
 ```bash
-adb devices
-# expected: <serial>    device
+adb devices -l
+# expected: 27211JEGR06194    device usb:... product:bluejay model:Pixel_6a
 ```
-
-## Commands (after authorized)
-
-Per Android-capable repo (BeatLink PWA / Archive Capacitor / Pedestrian Godot / Anime Godot export / Edge I/O Android target):
-
-```bash
-# example — replace with that repo's docs/PIXEL_6A_ACCEPTANCE.md
-adb install -r <debug-apk>
-adb logcat -c
-# launch, smoke, pause/resume, back button
-adb logcat -d > artifacts/pixel6a/logcat.txt
-adb shell getprop ro.product.model
-adb shell dumpsys package <package> | head
-```
-
-## Expected evidence
-
-Store under each repo `artifacts/pixel6a/`:
-
-- device model/build  
-- package name  
-- install success  
-- smoke flow notes  
-- logcat excerpt  
-
-## Status transition
-
-Authorized device + passing smoke → that repo’s Android line may move from `HUMAN_QA_PENDING` toward `DEVICE_MEASURED` **for install/launch only** — not RF, not playtest quality, not dissertation proof.

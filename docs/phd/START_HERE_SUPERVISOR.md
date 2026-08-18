@@ -28,7 +28,7 @@ Latency, jitter, blockage, handover, backhaul failure, compute placement, energy
 | **RQ3 / Paper III** | Under which disruption conditions do terrestrial, local-edge, peer, offline, and NTN fallback modes preserve minimum useful service, and what tradeoffs appear? |
 
 **Research status (honest).**  
-The experimental computing/communications **infrastructure is implemented and digitally exercisable**. Independently reproduced results, physical RF/lab measurements, and supervisor-visible access to two private repos remain **pending**. See [PORTFOLIO_READINESS_DASHBOARD.md](PORTFOLIO_READINESS_DASHBOARD.md).
+The experimental computing/communications **infrastructure is implemented and digitally exercisable**. Independently reproduced results and physical RF/lab measurements remain **pending**. GPU NR and emergent-intent repos are **public**; CUDA timings stay `BLOCKED_GPU` without a lab GPU. See [PORTFOLIO_READINESS_DASHBOARD.md](PORTFOLIO_READINESS_DASHBOARD.md).
 
 **Research plan (canonical).** [THESIS_AT_A_GLANCE.md](THESIS_AT_A_GLANCE.md) · [RESEARCH_SCOPE_AND_BOUNDARIES.md](RESEARCH_SCOPE_AND_BOUNDARIES.md) · [PUBLICATION_PIPELINE.md](PUBLICATION_PIPELINE.md) · [contact_package/](contact_package/)
 

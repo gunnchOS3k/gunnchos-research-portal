@@ -7,4 +7,4 @@ Questions a CWC / 6G Flagship conversation might own — recorded here so they a
 3. For Paper II, what information-equivalent baselines does the lab consider mandatory besides rule-based SpectrumX control?
 4. Which NTN delay class (GEO vs LEO literature bounds) should Paper III treat as primary, given TR 38.821 is assumption-backed not measured here?
 5. What physical RF / Pixel / EVT resources would convert `PHYSICAL_PENDING` claims without over-claiming certification?
-6. How should two currently private repos be shared with a supervisor without a visibility change from this agent?
+6. GPU NR and emergent-intent repos are now public; remaining owner/lab item is CUDA GPU / Nsight timing, not a 404.
