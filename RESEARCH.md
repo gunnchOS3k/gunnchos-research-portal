@@ -1,13 +1,17 @@
 # Research
 
-Research history and active threads remain first-class:
+Doctoral narrative (canonical): [docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md)
 
-- SpectrumX AI-RAN / Gary equitable spectrum — `spectrumx-ai-ran-gary`
-- 7GC digital twin — `7gc-digital-twin`
-- NTN resilience simulation — `ntn-resilience-sim`
-- Edge measurement — `edge-io-measurement-node`
-- Beam / URLLC academic artifacts — linked from profile and research repos
+Three papers only:
 
-This portal aggregates navigation. It does not replace paper-ready evidence packages in owner repos.
+| RQ | Primary repositories |
+|---|---|
+| RQ1 | `gunnchos-device-os`, `7gc-digital-twin` |
+| RQ2 | `spectrumx-ai-ran-gary`, `readygary-6g-beam-selection` |
+| RQ3 | `ntn-resilience-sim`, `edge-io-measurement-node` |
+
+Maps: [docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md](docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md) · [docs/phd/EXPERIMENTAL_SYSTEM_MAP.md](docs/phd/EXPERIMENTAL_SYSTEM_MAP.md)
+
+This portal aggregates navigation. It does not replace paper-ready evidence packages in owner repos. No University of Oulu affiliation is claimed.
 
 Historical “7gc as sole spine” language: [docs/history/](docs/history/).

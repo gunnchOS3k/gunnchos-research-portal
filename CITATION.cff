@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: gunnchos-research-portal
+message: "If you use this portfolio map, please cite it."
+authors:
+  - family-names: Gunn
+    given-names: Edmund
+    suffix: Jr.
+repository-code: https://github.com/gunnchOS3k/gunnchos-research-portal
+license: MIT
+type: software
+abstract: >
+  Supervisor-facing control plane and public navigation for the gunnchOS3k
+  experimental computing and communications portfolio. Not a University of Oulu
+  affiliation claim.

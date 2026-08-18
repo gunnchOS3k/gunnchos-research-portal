@@ -1,0 +1,7 @@
+A radio connection being available does not guarantee that a service remains usable. This proposed article-based dissertation asks how heterogeneous 6G-era access, compute, and fallback resources can preserve **minimum useful service** for four resource-constrained device classes (sustained desk, mobile/docked, local create/deploy, wearable sensing).
+
+The formulation is constrained stochastic control. Observed state combines service, device, network, and compute context. Actions may include bearer selection, placement, fidelity, caching/checkpointing, peer/offline operation, recovery, and NTN fallback when the experiment supports it. Simple rule-based and oracle/reference policies precede learning. Negative results are in scope.
+
+Three papers only: (I) translate workloads and device constraints into continuity profiles, metrics, and benchmarks; (II) test radio-aware digital-twin-informed joint control against terrestrial-only, cloud-only, local-only, edge-only, fixed-policy, no-adaptation, and oracle baselines, preserving the SpectrumX judged core and treating 28 GHz as FR2 mmWave; (III) map decision boundaries among terrestrial, edge, peer, offline, and NTN under compound disruptions, without assuming NTN is always better.
+
+Evidence today is digital: synthetic simulation, open-data-backed SpectrumX IQ, and emulation. Physical EVT, Pixel 6a signed sessions, independent reproduction, and laboratory RF remain pending. This text claims no University of Oulu affiliation, funding, or supervisor commitment.

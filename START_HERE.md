@@ -1,6 +1,8 @@
 # Start here
 
-**Canonical zero-context entry for Cycle 3A.2:** this portal (`README.md` → this page).  
+**Faculty / Communications Engineering supervisor:** use [docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md) instead of this page.
+
+**Canonical product/ecosystem zero-context entry (Cycle 3A.2):** this page.  
 GitHub profile README is **OWNER_DEFERRED** / non-blocking (`PROFILE_README_EDIT_FREEZE=ACTIVE`).
 
 **30 seconds:** gunnchOS3k is a carrier-grade-targeted **equitable** compute ecosystem built around affordable first-party computers (Student 14.5, Handheld Hybrid, DS-XL Coder, Edge I/O Rings, First-party Dock) that run **gunnchOS**, use local-first **gunnchAI3k**, support spatial **Ring** input, education/work/creation/gaming, and resilient **5G-Advanced / NTN-capable** connectivity — without claiming standardized commercial 6G today.
