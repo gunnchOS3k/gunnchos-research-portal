@@ -2,43 +2,27 @@
 
 **Status:** `HUMAN_QA_PENDING` / `PIXEL_6A_READY = BLOCKED`
 
-## Why blocked
+## Why blocked (re-check 2026-08-18 ~21:15Z)
 
-`adb devices` on 2026-08-18 showed `27211JEGR06194	unauthorized`. Cursor cannot complete install, launch, or touch-flow evidence without an authorized session.
+USB-C was connected. `adb devices -l` showed:
+
+```text
+27211JEGR06194         unauthorized usb:17825792X transport_id:1
+```
+
+An unauthorized session is not a device. Install, launch, logcat, orientation, and uninstall/reinstall were **not** executed. Evidence: each Android-capable repo `artifacts/pixel6a/ACCEPTANCE.json`.
 
 ## Prerequisite
 
-Edmund unlocks the Pixel 6a, accepts the USB debugging prompt, and confirms:
+Unlock the Pixel 6a, accept the USB debugging prompt, then:
 
 ```bash
-adb devices
-# expected: <serial>    device
+adb devices -l
+# expected: 27211JEGR06194    device usb:... product:bluejay model:Pixel_6a
 ```
 
 ## Commands (after authorized)
 
-Per Android-capable repo (BeatLink PWA / Archive Capacitor / Pedestrian Godot / Anime Godot export / Edge I/O Android target):
+Per Android-capable repo, follow that repo’s `docs/PIXEL_6A_ACCEPTANCE.md` (build APK, hash, install, package ID, label, icon, launch, logcat, first-launch, smoke, back, pause/resume, orientation, touch, reconnect, uninstall/reinstall).
 
-```bash
-# example — replace with that repo's docs/PIXEL_6A_ACCEPTANCE.md
-adb install -r <debug-apk>
-adb logcat -c
-# launch, smoke, pause/resume, back button
-adb logcat -d > artifacts/pixel6a/logcat.txt
-adb shell getprop ro.product.model
-adb shell dumpsys package <package> | head
-```
-
-## Expected evidence
-
-Store under each repo `artifacts/pixel6a/`:
-
-- device model/build  
-- package name  
-- install success  
-- smoke flow notes  
-- logcat excerpt  
-
-## Status transition
-
-Authorized device + passing smoke → that repo’s Android line may move from `HUMAN_QA_PENDING` toward `DEVICE_MEASURED` **for install/launch only** — not RF, not playtest quality, not dissertation proof.
+`PIXEL_6A_READY = PASS` only for apps that actually installed and launched. Fun/usability stays `HUMAN_QA_PENDING`.

@@ -16,9 +16,9 @@ This programme **never** sets `SUBMITTED` or `ACCEPTED`. A PDF that looks camera
 
 | Paper | Working title | SoT (do not duplicate) | Portal index | Status now |
 |---|---|---|---|---|
-| I / RQ1 | Minimum-Useful-Service Continuity Benchmarking for Resource-Constrained Edge Devices in Heterogeneous Networks | `7gc-digital-twin/paper/` + device-os profiles | [paper1_service_continuity](../research_manuscripts/paper1_service_continuity/README.md) | `DIGITAL_RESULTS_AVAILABLE` (`SYNTHETIC_SIM`) |
-| II / RQ2 | Radio-Aware Digital-Twin-Informed Cross-Layer Orchestration for Service Continuity | `spectrumx-ai-ran-gary/paper/` + ReadyGary | [paper2_cross_layer_orchestration](../research_manuscripts/paper2_cross_layer_orchestration/README.md) | `EXPERIMENT_IMPLEMENTATION` |
-| III / RQ3 | Decision Boundaries for Terrestrial, Edge, Peer, Offline, and NTN Fallback Under Compound Service Disruptions | `ntn-resilience-sim/paper/` + Edge I/O | [paper3_tn_ntn_resilience](../research_manuscripts/paper3_tn_ntn_resilience/README.md) | `DIGITAL_RESULTS_AVAILABLE` (`SYNTHETIC_SIM`) |
+| I / RQ1 | Minimum-Useful-Service Continuity Benchmarking for Resource-Constrained Edge Devices in Heterogeneous Networks | `7gc-digital-twin/paper/` + device-os profiles | [paper1_service_continuity](../research_manuscripts/paper1_service_continuity/README.md) | `DIGITAL_RESULTS_VALIDATED` (`SYNTHETIC_SIM`) |
+| II / RQ2 | Radio-Aware Digital-Twin-Informed Cross-Layer Orchestration for Service Continuity | `spectrumx-ai-ran-gary/paper/` + ReadyGary | [paper2_cross_layer_orchestration](../research_manuscripts/paper2_cross_layer_orchestration/README.md) | `DIGITAL_RESULTS_VALIDATED` |
+| III / RQ3 | Decision Boundaries for Terrestrial, Edge, Peer, Offline, and NTN Fallback Under Compound Service Disruptions | `ntn-resilience-sim/paper/` + Edge I/O | [paper3_tn_ntn_resilience](../research_manuscripts/paper3_tn_ntn_resilience/README.md) | `DIGITAL_RESULTS_VALIDATED` (`SYNTHETIC_SIM`) |
 
 Venue matrix (deadlines **not** claimed unless verified): [VENUE_READINESS_MATRIX.md](../research_manuscripts/VENUE_READINESS_MATRIX.md).
 

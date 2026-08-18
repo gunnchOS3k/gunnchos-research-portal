@@ -25,10 +25,7 @@ Replace `main` with the draft-PR branch when reviewing unpublished work.
 - ReadyGary (RQ2): https://github.com/gunnchOS3k/readygary-6g-beam-selection  
 - NTN sim (RQ3): https://github.com/gunnchOS3k/ntn-resilience-sim  
 - Edge I/O (RQ3): https://github.com/gunnchOS3k/edge-io-measurement-node  
+- GPU NR baseband (optional PHY extension): https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform  
+- Emergent service-intent protocols (optional extension): https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols  
 
-## Private — do not send without access
-
-- https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform  
-- https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols  
-
-See [REPOSITORY_VISIBILITY_PACKET.md](../packets/REPOSITORY_VISIBILITY_PACKET.md).
+CUDA NR timings on the GPU NR repo remain `BLOCKED_GPU` without a lab GPU. That is not a 404.

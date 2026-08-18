@@ -21,7 +21,7 @@ Desired digital/physical split:
 | Thermal chamber / skin-temp | `PHYSICAL_PENDING` |
 | Battery runtime on metal | `PHYSICAL_PENDING` |
 | Edge I/O absolute spatial accuracy | `PHYSICAL_PENDING` |
-| Pixel 6a | `adb` re-check 2026-08-18: serial `27211JEGR06194` listed as **device** (authorized). PIXEL_6A_READY remains **BLOCKED** until a signed on-device acceptance session exists. |
+| Pixel 6a | USB-C connected 2026-08-18 ~21:15Z; serial `27211JEGR06194` listed as **unauthorized**. PIXEL_6A_READY = **BLOCKED**. Owner must accept the USB debugging prompt. |
 | CUDA NR timings | `BLOCKED_GPU` on CPU-only hosts |
 | FCC / CE / USB-IF / carrier | `EXTERNAL_PENDING` |
 | RFQ send / fab PO | `EXTERNAL_PENDING` |

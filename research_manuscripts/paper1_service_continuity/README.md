@@ -7,7 +7,7 @@
 - `7gc-digital-twin/paper/` (`manuscript.tex`, sections, generated tables)
 - Device-os digital profiles: `gunnchos-device-os` `artifacts/supervisor_ready/SERVICE_CONTINUITY_PROFILES.json`
 
-**Status.** `DIGITAL_RESULTS_AVAILABLE` · evidence class `SYNTHETIC_SIM` / `EMULATED` · `INDEPENDENT_REPRODUCTION_PENDING` · `MEASUREMENT_PENDING`
+**Status.** `DIGITAL_RESULTS_VALIDATED` · evidence class `SYNTHETIC_SIM` / `EMULATED` · `INDEPENDENT_REPRODUCTION_PENDING` · `MEASUREMENT_PENDING`
 
 Never `SUBMITTED` / `ACCEPTED`.
 

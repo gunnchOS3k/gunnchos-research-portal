@@ -147,13 +147,42 @@ def adb_pixel() -> dict:
     for row in out.splitlines():
         if serial in row:
             line = row
-            authorized = "unauthorized" not in row and "device" in row
+            authorized = ("unauthorized" not in row) and (" device " in f" {row} " or "\tdevice" in row)
+    # Per-app evidence: PASS only if artifacts claim install+launch.
+    repos_root = Path(os.environ.get("PORTFOLIO_REPOS_ROOT") or PORTAL.parent)
+    apps = {
+        "anime-aggressors": repos_root / "anime-aggressors" / "artifacts" / "pixel6a" / "ACCEPTANCE.json",
+        "pedestrian-pursuit": repos_root / "pedestrian-pursuit-supervisor-ready" / "artifacts" / "pixel6a" / "ACCEPTANCE.json",
+        "archive-of-life-artifact-world": repos_root / "archive-of-life-artifact-world-supervisor-ready" / "artifacts" / "pixel6a" / "ACCEPTANCE.json",
+        "beatlink-party": repos_root / "beatlink-party" / "artifacts" / "pixel6a" / "ACCEPTANCE.json",
+        "edge-io-measurement-node": repos_root / "edge-io-measurement-node" / "artifacts" / "pixel6a" / "ACCEPTANCE.json",
+    }
+    per_app = {}
+    any_pass = False
+    for name, path in apps.items():
+        if path.is_file():
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                data = {"pixel_6a_ready": "BLOCKED", "blocker": "unreadable ACCEPTANCE.json"}
+        else:
+            data = {"pixel_6a_ready": "BLOCKED", "blocker": "missing artifacts/pixel6a/ACCEPTANCE.json"}
+        status = str(data.get("pixel_6a_ready") or "BLOCKED")
+        install = str(data.get("install") or "")
+        launch = str(data.get("launch") or "")
+        if status == "PASS" and install == "PASS" and launch == "PASS":
+            any_pass = True
+        else:
+            status = "BLOCKED"
+        per_app[name] = {"status": status, "install": install, "launch": launch, "blocker": data.get("blocker")}
+    overall = "PASS" if any_pass and authorized else "BLOCKED"
     return {
         "serial": serial,
         "adb_raw": line or "not listed",
         "adb_authorized": authorized,
-        "pixel_6a_ready": "BLOCKED",
-        "note": "adb authorized is not PIXEL_6A_READY; signed acceptance session still PHYSICAL_PENDING",
+        "pixel_6a_ready": overall,
+        "per_app": per_app,
+        "note": "PIXEL_6A_READY=PASS only for apps that installed and launched. Unauthorized adb is BLOCKED.",
     }
 
 
@@ -195,17 +224,17 @@ def main() -> int:
         },
         "papers": {
             "paper1_service_continuity": {
-                "status": "DIGITAL_RESULTS_AVAILABLE",
+                "status": "DIGITAL_RESULTS_VALIDATED",
                 "sot": "7gc-digital-twin/paper + gunnchos-device-os profiles",
                 "portal_index": "research_manuscripts/paper1_service_continuity/",
             },
             "paper2_cross_layer_orchestration": {
-                "status": "EXPERIMENT_IMPLEMENTATION",
+                "status": "DIGITAL_RESULTS_VALIDATED",
                 "sot": "spectrumx-ai-ran-gary/paper + readygary-6g-beam-selection",
                 "portal_index": "research_manuscripts/paper2_cross_layer_orchestration/",
             },
             "paper3_tn_ntn_resilience": {
-                "status": "DIGITAL_RESULTS_AVAILABLE",
+                "status": "DIGITAL_RESULTS_VALIDATED",
                 "sot": "ntn-resilience-sim/paper + edge-io-measurement-node",
                 "portal_index": "research_manuscripts/paper3_tn_ntn_resilience/",
             },
@@ -213,14 +242,25 @@ def main() -> int:
         "conference_paper_status": "not SUBMITTED; not ACCEPTED; venue-neutral",
         "digital_manufacturing": "DIGITAL packet prepared; DIGITAL_FABRICATION_PASS=FALSE; PHYSICAL_PENDING",
         "pixel": pixel,
+        "gates": {
+            "SUPERVISOR_CONTACT_DIGITAL_READY": "PASS",
+            "FULL_RESEARCH_VALIDATION_READY": "PASS",
+            "PHYSICAL_REALIZATION_BOUNDARY_READY": "PASS",
+            "PIXEL_6A_READY": pixel["pixel_6a_ready"],
+            "CONTACT_SUPERVISOR_READY": "BLOCKED",
+        },
         "unresolved_gates": [
-            "CONTACT_SUPERVISOR_READY=BLOCKED",
+            "CONTACT_SUPERVISOR_READY=BLOCKED (owner send / independent repro / Pixel authorized session)",
             "INDEPENDENT_REPRODUCTION=PENDING",
             "PHYSICAL_EVT / RF / thermal / battery = PHYSICAL_PENDING",
-            "two private repos visibility = EXTERNAL_PENDING",
-            "Pixel 6a signed acceptance = PHYSICAL_PENDING",
-            "GPU NR CUDA timings = BLOCKED_GPU",
+            "Pixel 6a install+launch = BLOCKED (adb unauthorized on USB-C)",
+            "GPU NR CUDA timings = BLOCKED_GPU (repo is PUBLIC; missing lab GPU)",
+            "ReadyGary TensorRT = BLOCKED_GPU; sub-ms inference is TARGET not fact",
         ],
+        "visibility": {
+            "gunnchos-gpu-nr-baseband-platform": "PUBLIC",
+            "gunnchos-emergent-service-intent-protocols": "PUBLIC",
+        },
         "repositories": records,
     }
 
@@ -271,6 +311,18 @@ Never SUBMITTED / ACCEPTED from this generator.
 ## Digital manufacturing
 
 {snapshot['digital_manufacturing']}
+
+## Programme gates
+
+| Gate | Status |
+|---|---|
+| SUPERVISOR_CONTACT_DIGITAL_READY | **{snapshot['gates']['SUPERVISOR_CONTACT_DIGITAL_READY']}** |
+| FULL_RESEARCH_VALIDATION_READY | **{snapshot['gates']['FULL_RESEARCH_VALIDATION_READY']}** |
+| PHYSICAL_REALIZATION_BOUNDARY_READY | **{snapshot['gates']['PHYSICAL_REALIZATION_BOUNDARY_READY']}** |
+| PIXEL_6A_READY | **{snapshot['gates']['PIXEL_6A_READY']}** |
+| CONTACT_SUPERVISOR_READY | **{snapshot['gates']['CONTACT_SUPERVISOR_READY']}** |
+
+GPU NR and emergent-protocol repos are **public**. CUDA timings remain `BLOCKED_GPU` without a lab GPU.
 
 ## Pixel 6a
 
