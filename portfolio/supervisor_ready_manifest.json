@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.supervisor_ready_manifest.v1",
-  "generated_at": "2026-08-18T18:13:42Z",
+  "generated_at": "2026-08-18T18:16:56Z",
   "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "repos_root": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos",
   "missing_checkouts": [],
@@ -369,36 +369,34 @@
       "public_supporting_core": "supporting",
       "visibility_note": "private",
       "current_branch": "cursor/supervisor-ready-portfolio-release-001",
-      "current_commit": "b703408121c30be4554a6c946bf8672d03ed5d5f",
+      "current_commit": "7381de141836569550c0000b28eca3a538b18be2",
       "remote": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols.git",
       "dirty_count": 0,
       "primary_language_runtime": "python",
       "canonical_run_command": "make bootstrap && make smoke",
       "canonical_test_command": "make test",
       "canonical_reproduce_command": "make bootstrap && make test && make gate4-cpu",
-      "uml_status": "PARTIAL",
+      "uml_status": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "uml": {
-        "label": "PARTIAL",
+        "label": "STRUCTURED_CURRENT_FUTURE_LEGACY",
         "docs_uml": true,
         "readme": true,
         "current": true,
-        "future": false,
-        "legacy": false,
+        "future": true,
+        "legacy": true,
         "rendered": false,
-        "traceability": false
+        "traceability": true
       },
-      "uml_gate": "FAIL_DIGITAL",
+      "uml_gate": "DIGITAL_PASS",
       "clean_clone_status": "UNVERIFIED_THIS_AUDIT",
       "android_status": "NOT_APPLICABLE",
       "current_evidence_level": "SYNTHETIC_SIM",
       "user_facing_status": "RESEARCH_OR_INFRA",
-      "digital_status": "FAIL_DIGITAL",
+      "digital_status": "DIGITAL_PASS",
       "physical_status": "NOT_APPLICABLE",
       "external_status": "EXTERNAL_PENDING",
       "human_qa_status": "NOT_APPLICABLE",
-      "digital_blockers": [
-        "uml_current_future_legacy_incomplete"
-      ],
+      "digital_blockers": [],
       "physical_blockers": [],
       "external_blockers": [
         "repository_visibility_owner_action"
@@ -509,13 +507,11 @@
       "android_status": "DOCUMENTED_NOT_DEVICE_TESTED",
       "current_evidence_level": "EMULATED",
       "user_facing_status": "USER_FACING",
-      "digital_status": "FAIL_DIGITAL",
+      "digital_status": "DIGITAL_PASS",
       "physical_status": "NOT_APPLICABLE",
       "external_status": "NOT_APPLICABLE",
       "human_qa_status": "HUMAN_QA_PENDING",
-      "digital_blockers": [
-        "dotenv_committed"
-      ],
+      "digital_blockers": [],
       "physical_blockers": [],
       "external_blockers": [],
       "human_qa_blockers": [
@@ -531,7 +527,7 @@
         "reproducibility": false,
         "ci": true,
         "env_example": true,
-        "env_committed": true,
+        "env_committed": false,
         "pixel_6a_doc": true,
         "android_tree": false
       },
@@ -607,9 +603,9 @@
       "public_supporting_core": "public",
       "visibility_note": "public",
       "current_branch": "cursor/supervisor-ready-portfolio-release-001",
-      "current_commit": "9ea2fd69e950079c5e6930e7a11684c39883aa43",
+      "current_commit": "9ca8635a89a4f8d450b6cd40676bc71d3195b03f",
       "remote": "https://github.com/gunnchOS3k/gunnchos-research-portal.git",
-      "dirty_count": 4,
+      "dirty_count": 5,
       "primary_language_runtime": "markdown",
       "canonical_run_command": "make verify",
       "canonical_test_command": "make test",
@@ -635,7 +631,7 @@
       "external_status": "NOT_APPLICABLE",
       "human_qa_status": "NOT_APPLICABLE",
       "digital_blockers": [
-        "dirty_working_tree:4"
+        "dirty_working_tree:5"
       ],
       "physical_blockers": [],
       "external_blockers": [],
@@ -835,36 +831,34 @@
       "public_supporting_core": "supporting",
       "visibility_note": "private",
       "current_branch": "cursor/supervisor-ready-portfolio-release-001",
-      "current_commit": "60c6ea5f29defe6922ae9fbbcedf0a3a9d869d44",
+      "current_commit": "2a5c483fdeb6d6357e62590e4a7cf6ef3b023bac",
       "remote": "https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform.git",
       "dirty_count": 0,
       "primary_language_runtime": "cpp",
       "canonical_run_command": "make bootstrap && make test",
       "canonical_test_command": "make test",
       "canonical_reproduce_command": "make bootstrap && make test && make validate-phy-independent",
-      "uml_status": "PARTIAL",
+      "uml_status": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "uml": {
-        "label": "PARTIAL",
+        "label": "STRUCTURED_CURRENT_FUTURE_LEGACY",
         "docs_uml": true,
         "readme": true,
         "current": true,
-        "future": false,
-        "legacy": false,
+        "future": true,
+        "legacy": true,
         "rendered": false,
-        "traceability": false
+        "traceability": true
       },
-      "uml_gate": "FAIL_DIGITAL",
+      "uml_gate": "DIGITAL_PASS",
       "clean_clone_status": "UNVERIFIED_THIS_AUDIT",
       "android_status": "NOT_APPLICABLE",
       "current_evidence_level": "SYNTHETIC_SIM",
       "user_facing_status": "RESEARCH_OR_INFRA",
-      "digital_status": "FAIL_DIGITAL",
+      "digital_status": "DIGITAL_PASS",
       "physical_status": "BLOCKED_GPU",
       "external_status": "EXTERNAL_PENDING",
       "human_qa_status": "NOT_APPLICABLE",
-      "digital_blockers": [
-        "uml_current_future_legacy_incomplete"
-      ],
+      "digital_blockers": [],
       "physical_blockers": [
         "BLOCKED_GPU unless CUDA runner present"
       ],

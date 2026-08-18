@@ -217,7 +217,7 @@ def audit_repo(repo: Path, role: dict[str, Any]) -> dict[str, Any]:
     android = (repo / "android").exists() or (repo / "export_presets.cfg").exists()
     repro = (repo / "REPRODUCIBILITY.md").exists()
     citation = (repo / "CITATION.cff").exists()
-    env_committed = (repo / ".env").exists()
+    env_committed = bool(run_git(repo, "ls-files", "--", ".env"))
     env_example = (repo / ".env.example").exists()
     makefile = (repo / "Makefile").exists()
     reproduce_target = False

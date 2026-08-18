@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.supervisor_contact_snapshot.v1",
-  "generated_at": "2026-08-18T18:13:28Z",
+  "generated_at": "2026-08-18T18:16:42Z",
   "local_date": "2026-08-18",
   "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "affiliation_claim": "NONE \u2014 no University of Oulu affiliation, admission, funding, or supervisor commitment",
@@ -169,8 +169,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-emergent-service-intent-protocols",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "b703408121c30be4554a6c946bf8672d03ed5d5f",
-      "sha12": "b703408121c3",
+      "sha": "7381de141836569550c0000b28eca3a538b18be2",
+      "sha12": "7381de141836",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "see REPRODUCIBILITY.md",
       "pr": {
@@ -178,10 +178,13 @@
         "url": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols/pull/3",
         "draft": true,
         "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "b703408121c30be4554a6c946bf8672d03ed5d5f",
-        "ci": "PASS",
-        "failing_or_pending": []
+        "merge_state": "UNSTABLE",
+        "head": "7381de141836569550c0000b28eca3a538b18be2",
+        "ci": "IN_PROGRESS",
+        "failing_or_pending": [
+          "cpu",
+          "cpu"
+        ]
       }
     },
     {
@@ -249,8 +252,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "9ea2fd69e950079c5e6930e7a11684c39883aa43",
-      "sha12": "9ea2fd69e950",
+      "sha": "9ca8635a89a4f8d450b6cd40676bc71d3195b03f",
+      "sha12": "9ca8635a89a4",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
@@ -259,7 +262,7 @@
         "draft": true,
         "mergeable": "MERGEABLE",
         "merge_state": "CLEAN",
-        "head": "9ea2fd69e950079c5e6930e7a11684c39883aa43",
+        "head": "9ca8635a89a4f8d450b6cd40676bc71d3195b03f",
         "ci": "PASS",
         "failing_or_pending": []
       }
@@ -329,8 +332,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-gpu-nr-baseband-platform",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "60c6ea5f29defe6922ae9fbbcedf0a3a9d869d44",
-      "sha12": "60c6ea5f29de",
+      "sha": "2a5c483fdeb6d6357e62590e4a7cf6ef3b023bac",
+      "sha12": "2a5c483fdeb6",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
@@ -339,10 +342,13 @@
         "draft": true,
         "mergeable": "MERGEABLE",
         "merge_state": "UNSTABLE",
-        "head": "60c6ea5f29defe6922ae9fbbcedf0a3a9d869d44",
+        "head": "2a5c483fdeb6d6357e62590e4a7cf6ef3b023bac",
         "ci": "IN_PROGRESS",
         "failing_or_pending": [
-          "cpu (Release)"
+          "cpu (Release)",
+          "cpu (Release)",
+          "cpu (RelWithDebInfo)",
+          "cpu (RelWithDebInfo)"
         ]
       }
     },
