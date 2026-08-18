@@ -1,6 +1,6 @@
 # Portfolio readiness dashboard
 
-Generated: 2026-08-18T21:40:44Z
+Generated: 2026-08-18T21:41:43Z
 Generator: `scripts/audit_portfolio.py`
 Branch context: live checkouts under `/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos`
 
@@ -32,7 +32,7 @@ INDEPENDENT_REPRODUCTION = PENDING
 | `pedestrian-pursuit` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `409566d66e5d` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
 | `beatlink-party` | — | `supporting` | `cursor/supervisor-ready-portfolio-release-001` | `dcb5a916a92c` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `HUMAN_QA_PENDING` | `EMULATED` |
 | `edge-io-measurement-node` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `3c5606751be4` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `PHYSICAL_PENDING` | `EXTERNAL_PENDING` | `HUMAN_QA_PENDING` | `EMULATED` |
-| `gunnchos-research-portal` | — | `public` | `cursor/supervisor-ready-portfolio-release-001` | `f64fd24a96b9` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
+| `gunnchos-research-portal` | — | `public` | `cursor/supervisor-ready-portfolio-release-001` | `f40593530d62` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `FAIL_DIGITAL` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
 | `ntn-resilience-sim` | RQ3 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `f2b48a826a42` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
 | `7gc-digital-twin` | RQ1 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `376b6d673ff6` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `SYNTHETIC_SIM` |
 | `spectrumx-ai-ran-gary` | RQ2 | `core` | `cursor/supervisor-ready-portfolio-release-001` | `20f40f15753a` | `STRUCTURED_CURRENT_FUTURE_LEGACY` | `DIGITAL_PASS` | `NOT_APPLICABLE` | `EXTERNAL_PENDING` | `NOT_APPLICABLE` | `OPEN_DATA_BACKED` |

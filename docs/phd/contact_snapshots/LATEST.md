@@ -1,6 +1,6 @@
 # Supervisor contact snapshot — 2026-08-18
 
-Generated: 2026-08-18T21:41:01Z  
+Generated: 2026-08-18T21:41:31Z  
 Generator: `make supervisor-snapshot` (`scripts/supervisor_snapshot.py`)  
 **Do not send.** This is a package for owner review.
 
@@ -78,7 +78,7 @@ GPU NR and emergent-protocol repos are **public**. CUDA timings remain `BLOCKED_
 | `pedestrian-pursuit` | 19 | `409566d66e5d` | PASS | UNKNOWN | see REPRODUCIBILITY.md | STRUCTURED_CURRENT_FUTURE_LEGACY | AHEAD_OF_MERGED_PR |
 | `beatlink-party` | 22 | `dcb5a916a92c` | PASS | UNKNOWN | see REPRODUCIBILITY.md | STRUCTURED_CURRENT_FUTURE_LEGACY | AHEAD_OF_MERGED_PR |
 | `edge-io-measurement-node` | 37 | `3c5606751be4` | PASS | UNKNOWN | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY | AHEAD_OF_MERGED_PR |
-| `gunnchos-research-portal` | 7 | `f64fd24a96b9` | PASS | UNKNOWN | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY | AHEAD_OF_MERGED_PR |
+| `gunnchos-research-portal` | 7 | `f40593530d62` | PASS | UNKNOWN | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY | AHEAD_OF_MERGED_PR |
 | `ntn-resilience-sim` | 27 | `f2b48a826a42` | PASS | UNKNOWN | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |  |
 | `7gc-digital-twin` | 30 | `376b6d673ff6` | PASS | UNKNOWN | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY |  |
 | `spectrumx-ai-ran-gary` | 100 | `20f40f15753a` | PASS | UNKNOWN | make reproduce | STRUCTURED_CURRENT_FUTURE_LEGACY | AHEAD_OF_MERGED_PR |

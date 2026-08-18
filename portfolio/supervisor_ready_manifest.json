@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.supervisor_ready_manifest.v1",
-  "generated_at": "2026-08-18T21:40:44Z",
+  "generated_at": "2026-08-18T21:41:43Z",
   "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "repos_root": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos",
   "missing_checkouts": [],
@@ -605,9 +605,9 @@
       "public_supporting_core": "public",
       "visibility_note": "public",
       "current_branch": "cursor/supervisor-ready-portfolio-release-001",
-      "current_commit": "f64fd24a96b95ea8049f3b86ca588280b2a5dbf0",
+      "current_commit": "f40593530d62119da004a043b88012cd78b49c8c",
       "remote": "https://github.com/gunnchOS3k/gunnchos-research-portal.git",
-      "dirty_count": 22,
+      "dirty_count": 4,
       "primary_language_runtime": "markdown",
       "canonical_run_command": "make verify",
       "canonical_test_command": "make test",
@@ -633,7 +633,7 @@
       "external_status": "NOT_APPLICABLE",
       "human_qa_status": "NOT_APPLICABLE",
       "digital_blockers": [
-        "dirty_working_tree:22"
+        "dirty_working_tree:4"
       ],
       "physical_blockers": [],
       "external_blockers": [],

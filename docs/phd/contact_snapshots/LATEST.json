@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.supervisor_contact_snapshot.v1",
-  "generated_at": "2026-08-18T21:41:01Z",
+  "generated_at": "2026-08-18T21:41:31Z",
   "local_date": "2026-08-18",
   "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "affiliation_claim": "NONE \u2014 no University of Oulu affiliation, admission, funding, or supervisor commitment",
@@ -313,8 +313,8 @@
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "f64fd24a96b95ea8049f3b86ca588280b2a5dbf0",
-      "sha12": "f64fd24a96b9",
+      "sha": "f40593530d62119da004a043b88012cd78b49c8c",
+      "sha12": "f40593530d62",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
