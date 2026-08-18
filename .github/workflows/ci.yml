@@ -1,8 +1,17 @@
 name: CI
-on: [push]
+on:
+  push:
+  pull_request:
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
       - run: test -f content/projects.ts
+      - run: python3 scripts/audit_portfolio.py --portal-root .
+      - run: python3 scripts/validate_supervisor_ready.py
+      - run: test -f docs/uml/README.md
+      - run: test -f docs/phd/START_HERE_SUPERVISOR.md
