@@ -1,0 +1,11 @@
+@startuml portal_package
+!pragma layout smetana
+title gunnchos-research-portal current package view
+package "docs/phd" as phd
+package "portfolio" as pf
+package "scripts" as sc
+package "docs/uml" as uml
+phd --> pf
+sc --> pf
+uml --> phd
+@enduml
