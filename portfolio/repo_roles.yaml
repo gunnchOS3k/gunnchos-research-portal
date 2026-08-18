@@ -192,7 +192,7 @@ repositories:
     canonical_test_command: "make test"
     canonical_reproduce_command: "make bootstrap && make test && make validate-phy-independent"
     oulu_framing: direct
-    visibility_note: private
+    visibility_note: public
   - repository: gunnchos-emergent-service-intent-protocols
     layer: distributed_intelligence_extension
     dissertation_role: optional distributed-intelligence research extension; not a fourth mandatory paper
@@ -204,4 +204,4 @@ repositories:
     canonical_test_command: "make test"
     canonical_reproduce_command: "make bootstrap && make test && make gate4-cpu"
     oulu_framing: direct
-    visibility_note: private
+    visibility_note: public

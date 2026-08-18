@@ -21,7 +21,7 @@ Desired digital/physical split:
 | Thermal chamber / skin-temp | `PHYSICAL_PENDING` |
 | Battery runtime on metal | `PHYSICAL_PENDING` |
 | Edge I/O absolute spatial accuracy | `PHYSICAL_PENDING` |
-| Pixel 6a | USB-C connected 2026-08-18 ~21:15Z; serial `27211JEGR06194` listed as **unauthorized**. PIXEL_6A_READY = **BLOCKED**. Owner must accept the USB debugging prompt. |
+| Pixel 6a digital smoke | USB-C serial `27211JEGR06194` authorized 2026-08-18; install+launch **PASS**. Fun/usability `HUMAN_QA_PENDING`. Not RF. |
 | CUDA NR timings | `BLOCKED_GPU` on CPU-only hosts |
 | FCC / CE / USB-IF / carrier | `EXTERNAL_PENDING` |
 | RFQ send / fab PO | `EXTERNAL_PENDING` |

@@ -7,7 +7,7 @@ This agent must not email, submit applications, or contact a supervisor.
 ## Smallest sequence for Edmund
 
 1. Wait until `AUTOMATABLE_SUPERVISOR_READY = PASS` on the portal dashboard **or** consciously accept residual digital gaps.  
-2. Resolve private-repo access ([REPOSITORY_VISIBILITY_PACKET.md](REPOSITORY_VISIBILITY_PACKET.md)).  
+2. Visibility of GPU NR and emergent-intent is **CLEARED** ([REPOSITORY_VISIBILITY_PACKET.md](REPOSITORY_VISIBILITY_PACKET.md)). Do not make them private.  
 3. Send **only** the public 10-minute path:  
    `docs/phd/START_HERE_SUPERVISOR.md` in `gunnchos-research-portal`.  
 4. Do not claim University of Oulu affiliation or 6G Flagship membership.  

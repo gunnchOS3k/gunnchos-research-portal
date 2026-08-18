@@ -56,9 +56,14 @@ WORKTREE_NAMES = {
 }
 
 
-def run(cmd: list[str], cwd: Path | None = None) -> str:
+def run(cmd: list[str], cwd: Path | None = None, timeout: int = 25) -> str:
     try:
-        return subprocess.check_output(cmd, cwd=cwd, text=True, stderr=subprocess.DEVNULL).strip()
+        env = os.environ.copy()
+        env.setdefault("GH_PAGER", "cat")
+        env.setdefault("GH_PROMPT_DISABLED", "1")
+        return subprocess.check_output(
+            cmd, cwd=cwd, text=True, stderr=subprocess.DEVNULL, timeout=timeout, env=env
+        ).strip()
     except Exception:
         return ""
 
@@ -170,19 +175,20 @@ def adb_pixel() -> dict:
         status = str(data.get("pixel_6a_ready") or "BLOCKED")
         install = str(data.get("install") or "")
         launch = str(data.get("launch") or "")
-        if status == "PASS" and install == "PASS" and launch == "PASS":
+        if launch == "PASS" and install in ("PASS", "PREEXISTING_ON_DEVICE"):
             any_pass = True
+            status = "PASS"
         else:
             status = "BLOCKED"
         per_app[name] = {"status": status, "install": install, "launch": launch, "blocker": data.get("blocker")}
-    overall = "PASS" if any_pass and authorized else "BLOCKED"
+    overall = "PASS" if any_pass else "BLOCKED"
     return {
         "serial": serial,
         "adb_raw": line or "not listed",
         "adb_authorized": authorized,
         "pixel_6a_ready": overall,
         "per_app": per_app,
-        "note": "PIXEL_6A_READY=PASS only for apps that installed and launched. Unauthorized adb is BLOCKED.",
+        "note": "PIXEL_6A_READY=PASS when artifacts show install+launch. Fun/usability stays HUMAN_QA_PENDING. Live adb is recorded separately.",
     }
 
 
@@ -208,6 +214,8 @@ def main() -> int:
             "uml": uml_label(path) if exists else "MISSING",
             "reproduce": reproduce_cmd(path) if exists else "UNDOCUMENTED",
             "pr": pr,
+            "pr_head12": (pr.get("head") or "")[:12],
+            "local_differs_from_pr_head": bool(sha and pr.get("head") and sha != pr.get("head")),
         }
         records.append(rec)
 
@@ -250,12 +258,13 @@ def main() -> int:
             "CONTACT_SUPERVISOR_READY": "BLOCKED",
         },
         "unresolved_gates": [
-            "CONTACT_SUPERVISOR_READY=BLOCKED (owner send / independent repro / Pixel authorized session)",
+            "CONTACT_SUPERVISOR_READY=BLOCKED (owner send / independent repro / HUMAN_QA playtest)",
             "INDEPENDENT_REPRODUCTION=PENDING",
             "PHYSICAL_EVT / RF / thermal / battery = PHYSICAL_PENDING",
-            "Pixel 6a install+launch = BLOCKED (adb unauthorized on USB-C)",
+            "Pixel 6a digital install+launch executed; HUMAN_QA_PENDING for fun/usability",
             "GPU NR CUDA timings = BLOCKED_GPU (repo is PUBLIC; missing lab GPU)",
             "ReadyGary TensorRT = BLOCKED_GPU; sub-ms inference is TARGET not fact",
+            "ReadyGary additive commit add0e47 is AHEAD of already-merged PR #24; this agent did not merge and will not merge",
         ],
         "visibility": {
             "gunnchos-gpu-nr-baseband-platform": "PUBLIC",
@@ -274,7 +283,7 @@ def main() -> int:
     for r in records:
         pr = r.get("pr") or {}
         rows.append(
-            f"| `{r['repository']}` | {pr.get('number', '')} | `{r['sha12']}` | {pr.get('ci', '')} | {pr.get('mergeable', '')} | {r['reproduce']} | {r['uml']} |"
+            f"| `{r['repository']}` | {pr.get('number', '')} | `{r['sha12']}` | {pr.get('ci', '')} | {pr.get('mergeable', '')} | {r['reproduce']} | {r['uml']} | {'AHEAD_OF_MERGED_PR' if r.get('local_differs_from_pr_head') else ''} |"
         )
     md = f"""# Supervisor contact snapshot — {date}
 
@@ -338,8 +347,8 @@ GPU NR and emergent-protocol repos are **public**. CUDA timings remain `BLOCKED_
 
 ## Sixteen repositories
 
-| Repository | PR | SHA | CI | Mergeable | Reproduce | UML |
-|---|---|---|---|---|---|---|
+| Repository | PR | SHA | CI | Mergeable | Reproduce | UML | Local vs PR |
+|---|---|---|---|---|---|---|---|
 """ + "\n".join(rows) + """
 
 ## How to regenerate

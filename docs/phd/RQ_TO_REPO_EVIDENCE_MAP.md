@@ -55,7 +55,7 @@ Supporting workloads (games, WAIKE, gunnchAI) may supply traces **if** a frozen 
 | `waike-research-ops` | Education service workload |
 | Games + BeatLink + Archive of Life | Latency/QoE/content workloads if imported into a frozen experiment |
 | `gunnchos-gpu-nr-baseband-platform` | Optional PHY validation extension (`BLOCKED_GPU` on CPU-only hosts) |
-| `gunnchos-emergent-service-intent-protocols` | Optional distributed-intelligence extension (private) |
+| `gunnchos-emergent-service-intent-protocols` | Optional distributed-intelligence extension (public; not a fourth paper) |
 | `gunnchos-research-portal` | Navigation only |
 
 See [RESEARCH_PLAN_ALIGNMENT_REPORT.md](RESEARCH_PLAN_ALIGNMENT_REPORT.md) for gaps versus the canonical narrative.

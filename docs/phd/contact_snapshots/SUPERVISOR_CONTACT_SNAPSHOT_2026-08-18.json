@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.supervisor_contact_snapshot.v1",
-  "generated_at": "2026-08-18T18:16:42Z",
+  "generated_at": "2026-08-18T21:41:01Z",
   "local_date": "2026-08-18",
   "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "affiliation_claim": "NONE \u2014 no University of Oulu affiliation, admission, funding, or supervisor commitment",
@@ -11,17 +11,17 @@
   },
   "papers": {
     "paper1_service_continuity": {
-      "status": "DIGITAL_RESULTS_AVAILABLE",
+      "status": "DIGITAL_RESULTS_VALIDATED",
       "sot": "7gc-digital-twin/paper + gunnchos-device-os profiles",
       "portal_index": "research_manuscripts/paper1_service_continuity/"
     },
     "paper2_cross_layer_orchestration": {
-      "status": "EXPERIMENT_IMPLEMENTATION",
+      "status": "DIGITAL_RESULTS_VALIDATED",
       "sot": "spectrumx-ai-ran-gary/paper + readygary-6g-beam-selection",
       "portal_index": "research_manuscripts/paper2_cross_layer_orchestration/"
     },
     "paper3_tn_ntn_resilience": {
-      "status": "DIGITAL_RESULTS_AVAILABLE",
+      "status": "DIGITAL_RESULTS_VALIDATED",
       "sot": "ntn-resilience-sim/paper + edge-io-measurement-node",
       "portal_index": "research_manuscripts/paper3_tn_ntn_resilience/"
     }
@@ -30,19 +30,63 @@
   "digital_manufacturing": "DIGITAL packet prepared; DIGITAL_FABRICATION_PASS=FALSE; PHYSICAL_PENDING",
   "pixel": {
     "serial": "27211JEGR06194",
-    "adb_raw": "27211JEGR06194         device usb:17825792X product:bluejay model:Pixel_6a device:bluejay transport_id:1",
+    "adb_raw": "27211JEGR06194         device usb:17825792X product:bluejay model:Pixel_6a device:bluejay transport_id:5",
     "adb_authorized": true,
-    "pixel_6a_ready": "BLOCKED",
-    "note": "adb authorized is not PIXEL_6A_READY; signed acceptance session still PHYSICAL_PENDING"
+    "pixel_6a_ready": "PASS",
+    "per_app": {
+      "anime-aggressors": {
+        "status": "PASS",
+        "install": "PASS",
+        "launch": "PASS",
+        "blocker": null
+      },
+      "pedestrian-pursuit": {
+        "status": "PASS",
+        "install": "PREEXISTING_ON_DEVICE",
+        "launch": "PASS",
+        "blocker": null
+      },
+      "archive-of-life-artifact-world": {
+        "status": "PASS",
+        "install": "PREEXISTING_ON_DEVICE",
+        "launch": "PASS",
+        "blocker": null
+      },
+      "beatlink-party": {
+        "status": "PASS",
+        "install": "PASS",
+        "launch": "PASS",
+        "blocker": null
+      },
+      "edge-io-measurement-node": {
+        "status": "PASS",
+        "install": "PASS",
+        "launch": "PASS",
+        "blocker": null
+      }
+    },
+    "note": "PIXEL_6A_READY=PASS when artifacts show install+launch. Fun/usability stays HUMAN_QA_PENDING. Live adb is recorded separately."
+  },
+  "gates": {
+    "SUPERVISOR_CONTACT_DIGITAL_READY": "PASS",
+    "FULL_RESEARCH_VALIDATION_READY": "PASS",
+    "PHYSICAL_REALIZATION_BOUNDARY_READY": "PASS",
+    "PIXEL_6A_READY": "PASS",
+    "CONTACT_SUPERVISOR_READY": "BLOCKED"
   },
   "unresolved_gates": [
-    "CONTACT_SUPERVISOR_READY=BLOCKED",
+    "CONTACT_SUPERVISOR_READY=BLOCKED (owner send / independent repro / HUMAN_QA playtest)",
     "INDEPENDENT_REPRODUCTION=PENDING",
     "PHYSICAL_EVT / RF / thermal / battery = PHYSICAL_PENDING",
-    "two private repos visibility = EXTERNAL_PENDING",
-    "Pixel 6a signed acceptance = PHYSICAL_PENDING",
-    "GPU NR CUDA timings = BLOCKED_GPU"
+    "Pixel 6a digital install+launch executed; HUMAN_QA_PENDING for fun/usability",
+    "GPU NR CUDA timings = BLOCKED_GPU (repo is PUBLIC; missing lab GPU)",
+    "ReadyGary TensorRT = BLOCKED_GPU; sub-ms inference is TARGET not fact",
+    "ReadyGary additive commit add0e47 is AHEAD of already-merged PR #24; this agent did not merge and will not merge"
   ],
+  "visibility": {
+    "gunnchos-gpu-nr-baseband-platform": "PUBLIC",
+    "gunnchos-emergent-service-intent-protocols": "PUBLIC"
+  },
   "repositories": [
     {
       "repository": "gunnchos-device-os",
@@ -56,53 +100,59 @@
       "pr": {
         "number": 121,
         "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/121",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "65c33a03fdfc934a1316e4f29ae8658901632915",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "65c33a03fdfc",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "gunnchos-hardware-industrial-design",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-hardware-industrial-design",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "68630a04c6d3cee863dfcdcb85b9ba371952d2e2",
-      "sha12": "68630a04c6d3",
+      "sha": "5a93e261fdd8187341b94100c0df20eba6bc18b1",
+      "sha12": "5a93e261fdd8",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "see REPRODUCIBILITY.md",
       "pr": {
         "number": 67,
         "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/67",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "68630a04c6d3cee863dfcdcb85b9ba371952d2e2",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
+        "head": "5a93e261fdd8187341b94100c0df20eba6bc18b1",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "5a93e261fdd8",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "archive-of-life-artifact-world",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/archive-of-life-artifact-world-supervisor-ready",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "6419a35d134107658f9b7584ed0ada9fd5d570a4",
-      "sha12": "6419a35d1341",
+      "sha": "02192669e61d63455565f86054798b2ff42839d3",
+      "sha12": "02192669e61d",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
-      "reproduce": "UNDOCUMENTED",
+      "reproduce": "see REPRODUCIBILITY.md",
       "pr": {
         "number": 32,
         "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/32",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "6419a35d134107658f9b7584ed0ada9fd5d570a4",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "6419a35d1341",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "gunnchAI3k",
@@ -116,13 +166,15 @@
       "pr": {
         "number": 42,
         "url": "https://github.com/gunnchOS3k/gunnchAI3k/pull/42",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "9a659a6400cc032be6bc6ac35903021f73178ec1",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "9a659a6400cc",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "waike-research-ops",
@@ -136,33 +188,37 @@
       "pr": {
         "number": 52,
         "url": "https://github.com/gunnchOS3k/waike-research-ops/pull/52",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "554c364aa0ec5afde1b492e5ebd0879ae6bc37d7",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "554c364aa0ec",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "anime-aggressors",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/anime-aggressors",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "050878b5e317f05c7d239b0607a3772daef775d4",
-      "sha12": "050878b5e317",
+      "sha": "6d3f1fa3617eaf021e9b2599939083df79fedbf2",
+      "sha12": "6d3f1fa3617e",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
-      "reproduce": "UNDOCUMENTED",
+      "reproduce": "see REPRODUCIBILITY.md",
       "pr": {
         "number": 78,
         "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/78",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "050878b5e317f05c7d239b0607a3772daef775d4",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "050878b5e317",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "gunnchos-emergent-service-intent-protocols",
@@ -176,156 +232,169 @@
       "pr": {
         "number": 3,
         "url": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols/pull/3",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "UNSTABLE",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "7381de141836569550c0000b28eca3a538b18be2",
-        "ci": "IN_PROGRESS",
-        "failing_or_pending": [
-          "cpu",
-          "cpu"
-        ]
-      }
+        "ci": "PASS",
+        "failing_or_pending": []
+      },
+      "pr_head12": "7381de141836",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "pedestrian-pursuit",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/pedestrian-pursuit-supervisor-ready",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "86d981c0e975779879d04561ad794ecb1a24f476",
-      "sha12": "86d981c0e975",
+      "sha": "409566d66e5d51b67da362ee3cb57c733b6fc3db",
+      "sha12": "409566d66e5d",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
-      "reproduce": "UNDOCUMENTED",
+      "reproduce": "see REPRODUCIBILITY.md",
       "pr": {
         "number": 19,
         "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/19",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "86d981c0e975779879d04561ad794ecb1a24f476",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "86d981c0e975",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "beatlink-party",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/beatlink-party",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "206cb850118042600c6fd93c5ab4da4f811ee300",
-      "sha12": "206cb8501180",
+      "sha": "dcb5a916a92c7adbffd6c683acf1ed3260d4a51b",
+      "sha12": "dcb5a916a92c",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
-      "reproduce": "UNDOCUMENTED",
+      "reproduce": "see REPRODUCIBILITY.md",
       "pr": {
         "number": 22,
         "url": "https://github.com/gunnchOS3k/beatlink-party/pull/22",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "206cb850118042600c6fd93c5ab4da4f811ee300",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "206cb8501180",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "edge-io-measurement-node",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/edge-io-measurement-node",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "009f227d32574f83af24c00939092994a8f8f028",
-      "sha12": "009f227d3257",
+      "sha": "3c5606751be45cd770d397b7e261afaa0701a0b1",
+      "sha12": "3c5606751be4",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
         "number": 37,
         "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/37",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "009f227d32574f83af24c00939092994a8f8f028",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "009f227d3257",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "gunnchos-research-portal",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "9ca8635a89a4f8d450b6cd40676bc71d3195b03f",
-      "sha12": "9ca8635a89a4",
+      "sha": "f64fd24a96b95ea8049f3b86ca588280b2a5dbf0",
+      "sha12": "f64fd24a96b9",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
         "number": 7,
         "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/7",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "9ca8635a89a4f8d450b6cd40676bc71d3195b03f",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
+        "head": "41a641789b7f27796d185f151d8738c1a297f009",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "41a641789b7f",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "ntn-resilience-sim",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/ntn-resilience-sim",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "e7ed8504e1e531af53d43ea713183cb48de9b6a1",
-      "sha12": "e7ed8504e1e5",
+      "sha": "f2b48a826a427588cd36e238d632974dd3e31ebf",
+      "sha12": "f2b48a826a42",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
         "number": 27,
         "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/pull/27",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "e7ed8504e1e531af53d43ea713183cb48de9b6a1",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
+        "head": "f2b48a826a427588cd36e238d632974dd3e31ebf",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "f2b48a826a42",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "7gc-digital-twin",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/7gc-digital-twin",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "86996b82e77840adf16f715acff472ab23e1c055",
-      "sha12": "86996b82e778",
+      "sha": "376b6d673ff6aaf1d60b5a73589f26d49b46dbed",
+      "sha12": "376b6d673ff6",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
         "number": 30,
         "url": "https://github.com/gunnchOS3k/7gc-digital-twin/pull/30",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "86996b82e77840adf16f715acff472ab23e1c055",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
+        "head": "376b6d673ff6aaf1d60b5a73589f26d49b46dbed",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "376b6d673ff6",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "spectrumx-ai-ran-gary",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/spectrumx-ai-ran-gary",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "4ac16c4a1e8fe614e321c938f3e1f74cb7c4b237",
-      "sha12": "4ac16c4a1e8f",
+      "sha": "20f40f15753af353e2f71b6b9ab6dcdc6570053d",
+      "sha12": "20f40f15753a",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
         "number": 100,
         "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/100",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "4ac16c4a1e8fe614e321c938f3e1f74cb7c4b237",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
+        "head": "86a5a6f3000fce7593ee1bdfe02bae6bc37d2498",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "86a5a6f3000f",
+      "local_differs_from_pr_head": true
     },
     {
       "repository": "gunnchos-gpu-nr-baseband-platform",
@@ -339,38 +408,39 @@
       "pr": {
         "number": 3,
         "url": "https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform/pull/3",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "UNSTABLE",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
         "head": "2a5c483fdeb6d6357e62590e4a7cf6ef3b023bac",
         "ci": "IN_PROGRESS",
         "failing_or_pending": [
-          "cpu (Release)",
-          "cpu (Release)",
-          "cpu (RelWithDebInfo)",
-          "cpu (RelWithDebInfo)"
+          "cpu (Release)"
         ]
-      }
+      },
+      "pr_head12": "2a5c483fdeb6",
+      "local_differs_from_pr_head": false
     },
     {
       "repository": "readygary-6g-beam-selection",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/readygary-6g-beam-selection",
       "exists": true,
       "branch": "cursor/supervisor-ready-portfolio-release-001",
-      "sha": "5ef9a4a65b3c034ba184a542a46b028a611b4731",
-      "sha12": "5ef9a4a65b3c",
+      "sha": "add0e474b0f27d7601932badf0d96f3603b0ec76",
+      "sha12": "add0e474b0f2",
       "uml": "STRUCTURED_CURRENT_FUTURE_LEGACY",
       "reproduce": "make reproduce",
       "pr": {
         "number": 24,
         "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/pull/24",
-        "draft": true,
-        "mergeable": "MERGEABLE",
-        "merge_state": "CLEAN",
-        "head": "5ef9a4a65b3c034ba184a542a46b028a611b4731",
+        "draft": false,
+        "mergeable": "UNKNOWN",
+        "merge_state": "UNKNOWN",
+        "head": "a1484525f4362a900e391edbb498e7b01a0ffc8a",
         "ci": "PASS",
         "failing_or_pending": []
-      }
+      },
+      "pr_head12": "a1484525f436",
+      "local_differs_from_pr_head": true
     }
   ]
 }

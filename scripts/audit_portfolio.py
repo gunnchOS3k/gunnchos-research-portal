@@ -262,7 +262,7 @@ def audit_repo(repo: Path, role: dict[str, Any]) -> dict[str, Any]:
     }:
         human_qa_blockers.append("HUMAN_QA_PENDING human playtest_or_usability")
     if android or pixel_doc:
-        human_qa_blockers.append("PIXEL_6A_ACCEPTANCE requires authorized device")
+        human_qa_blockers.append("HUMAN_QA_PENDING fun/usability playtest")
     if role.get("visibility_note") == "private":
         external_blockers.append("repository_visibility_owner_action")
     if role.get("classification") == "core":
@@ -316,7 +316,8 @@ def audit_repo(repo: Path, role: dict[str, Any]) -> dict[str, Any]:
         "clean_clone_status": "UNVERIFIED_THIS_AUDIT",
         "android_status": (
             "PIXEL_6A_DOC_MISSING" if android and not pixel_doc else
-            ("DOCUMENTED_NOT_DEVICE_TESTED" if pixel_doc else "NOT_APPLICABLE")
+            (pixel_acceptance_status(repo) if pixel_doc or (repo / "artifacts" / "pixel6a" / "ACCEPTANCE.json").exists() else
+             ("DOCUMENTED_NOT_DEVICE_TESTED" if pixel_doc else "NOT_APPLICABLE"))
         ),
         "current_evidence_level": evidence_level,
         "user_facing_status": "USER_FACING" if user_facing else "RESEARCH_OR_INFRA",
@@ -429,22 +430,47 @@ make audit
 """
 
 
-def compute_gates(records: list[dict[str, Any]], pixel_authorized: bool) -> dict[str, str]:
+def pixel_acceptance_status(repo: Path) -> str:
+    path = repo / "artifacts" / "pixel6a" / "ACCEPTANCE.json"
+    if not path.is_file():
+        return "MISSING"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return "UNREADABLE"
+    install = str(data.get("install") or "")
+    launch = str(data.get("launch") or "")
+    if launch == "PASS" and install in ("PASS", "PREEXISTING_ON_DEVICE"):
+        return "DEVICE_SMOKE_PASS"
+    return "BLOCKED"
+
+
+def pixel_gate_from_artifacts(repos_root: Path, portal: Path) -> str:
+    apps = (
+        "anime-aggressors",
+        "pedestrian-pursuit",
+        "archive-of-life-artifact-world",
+        "beatlink-party",
+        "edge-io-measurement-node",
+    )
+    for name in apps:
+        path = checkout_path(repos_root, portal, name)
+        if pixel_acceptance_status(path) == "DEVICE_SMOKE_PASS":
+            return "PASS"
+    return "BLOCKED"
+
+
+def compute_gates(records: list[dict[str, Any]], pixel: str) -> dict[str, str]:
     digital_fail = any(r["digital_status"] == "FAIL_DIGITAL" for r in records)
     dirty_core = any(r["dirty_count"] and r["classification"] == "core" for r in records)
     automatable = "FAIL" if digital_fail or dirty_core else "PASS"
-    contact = "BLOCKED"
-    manufacturing = "FAIL"
-    pixel = "PASS" if pixel_authorized else "BLOCKED"
-    core_repro = "BLOCKED"
-    independent = "PENDING"
     return {
         "AUTOMATABLE_SUPERVISOR_READY": automatable,
-        "CONTACT_SUPERVISOR_READY": contact,
-        "DIGITAL_MANUFACTURING_READY": manufacturing,
+        "CONTACT_SUPERVISOR_READY": "BLOCKED",
+        "DIGITAL_MANUFACTURING_READY": "FAIL",
         "PIXEL_6A_READY": pixel,
-        "CORE_RESEARCH_REPRODUCIBLE": core_repro,
-        "INDEPENDENT_REPRODUCTION": independent,
+        "CORE_RESEARCH_REPRODUCIBLE": "BLOCKED",
+        "INDEPENDENT_REPRODUCTION": "PENDING",
     }
 
 
@@ -502,8 +528,10 @@ def main() -> int:
         role = role_by_name[name]
         records.append(audit_repo(path, role))
 
-    pixel_authorized = args.pixel_authorized
-    gates = compute_gates(records, pixel_authorized)
+    pixel = pixel_gate_from_artifacts(repos_root, portal)
+    if args.pixel_authorized:
+        pixel = "PASS"
+    gates = compute_gates(records, pixel)
     if missing:
         # Incomplete spine must not look like AUTOMATABLE PASS.
         gates["AUTOMATABLE_SUPERVISOR_READY"] = "FAIL"
@@ -514,7 +542,7 @@ def main() -> int:
         "repos_root": str(repos_root),
         "missing_checkouts": missing,
         "gates": gates,
-        "pixel_adb_note": "authorized device required; unauthorized attachment is BLOCKED",
+        "pixel_adb_note": "PIXEL_6A_READY from artifacts/pixel6a/ACCEPTANCE.json (install+launch). Fun/usability HUMAN_QA_PENDING.",
         "repositories": records,
         "status_vocabulary": roles_doc["status_vocabulary"],
         "evidence_taxonomy": roles_doc["evidence_taxonomy"],

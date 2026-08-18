@@ -20,7 +20,7 @@ Working thesis: **Resilience-Aware Service Continuity in Heterogeneous 6G Networ
 
 - Sixteen-repo map with dissertation roles (`portfolio/repo_roles.yaml`)
 - Regenerable audit (`make audit`) and claim-boundary validator (`make test`)
-- Honest gates: physical, Pixel 6a, independent reproduction, private-repo visibility remain pending where listed
+- Honest gates: physical EVT/RF, independent reproduction, and human playtest remain pending where listed
 
 ## What is not proven
 

@@ -18,11 +18,10 @@ No University of Oulu affiliation is claimed.
 | Item | Gate |
 |---|---|
 | Independent reproduction of RQ1–RQ3 digital packets | `INDEPENDENT_REPRODUCTION_PENDING` |
-| Pixel 6a signed acceptance session | `PHYSICAL_PENDING` (adb ≠ acceptance) |
+| Pixel 6a human playtest (fun/usability) | `HUMAN_QA_PENDING` (digital install+launch smoke already PASS) |
 | EVT bring-up, measured rails, RF, thermal, battery | `PHYSICAL_PENDING` |
 | COM-HPC / dock NDA pin maps | `EXTERNAL_PENDING` |
 | GPU NR CUDA / Nsight timings | `BLOCKED_GPU` |
-| Private repo visibility for two research platforms | `EXTERNAL_PENDING` |
 | Human playtests (games) | `HUMAN_QA_PENDING` — not dissertation papers |
 | Venue CFP verification + owner submission | never auto-`SUBMITTED` |
 
