@@ -1,60 +1,46 @@
-# gunnchOS3k Ecosystem Portal
+# gunnchOS3k research portal
 
-Canonical **public navigation** for the gunnchOS3k equitable compute ecosystem.
+Canonical **public entry** for the gunnchOS3k experimental computing and communications portfolio.
 
-This is not the Product Charter. The charter lives in [`gunnchos-7gc-ai-ran-field-kit`](https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit) at `program/charter/`.
+**Prospective doctoral supervisor (Communications Engineering / 6G Flagship fit, no affiliation claimed):** start at **[docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md)** (≈10 minutes).
 
-## Start here
+This repository is a navigation and evidence-map control plane. It is not a RAN, not hardware proof, and not a University of Oulu appointment.
 
-**Zero-context entry (Cycle 3A.2):** begin at this README, then [START_HERE.md](START_HERE.md).  
-Profile README is **OWNER_DEFERRED** / non-blocking — do not treat it as required.
+Working thesis: **Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices.**
 
-1. [START_HERE.md](START_HERE.md) — 30-second orientation
-2. [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md) — five first-party products
-3. [STATUS.md](STATUS.md) — what is real vs pending
-4. [REPO_CATALOG.md](REPO_CATALOG.md) — where to contribute
-5. Audience guides under [audiences/](audiences/)
-
-## Mission (defensible)
-
-gunnchOS3k is a carrier-grade-targeted equitable compute ecosystem built around affordable first-party computing devices, gunnchOS, local-first gunnchAI3k intelligence, spatial Ring input, education, creation, work, gaming, and resilient connectivity.
-
-Connectivity: **5G-Advanced and NTN-capable architecture where supported, IMT-2030-aligned**, engineered for migration to standardized 6G as ecosystems mature — **not** a claim of current standardized commercial 6G.
-
-## Audience paths
-
-| Audience | Guide |
+| Audience | Start |
 |---|---|
-| Curious | [audiences/CURIOUS.md](audiences/CURIOUS.md) |
-| Student | [audiences/STUDENT.md](audiences/STUDENT.md) |
-| Intern | [audiences/INTERN.md](audiences/INTERN.md) |
+| Faculty / supervisor | [docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md) |
+| Researcher | [audiences/RESEARCHER.md](audiences/RESEARCHER.md) · [docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md](docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md) |
+| Curious / student / intern | [START_HERE.md](START_HERE.md) (product ecosystem path) |
 | Developer | [audiences/DEVELOPER.md](audiences/DEVELOPER.md) |
-| Researcher | [audiences/RESEARCHER.md](audiences/RESEARCHER.md) |
-| Educator | [audiences/EDUCATOR.md](audiences/EDUCATOR.md) |
-| Manufacturer | [audiences/MANUFACTURER.md](audiences/MANUFACTURER.md) |
-| Security reviewer | [audiences/SECURITY_REVIEWER.md](audiences/SECURITY_REVIEWER.md) |
+| Manufacturer | [MANUFACTURING.md](MANUFACTURING.md) |
 
-## Map
+## What is real today
 
-- [ECOSYSTEM_MAP.md](ECOSYSTEM_MAP.md)
-- [SOFTWARE_STACK.md](SOFTWARE_STACK.md)
-- [MIDDLEWARE_MAP.md](MIDDLEWARE_MAP.md)
-- [GOLDEN_JOURNEYS.md](GOLDEN_JOURNEYS.md)
-- [DEVICE_LAB.md](DEVICE_LAB.md)
-- [GAMES.md](GAMES.md)
-- [WAIKE.md](WAIKE.md)
-- [CONNECTIVITY.md](CONNECTIVITY.md)
-- [RESEARCH.md](RESEARCH.md)
-- [MANUFACTURING.md](MANUFACTURING.md)
-- [EVIDENCE.md](EVIDENCE.md)
-- [GLOSSARY.md](GLOSSARY.md)
-- [ROADMAP.md](ROADMAP.md)
+- Sixteen-repo map with dissertation roles (`portfolio/repo_roles.yaml`)
+- Regenerable audit (`make audit`) and claim-boundary validator (`make test`)
+- Honest gates: physical, Pixel 6a, independent reproduction, private-repo visibility remain pending where listed
 
-## Dashboards
+## What is not proven
 
-- Public: [STATUS.md](STATUS.md) and [dashboards/PUBLIC_STATUS.md](dashboards/PUBLIC_STATUS.md)
-- Engineering: [dashboards/ENGINEERING_STATUS.md](dashboards/ENGINEERING_STATUS.md)
+Simulations are not RF. Device Lab is not EVT silicon. Games are workloads unless a frozen RQ experiment uses them.
+
+Dashboard: [docs/phd/PORTFOLIO_READINESS_DASHBOARD.md](docs/phd/PORTFOLIO_READINESS_DASHBOARD.md)  
+UML: [docs/uml/README.md](docs/uml/README.md)  
+Reproduce: [REPRODUCIBILITY.md](REPRODUCIBILITY.md)
+
+```bash
+make bootstrap
+make reproduce
+```
+
+## Product ecosystem (supporting, not sixteen dissertations)
+
+The Cycle 3A product information architecture remains for non-research readers: [START_HERE.md](START_HERE.md), [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md), [STATUS.md](STATUS.md), [REPO_CATALOG.md](REPO_CATALOG.md). Product charter lives in [`gunnchos-7gc-ai-ran-field-kit`](https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit) `program/charter/` — **out of the 16-repo dissertation scope** except as charter reference.
+
+Connectivity language: 5G-Advanced / NTN-capable architecture, IMT-2030-aligned — **not** standardized commercial 6G.
 
 ## History
 
-Prior “research spine / 7gc as program hub” framing is preserved under [docs/history/](docs/history/) and labeled **HISTORICAL**.
+Prior “research spine / 7gc as program hub” and product-only front door notes: [docs/history/](docs/history/), [docs/uml/legacy/](docs/uml/legacy/).
