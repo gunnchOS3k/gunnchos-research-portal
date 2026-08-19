@@ -13,6 +13,12 @@ import sys
 from pathlib import Path
 
 PORTAL = Path(__file__).resolve().parents[1]
+SPINE_ACCEPTED_MAIN = Path(
+    os.environ.get(
+        "GUNNCHOS_ACCEPTED_MAIN_JSON",
+        PORTAL.parent.parent / "program" / "residual_closure_2026_08" / "CURRENT_ACCEPTED_MAIN.json",
+    )
+)
 SCOPE = [
     "gunnchos-device-os",
     "gunnchos-hardware-industrial-design",
@@ -34,21 +40,43 @@ SCOPE = [
 PR_HINT = {
     "gunnchos-device-os": 121,
     "gunnchos-hardware-industrial-design": 67,
-    "archive-of-life-artifact-world": 32,
-    "gunnchAI3k": 42,
+    "archive-of-life-artifact-world": 33,
+    "gunnchAI3k": 43,
     "waike-research-ops": 52,
-    "anime-aggressors": 78,
+    "anime-aggressors": 79,
     "gunnchos-emergent-service-intent-protocols": 3,
-    "pedestrian-pursuit": 19,
-    "beatlink-party": 22,
-    "edge-io-measurement-node": 37,
-    "gunnchos-research-portal": 7,
+    "pedestrian-pursuit": 20,
+    "beatlink-party": 23,
+    "edge-io-measurement-node": 38,
+    "gunnchos-research-portal": 8,
     "ntn-resilience-sim": 27,
     "7gc-digital-twin": 30,
-    "spectrumx-ai-ran-gary": 100,
+    "spectrumx-ai-ran-gary": 101,
     "gunnchos-gpu-nr-baseband-platform": 3,
-    "readygary-6g-beam-selection": 24,
+    "readygary-6g-beam-selection": 26,
 }
+PREVIEW_DRAFT = [
+    {"repository": "waike-research-ops", "pr": 53, "note": "batch007 EMBEDDED_PROTOTYPING + GUNNCHOS_PRODUCT_LAB"},
+    {"repository": "gunnchos-7gc-ai-ran-field-kit", "pr": 88, "note": "residual digital closure Phase 0 follow-up"},
+    {"repository": "gunnchos-device-os", "pr": 103, "note": "OPEN draft CONFLICTING — do not merge; superseded"},
+]
+PHYSICAL_PENDING = [
+    "hardware EVT / RF / thermal / battery",
+    "R6G OTA / carrier / SDR",
+    "DIGITAL_FABRICATION_PASS external ballmaps",
+]
+HUMAN_PENDING = [
+    "CONTACT_SUPERVISOR_READY owner send",
+    "game fun/balance/feel HUMAN_QA",
+    "SEVEN_GC_APPRENTICESHIP research overlay",
+    "device-os #103 owner supersession/close",
+]
+EXTERNAL_PENDING = [
+    "INDEPENDENT_REPRODUCTION",
+    "NVIDIA Aerial/AODT/Sionna backends",
+    "DOI/PDF pins",
+    "GPU NR CUDA timings BLOCKED_GPU",
+]
 WORKTREE_NAMES = {
     "gunnchos-device-os": "gunnchos-device-os-supervisor-ready",
     "archive-of-life-artifact-world": "archive-of-life-artifact-world-supervisor-ready",
@@ -57,6 +85,44 @@ WORKTREE_NAMES = {
 
 
 def run(cmd: list[str], cwd: Path | None = None, timeout: int = 25) -> str:
+    try:
+        env = os.environ.copy()
+        env.setdefault("GH_PAGER", "cat")
+        env.setdefault("GH_PROMPT_DISABLED", "1")
+        return subprocess.check_output(
+            cmd, cwd=cwd, text=True, stderr=subprocess.DEVNULL, timeout=timeout, env=env
+        ).strip()
+    except Exception:
+        return ""
+
+
+def load_accepted_main() -> dict[str, dict]:
+    if not SPINE_ACCEPTED_MAIN.is_file():
+        return {}
+    try:
+        data = json.loads(SPINE_ACCEPTED_MAIN.read_text(encoding="utf-8"))
+        return data.get("repos") or {}
+    except Exception:
+        return {}
+
+
+def origin_main_sha(path: Path) -> str:
+    if not path.exists():
+        return ""
+    run(["git", "fetch", "origin", "main"], cwd=path)
+    return run(["git", "rev-parse", "origin/main"], cwd=path)
+
+
+def disposition_for(name: str, accepted: dict, origin_sha: str) -> str:
+    pin = accepted.get(name) or {}
+    if pin.get("sha") and origin_sha and pin["sha"] == origin_sha:
+        return "ACCEPTED_MAIN"
+    if pin.get("sha") and origin_sha:
+        return "ACCEPTED_MAIN_DRIFT"
+    for p in PREVIEW_DRAFT:
+        if p["repository"] == name:
+            return "PREVIEW_DRAFT"
+    return "UNKNOWN"
     try:
         env = os.environ.copy()
         env.setdefault("GH_PAGER", "cat")
@@ -197,13 +263,16 @@ def main() -> int:
     date = now.strftime("%Y-%m-%d")
     repos_root = Path(os.environ.get("PORTFOLIO_REPOS_ROOT") or PORTAL.parent)
     pixel = adb_pixel()
+    accepted = load_accepted_main()
     records = []
     for name in SCOPE:
         path = repo_path(repos_root, name)
         exists = path.exists()
         sha = run(["git", "rev-parse", "HEAD"], cwd=path) if exists else ""
+        origin_sha = origin_main_sha(path) if exists else ""
         branch = run(["git", "rev-parse", "--abbrev-ref", "HEAD"], cwd=path) if exists else ""
         pr = gh_pr(name)
+        pin = accepted.get(name) or {}
         rec = {
             "repository": name,
             "path": str(path) if exists else None,
@@ -211,6 +280,11 @@ def main() -> int:
             "branch": branch,
             "sha": sha,
             "sha12": sha[:12] if sha else "",
+            "origin_main_sha": origin_sha,
+            "origin_main_sha12": origin_sha[:12] if origin_sha else "",
+            "accepted_main_sha": pin.get("sha", ""),
+            "accepted_main_sha12": (pin.get("sha") or "")[:12],
+            "disposition": disposition_for(name, accepted, origin_sha),
             "uml": uml_label(path) if exists else "MISSING",
             "reproduce": reproduce_cmd(path) if exists else "UNDOCUMENTED",
             "pr": pr,
@@ -271,6 +345,16 @@ def main() -> int:
             "gunnchos-emergent-service-intent-protocols": "PUBLIC",
         },
         "repositories": records,
+        "accepted_main_pin_file": str(SPINE_ACCEPTED_MAIN),
+        "disposition_legend": {
+            "ACCEPTED_MAIN": "origin/main matches CURRENT_ACCEPTED_MAIN.json pin",
+            "ACCEPTED_MAIN_DRIFT": "pin exists but origin/main differs — refresh pin after owner merge",
+            "PREVIEW_DRAFT": "open draft PR — not accepted-main",
+        },
+        "preview_draft_prs": PREVIEW_DRAFT,
+        "physical_pending": PHYSICAL_PENDING,
+        "human_pending": HUMAN_PENDING,
+        "external_pending": EXTERNAL_PENDING,
     }
 
     out_dir = PORTAL / "docs" / "phd" / "contact_snapshots"
@@ -283,7 +367,7 @@ def main() -> int:
     for r in records:
         pr = r.get("pr") or {}
         rows.append(
-            f"| `{r['repository']}` | {pr.get('number', '')} | `{r['sha12']}` | {pr.get('ci', '')} | {pr.get('mergeable', '')} | {r['reproduce']} | {r['uml']} | {'AHEAD_OF_MERGED_PR' if r.get('local_differs_from_pr_head') else ''} |"
+            f"| `{r['repository']}` | {r.get('disposition', '')} | `{r.get('accepted_main_sha12') or r.get('origin_main_sha12') or r['sha12']}` | {pr.get('number', '')} | {pr.get('ci', '')} | {r['reproduce']} |"
         )
     md = f"""# Supervisor contact snapshot — {date}
 
@@ -345,10 +429,28 @@ GPU NR and emergent-protocol repos are **public**. CUDA timings remain `BLOCKED_
 
 """ + "\n".join(f"- {g}" for g in snapshot["unresolved_gates"]) + """
 
+## Disposition legend
+
+| State | Meaning |
+|---|---|
+| ACCEPTED_MAIN | `origin/main` matches `CURRENT_ACCEPTED_MAIN.json` |
+| ACCEPTED_MAIN_DRIFT | pin exists but live `origin/main` differs |
+| PREVIEW_DRAFT | open draft PR — not accepted-main |
+
+## Pending classes
+
+- **PHYSICAL_PENDING:** """ + "; ".join(PHYSICAL_PENDING) + """
+- **HUMAN_PENDING:** """ + "; ".join(HUMAN_PENDING) + """
+- **EXTERNAL_PENDING:** """ + "; ".join(EXTERNAL_PENDING) + """
+
+## Preview / draft PRs (not accepted-main)
+
+""" + "\n".join(f"- `{p['repository']}` PR #{p['pr']}: {p['note']}" for p in PREVIEW_DRAFT) + """
+
 ## Sixteen repositories
 
-| Repository | PR | SHA | CI | Mergeable | Reproduce | UML | Local vs PR |
-|---|---|---|---|---|---|---|---|
+| Repository | Disposition | Accepted/main SHA | Merged PR | CI | Reproduce |
+|---|---|---|---|---|---|
 """ + "\n".join(rows) + """
 
 ## How to regenerate
