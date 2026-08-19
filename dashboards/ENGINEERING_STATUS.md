@@ -11,4 +11,4 @@
 | Rings | E2–E3 | D5 app mutation | device-os | WP-011R / physical | Spatial accuracy | Ring-to-app proofs |
 | Connectivity | E2–E3 sim | D2–D4 | ntn/spectrumx/device-os | ongoing | No 6G cert claim | Keep NTN abstract |
 
-Accepted mains: see field-kit `artifacts/cycle3a/ACCEPTED_MAIN_BASELINE.json`.
+Accepted mains: see field-kit `program/digital_ecosystem_baseline_v2/B4_ACCEPTED_MAIN_SHA_FREEZE.json` (Baseline V2 B.4.1); portal mirror at `artifacts/baseline_v2/B4_ACCEPTED_MAIN_SHA_FREEZE.json`.
