@@ -1,0 +1,14 @@
+{
+  "symbol": "scripts/audit_portfolio.py::main",
+  "tests": [
+    "tests/test_audit_portfolio.py::test_load_roles_from_real_portfolio_catalog",
+    "tests/test_audit_portfolio.py::test_uml_status_and_gate_on_structured_fixture",
+    "tests/test_audit_portfolio.py::test_uml_gate_fails_when_uml_missing",
+    "tests/test_audit_portfolio.py::test_main_allow_missing_siblings_exits_zero",
+    "tests/test_audit_portfolio.py::test_main_missing_siblings_without_allow_exits_nonzero",
+    "tests/test_audit_portfolio.py::test_missing_roles_catalog_raises",
+    "tests/test_audit_portfolio.py::test_cli_subprocess_allow_missing_siblings_exit_zero"
+  ],
+  "mutation_kill": "flip_return_zero on first return 0 (allow-missing-siblings path)",
+  "cli_subprocess": true
+}

@@ -1,0 +1,16 @@
+{
+  "repository": "gunnchos-research-portal",
+  "accepted_main_sha": "afb2bab2b415ec4ad83ad9bf704821fa89692ee2",
+  "path": "scripts/audit_portfolio.py",
+  "kind": "flip_return_zero",
+  "baseline_make_test_pass": true,
+  "mutated_make_test_pass": true,
+  "baseline_returncode": 0,
+  "mutated_returncode": 0,
+  "status": "REPRODUCED_MUTATION_SURVIVAL",
+  "test_command": [
+    "make",
+    "test"
+  ],
+  "note": "make test only runs validate_supervisor_ready.py; audit_portfolio not exercised"
+}

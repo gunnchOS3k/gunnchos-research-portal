@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-08-21T19:20:59Z",
+  "repository": "gunnchos-research-portal",
+  "PORTAL_CLEAN_SUITE_PASS": true,
+  "PORTAL_AUDIT_MUTATION_KILLED": true,
+  "PORTAL_CANONICAL_CLI_TEST": true,
+  "MUTATED_FILES_COMMITTED": false,
+  "accepted_main_start_sha": "afb2bab2b415ec4ad83ad9bf704821fa89692ee2",
+  "behavior_contract": "docs/code_health/R5_S1_BEHAVIOR_CONTRACT.md",
+  "pre_remediation": "artifacts/code_health_r5_s1/portal/PRE_REMEDIATION_MUTATION.json",
+  "mutation_regression": {
+    "repository": "gunnchos-research-portal",
+    "path": "scripts/audit_portfolio.py",
+    "kind": "flip_return_zero",
+    "baseline_pass": true,
+    "mutated_pass": false,
+    "mutated_returncode": 2,
+    "mutation_outcome": "MUTATION_KILLED",
+    "MUTATED_FILES_COMMITTED": false,
+    "worktree": "/tmp/fieldkit-r5-Hxy8b2/portal_r5s1_mut_v9alr9vs/mutated"
+  },
+  "claim_boundaries": {
+    "PRODUCTION_SIGNING": false,
+    "TPM_KEYSTORE": false,
+    "KERNEL_SANDBOX": false,
+    "SECURE_BOOT_VALIDATED": false,
+    "PHYSICAL_VALIDATION": false,
+    "HUMAN_E6": false,
+    "HUMAN_ACCESSIBILITY_VALIDATED": false,
+    "WCAG_VALIDATED": false,
+    "CARRIER_ACCEPTED": false,
+    "STANDARDIZED_6G": false,
+    "SHIPPING_PRODUCT": false,
+    "FULL_MUTATION_TESTING_COMPLETE": false,
+    "BASELINE_COUNTS_CHANGED": false,
+    "REQUIREMENT_STATES_CHANGED": false,
+    "FIELD_KIT_AUDIT_UPDATED": false,
+    "CURSOR_MERGED": false
+  }
+}
