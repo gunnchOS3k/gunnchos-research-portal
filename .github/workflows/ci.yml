@@ -10,8 +10,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - run: python3 -m pip install pytest
       - run: test -f content/projects.ts
       - run: python3 scripts/audit_portfolio.py --portal-root . --no-write --allow-missing-siblings
-      - run: python3 scripts/validate_supervisor_ready.py
+      - run: make test
+      - run: make code-health-r5-s1
       - run: test -f docs/uml/README.md
       - run: test -f docs/phd/START_HERE_SUPERVISOR.md

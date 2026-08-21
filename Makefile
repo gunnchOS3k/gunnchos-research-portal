@@ -1,15 +1,20 @@
-.PHONY: bootstrap audit test verify reproduce diagrams uml supervisor-snapshot paper
+.PHONY: bootstrap audit test verify reproduce diagrams uml supervisor-snapshot paper code-health-r5-s1
 
 PYTHON ?= python3
 
 bootstrap:
-	@echo "stdlib-only audit; optional: $(PYTHON) -m pip install pyyaml"
+	@echo "stdlib-only audit; optional: $(PYTHON) -m pip install pyyaml pytest"
 
 audit:
 	$(PYTHON) scripts/audit_portfolio.py --portal-root .
 
 test:
 	$(PYTHON) scripts/validate_supervisor_ready.py
+	$(PYTHON) -m pytest -q tests/test_audit_portfolio.py
+
+code-health-r5-s1: test
+	$(PYTHON) scripts/run_r5_s1_mutation_kills.py
+	$(PYTHON) scripts/write_r5_s1_evidence.py
 
 verify: audit test
 	@echo "portal control-plane verify complete (docs/gates only; not CONTACT_SUPERVISOR_READY)"

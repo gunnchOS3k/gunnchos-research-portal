@@ -1,0 +1,11 @@
+{
+  "repository": "gunnchos-research-portal",
+  "path": "scripts/audit_portfolio.py",
+  "kind": "flip_return_zero",
+  "baseline_pass": true,
+  "mutated_pass": false,
+  "mutated_returncode": 2,
+  "mutation_outcome": "MUTATION_KILLED",
+  "MUTATED_FILES_COMMITTED": false,
+  "worktree": "/tmp/fieldkit-r5-Hxy8b2/portal_r5s1_mut_v9alr9vs/mutated"
+}
