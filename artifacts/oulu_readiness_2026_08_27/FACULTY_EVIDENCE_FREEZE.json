@@ -1,13 +1,14 @@
 {
   "audit_id": "oulu_readiness_2026_08_27",
-  "faculty_outreach_recommendation": "YES_WITH_EXPLICIT_LIMITATIONS",
+  "working_title_v3": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
+  "ESTABLISHED_NOVELTY_CLAIM": false,
   "CURSOR_MERGED_NOTHING": true,
   "STANDARDIZED_6G_CLAIM": false,
   "OULU_AFFILIATION_CLAIM": false,
   "PHYSICAL_EVIDENCE_NOT_INFERRED_FROM_DIGITAL": true,
   "scientific_problem": "How to preserve minimum useful service for resource-constrained devices when access, compute placement, fidelity, and recovery must be chosen jointly under terrestrial/NTN/backhaul disruption.",
   "why_communications_engineering": "The object is wireless service continuity under heterogeneous 6G-era access (TN/NTN, blockage, outage), not an OS or game product dissertation. CWC Wireless Connectivity / Radio Technologies and 6G Flagship SRAs are the public fit; no affiliation is claimed.",
-  "what_is_novel": "A cross-layer continuity controller framed as jointly variable communication/compute/recovery choices, evaluated in a site-aware digital twin plus TN/NTN disruption sim, with explicit evidence-class discipline. Novelty is the problem formulation and instrumented stack, not a claim of new PHY or operator NTN performance.",
+  "proposed_contribution_novelty_hypothesis": "A service-continuity formulation that treats minimum useful service as a cross-layer objective and evaluates access, compute placement, fidelity/recovery actions, and TN/NTN fallback through a reproducible instrumented stack. The novelty claim remains to be tested against the focused literature review and supervisor/peer-review feedback. Not a claim of established novelty, new PHY, operator NTN performance, or trained RL.",
   "what_is_measurable": "Continuity states (target/degraded/min_useful/failed); service_continuity_utility; beam top-k and dB-vs-oracle; NTN vs terrestrial uptime/min_service/recovery_steps; seed-wise CIs on Paper II; host process timing (not sub-ms edge proof).",
   "baselines": "SpectrumX: no_adaptation / static / placement-only. ReadyGary: exhaustive/hierarchical/oracle. NTN: terrestrial_baseline / static_ntn / fallback / adaptive. 7GC: proportional-fair stub (weaker).",
   "completable_in_simulation": "RQ1 profile/scenario generation; RQ2 rule-based policy comparison under synthetic slots; RQ2 beam selection under TDL; RQ3 decision regions under configured TR 38.821-scoped assumptions; ablations and domain-shift for Paper II.",
@@ -19,13 +20,14 @@
       "certification",
       "games as products"
     ],
-    "thesis_critical_or_strongly_expected_by_CWC": [
-      "at least one transfer or test-network/measurement campaign for RQ3",
+    "validation_that_would_materially_strengthen_papers_ii_iii": [
+      "a test-network or measurement transfer campaign for RQ3 (high-value later validation, not a stated CWC defence requirement)",
       "independent reproduction of digital packs",
       "honest limitation chapter"
     ],
-    "can_finish_3_to_4_years_without_shipping_hardware": true,
-    "reason": "Papers I\u2013III can be completed as SYNTHETIC_SIM / EMULATED with one scoped measurement or 5GTN-style campaign if available; hardware shipping is product, not the dissertation object."
+    "v3_four_year_staged_schedule": true,
+    "completion_duration_proven": false,
+    "reason": "The V3 plan is structured as a four-year, simulation-first and measurement-grounded programme. Later measurement/test-network access strengthens Papers II-III but does not gate the theoretical core. Hardware shipping is product, not the dissertation object."
   },
   "research_instruments": {
     "7gc-digital-twin": "scenario/digital-twin framework",
@@ -44,7 +46,7 @@
     "games": "optional latency-sensitive interactive workloads"
   },
   "evidence_now": {
-    "digital": "All six primary repos + portal: accepted-main pytest and smallest scientific scripts PASS 2026-08-27",
+    "digital": "All six primary repos + portal: accepted-main digital reproduction PASS 2026-08-27 (not physical/independent validation)",
     "physical": "PENDING (Pixel install/launch smoke only)",
     "human": "PENDING",
     "external_reproduction": "PENDING",
@@ -60,7 +62,7 @@
     "Oulu affiliation",
     "standardized 6G product"
   ],
-  "what_oulu_5gtn_would_strengthen": "Test-network interruption campaigns, independently witnessed RF/QoS, NTN-capable terrestrial fallback on real bearers, external reproduction culture, CWC supervision narrowing fidelity/checkpoint action design.",
+  "what_oulu_cwc_test_network_resources_could_strengthen": "Test-network interruption campaigns, independently witnessed RF/QoS, NTN-capable terrestrial fallback on real bearers, external reproduction culture, supervisor narrowing of fidelity/checkpoint action design. Resource-fit only; not a uniqueness or affiliation claim.",
   "accepted_main_shas": {
     "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
     "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",

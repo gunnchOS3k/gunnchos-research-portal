@@ -8,7 +8,9 @@ The 2026-08-18 baseline table is kept below as **historical**. It is not live Gi
 
 ## RQ1 / Paper I — live 2026-08-27
 
-**Question.** How should minimum useful service be represented for resource-constrained devices when communication, compute, fidelity, and recovery choices are jointly variable?
+**Canonical RQ (V3).** How can representative workloads and the constraints of four resource-constrained device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios?
+
+**Evidence-audit interpretation.** How should minimum useful service be represented for resource-constrained devices when communication, compute, fidelity, and recovery choices are jointly variable?
 
 | Item | Status on accepted main |
 |---|---|
@@ -24,7 +26,9 @@ Supporting workloads (games, WAIKE, gunnchAI) may supply traces **if** a frozen 
 
 ## RQ2 / Paper II — live 2026-08-27
 
-**Question.** When should a system switch access, move computation, reduce fidelity, use local/peer compute, checkpoint/recover, or enter a degraded/offline mode?
+**Canonical RQ (V3).** To what extent can joint access selection, computation placement, fidelity/model adaptation, caching/checkpointing, and recovery control - informed by radio-aware digital-twin state and uncertainty - improve service-continuity utility under mobility, blockage, congestion, edge-resource variation, and energy constraints?
+
+**Evidence-audit interpretation.** When should a system switch access, move computation, reduce fidelity, use local/peer compute, checkpoint/recover, or enter a degraded/offline mode?
 
 | Item | Status on accepted main |
 |---|---|
@@ -42,7 +46,9 @@ Dirty local ReadyGary tables (2026-08-27 working tree) are **not** accepted-main
 
 ## RQ3 / Paper III — live 2026-08-27
 
-**Question.** Under terrestrial/NTN/backhaul disruption, what decision regions and policies preserve useful service, and how well do digital-twin/simulation conclusions transfer toward test-network or measurement evidence?
+**Canonical RQ (V3).** Under which disruption conditions do terrestrial, local-edge, peer/device-to-device, offline, and NTN fallback modes preserve minimum useful service, and what performance, energy, privacy, and recovery tradeoffs arise in simulation, emulation, and device-level measurements?
+
+**Evidence-audit interpretation.** Under terrestrial/NTN/backhaul disruption, what decision regions and policies preserve useful service, and how well do digital-twin/simulation conclusions transfer toward test-network or measurement evidence?
 
 | Item | Status on accepted main |
 |---|---|

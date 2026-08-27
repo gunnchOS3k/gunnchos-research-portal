@@ -4,6 +4,8 @@ Machine-readable: [`artifacts/oulu_readiness_2026_08_27/FACULTY_EVIDENCE_FREEZE.
 
 This freeze is for a **Communications Engineering / CWC / 6G Flagship conversation**. It does not require the product ecosystem to be finished.
 
+**Working title (V3).** Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices
+
 **No University of Oulu affiliation, supervisor commitment, or standardized/commercial 6G product is claimed.**
 
 Live SHA freeze: 7GC `4cd7016` · SpectrumX `cef3900` · ReadyGary `5698752` · Edge I/O `af57fbd` · NTN `9165209` · WAIKE `8eb2827` · portal `2a3303d`.
@@ -18,9 +20,11 @@ How should **minimum useful service** be represented and preserved for resource-
 
 The object is **wireless service continuity** under heterogeneous access (blockage, outage, TN/NTN fallback, radio-aware control), not an operating-system or game dissertation. Public fit is 6G Flagship Wireless Connectivity and CWC Radio / Networks themes. Official sources are listed in [docs/phd/OULU_FIT.md](../phd/OULU_FIT.md). Personnel names are not proposed as supervisors here.
 
-## 3. What is novel?
+## 3. What is the proposed contribution?
 
-A **cross-layer continuity** formulation (access × placement × degraded/offline modes) instrumented across a site-aware digital twin, an AI-RAN policy harness, a beam-selection benchmark, and a TN/NTN disruption simulator, with explicit evidence-class labels. Novelty is the problem + instrumented stack. It is **not** a claim of a new standardized PHY, operator NTN performance, or trained RL policy.
+**Proposed contribution / novelty hypothesis:** a service-continuity formulation that treats minimum useful service as a cross-layer objective and evaluates access, compute placement, fidelity/recovery actions, and TN/NTN fallback through a reproducible instrumented stack. The novelty claim remains to be tested against the focused literature review and supervisor/peer-review feedback.
+
+It is **not** a claim of established novelty, a new standardized PHY, operator NTN performance, or a trained RL policy.
 
 ## 4. What is measurable?
 
@@ -42,16 +46,16 @@ A **cross-layer continuity** formulation (access × placement × degraded/offlin
 
 ## 6. What can be completed fully in simulation / digital twin?
 
-RQ1 scenario and profile generation; RQ2 synthetic policy comparison and FR2/Sub-6/dual-band beam tables; RQ3 decision regions under documented assumptions; Paper II ablations and domain shift. All of this was **re-run PASS** on 2026-08-27 from `origin/main`.
+RQ1 scenario and profile generation; RQ2 synthetic policy comparison and FR2/Sub-6/dual-band beam tables; RQ3 decision regions under documented assumptions; Paper II ablations and domain shift. All of this was **accepted-main digital reproduction PASS** on 2026-08-27 from `origin/main`. That is not physical, independent, or operator validation.
 
-## 7. What physical / test-network work is optional vs thesis-critical?
+## 7. What physical / test-network work is optional vs later validation?
 
-| Optional for a simulation-first thesis | Strongly expected for a CWC-style defence | Product, not thesis |
+| Optional for a simulation-first thesis | Validation that would materially strengthen Papers II–III | Product, not thesis |
 |---|---|---|
-| Shipping EVT silicon | At least one honest transfer or test-network/measurement campaign for RQ3 | Manufacture, carrier attach, certification, games as products |
+| Shipping EVT silicon | A test-network or measurement transfer campaign for RQ3 (high-value later validation, not a stated CWC defence requirement) | Manufacture, carrier attach, certification, games as products |
 | Full Device Quartet | Independent reproduction of the digital packs | |
 
-A dissertation can finish in **~3–4 years** if Papers I–III stay scoped to `SYNTHETIC_SIM` / `EMULATED` plus one measurement or 5GTN-style campaign **if available**. Final gunnchOS hardware is not the doctoral object.
+The V3 plan is structured as a four-year, simulation-first and measurement-grounded programme. Later measurement/test-network access strengthens Papers II–III but does not gate the theoretical core. Final gunnchOS hardware is not the doctoral object. This is the V3 schedule, not a proven completion date.
 
 ## 8. Which repositories are research instruments?
 
@@ -68,7 +72,7 @@ Narrow product roles: Device Quartet = research form factors; WAIKE = workload m
 
 ## 9. What evidence exists now?
 
-**Digital:** pytest + smallest scientific scripts PASS on all six instruments and this portal (see [ACCEPTED_MAIN_REPRODUCTION.md](ACCEPTED_MAIN_REPRODUCTION.md)). Paper II has held-out / ablation / domain-shift / CIs. Paper I and III have synthetic summaries and reproduce scripts.
+**Digital:** accepted-main **digital reproduction PASS** on all six instruments and this portal (see [ACCEPTED_MAIN_REPRODUCTION.md](ACCEPTED_MAIN_REPRODUCTION.md)). Paper II has held-out / ablation / domain-shift / CIs. Paper I and III have synthetic summaries and reproduce scripts. This does not imply physical, human, or independent validation.
 
 **Physical:** Pixel 6a **install/launch smoke only** — not RF, not spatial accuracy.
 
@@ -76,12 +80,12 @@ Narrow product roles: Device Quartet = research form factors; WAIKE = workload m
 
 Calibrated mmWave OTA; NTN operator attach; sim→field transfer test; independent third-party reproduction; student/partner classroom execution; certification; carrier-grade operation; Oulu affiliation.
 
-## 11. What would Oulu / 5GTN / 6G Flagship uniquely strengthen?
+## 11. What could Oulu / relevant CWC test-network resources strengthen?
 
-Witnessed test-network interruption, RF/QoS calibration, terrestrial/NTN-capable fallback on real bearers, external reproduction culture, and supervisor narrowing of the missing fidelity + checkpoint action design.
+Witnessed test-network interruption, RF/QoS calibration, terrestrial/NTN-capable fallback on real bearers, external reproduction culture, and supervisor narrowing of the missing fidelity + checkpoint action design. This is a resource-fit statement, not a uniqueness or affiliation claim.
 
 ## 12. Why can this dissertation finish without shipping hardware?
 
-Because the **scientific claims are about decision regions and continuity policies under stated models**, which are already digitally exercisable. Hardware shipping would strengthen RQ3 transfer; it is not required to pose, bound, and publish the three papers if limitations stay honest.
+Because the **scientific claims are about decision regions and continuity policies under stated models**, which are already digitally exercisable. Hardware shipping would strengthen RQ3 transfer; it is not required to pose and bound the three papers if limitations stay honest. The V3 plan remains a four-year staged programme, not a guarantee.
 
 **Faculty outreach recommendation:** `YES_WITH_EXPLICIT_LIMITATIONS`.

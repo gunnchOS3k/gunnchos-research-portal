@@ -1,7 +1,7 @@
 {
   "audit_id": "oulu_readiness_2026_08_27",
   "generated_at_utc": "2026-08-27T20:35:00Z",
-  "doctoral_direction": "Resilience-Aware Service Continuity and Cross-Layer Orchestration for Resource-Constrained Devices in Heterogeneous 6G Networks",
+  "doctoral_direction": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "truth_boundary": "5G-Advanced / NTN-capable research architecture, IMT-2030 aligned, software-defined, engineered for migration toward standardized 6G \u2014 not a final standardized/commercial 6G product.",
   "accepted_main_shas": {
     "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
@@ -25,19 +25,22 @@
   ],
   "rq_rollup": {
     "RQ1": {
-      "title": "Service continuity model",
+      "canonical_rq_v3": "How can representative workloads and the constraints of four resource-constrained device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios?",
+      "evidence_audit_interpretation": "Service-continuity profiles, metrics, and benchmarks",
       "status": "PARTIAL",
       "strongest_evidence": "7gc-digital-twin paper/artifacts/rq1_experiment_summary.json + fixtures/device_os/SERVICE_CONTINUITY_PROFILES.json; make reproduce EXIT=0 on 2026-08-27",
       "gap": "Joint communication/compute/fidelity/recovery representation is not a single frozen action model; RQ1 statistical pack is lighter than Paper II CIs."
     },
     "RQ2": {
-      "title": "Cross-layer controller",
+      "canonical_rq_v3": "To what extent can joint access selection, computation placement, fidelity/model adaptation, caching/checkpointing, and recovery control - informed by radio-aware digital-twin state and uncertainty - improve service-continuity utility under mobility, blockage, congestion, edge-resource variation, and energy constraints?",
+      "evidence_audit_interpretation": "Cross-layer controller (access, placement, fidelity, checkpoint/recover)",
       "status": "PARTIAL",
       "strongest_evidence": "spectrumx Paper II held-out/ablation/domain-shift JSON with 95% t-CI; ReadyGary FR2 beam held-out JSON. Both SYNTHETIC_SIM.",
       "gap": "Shipped Action is network x placement x shares/power (plus beam/band). Fidelity adaptation and checkpoint/recover are MISSING_DIGITAL. Not trained RL."
     },
     "RQ3": {
-      "title": "TN/NTN resilience and validation",
+      "canonical_rq_v3": "Under which disruption conditions do terrestrial, local-edge, peer/device-to-device, offline, and NTN fallback modes preserve minimum useful service, and what performance, energy, privacy, and recovery tradeoffs arise in simulation, emulation, and device-level measurements?",
+      "evidence_audit_interpretation": "TN/NTN disruption, fallback, and transfer toward measurement",
       "status": "PARTIAL",
       "strongest_evidence": "ntn-resilience-sim paper/artifacts/rq3_experiment_summary.json + reproduce JSON; rejects NTN-always-better under configured assumptions.",
       "gap": "No sim\u2192measurement transfer. Edge I/O spatial/RF PHYSICAL_PENDING. Independent reproduction EXTERNAL_PENDING. Human QA HUMAN_PENDING."
