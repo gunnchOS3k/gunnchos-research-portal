@@ -1,0 +1,1645 @@
+{
+  "audit_id": "oulu_readiness_2026_08_27",
+  "generated_at_utc": "2026-08-27T20:35:00Z",
+  "doctoral_direction": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
+  "truth_boundary": "5G-Advanced / NTN-capable research architecture, IMT-2030 aligned, software-defined, engineered for migration toward standardized 6G \u2014 not a final standardized/commercial 6G product.",
+  "accepted_main_shas": {
+    "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+    "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",
+    "readygary-6g-beam-selection": "569875224db7812890ec6abc48dfe43a608094f3",
+    "edge-io-measurement-node": "af57fbdac857ae386b23b5b747fdc05797621f92",
+    "ntn-resilience-sim": "916520919bea4d9957970d824045c32929bb80e5",
+    "waike-research-ops": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+    "gunnchos-research-portal": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
+  },
+  "status_vocabulary": [
+    "IMPLEMENTED_AND_REPRODUCIBLE",
+    "IMPLEMENTED_NOT_YET_REPRODUCED",
+    "PARTIAL",
+    "DOCUMENTED_ONLY",
+    "MISSING_DIGITAL",
+    "PHYSICAL_PENDING",
+    "HUMAN_PENDING",
+    "EXTERNAL_PENDING",
+    "NOT_APPLICABLE"
+  ],
+  "rq_rollup": {
+    "RQ1": {
+      "canonical_rq_v3": "How can representative workloads and the constraints of four resource-constrained device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios?",
+      "evidence_audit_interpretation": "Service-continuity profiles, metrics, and benchmarks",
+      "status": "PARTIAL",
+      "strongest_evidence": "7gc-digital-twin paper/artifacts/rq1_experiment_summary.json + fixtures/device_os/SERVICE_CONTINUITY_PROFILES.json; make reproduce EXIT=0 on 2026-08-27",
+      "gap": "Joint communication/compute/fidelity/recovery representation is not a single frozen action model; RQ1 statistical pack is lighter than Paper II CIs."
+    },
+    "RQ2": {
+      "canonical_rq_v3": "To what extent can joint access selection, computation placement, fidelity/model adaptation, caching/checkpointing, and recovery control - informed by radio-aware digital-twin state and uncertainty - improve service-continuity utility under mobility, blockage, congestion, edge-resource variation, and energy constraints?",
+      "evidence_audit_interpretation": "Cross-layer controller (access, placement, fidelity, checkpoint/recover)",
+      "status": "PARTIAL",
+      "strongest_evidence": "spectrumx Paper II held-out/ablation/domain-shift JSON with 95% t-CI; ReadyGary FR2 beam held-out JSON. Both SYNTHETIC_SIM.",
+      "gap": "Shipped Action is network x placement x shares/power (plus beam/band). Fidelity adaptation and checkpoint/recover are MISSING_DIGITAL. Not trained RL."
+    },
+    "RQ3": {
+      "canonical_rq_v3": "Under which disruption conditions do terrestrial, local-edge, peer/device-to-device, offline, and NTN fallback modes preserve minimum useful service, and what performance, energy, privacy, and recovery tradeoffs arise in simulation, emulation, and device-level measurements?",
+      "evidence_audit_interpretation": "TN/NTN disruption, fallback, and transfer toward measurement",
+      "status": "PARTIAL",
+      "strongest_evidence": "ntn-resilience-sim paper/artifacts/rq3_experiment_summary.json + reproduce JSON; rejects NTN-always-better under configured assumptions.",
+      "gap": "No sim\u2192measurement transfer. Edge I/O spatial/RF PHYSICAL_PENDING. Independent reproduction EXTERNAL_PENDING. Human QA HUMAN_PENDING."
+    }
+  },
+  "capabilities": [
+    {
+      "capability": "model_variables",
+      "maps_to": "RQ1",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "src/seven_gc_twin/config/schema.py",
+          "command": "make validate-sites / make reproduce",
+          "artifact_or_result": "results/experiments/rq1_gary_flagship_profiles.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "configs/digital_twin_gary.yaml",
+          "command": "python3 scripts/demo_airan_policy.py --toy",
+          "artifact_or_result": "results/e2e/airan_policy_metrics.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "sim/channels/ configs/bands/",
+          "command": "PYTHONPATH=. python3 scripts/run_benchmark_table.py --toy",
+          "artifact_or_result": "results/e2e/benchmark_summary.md",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "src/ntn_resilience/",
+          "command": "PYTHONPATH=src python3 scripts/reproduce.py",
+          "artifact_or_result": "results/experiments/rq3_gary_failover_sweeps.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "src/edge_io_node/telemetry_schema.py",
+          "command": "PYTHONPATH=src python3 scripts/reproduce.py",
+          "artifact_or_result": "results/research_export/gary_research_export.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "pytest subset",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "education workloads, not radio model variables"
+        }
+      ]
+    },
+    {
+      "capability": "system_assumptions",
+      "maps_to": "RQ1/RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "configs/buildings/*/climate_assumptions.yaml",
+          "command": "make validate-sites",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "docs/SCENARIO_ENGINE_ASSUMPTIONS.md",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "docs/ + band firewall tests",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "docs/ASSUMPTION_REGISTRY.md",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "TR 38.821-scoped; not operator NTN"
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "DOCUMENTED_ONLY",
+          "path": "README.md / PIXEL docs",
+          "command": "",
+          "artifact_or_result": "PHYSICAL_PENDING in export JSON",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "service_profiles",
+      "maps_to": "RQ1",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "fixtures/device_os/SERVICE_CONTINUITY_PROFILES.json",
+          "command": "make reproduce",
+          "artifact_or_result": "paper/artifacts/rq1_experiment_summary.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "PARTIAL",
+          "path": "digital_programme Slot continuity classes",
+          "command": "make paper-reproduce / tests/test_paper_ii_digital.py",
+          "artifact_or_result": "results/experiments/rq2_cross_layer_continuity_*.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "PARTIAL",
+          "path": "configs/campus_radio_profiles/",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "traffic_classes.yaml / min-service metrics",
+          "command": "make reproduce",
+          "artifact_or_result": "paper/artifacts/rq3_experiment_summary.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "configs/campus_measurement_profiles/",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "PARTIAL",
+          "path": "configs/campus_learning_tracks/",
+          "command": "PYTHONPATH=src python3 scripts/emit_digital_rc.py",
+          "artifact_or_result": "artifacts/COURSE_COUNTS.json",
+          "evidence_class": "digital",
+          "note": "workload model only"
+        }
+      ]
+    },
+    {
+      "capability": "state_action_space",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "src/seven_gc_twin/continuity_benchmark.py",
+          "command": "make reproduce",
+          "artifact_or_result": "continuity states target/degraded/min_useful/failed",
+          "evidence_class": "digital",
+          "note": "no joint cross-layer action enum"
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "Action(shares, power, network, placement)",
+          "command": "tests/test_paper_ii_digital.py",
+          "artifact_or_result": "results/experiments/rq2_cross_layer_continuity_heldout.json",
+          "evidence_class": "digital",
+          "note": "network includes offline_continuation; fidelity/checkpoint not in Action"
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "sim/policies/ sim/dualband/controller.py",
+          "command": "make test",
+          "artifact_or_result": "beam index / band decide",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "fallback_policy.py paths terrestrial/ntn/offline",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "MeasurementSessionController.kt / consent lifecycle",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "controller",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "src/seven_gc_twin/baseline_policy.py",
+          "command": "make test",
+          "artifact_or_result": "proportional-fair stub",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "twin_informed / Gate2 twin_policies.py",
+          "command": "python3 scripts/demo_airan_policy.py --toy",
+          "artifact_or_result": "rule-based, not trained RL",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "sim/policies + dualband controller",
+          "command": "PYTHONPATH=. python3 scripts/run_benchmark_table.py --toy",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "fallback_policy.py",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "Android session controller",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "baselines",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "baseline_policy.py",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "no_adaptation, static, placement-only",
+          "command": "make paper-reproduce / tests/test_paper_ii_digital.py",
+          "artifact_or_result": "results/experiments/rq2_cross_layer_continuity_*.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "sim/baselines exhaustive/hierarchical",
+          "command": "scripts/run_benchmark_table.py --toy",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "terrestrial_baseline, static_ntn, fallback, adaptive",
+          "command": "make reproduce",
+          "artifact_or_result": "paper/artifacts/rq3_experiment_summary.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "measurement node",
+          "evidence_class": "",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "metrics",
+      "maps_to": "RQ1/RQ2/RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "src/seven_gc_twin/metrics.py",
+          "command": "PYTHONPATH=src python3 -m seven_gc_twin.cli metrics gary --toy",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "service_continuity_utility + latency/energy/fairness/switches/compute_time_ms",
+          "command": "make test",
+          "artifact_or_result": "results/experiments/*.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "top-k, dB loss, SE, switch cost, compute_time_ms",
+          "command": "scripts/run_benchmark_table.py --toy",
+          "artifact_or_result": "results/e2e/benchmark_metrics.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "uptime, min_service, recovery_steps",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "synthetic latency/loss probes",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "PARTIAL",
+          "path": "mastery/eval metrics",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "learning metrics, not wireless"
+        }
+      ]
+    },
+    {
+      "capability": "scenario_generator",
+      "maps_to": "RQ1/RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scenario_engine.py bad_day_scenarios.py",
+          "command": "make smoke",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "digital_programme.py",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "sim/experiments/*_programme.py",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "outage model + campus scenario YAMLs",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "synthetic device emulator",
+          "command": "make smoke",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "PARTIAL",
+          "path": "case-study generators",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "tn_ntn_disruption_model",
+      "maps_to": "RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "bad-day / integrations/ntn.py",
+          "command": "make smoke",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "hooks, not full outage engine"
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "PARTIAL",
+          "path": "synthetic outage + ntn_fallback label",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "NOT_APPLICABLE",
+          "path": "blockage/mobility in channel only",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "PHY blockage \u2260 TN/NTN failover"
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "core outage + fallback",
+          "command": "PYTHONPATH=src python3 scripts/reproduce.py",
+          "artifact_or_result": "results/experiments/rq3_gary_failover_sweeps.json",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "not an outage sim"
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "DOCUMENTED_ONLY",
+          "path": "case_studies/7gc/gary/outage_learning_cache/",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "compute_placement",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "workload/compute metrics in RQ1 protocol",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "Action placement cloud/edge/local",
+          "command": "tests/test_paper_ii_digital.py",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "PHY-facing"
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "fidelity_adaptation",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "MISSING_DIGITAL",
+          "path": "Action has no fidelity arm",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "largest RQ2 digital gap"
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "PARTIAL",
+          "path": "dual-band / CSI-type choices",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "not a model-fidelity ladder"
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "checkpoint_recovery",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "offline/min-useful continuity",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "no service checkpoint API"
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "recovery_steps_to_min_service store_forward.py",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "Android FileProvider recovery / ring fallback",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "offline_degraded_behavior",
+      "maps_to": "RQ1/RQ2/RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "continuity classifier + jam_wifi_offline_fallback",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "offline_continuation, degraded_local",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "PARTIAL",
+          "path": "radio decision under stress",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "offline path + edge cache",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "local-safe campus mode",
+          "command": "python3 -m edge_io_node.cli run-all-campus --mode local-safe",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "PARTIAL",
+          "path": "outage_learning_cache case study",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "reproducibility",
+      "maps_to": "all",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/reproduce.py REPRODUCIBILITY.md",
+          "command": "PYTHONPATH=src python3 scripts/reproduce.py",
+          "artifact_or_result": "results/reproduce/REPRODUCE_RECORD.json EXIT=0 2026-08-27",
+          "evidence_class": "digital",
+          "note": "independent still EXTERNAL_PENDING"
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "REPRODUCIBILITY.md",
+          "command": "python3 -m pytest -q tests/test_airan_research.py tests/test_paper_ii_digital.py tests/gate2",
+          "artifact_or_result": "10 passed",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "REPRODUCIBILITY.md",
+          "command": "PYTHONPATH=. python3 -m pytest -q",
+          "artifact_or_result": "31 passed",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/reproduce.py",
+          "command": "PYTHONPATH=src python3 scripts/reproduce.py",
+          "artifact_or_result": "EXIT=0",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/reproduce.py",
+          "command": "PYTHONPATH=src python3 scripts/reproduce.py",
+          "artifact_or_result": "spatial_accuracy PHYSICAL_PENDING",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "tests/test_pathway_schema.py tests/journeys tests/curriculum/test_digital_rc_batch.py",
+          "command": "PYTHONPATH=src python3 -m pytest -q ...",
+          "artifact_or_result": "19 passed",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "gunnchos-research-portal",
+          "accepted_main_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/validate_supervisor_ready.py tests/",
+          "command": "python3 -m pytest -q tests/",
+          "artifact_or_result": "7 passed",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "seeds_configs",
+      "maps_to": "all",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "configs/experiments/rq1_gary_flagship_profiles.yaml",
+          "command": "seeds [1,2,7,42]",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "paper protocol train[0..4] held-out[100..104]",
+          "command": "make paper-reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "paper/artifacts/experiment_protocol*.yaml",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "configs/experiments/rq3_gary_failover_sweeps.yaml",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PARTIAL",
+          "path": "campus YAMLs --n 5 export",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "PARTIAL",
+          "path": "curriculum YAML",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "experiment_scripts",
+      "maps_to": "all",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/reproduce.py",
+          "command": "make reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/run_paper_ii_*.py scripts/demo_airan_policy.py",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/run_benchmark_table.py scripts/run_paper_ii_heldout.py",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/reproduce.py",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "scripts/reproduce.py",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "PARTIAL",
+          "path": "scripts/emit_digital_rc.py scripts/run_course_labs.py",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "output_schemas",
+      "maps_to": "all",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "experiment JSON + scene exports",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/*.json schemas/aerial_data_lake/",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/*.json results/e2e/benchmark_metrics.json",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "experiment JSON convention",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "telemetry_schema.py",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "pathway/course JSON",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "statistical_reporting",
+      "maps_to": "RQ2 vs RQ1/RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "paper/tables/rq1_seed_sensitivity.tex paper/artifacts/rq1_experiment_summary.json",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "seed sensitivity present; not full 95% t-CI pack like Paper II"
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_cross_layer_continuity_summary.json",
+          "command": "make paper-reproduce",
+          "artifact_or_result": "seed means, 95% t-CI, Cohen d",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_beam_selection_fr2_summary.json",
+          "command": "",
+          "artifact_or_result": "seed CIs in experiment JSON",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "paper/artifacts/rq3_experiment_summary.json",
+          "command": "make reproduce",
+          "artifact_or_result": "policy means / decision cells; lighter than Paper II CIs",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "ablations",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_cross_layer_continuity_ablation.json",
+          "command": "make paper-reproduce",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_beam_selection_fr2_ablation.json",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "GEO vs LEO / compound-failure in findings",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "domain_shift",
+      "maps_to": "RQ2",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "cross-site inclusion families",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "comparative fixtures, not a shift experiment"
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "high_blockage / energy_constrained / outage_heavy",
+          "command": "make paper-reproduce",
+          "artifact_or_result": "rq2_cross_layer_continuity domain_shift JSON",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_beam_selection_fr2_domain_shift.json",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "multi-site campus scenarios",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "measurement_hooks",
+      "maps_to": "RQ3",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "PARTIAL",
+          "path": "gate2/edge_ingest.py docs/EDGE_IO_TELEMETRY_CONTRACT.md",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "PARTIAL",
+          "path": "OTA lake schema; adapters fail-closed",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "EXTERNAL_PENDING",
+          "path": "DeepMIMO/Sionna/TensorRT adapters fail-closed",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "external",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "PARTIAL",
+          "path": "tool adapters; no Edge-IO closed loop on main",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PHYSICAL_PENDING",
+          "path": "collectors + artifacts/pixel6a/ACCEPTANCE.json",
+          "command": "install/launch smoke if Pixel present",
+          "artifact_or_result": "pixel_6a_ready PASS is digital install/launch only",
+          "evidence_class": "physical",
+          "note": "PHYSICAL_PENDING for RF/QoS/spatial"
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "ethics_boundaries",
+      "maps_to": "all",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "docs/08_ETHICS_SECURITY_PRIVACY.md tests/test_7gc_non_claim_policy.py",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "ethics docs + competition data governance",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "ethics docs",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "Gaza/Graham Land non-claim tests",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "privacy/consent tests",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "child safety, no PII",
+          "command": "make test",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "capability": "claim_evidence_mapping",
+      "maps_to": "all",
+      "cells": [
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "CLAIMS_TO_EVIDENCE.md quality/CLAIMS_TO_EVIDENCE_MATRIX.md",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "quality/CLAIMS_TO_EVIDENCE_MATRIX.md paper/CLAIMS_TO_EVIDENCE.md",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "claims matrix + README status levels",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "claims docs + non-claim tests",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "PIXEL docs + claims matrix",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "gunnchos-research-portal",
+          "accepted_main_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md",
+          "command": "updated this audit to 2026-08-27 freeze",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "2026-08-18 table was stale vs later Paper II packs"
+        }
+      ]
+    },
+    {
+      "capability": "sim_to_measurement_transfer",
+      "maps_to": "RQ3",
+      "cells": [
+        {
+          "repo": "ntn-resilience-sim",
+          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": "decision regions exist; no transfer test"
+        },
+        {
+          "repo": "edge-io-measurement-node",
+          "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+          "status": "PHYSICAL_PENDING",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "physical",
+          "note": ""
+        },
+        {
+          "repo": "7gc-digital-twin",
+          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "spectrumx-ai-ran-gary",
+          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "status": "MISSING_DIGITAL",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "digital",
+          "note": ""
+        },
+        {
+          "repo": "readygary-6g-beam-selection",
+          "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+          "status": "EXTERNAL_PENDING",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "external",
+          "note": "OTA/DeepMIMO transfer open"
+        },
+        {
+          "repo": "waike-research-ops",
+          "accepted_main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+          "status": "NOT_APPLICABLE",
+          "path": "",
+          "command": "",
+          "artifact_or_result": "",
+          "evidence_class": "",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

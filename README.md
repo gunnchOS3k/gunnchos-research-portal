@@ -10,7 +10,7 @@ Working thesis: **Resilience-Aware Service Continuity in Heterogeneous 6G Networ
 
 | Audience | Start |
 |---|---|
-| Faculty / supervisor | [docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md) |
+| Faculty / supervisor | [docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md) · [docs/oulu/FACULTY_EVIDENCE_FREEZE.md](docs/oulu/FACULTY_EVIDENCE_FREEZE.md) (2026-08-27) |
 | Researcher | [audiences/RESEARCHER.md](audiences/RESEARCHER.md) · [docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md](docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md) |
 | Curious / student / intern | [START_HERE.md](START_HERE.md) (product ecosystem path) |
 | Developer | [audiences/DEVELOPER.md](audiences/DEVELOPER.md) |

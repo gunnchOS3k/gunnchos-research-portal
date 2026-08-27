@@ -452,9 +452,9 @@ def main() -> int:
         "working_title": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
         "affiliation_claim": "NONE — no University of Oulu affiliation, admission, funding, or supervisor commitment",
         "research_questions": {
-            "RQ1": "How can representative workloads and four device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios?",
-            "RQ2": "To what extent can joint access, placement, fidelity, caching/checkpointing, and recovery control — informed by radio-aware digital-twin state and uncertainty — improve continuity versus transparent baselines?",
-            "RQ3": "Under which disruption conditions do terrestrial, local-edge, peer, offline, and NTN fallback modes preserve minimum useful service, and what tradeoffs appear?",
+            "RQ1": "How can representative workloads and the constraints of four resource-constrained device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios?",
+            "RQ2": "To what extent can joint access selection, computation placement, fidelity/model adaptation, caching/checkpointing, and recovery control - informed by radio-aware digital-twin state and uncertainty - improve service-continuity utility under mobility, blockage, congestion, edge-resource variation, and energy constraints?",
+            "RQ3": "Under which disruption conditions do terrestrial, local-edge, peer/device-to-device, offline, and NTN fallback modes preserve minimum useful service, and what performance, energy, privacy, and recovery tradeoffs arise in simulation, emulation, and device-level measurements?",
         },
         "papers": {
             "paper1_service_continuity": {

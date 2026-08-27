@@ -21,11 +21,11 @@ Latency, jitter, blockage, handover, backhaul failure, compute placement, energy
 
 **Three primary research questions (article-based dissertation).**
 
-| Paper | Question |
+| Paper | Canonical RQ (V3) |
 |---|---|
-| **RQ1 / Paper I** | How can representative workloads and four device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios? |
-| **RQ2 / Paper II** | To what extent can joint access, placement, fidelity, caching/checkpointing, and recovery control — informed by radio-aware digital-twin state and uncertainty — improve continuity versus transparent baselines? |
-| **RQ3 / Paper III** | Under which disruption conditions do terrestrial, local-edge, peer, offline, and NTN fallback modes preserve minimum useful service, and what tradeoffs appear? |
+| **RQ1 / Paper I** | How can representative workloads and the constraints of four resource-constrained device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios? |
+| **RQ2 / Paper II** | To what extent can joint access selection, computation placement, fidelity/model adaptation, caching/checkpointing, and recovery control - informed by radio-aware digital-twin state and uncertainty - improve service-continuity utility under mobility, blockage, congestion, edge-resource variation, and energy constraints? |
+| **RQ3 / Paper III** | Under which disruption conditions do terrestrial, local-edge, peer/device-to-device, offline, and NTN fallback modes preserve minimum useful service, and what performance, energy, privacy, and recovery tradeoffs arise in simulation, emulation, and device-level measurements? |
 
 **Research status (honest).**  
 The experimental computing/communications **infrastructure is implemented and digitally exercisable**. Independently reproduced results and physical RF/lab measurements remain **pending**. GPU NR and emergent-intent repos are **public**; CUDA timings stay `BLOCKED_GPU` without a lab GPU. See [PORTFOLIO_READINESS_DASHBOARD.md](PORTFOLIO_READINESS_DASHBOARD.md).
@@ -34,7 +34,7 @@ The experimental computing/communications **infrastructure is implemented and di
 
 **Snapshot.** [contact_snapshots/LATEST.md](contact_snapshots/LATEST.md) (regenerate with `make supervisor-snapshot`)
 
-**Core evidence map.** [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md)
+**Core evidence map.** [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md) · **2026-08-27 faculty freeze:** [../oulu/FACULTY_EVIDENCE_FREEZE.md](../oulu/FACULTY_EVIDENCE_FREEZE.md)
 
 ---
 

@@ -1,0 +1,119 @@
+{
+  "audit_id": "oulu_readiness_2026_08_27",
+  "method": "git grep on origin/main README.md/START_HERE.md plus targeted docs. Hits classified; not all auto-rewritten.",
+  "auto_repairs_this_branch": [
+    {
+      "file": "START_HERE.md",
+      "change": "qualify carrier-grade-targeted as not certified / not carrier-grade today",
+      "classification_before": "ambiguous"
+    },
+    {
+      "file": "docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md",
+      "change": "replace stale 2026-08-18 live status with 2026-08-27 accepted-main freeze; keep historical baseline labeled",
+      "classification_before": "stale historical language"
+    }
+  ],
+  "hits": [
+    {
+      "repo": "spectrumx-ai-ran-gary",
+      "path": "README.md",
+      "line": 188,
+      "quote": "Production-ready detection pipeline with baseline and ML models",
+      "classification": "unsupported current claim",
+      "action": "LEAVE_FOR_SCOPED_RESEARCH_REPO_PR",
+      "note": "Conflicts with Limits: not carrier-grade. Not repaired this stream (WIP cap: control-plane only)."
+    },
+    {
+      "repo": "readygary-6g-beam-selection",
+      "path": "README.md",
+      "quote": "VALIDATED TODAY | make test + Paper II SYNTHETIC_SIM held-out tables",
+      "classification": "clearly scoped simulation/digital claim",
+      "action": "KEEP"
+    },
+    {
+      "repo": "readygary-6g-beam-selection",
+      "path": "README.md",
+      "quote": "Output does NOT prove: Proven sub-ms edge inference or production-ready deployment",
+      "classification": "accurate with evidence",
+      "action": "KEEP"
+    },
+    {
+      "repo": "7gc-digital-twin",
+      "path": "README.md",
+      "quote": "Not operational 6G; not Oulu affiliation; not carrier-grade",
+      "classification": "accurate with evidence",
+      "action": "KEEP"
+    },
+    {
+      "repo": "7gc-digital-twin",
+      "path": "README.md",
+      "quote": "AI-RAN policies need site-aware digital twins with validated metrics",
+      "classification": "ambiguous",
+      "action": "LEAVE",
+      "note": "aspirational 'validated'; smoke is synthetic"
+    },
+    {
+      "repo": "edge-io-measurement-node",
+      "path": "artifacts/pixel6a/ACCEPTANCE.json",
+      "quote": "pixel_6a_ready PASS + HUMAN_QA_PENDING",
+      "classification": "accurate with evidence",
+      "action": "KEEP",
+      "note": "PASS is install/launch smoke; easy to over-read as physical RF"
+    },
+    {
+      "repo": "gunnchos-research-portal",
+      "path": "START_HERE.md",
+      "quote": "carrier-grade-targeted equitable compute ecosystem",
+      "classification": "ambiguous",
+      "action": "REPAIRED_THIS_BRANCH"
+    },
+    {
+      "repo": "gunnchos-research-portal",
+      "path": "docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md",
+      "quote": "ReadyGary README labelled 28 GHz as Sub-6 GHz",
+      "classification": "stale historical language",
+      "action": "REPAIRED_THIS_BRANCH",
+      "note": "ReadyGary origin/main 5698752 already distinguishes FR2 vs Sub-6"
+    },
+    {
+      "repo": "gunnchos-research-portal",
+      "path": "docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md",
+      "quote": "Held-out families ... not a complete Paper-II evidence pack",
+      "classification": "stale historical language",
+      "action": "REPAIRED_THIS_BRANCH",
+      "note": "Paper II JSON packs exist on spectrumx/readygary main"
+    },
+    {
+      "repo": "ntn-resilience-sim",
+      "path": "README.md",
+      "quote": "Does not prove Validated NTN operator performance",
+      "classification": "accurate with evidence",
+      "action": "KEEP"
+    },
+    {
+      "repo": "waike-research-ops",
+      "path": "README.md",
+      "quote": "partner/external program execution remains EXTERNAL_PENDING",
+      "classification": "accurate with evidence",
+      "action": "KEEP"
+    },
+    {
+      "repo": "all_primary",
+      "path": "README.md Limits row",
+      "quote": "Not operational 6G; not Oulu affiliation; not carrier-grade",
+      "classification": "accurate with evidence",
+      "action": "KEEP"
+    }
+  ],
+  "absent_positive_claims_checked": [
+    "6G ready",
+    "field proven",
+    "pilot complete",
+    "Nokia partnership",
+    "satellite attach",
+    "human tested",
+    "student tested",
+    "FCC certified",
+    "manufacture ready"
+  ]
+}

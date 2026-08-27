@@ -1,0 +1,172 @@
+{
+  "audit_id": "oulu_readiness_2026_08_27",
+  "generated_at_utc": "2026-08-27T20:35:00Z",
+  "host": {
+    "os": "darwin 25.6.0",
+    "arch": "arm64",
+    "cwd_at_phase0": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal"
+  },
+  "github_identity": {
+    "login": "gunnchOS3k",
+    "name": "Edmund Gunn, Jr.",
+    "note": "token redacted; sandbox keyring initially failed, retry with keyring succeeded"
+  },
+  "method": "Detached git worktrees at origin/main under /tmp/oulu_audit_20260827. Dirty ReadyGary working tree not used. Existing repo .venv interpreters reused; Homebrew Python 3.14 PEP 668 blocked pip (recorded, not silently worked around beyond using existing venvs / Python 3.11.2).",
+  "environment": {
+    "homebrew_python": "Python 3.14.7 \u2014 pytest not importable (PEP 668)",
+    "framework_python": "Python 3.11.2 pytest 9.0.3 at /Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+    "repo_venvs_pytest": "9.1.1"
+  },
+  "repos": [
+    {
+      "repo": "7gc-digital-twin",
+      "main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+      "result": "PASS",
+      "tests": {
+        "command": "PYTHONPATH=src python -m pytest -q tests/ --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 3,
+        "output": "55 passed in 2.83s",
+        "python": "7gc-digital-twin/.venv"
+      },
+      "scientific": {
+        "command": "PYTHONPATH=src python scripts/reproduce.py",
+        "exit_code": 0,
+        "elapsed_s": 2,
+        "artifact": "results/experiments/rq1_gary_flagship_profiles.json",
+        "evidence_status_in_output": "smoke_test_only / synthetic-fixture"
+      },
+      "evidence_class": "digital",
+      "independent_reproduction": "EXTERNAL_PENDING"
+    },
+    {
+      "repo": "spectrumx-ai-ran-gary",
+      "main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+      "result": "PASS",
+      "tests": {
+        "command": "python -m pytest -q tests/test_airan_research.py tests/test_paper_ii_digital.py tests/gate2 --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 2,
+        "output": "10 passed in 1.51s"
+      },
+      "scientific": {
+        "command": "python scripts/demo_airan_policy.py --toy",
+        "exit_code": 0,
+        "elapsed_s": 0,
+        "artifact": "results/e2e/airan_policy_metrics.json",
+        "note": "research prototype \u2014 not competition IQ data",
+        "seed": 42
+      },
+      "evidence_class": "digital",
+      "independent_reproduction": "EXTERNAL_PENDING"
+    },
+    {
+      "repo": "readygary-6g-beam-selection",
+      "main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+      "result": "PASS",
+      "tests": {
+        "command": "PYTHONPATH=. python -m pytest -q --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 2,
+        "output": "31 passed in 1.18s"
+      },
+      "scientific": {
+        "command": "PYTHONPATH=. python scripts/run_benchmark_table.py --toy",
+        "exit_code": 0,
+        "elapsed_s": 0,
+        "artifact": "results/e2e/benchmark_summary.md",
+        "evidence_class": "SYNTHETIC_SIM",
+        "sub_ms_inference_proven": false,
+        "note": "toy synthetic channel \u2014 not calibrated mmWave measurements"
+      },
+      "dirty_working_tree": "NOT_USED \u2014 24 local result/table files on owner checkout ignored",
+      "evidence_class": "digital",
+      "independent_reproduction": "EXTERNAL_PENDING"
+    },
+    {
+      "repo": "edge-io-measurement-node",
+      "main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "result": "PASS",
+      "tests": {
+        "command": "PYTHONPATH=src python3.11 -m pytest -q tests/ --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 1,
+        "output": "26 passed in 0.68s"
+      },
+      "scientific": {
+        "command": "PYTHONPATH=src python3.11 scripts/reproduce.py",
+        "exit_code": 0,
+        "elapsed_s": 0,
+        "artifact": "results/research_export/gary_research_export.json",
+        "spatial_accuracy": "PHYSICAL_PENDING"
+      },
+      "evidence_class": "digital",
+      "physical": "PHYSICAL_PENDING",
+      "human": "HUMAN_PENDING"
+    },
+    {
+      "repo": "ntn-resilience-sim",
+      "main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+      "result": "PASS",
+      "tests": {
+        "command": "PYTHONPATH=src python -m pytest -q tests/ --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 1,
+        "output": "29 passed in 0.98s"
+      },
+      "scientific": {
+        "command": "PYTHONPATH=src python scripts/reproduce.py",
+        "exit_code": 0,
+        "elapsed_s": 1,
+        "artifact": "results/experiments/rq3_gary_failover_sweeps.json"
+      },
+      "evidence_class": "digital",
+      "carrier_operator": "NOT_RUN",
+      "satellite_attach": "NOT_RUN"
+    },
+    {
+      "repo": "waike-research-ops",
+      "main_sha": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+      "result": "PASS",
+      "tests": {
+        "command": "PYTHONPATH=src python3.11 -m pytest -q tests/test_pathway_schema.py tests/journeys tests/curriculum/test_digital_rc_batch.py --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 2,
+        "output": "19 passed in 1.45s"
+      },
+      "scientific": {
+        "command": "PYTHONPATH=src python3.11 scripts/emit_digital_rc.py",
+        "exit_code": 0,
+        "elapsed_s": 0,
+        "artifact": "artifacts/COURSE_COUNTS.json"
+      },
+      "evidence_class": "digital",
+      "partner_classroom": "EXTERNAL_PENDING",
+      "student_tested": "HUMAN_PENDING"
+    },
+    {
+      "repo": "gunnchos-research-portal",
+      "main_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+      "result": "PASS",
+      "tests": {
+        "command": "python3.11 -m pytest -q tests/ --tb=line",
+        "exit_code": 0,
+        "elapsed_s": 1,
+        "output": "7 passed in 0.28s"
+      },
+      "scientific": {
+        "command": "python3.11 scripts/validate_supervisor_ready.py (via make test)",
+        "note": "control plane, not a wireless experiment"
+      },
+      "evidence_class": "digital"
+    }
+  ],
+  "failures_recorded_before_any_fix": "none on accepted-main digital path",
+  "not_run": [
+    "independent external reproduction",
+    "Pixel RF/QoS campaign",
+    "NTN operator attach",
+    "human playtest",
+    "certification"
+  ]
+}
