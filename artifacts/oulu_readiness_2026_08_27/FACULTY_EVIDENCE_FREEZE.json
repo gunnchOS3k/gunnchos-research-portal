@@ -1,0 +1,73 @@
+{
+  "audit_id": "oulu_readiness_2026_08_27",
+  "faculty_outreach_recommendation": "YES_WITH_EXPLICIT_LIMITATIONS",
+  "CURSOR_MERGED_NOTHING": true,
+  "STANDARDIZED_6G_CLAIM": false,
+  "OULU_AFFILIATION_CLAIM": false,
+  "PHYSICAL_EVIDENCE_NOT_INFERRED_FROM_DIGITAL": true,
+  "scientific_problem": "How to preserve minimum useful service for resource-constrained devices when access, compute placement, fidelity, and recovery must be chosen jointly under terrestrial/NTN/backhaul disruption.",
+  "why_communications_engineering": "The object is wireless service continuity under heterogeneous 6G-era access (TN/NTN, blockage, outage), not an OS or game product dissertation. CWC Wireless Connectivity / Radio Technologies and 6G Flagship SRAs are the public fit; no affiliation is claimed.",
+  "what_is_novel": "A cross-layer continuity controller framed as jointly variable communication/compute/recovery choices, evaluated in a site-aware digital twin plus TN/NTN disruption sim, with explicit evidence-class discipline. Novelty is the problem formulation and instrumented stack, not a claim of new PHY or operator NTN performance.",
+  "what_is_measurable": "Continuity states (target/degraded/min_useful/failed); service_continuity_utility; beam top-k and dB-vs-oracle; NTN vs terrestrial uptime/min_service/recovery_steps; seed-wise CIs on Paper II; host process timing (not sub-ms edge proof).",
+  "baselines": "SpectrumX: no_adaptation / static / placement-only. ReadyGary: exhaustive/hierarchical/oracle. NTN: terrestrial_baseline / static_ntn / fallback / adaptive. 7GC: proportional-fair stub (weaker).",
+  "completable_in_simulation": "RQ1 profile/scenario generation; RQ2 rule-based policy comparison under synthetic slots; RQ2 beam selection under TDL; RQ3 decision regions under configured TR 38.821-scoped assumptions; ablations and domain-shift for Paper II.",
+  "physical_optional_vs_thesis_critical": {
+    "optional_for_a_simulation_first_thesis": [
+      "EVT silicon",
+      "manufacture",
+      "carrier attach",
+      "certification",
+      "games as products"
+    ],
+    "thesis_critical_or_strongly_expected_by_CWC": [
+      "at least one transfer or test-network/measurement campaign for RQ3",
+      "independent reproduction of digital packs",
+      "honest limitation chapter"
+    ],
+    "can_finish_3_to_4_years_without_shipping_hardware": true,
+    "reason": "Papers I\u2013III can be completed as SYNTHETIC_SIM / EMULATED with one scoped measurement or 5GTN-style campaign if available; hardware shipping is product, not the dissertation object."
+  },
+  "research_instruments": {
+    "7gc-digital-twin": "scenario/digital-twin framework",
+    "spectrumx-ai-ran-gary": "AI-RAN / cross-layer policy instrument + competition IQ core",
+    "readygary-6g-beam-selection": "PHY beam/band instrument",
+    "ntn-resilience-sim": "TN/NTN disruption instrument",
+    "edge-io-measurement-node": "measurement/consent instrument",
+    "waike-research-ops": "human/service workload model (education)"
+  },
+  "product_roles_narrow": {
+    "Device Quartet": "research form factors",
+    "WAIKE": "human/service workload model",
+    "7GC": "scenario/digital-twin framework",
+    "gunnchOS": "service-aware middleware",
+    "research repos": "experimental instruments",
+    "games": "optional latency-sensitive interactive workloads"
+  },
+  "evidence_now": {
+    "digital": "All six primary repos + portal: accepted-main pytest and smallest scientific scripts PASS 2026-08-27",
+    "physical": "PENDING (Pixel install/launch smoke only)",
+    "human": "PENDING",
+    "external_reproduction": "PENDING",
+    "certification": "NOT_RUN",
+    "carrier_operator": "NOT_RUN"
+  },
+  "evidence_does_not_exist": [
+    "calibrated mmWave OTA",
+    "NTN operator attach",
+    "sim-to-field transfer test",
+    "independent third-party reproduction",
+    "student/partner classroom execution",
+    "Oulu affiliation",
+    "standardized 6G product"
+  ],
+  "what_oulu_5gtn_would_strengthen": "Test-network interruption campaigns, independently witnessed RF/QoS, NTN-capable terrestrial fallback on real bearers, external reproduction culture, CWC supervision narrowing fidelity/checkpoint action design.",
+  "accepted_main_shas": {
+    "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+    "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",
+    "readygary-6g-beam-selection": "569875224db7812890ec6abc48dfe43a608094f3",
+    "edge-io-measurement-node": "af57fbdac857ae386b23b5b747fdc05797621f92",
+    "ntn-resilience-sim": "916520919bea4d9957970d824045c32929bb80e5",
+    "waike-research-ops": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+    "gunnchos-research-portal": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
+  }
+}

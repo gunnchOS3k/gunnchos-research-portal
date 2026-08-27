@@ -34,7 +34,7 @@ The experimental computing/communications **infrastructure is implemented and di
 
 **Snapshot.** [contact_snapshots/LATEST.md](contact_snapshots/LATEST.md) (regenerate with `make supervisor-snapshot`)
 
-**Core evidence map.** [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md)
+**Core evidence map.** [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md) · **2026-08-27 faculty freeze:** [../oulu/FACULTY_EVIDENCE_FREEZE.md](../oulu/FACULTY_EVIDENCE_FREEZE.md)
 
 ---
 
