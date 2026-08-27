@@ -30,11 +30,13 @@ Latency, jitter, blockage, handover, backhaul failure, compute placement, energy
 **Research status (honest).**  
 The experimental computing/communications **infrastructure is implemented and digitally exercisable**. Independently reproduced results and physical RF/lab measurements remain **pending**. GPU NR and emergent-intent repos are **public**; CUDA timings stay `BLOCKED_GPU` without a lab GPU. See [PORTFOLIO_READINESS_DASHBOARD.md](PORTFOLIO_READINESS_DASHBOARD.md).
 
-**Research plan (canonical).** [THESIS_AT_A_GLANCE.md](THESIS_AT_A_GLANCE.md) · [RESEARCH_SCOPE_AND_BOUNDARIES.md](RESEARCH_SCOPE_AND_BOUNDARIES.md) · [PUBLICATION_PIPELINE.md](PUBLICATION_PIPELINE.md) · [contact_package/](contact_package/)
+**Research plan (canonical V3).** [THESIS_AT_A_GLANCE_V3.md](THESIS_AT_A_GLANCE_V3.md) · [THESIS_AT_A_GLANCE.md](THESIS_AT_A_GLANCE.md) · [RESEARCH_SCOPE_AND_BOUNDARIES.md](RESEARCH_SCOPE_AND_BOUNDARIES.md) · [PUBLICATION_PIPELINE.md](PUBLICATION_PIPELINE.md) · [contact_package/](contact_package/)
+
+**Ari Pouttu outreach package (draft; no commitment claimed).** [ARI_POUTTU_ONE_PAGE_CONCEPT.md](ARI_POUTTU_ONE_PAGE_CONCEPT.md) · [ARI_POUTTU_FIT_CURRENT.md](ARI_POUTTU_FIT_CURRENT.md) · [ARI_FIRST_MEETING_PACKET.md](ARI_FIRST_MEETING_PACKET.md) · [ARI_POUTTU_OUTREACH_EMAIL.md](ARI_POUTTU_OUTREACH_EMAIL.md) (do not send) · [OULU_APPLICATION_PACKAGE_STATUS_V3.md](OULU_APPLICATION_PACKAGE_STATUS_V3.md)
 
 **Snapshot.** [contact_snapshots/LATEST.md](contact_snapshots/LATEST.md) (regenerate with `make supervisor-snapshot`)
 
-**Core evidence map.** [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md) · **2026-08-27 faculty freeze:** [../oulu/FACULTY_EVIDENCE_FREEZE.md](../oulu/FACULTY_EVIDENCE_FREEZE.md)
+**Core evidence map.** [FACULTY_EVIDENCE_MAP_V3.md](FACULTY_EVIDENCE_MAP_V3.md) · [RQ_TO_REPO_EVIDENCE_MAP.md](RQ_TO_REPO_EVIDENCE_MAP.md) · **2026-08-27 faculty freeze:** [../oulu/FACULTY_EVIDENCE_FREEZE.md](../oulu/FACULTY_EVIDENCE_FREEZE.md)
 
 ---
 
@@ -66,15 +68,14 @@ Full map: [EXPERIMENTAL_SYSTEM_MAP.md](EXPERIMENTAL_SYSTEM_MAP.md)
 
 Follow [SUPERVISOR_10_MINUTE_PATH.md](SUPERVISOR_10_MINUTE_PATH.md) in order:
 
-1. Thesis and constrained-control formulation  
-2. RQ1 evidence (`gunnchos-device-os`, `7gc-digital-twin`)  
-3. RQ2 evidence (`spectrumx-ai-ran-gary`, `readygary-6g-beam-selection`)  
-4. RQ3 evidence (`ntn-resilience-sim`, `edge-io-measurement-node`)  
-5. Reproducibility commands  
-6. Evidence boundaries (what is simulated vs measured)  
-7. Supporting device/application ecosystem  
-8. Oulu / 6G Flagship **fit without affiliation**  
-9. Open doctoral questions that require CWC / test-network resources  
+```text
+30 seconds  → thesis + problem + 3 RQs
+2 minutes   → three-paper architecture + evidence map
+5 minutes   → reproducibility / experiment entrypoints
+10 minutes  → selected results, limitations, Oulu fit, open questions
+```
+
+Supporting products appear only after the dissertation core is clear.  
 
 ---
 
