@@ -1,8 +1,32 @@
 {
-  "STALE_PREVIEW_REFERENCES": 0,
-  "STALE_PREVIEW_DETAIL": [],
+  "STALE_PREVIEW_REFERENCES": 11,
+  "STALE_PREVIEW_DETAIL": [
+    "gunnchos-device-os origin_main_sha12 28562a845620 != B4 freeze b0b087681085",
+    "archive-of-life-artifact-world origin_main_sha12 069243c36555 != B4 freeze bf479085cee9",
+    "gunnchAI3k origin_main_sha12 4b4f411710e8 != B4 freeze d357846810b9",
+    "waike-research-ops origin_main_sha12 8eb2827dc58f != B4 freeze 5d416c09164c",
+    "anime-aggressors origin_main_sha12 b537c7bbd74c != B4 freeze a7d11537625b",
+    "pedestrian-pursuit origin_main_sha12 5950ea791ed3 != B4 freeze 8f513c2b3cc3",
+    "beatlink-party origin_main_sha12 23a95d152c2d != B4 freeze 6e8d1a0461e9",
+    "gunnchos-research-portal origin_main_sha12 f4155bc79831 != B4 freeze e60705b8b3cd",
+    "ntn-resilience-sim origin_main_sha12 c4215fc1039f != B4 freeze 916520919bea",
+    "7gc-digital-twin origin_main_sha12 dc43a567e3f2 != B4 freeze 4cd70169b35a",
+    "spectrumx-ai-ran-gary origin_main_sha12 9060655e7243 != B4 freeze cef3900af100"
+  ],
   "KNOWN_ACCEPTED_MAIN_CI_CONTRADICTIONS": 0,
   "CI_CONTRADICTION_DETAIL": [],
-  "ACCEPTED_MAIN_DRIFT_REPOS": [],
-  "PORTAL_FINAL_ACCEPTED_MAIN_SNAPSHOT": "PASS"
+  "ACCEPTED_MAIN_DRIFT_REPOS": [
+    "gunnchos-device-os",
+    "archive-of-life-artifact-world",
+    "gunnchAI3k",
+    "waike-research-ops",
+    "anime-aggressors",
+    "pedestrian-pursuit",
+    "beatlink-party",
+    "gunnchos-research-portal",
+    "ntn-resilience-sim",
+    "7gc-digital-twin",
+    "spectrumx-ai-ran-gary"
+  ],
+  "PORTAL_FINAL_ACCEPTED_MAIN_SNAPSHOT": "FAIL"
 }

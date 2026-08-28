@@ -458,20 +458,26 @@ def main() -> int:
         },
         "papers": {
             "paper1_service_continuity": {
-                "status": "DIGITAL_RESULTS_VALIDATED",
-                "sot": "7gc-digital-twin/paper + gunnchos-device-os profiles",
+                "status": "DIGITAL_REPRODUCIBLE_STRONG_CORE",
+                "sot": "7gc-digital-twin @ dc43a56 (#31) statistical parity + device-OS profiles; SYNTHETIC_SIM; not field-complete",
                 "portal_index": "research_manuscripts/paper1_service_continuity/",
             },
             "paper2_cross_layer_orchestration": {
-                "status": "DIGITAL_RESULTS_VALIDATED",
-                "sot": "spectrumx-ai-ran-gary/paper + readygary-6g-beam-selection",
+                "status": "DIGITAL_REPRODUCIBLE_STRONG_CORE",
+                "sot": "spectrumx-ai-ran-gary @ 9060655 (#102 fidelity/checkpoint + info-equivalence) + readygary; SYNTHETIC_SIM; not production RAN/RL",
                 "portal_index": "research_manuscripts/paper2_cross_layer_orchestration/",
             },
             "paper3_tn_ntn_resilience": {
-                "status": "DIGITAL_RESULTS_VALIDATED",
-                "sot": "ntn-resilience-sim/paper + edge-io-measurement-node",
+                "status": "DIGITAL_REPRODUCIBLE_STRONG_CORE_WITH_TRANSFER_PENDING",
+                "sot": "ntn-resilience-sim @ c4215fc (#28) + edge-io schema; SYNTHETIC_SIM; sim→measurement pending",
                 "portal_index": "research_manuscripts/paper3_tn_ntn_resilience/",
             },
+        },
+        "faculty_evidence_freeze": {
+            "path": "docs/oulu/FACULTY_EVIDENCE_FREEZE.md",
+            "refresh": "post_a2_20260828",
+            "v3_pdf_modified": False,
+            "dissertation_complete": False,
         },
         "conference_paper_status": "not SUBMITTED; not ACCEPTED; venue-neutral",
         "digital_manufacturing": "DIGITAL packet prepared; DIGITAL_FABRICATION_PASS=FALSE; PHYSICAL_PENDING",

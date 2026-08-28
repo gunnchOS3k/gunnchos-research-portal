@@ -1,14 +1,16 @@
-# Faculty evidence freeze — 2026-08-27
+# Faculty evidence freeze — 2026-08-27 (post-A2 refresh 2026-08-28)
 
 Machine-readable: [`artifacts/oulu_readiness_2026_08_27/FACULTY_EVIDENCE_FREEZE.json`](../../artifacts/oulu_readiness_2026_08_27/FACULTY_EVIDENCE_FREEZE.json)
 
-This freeze is for a **Communications Engineering / CWC / 6G Flagship conversation**. It does not require the product ecosystem to be finished.
+This freeze is for a **Communications Engineering / CWC / 6G Flagship conversation**. It does not require the product ecosystem to be finished. The dissertation is **not** complete.
 
 **Working title (V3).** Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices
 
 **No University of Oulu affiliation, supervisor commitment, or standardized/commercial 6G product is claimed.**
 
-Live SHA freeze: 7GC `4cd7016` · SpectrumX `cef3900` · ReadyGary `5698752` · Edge I/O `af57fbd` · NTN `9165209` · WAIKE `8eb2827` · portal `2a3303d`.
+Live SHA freeze (accepted `origin/main`, post-A2): 7GC `dc43a56` (#31) · SpectrumX `9060655` (#102; feature `b44357f` on main) · ReadyGary `5698752` · Edge I/O `af57fbd` · NTN `c4215fc` (#28) · WAIKE `8eb2827` · portal `f4155bc`.
+
+Historical pre-A2 freeze (2026-08-27 Stream A): 7GC `4cd7016` · SpectrumX `cef3900` · NTN `9165209` · portal `2a3303d` — retained as historical digital PASS, not live faculty status.
 
 ---
 
@@ -29,24 +31,23 @@ It is **not** a claim of established novelty, a new standardized PHY, operator N
 ## 4. What is measurable?
 
 - Continuity states: target / degraded / min-useful / failed  
-- Policy utility, fairness, energy proxies, switch cost, `compute_time_ms`  
-- Beam top-k and dB-vs-oracle (`SYNTHETIC_SIM`)  
-- NTN vs terrestrial uptime, min-service, recovery steps  
-- Paper II seed means and 95% t-CIs  
+- RQ1: `task_completion_ratio`, `time_above_minimum_useful`, seeds 1..30 (n=30), correct 95% Student-t CIs, paired \(d_z\) where applicable  
+- RQ2: service-continuity utility, fidelity/checkpoint costs, thrash, switch/compute cost; Paper II held-out/ablation/domain-shift CIs  
+- RQ3: NTN vs terrestrial uptime, min-service, recovery steps; decision regions; `ntn_always_better=false`  
 - Host process timing (not proven sub-millisecond edge inference)
 
 ## 5. What are the baselines?
 
 | Instrument | Baselines on accepted main |
 |---|---|
-| SpectrumX | no-adaptation, static, placement-only (rule-based controller vs these) |
+| SpectrumX | no-adaptation, static, placement-only; **fixed-target-fidelity**, **checkpoint-disabled** |
 | ReadyGary | exhaustive / hierarchical / oracle |
 | NTN | terrestrial-only, static NTN, fallback, adaptive |
-| 7GC | proportional-fair stub (weaker than Paper II) |
+| 7GC | proportional-fair stub + seeded profile bench (n=30) |
 
 ## 6. What can be completed fully in simulation / digital twin?
 
-RQ1 scenario and profile generation; RQ2 synthetic policy comparison and FR2/Sub-6/dual-band beam tables; RQ3 decision regions under documented assumptions; Paper II ablations and domain shift. All of this was **accepted-main digital reproduction PASS** on 2026-08-27 from `origin/main`. That is not physical, independent, or operator validation.
+RQ1 seeded profiles and statistical bench; RQ2 Paper II packs **plus** fidelity/checkpoint actions with runtime information-equivalence; RQ3 TN/NTN seeded decision regions with CIs. Post-A2 faculty paths **PASS** on detached accepted main (2026-08-28). Evidence class: `SYNTHETIC_SIM`. That is not physical, independent, or operator validation.
 
 ## 7. What physical / test-network work is optional vs later validation?
 
@@ -61,10 +62,10 @@ The V3 plan is structured as a four-year, simulation-first and measurement-groun
 
 | Repo | Role |
 |---|---|
-| `7gc-digital-twin` | Scenario / digital-twin framework |
-| `spectrumx-ai-ran-gary` | AI-RAN / cross-layer policy instrument |
+| `7gc-digital-twin` | Scenario / digital-twin framework + RQ1 statistical parity |
+| `spectrumx-ai-ran-gary` | AI-RAN / cross-layer policy instrument (incl. fidelity + checkpoint) |
 | `readygary-6g-beam-selection` | PHY beam / band instrument |
-| `ntn-resilience-sim` | TN/NTN disruption instrument |
+| `ntn-resilience-sim` | TN/NTN disruption instrument + RQ3 statistical parity |
 | `edge-io-measurement-node` | Measurement / consent instrument |
 | `waike-research-ops` | Human/service workload model |
 
@@ -72,20 +73,22 @@ Narrow product roles: Device Quartet = research form factors; WAIKE = workload m
 
 ## 9. What evidence exists now?
 
-**Digital:** accepted-main **digital reproduction PASS** on all six instruments and this portal (see [ACCEPTED_MAIN_REPRODUCTION.md](ACCEPTED_MAIN_REPRODUCTION.md)). Paper II has held-out / ablation / domain-shift / CIs. Paper I and III have synthetic summaries and reproduce scripts. This does not imply physical, human, or independent validation.
+**Digital (post-A2):** RQ1 / RQ2 = `DIGITAL_REPRODUCIBLE_STRONG_CORE`; RQ3 = `DIGITAL_REPRODUCIBLE_STRONG_CORE_WITH_TRANSFER_PENDING`. Faculty paths re-verified on detached accepted main 2026-08-28. See [ACCEPTED_MAIN_REPRODUCTION.md](ACCEPTED_MAIN_REPRODUCTION.md).
 
 **Physical:** Pixel 6a **install/launch smoke only** — not RF, not spatial accuracy.
 
 ## 10. What evidence does not exist?
 
-Calibrated mmWave OTA; NTN operator attach; sim→field transfer test; independent third-party reproduction; student/partner classroom execution; certification; carrier-grade operation; Oulu affiliation.
+Calibrated mmWave OTA; NTN operator attach; sim→field transfer test; independent third-party reproduction; student/partner classroom execution; certification; carrier-grade operation; Oulu affiliation; scientifically complete / field-validated dissertation.
 
 ## 11. What could Oulu / relevant CWC test-network resources strengthen?
 
-Witnessed test-network interruption, RF/QoS calibration, terrestrial/NTN-capable fallback on real bearers, external reproduction culture, and supervisor narrowing of the missing fidelity + checkpoint action design. This is a resource-fit statement, not a uniqueness or affiliation claim.
+Witnessed test-network interruption, RF/QoS calibration, terrestrial/NTN-capable fallback on real bearers, external reproduction culture, and supervisor narrowing of doctoral scope. This is a resource-fit statement, not a uniqueness or affiliation claim.
 
 ## 12. Why can this dissertation finish without shipping hardware?
 
 Because the **scientific claims are about decision regions and continuity policies under stated models**, which are already digitally exercisable. Hardware shipping would strengthen RQ3 transfer; it is not required to pose and bound the three papers if limitations stay honest. The V3 plan remains a four-year staged programme, not a guarantee.
+
+**Digitally implemented now vs doctoral research still open.** Strong synthetic digital cores exist for all three RQs; measurement transfer, independent reproduction, and physical RF remain open doctoral work.
 
 **Faculty outreach recommendation:** `YES_WITH_EXPLICIT_LIMITATIONS`.
