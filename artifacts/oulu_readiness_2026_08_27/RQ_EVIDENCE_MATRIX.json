@@ -1,16 +1,16 @@
 {
   "audit_id": "oulu_readiness_2026_08_27",
-  "generated_at_utc": "2026-08-27T20:35:00Z",
+  "generated_at_utc": "2026-08-28T01:20:00Z",
   "doctoral_direction": "Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices",
   "truth_boundary": "5G-Advanced / NTN-capable research architecture, IMT-2030 aligned, software-defined, engineered for migration toward standardized 6G \u2014 not a final standardized/commercial 6G product.",
   "accepted_main_shas": {
-    "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
-    "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",
+    "7gc-digital-twin": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+    "spectrumx-ai-ran-gary": "9060655e724374f60cbbb86832816c9c2d332ca4",
     "readygary-6g-beam-selection": "569875224db7812890ec6abc48dfe43a608094f3",
     "edge-io-measurement-node": "af57fbdac857ae386b23b5b747fdc05797621f92",
-    "ntn-resilience-sim": "916520919bea4d9957970d824045c32929bb80e5",
+    "ntn-resilience-sim": "c4215fc1039f5452917b9b2034b42e03fdc13689",
     "waike-research-ops": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
-    "gunnchos-research-portal": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
+    "gunnchos-research-portal": "f4155bc79831a6ed0d9e7881a3037cc4bf012d6a"
   },
   "status_vocabulary": [
     "IMPLEMENTED_AND_REPRODUCIBLE",
@@ -27,23 +27,23 @@
     "RQ1": {
       "canonical_rq_v3": "How can representative workloads and the constraints of four resource-constrained device classes be translated into measurable service-continuity profiles, metrics, and benchmark scenarios?",
       "evidence_audit_interpretation": "Service-continuity profiles, metrics, and benchmarks",
-      "status": "PARTIAL",
-      "strongest_evidence": "7gc-digital-twin paper/artifacts/rq1_experiment_summary.json + fixtures/device_os/SERVICE_CONTINUITY_PROFILES.json; make reproduce EXIT=0 on 2026-08-27",
-      "gap": "Joint communication/compute/fidelity/recovery representation is not a single frozen action model; RQ1 statistical pack is lighter than Paper II CIs."
+      "status": "DIGITAL_REPRODUCIBLE_STRONG_CORE",
+      "strongest_evidence": "7gc @ dc43a56 (merged #31): SERVICE_CONTINUITY_PROFILES + seeded bench seeds 1..30 n=30; task_completion_ratio + time_above_minimum_useful with correct 95% Student-t CIs; paired d_z where applicable; paper/artifacts/rq1_statistical_*. SYNTHETIC_SIM; EXTERNAL_PENDING independent.",
+      "gap": "Not scientifically complete / field validated. Independent reproduction EXTERNAL_PENDING. Physical RF pending. Pre-A2 SHA 4cd7016 is historical."
     },
     "RQ2": {
       "canonical_rq_v3": "To what extent can joint access selection, computation placement, fidelity/model adaptation, caching/checkpointing, and recovery control - informed by radio-aware digital-twin state and uncertainty - improve service-continuity utility under mobility, blockage, congestion, edge-resource variation, and energy constraints?",
       "evidence_audit_interpretation": "Cross-layer controller (access, placement, fidelity, checkpoint/recover)",
-      "status": "PARTIAL",
-      "strongest_evidence": "spectrumx Paper II held-out/ablation/domain-shift JSON with 95% t-CI; ReadyGary FR2 beam held-out JSON. Both SYNTHETIC_SIM.",
-      "gap": "Shipped Action is network x placement x shares/power (plus beam/band). Fidelity adaptation and checkpoint/recover are MISSING_DIGITAL. Not trained RL."
+      "status": "DIGITAL_REPRODUCIBLE_STRONG_CORE",
+      "strongest_evidence": "spectrumx @ 9060655 (merged #102; feature b44357f on main): fidelity_level + checkpoint/recover actions; fixed_target_fidelity / checkpoint_disabled baselines; causal CheckpointRuntimeState; rolling thrash; runtime information-equivalence (declared obs + action-space only; oracle explicit no future peek); Paper II held-out/ablation/domain-shift + Student-t CIs; research-grade README. SYNTHETIC_SIM.",
+      "gap": "Do not claim app persistence / production RAN / physical RF / trained RL / standardized 6G. Independent reproduction EXTERNAL_PENDING. Pre-A2 SHA cef3900 is historical."
     },
     "RQ3": {
       "canonical_rq_v3": "Under which disruption conditions do terrestrial, local-edge, peer/device-to-device, offline, and NTN fallback modes preserve minimum useful service, and what performance, energy, privacy, and recovery tradeoffs arise in simulation, emulation, and device-level measurements?",
       "evidence_audit_interpretation": "TN/NTN disruption, fallback, and transfer toward measurement",
-      "status": "PARTIAL",
-      "strongest_evidence": "ntn-resilience-sim paper/artifacts/rq3_experiment_summary.json + reproduce JSON; rejects NTN-always-better under configured assumptions.",
-      "gap": "No sim\u2192measurement transfer. Edge I/O spatial/RF PHYSICAL_PENDING. Independent reproduction EXTERNAL_PENDING. Human QA HUMAN_PENDING."
+      "status": "DIGITAL_REPRODUCIBLE_STRONG_CORE_WITH_TRANSFER_PENDING",
+      "strongest_evidence": "ntn @ c4215fc (merged #28): TN/NTN seeded sweeps seeds 1..30; correct CIs; paired defs; decision regions; ntn_always_better=false with negative regions (GEO RTT / low capacity / compound). SYNTHETIC_SIM.",
+      "gap": "Still pending: sim\u2192measurement transfer; operator attach; RF/spatial PHYSICAL_PENDING; local-edge/peer not in seeded Paper-III engine (gate2 stubs exist; experiment flags local_peer_not_in_paper_iii_engine). Pre-A2 SHA 9165209 is historical."
     }
   },
   "capabilities": [
@@ -53,23 +53,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "src/seven_gc_twin/config/schema.py",
           "command": "make validate-sites / make reproduce",
           "artifact_or_result": "results/experiments/rq1_gary_flagship_profiles.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "configs/digital_twin_gary.yaml",
           "command": "python3 scripts/demo_airan_policy.py --toy",
           "artifact_or_result": "results/e2e/airan_policy_metrics.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -83,13 +85,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "src/ntn_resilience/",
           "command": "PYTHONPATH=src python3 scripts/reproduce.py",
           "artifact_or_result": "results/experiments/rq3_gary_failover_sweeps.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -119,23 +122,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "configs/buildings/*/climate_assumptions.yaml",
           "command": "make validate-sites",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "docs/SCENARIO_ENGINE_ASSUMPTIONS.md",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -149,13 +154,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "docs/ASSUMPTION_REGISTRY.md",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": "TR 38.821-scoped; not operator NTN"
+          "note": "TR 38.821-scoped; not operator NTN",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -185,23 +191,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "fixtures/device_os/SERVICE_CONTINUITY_PROFILES.json",
           "command": "make reproduce",
           "artifact_or_result": "paper/artifacts/rq1_experiment_summary.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "PARTIAL",
           "path": "digital_programme Slot continuity classes",
           "command": "make paper-reproduce / tests/test_paper_ii_digital.py",
           "artifact_or_result": "results/experiments/rq2_cross_layer_continuity_*.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -215,13 +223,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "PARTIAL",
           "path": "traffic_classes.yaml / min-service metrics",
           "command": "make reproduce",
           "artifact_or_result": "paper/artifacts/rq3_experiment_summary.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -251,23 +260,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "src/seven_gc_twin/continuity_benchmark.py",
           "command": "make reproduce",
           "artifact_or_result": "continuity states target/degraded/min_useful/failed",
           "evidence_class": "digital",
-          "note": "no joint cross-layer action enum"
+          "note": "no joint cross-layer action enum",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
-          "path": "Action(shares, power, network, placement)",
+          "path": "src/... PolicyObservation/PolicyActionSpace; results/experiments/rq2_information_equivalence_audit.json",
           "command": "tests/test_paper_ii_digital.py",
-          "artifact_or_result": "results/experiments/rq2_cross_layer_continuity_heldout.json",
+          "artifact_or_result": "information_equivalence_pass=true; runtime_observation_enforced=true",
           "evidence_class": "digital",
-          "note": "network includes offline_continuation; fidelity/checkpoint not in Action"
+          "note": "Includes fidelity_level + checkpoint/recover actions post-A2; PolicyObservation declared-fields contract.",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -281,13 +292,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "fallback_policy.py paths terrestrial/ntn/offline",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -317,23 +329,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "src/seven_gc_twin/baseline_policy.py",
           "command": "make test",
           "artifact_or_result": "proportional-fair stub",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "twin_informed / Gate2 twin_policies.py",
           "command": "python3 scripts/demo_airan_policy.py --toy",
           "artifact_or_result": "rule-based, not trained RL",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -347,13 +361,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "fallback_policy.py",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -383,23 +398,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "baseline_policy.py",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "no_adaptation, static, placement-only",
           "command": "make paper-reproduce / tests/test_paper_ii_digital.py",
           "artifact_or_result": "results/experiments/rq2_cross_layer_continuity_*.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -413,13 +430,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "terrestrial_baseline, static_ntn, fallback, adaptive",
           "command": "make reproduce",
           "artifact_or_result": "paper/artifacts/rq3_experiment_summary.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -449,23 +467,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "src/seven_gc_twin/metrics.py",
           "command": "PYTHONPATH=src python3 -m seven_gc_twin.cli metrics gary --toy",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "service_continuity_utility + latency/energy/fairness/switches/compute_time_ms",
           "command": "make test",
           "artifact_or_result": "results/experiments/*.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -479,13 +499,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "uptime, min_service, recovery_steps",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -515,23 +536,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scenario_engine.py bad_day_scenarios.py",
           "command": "make smoke",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "digital_programme.py",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -545,13 +568,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "outage model + campus scenario YAMLs",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -581,23 +605,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "bad-day / integrations/ntn.py",
           "command": "make smoke",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": "hooks, not full outage engine"
+          "note": "hooks, not full outage engine",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "PARTIAL",
           "path": "synthetic outage + ntn_fallback label",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -611,13 +637,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "core outage + fallback",
           "command": "PYTHONPATH=src python3 scripts/reproduce.py",
           "artifact_or_result": "results/experiments/rq3_gary_failover_sweeps.json",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -647,23 +674,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "workload/compute metrics in RQ1 protocol",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "Action placement cloud/edge/local",
           "command": "tests/test_paper_ii_digital.py",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -677,13 +706,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -713,23 +743,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
-          "status": "MISSING_DIGITAL",
-          "path": "Action has no fidelity arm",
-          "command": "",
-          "artifact_or_result": "",
-          "evidence_class": "digital",
-          "note": "largest RQ2 digital gap"
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_fidelity_checkpoint_tiny.json; paper/artifacts/RESEARCH_ARTIFACT_INDEX_RQ2_FIDELITY_CHECKPOINT.md",
+          "command": "PYTHONPATH=src python -m pytest -q tests/test_rq2_fidelity_checkpoint.py tests/test_paper_ii_digital.py --tb=line",
+          "artifact_or_result": "fidelity_level\u2208{target,degraded,minimum_useful}; adaptive_fidelity vs fixed_target_fidelity; SYNTHETIC_SIM",
+          "evidence_class": "SYNTHETIC_SIM",
+          "note": "Post-A2 PR #102 on accepted main. Not app persistence / production RAN / physical RF / RL.",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -743,13 +775,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -779,23 +812,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "offline/min-useful continuity",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": "no service checkpoint API"
+          "note": "no service checkpoint API",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
-          "status": "MISSING_DIGITAL",
-          "path": "",
-          "command": "",
-          "artifact_or_result": "",
-          "evidence_class": "digital",
-          "note": ""
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "results/experiments/rq2_fidelity_checkpoint_tiny.json; results/experiments/rq2_information_equivalence_audit.json",
+          "command": "PYTHONPATH=src python -m pytest -q tests/test_rq2_fidelity_checkpoint.py --tb=line",
+          "artifact_or_result": "causal CheckpointRuntimeState; checkpoint_disabled baseline; rolling THRASH_WINDOW=2; recover_action",
+          "evidence_class": "SYNTHETIC_SIM",
+          "note": "Runtime info-equivalence enforced; oracle no future peek. Not production persistence.",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -809,13 +844,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "PARTIAL",
           "path": "recovery_steps_to_min_service store_forward.py",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -845,23 +881,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "continuity classifier + jam_wifi_offline_fallback",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "offline_continuation, degraded_local",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -875,13 +913,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "offline path + edge cache",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -911,23 +950,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scripts/reproduce.py REPRODUCIBILITY.md",
           "command": "PYTHONPATH=src python3 scripts/reproduce.py",
           "artifact_or_result": "results/reproduce/REPRODUCE_RECORD.json EXIT=0 2026-08-27",
           "evidence_class": "digital",
-          "note": "independent still EXTERNAL_PENDING"
+          "note": "independent still EXTERNAL_PENDING",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "REPRODUCIBILITY.md",
           "command": "python3 -m pytest -q tests/test_airan_research.py tests/test_paper_ii_digital.py tests/gate2",
           "artifact_or_result": "10 passed",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -941,13 +982,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scripts/reproduce.py",
           "command": "PYTHONPATH=src python3 scripts/reproduce.py",
           "artifact_or_result": "EXIT=0",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -971,13 +1013,14 @@
         },
         {
           "repo": "gunnchos-research-portal",
-          "accepted_main_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+          "accepted_main_sha": "f4155bc79831a6ed0d9e7881a3037cc4bf012d6a",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scripts/validate_supervisor_ready.py tests/",
           "command": "python3 -m pytest -q tests/",
           "artifact_or_result": "7 passed",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
         }
       ]
     },
@@ -987,23 +1030,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "configs/experiments/rq1_gary_flagship_profiles.yaml",
           "command": "seeds [1,2,7,42]",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "paper protocol train[0..4] held-out[100..104]",
           "command": "make paper-reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1017,13 +1062,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "configs/experiments/rq3_gary_failover_sweeps.yaml",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1053,23 +1099,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scripts/reproduce.py",
           "command": "make reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scripts/run_paper_ii_*.py scripts/demo_airan_policy.py",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1083,13 +1131,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "scripts/reproduce.py",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1119,23 +1168,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "experiment JSON + scene exports",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "results/experiments/*.json schemas/aerial_data_lake/",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1149,13 +1200,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "PARTIAL",
           "path": "experiment JSON convention",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1185,23 +1237,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
-          "status": "PARTIAL",
-          "path": "paper/tables/rq1_seed_sensitivity.tex paper/artifacts/rq1_experiment_summary.json",
-          "command": "",
-          "artifact_or_result": "",
-          "evidence_class": "digital",
-          "note": "seed sensitivity present; not full 95% t-CI pack like Paper II"
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "paper/artifacts/rq1_statistical_summary.json; paper/artifacts/rq1_statistical_report.json",
+          "command": "PYTHONPATH=src python -m pytest -q tests/test_rq1_statistical_parity.py --tb=line",
+          "artifact_or_result": "seeds 1..30 n=30; 95% Student-t CI; paired d_z; task_completion_ratio + time_above_minimum_useful",
+          "evidence_class": "SYNTHETIC_SIM",
+          "note": "Merged #31. CIs are simulation-run variability, not RF uncertainty.",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "results/experiments/rq2_cross_layer_continuity_summary.json",
           "command": "make paper-reproduce",
           "artifact_or_result": "seed means, 95% t-CI, Cohen d",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1215,13 +1269,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
-          "status": "PARTIAL",
-          "path": "paper/artifacts/rq3_experiment_summary.json",
-          "command": "make reproduce",
-          "artifact_or_result": "policy means / decision cells; lighter than Paper II CIs",
-          "evidence_class": "digital",
-          "note": ""
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
+          "status": "IMPLEMENTED_AND_REPRODUCIBLE",
+          "path": "paper/artifacts/rq3_statistical_summary.json; paper/artifacts/rq3_statistical_report.md",
+          "command": "PYTHONPATH=src python -m pytest -q tests/test_rq3_statistical_parity.py --tb=line",
+          "artifact_or_result": "seeds 1..30; Student-t CIs; paired defs; ntn_always_better=false",
+          "evidence_class": "SYNTHETIC_SIM",
+          "note": "Merged #28. Not operator performance.",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1251,23 +1306,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "results/experiments/rq2_cross_layer_continuity_ablation.json",
           "command": "make paper-reproduce",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1281,13 +1338,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "PARTIAL",
           "path": "GEO vs LEO / compound-failure in findings",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1317,23 +1375,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "cross-site inclusion families",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": "comparative fixtures, not a shift experiment"
+          "note": "comparative fixtures, not a shift experiment",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "high_blockage / energy_constrained / outage_heavy",
           "command": "make paper-reproduce",
           "artifact_or_result": "rq2_cross_layer_continuity domain_shift JSON",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1347,13 +1407,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "PARTIAL",
           "path": "multi-site campus scenarios",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1383,23 +1444,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "PARTIAL",
           "path": "gate2/edge_ingest.py docs/EDGE_IO_TELEMETRY_CONTRACT.md",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "PARTIAL",
           "path": "OTA lake schema; adapters fail-closed",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1413,13 +1476,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "PARTIAL",
           "path": "tool adapters; no Edge-IO closed loop on main",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1449,23 +1513,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "docs/08_ETHICS_SECURITY_PRIVACY.md tests/test_7gc_non_claim_policy.py",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "ethics docs + competition data governance",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1479,13 +1545,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "Gaza/Graham Land non-claim tests",
           "command": "make test",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1515,23 +1582,25 @@
       "cells": [
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "CLAIMS_TO_EVIDENCE.md quality/CLAIMS_TO_EVIDENCE_MATRIX.md",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "quality/CLAIMS_TO_EVIDENCE_MATRIX.md paper/CLAIMS_TO_EVIDENCE.md",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1545,13 +1614,14 @@
         },
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "claims docs + non-claim tests",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1565,13 +1635,14 @@
         },
         {
           "repo": "gunnchos-research-portal",
-          "accepted_main_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+          "accepted_main_sha": "f4155bc79831a6ed0d9e7881a3037cc4bf012d6a",
           "status": "IMPLEMENTED_AND_REPRODUCIBLE",
           "path": "docs/phd/RQ_TO_REPO_EVIDENCE_MAP.md",
           "command": "updated this audit to 2026-08-27 freeze",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": "2026-08-18 table was stale vs later Paper II packs"
+          "note": "2026-08-18 table was stale vs later Paper II packs",
+          "historical_pre_a2_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
         }
       ]
     },
@@ -1581,13 +1652,14 @@
       "cells": [
         {
           "repo": "ntn-resilience-sim",
-          "accepted_main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+          "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": "decision regions exist; no transfer test"
+          "note": "decision regions exist; no transfer test",
+          "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5"
         },
         {
           "repo": "edge-io-measurement-node",
@@ -1601,23 +1673,25 @@
         },
         {
           "repo": "7gc-digital-twin",
-          "accepted_main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+          "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb"
         },
         {
           "repo": "spectrumx-ai-ran-gary",
-          "accepted_main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+          "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
           "status": "MISSING_DIGITAL",
           "path": "",
           "command": "",
           "artifact_or_result": "",
           "evidence_class": "digital",
-          "note": ""
+          "note": "",
+          "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd"
         },
         {
           "repo": "readygary-6g-beam-selection",
@@ -1641,5 +1715,12 @@
         }
       ]
     }
-  ]
+  ],
+  "refresh_id": "post_a2_faculty_package_20260828",
+  "historical_pre_a2_shas": {
+    "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+    "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",
+    "ntn-resilience-sim": "916520919bea4d9957970d824045c32929bb80e5",
+    "gunnchos-research-portal": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
+  }
 }

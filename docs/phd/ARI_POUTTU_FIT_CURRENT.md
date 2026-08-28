@@ -34,6 +34,6 @@ V3 is a Communications Engineering problem centred on **service continuity under
 
 1. Where should the radio / test-network / NTN measurement scope be narrowed so Paper III is strongest without becoming an infrastructure tour?
 2. Is “minimum useful service” as a cross-layer control objective sufficiently Communications Engineering–centred for CWC, or should the formal objective be restated?
-3. Which missing RQ2 actions (fidelity adaptation vs checkpoint/recover) should be first-class in Year 2 versus deferred?
+3. Given digital fidelity/checkpoint actions now exist on accepted main (`SYNTHETIC_SIM`), which measurement or radio-equivalence paths should be first-class in Year 2 versus deferred?
 
 **Explicit non-claims:** no reply received; no supervision offered; no research-unit commitment; no funding pathway confirmed.

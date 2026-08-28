@@ -30,7 +30,7 @@ Dependable heterogeneous wireless systems; experimental/test-network validation;
 
 ## What already exists (honest)
 
-Accepted-main **digital** instruments and reproduce scripts for twin/profiles, AI-RAN policy comparison, beam/band tables, and TN/NTN disruption sweeps (2026-08-27 freeze). Physical RF, operator NTN, and independent third-party reproduction remain pending. Pixel work is install/launch smoke only.
+Accepted-main **digital strong cores** (post-A2): RQ1 seeded profiles with n=30 Student-t CIs; RQ2 Paper II packs plus fidelity/checkpoint actions with runtime information-equivalence; RQ3 TN/NTN decision regions with n=30 CIs and `ntn_always_better=false` — all `SYNTHETIC_SIM`. Physical RF, operator NTN, sim→measurement transfer, and independent third-party reproduction remain pending. The dissertation is not complete. Pixel work is install/launch smoke only.
 
 ## Ask (not a company pitch)
 

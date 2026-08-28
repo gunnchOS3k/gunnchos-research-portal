@@ -1,6 +1,6 @@
 {
   "audit_id": "oulu_readiness_2026_08_27",
-  "generated_at_utc": "2026-08-27T20:35:00Z",
+  "generated_at_utc": "2026-08-28T01:20:00Z",
   "host": {
     "os": "darwin 25.6.0",
     "arch": "arm64",
@@ -11,7 +11,7 @@
     "name": "Edmund Gunn, Jr.",
     "note": "token redacted; sandbox keyring initially failed, retry with keyring succeeded"
   },
-  "method": "Detached git worktrees at origin/main under /tmp/oulu_audit_20260827. Dirty ReadyGary working tree not used. Existing repo .venv interpreters reused; Homebrew Python 3.14 PEP 668 blocked pip (recorded, not silently worked around beyond using existing venvs / Python 3.11.2).",
+  "method": "Post-A2 refresh: detached git worktrees under /tmp/oulu_post_a2_20260828 at accepted origin/main for 7GC/SpectrumX/NTN. Owner dirty trees not used. Existing repo .venv / Python 3.11.",
   "environment": {
     "homebrew_python": "Python 3.14.7 \u2014 pytest not importable (PEP 668)",
     "framework_python": "Python 3.11.2 pytest 9.0.3 at /Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
@@ -20,45 +20,50 @@
   "repos": [
     {
       "repo": "7gc-digital-twin",
-      "main_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+      "main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
       "result": "PASS",
       "tests": {
-        "command": "PYTHONPATH=src python -m pytest -q tests/ --tb=line",
+        "command": "PYTHONPATH=src python -m pytest -q tests/test_rq1_statistical_parity.py --tb=line",
         "exit_code": 0,
-        "elapsed_s": 3,
-        "output": "55 passed in 2.83s",
+        "elapsed_s": 2,
+        "output": "10 passed in 2.23s",
         "python": "7gc-digital-twin/.venv"
       },
       "scientific": {
-        "command": "PYTHONPATH=src python scripts/reproduce.py",
+        "command": "make reproduce  # PYTHONPATH=src python scripts/reproduce.py; faculty stats via tests/test_rq1_statistical_parity.py",
         "exit_code": 0,
-        "elapsed_s": 2,
-        "artifact": "results/experiments/rq1_gary_flagship_profiles.json",
-        "evidence_status_in_output": "smoke_test_only / synthetic-fixture"
+        "elapsed_s": 6,
+        "artifact": "paper/artifacts/rq1_statistical_summary.json; results/experiments/rq1_gary_flagship_profiles.json",
+        "evidence_status_in_output": "SYNTHETIC_SIM; seeds 1..30; 95% Student-t CI"
       },
-      "evidence_class": "digital",
-      "independent_reproduction": "EXTERNAL_PENDING"
+      "evidence_class": "SYNTHETIC_SIM",
+      "independent_reproduction": "EXTERNAL_PENDING",
+      "historical_pre_a2_sha": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+      "limitations": "Synthetic seeded timelines; not Pixel RF QoS; not OTA; not scientifically complete/field validated"
     },
     {
       "repo": "spectrumx-ai-ran-gary",
-      "main_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+      "main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
       "result": "PASS",
       "tests": {
-        "command": "python -m pytest -q tests/test_airan_research.py tests/test_paper_ii_digital.py tests/gate2 --tb=line",
+        "command": "PYTHONPATH=src python -m pytest -q tests/test_rq2_fidelity_checkpoint.py tests/test_paper_ii_digital.py --tb=line",
         "exit_code": 0,
-        "elapsed_s": 2,
-        "output": "10 passed in 1.51s"
+        "elapsed_s": 1,
+        "output": "31 passed in 1.10s",
+        "python": "spectrumx-ai-ran-gary/.venv"
       },
       "scientific": {
-        "command": "python scripts/demo_airan_policy.py --toy",
+        "command": "PYTHONPATH=src python -m pytest -q tests/test_rq2_fidelity_checkpoint.py tests/test_paper_ii_digital.py --tb=line",
         "exit_code": 0,
-        "elapsed_s": 0,
-        "artifact": "results/e2e/airan_policy_metrics.json",
-        "note": "research prototype \u2014 not competition IQ data",
-        "seed": 42
+        "elapsed_s": 1,
+        "artifact": "results/experiments/rq2_fidelity_checkpoint_tiny.json; results/experiments/rq2_information_equivalence_audit.json; results/experiments/rq2_*",
+        "note": "fidelity+checkpoint+info-equivalence; Paper II packs; SYNTHETIC_SIM; information_equivalence_pass=true"
       },
-      "evidence_class": "digital",
-      "independent_reproduction": "EXTERNAL_PENDING"
+      "evidence_class": "SYNTHETIC_SIM",
+      "independent_reproduction": "EXTERNAL_PENDING",
+      "historical_pre_a2_sha": "cef3900af100c0526e8f75efd238303fd6a268bd",
+      "feature_sha_on_main": "b44357f764d440f983132bd44a9c23c180591f70",
+      "limitations": "Not app persistence / production RAN / physical RF / trained RL / standardized 6G"
     },
     {
       "repo": "readygary-6g-beam-selection",
@@ -106,23 +111,28 @@
     },
     {
       "repo": "ntn-resilience-sim",
-      "main_sha": "916520919bea4d9957970d824045c32929bb80e5",
+      "main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
       "result": "PASS",
       "tests": {
-        "command": "PYTHONPATH=src python -m pytest -q tests/ --tb=line",
+        "command": "PYTHONPATH=src python -m pytest -q tests/test_rq3_statistical_parity.py --tb=line",
         "exit_code": 0,
-        "elapsed_s": 1,
-        "output": "29 passed in 0.98s"
+        "elapsed_s": 0,
+        "output": "8 passed in 0.36s",
+        "python": "ntn-resilience-sim/.venv"
       },
       "scientific": {
         "command": "PYTHONPATH=src python scripts/reproduce.py",
         "exit_code": 0,
         "elapsed_s": 1,
-        "artifact": "results/experiments/rq3_gary_failover_sweeps.json"
+        "artifact": "paper/artifacts/rq3_statistical_summary.json; results/experiments/rq3_gary_failover_sweeps.json",
+        "note": "ntn_always_better=false; seeds 1..30; SYNTHETIC_SIM"
       },
-      "evidence_class": "digital",
+      "evidence_class": "SYNTHETIC_SIM",
       "carrier_operator": "NOT_RUN",
-      "satellite_attach": "NOT_RUN"
+      "satellite_attach": "NOT_RUN",
+      "historical_pre_a2_sha": "916520919bea4d9957970d824045c32929bb80e5",
+      "independent_reproduction": "EXTERNAL_PENDING",
+      "limitations": "No sim\u2192measurement; no operator attach; local-edge/peer not in seeded Paper-III engine"
     },
     {
       "repo": "waike-research-ops",
@@ -146,7 +156,7 @@
     },
     {
       "repo": "gunnchos-research-portal",
-      "main_sha": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+      "main_sha": "f4155bc79831a6ed0d9e7881a3037cc4bf012d6a",
       "result": "PASS",
       "tests": {
         "command": "python3.11 -m pytest -q tests/ --tb=line",
@@ -168,5 +178,10 @@
     "NTN operator attach",
     "human playtest",
     "certification"
-  ]
+  ],
+  "refresh_id": "post_a2_faculty_package_20260828",
+  "historical_pre_a2_reproduction": {
+    "date": "2026-08-27",
+    "note": "Stream A freeze SHAs (7GC 4cd7016, SpectrumX cef3900, NTN 9165209) remain historical PASS evidence; superseded for live faculty freeze."
+  }
 }

@@ -9,9 +9,9 @@
   "scientific_problem": "How to preserve minimum useful service for resource-constrained devices when access, compute placement, fidelity, and recovery must be chosen jointly under terrestrial/NTN/backhaul disruption.",
   "why_communications_engineering": "The object is wireless service continuity under heterogeneous 6G-era access (TN/NTN, blockage, outage), not an OS or game product dissertation. CWC Wireless Connectivity / Radio Technologies and 6G Flagship SRAs are the public fit; no affiliation is claimed.",
   "proposed_contribution_novelty_hypothesis": "A service-continuity formulation that treats minimum useful service as a cross-layer objective and evaluates access, compute placement, fidelity/recovery actions, and TN/NTN fallback through a reproducible instrumented stack. The novelty claim remains to be tested against the focused literature review and supervisor/peer-review feedback. Not a claim of established novelty, new PHY, operator NTN performance, or trained RL.",
-  "what_is_measurable": "Continuity states (target/degraded/min_useful/failed); service_continuity_utility; beam top-k and dB-vs-oracle; NTN vs terrestrial uptime/min_service/recovery_steps; seed-wise CIs on Paper II; host process timing (not sub-ms edge proof).",
-  "baselines": "SpectrumX: no_adaptation / static / placement-only. ReadyGary: exhaustive/hierarchical/oracle. NTN: terrestrial_baseline / static_ntn / fallback / adaptive. 7GC: proportional-fair stub (weaker).",
-  "completable_in_simulation": "RQ1 profile/scenario generation; RQ2 rule-based policy comparison under synthetic slots; RQ2 beam selection under TDL; RQ3 decision regions under configured TR 38.821-scoped assumptions; ablations and domain-shift for Paper II.",
+  "what_is_measurable": "Continuity states; task_completion_ratio + time_above_minimum_useful with 95% t-CI (RQ1); service_continuity_utility, fidelity/checkpoint costs, thrash, switch/compute cost with CIs (RQ2); NTN vs terrestrial uptime/min_service/recovery with paired defs and decision regions (RQ3); host process timing (not sub-ms edge proof).",
+  "baselines": "SpectrumX: no_adaptation / static / placement-only / fixed_target_fidelity / checkpoint_disabled. ReadyGary: exhaustive/hierarchical/oracle. NTN: terrestrial_baseline / static_ntn / fallback / adaptive. 7GC: proportional-fair stub + seeded profile bench (n=30).",
+  "completable_in_simulation": "RQ1 seeded profiles + task-completion/time-above-min-useful with 95% Student-t CIs (n=30); RQ2 Paper II packs + fidelity/checkpoint actions + runtime information-equivalence; RQ3 TN/NTN seeded decision regions with CIs (n=30); SYNTHETIC_SIM throughout.",
   "physical_optional_vs_thesis_critical": {
     "optional_for_a_simulation_first_thesis": [
       "EVT silicon",
@@ -46,7 +46,7 @@
     "games": "optional latency-sensitive interactive workloads"
   },
   "evidence_now": {
-    "digital": "All six primary repos + portal: accepted-main digital reproduction PASS 2026-08-27 (not physical/independent validation)",
+    "digital": "Post-A2 accepted-main digital strong core: 7GC #31 statistical parity; SpectrumX #102 fidelity+checkpoint+info-equivalence; NTN #28 statistical parity. Faculty paths re-run 2026-08-28 on detached origin/main. Not physical/independent validation; dissertation not complete.",
     "physical": "PENDING (Pixel install/launch smoke only)",
     "human": "PENDING",
     "external_reproduction": "PENDING",
@@ -62,14 +62,30 @@
     "Oulu affiliation",
     "standardized 6G product"
   ],
-  "what_oulu_cwc_test_network_resources_could_strengthen": "Test-network interruption campaigns, independently witnessed RF/QoS, NTN-capable terrestrial fallback on real bearers, external reproduction culture, supervisor narrowing of fidelity/checkpoint action design. Resource-fit only; not a uniqueness or affiliation claim.",
+  "what_oulu_cwc_test_network_resources_could_strengthen": "Sim\u2192measurement transfer for RQ3; independently witnessed RF/QoS; NTN-capable terrestrial fallback on real bearers; external reproduction culture; supervisor narrowing of doctoral scope. Resource-fit only; not uniqueness or affiliation.",
   "accepted_main_shas": {
-    "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
-    "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",
+    "7gc-digital-twin": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+    "spectrumx-ai-ran-gary": "9060655e724374f60cbbb86832816c9c2d332ca4",
     "readygary-6g-beam-selection": "569875224db7812890ec6abc48dfe43a608094f3",
     "edge-io-measurement-node": "af57fbdac857ae386b23b5b747fdc05797621f92",
-    "ntn-resilience-sim": "916520919bea4d9957970d824045c32929bb80e5",
+    "ntn-resilience-sim": "c4215fc1039f5452917b9b2034b42e03fdc13689",
     "waike-research-ops": "8eb2827dc58ffa391842da1bfb1ee665c25a31a7",
+    "gunnchos-research-portal": "f4155bc79831a6ed0d9e7881a3037cc4bf012d6a"
+  },
+  "refresh_id": "post_a2_faculty_package_20260828",
+  "generated_at_utc": "2026-08-28T01:20:00Z",
+  "historical_pre_a2_shas": {
+    "7gc-digital-twin": "4cd70169b35a67937eac076caaa7905ffd47adeb",
+    "spectrumx-ai-ran-gary": "cef3900af100c0526e8f75efd238303fd6a268bd",
+    "ntn-resilience-sim": "916520919bea4d9957970d824045c32929bb80e5",
     "gunnchos-research-portal": "2a3303d56a71c1f78bfbbf165ed75f1d368fa98f"
-  }
+  },
+  "spectrumx_pr102_feature_sha": "b44357f764d440f983132bd44a9c23c180591f70",
+  "spectrumx_pr102_merge_commit": "9060655e724374f60cbbb86832816c9c2d332ca4",
+  "rq_status_rollup": {
+    "RQ1": "DIGITAL_REPRODUCIBLE_STRONG_CORE",
+    "RQ2": "DIGITAL_REPRODUCIBLE_STRONG_CORE",
+    "RQ3": "DIGITAL_REPRODUCIBLE_STRONG_CORE_WITH_TRANSFER_PENDING"
+  },
+  "faculty_outreach_recommendation": "YES_WITH_EXPLICIT_LIMITATIONS"
 }

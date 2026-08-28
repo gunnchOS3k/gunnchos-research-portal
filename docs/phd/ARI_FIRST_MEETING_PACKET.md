@@ -7,7 +7,7 @@
 
 ## 60-second verbal pitch
 
-I study how heterogeneous 6G-era networks and compute can preserve **minimum useful service** for resource-constrained devices when a radio link being up is not enough. The dissertation is three papers: continuity profiles and benchmarks; joint access/placement/fidelity/checkpoint/recovery control informed by radio-aware digital-twin state; and TN/local-edge/peer/offline/NTN fallback decision regions with measurement grounding. I already have reproducible digital instruments and honest gaps on physical RF and missing fidelity/checkpoint actions. I am asking how you would narrow the radio and test-network scope into the strongest CWC dissertation — not for a company pitch or assumed funding.
+I study how heterogeneous 6G-era networks and compute can preserve **minimum useful service** for resource-constrained devices when a radio link being up is not enough. The dissertation is three papers: continuity profiles and benchmarks; joint access/placement/fidelity/checkpoint/recovery control informed by radio-aware digital-twin state; and TN/local-edge/peer/offline/NTN fallback decision regions with measurement grounding. I already have accepted-main digital strong cores for all three RQs (synthetic, with honest CIs) and open gaps on physical RF, sim→measurement transfer, and independent reproduction — the dissertation is not complete. I am asking how you would narrow the radio and test-network scope into the strongest CWC dissertation — not for a company pitch or assumed funding.
 
 ## 5-minute explanation
 
@@ -15,7 +15,7 @@ I study how heterogeneous 6G-era networks and compute can preserve **minimum use
 2. **Gap.** Edge offloading, QoE, slicing, twin, and NTN literatures are often evaluated separately from a task’s minimum useful operating point under device constraints.  
 3. **Model.** Constrained stochastic control over service/device/network/compute state; actions span access, placement, fidelity, checkpoint/sync, recovery.  
 4. **Three papers.** RQ1 profiles/benchmark → RQ2 controller vs baselines → RQ3 fallback decision regions + measurements.  
-5. **Instruments.** 7GC twin; SpectrumX policy; ReadyGary beam; NTN sim; Edge I/O schema — accepted-main digital PASS 2026-08-27.  
+5. **Instruments.** 7GC twin + RQ1 n=30 stats; SpectrumX Paper II + fidelity/checkpoint + info-equivalence; ReadyGary beam; NTN RQ3 stats (`ntn_always_better=false`); Edge I/O schema — post-A2 accepted-main digital strong cores.  
 6. **Feasibility.** Simulation-first Year 1; measurement/test-network strengthens II–III; vendor tools optional.
 
 ## Questions for Ari
@@ -42,4 +42,4 @@ I study how heterogeneous 6G-era networks and compute can preserve **minimum use
 | If AI loses to rules? | Negative result; keep simpler policy; document cost. Current Paper II path is rule-based, not RL. |
 | Without Oulu infrastructure? | Theoretical model, open benchmark, synthetic/emulation studies. |
 | What needs ethics approval? | Initial public/synthetic path; human/field/restricted data require supervisor-guided permits. |
-| What is already implemented? | Digital reproduce PASS on twin, AI-RAN, beam, NTN, Edge I/O schema (2026-08-27). Physical RF pending. |
+| What is already implemented? | Post-A2 digital strong cores: RQ1/RQ2 stats+fidelity/checkpoint; RQ3 TN/NTN CIs. Physical RF and transfer pending; dissertation not complete. |

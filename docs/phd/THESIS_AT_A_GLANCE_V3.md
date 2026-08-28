@@ -1,7 +1,8 @@
 # Thesis at a glance (V3)
 
 **Audience:** prospective Communications Engineering / CWC faculty (≈2 minutes).  
-**No University of Oulu affiliation, funding, or supervisor commitment is claimed.**
+**No University of Oulu affiliation, funding, or supervisor commitment is claimed.**  
+**Dissertation is not complete.**
 
 ## 1. Problem
 
@@ -41,10 +42,16 @@ Transparent rule-based, optimization, and oracle/reference policies first. Learn
 
 **Simulation-first and measurement-grounded.** Year-1 theoretical/benchmark core does not require vendor GPU tools or field access. Later lab/test-network work strengthens Papers II–III.
 
-## 9. Already implemented (accepted-main digital, 2026-08-27)
+## 9. Already implemented (accepted-main digital, post-A2 2026-08-28)
 
-Reproducible digital instruments for profiles/scenarios (7GC), AI-RAN policy packs (SpectrumX), beam/band tables (ReadyGary), TN/NTN sweeps (NTN), measurement schema/export (Edge I/O). See `FACULTY_EVIDENCE_MAP_V3.md`.
+| RQ | Digital status | What exists |
+|---|---|---|
+| RQ1 | STRONG_CORE | Profiles + n=30 seeded stats with correct 95% t-CIs (`SYNTHETIC_SIM`) |
+| RQ2 | STRONG_CORE | Paper II packs + fidelity/checkpoint actions + runtime info-equivalence (`SYNTHETIC_SIM`) |
+| RQ3 | STRONG_CORE + transfer pending | TN/NTN decision regions + n=30 CIs; `ntn_always_better=false` (`SYNTHETIC_SIM`) |
 
-## 10. Remaining validation work
+See `FACULTY_EVIDENCE_MAP_V3.md`.
 
-Fidelity+checkpoint joint actions; sim→measurement transfer; physical RF/QoS; independent reproduction; supervisor narrowing of scope. Pixel evidence = install/launch smoke only.
+## 10. Remaining doctoral validation work
+
+Sim→measurement transfer; physical RF/QoS; local-edge/peer in seeded Paper-III engine; independent reproduction; supervisor narrowing of scope. Pixel evidence = install/launch smoke only. Do not claim app persistence, production RAN, trained RL, or standardized 6G.

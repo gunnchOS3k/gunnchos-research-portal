@@ -1,6 +1,6 @@
 # Oulu application package status (V3)
 
-**Date:** 2026-08-27  
+**Date:** 2026-08-28 (post-A2 evidence refresh; package originated 2026-08-27)  
 **Study-right target:** UniOGS / ITEE-DP / Communications Engineering via Studyinfo  
 **Current window:** 1 Jul – 31 Oct 2026 (15.00 Finnish time on deadline day) — open as of this date.
 
@@ -14,7 +14,7 @@ Status labels: `READY_NOW` | `OWNER_REVIEW` | `SUPERVISOR_REQUIRED` | `RESEARCH_
 | Bibliography | READY_NOW | Excluded from page count per UniOGS |
 | One-page concept (Ari) | OWNER_REVIEW | `ARI_POUTTU_ONE_PAGE_CONCEPT.md` |
 | Thesis at a glance V3 | OWNER_REVIEW | `THESIS_AT_A_GLANCE_V3.md` |
-| Faculty evidence map / freeze | READY_NOW | Portal docs + `artifacts/oulu_readiness_2026_08_27/` |
+| Faculty evidence map / freeze | READY_NOW | Portal docs + `artifacts/oulu_readiness_2026_08_27/` (post-A2 SHAs/status) |
 | Outreach email draft | OWNER_REVIEW | `ARI_POUTTU_OUTREACH_EMAIL.md` — **not sent** |
 | First-meeting packet | OWNER_REVIEW | `ARI_FIRST_MEETING_PACKET.md` |
 | Selected portfolio links | READY_NOW | Supervisor 10-minute path |
