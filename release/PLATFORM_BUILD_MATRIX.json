@@ -1,0 +1,41 @@
+{
+  "schema": "gunnchos.release.platform_build_matrix.v1",
+  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "platforms": [
+    {
+      "platform": "Android_Pixel",
+      "status": "PARTIAL",
+      "notes": "BeatLink Pixel smoke PASS; Anime Wave022 Pixel BLOCKED/unavailable; Pedestrian/Archive Pixel not revalidated this freeze."
+    },
+    {
+      "platform": "Linux",
+      "status": "PARTIAL",
+      "notes": "Device OS / emulation / guest lab digital evidence present; physical silicon pending."
+    },
+    {
+      "platform": "macOS",
+      "status": "PARTIAL",
+      "notes": "Dev/desktop digital builds for games/AI where applicable; not shipping OS claim."
+    },
+    {
+      "platform": "Windows",
+      "status": "NOT_RUN",
+      "notes": "No accepted-main Windows release matrix revalidation executed in STREAM P1."
+    },
+    {
+      "platform": "web_PWA",
+      "status": "PARTIAL",
+      "notes": "BeatLink web/PWA path exists; multi-client party rights-safe catalog constraints apply."
+    },
+    {
+      "platform": "gunnchOS_emulation",
+      "status": "PARTIAL",
+      "notes": "Guest/lab emulation digital tokens present; SILICON_EXACT_EMULATION=false."
+    },
+    {
+      "platform": "physical_gunnchOS",
+      "status": "PENDING",
+      "notes": "TARGET_HARDWARE pending; do not convert digital PASS."
+    }
+  ]
+}

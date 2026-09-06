@@ -1,0 +1,140 @@
+{
+  "schema": "gunnchos.release.accepted_main_freeze.v1",
+  "stream": "STREAM_P1_FULL_ECOSYSTEM_PRODUCT_RC0_DIGITAL_FREEZE",
+  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "control_plane_repo": "gunnchos-research-portal",
+  "owner_merge_authority": "Edmund Gunn Jr.",
+  "cursor_merge_forbidden": true,
+  "full_ecosystem_complete_token_forbidden": true,
+  "policy": [
+    "Accepted origin/main is authoritative.",
+    "Draft/unmerged PRs are candidate evidence only.",
+    "Do not convert physical/human/rights/regulatory/carrier/manufacturing/external into digital PASS.",
+    "User-visible failure overrides automated PASS."
+  ],
+  "repo_count_requested": 12,
+  "repo_count_frozen": 12,
+  "repos": [
+    {
+      "repository": "gunnchos-device-os",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/gunnchos-device-os.git",
+      "origin_main_sha": "28562a8456207540c205a1c8a6434a491b0a4771",
+      "origin_main_sha12": "28562a845620",
+      "commit_subject": "Merge pull request #131 from gunnchOS3k/eng/wave009-os020-sandbox-validation",
+      "commit_date": "2026-08-21T10:46:17-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "gunnchos-hardware-industrial-design",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design.git",
+      "origin_main_sha": "9ee0ef2f688b2c18428bfabc316b23687a02988d",
+      "origin_main_sha12": "9ee0ef2f688b",
+      "commit_subject": "Merge pull request #67 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "commit_date": "2026-08-18T15:09:51-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "gunnchAI3k",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/gunnchAI3k.git",
+      "origin_main_sha": "4b4f411710e8cdb8102a7e11502f8497f68156b1",
+      "origin_main_sha12": "4b4f411710e8",
+      "commit_subject": "Merge pull request #45 from gunnchOS3k/eng/wave003-integrity-repair",
+      "commit_date": "2026-08-19T20:07:04-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "waike-research-ops",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/waike-research-ops.git",
+      "origin_main_sha": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+      "origin_main_sha12": "fbf7685bc568",
+      "commit_subject": "Merge pull request #57 from gunnchOS3k/cursor/waike-seven-gc-digital-course-normalization",
+      "commit_date": "2026-09-06T13:59:09-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "gunnchos-waike-learning-platform",
+      "local_present": false,
+      "remote": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform.git",
+      "origin_main_sha": "43e770772b97a0d6900893ea7428df91f2acdb93",
+      "origin_main_sha12": "43e770772b97",
+      "commit_subject": "Merge pull request #4 from gunnchOS3k/cursor/waike-learning-gate-a-offline-activities",
+      "commit_date": "2026-09-06T09:09:31Z",
+      "fetched_at_utc": "2026-09-06T19:08:26Z",
+      "source": "GitHub API commits/main (repo not cloned locally)"
+    },
+    {
+      "repository": "anime-aggressors",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/anime-aggressors.git",
+      "origin_main_sha": "b537c7bbd74cb9adfeff068aa9efa1912d29cd4f",
+      "origin_main_sha12": "b537c7bbd74c",
+      "commit_subject": "Merge pull request #97 from gunnchOS3k/eng/wave022-full-roster-ascension",
+      "commit_date": "2026-08-27T00:20:39-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "pedestrian-pursuit",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/pedestrian-pursuit.git",
+      "origin_main_sha": "5950ea791ed37addb26c80be84a64c20f589f4b4",
+      "origin_main_sha12": "5950ea791ed3",
+      "commit_subject": "Merge pull request #22 from gunnchOS3k/eng/wave010-pedestrian-pursuit-depth",
+      "commit_date": "2026-08-21T21:47:21-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "archive-of-life-artifact-world",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/archive-of-life-artifact-world.git",
+      "origin_main_sha": "069243c365552f00707650e9d81a8046ba3075d8",
+      "origin_main_sha12": "069243c36555",
+      "commit_subject": "Merge pull request #35 from gunnchOS3k/eng/wave008-archive-scientific-records",
+      "commit_date": "2026-08-20T23:49:21-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "beatlink-party",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/beatlink-party.git",
+      "origin_main_sha": "23a95d152c2d8c8d4a966b4ac7b90d9bca414526",
+      "origin_main_sha12": "23a95d152c2d",
+      "commit_subject": "Merge pull request #25 from gunnchOS3k/eng/wave007-beatlink-party-loop",
+      "commit_date": "2026-08-20T21:05:22-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "gunnchos-7gc-ai-ran-field-kit",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit.git",
+      "origin_main_sha": "9e93e41a3b16b009c9cc5163b775360d4d2ef693",
+      "origin_main_sha12": "9e93e41a3b16",
+      "commit_subject": "Merge pull request #118 from gunnchOS3k/eng/wave014-accepted-main-closeout",
+      "commit_date": "2026-08-22T19:17:18-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "edge-io-measurement-node",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/edge-io-measurement-node.git",
+      "origin_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "origin_main_sha12": "af57fbdac857",
+      "commit_subject": "Merge pull request #38 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "commit_date": "2026-08-18T17:09:28-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    },
+    {
+      "repository": "gunnchos-research-portal",
+      "local_present": true,
+      "remote": "https://github.com/gunnchOS3k/gunnchos-research-portal.git",
+      "origin_main_sha": "eef765bdb6156a59a2aef556292cdf1e9e16efb6",
+      "origin_main_sha12": "eef765bdb615",
+      "commit_subject": "Merge pull request #13 from gunnchOS3k/docs/v3-ari-outreach-package-closure",
+      "commit_date": "2026-08-27T19:27:07-05:00",
+      "fetched_at_utc": "2026-09-06T19:05:05Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "gunnchos.release.stream_p1_closure_report.v1",
+  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "decisions": {
+    "RC_SOFTWARE_PILOT": "RC_SOFTWARE_PILOT_NOT_READY",
+    "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
+    "PRODUCTION_RELEASE": "PRODUCTION_RELEASE_BLOCKED_EXTERNAL"
+  },
+  "flags": {
+    "ACCEPTED_MAIN_RE_FROZEN": true,
+    "DIGITAL_EVIDENCE_NOT_PHYSICAL": true,
+    "HUMAN_EVIDENCE_NOT_INFERRED": true,
+    "RIGHTS_NOT_INFERRED": true,
+    "CERTIFICATION_NOT_SELF_DECLARED": true,
+    "CARRIER_ACCEPTANCE_NOT_INFERRED": true,
+    "CURSOR_MERGED_NOTHING": true,
+    "FULL_ECOSYSTEM_COMPLETE": false
+  }
+}
