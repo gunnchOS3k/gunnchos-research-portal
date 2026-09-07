@@ -1,41 +1,108 @@
 {
-  "schema": "gunnchos.release.ready_packet.v1",
-  "packet": "WINDOWS_PILOT0",
-  "generated_at_utc": "2026-09-07T20:59:22Z",
-  "status": "READY_PACKET",
-  "evidence_class": "DIGITAL",
-  "why_not_pass": "No windows-latest / windows-2022 workflows found on accepted main for anime-aggressors, pedestrian-pursuit, archive-of-life-artifact-world, beatlink-party, gunnchAI3k, gunnchos-device-os. No authentic Windows runner evidence this stream.",
-  "required_evidence_per_product": [
-    "bootstrap",
-    "deps",
-    "build",
-    "install_or_package",
-    "first_launch",
-    "data_paths",
-    "permissions",
-    "save_restore",
-    "restart",
-    "upgrade",
-    "uninstall",
-    "crash_logging",
-    "tests",
-    "optional_30min_soak",
-    "CI_on_windows_runner",
-    "artifact_hashes_bound_to_SHA"
+  "schema": "gunnchos.release.windows_pilot0_control_plane.v1",
+  "generated_at_utc": "2026-09-07T21:35:00Z",
+  "control_plane_pr": 14,
+  "control_plane_branch": "release/stream-p1-rc0-digital-freeze",
+  "owner_merge_authority": "Edmund Gunn Jr.",
+  "cursor_merge_forbidden": true,
+  "prior_freeze_mains_unchanged": true,
+  "verdicts": {
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": false,
+    "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false,
+    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
+    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": false
+  },
+  "reason_candidates_not_ready": [
+    "Product candidate PRs pushed with windows-pilot0 workflows, but REMOTE_WINDOWS_CI exact-head PASS evidence not yet owner-verified on this control-plane refresh.",
+    "Prefer PARTIAL/PENDING over false PASS."
   ],
-  "products_in_scope": [
-    "gunnchos-waike-learning-platform (Tauri native)",
-    "gunnchAI3k",
-    "anime-aggressors (if Windows export supported)",
-    "pedestrian-pursuit",
-    "archive-of-life-artifact-world",
-    "beatlink-party (web may partially apply; native packaging if present)",
-    "gunnchos-device-os (dev tooling / docs/WINDOWS_FIRST_STRATEGY.md exists \u2014 still needs authentic Windows CI evidence)"
+  "applicability": [
+    {"product": "gunnchos-waike-learning-platform", "class": "WINDOWS_NATIVE_DESKTOP", "required": true},
+    {"product": "gunnchAI3k", "class": "WINDOWS_CLI_SERVICE", "required": true},
+    {"product": "anime-aggressors", "class": "WINDOWS_WEB_PWA", "required": true, "notes": "Godot Web on Windows browser; Unity BLOCKED_ENGINE_LICENSE; Pixel PENDING_DEVICE"},
+    {"product": "pedestrian-pursuit", "class": "WINDOWS_NATIVE_DESKTOP", "required": true, "notes": "Added Windows Desktop export on candidate; no full-VP smuggle"},
+    {"product": "archive-of-life-artifact-world", "class": "WINDOWS_WEB_PWA", "required": true, "notes": "No fake native wrapper; no full-VP smuggle"},
+    {"product": "beatlink-party", "class": "WINDOWS_WEB_PWA", "required": true, "notes": "Rights-safe only"},
+    {"product": "gunnchos-device-os", "class": "WINDOWS_NOT_APPLICABLE", "required": false, "tooling": "WINDOWS_DEV_TOOLING_ONLY"},
+    {"product": "waike-research-ops", "class": "WINDOWS_NOT_APPLICABLE", "required": false, "notes": "Curriculum/content pin"},
+    {"product": "gunnchos-hardware-industrial-design", "class": "WINDOWS_NOT_APPLICABLE", "required": false},
+    {"product": "edge-io-measurement-node", "class": "WINDOWS_NOT_APPLICABLE", "required": false},
+    {"product": "gunnchos-7gc-ai-ran-field-kit", "class": "WINDOWS_NOT_APPLICABLE", "required": false},
+    {"product": "gunnchos-research-portal", "class": "WINDOWS_NOT_APPLICABLE", "required": false, "notes": "Control plane only"}
   ],
-  "owner_or_next_cursor_gate": "Scoped per-repo Windows CI PRs using GitHub-hosted windows-latest runners; do not invent Linux/macOS as Windows proof.",
-  "cursor_can_do_more_now": true,
-  "requires_edmund": false,
-  "blockers_to_start": [
-    "gh auth restore for Actions iteration OR local Windows host"
-  ]
+  "candidates": [
+    {
+      "repo": "gunnchos-waike-learning-platform",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "cc4db2273074144d4f3a042fb20094b238b38275",
+      "pr": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/8",
+      "draft": true,
+      "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
+      "REMOTE_WINDOWS_CI": "PENDING_OWNER_VERIFICATION"
+    },
+    {
+      "repo": "gunnchAI3k",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "5d4d6d3b924c6b9f1343eb0f6baf9c002e7a483c",
+      "pr": "https://github.com/gunnchOS3k/gunnchAI3k/pull/46",
+      "draft": true,
+      "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
+      "REMOTE_WINDOWS_CI": "PENDING_OWNER_VERIFICATION",
+      "HUMAN_EVALUATION": "PENDING_HUMANS"
+    },
+    {
+      "repo": "anime-aggressors",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "56e87468a002f85c645821221758910cb444ed08",
+      "pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/98",
+      "draft": true,
+      "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
+      "REMOTE_WINDOWS_CI": "PENDING_OWNER_VERIFICATION",
+      "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE"
+    },
+    {
+      "repo": "pedestrian-pursuit",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "4b71380cbfc3f9181fe74873a4d3e7916d6544a2",
+      "pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23",
+      "draft": true,
+      "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
+      "REMOTE_WINDOWS_CI": "PENDING_OWNER_VERIFICATION"
+    },
+    {
+      "repo": "archive-of-life-artifact-world",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "179fd300941964b24c794da4a29eb44b0bc365ab",
+      "pr": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/36",
+      "draft": true,
+      "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
+      "REMOTE_WINDOWS_CI": "PENDING_OWNER_VERIFICATION"
+    },
+    {
+      "repo": "beatlink-party",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "998cebbbcd8521f5500db929764fb473f2c84c3a",
+      "pr": "https://github.com/gunnchOS3k/beatlink-party/pull/26",
+      "draft": true,
+      "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
+      "REMOTE_WINDOWS_CI": "PENDING_OWNER_VERIFICATION",
+      "BEATLINK_RIGHTS_SAFE_PILOT_PASS": false
+    },
+    {
+      "repo": "gunnchos-device-os",
+      "branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "4ab2a29e233f767d1ab637aa09bbcbaf524f4e37",
+      "pr": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/133",
+      "draft": true,
+      "claim_at_registration": "WINDOWS_PILOT0_NOT_APPLICABLE",
+      "classification": "WINDOWS_NOT_APPLICABLE"
+    }
+  ],
+  "replaced_ready_packet": {
+    "prior_status": "READY_PACKET",
+    "new_status": "CANDIDATES_REGISTERED_PENDING_AUTHENTIC_CI",
+    "note": "READY_PACKET replaced by candidate registration; not yet PASS."
+  },
+  "next_gate_recommendation": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
+  "next_gate_started": false
 }

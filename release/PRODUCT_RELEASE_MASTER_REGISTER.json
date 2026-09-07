@@ -17,7 +17,7 @@
   "decision_rationale": {
     "RC_SOFTWARE_PILOT": [
       "WAIKE Gate B/C/D owner-merged \u2014 PR #5 is no longer an open software blocker.",
-      "Windows Pilot 0 REQUIRED_NOW but no authentic Windows evidence (READY_PACKET only).",
+      "Windows Pilot 0 REQUIRED_NOW — candidate Windows evidence PRs registered; REMOTE_WINDOWS_CI=PENDING_OWNER_VERIFICATION; accepted-main PASS false (READY_PACKET replaced, not PASS).",
       "Device Lab tokens on Device OS main are not bound to current tip 4f02a48780d3 (assessed tips older) \u2014 current-pin revalidation NOT_RUN.",
       "Fresh \u226530min product soaks NOT_RUN this refresh.",
       "Anime Pixel acceptance PENDING_DEVICE (adb unauthorized).",

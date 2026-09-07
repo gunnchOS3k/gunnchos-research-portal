@@ -24,8 +24,8 @@
     {
       "platform": "Windows",
       "pilot_requirement": "REQUIRED_NOW",
-      "status": "READY_PACKET",
-      "notes": "No windows-latest CI found on accepted main for consumer product repos audited. Authentic Windows evidence not run this stream. See release/ready_packets/WINDOWS_PILOT0_READY_PACKET.json."
+      "status": "CANDIDATES_REGISTERED_PENDING_AUTHENTIC_CI",
+      "notes": "Product draft PRs add windows-2025 Pilot 0 workflows. Accepted-main PASS false until Edmund merges + revalidation. REMOTE_WINDOWS_CI=PENDING_OWNER_VERIFICATION. See release/ready_packets/WINDOWS_PILOT0_READY_PACKET.json."
     },
     {
       "platform": "web_PWA",

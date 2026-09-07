@@ -18,7 +18,7 @@ Control plane: portal PR **#14** only.
 5. **Hardware EVT ranking + manufacturing digital prep** — ranked/readied as DIGITAL PREP only.
 
 ## Software-pilot blockers still open
-1. **Windows Pilot 0** — `READY_PACKET` (no `windows-latest` CI / no authentic Windows run). Class: DIGITAL.
+1. **Windows Pilot 0** — candidate PRs registered with `windows-2025` workflows; `REMOTE_WINDOWS_CI=PENDING_OWNER_VERIFICATION`; accepted-main PASS false. Class: DIGITAL.
 2. **Device Lab current-pin revalidation** — NOT_RUN on Device OS `4f02a48780d3` (retained tokens assessed at older tips). Class: DIGITAL + EMULATION; PHYSICAL quartet separate and false.
 3. **Fresh ≥30 min soaks** on current pins for consumer products — NOT_RUN this refresh. Class: DIGITAL.
 4. **Anime Pixel acceptance** — `PENDING_DEVICE` (`adb` shows `27211JEGR06194 unauthorized`). Class: TARGET_HARDWARE.
