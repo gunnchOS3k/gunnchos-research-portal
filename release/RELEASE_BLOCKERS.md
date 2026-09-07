@@ -1,6 +1,6 @@
 # RELEASE_BLOCKERS — STREAM P1 RC0 Digital Freeze (Post–Gate D refresh)
 
-Generated: `2026-09-07T20:59:22Z`  
+Generated: `2026-09-07T22:49:22Z`  
 Owner / sole merge authority: **Edmund Gunn Jr.**  
 Cursor merges nothing. `FULL_ECOSYSTEM_COMPLETE` forbidden.  
 Control plane: portal PR **#14** only.
@@ -18,7 +18,7 @@ Control plane: portal PR **#14** only.
 5. **Hardware EVT ranking + manufacturing digital prep** — ranked/readied as DIGITAL PREP only.
 
 ## Software-pilot blockers still open
-1. **Windows Pilot 0** — candidate PRs registered with `windows-2025` workflows; `REMOTE_WINDOWS_CI=PENDING_OWNER_VERIFICATION`; accepted-main PASS false. Class: DIGITAL.
+1. **Windows Pilot 0** — Archive+BeatLink OBSERVED_GREEN (soak≥1800s); WAIKE/gunnchAI/Anime/Pedestrian BLOCKED with harness fixes re-running; `WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER=false`; accepted-main PASS false. Class: DIGITAL.
 2. **Device Lab current-pin revalidation** — NOT_RUN on Device OS `4f02a48780d3` (retained tokens assessed at older tips). Class: DIGITAL + EMULATION; PHYSICAL quartet separate and false.
 3. **Fresh ≥30 min soaks** on current pins for consumer products — NOT_RUN this refresh. Class: DIGITAL.
 4. **Anime Pixel acceptance** — `PENDING_DEVICE` (`adb` shows `27211JEGR06194 unauthorized`). Class: TARGET_HARDWARE.

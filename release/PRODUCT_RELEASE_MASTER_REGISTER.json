@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.product_release_master_register.v1",
-  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "generated_at_utc": "2026-09-07T22:49:22Z",
   "stream_refresh": "POST_GATE_D_RC_SOFTWARE_PILOT_CLOSURE",
   "owner_merge_authority": "Edmund Gunn Jr.",
   "cursor_merge_forbidden": true,
@@ -17,7 +17,7 @@
   "decision_rationale": {
     "RC_SOFTWARE_PILOT": [
       "WAIKE Gate B/C/D owner-merged \u2014 PR #5 is no longer an open software blocker.",
-      "Windows Pilot 0 REQUIRED_NOW — candidate Windows evidence PRs registered; REMOTE_WINDOWS_CI=PENDING_OWNER_VERIFICATION; accepted-main PASS false (READY_PACKET replaced, not PASS).",
+      "Windows Pilot 0 REQUIRED_NOW — Archive+BeatLink OBSERVED_GREEN soak>=1800s; WAIKE/gunnchAI/Anime/Pedestrian BLOCKED/re-running; WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER=false; accepted-main PASS false.",
       "Device Lab tokens on Device OS main are not bound to current tip 4f02a48780d3 (assessed tips older) \u2014 current-pin revalidation NOT_RUN.",
       "Fresh \u226530min product soaks NOT_RUN this refresh.",
       "Anime Pixel acceptance PENDING_DEVICE (adb unauthorized).",

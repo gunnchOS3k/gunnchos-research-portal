@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.open_candidate_pr_register.v1",
-  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "generated_at_utc": "2026-09-07T22:49:22Z",
   "policy": "Open/draft PRs are candidate evidence only and do not count as accepted main until owner merge.",
   "waike_learning_platform_note": {
     "pr_3": {
@@ -53,52 +53,56 @@
       "number": 8,
       "title": "feat(windows): Pilot 0 authentic Tauri Windows evidence",
       "head_ref": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "cc4db2273074144d4f3a042fb20094b238b38275",
+      "head_sha": "36e83dd1b75cbdb51046cd7d1be9b7f4623edc84",
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/8",
       "release_relevance": "REQUIRED_NOW",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "Owner-verify windows-2025 evidence artifact then merge; Cursor never merges."
+      "recommendation": "Tauri NSIS still failing; wait for green windows-2025 then owner-verify; Cursor never merges.",
+      "WINDOWS_PILOT0": "BLOCKED"
     },
     {
       "repo": "gunnchAI3k",
       "number": 46,
       "title": "feat(windows): Pilot 0 authentic CLI/local-runtime evidence",
       "head_ref": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "71069897b4c3af6a37cf5ef780885cd2f158aa32",
+      "head_sha": "453c2b700ff151d435233310fcb8d6dea3b883e6",
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchAI3k/pull/46",
       "release_relevance": "REQUIRED_NOW",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "Owner-verify windows-2025 evidence; HUMAN_EVALUATION stays PENDING_HUMANS."
+      "recommendation": "cmd /c argv fix pushed; wait for green windows-2025; HUMAN_EVALUATION stays PENDING_HUMANS.",
+      "WINDOWS_PILOT0": "BLOCKED"
     },
     {
       "repo": "anime-aggressors",
       "number": 98,
       "title": "feat(windows): Pilot 0 authentic Godot Web browser evidence",
       "head_ref": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "56e87468a002f85c645821221758910cb444ed08",
+      "head_sha": "ef9b87fbe2739b25887c9478c4d15f0725e4c303",
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/98",
       "release_relevance": "REQUIRED_NOW",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "Windows browser path only; Pixel stays PENDING_DEVICE."
+      "recommendation": "Godot export timeout fix pushed; Pixel stays PENDING_DEVICE.",
+      "WINDOWS_PILOT0": "BLOCKED"
     },
     {
       "repo": "pedestrian-pursuit",
       "number": 23,
       "title": "feat(windows): Pilot 0 authentic Godot Windows Desktop evidence",
       "head_ref": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "4b71380cbfc3f9181fe74873a4d3e7916d6544a2",
+      "head_sha": "e3c5f0bcf667190c72c105af13001ae8efd01d45",
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23",
       "release_relevance": "REQUIRED_NOW",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "No full-VP smuggle; owner-verify Windows Desktop export evidence."
+      "recommendation": "Godot export timeout fix pushed after >60m hang; no full-VP smuggle.",
+      "WINDOWS_PILOT0": "BLOCKED"
     },
     {
       "repo": "archive-of-life-artifact-world",
@@ -111,7 +115,9 @@
       "release_relevance": "REQUIRED_NOW",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "No fake native wrapper; no full-VP smuggle."
+      "recommendation": "Observed windows-2025 success soak>=1800s; owner merge authority only.",
+      "WINDOWS_PILOT0": "PASS",
+      "REMOTE_WINDOWS_CI": "OBSERVED_GREEN"
     },
     {
       "repo": "beatlink-party",
@@ -124,7 +130,9 @@
       "release_relevance": "REQUIRED_NOW",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "Rights-safe software only; commercial rights/multiplayer remain non-PASS."
+      "recommendation": "Observed windows-2025 success soak>=1800s; commercial rights/multiplayer remain non-PASS.",
+      "WINDOWS_PILOT0": "PASS",
+      "REMOTE_WINDOWS_CI": "OBSERVED_GREEN"
     },
     {
       "repo": "gunnchos-device-os",
@@ -137,7 +145,8 @@
       "release_relevance": "CLASSIFICATION",
       "classification": "WINDOWS_PILOT0_CANDIDATE",
       "evidence_class": "DIGITAL_CANDIDATE",
-      "recommendation": "Host NOT_APPLICABLE; does not replace Device Lab current-pin revalidation."
+      "recommendation": "Host NOT_APPLICABLE classification green; does not replace Device Lab current-pin revalidation.",
+      "WINDOWS_PILOT0": "NOT_APPLICABLE"
     },
     {
       "repo": "gunnchAI3k",
