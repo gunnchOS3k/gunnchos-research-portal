@@ -1,49 +1,62 @@
 {
   "schema": "gunnchos.release.open_candidate_pr_register.v1",
-  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
   "policy": "Open/draft PRs are candidate evidence only and do not count as accepted main until owner merge.",
   "waike_learning_platform_note": {
     "pr_3": {
       "number": 3,
-      "title": "PR3: Identity, sections, enrollment, instructor console, and gradebook",
       "state": "MERGED",
-      "merged_at": "2026-09-04T04:45:10Z",
-      "merge_commit_sha": "4e0afbe44bd595da6f44aebb465dea891ace629b",
-      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/3",
       "counts_as_main": true,
-      "note": "Historically flagged as candidate; as of freeze, PR #3 is merged into accepted main and is no longer candidate-only."
+      "classification": "SUPERSEDED",
+      "note": "Merged historically; no longer candidate."
     },
-    "open_gate_b": {
+    "pr_5_gate_b": {
       "number": 5,
       "title": "Gate B: gunnchAI and all 18 WAIKE tracks",
-      "state": "OPEN",
-      "is_draft": false,
-      "head_sha": "577929203e5cc7ac143c07daa2d0deef7df8c943",
-      "base": "main",
-      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/5",
-      "counts_as_main": false
+      "state": "MERGED",
+      "counts_as_main": true,
+      "classification": "SUPERSEDED",
+      "note": "Owner-merged; NOT an open software-pilot blocker."
+    },
+    "pr_6_gate_c": {
+      "number": 6,
+      "title": "Gate C: interop hardening",
+      "state": "MERGED",
+      "counts_as_main": true,
+      "classification": "SUPERSEDED"
+    },
+    "pr_7_gate_d": {
+      "number": 7,
+      "title": "Gate D: full acceptance",
+      "state": "MERGED",
+      "merge_commit_sha": "ef73dc1804b9aca93382b846283d26e6c7ff0ea4",
+      "counts_as_main": true,
+      "classification": "SUPERSEDED",
+      "note": "Digital baseline for Pilot 0 staff-alpha prep."
     }
   },
   "open_candidate_prs": [
     {
-      "repo": "gunnchos-waike-learning-platform",
-      "number": 5,
-      "title": "Gate B: gunnchAI and all 18 WAIKE tracks",
-      "is_draft": false,
-      "head_sha": "577929203e5cc7ac143c07daa2d0deef7df8c943",
+      "repo": "gunnchos-research-portal",
+      "number": 14,
+      "title": "STREAM P1 RC0 digital freeze",
+      "head_ref": "release/stream-p1-rc0-digital-freeze",
       "base": "main",
-      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/5",
-      "release_relevance": "HIGH",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/14",
+      "release_relevance": "CONTROL_PLANE",
+      "classification": "REQUIRED_FOR_PILOT",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Owner review after this refresh; Cursor never merges."
     },
     {
       "repo": "gunnchAI3k",
       "number": 18,
       "title": "Add Jaelysa AI security sprint bootstrap and mentorship docs",
-      "is_draft": false,
       "url": "https://github.com/gunnchOS3k/gunnchAI3k/pull/18",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "UNIQUE_BUT_NOT_REQUIRED",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Defer; not required for Pilot 0."
     },
     {
       "repo": "gunnchAI3k",
@@ -52,7 +65,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchAI3k/pull/5",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Close or ignore for Pilot 0."
     },
     {
       "repo": "gunnchAI3k",
@@ -61,16 +76,19 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchAI3k/pull/4",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Close or ignore for Pilot 0."
     },
     {
       "repo": "waike-research-ops",
       "number": 41,
       "title": "Add PhD application readiness documentation",
-      "is_draft": false,
       "url": "https://github.com/gunnchOS3k/waike-research-ops/pull/41",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "UNIQUE_BUT_NOT_REQUIRED",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Optional docs; not Pilot 0 software blocker."
     },
     {
       "repo": "anime-aggressors",
@@ -79,7 +97,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/71",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Docs-only; Wave022 main supersedes product path."
     },
     {
       "repo": "pedestrian-pursuit",
@@ -88,7 +108,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/13",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Docs-only stale candidate."
     },
     {
       "repo": "archive-of-life-artifact-world",
@@ -97,7 +119,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/26",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Docs-only stale candidate."
     },
     {
       "repo": "beatlink-party",
@@ -106,7 +130,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/beatlink-party/pull/17",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Docs-only stale candidate."
     },
     {
       "repo": "gunnchos-7gc-ai-ran-field-kit",
@@ -115,7 +141,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/75",
       "release_relevance": "MEDIUM",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "NEEDS_OWNER_REVIEW",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Evidence hygiene; not required to start software Pilot 0."
     },
     {
       "repo": "gunnchos-7gc-ai-ran-field-kit",
@@ -124,16 +152,19 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/71",
       "release_relevance": "MEDIUM",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Likely superseded by accepted-main wave014 closeout."
     },
     {
       "repo": "edge-io-measurement-node",
       "number": 18,
       "title": "Add PhD application readiness documentation",
-      "is_draft": false,
       "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/18",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "UNIQUE_BUT_NOT_REQUIRED",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Defer."
     },
     {
       "repo": "gunnchos-research-portal",
@@ -142,7 +173,9 @@
       "is_draft": true,
       "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/5",
       "release_relevance": "LOW",
-      "evidence_class": "DIGITAL_CANDIDATE"
+      "classification": "STALE",
+      "evidence_class": "DIGITAL_CANDIDATE",
+      "recommendation": "Ignore for Pilot 0 control plane (use #14)."
     }
   ],
   "local_unmerged_candidate_artifacts_not_on_main": [
@@ -151,14 +184,27 @@
       "path": "artifacts/pedestrian_full/VP_PEDESTRIAN_FULL_INDEPENDENT_RESULT.json",
       "on_origin_main": false,
       "status": "CANDIDATE_ONLY",
-      "note": "Local/worktree packet claims READY_FOR_EDMUND_MERGE; not present on origin/main 5950ea791ed3."
+      "classification": "NEEDS_OWNER_REVIEW",
+      "disposition": "Extract scoped product PR in pedestrian-pursuit if still desired; do not dump into portal #14.",
+      "note": "Local packet claims READY_FOR_EDMUND_MERGE; not present on origin/main 5950ea791ed3."
     },
     {
       "repo": "archive-of-life-artifact-world",
       "path": "artifacts/archive_full/VP_ARCHIVE_FULL_INDEPENDENT_RESULT.json",
       "on_origin_main": false,
       "status": "CANDIDATE_ONLY",
-      "note": "Local/worktree packet claims READY_FOR_EDMUND_MERGE; not present on origin/main 069243c36555."
+      "classification": "NEEDS_OWNER_REVIEW",
+      "disposition": "Extract scoped product PR or regenerate against current main; do not dump into portal #14.",
+      "note": "Local packet claims READY_FOR_EDMUND_MERGE; not present on origin/main 069243c36555."
+    },
+    {
+      "repo": "anime-aggressors",
+      "path": "artifacts/engineering_wave022/pixel/PIXEL_BUILD_PROVENANCE.json",
+      "on_origin_main": false,
+      "status": "LOCAL_ONLY_NOT_CURRENT_MAIN_PIN",
+      "classification": "EXTERNAL_ONLY",
+      "note": "Local provenance cites PHYSICALLY_TESTED_RUNTIME_SHA 780818a1... not accepted main b537c7bb. Pixel currently unauthorized."
     }
-  ]
+  ],
+  "gh_api_note": "gh auth token invalid this session; PR open/merged states for WAIKE #5/#6/#7 verified via git merge history on origin/main. Other open-PR rows retained from prior freeze with classification refresh; re-verify with gh when auth restored."
 }

@@ -1,34 +1,37 @@
-# RELEASE_BLOCKERS — STREAM P1 RC0 Digital Freeze
+# RELEASE_BLOCKERS — STREAM P1 RC0 Digital Freeze (Post–Gate D refresh)
 
-Generated: `2026-09-06T19:08:26Z`  
+Generated: `2026-09-07T20:59:22Z`  
 Owner / sole merge authority: **Edmund Gunn Jr.**  
-Cursor merges nothing. `FULL_ECOSYSTEM_COMPLETE` forbidden.
+Cursor merges nothing. `FULL_ECOSYSTEM_COMPLETE` forbidden.  
+Control plane: portal PR **#14** only.
 
 ## Decisions
-- `RC_SOFTWARE_PILOT_NOT_READY`
-- `HARDWARE_EVT_NOT_READY`
-- `PRODUCTION_RELEASE_BLOCKED_EXTERNAL`
+- `RC_SOFTWARE_PILOT_NOT_READY` (`RC_SOFTWARE_PILOT_READY_FOR_OWNER=false`)
+- `HARDWARE_EVT_NOT_READY` (`HARDWARE_EVT_READY_TO_EXECUTE=false`)
+- `PRODUCTION_RELEASE_BLOCKED_EXTERNAL` (`PRODUCTION_RELEASE_READY_FOR_OWNER=false`)
 
-## Evidence-class legend
-DIGITAL · TARGET_HARDWARE · HUMAN · EXTERNAL · REGULATORY_CERTIFICATION · CARRIER_OPERATOR · MANUFACTURING · RIGHTS_LICENSING
+## Closed since prior freeze (digital honesty)
+1. **WAIKE Learning Platform Gate B PR #5** — owner-merged (also Gate C #6, Gate D #7). Tip `ef73dc1804b9`. **Not an open software blocker.**
+2. **Accepted-main freeze** — Device OS advanced to `4f02a48780d3`; WAIKE LP advanced through Gates B/C/D.
+3. **BeatLink rights-safe Pilot 0 architecture** — documented on main; `BEATLINK_RIGHTS_SAFE_PILOT_READY=true` (PASS false without multiplayer pilot).
+4. **gunnchAI digital** — may stay DIGITAL_GREEN; human eval packet prepared (`PENDING_HUMANS`).
+5. **Hardware EVT ranking + manufacturing digital prep** — ranked/readied as DIGITAL PREP only.
 
-## Software-pilot blockers (digital honesty)
-1. **Device lab current-pin revalidation NOT_RUN** on Device OS `28562a845620` (retained tokens assessed at older tip `9d8ce2d`). Class: DIGITAL (revalidation gap) + TARGET_HARDWARE for silicon.
-2. **WAIKE Learning Platform Gate B PR #5 open** — candidate only; not main. Class: DIGITAL.
-3. **WAIKE research-ops** `full_18_course_digital_rc=false`; human classroom PENDING. Class: DIGITAL + HUMAN.
-4. **Pedestrian full independent VP not on origin/main**. Class: DIGITAL (candidate).
-5. **Archive full independent VP not on origin/main**; all-species complete explicitly false. Class: DIGITAL + EXTERNAL.
-6. **Anime Aggressors Pixel Wave022 BLOCKED** (device unavailable). Class: TARGET_HARDWARE (desktop digital PARTIAL retained).
-7. **BeatLink** full content incomplete; commercial rights not authorized for Spotify/Apple/YouTube gameplay. Class: RIGHTS_LICENSING + HUMAN.
-8. **gunnchAI** HUMAN eval packet not executed (`HUMAN_E6=false`). Class: HUMAN.
-9. **≥30 min soak**: ECO-010 1800s artifact exists on Device OS main (guest/sim). Fresh soak on current pin for all consumer products: **NOT_RUN** this stream.
-10. **Windows platform matrix**: NOT_RUN.
+## Software-pilot blockers still open
+1. **Windows Pilot 0** — `READY_PACKET` (no `windows-latest` CI / no authentic Windows run). Class: DIGITAL.
+2. **Device Lab current-pin revalidation** — NOT_RUN on Device OS `4f02a48780d3` (retained tokens assessed at older tips). Class: DIGITAL + EMULATION; PHYSICAL quartet separate and false.
+3. **Fresh ≥30 min soaks** on current pins for consumer products — NOT_RUN this refresh. Class: DIGITAL.
+4. **Anime Pixel acceptance** — `PENDING_DEVICE` (`adb` shows `27211JEGR06194 unauthorized`). Class: TARGET_HARDWARE.
+5. **Pedestrian / Archive full independent VPs** — candidate local-only, not on origin/main. Class: DIGITAL (candidate).
+6. **BeatLink** multiplayer pilot PASS + commercial rights — READY architecture only; commercial RIGHTS open. Class: RIGHTS + HUMAN.
+7. **gunnchAI / WAIKE human validation** — PENDING_HUMANS. Class: HUMAN.
+8. **WAIKE AUTOMATED_FULL_PLATFORM_PASS master token** — not claimed (committed FULL_COMPLETION_STATE baseline honesty). Class: DIGITAL.
 
 ## Hardware-EVT blockers
 1. `EVT_PHYSICAL_PASS=false` across SKUs.
-2. Firmware NDA / `FIRMWARE_DIGITAL_BUILD_PASS=false` for student/DS-XL/dock (and related).
-3. Rings ergonomic study PENDING (HUMAN + TARGET_HARDWARE).
-4. Battery transport / BT / Wi-Fi / USB quals PENDING (REGULATORY_CERTIFICATION / EXTERNAL).
+2. Firmware NDA / `FIRMWARE_DIGITAL_BUILD_PASS=false` for student/DS-XL/dock/handheld.
+3. Rings ergonomic study PENDING (HUMAN + TARGET_HARDWARE) — best digital-ready SKU for conditional spend.
+4. Battery / BT / Wi-Fi / USB quals PENDING (REGULATORY / EXTERNAL).
 5. CM / RFQ / factory physical PENDING (MANUFACTURING).
 
 ## Production blockers (explicit external)

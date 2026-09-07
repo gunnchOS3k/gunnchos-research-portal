@@ -1,38 +1,36 @@
-# RELEASE_DEPENDENCY_GRAPH — STREAM P1
+# RELEASE_DEPENDENCY_GRAPH — STREAM P1 (Post–Gate D)
 
-Generated: `2026-09-06T19:08:26Z`
+Generated: `2026-09-07T20:59:22Z`
 
 ```text
-[gunnchos-research-portal]  control-plane freeze / release registers
+[gunnchos-research-portal PR #14]  control-plane freeze / release registers
         |
         +--> accepted-main pins for all product repos
         |
-[gunnchos-device-os] ---- digital guest/lab ----+
-        |                                       |
-        +--> device-lab integration             |
-        |      (games + gunnchAI + WAIKE)       |
-        v                                       v
-[anime-aggressors]  [pedestrian-pursuit]  [archive-of-life]  [beatlink-party]
-        |                  |                     |                  |
-        +------------------+---------------------+------------------+
-                           |
-                           v
-                 RC-SOFTWARE-PILOT (DIGITAL only)
-                           |
-                           v (requires TARGET_HARDWARE)
-[gunnchos-hardware-industrial-design] + [edge-io-measurement-node]
-                           |
-                           v
-                   RC-HARDWARE-EVT
-                           |
-                           v (requires EXTERNAL + REGULATORY + CARRIER + MANUFACTURING + RIGHTS + HUMAN)
-                   PRODUCTION-RELEASE
+[gunnchos-device-os 4f02a48780d3] ---- digital guest/lab ----+
+        |                                                    |
+        +--> device-lab integration (NEEDS current-pin revalidation)
+        v
+[anime] [pedestrian] [archive] [beatlink] + [WAIKE LP ef73dc1804b9 Gate D] + [gunnchAI]
+        |
+        v
+RC-SOFTWARE-PILOT (DIGITAL)  --blocked-by-->  Windows READY_PACKET + Device Lab revalidation + soaks
+        |
+        v (requires TARGET_HARDWARE)
+[hardware-industrial-design] + [edge-io]  --EVT ranking--> Rings conditional first
+        |
+        v
+RC-HARDWARE-EVT
+        |
+        v (EXTERNAL + REGULATORY + CARRIER + MANUFACTURING + RIGHTS + HUMAN)
+PRODUCTION-RELEASE
 ```
 
 ## Critical dependency notes
-- **WAIKE Learning Platform** accepted main (`43e770772b97`) includes merged PR #3/#4; open PR #5 does **not** unlock pilot readiness until owner merge + digital gates.
-- **Device OS** digital lock ≠ physical OS ship; dock continuity and physical Ring remain blockers for EVT.
-- **BeatLink** product loop depends on rights-safe catalog; commercial DSP/stream providers are EXTERNAL/RIGHTS and cannot be assumed.
-- **Archive** campaign can ship sample/authored tiers only while `ALL_SPECIES_INGESTED=false`.
-- **gunnchAI** digital capability on main does not imply HUMAN eval PASS or frontier parity.
-- **Field kit / portal** are orchestration/evidence planes; they do not clear hardware or carrier gates.
+- **WAIKE Learning Platform** accepted main (`ef73dc1804b9`) includes merged Gates B/C/D; Gate D is the digital baseline for staff-alpha prep.
+- **Device OS** tip advanced with WAIKE learning integration; device-lab tokens must be re-earned on this tip.
+- **Windows** is REQUIRED_NOW for Pilot 0 readiness and currently READY_PACKET only.
+- **BeatLink** Pilot 0 uses rights-safe catalog only; commercial DSP/stream rights remain EXTERNAL/RIGHTS.
+- **Archive** must not claim all-species complete.
+- **gunnchAI** digital ≠ HUMAN eval PASS.
+- **Physical gunnchOS** is not a Software Pilot prerequisite (EVT path).

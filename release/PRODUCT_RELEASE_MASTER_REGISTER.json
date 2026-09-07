@@ -1,6 +1,7 @@
 {
   "schema": "gunnchos.release.product_release_master_register.v1",
-  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "stream_refresh": "POST_GATE_D_RC_SOFTWARE_PILOT_CLOSURE",
   "owner_merge_authority": "Edmund Gunn Jr.",
   "cursor_merge_forbidden": true,
   "decisions": {
@@ -8,23 +9,27 @@
     "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
     "PRODUCTION_RELEASE": "PRODUCTION_RELEASE_BLOCKED_EXTERNAL"
   },
+  "verdicts": {
+    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
+    "HARDWARE_EVT_READY_TO_EXECUTE": false,
+    "PRODUCTION_RELEASE_READY_FOR_OWNER": false
+  },
   "decision_rationale": {
     "RC_SOFTWARE_PILOT": [
-      "Multiple consumer products remain PARTIAL on accepted main.",
-      "WAIKE Learning Gate B PR #5 still open (candidate).",
-      "Device-lab tokens not freshly revalidated on current Device OS pin.",
-      "Pedestrian/Archive full independent packets not on main.",
-      "Anime Pixel physical revalidation TARGET_HARDWARE pending.",
+      "WAIKE Gate B/C/D owner-merged \u2014 PR #5 is no longer an open software blocker.",
+      "Windows Pilot 0 REQUIRED_NOW but no authentic Windows evidence (READY_PACKET only).",
+      "Device Lab tokens on Device OS main are not bound to current tip 4f02a48780d3 (assessed tips older) \u2014 current-pin revalidation NOT_RUN.",
+      "Fresh \u226530min product soaks NOT_RUN this refresh.",
+      "Anime Pixel acceptance PENDING_DEVICE (adb unauthorized).",
       "Prefer honest NOT_READY over false pilot PASS."
     ],
     "RC_HARDWARE_EVT": [
-      "Digital EVT execution infra packets exist.",
-      "FIRMWARE_DIGITAL_BUILD_PASS false / NDA-gated for multiple SKUs.",
-      "EVT_PHYSICAL_PASS=false; cannot execute honest physical EVT from digital alone."
+      "Digital EVT packets exist for all five SKUs.",
+      "Only Rings has FIRMWARE_DIGITAL_BUILD_PASS=true.",
+      "EVT_PHYSICAL_PASS=false across SKUs \u2014 cannot claim HARDWARE_EVT_READY_TO_EXECUTE."
     ],
     "PRODUCTION_RELEASE": [
-      "Physical EVT/DVT/PVT pending.",
-      "Regulatory/certification, carrier/operator, manufacturing, rights/licensing, human evals pending.",
+      "Physical EVT/DVT/PVT, regulatory, carrier, manufacturing, rights, human evals pending.",
       "Never production-ready while those classes remain open."
     ]
   },
@@ -32,44 +37,67 @@
     "RC-SOFTWARE-PILOT": {
       "status": "NOT_READY",
       "evidence_classes_allowed": [
-        "DIGITAL"
+        "DIGITAL",
+        "EMULATION"
       ],
       "products": [
         {
           "product": "gunnchos-device-os",
-          "accepted_main_sha12": "28562a845620",
+          "accepted_main_sha": "4f02a48780d300a5d3a7758937b20e3bf9364d0d",
+          "accepted_main_sha12": "4f02a48780d3",
           "digital_status": "PARTIAL",
           "evidence_class_pass": [
             "DIGITAL"
           ],
           "evidence_class_pending": [
+            "DIGITAL",
             "TARGET_HARDWARE",
             "EXTERNAL",
-            "CARRIER_OPERATOR",
+            "CARRIER",
             "MANUFACTURING"
           ],
           "notes": [
-            "DIGITAL_RELEASE_LOCK token present on accepted main; DIGITAL blockers empty.",
-            "ECO-010 1800s soak artifact present on main (sim/guest lab; not physical silicon).",
-            "Device-lab DS-XL/Ring/four-game tokens present on main but last assessed_tip 9d8ce2d \u2014 current-pin revalidation NOT_RUN this stream.",
-            "Physical boot / Ring silicon / dock continuity PHYSICAL pending."
+            "Advanced from prior freeze 28562a845620 via PR #132 WAIKE learning Device OS integration.",
+            "DIGITAL_RELEASE_LOCK present; DIGITAL blockers empty; PHYSICAL/EXTERNAL open.",
+            "wp011r tokens exist on tree but assessed tips are older than 4f02a48780d3 \u2014 do not inherit as current-pin PASS."
           ],
           "shipping_os_claimed": false
         },
         {
           "product": "device-lab-integration",
-          "accepted_main_sha12": "28562a845620",
-          "digital_status": "PARTIAL",
+          "accepted_main_sha12": "4f02a48780d3",
+          "digital_status": "NOT_RUN_CURRENT_PIN",
           "evidence_class_pass": [],
           "evidence_class_pending": [
             "DIGITAL",
+            "EMULATION",
             "TARGET_HARDWARE"
           ],
           "notes": [
-            "Retained tokens on main: FOUR_GAME, DSXL, RING digital mutation, ECO010 soak.",
-            "GUNNCHDEVICE_LAB_FULL_ECOSYSTEM_DIGITAL_COMPLETE=false; shipping_master=false.",
-            "HANDHELD_DOCK_CONTINUITY_PASS=false.",
-            "Do not inherit older green as revalidated on 28562a845620 without fresh run."
+            "DIGITAL_DEVICE_LAB_PASS=false for current pin (fresh revalidation not executed).",
+            "PHYSICAL_DEVICE_QUARTET_PASS=false (must remain).",
+            "See release/ready_packets/DEVICE_LAB_CURRENT_PIN_READY_PACKET.json."
+          ]
+        },
+        {
+          "product": "gunnchos-waike-learning-platform",
+          "accepted_main_sha": "ef73dc1804b9aca93382b846283d26e6c7ff0ea4",
+          "accepted_main_sha12": "ef73dc1804b9",
+          "digital_status": "DIGITAL_BASELINE_GATE_D",
+          "evidence_class_pass": [
+            "DIGITAL"
+          ],
+          "evidence_class_pending": [
+            "HUMAN",
+            "REGULATORY",
+            "TARGET_HARDWARE",
+            "EXTERNAL"
+          ],
+          "notes": [
+            "Gates B#5, C#6, D#7 owner-merged.",
+            "18/18 tracks digitally available; learner+instructor journeys PASS on main reports.",
+            "AUTOMATED_FULL_PLATFORM_PASS master token not claimed (FULL_COMPLETION_STATE baseline honesty).",
+            "Staff-alpha human validation PENDING_HUMANS."
           ]
         },
         {
@@ -81,36 +109,17 @@
           ],
           "evidence_class_pending": [
             "HUMAN",
-            "REGULATORY_CERTIFICATION"
+            "REGULATORY"
           ],
           "notes": [
-            "COURSE_DIGITAL_RC present; full_18_course_digital_rc=false.",
-            "HUMAN_E6/REAL_STUDENT_E6/REAL_TEACHER_E6=false.",
-            "Classroom / K-12 privacy / human a11y remain PENDING."
-          ]
-        },
-        {
-          "product": "gunnchos-waike-learning-platform",
-          "accepted_main_sha12": "43e770772b97",
-          "digital_status": "PARTIAL",
-          "evidence_class_pass": [
-            "DIGITAL"
-          ],
-          "evidence_class_pending": [
-            "DIGITAL",
-            "HUMAN"
-          ],
-          "notes": [
-            "PR #3 identity/enrollment/instructor/gradebook MERGED into main.",
-            "PR #4 offline activities MERGED; current tip 43e770772b97.",
-            "Open PR #5 Gate B (18 tracks + gunnchAI) is candidate only.",
-            "Not cloned locally at freeze time."
+            "Taxonomy pin for Gate D; COURSE_DIGITAL_RC present.",
+            "Classroom / K-12 privacy HUMAN+REGULATORY pending."
           ]
         },
         {
           "product": "gunnchAI3k",
           "accepted_main_sha12": "4b4f411710e8",
-          "digital_status": "PARTIAL",
+          "digital_status": "DIGITAL_GREEN",
           "evidence_class_pass": [
             "DIGITAL"
           ],
@@ -118,17 +127,8 @@
             "HUMAN"
           ],
           "notes": [
-            "Wave003 evidence on main: validated=19/19; independentDigitalReproduction=PASS.",
-            "Evidence file acceptedMainSha cites d3578468 (pre-merge tip); current main is 4b4f4117 \u2014 treat as merged digital capability, not fresh pin re-run.",
-            "claimBoundaries HUMAN_E6=false; not frontier parity.",
-            "Human-eval packet required; HUMAN=false."
-          ],
-          "product_tiers": [
-            "LOCAL_ASSIST_DIGITAL",
-            "TOOL_PERMISSION_SAFE_DIGITAL",
-            "PROVIDER_FALLBACK_DIGITAL",
-            "NOT_GENERAL_ASR_VLM_MT",
-            "NOT_HUMAN_EVAL_PASS"
+            "Wave003 digital evidence on main; Gate D gunnchAI acceptance PASS.",
+            "HUMAN_EVALUATION=PENDING_HUMANS; human-eval packet under release/ready_packets/."
           ]
         },
         {
@@ -143,10 +143,8 @@
             "HUMAN"
           ],
           "notes": [
-            "Wave022 merged lineage at b537c7bbd74c.",
-            "Desktop gates / golden visual QA PASS on accepted main artifacts.",
-            "PIXEL_WAVE022_VALIDATION=BLOCKED; PIXEL_DEVICE_AVAILABLE=false \u2192 TARGET_HARDWARE pending, not digital fail.",
-            "Taste/human playtest separate and PENDING."
+            "Desktop/digital Wave022 lineage on main.",
+            "ANIME_PIXEL_ACCEPTANCE=PENDING_DEVICE (adb device unauthorized)."
           ]
         },
         {
@@ -161,9 +159,8 @@
             "HUMAN"
           ],
           "notes": [
-            "Accepted main is wave010 depth merge.",
-            "pedestrian_full independent VP artifact NOT on origin/main (candidate only).",
-            "Game-feel HUMAN pending."
+            "Accepted main wave010 depth.",
+            "Full independent VP candidate local-only \u2014 NEEDS_OWNER_REVIEW for scoped PR."
           ]
         },
         {
@@ -179,9 +176,8 @@
             "HUMAN"
           ],
           "notes": [
-            "DATA_COVERAGE_HONESTY on main: GLOBAL_DATA_COMPLETE=false; ALL_SPECIES_INGESTED=false.",
-            "archive_full independent VP NOT on origin/main (candidate only).",
-            "Never claim all-species complete."
+            "ALL_SPECIES_INGESTED remains false on honesty artifacts.",
+            "Full independent VP candidate local-only \u2014 NEEDS_OWNER_REVIEW."
           ]
         },
         {
@@ -192,15 +188,15 @@
             "DIGITAL"
           ],
           "evidence_class_pending": [
-            "RIGHTS_LICENSING",
+            "RIGHTS",
             "HUMAN",
             "TARGET_HARDWARE"
           ],
           "notes": [
-            "Pixel install/launch smoke PASS on main artifact; room-server multi-client not fully claimed in smoke note.",
-            "rights_safety forbids Spotify/Apple/YouTube rip/decrypt; rights-safe catalog only.",
-            "FULL_GAME_CONTENT_COMPLETE=false; HUMAN_POLISH=HUMAN_PENDING.",
-            "Commercial platform rights remain EXTERNAL/RIGHTS_LICENSING."
+            "Rights-safe architecture present: no Spotify/Apple/YouTube rip/decrypt; demo/legal-local catalog.",
+            "BEATLINK_RIGHTS_SAFE_PILOT_READY=true for rights-safe Pilot 0 catalog boundary.",
+            "BEATLINK_RIGHTS_SAFE_PILOT_PASS=false (no authentic multiplayer pilot this stream).",
+            "Commercial catalog rights NOT solved."
           ]
         },
         {
@@ -214,12 +210,11 @@
             "TARGET_HARDWARE",
             "MANUFACTURING",
             "EXTERNAL",
-            "REGULATORY_CERTIFICATION"
+            "REGULATORY"
           ],
           "notes": [
-            "EVT_DIGITAL_EXECUTION_INFRA_READY=true on main.",
-            "EVT_PHYSICAL_PASS=false; FACTORY_PHYSICAL_PASS=false; SHIPPING_HARDWARE=false.",
-            "Firmware NDA gaps for several SKUs."
+            "EVT digital infra ready; physical false.",
+            "Manufacturing / support / RMA digital prep docs present; MASS_MANUFACTURING_PASS=false."
           ]
         },
         {
@@ -234,7 +229,7 @@
             "HUMAN"
           ],
           "notes": [
-            "Supervisor-ready portfolio merge on main; physical Rings ergonomics PENDING."
+            "Rings ergonomics PHYSICAL+HUMAN pending."
           ]
         },
         {
@@ -246,38 +241,34 @@
           ],
           "evidence_class_pending": [
             "EXTERNAL",
-            "CARRIER_OPERATOR",
-            "REGULATORY_CERTIFICATION"
+            "CARRIER",
+            "REGULATORY"
           ],
           "notes": [
-            "Wave014 accepted-main closeout on main; field/carrier external pending."
+            "Field/carrier external pending."
           ]
         },
         {
           "product": "gunnchos-research-portal",
           "accepted_main_sha12": "eef765bdb615",
-          "digital_status": "PARTIAL",
+          "digital_status": "CONTROL_PLANE_PR14",
           "evidence_class_pass": [
             "DIGITAL"
           ],
           "evidence_class_pending": [],
           "notes": [
-            "Control-plane home for this freeze; release/ artifacts introduced in draft PR."
+            "PR #14 continues as sole RC0 control-plane PR."
           ]
         }
       ]
     },
     "RC-HARDWARE-EVT": {
       "status": "NOT_READY",
-      "evidence_classes_required": [
-        "DIGITAL",
-        "TARGET_HARDWARE",
-        "MANUFACTURING"
-      ],
       "digital_infra_ready": true,
       "physical_pass": false,
       "factory_physical_pass": false,
-      "shipping_hardware": false
+      "shipping_hardware": false,
+      "ranking_ref": "release/HARDWARE_EVT_RANKING.json"
     },
     "PRODUCTION-RELEASE": {
       "status": "BLOCKED_EXTERNAL",
@@ -285,10 +276,10 @@
         "TARGET_HARDWARE",
         "HUMAN",
         "EXTERNAL",
-        "REGULATORY_CERTIFICATION",
-        "CARRIER_OPERATOR",
+        "REGULATORY",
+        "CARRIER",
         "MANUFACTURING",
-        "RIGHTS_LICENSING"
+        "RIGHTS"
       ],
       "full_ecosystem_complete": false
     }
@@ -297,10 +288,55 @@
     "status": "PARTIAL_DIGITAL_PREP",
     "self_certification_forbidden": true,
     "notes": [
-      "Device OS has SBOM plan/requirements and digital security hardening token; not a security certification.",
-      "WAIKE minor-data / classroom privacy HUMAN+REGULATORY pending.",
-      "BeatLink rights catalog constraints documented; commercial rights EXTERNAL.",
-      "No production secrets/test accounts claimed in this freeze."
+      "WAIKE Gate D digital security matrices exist; not external security certification.",
+      "BeatLink rights-safe catalog documented; commercial rights EXTERNAL.",
+      "No production secrets claimed."
     ]
-  }
+  },
+  "sku_version_market_matrix": [
+    {
+      "id": "WAIKE-LEARNING-OS-vGATE_D-SOFTWARE-PILOT",
+      "maturity": "DIGITAL_BASELINE_READY_STAFF_ALPHA_PACKET"
+    },
+    {
+      "id": "ANIME-AGGRESSORS-vWAVE022-ANDROID-PILOT",
+      "maturity": "DIGITAL_PARTIAL_PIXEL_PENDING_DEVICE"
+    },
+    {
+      "id": "PEDESTRIAN-vWAVE010-SOFTWARE-PILOT",
+      "maturity": "DIGITAL_PARTIAL_FULL_VP_CANDIDATE"
+    },
+    {
+      "id": "ARCHIVE-vWAVE008-SOFTWARE-PILOT",
+      "maturity": "DIGITAL_PARTIAL_SPECIES_INCOMPLETE"
+    },
+    {
+      "id": "BEATLINK-vWAVE007-RIGHTS-SAFE-PILOT",
+      "maturity": "RIGHTS_SAFE_ARCHITECTURE_READY_NO_MULTIPLAYER_PASS"
+    },
+    {
+      "id": "GUNNCHAI-vWAVE003-HUMAN-EVAL",
+      "maturity": "DIGITAL_GREEN_HUMAN_PENDING"
+    },
+    {
+      "id": "RINGS-US-EVT",
+      "maturity": "DIGITAL_PACKET_READY_SPEND_CONDITIONAL"
+    },
+    {
+      "id": "HANDHELD-US-EVT",
+      "maturity": "DIGITAL_PACKET_FIRMWARE_BLOCKED"
+    },
+    {
+      "id": "STUDENT14-US-EVT",
+      "maturity": "DIGITAL_PACKET_NDA_BLOCKED"
+    },
+    {
+      "id": "DSXL-US-EVT",
+      "maturity": "DIGITAL_PACKET_NDA_BLOCKED"
+    },
+    {
+      "id": "DOCK-US-EVT",
+      "maturity": "DIGITAL_PACKET_NDA_BLOCKED"
+    }
+  ]
 }

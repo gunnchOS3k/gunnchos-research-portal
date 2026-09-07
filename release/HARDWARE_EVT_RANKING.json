@@ -1,0 +1,79 @@
+{
+  "schema": "gunnchos.release.hardware_evt_ranking.v1",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "source_matrix": "gunnchos-hardware-industrial-design@9ee0ef2f688b artifacts/c_pkt_003/EVT_READINESS_MATRIX.json",
+  "EVT_PHYSICAL_PASS": false,
+  "HARDWARE_EVT_READY_TO_EXECUTE": false,
+  "ranking": [
+    {
+      "sku": "edge_io_rings",
+      "rank": 1,
+      "score_rationale": "Only SKU with FIRMWARE_DIGITAL_BUILD_PASS=true; digital packet + HIL mock present; physical ergonomics still pending.",
+      "verdict": "RINGS-EVT-DIGITAL_PACKET_READY",
+      "spend_verdict": "RINGS-EVT-READY-TO-SPEND_CONDITIONAL",
+      "spend_condition": "Owner accepts physical ergonomic study + EVT lab spend while firmware digital already earned.",
+      "blockers": [
+        "TARGET_HARDWARE physical EVT",
+        "HUMAN ergonomic study"
+      ],
+      "FIRMWARE_DIGITAL_BUILD_PASS": true,
+      "EVT_DIGITAL_PACKET": true
+    },
+    {
+      "sku": "handheld_hybrid",
+      "rank": 2,
+      "verdict": "HANDHELD-EVT-DIGITAL_PACKET_READY",
+      "spend_verdict": "HANDHELD-EVT-BLOCKED_FIRMWARE_DIGITAL",
+      "blockers": [
+        "FIRMWARE_DIGITAL_BUILD_PASS=false",
+        "TARGET_HARDWARE"
+      ],
+      "FIRMWARE_DIGITAL_BUILD_PASS": false,
+      "EVT_DIGITAL_PACKET": true
+    },
+    {
+      "sku": "student_14_5",
+      "rank": 3,
+      "verdict": "STUDENT14-EVT-DIGITAL_PACKET_READY",
+      "spend_verdict": "STUDENT14-EVT-BLOCKED_NDA_FIRMWARE",
+      "blockers": [
+        "EXTERNAL_NDA firmware",
+        "FIRMWARE_DIGITAL_BUILD_PASS=false"
+      ],
+      "FIRMWARE_DIGITAL_BUILD_PASS": false,
+      "EVT_DIGITAL_PACKET": true
+    },
+    {
+      "sku": "ds_xl_coder",
+      "rank": 4,
+      "verdict": "DSXL-EVT-DIGITAL_PACKET_READY",
+      "spend_verdict": "DSXL-EVT-BLOCKED_NDA_FIRMWARE",
+      "blockers": [
+        "EXTERNAL_NDA firmware",
+        "FIRMWARE_DIGITAL_BUILD_PASS=false"
+      ],
+      "FIRMWARE_DIGITAL_BUILD_PASS": false,
+      "EVT_DIGITAL_PACKET": true
+    },
+    {
+      "sku": "dock",
+      "rank": 5,
+      "verdict": "DOCK-EVT-DIGITAL_PACKET_READY",
+      "spend_verdict": "DOCK-EVT-BLOCKED_NDA_FIRMWARE",
+      "blockers": [
+        "EXTERNAL_NDA firmware",
+        "FIRMWARE_DIGITAL_BUILD_PASS=false",
+        "dock continuity physical"
+      ],
+      "FIRMWARE_DIGITAL_BUILD_PASS": false,
+      "EVT_DIGITAL_PACKET": true
+    }
+  ],
+  "never_claim": [
+    "EVT_PHYSICAL_PASS",
+    "FACTORY_PHYSICAL_PASS",
+    "SHIPPING_HARDWARE",
+    "MASS_MANUFACTURING_PASS",
+    "PVT_PASS"
+  ]
+}

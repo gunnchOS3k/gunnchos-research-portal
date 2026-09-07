@@ -1,41 +1,49 @@
 {
   "schema": "gunnchos.release.platform_build_matrix.v1",
-  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "pilot_0_scope": "controlled_internal_adult_software_pilot",
   "platforms": [
     {
       "platform": "Android_Pixel",
+      "pilot_requirement": "REQUIRED_WHERE_APP_EXISTS",
       "status": "PARTIAL",
-      "notes": "BeatLink Pixel smoke PASS; Anime Wave022 Pixel BLOCKED/unavailable; Pedestrian/Archive Pixel not revalidated this freeze."
+      "notes": "BeatLink Pixel smoke retained on main; Anime Wave022 Pixel PENDING_DEVICE (adb unauthorized); Pedestrian/Archive Pixel not freshly revalidated on current pins."
     },
     {
       "platform": "Linux",
+      "pilot_requirement": "REQUIRED_WHERE_SUPPORTED",
       "status": "PARTIAL",
-      "notes": "Device OS / emulation / guest lab digital evidence present; physical silicon pending."
+      "notes": "Device OS guest/lab digital evidence present on main but not current-pin revalidated this refresh."
     },
     {
       "platform": "macOS",
+      "pilot_requirement": "REQUIRED_WHERE_SUPPORTED",
       "status": "PARTIAL",
-      "notes": "Dev/desktop digital builds for games/AI where applicable; not shipping OS claim."
+      "notes": "Dev/desktop digital builds for games/AI/WAIKE where applicable; WAIKE Gate D macOS path existed in Gate C artifacts. Not shipping OS claim."
     },
     {
       "platform": "Windows",
-      "status": "NOT_RUN",
-      "notes": "No accepted-main Windows release matrix revalidation executed in STREAM P1."
+      "pilot_requirement": "REQUIRED_NOW",
+      "status": "READY_PACKET",
+      "notes": "No windows-latest CI found on accepted main for consumer product repos audited. Authentic Windows evidence not run this stream. See release/ready_packets/WINDOWS_PILOT0_READY_PACKET.json."
     },
     {
       "platform": "web_PWA",
+      "pilot_requirement": "REQUIRED_WHERE_EXPOSED",
       "status": "PARTIAL",
-      "notes": "BeatLink web/PWA path exists; multi-client party rights-safe catalog constraints apply."
+      "notes": "BeatLink web/PWA + rights-safe catalog constraints apply."
     },
     {
       "platform": "gunnchOS_emulation",
+      "pilot_requirement": "REQUIRED",
       "status": "PARTIAL",
-      "notes": "Guest/lab emulation digital tokens present; SILICON_EXACT_EMULATION=false."
+      "notes": "Guest/lab emulation tokens exist on Device OS main; current-pin revalidation NOT_RUN; SILICON_EXACT_EMULATION=false."
     },
     {
       "platform": "physical_gunnchOS",
+      "pilot_requirement": "NOT_PREREQUISITE_FOR_SOFTWARE_PILOT",
       "status": "PENDING",
-      "notes": "TARGET_HARDWARE pending; do not convert digital PASS."
+      "notes": "TARGET_HARDWARE / EVT path; not required to start software Pilot 0."
     }
   ]
 }

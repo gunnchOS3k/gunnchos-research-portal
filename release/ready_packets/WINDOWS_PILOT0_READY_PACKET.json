@@ -1,0 +1,41 @@
+{
+  "schema": "gunnchos.release.ready_packet.v1",
+  "packet": "WINDOWS_PILOT0",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "status": "READY_PACKET",
+  "evidence_class": "DIGITAL",
+  "why_not_pass": "No windows-latest / windows-2022 workflows found on accepted main for anime-aggressors, pedestrian-pursuit, archive-of-life-artifact-world, beatlink-party, gunnchAI3k, gunnchos-device-os. No authentic Windows runner evidence this stream.",
+  "required_evidence_per_product": [
+    "bootstrap",
+    "deps",
+    "build",
+    "install_or_package",
+    "first_launch",
+    "data_paths",
+    "permissions",
+    "save_restore",
+    "restart",
+    "upgrade",
+    "uninstall",
+    "crash_logging",
+    "tests",
+    "optional_30min_soak",
+    "CI_on_windows_runner",
+    "artifact_hashes_bound_to_SHA"
+  ],
+  "products_in_scope": [
+    "gunnchos-waike-learning-platform (Tauri native)",
+    "gunnchAI3k",
+    "anime-aggressors (if Windows export supported)",
+    "pedestrian-pursuit",
+    "archive-of-life-artifact-world",
+    "beatlink-party (web may partially apply; native packaging if present)",
+    "gunnchos-device-os (dev tooling / docs/WINDOWS_FIRST_STRATEGY.md exists \u2014 still needs authentic Windows CI evidence)"
+  ],
+  "owner_or_next_cursor_gate": "Scoped per-repo Windows CI PRs using GitHub-hosted windows-latest runners; do not invent Linux/macOS as Windows proof.",
+  "cursor_can_do_more_now": true,
+  "requires_edmund": false,
+  "blockers_to_start": [
+    "gh auth restore for Actions iteration OR local Windows host"
+  ]
+}

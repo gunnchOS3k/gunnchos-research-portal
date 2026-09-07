@@ -1,8 +1,12 @@
 {
   "schema": "gunnchos.release.accepted_main_freeze.v1",
   "stream": "STREAM_P1_FULL_ECOSYSTEM_PRODUCT_RC0_DIGITAL_FREEZE",
-  "generated_at_utc": "2026-09-06T19:08:26Z",
+  "stream_refresh": "POST_GATE_D_RC_SOFTWARE_PILOT_CLOSURE",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "prior_freeze_generated_at_utc": "2026-09-06T19:08:26Z",
   "control_plane_repo": "gunnchos-research-portal",
+  "control_plane_pr": 14,
+  "control_plane_branch": "release/stream-p1-rc0-digital-freeze",
   "owner_merge_authority": "Edmund Gunn Jr.",
   "cursor_merge_forbidden": true,
   "full_ecosystem_complete_token_forbidden": true,
@@ -10,7 +14,8 @@
     "Accepted origin/main is authoritative.",
     "Draft/unmerged PRs are candidate evidence only.",
     "Do not convert physical/human/rights/regulatory/carrier/manufacturing/external into digital PASS.",
-    "User-visible failure overrides automated PASS."
+    "User-visible failure overrides automated PASS.",
+    "Never inherit old PASS tokens for a wrong SHA; Device Lab tokens assessed at older tips are not current-pin PASS."
   ],
   "repo_count_requested": 12,
   "repo_count_frozen": 12,
@@ -19,11 +24,12 @@
       "repository": "gunnchos-device-os",
       "local_present": true,
       "remote": "https://github.com/gunnchOS3k/gunnchos-device-os.git",
-      "origin_main_sha": "28562a8456207540c205a1c8a6434a491b0a4771",
-      "origin_main_sha12": "28562a845620",
-      "commit_subject": "Merge pull request #131 from gunnchOS3k/eng/wave009-os020-sandbox-validation",
-      "commit_date": "2026-08-21T10:46:17-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "origin_main_sha": "4f02a48780d300a5d3a7758937b20e3bf9364d0d",
+      "origin_main_sha12": "4f02a48780d3",
+      "commit_subject": "Merge pull request #132 from gunnchOS3k/cursor/waike-learning-deviceos-integration",
+      "commit_date": "2026-09-06T18:15:24-05:00",
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "ADVANCED_FROM_28562a845620"
     },
     {
       "repository": "gunnchos-hardware-industrial-design",
@@ -33,7 +39,8 @@
       "origin_main_sha12": "9ee0ef2f688b",
       "commit_subject": "Merge pull request #67 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
       "commit_date": "2026-08-18T15:09:51-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "gunnchAI3k",
@@ -43,7 +50,8 @@
       "origin_main_sha12": "4b4f411710e8",
       "commit_subject": "Merge pull request #45 from gunnchOS3k/eng/wave003-integrity-repair",
       "commit_date": "2026-08-19T20:07:04-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "waike-research-ops",
@@ -53,18 +61,25 @@
       "origin_main_sha12": "fbf7685bc568",
       "commit_subject": "Merge pull request #57 from gunnchOS3k/cursor/waike-seven-gc-digital-course-normalization",
       "commit_date": "2026-09-06T13:59:09-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "gunnchos-waike-learning-platform",
       "local_present": false,
       "remote": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform.git",
-      "origin_main_sha": "43e770772b97a0d6900893ea7428df91f2acdb93",
-      "origin_main_sha12": "43e770772b97",
-      "commit_subject": "Merge pull request #4 from gunnchOS3k/cursor/waike-learning-gate-a-offline-activities",
-      "commit_date": "2026-09-06T09:09:31Z",
-      "fetched_at_utc": "2026-09-06T19:08:26Z",
-      "source": "GitHub API commits/main (repo not cloned locally)"
+      "origin_main_sha": "ef73dc1804b9aca93382b846283d26e6c7ff0ea4",
+      "origin_main_sha12": "ef73dc1804b9",
+      "commit_subject": "Merge pull request #7 from gunnchOS3k/cursor/waike-learning-gate-d-full-acceptance",
+      "commit_date": "2026-09-07T08:41:07-05:00",
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "source": "git ls-remote + bare mirror metadata",
+      "delta_from_prior_freeze": "ADVANCED_FROM_43e770772b97_VIA_GATES_B_C_D",
+      "merged_gates": {
+        "Gate_B_PR_5": "MERGED",
+        "Gate_C_PR_6": "MERGED",
+        "Gate_D_PR_7": "MERGED"
+      }
     },
     {
       "repository": "anime-aggressors",
@@ -74,7 +89,8 @@
       "origin_main_sha12": "b537c7bbd74c",
       "commit_subject": "Merge pull request #97 from gunnchOS3k/eng/wave022-full-roster-ascension",
       "commit_date": "2026-08-27T00:20:39-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "pedestrian-pursuit",
@@ -84,7 +100,8 @@
       "origin_main_sha12": "5950ea791ed3",
       "commit_subject": "Merge pull request #22 from gunnchOS3k/eng/wave010-pedestrian-pursuit-depth",
       "commit_date": "2026-08-21T21:47:21-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "archive-of-life-artifact-world",
@@ -94,7 +111,8 @@
       "origin_main_sha12": "069243c36555",
       "commit_subject": "Merge pull request #35 from gunnchOS3k/eng/wave008-archive-scientific-records",
       "commit_date": "2026-08-20T23:49:21-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "beatlink-party",
@@ -104,7 +122,8 @@
       "origin_main_sha12": "23a95d152c2d",
       "commit_subject": "Merge pull request #25 from gunnchOS3k/eng/wave007-beatlink-party-loop",
       "commit_date": "2026-08-20T21:05:22-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "gunnchos-7gc-ai-ran-field-kit",
@@ -114,7 +133,8 @@
       "origin_main_sha12": "9e93e41a3b16",
       "commit_subject": "Merge pull request #118 from gunnchOS3k/eng/wave014-accepted-main-closeout",
       "commit_date": "2026-08-22T19:17:18-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "edge-io-measurement-node",
@@ -124,7 +144,8 @@
       "origin_main_sha12": "af57fbdac857",
       "commit_subject": "Merge pull request #38 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
       "commit_date": "2026-08-18T17:09:28-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     },
     {
       "repository": "gunnchos-research-portal",
@@ -134,7 +155,8 @@
       "origin_main_sha12": "eef765bdb615",
       "commit_subject": "Merge pull request #13 from gunnchOS3k/docs/v3-ari-outreach-package-closure",
       "commit_date": "2026-08-27T19:27:07-05:00",
-      "fetched_at_utc": "2026-09-06T19:05:05Z"
+      "fetched_at_utc": "2026-09-07T20:59:22Z",
+      "delta_from_prior_freeze": "UNCHANGED"
     }
   ]
 }
