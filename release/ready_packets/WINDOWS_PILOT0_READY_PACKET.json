@@ -17,18 +17,73 @@
     "Prefer PARTIAL/PENDING over false PASS."
   ],
   "applicability": [
-    {"product": "gunnchos-waike-learning-platform", "class": "WINDOWS_NATIVE_DESKTOP", "required": true},
-    {"product": "gunnchAI3k", "class": "WINDOWS_CLI_SERVICE", "required": true},
-    {"product": "anime-aggressors", "class": "WINDOWS_WEB_PWA", "required": true, "notes": "Godot Web on Windows browser; Unity BLOCKED_ENGINE_LICENSE; Pixel PENDING_DEVICE"},
-    {"product": "pedestrian-pursuit", "class": "WINDOWS_NATIVE_DESKTOP", "required": true, "notes": "Added Windows Desktop export on candidate; no full-VP smuggle"},
-    {"product": "archive-of-life-artifact-world", "class": "WINDOWS_WEB_PWA", "required": true, "notes": "No fake native wrapper; no full-VP smuggle"},
-    {"product": "beatlink-party", "class": "WINDOWS_WEB_PWA", "required": true, "notes": "Rights-safe only"},
-    {"product": "gunnchos-device-os", "class": "WINDOWS_NOT_APPLICABLE", "required": false, "tooling": "WINDOWS_DEV_TOOLING_ONLY"},
-    {"product": "waike-research-ops", "class": "WINDOWS_NOT_APPLICABLE", "required": false, "notes": "Curriculum/content pin"},
-    {"product": "gunnchos-hardware-industrial-design", "class": "WINDOWS_NOT_APPLICABLE", "required": false},
-    {"product": "edge-io-measurement-node", "class": "WINDOWS_NOT_APPLICABLE", "required": false},
-    {"product": "gunnchos-7gc-ai-ran-field-kit", "class": "WINDOWS_NOT_APPLICABLE", "required": false},
-    {"product": "gunnchos-research-portal", "class": "WINDOWS_NOT_APPLICABLE", "required": false, "notes": "Control plane only"}
+    {
+      "product": "gunnchos-waike-learning-platform",
+      "class": "WINDOWS_NATIVE_DESKTOP",
+      "required": true
+    },
+    {
+      "product": "gunnchAI3k",
+      "class": "WINDOWS_CLI_SERVICE",
+      "required": true
+    },
+    {
+      "product": "anime-aggressors",
+      "class": "WINDOWS_WEB_PWA",
+      "required": true,
+      "notes": "Godot Web on Windows browser; Unity BLOCKED_ENGINE_LICENSE; Pixel PENDING_DEVICE"
+    },
+    {
+      "product": "pedestrian-pursuit",
+      "class": "WINDOWS_NATIVE_DESKTOP",
+      "required": true,
+      "notes": "Added Windows Desktop export on candidate; no full-VP smuggle"
+    },
+    {
+      "product": "archive-of-life-artifact-world",
+      "class": "WINDOWS_WEB_PWA",
+      "required": true,
+      "notes": "No fake native wrapper; no full-VP smuggle"
+    },
+    {
+      "product": "beatlink-party",
+      "class": "WINDOWS_WEB_PWA",
+      "required": true,
+      "notes": "Rights-safe only"
+    },
+    {
+      "product": "gunnchos-device-os",
+      "class": "WINDOWS_NOT_APPLICABLE",
+      "required": false,
+      "tooling": "WINDOWS_DEV_TOOLING_ONLY"
+    },
+    {
+      "product": "waike-research-ops",
+      "class": "WINDOWS_NOT_APPLICABLE",
+      "required": false,
+      "notes": "Curriculum/content pin"
+    },
+    {
+      "product": "gunnchos-hardware-industrial-design",
+      "class": "WINDOWS_NOT_APPLICABLE",
+      "required": false
+    },
+    {
+      "product": "edge-io-measurement-node",
+      "class": "WINDOWS_NOT_APPLICABLE",
+      "required": false
+    },
+    {
+      "product": "gunnchos-7gc-ai-ran-field-kit",
+      "class": "WINDOWS_NOT_APPLICABLE",
+      "required": false
+    },
+    {
+      "product": "gunnchos-research-portal",
+      "class": "WINDOWS_NOT_APPLICABLE",
+      "required": false,
+      "notes": "Control plane only"
+    }
   ],
   "candidates": [
     {
@@ -43,7 +98,7 @@
     {
       "repo": "gunnchAI3k",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "5d4d6d3b924c6b9f1343eb0f6baf9c002e7a483c",
+      "head_sha": "71069897b4c3af6a37cf5ef780885cd2f158aa32",
       "pr": "https://github.com/gunnchOS3k/gunnchAI3k/pull/46",
       "draft": true,
       "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
@@ -72,7 +127,7 @@
     {
       "repo": "archive-of-life-artifact-world",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "179fd300941964b24c794da4a29eb44b0bc365ab",
+      "head_sha": "89f0bb447c27b250ee67c3c21549c1b4b3278c7d",
       "pr": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/36",
       "draft": true,
       "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",
@@ -81,7 +136,7 @@
     {
       "repo": "beatlink-party",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "998cebbbcd8521f5500db929764fb473f2c84c3a",
+      "head_sha": "b20a570a817398078430f8fa2761b1d1fe8cf89c",
       "pr": "https://github.com/gunnchOS3k/beatlink-party/pull/26",
       "draft": true,
       "claim_at_registration": "PENDING_REMOTE_WINDOWS_CI",

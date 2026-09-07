@@ -17,11 +17,11 @@
 | Product | Class | PR | Candidate head |
 |---|---|---|---|
 | WAIKE Learning Platform | WINDOWS_NATIVE_DESKTOP | [#8](https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/8) | `cc4db2273074` |
-| gunnchAI3k | WINDOWS_CLI_SERVICE | [#46](https://github.com/gunnchOS3k/gunnchAI3k/pull/46) | `5d4d6d3b924c` |
+| gunnchAI3k | WINDOWS_CLI_SERVICE | [#46](https://github.com/gunnchOS3k/gunnchAI3k/pull/46) | `71069897b4c3` |
 | Anime Aggressors | WINDOWS_WEB_PWA | [#98](https://github.com/gunnchOS3k/anime-aggressors/pull/98) | `56e87468a002` |
 | Pedestrian Pursuit | WINDOWS_NATIVE_DESKTOP | [#23](https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23) | `4b71380cbfc3` |
-| Archive of Life | WINDOWS_WEB_PWA | [#36](https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/36) | `179fd3009419` |
-| BeatLink Party | WINDOWS_WEB_PWA | [#26](https://github.com/gunnchOS3k/beatlink-party/pull/26) | `998cebbbcd85` |
+| Archive of Life | WINDOWS_WEB_PWA | [#36](https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/36) | `89f0bb447c27` |
+| BeatLink Party | WINDOWS_WEB_PWA | [#26](https://github.com/gunnchOS3k/beatlink-party/pull/26) | `b20a570a8173` |
 | Device OS | WINDOWS_NOT_APPLICABLE | [#133](https://github.com/gunnchOS3k/gunnchos-device-os/pull/133) | `4ab2a29e233f` |
 
 ### Verdicts
