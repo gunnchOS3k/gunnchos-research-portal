@@ -1,13 +1,13 @@
 {
   "schema": "gunnchos.release.windows_pilot0_control_plane.v1",
-  "generated_at_utc": "2026-09-07T22:49:22Z",
+  "generated_at_utc": "2026-09-08T02:25:00Z",
   "control_plane_pr": 14,
   "control_plane_branch": "release/stream-p1-rc0-digital-freeze",
   "owner_merge_authority": "Edmund Gunn Jr.",
   "cursor_merge_forbidden": true,
   "prior_freeze_mains_unchanged": true,
-  "observation_method": "public_github_api_html_no_gh_auth",
-  "gh_auth_status": "broken_keyring_invalid_token",
+  "observation_method": "gh_cli_plus_public_api_artifact_download",
+  "gh_auth_status": "restored_keyring_ok",
   "verdicts": {
     "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": false,
     "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false,
@@ -15,15 +15,15 @@
     "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": false
   },
   "reason_candidates_not_ready": [
-    "Not all required products have observed green windows-2025 CI with soak>=1800s and WINDOWS_PILOT0_EVIDENCE.json on exact candidate heads.",
-    "WAIKE / gunnchAI / Anime / Pedestrian still BLOCKED or re-running after harness fixes; Archive + BeatLink observed PASS; Device OS NOT_APPLICABLE.",
-    "Prefer PARTIAL/PENDING/BLOCKED over false PASS."
+    "Required set not all PASS: Anime BLOCKED (Godot Web export timeout 900s on windows-2025); Pedestrian PARTIAL (export subprocess timed out though runnable exe launched+soaked).",
+    "WAIKE + gunnchAI + Archive + BeatLink observed authentic PASS with soak>=1800s; Device OS NOT_APPLICABLE.",
+    "Fail-closed: TIMEOUT blockers never count as PASS."
   ],
   "per_product_verdicts": {
-    "gunnchos-waike-learning-platform": "BLOCKED",
-    "gunnchAI3k": "BLOCKED",
+    "gunnchos-waike-learning-platform": "PASS",
+    "gunnchAI3k": "PASS",
     "anime-aggressors": "BLOCKED",
-    "pedestrian-pursuit": "BLOCKED",
+    "pedestrian-pursuit": "PARTIAL",
     "archive-of-life-artifact-world": "PASS",
     "beatlink-party": "PASS",
     "gunnchos-device-os": "NOT_APPLICABLE"
@@ -49,166 +49,135 @@
       "product": "pedestrian-pursuit",
       "class": "WINDOWS_NATIVE_DESKTOP",
       "required": true,
-      "notes": "Added Windows Desktop export on candidate; no full-VP smuggle"
+      "notes": "Godot Windows Desktop; export timeout leaves incomplete packaging proof"
     },
     {
       "product": "archive-of-life-artifact-world",
       "class": "WINDOWS_WEB_PWA",
-      "required": true,
-      "notes": "No fake native wrapper; no full-VP smuggle"
+      "required": true
     },
     {
       "product": "beatlink-party",
       "class": "WINDOWS_WEB_PWA",
-      "required": true,
-      "notes": "Rights-safe only"
+      "required": true
     },
     {
       "product": "gunnchos-device-os",
       "class": "WINDOWS_NOT_APPLICABLE",
       "required": false,
       "tooling": "WINDOWS_DEV_TOOLING_ONLY"
-    },
-    {
-      "product": "waike-research-ops",
-      "class": "WINDOWS_NOT_APPLICABLE",
-      "required": false,
-      "notes": "Curriculum/content pin"
-    },
-    {
-      "product": "gunnchos-hardware-industrial-design",
-      "class": "WINDOWS_NOT_APPLICABLE",
-      "required": false
-    },
-    {
-      "product": "edge-io-measurement-node",
-      "class": "WINDOWS_NOT_APPLICABLE",
-      "required": false
-    },
-    {
-      "product": "gunnchos-7gc-ai-ran-field-kit",
-      "class": "WINDOWS_NOT_APPLICABLE",
-      "required": false
-    },
-    {
-      "product": "gunnchos-research-portal",
-      "class": "WINDOWS_NOT_APPLICABLE",
-      "required": false,
-      "notes": "Control plane only"
     }
   ],
   "candidates": [
     {
       "repo": "gunnchos-waike-learning-platform",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "36e83dd1b75cbdb51046cd7d1be9b7f4623edc84",
+      "head_sha": "99261e33aa4a57f680b2bbea0f4329b2e6d29a72",
       "pr": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/8",
       "draft": true,
-      "WINDOWS_PILOT0": "BLOCKED",
-      "REMOTE_WINDOWS_CI": "OBSERVED_FAILURE_RERUNNING",
+      "WINDOWS_PILOT0": "PASS",
+      "REMOTE_WINDOWS_CI": "OBSERVED_GREEN",
       "observed_ci": {
-        "prior_exact_heads": [
-          {
-            "sha": "fe45867a868e0f0ab975bfabf0a2c35234e1a5b1",
-            "workflow": "Windows Pilot 0",
-            "run_id": 34163943653,
-            "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/34163943653",
-            "conclusion": "failure",
-            "failed_step": "Build frontend + Tauri Windows bundles (after bootstrap PASS)",
-            "artifacts": [
-              "waike-windows-pilot0-fe45867a868e",
-              "waike-windows-pilot0-latest-compat-fe45867a868e0f0ab975bfabf0a2c35234e1a5b1"
-            ],
-            "soak_ge_1800": false,
-            "ImageOS": null,
-            "ImageVersion": null,
-            "note": "Bootstrap Python/uv Scripts path fixed; Tauri NSIS build still failing. Split vite vs tauri steps pushed at 36e83dd."
-          }
+        "workflow": "Windows Pilot 0",
+        "authoritative_job": "windows-pilot0-windows-2025",
+        "run_id": 34173978172,
+        "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/34173978172",
+        "conclusion": "success",
+        "evidence_step_duration_s": 1823,
+        "soak_ge_1800": true,
+        "claim": "WINDOWS_PILOT0_PASS",
+        "ImageOS": "win25-vs2026",
+        "ImageVersion": "20260824.214.3",
+        "artifacts": ["waike-windows-pilot0-99261e33aa4a"],
+        "root_cause_fixes": [
+          "icon.ico was PNG mislabeled (RC2175) — replaced with ICO 3.00",
+          "workflow YAML step merge after vite/tauri split",
+          "stage TEST_ONLY verify key + WAIKE_DEV_DB_KEY for launch",
+          "uninstall after soak; soak release binary"
         ]
       }
     },
     {
       "repo": "gunnchAI3k",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "453c2b700ff151d435233310fcb8d6dea3b883e6",
+      "head_sha": "1bfe7a6ddbc545d15027be3e316bc9b078849da9",
       "pr": "https://github.com/gunnchOS3k/gunnchAI3k/pull/46",
       "draft": true,
-      "WINDOWS_PILOT0": "BLOCKED",
-      "REMOTE_WINDOWS_CI": "OBSERVED_FAILURE_RERUNNING",
+      "WINDOWS_PILOT0": "PASS",
+      "REMOTE_WINDOWS_CI": "OBSERVED_GREEN",
       "HUMAN_EVALUATION": "PENDING_HUMANS",
       "observed_ci": {
-        "prior_exact_heads": [
-          {
-            "sha": "770f11bf3755de1e602e2556a62e040a6077c65a",
-            "workflow": "Windows Pilot 0",
-            "run_id": 34164644474,
-            "url": "https://github.com/gunnchOS3k/gunnchAI3k/actions/runs/34164644474",
-            "conclusion": "failure",
-            "authoritative_job": "windows-pilot0-windows-2025",
-            "annotations": [
-              "BUILD_FAILED",
-              "NO_DIST_ARTIFACT",
-              "PROOF_FAILED",
-              "HEALTH_FAILED",
-              "SOAK_NOT_STARTED"
-            ],
-            "artifacts": ["gunnchai-windows-pilot0-770f11bf3755"],
-            "soak_ge_1800": false,
-            "ImageOS": null,
-            "ImageVersion": null,
-            "note": "cmd.exe /c was invoked with split argv so only bare npm ran; fixed via list2cmdline at 453c2b7."
-          }
+        "workflow": "Windows Pilot 0",
+        "authoritative_job": "windows-pilot0-windows-2025",
+        "run_id": 34171278571,
+        "url": "https://github.com/gunnchOS3k/gunnchAI3k/actions/runs/34171278571",
+        "conclusion": "success",
+        "evidence_step_duration_s": 1910,
+        "soak_ge_1800": true,
+        "claim": "WINDOWS_PILOT0_PASS",
+        "ImageOS": "win25-vs2026",
+        "ImageVersion": "20260824.214.3",
+        "artifacts": ["gunnchai-windows-pilot0-1bfe7a6ddbc5"],
+        "root_cause_fixes": [
+          "npm ci --ignore-scripts (tfjs-node/opus node-gyp fails on hosted windows-2025)",
+          "cmd.exe /c via list2cmdline retained"
         ]
       }
     },
     {
       "repo": "anime-aggressors",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "ef9b87fbe2739b25887c9478c4d15f0725e4c303",
+      "head_sha": "eaf073afa5034e4c2cbedaacbee30da37fbf8cee",
       "pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/98",
       "draft": true,
       "WINDOWS_PILOT0": "BLOCKED",
-      "REMOTE_WINDOWS_CI": "OBSERVED_HUNG_THEN_FIX_PUSHED",
+      "REMOTE_WINDOWS_CI": "OBSERVED_BLOCKED_EXPORT_TIMEOUT",
       "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
+      "WINDOWS_PILOT0_BLOCKED_REASON": "GODOT_WEB_EXPORT_TIMEOUT_900S",
       "observed_ci": {
-        "prior_exact_heads": [
-          {
-            "sha": "56e87468a002f85c645821221758910cb444ed08",
-            "workflow": "Windows Pilot 0",
-            "run_id": 34163417664,
-            "url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34163417664",
-            "conclusion": "in_progress_then_superseded",
-            "windows_latest": "success",
-            "windows_2025": "in_progress_long_running",
-            "artifacts_partial": ["anime-windows-pilot0-latest-compat-*"],
-            "soak_ge_1800": "unconfirmed",
-            "note": "windows-2025 evidence hung past soak budget; 900s Godot export timeout pushed at ef9b87f."
-          }
-        ]
+        "observed_blocked_head": "b69502c235607220a77f234238482937f9db0354",
+        "workflow": "Windows Pilot 0",
+        "authoritative_job": "windows-pilot0-windows-2025",
+        "run_id": 34176736395,
+        "url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34176736395",
+        "conclusion": "failure",
+        "evidence_step_duration_s": 933,
+        "soak_ge_1800": false,
+        "claim": "WINDOWS_PILOT0_BLOCKED",
+        "blockers": [
+          "WEB_EXPORT_TIMEOUT",
+          "WEB_EXPORT_FAILED",
+          "NO_WEB_INDEX",
+          "SOAK_NOT_STARTED"
+        ],
+        "artifacts": ["anime-windows-pilot0-b69502c23560"],
+        "note": "Godot Web export hung past 900s on windows-2025; process-tree kill fires; no web index; fail-closed BLOCKED. Tip advanced to eaf073a for claim fail-close only — not a PASS.",
+        "not_fake_pass": true
       }
     },
     {
       "repo": "pedestrian-pursuit",
       "branch": "cursor/windows-pilot0-authentic-evidence",
-      "head_sha": "e3c5f0bcf667190c72c105af13001ae8efd01d45",
+      "head_sha": "11399daf826df26f28c97cf8c553fd6fac4d708a",
       "pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23",
       "draft": true,
-      "WINDOWS_PILOT0": "BLOCKED",
-      "REMOTE_WINDOWS_CI": "OBSERVED_HUNG_THEN_FIX_PUSHED",
+      "WINDOWS_PILOT0": "PARTIAL",
+      "REMOTE_WINDOWS_CI": "OBSERVED_PARTIAL_EXPORT_TIMEOUT",
       "observed_ci": {
-        "prior_exact_heads": [
-          {
-            "sha": "4b71380cbfc3f9181fe74873a4d3e7916d6544a2",
-            "workflow": "Windows Pilot 0",
-            "run_id": 34163415494,
-            "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/34163415494",
-            "conclusion": "in_progress_hung",
-            "evidence_step_age_s_observed": 4026,
-            "soak_ge_1800": false,
-            "artifacts": [],
-            "note": "Godot Windows Desktop export hung >60m with no timeout; 900s timeout pushed at e3c5f0b."
-          }
-        ]
+        "observed_partial_head": "edd16a1bea2a9163422495028ab019463c3a7814",
+        "workflow": "Windows Pilot 0",
+        "authoritative_job": "windows-pilot0-windows-2025",
+        "run_id": 34176739813,
+        "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/34176739813",
+        "conclusion": "success",
+        "evidence_step_duration_s": 2743,
+        "soak_ge_1800": true,
+        "claim_written_by_script": "WINDOWS_PILOT0_PASS",
+        "control_plane_claim": "WINDOWS_PILOT0_PARTIAL",
+        "blockers": ["WINDOWS_EXPORT_TIMEOUT"],
+        "note": "Godot export timed out at 900s but left a runnable exe; launch+soak 1800s succeeded. Fail-closed control plane treats TIMEOUT as PARTIAL incomplete packaging proof. Tip 11399da hardens claim logic so TIMEOUT cannot PASS.",
+        "artifacts": ["pedestrian-windows-pilot0-edd16a1bea2a"],
+        "ImageOS": "win25-vs2026"
       }
     },
     {
@@ -220,21 +189,10 @@
       "WINDOWS_PILOT0": "PASS",
       "REMOTE_WINDOWS_CI": "OBSERVED_GREEN",
       "observed_ci": {
-        "workflow": "Windows Pilot 0",
-        "authoritative_job": "windows-pilot0-windows-2025",
+        "run_id": 34163536021,
         "conclusion": "success",
-        "run_url_pattern": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/actions/workflows/windows-pilot0.yml",
         "evidence_step_duration_s": 1819,
-        "soak_ge_1800": true,
-        "artifacts": [
-          {
-            "name": "archive-windows-pilot0-4779b803b464",
-            "size_bytes": 1087230,
-            "includes_WINDOWS_PILOT0_EVIDENCE_json": "expected_in_artifact_path_reports/windows_pilot0"
-          }
-        ],
-        "ImageOS": "present_in_RUNNER_META_inside_artifact_download_requires_auth",
-        "ImageVersion": "present_in_RUNNER_META_inside_artifact_download_requires_auth"
+        "soak_ge_1800": true
       }
     },
     {
@@ -247,20 +205,10 @@
       "REMOTE_WINDOWS_CI": "OBSERVED_GREEN",
       "BEATLINK_RIGHTS_SAFE_PILOT_PASS": false,
       "observed_ci": {
-        "workflow": "Windows Pilot 0",
-        "authoritative_job": "windows-pilot0-windows-2025",
+        "run_id": 34163538051,
         "conclusion": "success",
         "evidence_step_duration_s": 1836,
-        "soak_ge_1800": true,
-        "artifacts": [
-          {
-            "name": "beatlink-windows-pilot0-1fef51e5473d",
-            "size_bytes": 113921,
-            "includes_WINDOWS_PILOT0_EVIDENCE_json": "expected_in_artifact_path_reports/windows_pilot0"
-          }
-        ],
-        "ImageOS": "present_in_RUNNER_META_inside_artifact_download_requires_auth",
-        "ImageVersion": "present_in_RUNNER_META_inside_artifact_download_requires_auth"
+        "soak_ge_1800": true
       }
     },
     {
@@ -273,26 +221,48 @@
       "classification": "WINDOWS_NOT_APPLICABLE",
       "REMOTE_WINDOWS_CI": "OBSERVED_GREEN_CLASSIFICATION",
       "observed_ci": {
-        "workflow": "Windows Pilot 0 Classification",
         "run_id": 34163332433,
-        "url": "https://github.com/gunnchOS3k/gunnchos-device-os/actions/runs/34163332433",
         "conclusion": "success",
-        "job": "windows-pilot0-classification",
-        "labels": ["ubuntu-latest"],
-        "artifacts": ["device-os-windows-pilot0-class-665812fcc77d"],
-        "note": "Host NOT_APPLICABLE tooling/classification only; not a Windows product PASS."
+        "note": "Host NOT_APPLICABLE tooling/classification only"
       }
     }
   ],
-  "harness_fixes_pushed_this_gate": [
-    "WAIKE: uv Scripts/ path, NSIS-only, pwsh tauri config file, split vite/tauri steps",
-    "gunnchAI: cmd.exe /c single cmdline via list2cmdline; Actions annotations; PR head SHA binding",
-    "Anime/Pedestrian: 900s Godot export timeout + annotations"
+  "blocked_packets": [
+    {
+      "product": "anime-aggressors",
+      "status": "WINDOWS_PILOT0_BLOCKED",
+      "code": "GODOT_WEB_EXPORT_TIMEOUT_900S",
+      "summary": "Authentic Godot Web export on windows-2025 does not complete within 900s; process-tree kill works; no index.html; soak not started.",
+      "not_missing_wix_signing": true,
+      "ready_packet_eligible": false
+    },
+    {
+      "product": "pedestrian-pursuit",
+      "status": "WINDOWS_PILOT0_PARTIAL",
+      "code": "GODOT_WINDOWS_EXPORT_TIMEOUT_WITH_RUNNABLE_ARTIFACT",
+      "summary": "Export timed out after 900s but produced a runnable exe that launched and soaked 1800s. Incomplete packaging proof => PARTIAL, not PASS.",
+      "ready_packet_eligible": false
+    }
   ],
+  "harness_fixes_pushed_this_gate": [
+    "WAIKE: valid ICO 3.00, YAML repair, WebView2 ensure, verify-key staging, uninstall-after-soak",
+    "gunnchAI: npm --ignore-scripts for native optional deps",
+    "Anime/Ped: syntax fix, process-tree kill on timeout, claim fail-close on TIMEOUT, always upload evidence"
+  ],
+  "merge_order_if_any_ready": [
+    "gunnchAI3k#46 (PASS)",
+    "gunnchos-waike-learning-platform#8 (PASS)",
+    "pedestrian-pursuit#23 (PARTIAL — not merge-ready for Pilot0 PASS gate)",
+    "anime-aggressors#98 (BLOCKED — not merge-ready)",
+    "archive-of-life-artifact-world#36 (PASS — already observed)",
+    "beatlink-party#26 (PASS — already observed)",
+    "gunnchos-device-os#133 (NOT_APPLICABLE)"
+  ],
+  "owner_merge_note": "Cursor merges nothing. CANDIDATES_READY remains false until Anime PASS and Pedestrian PASS without TIMEOUT blockers.",
   "replaced_ready_packet": {
-    "prior_status": "READY_PACKET",
-    "new_status": "CANDIDATES_REGISTERED_PARTIAL_AUTHENTIC_CI",
-    "note": "Archive+BeatLink observed green; required set not yet all PASS."
+    "prior_status": "CANDIDATES_REGISTERED_PARTIAL_AUTHENTIC_CI",
+    "new_status": "PARTIAL_AUTHENTIC_CI_ANIME_BLOCKED_PED_PARTIAL",
+    "note": "4/6 required PASS; Anime BLOCKED; Ped PARTIAL."
   },
   "next_gate_recommendation": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
   "next_gate_started": false

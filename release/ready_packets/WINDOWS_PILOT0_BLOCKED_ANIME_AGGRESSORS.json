@@ -1,0 +1,33 @@
+{
+  "schema": "gunnchos.release.windows_pilot0_blocked.v1",
+  "product": "anime-aggressors",
+  "status": "WINDOWS_PILOT0_BLOCKED",
+  "code": "GODOT_WEB_EXPORT_TIMEOUT_900S",
+  "generated_at_utc": "2026-09-08T02:25:00Z",
+  "observed_head": "b69502c235607220a77f234238482937f9db0354",
+  "candidate_tip": "eaf073afa5034e4c2cbedaacbee30da37fbf8cee",
+  "pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/98",
+  "run_url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34176736395",
+  "ImageOS": "win25-vs2026",
+  "blockers": [
+    "WEB_EXPORT_TIMEOUT",
+    "WEB_EXPORT_FAILED",
+    "NO_WEB_INDEX",
+    "SOAK_NOT_STARTED"
+  ],
+  "diagnosis": {
+    "not_wix": true,
+    "not_code_signing": true,
+    "not_missing_nsis": true,
+    "root_cause": "Godot --export-release Web on windows-2025 hosted runner does not finish within 900s; previously hung >90m without kill. Process-tree kill now fires; evidence claim BLOCKED fail-closed.",
+    "export_preset_present": true,
+    "preset_name": "Web"
+  },
+  "ready_packet": false,
+  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false,
+  "non_claims": [
+    "Does not weaken timeout",
+    "Does not invent PASS",
+    "Does not start DEVICE_LAB"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "gunnchos.release.windows_pilot0_blocked.v1",
+  "product": "pedestrian-pursuit",
+  "status": "WINDOWS_PILOT0_PARTIAL",
+  "code": "GODOT_WINDOWS_EXPORT_TIMEOUT_WITH_RUNNABLE_ARTIFACT",
+  "generated_at_utc": "2026-09-08T02:25:00Z",
+  "observed_head": "edd16a1bea2a9163422495028ab019463c3a7814",
+  "candidate_tip": "11399daf826df26f28c97cf8c553fd6fac4d708a",
+  "pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23",
+  "run_url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/34176739813",
+  "blockers": ["WINDOWS_EXPORT_TIMEOUT"],
+  "diagnosis": {
+    "export_timed_out_900s": true,
+    "runnable_exe_produced": true,
+    "launch_pass": true,
+    "soak_1800_pass": true,
+    "control_plane_claim": "PARTIAL — timeout means incomplete packaging proof even when soak succeeded"
+  },
+  "ready_packet": false,
+  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false
+}
