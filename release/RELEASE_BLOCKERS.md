@@ -1,6 +1,6 @@
-# RELEASE_BLOCKERS — STREAM P1 RC0 Digital Freeze (Post–Gate D refresh)
+# RELEASE_BLOCKERS — STREAM P1 RC0 Digital Freeze (Prompt 16)
 
-Generated: `2026-09-08T04:10:00Z`  
+Generated: `2026-09-08T04:55:39Z`  
 Owner / sole merge authority: **Edmund Gunn Jr.**  
 Cursor merges nothing. `FULL_ECOSYSTEM_COMPLETE` forbidden.  
 Control plane: portal PR **#14** only.
@@ -10,48 +10,19 @@ Control plane: portal PR **#14** only.
 - `HARDWARE_EVT_NOT_READY` (`HARDWARE_EVT_READY_TO_EXECUTE=false`)
 - `PRODUCTION_RELEASE_BLOCKED_EXTERNAL` (`PRODUCTION_RELEASE_READY_FOR_OWNER=false`)
 
-## Closed since prior freeze (digital honesty)
-1. **WAIKE Learning Platform Gate B PR #5** — owner-merged (also Gate C #6, Gate D #7). Tip `ef73dc1804b9`. **Not an open software blocker.**
-2. **Accepted-main freeze** — Device OS advanced to `4f02a48780d3`; WAIKE LP advanced through Gates B/C/D.
-3. **BeatLink rights-safe Pilot 0 architecture** — documented on main; `BEATLINK_RIGHTS_SAFE_PILOT_READY=true` (PASS false without multiplayer pilot).
-4. **gunnchAI digital** — may stay DIGITAL_GREEN; human eval packet prepared (`PENDING_HUMANS`).
-5. **Hardware EVT ranking + manufacturing digital prep** — ranked/readied as DIGITAL PREP only.
+## Closed this refresh
+1. **Windows Pilot 0 owner merges** — seven PRs merged; compact accepted-main revalidation PASS.
+2. **`WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER=true`** — Windows-only; does not imply Software Pilot ready.
+3. **Accepted-main freeze refreshed** — pin manifest sha256 `066e1451b2b5…`.
 
 ## Software-pilot blockers still open
-1. **Windows Pilot 0 accepted-main** — candidate tips all required PASS (`WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER=true`); `ACCEPTED_MAIN_PASS=false` / `CEASED_BLOCKER=false` until owner merges draft PRs + revalidates. Class: DIGITAL (owner merge).
-2. **Device Lab current-pin revalidation** — NOT_RUN on Device OS `4f02a48780d3` (retained tokens assessed at older tips). Class: DIGITAL + EMULATION; PHYSICAL quartet separate and false. **Next gate recommendation; not started.**
-3. **Fresh ≥30 min soaks** on current pins for consumer products — NOT_RUN this refresh. Class: DIGITAL.
-4. **Anime Pixel acceptance** — `PENDING_DEVICE` (`adb` shows `27211JEGR06194 unauthorized`). Class: TARGET_HARDWARE.
-5. **Pedestrian / Archive full independent VPs** — candidate local-only, not on origin/main. Class: DIGITAL (candidate).
-6. **BeatLink** multiplayer pilot PASS + commercial rights — READY architecture only; commercial RIGHTS open. Class: RIGHTS + HUMAN.
-7. **gunnchAI / WAIKE human validation** — PENDING_HUMANS. Class: HUMAN.
-8. **WAIKE AUTOMATED_FULL_PLATFORM_PASS master token** — not claimed (committed FULL_COMPLETION_STATE baseline honesty). Class: DIGITAL.
+1. **Device Lab current-pin revalidation** — FAIL-CLOSED `HOST_RESOURCE_BLOCKED` (~3.24 GiB free < 25 GiB). Device OS DRAFT [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134). Class: DIGITAL + EMULATION / HOST RESOURCE.
+2. **Anime Pixel acceptance** — `PENDING_DEVICE`. Class: TARGET_HARDWARE (may be required for selected Pilot 0 package).
+3. **gunnchAI / WAIKE human validation** — `PENDING_HUMANS` (not automatic Soft Pilot prerequisite). Class: HUMAN.
+4. **BeatLink** commercial rights — not a rights-safe Pilot 0 blocker; multiplayer PASS separate. Class: RIGHTS + HUMAN.
 
-## Hardware-EVT blockers
-1. `EVT_PHYSICAL_PASS=false` across SKUs.
-2. Firmware NDA / `FIRMWARE_DIGITAL_BUILD_PASS=false` for student/DS-XL/dock/handheld.
-3. Rings ergonomic study PENDING (HUMAN + TARGET_HARDWARE) — best digital-ready SKU for conditional spend.
-4. Battery / BT / Wi-Fi / USB quals PENDING (REGULATORY / EXTERNAL).
-5. CM / RFQ / factory physical PENDING (MANUFACTURING).
-
-## Production blockers (explicit external)
-- EVT / DVT / PVT
-- Rings ergonomic study
-- Game playtests (HUMAN)
-- WAIKE classroom / K-12 privacy
-- AI human eval
-- Carrier / operator acceptance
-- FCC / RED / PTCRB
-- BT / Wi-Fi / USB quals
-- Battery transport
-- BeatLink commercial rights
-- CM / RFQ / factory
-- Support staffing
-- Launch readiness
+## Hardware-EVT / Production
+Unchanged external: EVT/DVT/PVT, RF/FCC/PTCRB/carrier, battery, ergonomics, manufacturing, signing, support.
 
 ## Non-claims
-- No shipping physical gunnchOS.
-- No security self-certification.
-- No carrier acceptance inferred.
-- No rights inferred beyond documented rights-safe catalog constraints.
-- No conversion of TARGET_HARDWARE/HUMAN/EXTERNAL into DIGITAL PASS.
+No shipping physical gunnchOS; no conversion of HOST_RESOURCE_BLOCKED into gate PASS; no stale wp011r inheritance.

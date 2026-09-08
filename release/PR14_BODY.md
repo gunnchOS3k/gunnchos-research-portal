@@ -1,46 +1,45 @@
-## STREAM P1 RC0 — Windows Pilot 0 remote CI verification
+## STREAM P1 RC0 — Device Lab current-pin revalidation (Prompt 16)
 
 **Owner merge authority:** Edmund Gunn Jr. — Cursor merges nothing.  
-**PR:** #14 only (`release/stream-p1-rc0-digital-freeze`). Do not open a competing RC0 PR / do not create portal PR #15.
+**PR:** #14 only (`release/stream-p1-rc0-digital-freeze`). Do not open portal PR #15. Do not merge #14.
 
-### Snapshot (`2026-09-08T04:10:00Z`)
-- `gh` auth: **ok** (keyring). Observation via `gh` + artifact download.
-- Exact-head remote Windows CI: **all required PASS** (WAIKE, gunnchAI, Anime, Pedestrian, Archive, BeatLink); Device OS **NOT_APPLICABLE**.
-- Anime/Pedestrian gaps closed: Godot **4.5** standard + templates (was 4.3 mono vs 4.5 projects).
-- Device Lab current-pin: **NOT started** this gate.
-- Anime Pixel: **PENDING_DEVICE** unchanged.
-- BeatLink: rights-safe software candidate only; commercial rights + multiplayer PASS remain false.
-- gunnchAI: `HUMAN_EVALUATION=PENDING_HUMANS` unchanged.
-- Hardware EVT / manufacturing / human studies: **not started**.
+### Snapshot (`2026-09-08T04:55:39Z`)
+- Phase 0 Windows owner merges: **all seven MERGED**; candidates ancestors of `origin/main`.
+- Compact Windows §11 accepted-main revalidation: **PASS**.
+- `WINDOWS_PILOT0_ACCEPTED_MAIN_PASS=true`
+- `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER=true` (Windows blocker only).
+- Device Lab current-pin: **FAIL-CLOSED** — `HOST_RESOURCE_BLOCKED` (free ~3.24 GiB < 25 GiB required).
+- Device OS candidate DRAFT: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `343f0286192e753a8e8a10f65c46a15c5c5becf4` — remote CI **PENDING**.
+- Nine digital Device Lab gates: **all false** (not executed; stale wp011r tokens rejected).
+- `PHYSICAL_DEVICE_QUARTET_PASS=false`; `ANIME_PIXEL_ACCEPTANCE=PENDING_DEVICE`; `HUMAN_EVALUATION=PENDING_HUMANS`.
+- `RC_SOFTWARE_PILOT_READY_FOR_OWNER=false`.
 
-### Windows candidate PRs (draft; Cursor merges nothing)
-| Product | Class | Verdict | PR | Candidate head | Observed CI |
-|---|---|---|---|---|---|
-| WAIKE Learning Platform | WINDOWS_NATIVE_DESKTOP | **PASS** | [#8](https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/8) | `99261e33aa4a` | windows-2025 success; soak ≥1800s |
-| gunnchAI3k | WINDOWS_CLI_SERVICE | **PASS** | [#46](https://github.com/gunnchOS3k/gunnchAI3k/pull/46) | `1bfe7a6ddbc5` | windows-2025 success; soak ≥1800s |
-| Anime Aggressors | WINDOWS_WEB_PWA | **PASS** | [#98](https://github.com/gunnchOS3k/anime-aggressors/pull/98) | `789b229406be` | Godot 4.5 Web export exit 0; ~52MB bundle; soak 1800s ([run 34181939591](https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34181939591)) |
-| Pedestrian Pursuit | WINDOWS_NATIVE_DESKTOP | **PASS** | [#23](https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23) | `599c6b320d7c` | Godot 4.5 Windows exe 126MB exit 0; soak 1802s; no TIMEOUT ([run 34181941313](https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/34181941313)) |
-| Archive of Life | WINDOWS_WEB_PWA | **PASS** | [#36](https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/36) | `89f0bb447c27` | windows-2025 success; soak ≥1800s |
-| BeatLink Party | WINDOWS_WEB_PWA | **PASS** | [#26](https://github.com/gunnchOS3k/beatlink-party/pull/26) | `b20a570a8173` | windows-2025 success; soak ≥1800s |
-| Device OS | WINDOWS_NOT_APPLICABLE | **NOT_APPLICABLE** | [#133](https://github.com/gunnchOS3k/gunnchos-device-os/pull/133) | `4ab2a29e233f` | Classification job success |
+### Windows accepted-main (post-owner-merge)
+| Product | PR | Candidate | Merge | Main | Drift |
+|---|---:|---|---|---|---|
+| Device OS | #133 | `4ab2a29e233f` | `898e44cfa8b7` | same | merge-only |
+| Anime | #98 | `789b229406be` | `258cc0c45991` | same | merge-only |
+| Pedestrian | #23 | `599c6b320d7c` | `ba698e929b57` | same | merge-only |
+| Archive | #36 | `89f0bb447c27` | `8611d2e30315` | same | merge-only |
+| BeatLink | #26 | `b20a570a8173` | `06b4a6f74159` | same | merge-only |
+| gunnchAI | #46 | `1bfe7a6ddbc5` | `65b799e21dc1` | same | merge-only |
+| WAIKE LP | #8 | `99261e33aa4a` | `8610018a62e0` | same | merge-only |
 
 ### Verdicts
 | Verdict | Value |
 |---|---|
-| `WINDOWS_PILOT0_ACCEPTED_MAIN_PASS` | **false** |
-| `WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER` | **true** |
-| `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER` | **false** |
+| `WINDOWS_PILOT0_ACCEPTED_MAIN_PASS` | **true** |
+| `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER` | **true** |
+| `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS` | **false** |
 | `RC_SOFTWARE_PILOT_READY_FOR_OWNER` | **false** |
 | `HARDWARE_EVT_READY_TO_EXECUTE` | **false** |
 | `PRODUCTION_RELEASE_READY_FOR_OWNER` | **false** |
 
-### Why CEASED / accepted-main stay false
-1. Candidate draft PRs are **ready for owner** but not merged to accepted mains.
-2. `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER` flips only after owner merge + accepted-main revalidation.
-3. Prefer honest candidate PASS over inventing accepted-main PASS.
+### Precise Device Lab blocker
+`HOST_RESOURCE_BLOCKED` — host free space ~3.24 GiB < required 25.0 GiB after regenerable cleanup. Interactive Guest LIVE/DSXL/RING/FOUR_GAME/WAIKE/gunnchAI/lifecycle/ECO010 not executed (prefer honest FAIL over false PASS / host fill-crash).
 
 ### Next gate (recommendation only — not started)
-`DEVICE_LAB_CURRENT_PIN_REVALIDATION`
+`DEVICE_LAB_HOST_STORAGE_RECOVERY_THEN_CURRENT_PIN_REEARN`
 
 ### Non-claims
-No physical quartet, classroom, WCAG, FERPA, carrier, cert, commercial music rights, signing/production, or manufacturing PASS inferred from Windows candidate CI. Anime Pixel remains PENDING_DEVICE.
+No physical quartet, Pixel, classroom, WCAG, FERPA, carrier, cert, commercial music rights, signing/production, or manufacturing PASS. Cursor merges nothing.

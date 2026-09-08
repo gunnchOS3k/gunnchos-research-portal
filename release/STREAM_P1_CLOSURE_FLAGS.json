@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.stream_p1_closure_report.v1",
-  "generated_at_utc": "2026-09-07T22:49:22Z",
+  "generated_at_utc": "2026-09-08T04:55:39Z",
   "decisions": {
     "RC_SOFTWARE_PILOT": "RC_SOFTWARE_PILOT_NOT_READY",
     "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
@@ -20,12 +20,15 @@
     "RIGHTS_NOT_INFERRED": true,
     "CERTIFICATION_NOT_SELF_DECLARED": true,
     "CARRIER_ACCEPTANCE_NOT_INFERRED": true,
-    "WINDOWS_AUTHENTIC_EVIDENCE": false,
+    "WINDOWS_AUTHENTIC_EVIDENCE": true,
     "WINDOWS_PILOT0_CANDIDATES_REGISTERED": true,
-    "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false,
-    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": false,
-    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": false,
+    "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_REVALIDATION_PASS": true,
+    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
     "DEVICE_LAB_CURRENT_PIN_REVALIDATED": false,
+    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
+    "DEVICE_LAB_HOST_RESOURCE_BLOCKED": true,
     "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
     "BEATLINK_RIGHTS_SAFE_PILOT_READY": true,
     "BEATLINK_RIGHTS_SAFE_PILOT_PASS": false,
@@ -34,5 +37,15 @@
     "PRODUCTION_RELEASE_READY_FOR_OWNER": false,
     "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
     "HARDWARE_EVT_READY_TO_EXECUTE": false
-  }
+  },
+  "device_lab_candidate": {
+    "repo": "gunnchos-device-os",
+    "pr": 134,
+    "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
+    "head": "343f0286192e753a8e8a10f65c46a15c5c5becf4",
+    "draft": true,
+    "remote_ci": "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING"
+  },
+  "primary_device_lab_blocker": "HOST_RESOURCE_BLOCKED",
+  "host_free_gib": 3.24
 }

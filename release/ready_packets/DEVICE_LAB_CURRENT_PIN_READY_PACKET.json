@@ -1,31 +1,32 @@
 {
   "schema": "gunnchos.release.ready_packet.v1",
   "packet": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
-  "generated_at_utc": "2026-09-07T20:59:22Z",
-  "status": "READY_PACKET",
-  "target_device_os_sha": "4f02a48780d300a5d3a7758937b20e3bf9364d0d",
-  "why_not_pass": "Existing wp011r PASS tokens on tree are bound to older assessed tips (e.g. DEVICE_LAB_ACCEPTANCE_MATRIX assessed_tip=9d8ce2d3...). Must not inherit as current-pin PASS.",
-  "must_prove_digitally": [
-    "Device OS lifecycle",
-    "four games",
-    "WAIKE LP",
-    "gunnchAI",
-    "Ring digital",
-    "DS-XL digital",
-    "save/restore",
-    "suspend/resume",
-    "sync",
-    "restart",
-    "recovery"
-  ],
-  "suggested_commands": [
-    "cd gunnchos-device-os && git fetch origin && git checkout 4f02a48780d300a5d3a7758937b20e3bf9364d0d",
-    "python scripts/device_lab_score_independent.py",
-    "python scripts/run_eco010_full_soak.py  # only if guest lab available; bind SHA in output"
-  ],
+  "generated_at_utc": "2026-09-08T04:55:39Z",
+  "status": "EXECUTED_FAIL_CLOSED",
+  "target_device_os_sha": "898e44cfa8b7574c0de7b8312b0996816799eca4",
+  "candidate_pr": 134,
+  "candidate_head": "343f0286192e753a8e8a10f65c46a15c5c5becf4",
+  "candidate_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
+  "pin_manifest_sha256": "066e1451b2b5cf9872ddf68f2c70330e91e6778746ca9f5ed1b519a81c9f235c",
+  "why_not_pass": "HOST_RESOURCE_BLOCKED: host free space ~3.2 GiB < required 25.0 GiB. Interactive Guest gates withheld fail-closed. Prior wp011r tokens marked STALE.",
+  "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
   "DIGITAL_DEVICE_LAB_PASS": false,
   "PHYSICAL_DEVICE_QUARTET_PASS": false,
-  "cursor_can_do_more_now": true,
-  "requires_edmund": false,
-  "env_note": "If guest/lab env unavailable in agent sandbox, keep READY_PACKET \u2014 never simulate."
+  "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING": true,
+  "gates": {
+    "LIVE_GUNNCHOS_VISUAL_PASS": false,
+    "DSXL_DUAL_COMPOSITOR_UX_PASS": false,
+    "RING_TO_REAL_APP_STATE_MUTATION_PASS": false,
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": false,
+    "ECO010_SOAK_PASS": false,
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": false,
+    "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": false,
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": false,
+    "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": false
+  },
+  "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
+  "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
+  "cursor_can_do_more_now": false,
+  "requires_edmund": true,
+  "edmund_action": "Free >=25 GiB host disk, then authorize Device Lab current-pin re-earn on frozen pins / Device OS #134."
 }

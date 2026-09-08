@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.windows_pilot0_control_plane.v1",
-  "generated_at_utc": "2026-09-08T04:10:00Z",
+  "generated_at_utc": "2026-09-08T04:55:39Z",
   "control_plane_pr": 14,
   "control_plane_branch": "release/stream-p1-rc0-digital-freeze",
   "owner_merge_authority": "Edmund Gunn Jr.",
@@ -9,22 +9,20 @@
   "observation_method": "gh_cli_plus_public_api_artifact_download",
   "gh_auth_status": "restored_keyring_ok",
   "verdicts": {
-    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": false,
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
     "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
     "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
-    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": false
+    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_REVALIDATION_PASS": true
   },
   "reason_candidates_ready": [
     "Required set all PASS on candidate tips: WAIKE, gunnchAI, Anime, Pedestrian, Archive, BeatLink; Device OS NOT_APPLICABLE.",
     "Anime #98 tip 789b229 OBSERVED_GREEN: Godot 4.5 Web export exit 0 in 10s; bundle index+wasm+pck (~52MB); Edge launch; soak 1800s.",
-    "Pedestrian #23 tip 599c6b3 OBSERVED_GREEN: Godot 4.5 Windows Desktop export exit 0 in 10s; exe 126045816 bytes sha256 4d76a9b0…; launch+soak 1802s; no TIMEOUT blocker.",
+    "Pedestrian #23 tip 599c6b3 OBSERVED_GREEN: Godot 4.5 Windows Desktop export exit 0 in 10s; exe 126045816 bytes sha256 4d76a9b0\u2026; launch+soak 1802s; no TIMEOUT blocker.",
     "Root cause closed: prior BLOCKED/PARTIAL used Godot 4.3 mono against 4.5 projects; fixed to standard 4.5 + templates + real .exe resolve.",
     "Fail-closed retained: TIMEOUT without complete packaging never PASS; Cursor merges nothing."
   ],
-  "reason_accepted_main_still_false": [
-    "Candidate draft PRs not owner-merged to accepted mains.",
-    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER stays false until accepted-main revalidation after owner merge."
-  ],
+  "reason_accepted_main_still_false": [],
   "per_product_verdicts": {
     "gunnchos-waike-learning-platform": "PASS",
     "gunnchAI3k": "PASS",
@@ -94,7 +92,9 @@
         "claim": "WINDOWS_PILOT0_PASS",
         "ImageOS": "win25-vs2026",
         "ImageVersion": "20260824.214.3",
-        "artifacts": ["waike-windows-pilot0-99261e33aa4a"]
+        "artifacts": [
+          "waike-windows-pilot0-99261e33aa4a"
+        ]
       }
     },
     {
@@ -117,7 +117,9 @@
         "claim": "WINDOWS_PILOT0_PASS",
         "ImageOS": "win25-vs2026",
         "ImageVersion": "20260824.214.3",
-        "artifacts": ["gunnchai-windows-pilot0-1bfe7a6ddbc5"]
+        "artifacts": [
+          "gunnchai-windows-pilot0-1bfe7a6ddbc5"
+        ]
       }
     },
     {
@@ -145,7 +147,9 @@
         "export_elapsed_s": 10,
         "completion_mode": "process_exit",
         "web_bundle_bytes": 52179579,
-        "artifacts": ["anime-windows-pilot0-789b229406be"],
+        "artifacts": [
+          "anime-windows-pilot0-789b229406be"
+        ],
         "root_cause_fixes": [
           "Godot 4.5 standard (not 4.3 mono) matching project.godot features",
           "include-templates 4.5.stable web_release.zip",
@@ -180,7 +184,9 @@
         "completion_mode": "process_exit",
         "exe_bytes": 126045816,
         "exe_sha256": "4d76a9b05bf6e03a6ebe8f42a5245df67beb90531cb4784cbfb53c3f01433500",
-        "artifacts": ["pedestrian-windows-pilot0-599c6b320d7c"],
+        "artifacts": [
+          "pedestrian-windows-pilot0-599c6b320d7c"
+        ],
         "root_cause_fixes": [
           "Godot 4.5 standard + windows_release_x86_64 template",
           "resolve real win64 exe; pre-import; size-stable packaging proof",
@@ -273,6 +279,12 @@
     "new_status": "CANDIDATES_READY_ALL_REQUIRED_PASS",
     "note": "6/6 required PASS; Device OS NOT_APPLICABLE."
   },
-  "next_gate_recommendation": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
-  "next_gate_started": false
+  "next_gate_recommendation": "DEVICE_LAB_HOST_STORAGE_RECOVERY_THEN_CURRENT_PIN_REEARN",
+  "next_gate_started": false,
+  "reason_accepted_main_now_true": [
+    "All seven Windows Pilot 0 PRs owner-merged; tested candidate heads are ancestors of origin/main.",
+    "Compact \u00a711 revalidation: merge-only tips, no material post-merge drift; windows-pilot0 workflows present on main.",
+    "Full 1800s soaks not re-run (no material drift)."
+  ],
+  "device_lab_note": "Windows ceased as digital blocker; Device Lab still FAIL due to HOST_RESOURCE_BLOCKED (~3.2 GiB free < 25 GiB)."
 }
