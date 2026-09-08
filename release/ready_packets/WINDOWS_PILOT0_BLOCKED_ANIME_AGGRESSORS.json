@@ -1,33 +1,25 @@
 {
   "schema": "gunnchos.release.windows_pilot0_blocked.v1",
   "product": "anime-aggressors",
-  "status": "WINDOWS_PILOT0_BLOCKED",
-  "code": "GODOT_WEB_EXPORT_TIMEOUT_900S",
-  "generated_at_utc": "2026-09-08T02:25:00Z",
-  "observed_head": "b69502c235607220a77f234238482937f9db0354",
-  "candidate_tip": "eaf073afa5034e4c2cbedaacbee30da37fbf8cee",
+  "status": "WINDOWS_PILOT0_PASS_SUPERSEDES_BLOCKED",
+  "prior_code": "GODOT_WEB_EXPORT_TIMEOUT_900S",
+  "closed_at_utc": "2026-09-08T04:10:00Z",
+  "observed_pass_head": "789b229406bef24d0a614309f84ef08e605fec6c",
   "pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/98",
-  "run_url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34176736395",
-  "ImageOS": "win25-vs2026",
-  "blockers": [
-    "WEB_EXPORT_TIMEOUT",
-    "WEB_EXPORT_FAILED",
-    "NO_WEB_INDEX",
-    "SOAK_NOT_STARTED"
-  ],
-  "diagnosis": {
-    "not_wix": true,
-    "not_code_signing": true,
-    "not_missing_nsis": true,
-    "root_cause": "Godot --export-release Web on windows-2025 hosted runner does not finish within 900s; previously hung >90m without kill. Process-tree kill now fires; evidence claim BLOCKED fail-closed.",
-    "export_preset_present": true,
-    "preset_name": "Web"
+  "run_url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34181939591",
+  "closure": {
+    "root_cause": "CI installed Godot 4.3 mono while project.godot requires 4.5; Web export hung with no index.",
+    "fix": "Godot 4.5.0 standard + 4.5.stable templates; resolve real win64.exe; pre-import; authentic Web export exit 0.",
+    "claim": "WINDOWS_PILOT0_PASS",
+    "soak_seconds": 1800,
+    "web_bundle_bytes": 52179579
   },
-  "ready_packet": false,
-  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false,
+  "ready_packet": true,
+  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
+  "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
   "non_claims": [
-    "Does not weaken timeout",
-    "Does not invent PASS",
+    "Does not claim Pixel device acceptance",
+    "Does not claim Unity licensed Windows PASS",
     "Does not start DEVICE_LAB"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.platform_build_matrix.v1",
-  "generated_at_utc": "2026-09-07T22:49:22Z",
+  "generated_at_utc": "2026-09-08T04:10:00Z",
   "pilot_0_scope": "controlled_internal_adult_software_pilot",
   "platforms": [
     {
@@ -24,8 +24,8 @@
     {
       "platform": "Windows",
       "pilot_requirement": "REQUIRED_NOW",
-      "status": "CANDIDATES_PARTIAL_AUTHENTIC_CI",
-      "notes": "Archive+BeatLink windows-2025 OBSERVED_GREEN (soak>=1800s). WAIKE/gunnchAI/Anime/Pedestrian BLOCKED with harness fixes re-running. Accepted-main PASS false. See release/ready_packets/WINDOWS_PILOT0_READY_PACKET.json."
+      "status": "CANDIDATES_READY_AUTHENTIC_CI",
+      "notes": "All required Windows Pilot 0 candidates OBSERVED_GREEN soak>=1800s (incl. Anime Godot 4.5 Web + Pedestrian Godot 4.5 Desktop). CANDIDATES_READY_FOR_OWNER=true; ACCEPTED_MAIN_PASS=false. See release/ready_packets/WINDOWS_PILOT0_READY_PACKET.json."
     },
     {
       "platform": "web_PWA",

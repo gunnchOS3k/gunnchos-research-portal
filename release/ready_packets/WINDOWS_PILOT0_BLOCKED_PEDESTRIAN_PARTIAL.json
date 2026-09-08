@@ -1,21 +1,24 @@
 {
   "schema": "gunnchos.release.windows_pilot0_blocked.v1",
   "product": "pedestrian-pursuit",
-  "status": "WINDOWS_PILOT0_PARTIAL",
-  "code": "GODOT_WINDOWS_EXPORT_TIMEOUT_WITH_RUNNABLE_ARTIFACT",
-  "generated_at_utc": "2026-09-08T02:25:00Z",
-  "observed_head": "edd16a1bea2a9163422495028ab019463c3a7814",
-  "candidate_tip": "11399daf826df26f28c97cf8c553fd6fac4d708a",
+  "status": "WINDOWS_PILOT0_PASS_SUPERSEDES_PARTIAL",
+  "prior_code": "GODOT_WINDOWS_EXPORT_TIMEOUT_WITH_RUNNABLE_ARTIFACT",
+  "closed_at_utc": "2026-09-08T04:10:00Z",
+  "observed_pass_head": "599c6b320d7c2d2340ead82f74f085a7b17939fc",
   "pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/23",
-  "run_url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/34176739813",
-  "blockers": ["WINDOWS_EXPORT_TIMEOUT"],
-  "diagnosis": {
-    "export_timed_out_900s": true,
-    "runnable_exe_produced": true,
-    "launch_pass": true,
-    "soak_1800_pass": true,
-    "control_plane_claim": "PARTIAL — timeout means incomplete packaging proof even when soak succeeded"
+  "run_url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/34181941313",
+  "closure": {
+    "root_cause": "Godot 4.3 mono vs 4.5 project; export hung after writing exe => incomplete packaging / TIMEOUT PARTIAL.",
+    "fix": "Godot 4.5.0 standard + windows_release_x86_64 template; export exit 0 in 10s; no TIMEOUT blocker.",
+    "claim": "WINDOWS_PILOT0_PASS",
+    "soak_seconds": 1802,
+    "exe_bytes": 126045816,
+    "exe_sha256": "4d76a9b05bf6e03a6ebe8f42a5245df67beb90531cb4784cbfb53c3f01433500"
   },
-  "ready_packet": false,
-  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": false
+  "ready_packet": true,
+  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
+  "non_claims": [
+    "Does not promote full-VP",
+    "Does not start DEVICE_LAB"
+  ]
 }
