@@ -28,9 +28,9 @@ Unchanged external: EVT/DVT/PVT, RF/FCC/PTCRB/carrier, battery, ergonomics, manu
 No shipping physical gunnchOS; no conversion of HOST_RESOURCE_BLOCKED into gate PASS; no stale wp011r inheritance.
 
 ## Prompt 17C.2 Phase 2 update (2026-09-09T18:53:21Z)
-- Device OS [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head  — Phase 2 executed; .
-- Pin manifest SHA-256: .
+- Device OS [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `0638dd64760ae85253f02e41ee7f5f0787ac246d` — Phase 2 executed; `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false`.
+- Pin manifest SHA-256: `40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575`.
 - PASS: LIVE, DSXL, ECO010 (1800s). FAIL: RING (hung), FOUR_GAME (godot45), WAIKE, gunnchAI, lifecycle, independent.
 - Storage: FREE_GIB_BEFORE_QEMU=38.0 (gate cleared). Primary blocker: RING_TO_REAL_APP_STATE_MUTATION_PASS.
-- . No merge.
+- `RC_SOFTWARE_PILOT_READY_FOR_OWNER=false`. No merge.
 
