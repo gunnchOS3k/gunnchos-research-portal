@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.stream_p1_closure_report.v1",
-  "generated_at_utc": "2026-09-08T04:55:39Z",
+  "generated_at_utc": "2026-09-09T18:53:21Z",
   "decisions": {
     "RC_SOFTWARE_PILOT": "RC_SOFTWARE_PILOT_NOT_READY",
     "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
@@ -26,9 +26,9 @@
     "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
     "WINDOWS_PILOT0_ACCEPTED_MAIN_REVALIDATION_PASS": true,
     "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
-    "DEVICE_LAB_CURRENT_PIN_REVALIDATED": false,
+    "DEVICE_LAB_CURRENT_PIN_REVALIDATED": true,
     "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
-    "DEVICE_LAB_HOST_RESOURCE_BLOCKED": true,
+    "DEVICE_LAB_HOST_RESOURCE_BLOCKED": false,
     "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
     "BEATLINK_RIGHTS_SAFE_PILOT_READY": true,
     "BEATLINK_RIGHTS_SAFE_PILOT_PASS": false,
@@ -42,10 +42,19 @@
     "repo": "gunnchos-device-os",
     "pr": 134,
     "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
-    "head": "343f0286192e753a8e8a10f65c46a15c5c5becf4",
+    "head": "0638dd64760ae85253f02e41ee7f5f0787ac246d",
     "draft": true,
     "remote_ci": "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING"
   },
-  "primary_device_lab_blocker": "HOST_RESOURCE_BLOCKED",
-  "host_free_gib": 3.24
+  "primary_device_lab_blocker": "RING_TO_REAL_APP_STATE_MUTATION_PASS",
+  "host_free_gib": 26.0,
+  "software_pilot_blockers": [
+    "RING_TO_REAL_APP_STATE_MUTATION_PASS=false (hung virtio-serial mutation)",
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false (godot45_unavailable_in_guest)",
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false (qemu_pid_missing)",
+    "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS=false",
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=false",
+    "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS=false",
+    "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING on #134 head 0638dd64760ae85253f02e41ee7f5f0787ac246d"
+  ]
 }

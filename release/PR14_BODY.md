@@ -9,7 +9,7 @@
 - `WINDOWS_PILOT0_ACCEPTED_MAIN_PASS=true`
 - `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER=true` (Windows blocker only).
 - Device Lab current-pin: **FAIL-CLOSED** — `HOST_RESOURCE_BLOCKED` (free ~3.24 GiB < 25 GiB required).
-- Device OS candidate DRAFT: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `343f0286192e753a8e8a10f65c46a15c5c5becf4` — remote CI **PENDING**.
+- Device OS candidate DRAFT: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `0638dd64760ae85253f02e41ee7f5f0787ac246d` — remote CI **PENDING**.
 - Nine digital Device Lab gates: **all false** (not executed; stale wp011r tokens rejected).
 - `PHYSICAL_DEVICE_QUARTET_PASS=false`; `ANIME_PIXEL_ACCEPTANCE=PENDING_DEVICE`; `HUMAN_EVALUATION=PENDING_HUMANS`.
 - `RC_SOFTWARE_PILOT_READY_FOR_OWNER=false`.
@@ -30,10 +30,10 @@
 |---|---|
 | `WINDOWS_PILOT0_ACCEPTED_MAIN_PASS` | **true** |
 | `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER` | **true** |
-| `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS` | **false** |
-| `RC_SOFTWARE_PILOT_READY_FOR_OWNER` | **false** |
-| `HARDWARE_EVT_READY_TO_EXECUTE` | **false** |
-| `PRODUCTION_RELEASE_READY_FOR_OWNER` | **false** |
+| `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS` | **false** (Phase 2 executed) |
+| `RC_SOFTWARE_PILOT_READY_FOR_OWNER` | **false** (Phase 2 executed) |
+| `HARDWARE_EVT_READY_TO_EXECUTE` | **false** (Phase 2 executed) |
+| `PRODUCTION_RELEASE_READY_FOR_OWNER` | **false** (Phase 2 executed) |
 
 ### Precise Device Lab blocker
 `HOST_RESOURCE_BLOCKED` — host free space ~3.24 GiB < required 25.0 GiB after regenerable cleanup. Interactive Guest LIVE/DSXL/RING/FOUR_GAME/WAIKE/gunnchAI/lifecycle/ECO010 not executed (prefer honest FAIL over false PASS / host fill-crash).
