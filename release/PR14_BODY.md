@@ -9,7 +9,7 @@
 - `WINDOWS_PILOT0_ACCEPTED_MAIN_PASS=true`
 - `WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER=true` (Windows blocker only).
 - Device Lab current-pin: **FAIL-CLOSED** — `HOST_RESOURCE_BLOCKED` (free ~3.24 GiB < 25 GiB required).
-- Device OS candidate DRAFT: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `0638dd64760ae85253f02e41ee7f5f0787ac246d` — remote CI **PENDING**.
+- Device OS candidate DRAFT: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `2dbcb3e3848bbc33074f8811babf40167f0acf7c` — remote CI **GREEN** (test/gate1/reality/qemu-guest-path). Ring hang fixed; RING PASS still false.
 - Nine digital Device Lab gates: **all false** (not executed; stale wp011r tokens rejected).
 - `PHYSICAL_DEVICE_QUARTET_PASS=false`; `ANIME_PIXEL_ACCEPTANCE=PENDING_DEVICE`; `HUMAN_EVALUATION=PENDING_HUMANS`.
 - `RC_SOFTWARE_PILOT_READY_FOR_OWNER=false`.

@@ -34,3 +34,9 @@ No shipping physical gunnchOS; no conversion of HOST_RESOURCE_BLOCKED into gate 
 - Storage: FREE_GIB_BEFORE_QEMU=38.0 (gate cleared). Primary blocker: RING_TO_REAL_APP_STATE_MUTATION_PASS.
 - `RC_SOFTWARE_PILOT_READY_FOR_OWNER=false`. No merge.
 
+## Prompt 17D update (2026-09-09T21:07:30Z)
+- Device OS [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `2dbcb3e3848bbc33074f8811babf40167f0acf7c` — exact-head CI **GREEN** (test/gate1/reality/qemu-guest-path).
+- Ring virtio hang **fixed**; `RING_TO_REAL_APP_STATE_MUTATION_PASS=false` (honest FAIL: browser/game receipt; not hang).
+- LIVE/DSXL true; `ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true`.
+- `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false`; `DEVICE_LAB_CANDIDATE_READY_FOR_OWNER=false`. Unmerged.
+

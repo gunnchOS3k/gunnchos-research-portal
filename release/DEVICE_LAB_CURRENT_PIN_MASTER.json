@@ -1,10 +1,10 @@
 {
   "schema": "gunnchos.device_lab.current_pin_master.v1",
-  "generated_at_utc": "2026-09-09T18:53:21Z",
+  "generated_at_utc": "2026-09-09T21:07:30Z",
   "work_item": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
   "branch": "cursor/device-lab-current-pin-revalidation",
   "base": "origin/main",
-  "device_os_tip": "0638dd64760ae85253f02e41ee7f5f0787ac246d",
+  "device_os_tip": "2dbcb3e3848bbc33074f8811babf40167f0acf7c",
   "device_os_pr": 134,
   "device_os_pr_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
   "pin_manifest_sha256": "40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575",
@@ -26,7 +26,7 @@
   "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
   "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
   "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
-  "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING": true,
+  "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING": false,
   "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": false,
   "prefer_fail_over_false_pass": true,
   "cursor_never_merges": true,
@@ -34,5 +34,13 @@
   "FREE_GIB_PHASE2_START": 40.0,
   "FREE_GIB_BEFORE_QEMU": 38.0,
   "FREE_GIB_PHASE2_END": 26.0,
-  "phase": "17C.2_PHASE2_EXECUTED"
+  "phase": "17D_CI_GREEN_RING_HANG_FIXED_APP_MUTATION_FAIL",
+  "ring_blocker": "guest_browser_state_not_committed",
+  "ECO010_REEARN_REQUIRED_AFTER_RING_FIX": true,
+  "exact_head_ci": {
+    "test": "SUCCESS",
+    "gate1": "SUCCESS",
+    "reality": "SUCCESS",
+    "qemu-guest-path": "SUCCESS"
+  }
 }

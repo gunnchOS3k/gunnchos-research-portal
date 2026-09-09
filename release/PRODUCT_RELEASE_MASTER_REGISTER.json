@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.release.product_release_master_register.v1",
-  "generated_at_utc": "2026-09-08T04:55:39Z",
-  "stream_refresh": "POST_17C2_DEVICE_LAB_PHASE2_EXECUTED_FAIL",
+  "generated_at_utc": "2026-09-09T21:07:30Z",
+  "stream_refresh": "POST_17D_DEVICE_LAB_CI_GREEN_RING_HANG_FIXED_FAIL",
   "owner_merge_authority": "Edmund Gunn Jr.",
   "cursor_merge_forbidden": true,
   "decisions": {
