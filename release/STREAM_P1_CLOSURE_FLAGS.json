@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.stream_p1_closure_report.v1",
-  "generated_at_utc": "2026-09-09T21:07:30Z",
+  "generated_at_utc": "2026-09-10T03:41:47Z",
   "decisions": {
     "RC_SOFTWARE_PILOT": "RC_SOFTWARE_PILOT_NOT_READY",
     "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
@@ -42,25 +42,25 @@
     "repo": "gunnchos-device-os",
     "pr": 134,
     "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
-    "head": "0638dd64760ae85253f02e41ee7f5f0787ac246d",
+    "head": "825653715747cb0397c84f05d8f71fe6e7b748f1",
     "draft": true,
-    "remote_ci": "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING"
+    "remote_ci": "GREEN_EXACT_HEAD"
   },
-  "primary_device_lab_blocker": "RING_TO_REAL_APP_STATE_MUTATION_PASS",
+  "primary_device_lab_blocker": "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS",
   "host_free_gib": 26.0,
   "software_pilot_blockers": [
-    "RING_TO_REAL_APP_STATE_MUTATION_PASS=false (hung virtio-serial mutation)",
-    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false (godot45_unavailable_in_guest)",
-    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false (qemu_pid_missing)",
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false (firewall; not run in 17E)",
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false",
     "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS=false",
     "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=false",
     "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS=false",
-    "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING on #134 head 0638dd64760ae85253f02e41ee7f5f0787ac246d"
+    "ECO010_SOAK_PASS=false (stale for new candidate; historical PASS preserved; re-earn required)",
+    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false"
   ],
   "device_os_candidate": {
     "pr": 134,
     "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
-    "head": "2dbcb3e3848bbc33074f8811babf40167f0acf7c",
+    "head": "825653715747cb0397c84f05d8f71fe6e7b748f1",
     "exact_head_ci": {
       "test": "SUCCESS",
       "gate1": "SUCCESS",
@@ -70,8 +70,8 @@
     "merged": false
   },
   "device_lab_notes": [
-    "RING hang fixed (virtio-serial bounded + mp wall-clock); RING PASS still false (browser/game receipt).",
-    "LIVE/DSXL true; ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true",
-    "Exact-head CI green on #134"
+    "17E: RING_TO_REAL_APP_STATE_MUTATION_PASS=true (LO+browser+game twice; Cycle A/B)",
+    "LIVE/DSXL true; ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true (not run)",
+    "Exact-head CI green on #134 825653715747cb0397c84f05d8f71fe6e7b748f1"
   ]
 }

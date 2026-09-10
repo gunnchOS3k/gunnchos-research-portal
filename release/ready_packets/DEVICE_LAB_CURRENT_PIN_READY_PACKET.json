@@ -1,14 +1,14 @@
 {
   "schema": "gunnchos.release.ready_packet.v1",
   "packet": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
-  "generated_at_utc": "2026-09-09T21:07:30Z",
-  "status": "PROMPT_17D_CI_GREEN_RING_HANG_FIXED_APP_MUTATION_FAIL",
-  "target_device_os_sha": "2dbcb3e3848bbc33074f8811babf40167f0acf7c",
+  "generated_at_utc": "2026-09-10T03:41:47Z",
+  "status": "PROMPT_17E_RING_APP_STATE_MUTATION_PASS",
+  "target_device_os_sha": "825653715747cb0397c84f05d8f71fe6e7b748f1",
   "candidate_pr": 134,
-  "candidate_head": "2dbcb3e3848bbc33074f8811babf40167f0acf7c",
+  "candidate_head": "825653715747cb0397c84f05d8f71fe6e7b748f1",
   "candidate_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
   "pin_manifest_sha256": "40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575",
-  "why_not_pass": "Exact-head CI green (test/gate1/reality/qemu-guest-path). Ring virtio hang fixed; fresh guest completes without hang but RING PASS still false (guest_browser_state_not_committed / godot_alive_mutation_not_committed). LIVE+DSXL true; ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true. FOUR/WAIKE/gunnchAI/lifecycle/independent remain false (firewall).",
+  "why_not_full_device_lab_pass": "Ring PASS earned twice; remaining firewall gates (Four-Game/WAIKE/gunnchAI/lifecycle/independent) and ECO010 re-earn deferred. DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS remains false until remaining gates.",
   "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
   "DIGITAL_DEVICE_LAB_PASS": false,
   "PHYSICAL_DEVICE_QUARTET_PASS": false,
@@ -23,9 +23,9 @@
   "gates": {
     "LIVE_GUNNCHOS_VISUAL_PASS": true,
     "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
-    "RING_TO_REAL_APP_STATE_MUTATION_PASS": false,
+    "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
     "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": false,
-    "ECO010_SOAK_PASS": true,
+    "ECO010_SOAK_PASS": false,
     "ECO010_REEARN_REQUIRED_AFTER_RING_FIX": true,
     "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": false,
     "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": false,
@@ -35,8 +35,9 @@
   "ring": {
     "hang_fixed": true,
     "RING_FIX_OWNED_BY_DEVICE_OS": true,
-    "blocker": "guest_browser_state_not_committed",
-    "correlation_id": "ring-1788986254-33617",
+    "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
+    "cycle_a": "ring-1789009563-68659",
+    "cycle_b": "ring-1789009762-70725",
     "RING_BLOCKED_BY_OWNER_MERGE": false
   },
   "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
@@ -44,5 +45,5 @@
   "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
   "cursor_can_do_more_now": false,
   "requires_edmund": true,
-  "edmund_action": "Do not merge #134/#14. Review Ring game/browser receipt flakiness on Device OS harness; authorize ECO010 re-earn after Ring PASS; keep firewall on Four/WAIKE/gunnchAI/lifecycle."
+  "edmund_action": "Do not merge #134/#14. Review Ring PASS evidence; authorize next gate (Four-Game or ECO010 re-earn) when ready."
 }

@@ -40,3 +40,10 @@ No shipping physical gunnchOS; no conversion of HOST_RESOURCE_BLOCKED into gate 
 - LIVE/DSXL true; `ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true`.
 - `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false`; `DEVICE_LAB_CANDIDATE_READY_FOR_OWNER=false`. Unmerged.
 
+
+## Prompt 17E update (2026-09-10T03:41:47Z)
+- Device OS [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `825653715747cb0397c84f05d8f71fe6e7b748f1` — exact-head CI **GREEN** (53/53 SUCCESS incl. test/gate1/reality/qemu-guest-path).
+- `RING_TO_REAL_APP_STATE_MUTATION_PASS=true` — LibreOffice+browser+game app-state mutation PASS on Cycle A (`ring-1789009563-68659`) and Cycle B (`ring-1789009762-70725`) after full QEMU reboot.
+- LIVE/DSXL true; `ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true`; `ECO010_SOAK_PASS=false` (stale for new candidate; do not erase historical PASS evidence).
+- `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false`; `DEVICE_LAB_CANDIDATE_READY_FOR_OWNER=false`. Unmerged.
+- Next recommended gate: Four-Game real runtime Device Lab (firewall; not started).
