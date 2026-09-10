@@ -1,0 +1,26 @@
+{
+  "schema": "gunnchos.release.ready_packet.v1",
+  "packet": "FRESH_SOFTWARE_SOAKS",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "status": "READY_PACKET",
+  "why_not_pass": "No fresh SHA-bound 30min soak executed this refresh for consumer products on current accepted mains.",
+  "retained_but_not_current_pin": {
+    "device_os_eco010": "artifacts/wp011r/ECO010_SOAK.json status=PASS on tree but not revalidated for tip 4f02a48780d3"
+  },
+  "procedure": [
+    "clean build",
+    "install",
+    "launch",
+    "primary workflow",
+    "persist",
+    "restart",
+    "restore",
+    "network/offline",
+    "30min where feasible",
+    "crash scan",
+    "reinstall",
+    "relaunch"
+  ],
+  "cursor_can_do_more_now": true,
+  "requires_edmund": false
+}

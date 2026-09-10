@@ -1,0 +1,77 @@
+{
+  "schema": "gunnchos.release.stream_p1_closure_report.v1",
+  "generated_at_utc": "2026-09-10T03:41:47Z",
+  "decisions": {
+    "RC_SOFTWARE_PILOT": "RC_SOFTWARE_PILOT_NOT_READY",
+    "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
+    "PRODUCTION_RELEASE": "PRODUCTION_RELEASE_BLOCKED_EXTERNAL"
+  },
+  "verdicts": {
+    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
+    "HARDWARE_EVT_READY_TO_EXECUTE": false,
+    "PRODUCTION_RELEASE_READY_FOR_OWNER": false
+  },
+  "flags": {
+    "ACCEPTED_MAIN_RE_FROZEN": true,
+    "WAIKE_GATE_D_ON_MAIN": true,
+    "WAIKE_PR5_NO_LONGER_SOFTWARE_BLOCKER": true,
+    "DIGITAL_EVIDENCE_NOT_PHYSICAL": true,
+    "HUMAN_EVIDENCE_NOT_INFERRED": true,
+    "RIGHTS_NOT_INFERRED": true,
+    "CERTIFICATION_NOT_SELF_DECLARED": true,
+    "CARRIER_ACCEPTANCE_NOT_INFERRED": true,
+    "WINDOWS_AUTHENTIC_EVIDENCE": true,
+    "WINDOWS_PILOT0_CANDIDATES_REGISTERED": true,
+    "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
+    "WINDOWS_PILOT0_ACCEPTED_MAIN_REVALIDATION_PASS": true,
+    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
+    "DEVICE_LAB_CURRENT_PIN_REVALIDATED": true,
+    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
+    "DEVICE_LAB_HOST_RESOURCE_BLOCKED": false,
+    "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
+    "BEATLINK_RIGHTS_SAFE_PILOT_READY": true,
+    "BEATLINK_RIGHTS_SAFE_PILOT_PASS": false,
+    "CURSOR_MERGED_NOTHING": true,
+    "FULL_ECOSYSTEM_COMPLETE": false,
+    "PRODUCTION_RELEASE_READY_FOR_OWNER": false,
+    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
+    "HARDWARE_EVT_READY_TO_EXECUTE": false
+  },
+  "device_lab_candidate": {
+    "repo": "gunnchos-device-os",
+    "pr": 134,
+    "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
+    "head": "825653715747cb0397c84f05d8f71fe6e7b748f1",
+    "draft": true,
+    "remote_ci": "GREEN_EXACT_HEAD"
+  },
+  "primary_device_lab_blocker": "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS",
+  "host_free_gib": 26.0,
+  "software_pilot_blockers": [
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false (firewall; not run in 17E)",
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false",
+    "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS=false",
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=false",
+    "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS=false",
+    "ECO010_SOAK_PASS=false (stale for new candidate; historical PASS preserved; re-earn required)",
+    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false"
+  ],
+  "device_os_candidate": {
+    "pr": 134,
+    "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
+    "head": "825653715747cb0397c84f05d8f71fe6e7b748f1",
+    "exact_head_ci": {
+      "test": "SUCCESS",
+      "gate1": "SUCCESS",
+      "reality": "SUCCESS",
+      "qemu-guest-path": "SUCCESS"
+    },
+    "merged": false
+  },
+  "device_lab_notes": [
+    "17E: RING_TO_REAL_APP_STATE_MUTATION_PASS=true (LO+browser+game twice; Cycle A/B)",
+    "LIVE/DSXL true; ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true (not run)",
+    "Exact-head CI green on #134 825653715747cb0397c84f05d8f71fe6e7b748f1"
+  ]
+}

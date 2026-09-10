@@ -1,0 +1,22 @@
+{
+  "schema": "gunnchos.release.ready_packet.v1",
+  "packet": "WAIKE_STAFF_ALPHA_PILOT0",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "status": "DIGITAL_BASELINE_READY",
+  "gate_d_baseline_sha": "ef73dc1804b9aca93382b846283d26e6c7ff0ea4",
+  "pins": {
+    "device_os": "4f02a48780d300a5d3a7758937b20e3bf9364d0d",
+    "waike_research_ops": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+    "gunnchai": "4b4f411710e8cdb8102a7e11502f8497f68156b1"
+  },
+  "execution_assets": [
+    "Use Gate D reports on accepted main as digital baseline",
+    "Staff-alpha adults only; no K-12 classroom claim",
+    "Record HUMAN outcomes separately from DIGITAL",
+    "Keep Device Quartet / WCAG / FERPA / OneRoster/QTI/LTI external cert OPEN"
+  ],
+  "HUMAN_CLASSROOM_VALIDATION": "PENDING_HUMANS",
+  "cursor_modified_waike_repo": false,
+  "cursor_can_do_more_now": false,
+  "requires_edmund": true
+}

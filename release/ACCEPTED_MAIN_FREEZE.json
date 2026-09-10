@@ -1,0 +1,168 @@
+{
+  "schema": "gunnchos.release.accepted_main_freeze.v1",
+  "stream": "STREAM_P1_FULL_ECOSYSTEM_PRODUCT_RC0_DIGITAL_FREEZE",
+  "stream_refresh": "PROMPT_16_DEVICE_LAB_CURRENT_PIN_REVALIDATION",
+  "generated_at_utc": "2026-09-08T04:55:39Z",
+  "prior_freeze_generated_at_utc": "2026-09-07T20:59:22Z",
+  "control_plane_repo": "gunnchos-research-portal",
+  "control_plane_pr": 14,
+  "control_plane_branch": "release/stream-p1-rc0-digital-freeze",
+  "owner_merge_authority": "Edmund Gunn Jr.",
+  "cursor_merge_forbidden": true,
+  "full_ecosystem_complete_token_forbidden": true,
+  "pin_manifest_sha256": "066e1451b2b5cf9872ddf68f2c70330e91e6778746ca9f5ed1b519a81c9f235c",
+  "policy": [
+    "Accepted origin/main is authoritative.",
+    "Draft/unmerged PRs are candidate evidence only.",
+    "Do not convert physical/human/rights/regulatory/carrier/manufacturing/external into digital PASS.",
+    "Never inherit old PASS tokens for a wrong SHA.",
+    "Device Lab tokens require current-pin re-earn; HOST_RESOURCE_BLOCKED withholds guest execution."
+  ],
+  "repo_count_requested": 13,
+  "repo_count_frozen": 13,
+  "repos": [
+    {
+      "repository": "gunnchos-device-os",
+      "local_present": true,
+      "origin_main_sha": "898e44cfa8b7574c0de7b8312b0996816799eca4",
+      "origin_main_sha12": "898e44cfa8b7",
+      "commit_subject": "Merge pull request #133 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:38:56-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "device_os_orchestrator",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "gunnchos-hardware-industrial-design",
+      "local_present": true,
+      "origin_main_sha": "9ee0ef2f688b2c18428bfabc316b23687a02988d",
+      "origin_main_sha12": "9ee0ef2f688b",
+      "commit_subject": "Merge pull request #67 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "commit_date": "2026-08-18T15:09:51-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "hardware_industrial_design",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "gunnchAI3k",
+      "local_present": true,
+      "origin_main_sha": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+      "origin_main_sha12": "65b799e21dc1",
+      "commit_subject": "Merge pull request #46 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:40:38-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "gunnchai_runtime",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "waike-research-ops",
+      "local_present": true,
+      "origin_main_sha": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+      "origin_main_sha12": "fbf7685bc568",
+      "commit_subject": "Merge pull request #57 from gunnchOS3k/cursor/waike-seven-gc-digital-course-normalization",
+      "commit_date": "2026-09-06T13:59:09-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "waike_research_ops",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "gunnchos-waike-learning-platform",
+      "local_present": true,
+      "origin_main_sha": "8610018a62e07548405a58384773d96a7be7950b",
+      "origin_main_sha12": "8610018a62e0",
+      "commit_subject": "Merge pull request #8 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:40:53-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "waike_learning_platform",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "anime-aggressors",
+      "local_present": true,
+      "origin_main_sha": "258cc0c45991ac9dded0c3d7813894d9fd7ca56d",
+      "origin_main_sha12": "258cc0c45991",
+      "commit_subject": "Merge pull request #98 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:39:13-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "game_anime",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "pedestrian-pursuit",
+      "local_present": true,
+      "origin_main_sha": "ba698e929b573096ef50e0699990f3f0c6d571b6",
+      "origin_main_sha12": "ba698e929b57",
+      "commit_subject": "Merge pull request #23 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:39:41-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "game_pedestrian",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "archive-of-life-artifact-world",
+      "local_present": true,
+      "origin_main_sha": "8611d2e30315792c38d7d5062e108b8bb87df2c2",
+      "origin_main_sha12": "8611d2e30315",
+      "commit_subject": "Merge pull request #36 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:40:00-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "game_archive",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "beatlink-party",
+      "local_present": true,
+      "origin_main_sha": "06b4a6f74159ee933984be913e269eab64246efb",
+      "origin_main_sha12": "06b4a6f74159",
+      "commit_subject": "Merge pull request #26 from gunnchOS3k/cursor/windows-pilot0-authentic-evidence",
+      "commit_date": "2026-09-07T23:40:22-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "game_beatlink",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "gunnchos-7gc-ai-ran-field-kit",
+      "local_present": true,
+      "origin_main_sha": "9e93e41a3b16b009c9cc5163b775360d4d2ef693",
+      "origin_main_sha12": "9e93e41a3b16",
+      "commit_subject": "Merge pull request #118 from gunnchOS3k/eng/wave014-accepted-main-closeout",
+      "commit_date": "2026-08-22T19:17:18-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "ai_ran_field_kit",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "edge-io-measurement-node",
+      "local_present": true,
+      "origin_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "origin_main_sha12": "af57fbdac857",
+      "commit_subject": "Merge pull request #38 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "commit_date": "2026-08-18T17:09:28-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "edge_io",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "gunnchos-research-portal",
+      "local_present": true,
+      "origin_main_sha": "eef765bdb6156a59a2aef556292cdf1e9e16efb6",
+      "origin_main_sha12": "eef765bdb615",
+      "commit_subject": "Merge pull request #13 from gunnchOS3k/docs/v3-ari-outreach-package-closure",
+      "commit_date": "2026-08-27T19:27:07-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "release_control_plane",
+      "prior_evidence_stale": true
+    },
+    {
+      "repository": "gunnchos-6g-security-trust-privacy-lab",
+      "local_present": true,
+      "origin_main_sha": "d276579333a8254c7424e8df50c8824b200bc122",
+      "origin_main_sha12": "d276579333a8",
+      "commit_subject": "Rebrand lab under gunnchOS wireless engineering spine",
+      "commit_date": "2026-06-04T19:32:51-05:00",
+      "fetched_at_utc": "2026-09-08T04:55:39Z",
+      "role": "security_trust_privacy_lab_orchestrator_ref",
+      "prior_evidence_stale": true
+    }
+  ]
+}
