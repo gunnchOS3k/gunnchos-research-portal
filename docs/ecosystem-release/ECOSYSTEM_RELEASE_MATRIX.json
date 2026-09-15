@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.ecosystem.release_matrix.v1",
-  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
   "prompt": "18",
   "pin_sha_refs": {
     "gunnchos-research-portal": "eef765bdb615",
@@ -148,16 +148,18 @@
     {
       "domain_id": 8,
       "domain": "Books/publications",
-      "accepted_main_capability": "PhD publication pipeline + research manuscripts indexed in portal (not consumer books)",
-      "missing_digital": "No dedicated guidebook/reader-preview product repo discovered",
-      "missing_integration_evidence": "N/A until repo exists",
-      "human_gap": "Reader preview if product invented",
-      "physical_gap": "N/A",
-      "external_vendor_legal_gap": "Rights if third-party content",
-      "next_owner_independent_action": "Keep books domain NOT_APPLICABLE until owner names real repo",
-      "next_owner_required_action": "Decide whether to create guidebook product repo",
-      "repos": [],
-      "evidence_class": "NOT_APPLICABLE"
+      "accepted_main_capability": "gunnchos-technology-landscape on main with reader-preview CI + human-validation launch prep (#10)",
+      "missing_digital": "Local workspace clone for offline control-tower refresh; optional deeper chapter digital completeness audit",
+      "missing_integration_evidence": "WAIKE-lab cross-links as field-validated learning (if claimed)",
+      "human_gap": "Reader-preview / guidebook human validation sessions",
+      "physical_gap": "N/A for digital reader",
+      "external_vendor_legal_gap": "Third-party figure/content rights if any",
+      "next_owner_independent_action": "Track GH-only repo in control tower; do not invent alternate book repos",
+      "next_owner_required_action": "Run human reader-preview validation; decide publish/distribution",
+      "repos": [
+        "gunnchos-technology-landscape"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING"
     },
     {
       "domain_id": 9,

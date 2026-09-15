@@ -21,5 +21,5 @@ JSON: [`ECOSYSTEM_SKU_RELEASE_MATRIX.json`](./ECOSYSTEM_SKU_RELEASE_MATRIX.json)
 | gunnchAI internal alpha | gunnchai_internal_alpha | alpha | desktop/cli | internal | HUMAN_VALIDATION_PENDING | Digital green; HUMAN_E6 false |
 | game desktop/Windows RC | games_windows_rc | RC-candidate | Windows | internal | DRAFT_DIGITAL_CANDIDATE | Pilot0 digital candidates; Device Lab Four-Game still open |
 | game Android/Pixel candidate | games_android_pixel | candidate | Android_Pixel | internal | PHYSICAL_VALIDATION_PENDING | Anime PENDING_DEVICE; BeatLink smoke retained |
-| book reader-preview candidate | book_reader_preview | n/a | n/a | n/a | NOT_APPLICABLE | No guidebook/reader product repo discovered |
+| book reader-preview candidate | technology_landscape_reader_preview | main@8d56d214fa64 | web_reader_preview | education_general | HUMAN_VALIDATION_PENDING | Repo gunnchos-technology-landscape; reader-preview CI green; human validation pending |
 | creation/developer workflow alpha | creation_dev_workflow | alpha | gunnchOS_emulation/desktop | creator | DIGITAL_BLOCKED | Creator journeys exist; current-pin E2E not closed |

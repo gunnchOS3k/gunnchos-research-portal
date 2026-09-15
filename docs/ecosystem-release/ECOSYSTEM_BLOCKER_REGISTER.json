@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.ecosystem.blocker_register.v1",
-  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
   "blockers": [
     {
       "rank": 1,
@@ -123,6 +123,20 @@
       "owner_required": "CM/RFQ/warranty counsel",
       "blocks": [
         "Production release"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "BLK-BOOK-HUMAN",
+      "title": "Technology Landscape reader-preview human validation",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "repos": [
+        "gunnchos-technology-landscape"
+      ],
+      "owner_independent": "Keep control-tower tracking; CI reader-preview already green on main",
+      "owner_required": "Run human reader sessions; publish decision",
+      "blocks": [
+        "book reader-preview candidate"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 # ECOSYSTEM_HUMAN_VALIDATION_QUEUE
 
-Generated: `2026-09-15T04:52:44Z`  
+Generated: `2026-09-15T05:17:53Z`  
 JSON: [`ECOSYSTEM_HUMAN_VALIDATION_QUEUE.json`](./ECOSYSTEM_HUMAN_VALIDATION_QUEUE.json)
 
 **Protocols only — no fabricated human results.**
@@ -13,5 +13,6 @@ JSON: [`ECOSYSTEM_HUMAN_VALIDATION_QUEUE.json`](./ECOSYSTEM_HUMAN_VALIDATION_QUE
 | HV-GAMES-PLAYTEST | Four-game desktop playtest | Adult playtesters | HUMAN_VALIDATION_PENDING | docs/ecosystem-release/protocols/GAMES_DESKTOP_PLAYTEST_PROTOCOL.md |
 | HV-CREATOR-ALPHA | Creation workflow alpha | Internal creators/developers | HUMAN_VALIDATION_PENDING | docs/ecosystem-release/protocols/CREATION_WORKFLOW_ALPHA_PROTOCOL.md |
 | HV-GUEST-UX | Interactive guest UX soak | Edmund + designated operators | HUMAN_VALIDATION_PENDING | docs/ecosystem-release/protocols/INTERACTIVE_GUEST_UX_PROTOCOL.md |
+| HV-BOOK-READER | Technology Landscape reader-preview human validation | Adult readers (STEM-curious / staff) | HUMAN_VALIDATION_PENDING | docs/ecosystem-release/protocols/BOOK_READER_PREVIEW_PROTOCOL.md |
 
 Protocols live under [`protocols/`](./protocols/).

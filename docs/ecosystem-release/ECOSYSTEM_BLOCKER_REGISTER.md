@@ -1,6 +1,6 @@
 # ECOSYSTEM_BLOCKER_REGISTER
 
-Generated: `2026-09-15T04:52:44Z`  
+Generated: `2026-09-15T05:17:53Z`  
 JSON: [`ECOSYSTEM_BLOCKER_REGISTER.json`](./ECOSYSTEM_BLOCKER_REGISTER.json)
 
 | Rank | ID | Title | Evidence class | Repos | Owner-independent | Owner-required |
@@ -13,3 +13,4 @@ JSON: [`ECOSYSTEM_BLOCKER_REGISTER.json`](./ECOSYSTEM_BLOCKER_REGISTER.json)
 | 6 | BLK-RIGHTS-BEATLINK | BeatLink commercial rights | RIGHTS_PENDING | `beatlink-party` | Document rights-safe catalog constraints | Licensing decisions |
 | 7 | BLK-REG-CARRIER | RF/FCC/CE/carrier certification | REGULATORY_PENDING | `gunnchos-hardware-industrial-design`, `gunnchos-device-os` | No simulation→cert conversion | Lab engagement |
 | 8 | BLK-MFG-SUPPORT | Manufacturing + warranty external | VENDOR_EXTERNAL_PENDING | `gunnchos-hardware-industrial-design` | Digital prep already closed | CM/RFQ/warranty counsel |
+| 9 | BLK-BOOK-HUMAN | Technology Landscape reader-preview human validation | HUMAN_VALIDATION_PENDING | `gunnchos-technology-landscape` | Keep control-tower tracking; CI reader-preview already green on main | Run human reader sessions; publish decision |

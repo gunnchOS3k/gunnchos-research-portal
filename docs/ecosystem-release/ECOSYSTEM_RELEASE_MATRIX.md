@@ -12,7 +12,7 @@ JSON: [`ECOSYSTEM_RELEASE_MATRIX.json`](./ECOSYSTEM_RELEASE_MATRIX.json)
 | 5 | AI | HUMAN_VALIDATION_PENDING | `gunnchAI3k` | Ship executable human-eval protocol + result schema (Prompt 18 stream) | Recruit evaluators; score HUMAN_E6 |
 | 6 | WAIKE curriculum | HUMAN_VALIDATION_PENDING | `waike-research-ops` | Keep COURSE_DIGITAL_RC validators honest | Staff curriculum review; privacy counsel for K-12 |
 | 7 | Native learning platform | HUMAN_VALIDATION_PENDING | `gunnchos-waike-learning-platform`, `waike-research-ops`, `gunnchAI3k` | Refresh staff-alpha packets to current SHA 8610018a62e0 | Run staff alpha; no K-12 claim |
-| 8 | Books/publications | NOT_APPLICABLE | — | Keep books domain NOT_APPLICABLE until owner names real repo | Decide whether to create guidebook product repo |
+| 8 | Books/publications | HUMAN_VALIDATION_PENDING | `gunnchos-technology-landscape` | Track GH-only guidebook in control tower | Run reader-preview human validation |
 | 9 | Creation tools | DIGITAL_BLOCKED | `gunnchos-device-os` | Document creation path from existing journeys without editing 17F pin paths | Approve creator alpha participants |
 | 10 | Edge IO/Rings | PHYSICAL_VALIDATION_PENDING | `edge-io-measurement-node`, `gunnchos-hardware-industrial-design` | Digital privacy/export prep draft PR (Prompt 18 stream) | Authorize physical EVT spend |
 | 11 | Security/privacy/update/recovery | DIGITAL_BLOCKED | `gunnchos-device-os`, `edge-io-measurement-node`, `gunnchAI3k`, `oulu-6g-security-trust-privacy-lab` | Maintain fail-closed claim boundaries | Legal review for staff-alpha data |

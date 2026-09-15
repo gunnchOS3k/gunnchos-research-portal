@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.ecosystem.sku_release_matrix.v1",
-  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
   "policy": [
     "Physical must not falsely block commodity-hardware software pilots",
     "Digital PASS \u2260 production readiness",
@@ -109,12 +109,12 @@
     },
     {
       "surface": "book reader-preview candidate",
-      "sku": "book_reader_preview",
-      "version": "n/a",
-      "platform": "n/a",
-      "market": "n/a",
-      "evidence_class": "NOT_APPLICABLE",
-      "notes": "No guidebook/reader product repo discovered"
+      "sku": "technology_landscape_reader_preview",
+      "version": "main@8d56d214fa64",
+      "platform": "web_reader_preview",
+      "market": "education_general",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "notes": "Repo gunnchos-technology-landscape; reader-preview CI green; human validation pending; not Device Lab pinned"
     },
     {
       "surface": "creation/developer workflow alpha",

@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.ecosystem.accepted_main_registry.v1",
   "prompt": "18",
-  "generated_at_utc": "2026-09-15T04:52:44Z",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
   "control_plane_repo": "gunnchos-research-portal",
   "org": "gunnchOS3k",
   "org_repo_list_status": "PARTIAL \u2014 gh org list API returned 404/Forbidden this session; registry built from local workspace remotes + per-repo gh pr list + REPO_CATALOG.yaml",
@@ -435,24 +435,49 @@
       "open_pr_count": 0,
       "draft_pr_count": 0,
       "discovery_note": "Discovered via local workspace remotes; not in Prompt 18 minimum list but live under gunnchOS3k org naming"
+    },
+    {
+      "repo": "gunnchos-technology-landscape",
+      "purpose": "Accessible systems guidebook + reader-preview (Technology Landscape)",
+      "product_area": "Books/publications",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "last_credible_acceptance": "human-validation launch prep merged (#10); reader-preview CI success; human sessions still pending",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "ci + reader-preview success on main",
+      "origin_main_sha": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+      "origin_main_sha12": "8d56d214fa64",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0,
+      "local_present": false,
+      "discovery_note": "GitHub-only; not in local multi-repo workspace checkout"
     }
   ],
   "books_discovery": {
-    "dedicated_guidebook_repo_found": false,
-    "consumer_book_reader_preview_repo_found": false,
+    "dedicated_guidebook_repo_found": true,
+    "consumer_book_reader_preview_repo_found": true,
+    "repo": "gunnchos-technology-landscape",
+    "local_checkout": false,
+    "origin_main_sha": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+    "origin_main_sha12": "8d56d214fa64",
+    "url": "https://github.com/gunnchOS3k/gunnchos-technology-landscape",
+    "description": "The Technology Landscape \u2014 systems-level guidebook with reader-preview CI",
+    "open_prs": [],
+    "ci_note": "main ci + reader-preview success @ 8d56d214 (human-validation launch prep #10 merged)",
+    "evidence_class": "HUMAN_VALIDATION_PENDING",
     "related": [
       {
         "artifact": "gunnchos-research-portal/docs/phd/PUBLICATION_PIPELINE.md",
         "kind": "PhD conference manuscript pipeline",
         "evidence_class": "NOT_APPLICABLE",
         "note": "Research publications, not consumer guidebook SKU"
-      },
-      {
-        "artifact": "gunnchos-research-portal/research_manuscripts/",
-        "kind": "manuscript indexes",
-        "evidence_class": "NOT_APPLICABLE"
       }
     ],
-    "evidence_class": "NOT_APPLICABLE"
+    "discovery_correction": "Prompt 18 initial pass marked books NOT_APPLICABLE (not in local workspace). Follow-up discovery confirmed GH-only repo gunnchos-technology-landscape."
   }
 }

@@ -1,6 +1,6 @@
 # ECOSYSTEM_ACCEPTED_MAIN_REGISTRY
 
-Generated: `2026-09-15T04:52:44Z`  
+Generated: `2026-09-15T05:17:53Z`  
 Prompt: **18** — gunnchOS3k Ecosystem Release Control Tower  
 Org: `gunnchOS3k`  
 Control plane: `gunnchos-research-portal`  
@@ -8,14 +8,15 @@ Machine-readable: [`ECOSYSTEM_ACCEPTED_MAIN_REGISTRY.json`](./ECOSYSTEM_ACCEPTED
 
 ## Discovery notes
 - Built from **local workspace remotes** + per-repo `gh pr list` + existing `REPO_CATALOG.yaml` / `release/` pins.
-- `gh` org-wide repo list returned **404/Forbidden** this session (token/org visibility). Registry is **live for discovered remotes**, not a claim of complete private org inventory.
-- Books/guidebook consumer product repo: **not found** → `NOT_APPLICABLE`.
-- Native learning platform repo: **`gunnchos-waike-learning-platform`** (confirmed via remote).
+- `gh` org-wide repo list returned **404/Forbidden** this session initially; follow-up per-repo `gh` confirmed additional GH-only assets (notably books).
+- Native learning platform repo: **`gunnchos-waike-learning-platform`**.
+- Books guidebook: **`gunnchos-technology-landscape`** (GH-only).
 
 ## Device Lab pin firewall
 - Manifest: `release/DEVICE_LAB_CURRENT_PIN_MANIFEST.json`
 - Master: `release/DEVICE_LAB_CURRENT_PIN_MASTER.json` (as of 2026-09-10): `FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false`
 - Prompt 18 **does not** edit Four-Game / Device Lab current-pin runtime paths (Prompt 17F separation).
+- Portal draft **#15** is Prompt 18 control-tower docs only — not a Device Lab pin rewrite of freeze PR **#14**.
 
 ## Registry
 
@@ -42,10 +43,15 @@ Machine-readable: [`ECOSYSTEM_ACCEPTED_MAIN_REGISTRY.json`](./ECOSYSTEM_ACCEPTED
 | `oulu-6g-security-trust-privacy-lab` | 6G security/trust/privacy lab (Oulu) | `d276579333a8` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Security/privacy research |
 | `oulu-wce-readiness-dashboard` | WCE readiness dashboard | `eb09ebeb955f` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Research tooling |
 | `oulu-open-ran-testbed-lab` | Open RAN testbed lab | `c86f3e497506` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Research/7GC |
+| `gunnchos-technology-landscape` | Accessible systems guidebook + reader-preview (Technology Landscape) | `8d56d214fa64` | 0 | HUMAN_VALIDATION_PENDING | no | Books/publications |
 
 ## Books discovery
-- Dedicated guidebook / reader-preview repo: **none discovered**
-- Related only: PhD `docs/phd/PUBLICATION_PIPELINE.md` (research manuscripts ≠ consumer book SKU)
+- Dedicated guidebook / reader-preview repo: **`gunnchos-technology-landscape`** @ `8d56d214fa64` (https://github.com/gunnchOS3k/gunnchos-technology-landscape)
+- Local checkout: **False**
+- Evidence class: `HUMAN_VALIDATION_PENDING`
+- CI: main ci + reader-preview success @ 8d56d214 (human-validation launch prep #10 merged)
+- Related only (not this SKU): PhD `docs/phd/PUBLICATION_PIPELINE.md`
+- Prompt 18 initial pass marked books NOT_APPLICABLE (not in local workspace). Follow-up discovery confirmed GH-only repo gunnchos-technology-landscape.
 
 ## Non-claims
 - Never equate simulation with physical PASS.

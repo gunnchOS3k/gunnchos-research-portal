@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.ecosystem.human_validation_queue.v1",
-  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
   "policy": "Protocols only \u2014 no fabricated results",
   "items": [
     {
@@ -88,6 +88,20 @@
       "evidence_class": "HUMAN_VALIDATION_PENDING",
       "stop_conditions": [
         "Running against wrong pin SHA"
+      ]
+    },
+    {
+      "id": "HV-BOOK-READER",
+      "title": "Technology Landscape reader-preview human validation",
+      "participants": "Adult readers (STEM-curious / staff)",
+      "protocol": "docs/ecosystem-release/protocols/BOOK_READER_PREVIEW_PROTOCOL.md",
+      "repos": [
+        "gunnchos-technology-landscape"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "Treating PhD manuscripts as this SKU",
+        "Claiming FIELD_VALIDATED without sessions"
       ]
     }
   ]
