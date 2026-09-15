@@ -1,14 +1,14 @@
 {
   "schema": "gunnchos.release.ready_packet.v1",
   "packet": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
-  "generated_at_utc": "2026-09-15T05:36:12Z",
-  "status": "FOUR_GAME_PASS_ECO010_DEFERRED",
-  "target_device_os_sha": "3dda7b80897585bae32dbbaf7fdcabc9ffabb7c7",
+  "generated_at_utc": "2026-09-15T18:02:49Z",
+  "status": "WAIKE_FAIL_ARCH_GAP_ECO010_DEFERRED",
+  "target_device_os_sha": "907e5bc46fea13c96fa33e5d8a9e464dc7246e30",
   "candidate_pr": 134,
-  "candidate_head": "3dda7b80897585bae32dbbaf7fdcabc9ffabb7c7",
+  "candidate_head": "907e5bc46fea13c96fa33e5d8a9e464dc7246e30",
   "candidate_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
   "pin_manifest_sha256": "40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575",
-  "why_not_full_device_lab_pass": "Four-Game earned; ECO010 re-earn required after runtime fixes; WAIKE/gunnchAI/lifecycle/independent deferred; Edmund merge only",
+  "why_not_full_device_lab_pass": "WAIKE honest FAIL (x86_64 CI ELF on aarch64 guest); LIVE/DSXL/RING/FOUR_GAME retained; ECO010 deferred; gunnchAI/lifecycle/independent not started; Edmund merge only",
   "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
   "DIGITAL_DEVICE_LAB_PASS": false,
   "PHYSICAL_DEVICE_QUARTET_PASS": false,
@@ -46,5 +46,22 @@
   "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
   "cursor_can_do_more_now": false,
   "requires_edmund": true,
-  "edmund_action": "Do not merge #134/#14. Review Ring PASS evidence; authorize next gate (Four-Game or ECO010 re-earn) when ready."
+  "edmund_action": "Do not merge #134/#14. Review Ring PASS evidence; authorize next gate (Four-Game or ECO010 re-earn) when ready.",
+  "waike": {
+    "verdict": "FAIL",
+    "blocker": "ci_linux_x86_64_elf_on_aarch64_guest_missing_amd64_loader_or_libs;qemu_user_static_insufficient_for_dynamic_tauri;need_aarch64_linux_ci_artifact_or_in_guest_native_build",
+    "accepted_main": "8610018a62e07548405a58384773d96a7be7950b",
+    "curriculum_pin": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+    "DRAFT_WAIKE_PRODUCT_PR": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/9",
+    "accepted_main_gate": false,
+    "FREE_GIB_BEFORE_QEMU": 26.96,
+    "WAIKE_STORAGE_BLOCKED_BEFORE_QEMU": false,
+    "surrogates_rejected": true
+  },
+  "authority": {
+    "portal_pr_14": "Device Lab / Software Pilot release-control authority",
+    "portal_pr_15": "Broader ecosystem portfolio draft; consumes #14; cannot override #14",
+    "merge_authority": "Edmund Gunn Jr.",
+    "cursor_never_merges": true
+  }
 }

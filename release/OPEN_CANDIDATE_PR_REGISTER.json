@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.release.open_candidate_pr_register.v1",
-  "generated_at_utc": "2026-09-08T04:10:00Z",
+  "generated_at_utc": "2026-09-15T18:02:49Z",
   "policy": "Open/draft PRs are candidate evidence only and do not count as accepted main until owner merge.",
   "waike_learning_platform_note": {
     "pr_3": {
@@ -310,5 +310,7 @@
       "note": "Local provenance cites PHYSICALLY_TESTED_RUNTIME_SHA 780818a1... not accepted main b537c7bb. Pixel currently unauthorized."
     }
   ],
-  "gh_api_note": "gh auth token invalid this session; PR open/merged states for WAIKE #5/#6/#7 verified via git merge history on origin/main. Other open-PR rows retained from prior freeze with classification refresh; re-verify with gh when auth restored."
+  "gh_api_note": "gh auth token invalid this session; PR open/merged states for WAIKE #5/#6/#7 verified via git merge history on origin/main. Other open-PR rows retained from prior freeze with classification refresh; re-verify with gh when auth restored.",
+  "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": false,
+  "DRAFT_WAIKE_PRODUCT_PR": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/9"
 }
