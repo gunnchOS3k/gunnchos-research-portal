@@ -1,10 +1,10 @@
 {
   "schema": "gunnchos.device_lab.current_pin_master.v1",
-  "generated_at_utc": "2026-09-15T18:02:49Z",
+  "generated_at_utc": "2026-09-15T18:17:23Z",
   "work_item": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
   "branch": "cursor/device-lab-current-pin-revalidation",
   "base": "origin/main",
-  "device_os_tip": "907e5bc46fea13c96fa33e5d8a9e464dc7246e30",
+  "device_os_tip": "2115cfd8815ce9d2125cdc09b6ad6546ef67c484",
   "device_os_pr": 134,
   "device_os_pr_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
   "pin_manifest_sha256": "40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575",
@@ -46,11 +46,11 @@
     }
   },
   "exact_head_ci": {
-    "test": "SUCCESS",
-    "gate1": "SUCCESS",
-    "reality": "SUCCESS",
-    "qemu-guest-path": "SUCCESS",
-    "all_required": "SUCCESS"
+    "test": "PENDING",
+    "gate1": "PENDING",
+    "reality": "PENDING",
+    "qemu-guest-path": "PENDING",
+    "tip": "2115cfd8815ce9d2125cdc09b6ad6546ef67c484"
   },
   "ANIME_DEVICE_LAB_PASS": true,
   "PEDESTRIAN_DEVICE_LAB_PASS": true,

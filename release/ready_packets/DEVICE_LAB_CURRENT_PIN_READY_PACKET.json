@@ -1,11 +1,11 @@
 {
   "schema": "gunnchos.release.ready_packet.v1",
   "packet": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
-  "generated_at_utc": "2026-09-15T18:02:49Z",
+  "generated_at_utc": "2026-09-15T18:17:23Z",
   "status": "WAIKE_FAIL_ARCH_GAP_ECO010_DEFERRED",
-  "target_device_os_sha": "907e5bc46fea13c96fa33e5d8a9e464dc7246e30",
+  "target_device_os_sha": "2115cfd8815ce9d2125cdc09b6ad6546ef67c484",
   "candidate_pr": 134,
-  "candidate_head": "907e5bc46fea13c96fa33e5d8a9e464dc7246e30",
+  "candidate_head": "2115cfd8815ce9d2125cdc09b6ad6546ef67c484",
   "candidate_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
   "pin_manifest_sha256": "40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575",
   "why_not_full_device_lab_pass": "WAIKE honest FAIL (x86_64 CI ELF on aarch64 guest); LIVE/DSXL/RING/FOUR_GAME retained; ECO010 deferred; gunnchAI/lifecycle/independent not started; Edmund merge only",
@@ -15,10 +15,11 @@
   "DEVICE_LAB_CANDIDATE_REMOTE_CI_PENDING": true,
   "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": false,
   "exact_head_ci": {
-    "test": "SUCCESS",
-    "gate1": "SUCCESS",
-    "reality": "SUCCESS",
-    "qemu-guest-path": "SUCCESS"
+    "test": "PENDING",
+    "gate1": "PENDING",
+    "reality": "PENDING",
+    "qemu-guest-path": "PENDING",
+    "tip": "2115cfd8815ce9d2125cdc09b6ad6546ef67c484"
   },
   "gates": {
     "LIVE_GUNNCHOS_VISUAL_PASS": true,

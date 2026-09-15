@@ -5,7 +5,7 @@
 **Portal #15:** broader ecosystem portfolio draft that **consumes #14 and cannot override it**. Do not merge #14 or #15 from Cursor.
 
 ### Snapshot (2026-09-15T18:02:49Z)
-- Device OS candidate: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `907e5bc46fea13c96fa33e5d8a9e464dc7246e30` — unmerged DRAFT/evidence branch.
+- Device OS candidate: [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) head `2115cfd8815ce9d2125cdc09b6ad6546ef67c484` — unmerged DRAFT/evidence branch.
 - Pin manifest SHA-256: `40f7c8c3d7c77b1af06f4778f7d1ffd50735cb54b30ba9acb3dcbc5b824f5575`
 - WAIKE Learning Platform accepted-main: `8610018a62e07548405a58384773d96a7be7950b` (unchanged; not advanced by Cursor)
 - WAIKE curriculum/ops pin: `fbf7685bc5686201ccaa0128ee83346d59b3d584`
