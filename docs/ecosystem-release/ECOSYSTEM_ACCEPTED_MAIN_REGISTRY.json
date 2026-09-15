@@ -1,0 +1,458 @@
+{
+  "schema": "gunnchos.ecosystem.accepted_main_registry.v1",
+  "prompt": "18",
+  "generated_at_utc": "2026-09-15T04:52:44Z",
+  "control_plane_repo": "gunnchos-research-portal",
+  "org": "gunnchOS3k",
+  "org_repo_list_status": "PARTIAL \u2014 gh org list API returned 404/Forbidden this session; registry built from local workspace remotes + per-repo gh pr list + REPO_CATALOG.yaml",
+  "device_lab_pin_manifest": "release/DEVICE_LAB_CURRENT_PIN_MANIFEST.json",
+  "device_lab_pin_master": "release/DEVICE_LAB_CURRENT_PIN_MASTER.json",
+  "device_lab_firewall": {
+    "ACTIVE_DEVICE_LAB_PIN_SET_PRESERVED": true,
+    "primary_blocker": "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS",
+    "do_not_merge_or_edit_runtime_paths": [
+      "anime-aggressors",
+      "pedestrian-pursuit",
+      "archive-of-life-artifact-world",
+      "beatlink-party",
+      "gunnchos-device-os Device Lab current-pin PR #134 worktree paths"
+    ],
+    "prompt_17f_separation": true
+  },
+  "evidence_classes_allowed": [
+    "ACCEPTED_MAIN_DIGITAL_PASS",
+    "DRAFT_DIGITAL_CANDIDATE",
+    "DIGITAL_BLOCKED",
+    "HUMAN_VALIDATION_PENDING",
+    "PHYSICAL_VALIDATION_PENDING",
+    "VENDOR_EXTERNAL_PENDING",
+    "REGULATORY_PENDING",
+    "RIGHTS_PENDING",
+    "NOT_APPLICABLE"
+  ],
+  "repos": [
+    {
+      "repo": "gunnchos-research-portal",
+      "purpose": "Canonical ecosystem IA + release control plane",
+      "product_area": "Research/7GC control",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "last_credible_acceptance": "origin/main CI success; STREAM P1 freeze on draft PR #14",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "main CI success",
+      "origin_main_sha": "eef765bdb6156a59a2aef556292cdf1e9e16efb6",
+      "origin_main_sha12": "eef765bdb615",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchos-7gc-ai-ran-field-kit",
+      "purpose": "Program charter + evidence aggregation",
+      "product_area": "Research/7GC",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "last_credible_acceptance": "wave014 accepted-main closeout on main",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "main present",
+      "origin_main_sha": "9e93e41a3b16b009c9cc5163b775360d4d2ef693",
+      "origin_main_sha12": "9e93e41a3b16",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchos-device-os",
+      "purpose": "gunnchOS + Device Lab + middleware host",
+      "product_area": "OS/middleware",
+      "evidence_class": "DIGITAL_BLOCKED",
+      "last_credible_acceptance": "Windows Pilot0 ACCEPTED_MAIN_PASS=true; Device Lab current-pin NOT PASS (PR #134 draft)",
+      "gates": {
+        "human": true,
+        "physical": true,
+        "external": false
+      },
+      "ci_note": "main Learning OS / continuity workflows success; #134 exact-head CI green but unmerged",
+      "origin_main_sha": "898e44cfa8b7574c0de7b8312b0996816799eca4",
+      "origin_main_sha12": "898e44cfa8b7",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchos-hardware-industrial-design",
+      "purpose": "Device Quartet industrial/electrical SoT",
+      "product_area": "Hardware",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "last_credible_acceptance": "Digital EVT packets on main; EVT_PHYSICAL_PASS=false",
+      "gates": {
+        "human": true,
+        "physical": true,
+        "external": true
+      },
+      "ci_note": "no open PRs",
+      "origin_main_sha": "9ee0ef2f688b2c18428bfabc316b23687a02988d",
+      "origin_main_sha12": "9ee0ef2f688b",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "edge-io-measurement-node",
+      "purpose": "Ring sensing/measurement + privacy export",
+      "product_area": "Edge IO/Rings",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "last_credible_acceptance": "FIRMWARE_DIGITAL_BUILD_PASS=true for rings; synthetic privacy on main; physical EVT open",
+      "gates": {
+        "human": true,
+        "physical": true,
+        "external": false
+      },
+      "ci_note": "main CI success",
+      "origin_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "origin_main_sha12": "af57fbdac857",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchAI3k",
+      "purpose": "Local-first AI tutor / assist",
+      "product_area": "AI",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "last_credible_acceptance": "Wave003 digital eval on main; HUMAN_E6=false",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "Stage2 success; some market-packet workflows failure (non-pilot gate)",
+      "origin_main_sha": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+      "origin_main_sha12": "65b799e21dc1",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "waike-research-ops",
+      "purpose": "WAIKE curriculum/research ops",
+      "product_area": "WAIKE curriculum",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "last_credible_acceptance": "COURSE_DIGITAL_RC / Gate D taxonomy pin on main",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": true
+      },
+      "ci_note": "open PhD docs PR #41",
+      "origin_main_sha": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+      "origin_main_sha12": "fbf7685bc568",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchos-waike-learning-platform",
+      "purpose": "Native WAIKE learning platform",
+      "product_area": "Native learning platform",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "last_credible_acceptance": "Gates B/C/D merged; staff-alpha human PENDING",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": true
+      },
+      "ci_note": "Gate D/C/Windows Pilot0 success on main",
+      "origin_main_sha": "8610018a62e07548405a58384773d96a7be7950b",
+      "origin_main_sha12": "8610018a62e0",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "anime-aggressors",
+      "purpose": "Anime Aggressors game",
+      "product_area": "Games",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "last_credible_acceptance": "Windows Pilot0 digital candidate observed; Pixel PENDING_DEVICE; Four-Game Device Lab FAIL/open under 17F",
+      "gates": {
+        "human": true,
+        "physical": true,
+        "external": false
+      },
+      "ci_note": "Device Lab pin frozen",
+      "origin_main_sha": "258cc0c45991ac9dded0c3d7813894d9fd7ca56d",
+      "origin_main_sha12": "258cc0c45991",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "pedestrian-pursuit",
+      "purpose": "Pedestrian Pursuit game",
+      "product_area": "Games",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "last_credible_acceptance": "Windows Pilot0 digital candidate observed; Device Lab Four-Game open",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "Device Lab pin frozen",
+      "origin_main_sha": "ba698e929b573096ef50e0699990f3f0c6d571b6",
+      "origin_main_sha12": "ba698e929b57",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "archive-of-life-artifact-world",
+      "purpose": "Archive of Life game",
+      "product_area": "Games",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "last_credible_acceptance": "Windows Pilot0 soak observed green historically; Device Lab Four-Game open",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "Device Lab pin frozen",
+      "origin_main_sha": "8611d2e30315792c38d7d5062e108b8bb87df2c2",
+      "origin_main_sha12": "8611d2e30315",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "beatlink-party",
+      "purpose": "BeatLink Party game",
+      "product_area": "Games",
+      "evidence_class": "RIGHTS_PENDING",
+      "last_credible_acceptance": "Pixel smoke retained; commercial rights + multiplayer human pending",
+      "gates": {
+        "human": true,
+        "physical": false,
+        "external": true
+      },
+      "ci_note": "Device Lab pin frozen",
+      "origin_main_sha": "06b4a6f74159ee933984be913e269eab64246efb",
+      "origin_main_sha12": "06b4a6f74159",
+      "device_lab_pinned": true,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "7gc-digital-twin",
+      "purpose": "7GC campus digital twin research",
+      "product_area": "Research/7GC",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "last_credible_acceptance": "digital twin sims on main (synthetic)",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "open PhD/docs drafts",
+      "origin_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+      "origin_main_sha12": "dc43a567e3f2",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "spectrumx-ai-ran-gary",
+      "purpose": "AI-RAN equitable spectrum research",
+      "product_area": "Research/7GC",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "last_credible_acceptance": "research digital results on main",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "open research drafts",
+      "origin_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
+      "origin_main_sha12": "9060655e7243",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "readygary-6g-beam-selection",
+      "purpose": "6G beam selection research",
+      "product_area": "Research/7GC",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "last_credible_acceptance": "benchmark tables on main (research)",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "open research drafts",
+      "origin_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+      "origin_main_sha12": "569875224db7",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "ntn-resilience-sim",
+      "purpose": "NTN resilience simulation",
+      "product_area": "Research/7GC",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "last_credible_acceptance": "simulation digital pass; not RM520 physical",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "open docs drafts",
+      "origin_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
+      "origin_main_sha12": "c4215fc1039f",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchos-gpu-nr-baseband-platform",
+      "purpose": "GPU NR baseband research platform",
+      "product_area": "Research/7GC",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "last_credible_acceptance": "local main present; limited release gating role",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "no open PRs",
+      "origin_main_sha": "3931f51d43b7bee87db6d710a9df5a7c1136fcfa",
+      "origin_main_sha12": "3931f51d43b7",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "gunnchos-emergent-service-intent-protocols",
+      "purpose": "Emergent service-intent protocol research",
+      "product_area": "Middleware/research",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "last_credible_acceptance": "local main present",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "no open PRs",
+      "origin_main_sha": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+      "origin_main_sha12": "088c5e88e155",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0
+    },
+    {
+      "repo": "oulu-6g-security-trust-privacy-lab",
+      "purpose": "6G security/trust/privacy lab (Oulu)",
+      "product_area": "Security/privacy research",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "last_credible_acceptance": "local clone present",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "org API list unavailable this session",
+      "local_checkout_name": "gunnchos-6g-security-trust-privacy-lab",
+      "origin_main_sha": "d276579333a8254c7424e8df50c8824b200bc122",
+      "origin_main_sha12": "d276579333a8",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0,
+      "discovery_note": "Discovered via local workspace remotes; not in Prompt 18 minimum list but live under gunnchOS3k org naming"
+    },
+    {
+      "repo": "oulu-wce-readiness-dashboard",
+      "purpose": "WCE readiness dashboard",
+      "product_area": "Research tooling",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "last_credible_acceptance": "local clone present",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "org API list unavailable this session",
+      "local_checkout_name": "gunnchos-wireless-engineering-readiness-dashboard",
+      "origin_main_sha": "eb09ebeb955f9d7ba4c4cf2b5c08f2162fa1bcf0",
+      "origin_main_sha12": "eb09ebeb955f",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0,
+      "discovery_note": "Discovered via local workspace remotes; not in Prompt 18 minimum list but live under gunnchOS3k org naming"
+    },
+    {
+      "repo": "oulu-open-ran-testbed-lab",
+      "purpose": "Open RAN testbed lab",
+      "product_area": "Research/7GC",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "last_credible_acceptance": "local clone present",
+      "gates": {
+        "human": false,
+        "physical": false,
+        "external": false
+      },
+      "ci_note": "org API list unavailable this session",
+      "local_checkout_name": "gunnchos-open-ran-testbed-lab",
+      "origin_main_sha": "c86f3e497506b4e8bcd0aaed91623830af163c85",
+      "origin_main_sha12": "c86f3e497506",
+      "device_lab_pinned": false,
+      "open_prs": [],
+      "open_pr_count": 0,
+      "draft_pr_count": 0,
+      "discovery_note": "Discovered via local workspace remotes; not in Prompt 18 minimum list but live under gunnchOS3k org naming"
+    }
+  ],
+  "books_discovery": {
+    "dedicated_guidebook_repo_found": false,
+    "consumer_book_reader_preview_repo_found": false,
+    "related": [
+      {
+        "artifact": "gunnchos-research-portal/docs/phd/PUBLICATION_PIPELINE.md",
+        "kind": "PhD conference manuscript pipeline",
+        "evidence_class": "NOT_APPLICABLE",
+        "note": "Research publications, not consumer guidebook SKU"
+      },
+      {
+        "artifact": "gunnchos-research-portal/research_manuscripts/",
+        "kind": "manuscript indexes",
+        "evidence_class": "NOT_APPLICABLE"
+      }
+    ],
+    "evidence_class": "NOT_APPLICABLE"
+  }
+}

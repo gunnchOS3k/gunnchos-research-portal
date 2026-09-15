@@ -1,0 +1,129 @@
+{
+  "schema": "gunnchos.ecosystem.sku_release_matrix.v1",
+  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "policy": [
+    "Physical must not falsely block commodity-hardware software pilots",
+    "Digital PASS \u2260 production readiness",
+    "Simulation \u2260 physical PASS",
+    "Build \u2260 UX approval"
+  ],
+  "surfaces": [
+    {
+      "surface": "Windows Software Pilot",
+      "sku": "software_pilot_windows",
+      "version": "Pilot-0",
+      "platform": "Windows",
+      "market": "internal_adult",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "notes": "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS=true; not RC Software Pilot ready"
+    },
+    {
+      "surface": "gunnchOS Interactive Guest",
+      "sku": "gunnchos_interactive_guest",
+      "version": "current-pin-candidate",
+      "platform": "gunnchOS_emulation",
+      "market": "internal",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "notes": "LIVE/DSXL/Ring PASS on device-os #134 draft; DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false"
+    },
+    {
+      "surface": "Student pre-EVT",
+      "sku": "student_14_5",
+      "version": "pre-EVT",
+      "platform": "target_hardware",
+      "market": "education",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "notes": "Digital EVT packet ready; firmware digital FAIL; NDA"
+    },
+    {
+      "surface": "Handheld pre-EVT",
+      "sku": "handheld_hybrid",
+      "version": "pre-EVT",
+      "platform": "target_hardware",
+      "market": "consumer",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "notes": "Digital packet ready; firmware digital FAIL"
+    },
+    {
+      "surface": "DS-XL pre-EVT",
+      "sku": "ds_xl_coder",
+      "version": "pre-EVT",
+      "platform": "target_hardware",
+      "market": "creator",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "notes": "DSXL compositor UX digital PASS in lab candidate \u2260 physical EVT"
+    },
+    {
+      "surface": "Ring functional EVT",
+      "sku": "edge_io_rings",
+      "version": "EVT",
+      "platform": "target_hardware",
+      "market": "input",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "notes": "FIRMWARE_DIGITAL_BUILD_PASS=true; EVT_PHYSICAL_PASS=false"
+    },
+    {
+      "surface": "WAIKE staff alpha",
+      "sku": "waike_staff_alpha",
+      "version": "alpha",
+      "platform": "desktop/web",
+      "market": "education_staff",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "notes": "Digital baseline Gate D on main; human pending"
+    },
+    {
+      "surface": "WAIKE learner/instructor alpha",
+      "sku": "waike_learner_instructor_alpha",
+      "version": "alpha",
+      "platform": "desktop/web",
+      "market": "education",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "notes": "No K-12 classroom claim"
+    },
+    {
+      "surface": "gunnchAI internal alpha",
+      "sku": "gunnchai_internal_alpha",
+      "version": "alpha",
+      "platform": "desktop/cli",
+      "market": "internal",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "notes": "Digital green; HUMAN_E6 false"
+    },
+    {
+      "surface": "game desktop/Windows RC",
+      "sku": "games_windows_rc",
+      "version": "RC-candidate",
+      "platform": "Windows",
+      "market": "internal",
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
+      "notes": "Pilot0 digital candidates; Device Lab Four-Game still open"
+    },
+    {
+      "surface": "game Android/Pixel candidate",
+      "sku": "games_android_pixel",
+      "version": "candidate",
+      "platform": "Android_Pixel",
+      "market": "internal",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "notes": "Anime PENDING_DEVICE; BeatLink smoke retained"
+    },
+    {
+      "surface": "book reader-preview candidate",
+      "sku": "book_reader_preview",
+      "version": "n/a",
+      "platform": "n/a",
+      "market": "n/a",
+      "evidence_class": "NOT_APPLICABLE",
+      "notes": "No guidebook/reader product repo discovered"
+    },
+    {
+      "surface": "creation/developer workflow alpha",
+      "sku": "creation_dev_workflow",
+      "version": "alpha",
+      "platform": "gunnchOS_emulation/desktop",
+      "market": "creator",
+      "evidence_class": "DIGITAL_BLOCKED",
+      "notes": "Creator journeys exist; current-pin E2E not closed"
+    }
+  ]
+}

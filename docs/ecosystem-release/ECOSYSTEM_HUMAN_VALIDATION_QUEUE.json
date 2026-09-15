@@ -1,0 +1,94 @@
+{
+  "schema": "gunnchos.ecosystem.human_validation_queue.v1",
+  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "policy": "Protocols only \u2014 no fabricated results",
+  "items": [
+    {
+      "id": "HV-GUNNCHAI-E6",
+      "title": "gunnchAI HUMAN_E6 evaluation",
+      "participants": "Adult internal evaluators (STEM students/staff)",
+      "protocol": "docs/ecosystem-release/protocols/GUNNCHAI_HUMAN_EVAL_PROTOCOL.md",
+      "result_schema": "docs/ecosystem-release/protocols/GUNNCHAI_HUMAN_EVAL_RESULT.schema.json",
+      "repos": [
+        "gunnchAI3k"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "Child participant attempted",
+        "Cheating assistance request without integrity mode",
+        "Safety filter bypass attempt"
+      ]
+    },
+    {
+      "id": "HV-WAIKE-STAFF",
+      "title": "WAIKE staff alpha",
+      "participants": "Adult staff only",
+      "protocol": "docs/ecosystem-release/protocols/WAIKE_STAFF_ALPHA_PROTOCOL.md",
+      "repos": [
+        "gunnchos-waike-learning-platform",
+        "waike-research-ops"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "K-12 classroom use claimed",
+        "PII retention beyond retention policy"
+      ]
+    },
+    {
+      "id": "HV-WAIKE-LEARNER",
+      "title": "WAIKE learner/instructor alpha",
+      "participants": "Adult learners + instructors",
+      "protocol": "docs/ecosystem-release/protocols/WAIKE_LEARNER_INSTRUCTOR_ALPHA_PROTOCOL.md",
+      "repos": [
+        "gunnchos-waike-learning-platform"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "Under-18 without IRB/consent path"
+      ]
+    },
+    {
+      "id": "HV-GAMES-PLAYTEST",
+      "title": "Four-game desktop playtest",
+      "participants": "Adult playtesters",
+      "protocol": "docs/ecosystem-release/protocols/GAMES_DESKTOP_PLAYTEST_PROTOCOL.md",
+      "repos": [
+        "anime-aggressors",
+        "pedestrian-pursuit",
+        "archive-of-life-artifact-world",
+        "beatlink-party"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "Pin SHA mismatch vs Device Lab manifest",
+        "Rights-unsafe BeatLink catalog content"
+      ]
+    },
+    {
+      "id": "HV-CREATOR-ALPHA",
+      "title": "Creation workflow alpha",
+      "participants": "Internal creators/developers",
+      "protocol": "docs/ecosystem-release/protocols/CREATION_WORKFLOW_ALPHA_PROTOCOL.md",
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "Claims silicon-exact emulation"
+      ]
+    },
+    {
+      "id": "HV-GUEST-UX",
+      "title": "Interactive guest UX soak",
+      "participants": "Edmund + designated operators",
+      "protocol": "docs/ecosystem-release/protocols/INTERACTIVE_GUEST_UX_PROTOCOL.md",
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "stop_conditions": [
+        "Running against wrong pin SHA"
+      ]
+    }
+  ]
+}

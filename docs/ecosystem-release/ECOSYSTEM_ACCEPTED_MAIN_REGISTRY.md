@@ -1,0 +1,52 @@
+# ECOSYSTEM_ACCEPTED_MAIN_REGISTRY
+
+Generated: `2026-09-15T04:52:44Z`  
+Prompt: **18** — gunnchOS3k Ecosystem Release Control Tower  
+Org: `gunnchOS3k`  
+Control plane: `gunnchos-research-portal`  
+Machine-readable: [`ECOSYSTEM_ACCEPTED_MAIN_REGISTRY.json`](./ECOSYSTEM_ACCEPTED_MAIN_REGISTRY.json)
+
+## Discovery notes
+- Built from **local workspace remotes** + per-repo `gh pr list` + existing `REPO_CATALOG.yaml` / `release/` pins.
+- `gh` org-wide repo list returned **404/Forbidden** this session (token/org visibility). Registry is **live for discovered remotes**, not a claim of complete private org inventory.
+- Books/guidebook consumer product repo: **not found** → `NOT_APPLICABLE`.
+- Native learning platform repo: **`gunnchos-waike-learning-platform`** (confirmed via remote).
+
+## Device Lab pin firewall
+- Manifest: `release/DEVICE_LAB_CURRENT_PIN_MANIFEST.json`
+- Master: `release/DEVICE_LAB_CURRENT_PIN_MASTER.json` (as of 2026-09-10): `FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false`
+- Prompt 18 **does not** edit Four-Game / Device Lab current-pin runtime paths (Prompt 17F separation).
+
+## Registry
+
+| Repo | Purpose | origin/main | Open PRs | Evidence class | Pinned | Product area |
+| --- | --- | --- | --- | --- | --- | --- |
+| `gunnchos-research-portal` | Canonical ecosystem IA + release control plane | `eef765bdb615` | 0 | DRAFT_DIGITAL_CANDIDATE | yes | Research/7GC control |
+| `gunnchos-7gc-ai-ran-field-kit` | Program charter + evidence aggregation | `9e93e41a3b16` | 0 | ACCEPTED_MAIN_DIGITAL_PASS | yes | Research/7GC |
+| `gunnchos-device-os` | gunnchOS + Device Lab + middleware host | `898e44cfa8b7` | 0 | DIGITAL_BLOCKED | yes | OS/middleware |
+| `gunnchos-hardware-industrial-design` | Device Quartet industrial/electrical SoT | `9ee0ef2f688b` | 0 | PHYSICAL_VALIDATION_PENDING | yes | Hardware |
+| `edge-io-measurement-node` | Ring sensing/measurement + privacy export | `af57fbdac857` | 0 | PHYSICAL_VALIDATION_PENDING | yes | Edge IO/Rings |
+| `gunnchAI3k` | Local-first AI tutor / assist | `65b799e21dc1` | 0 | HUMAN_VALIDATION_PENDING | yes | AI |
+| `waike-research-ops` | WAIKE curriculum/research ops | `fbf7685bc568` | 0 | HUMAN_VALIDATION_PENDING | yes | WAIKE curriculum |
+| `gunnchos-waike-learning-platform` | Native WAIKE learning platform | `8610018a62e0` | 0 | HUMAN_VALIDATION_PENDING | yes | Native learning platform |
+| `anime-aggressors` | Anime Aggressors game | `258cc0c45991` | 0 | PHYSICAL_VALIDATION_PENDING | yes | Games |
+| `pedestrian-pursuit` | Pedestrian Pursuit game | `ba698e929b57` | 0 | HUMAN_VALIDATION_PENDING | yes | Games |
+| `archive-of-life-artifact-world` | Archive of Life game | `8611d2e30315` | 0 | HUMAN_VALIDATION_PENDING | yes | Games |
+| `beatlink-party` | BeatLink Party game | `06b4a6f74159` | 0 | RIGHTS_PENDING | yes | Games |
+| `7gc-digital-twin` | 7GC campus digital twin research | `dc43a567e3f2` | 0 | ACCEPTED_MAIN_DIGITAL_PASS | no | Research/7GC |
+| `spectrumx-ai-ran-gary` | AI-RAN equitable spectrum research | `9060655e7243` | 0 | ACCEPTED_MAIN_DIGITAL_PASS | no | Research/7GC |
+| `readygary-6g-beam-selection` | 6G beam selection research | `569875224db7` | 0 | ACCEPTED_MAIN_DIGITAL_PASS | no | Research/7GC |
+| `ntn-resilience-sim` | NTN resilience simulation | `c4215fc1039f` | 0 | ACCEPTED_MAIN_DIGITAL_PASS | no | Research/7GC |
+| `gunnchos-gpu-nr-baseband-platform` | GPU NR baseband research platform | `3931f51d43b7` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Research/7GC |
+| `gunnchos-emergent-service-intent-protocols` | Emergent service-intent protocol research | `088c5e88e155` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Middleware/research |
+| `oulu-6g-security-trust-privacy-lab` | 6G security/trust/privacy lab (Oulu) | `d276579333a8` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Security/privacy research |
+| `oulu-wce-readiness-dashboard` | WCE readiness dashboard | `eb09ebeb955f` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Research tooling |
+| `oulu-open-ran-testbed-lab` | Open RAN testbed lab | `c86f3e497506` | 0 | DRAFT_DIGITAL_CANDIDATE | no | Research/7GC |
+
+## Books discovery
+- Dedicated guidebook / reader-preview repo: **none discovered**
+- Related only: PhD `docs/phd/PUBLICATION_PIPELINE.md` (research manuscripts ≠ consumer book SKU)
+
+## Non-claims
+- Never equate simulation with physical PASS.
+- Never print `FULL_ECOSYSTEM_COMPLETE=true` from this registry alone.
