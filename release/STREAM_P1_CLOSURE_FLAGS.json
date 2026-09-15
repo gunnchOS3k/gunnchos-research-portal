@@ -1,76 +1,26 @@
 {
-  "schema": "gunnchos.release.stream_p1_closure_report.v1",
-  "generated_at_utc": "2026-09-15T20:04:37Z",
-  "decisions": {
-    "RC_SOFTWARE_PILOT": "RC_SOFTWARE_PILOT_NOT_READY",
-    "RC_HARDWARE_EVT": "HARDWARE_EVT_NOT_READY",
-    "PRODUCTION_RELEASE": "PRODUCTION_RELEASE_BLOCKED_EXTERNAL"
-  },
-  "verdicts": {
-    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
-    "HARDWARE_EVT_READY_TO_EXECUTE": false,
-    "PRODUCTION_RELEASE_READY_FOR_OWNER": false
-  },
-  "flags": {
-    "ACCEPTED_MAIN_RE_FROZEN": true,
-    "WAIKE_GATE_D_ON_MAIN": true,
-    "WAIKE_PR5_NO_LONGER_SOFTWARE_BLOCKER": true,
-    "DIGITAL_EVIDENCE_NOT_PHYSICAL": true,
-    "HUMAN_EVIDENCE_NOT_INFERRED": true,
-    "RIGHTS_NOT_INFERRED": true,
-    "CERTIFICATION_NOT_SELF_DECLARED": true,
-    "CARRIER_ACCEPTANCE_NOT_INFERRED": true,
-    "WINDOWS_AUTHENTIC_EVIDENCE": true,
-    "WINDOWS_PILOT0_CANDIDATES_REGISTERED": true,
-    "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
-    "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
-    "WINDOWS_PILOT0_ACCEPTED_MAIN_REVALIDATION_PASS": true,
-    "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
-    "DEVICE_LAB_CURRENT_PIN_REVALIDATED": true,
-    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
-    "DEVICE_LAB_HOST_RESOURCE_BLOCKED": false,
-    "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
-    "BEATLINK_RIGHTS_SAFE_PILOT_READY": true,
-    "BEATLINK_RIGHTS_SAFE_PILOT_PASS": false,
-    "CURSOR_MERGED_NOTHING": true,
-    "FULL_ECOSYSTEM_COMPLETE": false,
-    "PRODUCTION_RELEASE_READY_FOR_OWNER": false,
-    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
-    "HARDWARE_EVT_READY_TO_EXECUTE": false
-  },
-  "device_lab_candidate": {
-    "repo": "gunnchos-device-os",
-    "pr": 134,
-    "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
-    "head": "008cd4c925f082cc527c06a9ae87918aa0f6bf19",
-    "draft": true,
-    "remote_ci": "PENDING_EXACT_HEAD"
-  },
-  "primary_device_lab_blocker": "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS",
-  "host_free_gib": 26.0,
-  "software_pilot_blockers": [
-    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false (glibc 2.39 vs Debian 12 guest)",
-    "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS=false",
-    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=false",
-    "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS=false",
-    "ECO010_SOAK_PASS=false (deferred)",
-    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false"
-  ],
-  "device_os_candidate": {
-    "pr": 134,
-    "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/134",
-    "head": "825653715747cb0397c84f05d8f71fe6e7b748f1",
-    "exact_head_ci": {
-      "test": "SUCCESS",
-      "gate1": "SUCCESS",
-      "reality": "SUCCESS",
-      "qemu-guest-path": "SUCCESS"
-    },
-    "merged": false
-  },
-  "device_lab_notes": [
-    "17E: RING_TO_REAL_APP_STATE_MUTATION_PASS=true (LO+browser+game twice; Cycle A/B)",
-    "LIVE/DSXL true; ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true (not run)",
-    "Exact-head CI green on #134 825653715747cb0397c84f05d8f71fe6e7b748f1"
-  ]
+  "schema": "gunnchos.stream_p1.closure_flags.v1",
+  "generated_at_utc": "2026-09-15T23:26:32Z",
+  "prompt": "17G.4",
+  "device_os_pr": 134,
+  "portal_pr": 14,
+  "pin_manifest_sha256": "a5a252ad7790c7f45eb1838a8dc26a2b407c1d75d830961d6dd62813bfadcb3b",
+  "waike_accepted_main": "b1c3ab5d4faa4d2613569e474013ccf0976d346e",
+  "LIVE_GUNNCHOS_VISUAL_PASS": true,
+  "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
+  "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
+  "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+  "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": false,
+  "RUNTIME_TARGET_PREFLIGHT_PASS": true,
+  "glibc_gap_closed": true,
+  "authentic_ipc_ack": true,
+  "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": false,
+  "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": false,
+  "ECO010_SOAK_PASS": false,
+  "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": false,
+  "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
+  "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": false,
+  "primary_blocker": "native_aarch64_glibc236_headless_launch_ack_only_learner_journey_depth_not_earned;need_gui_or_product_journey_surface_for_course_assessment_offline_recovery",
+  "next_gate": "GUNNCHAI_DEVICE_LAB_INTEGRATION_BLOCKED_UNTIL_WAIKE_TRUE",
+  "note": "WAIKE glibc236 pin re-freeze complete; runtime re-earn FAIL on headless journey depth."
 }
