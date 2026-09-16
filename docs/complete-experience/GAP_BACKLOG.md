@@ -39,3 +39,8 @@ CX-P2-001…005 — notes/tasks/whiteboard, scanners, Android lane, gamepad/BT, 
 ## P3 — ENHANCEMENT
 
 CX-P3-001…003 — nearby share polish, community hub marketplace, repair scheduling.
+
+
+## CX2 movement
+
+See `GAP_BACKLOG.json` `cx2_note` fields. CX1 overstatements corrected via Device OS `CX1_RECLASSIFICATION.json`. Complete Experience remains incomplete.

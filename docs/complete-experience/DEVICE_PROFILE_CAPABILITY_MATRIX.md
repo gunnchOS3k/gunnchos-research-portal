@@ -21,3 +21,8 @@ PHYSICAL/HUMAN pending remain explicit. Device Lab gate evidence is **not** muta
 Machine-readable peer: Device OS `artifacts/complete_experience/cx1/DEVICE_PROFILE_MATRIX.json`.
 
 Legend: `—` = not primary for profile. `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`.
+
+
+## CX2 product vs provider (separate booleans)
+
+See Device OS `artifacts/complete_experience/cx2/DEVICE_PROFILE_MATRIX.json` and `PRODUCT_PROVIDER_MATRIX.json`. Profiles: student_14_5, handheld_hybrid, ds_xl, docked, ci_qemu. Edge IO/Rings = accessory not desktop. `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`.

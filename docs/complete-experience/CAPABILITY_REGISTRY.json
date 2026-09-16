@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.complete_experience.capability_registry.v1",
   "version": "1.0.0",
-  "generated_at_utc": "2026-09-16T02:05:47Z",
+  "generated_at_utc": "2026-09-16T02:36:52Z",
   "authority": {
     "name": "Complete Experience Capability Registry",
     "scope": "portfolio-level Complete Experience ownership and coverage truth",
@@ -720,5 +720,24 @@
     "device_os_branch": "eng/cx1-ordinary-user-foundations",
     "evidence_root": "gunnchos-device-os/artifacts/complete_experience/cx1/",
     "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
+  },
+  "cx2": {
+    "status": "DRAFT_IN_PROGRESS",
+    "surfaces": [
+      "Home",
+      "Vault",
+      "AppCenter",
+      "Connect",
+      "Assist",
+      "Care"
+    ],
+    "device_os_prs": {
+      "CX2A": 137,
+      "CX2B": 138,
+      "CX2C": 139
+    },
+    "evidence_root": "artifacts/complete_experience/cx2/",
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "cx1_reclassification": "gunnchos-device-os:artifacts/complete_experience/cx2/CX1_RECLASSIFICATION.json"
   }
 }

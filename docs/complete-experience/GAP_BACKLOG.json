@@ -18,7 +18,9 @@
       "evidence": [
         "gunnchos-device-os:artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
         "gunnchos-device-os:tests/cx1/test_cx1_foundations.py"
-      ]
+      ],
+      "cx2_note": "CX2 ProductShell first-run + restart-home GUI surface; identity still HARNESS/CONTRACT at session layer",
+      "cx1_overstatement_correction": "CX1 DIGITAL_PASS downgraded to HARNESS_PASS where fixture/marker based; see Device OS CX1_RECLASSIFICATION.json"
     },
     {
       "id": "CX-P0-002",
@@ -31,7 +33,9 @@
       "evidence": [
         "gunnchos-device-os:artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
         "gunnchos-device-os:tests/cx1/test_cx1_foundations.py"
-      ]
+      ],
+      "cx2_note": "CX2 Vault GUI surface over CX1 Vault; backup/restore journey J7 REAL_PROVIDER_CLI_PASS",
+      "cx1_overstatement_correction": "CX1 DIGITAL_PASS downgraded to HARNESS_PASS where fixture/marker based; see Device OS CX1_RECLASSIFICATION.json"
     },
     {
       "id": "CX-P0-003",
@@ -44,7 +48,9 @@
       "evidence": [
         "gunnchos-device-os:artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
         "gunnchos-device-os:tests/cx1/test_cx1_foundations.py"
-      ]
+      ],
+      "cx2_note": "CX2 App Center real local package repo deploy+PID launch; Flatpak still EXTERNAL when absent; portals NOT_APPLICABLE on macOS",
+      "cx1_overstatement_correction": "CX1 DIGITAL_PASS downgraded to HARNESS_PASS where fixture/marker based; see Device OS CX1_RECLASSIFICATION.json"
     },
     {
       "id": "CX-P0-004",
@@ -57,7 +63,9 @@
       "evidence": [
         "gunnchos-device-os:artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
         "gunnchos-device-os:tests/cx1/test_cx1_foundations.py"
-      ]
+      ],
+      "cx2_note": "CX2 Chrome REAL_PROVIDER_CLI_PASS; GUI download/chooser HUMAN_VALIDATION_PENDING; not standardized",
+      "cx1_overstatement_correction": "CX1 DIGITAL_PASS downgraded to HARNESS_PASS where fixture/marker based; see Device OS CX1_RECLASSIFICATION.json"
     },
     {
       "id": "CX-P0-005",
@@ -70,7 +78,9 @@
       "evidence": [
         "gunnchos-device-os:artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
         "gunnchos-device-os:tests/cx1/test_cx1_foundations.py"
-      ]
+      ],
+      "cx2_note": "CX2 LibreOffice ODF-valid create/edit/PDF REAL_PROVIDER_CLI_PASS (no byte-append)",
+      "cx1_overstatement_correction": "CX1 DIGITAL_PASS downgraded to HARNESS_PASS where fixture/marker based; see Device OS CX1_RECLASSIFICATION.json"
     },
     {
       "id": "CX-P0-006",
@@ -83,7 +93,9 @@
       "evidence": [
         "gunnchos-device-os:artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
         "gunnchos-device-os:tests/cx1/test_cx1_foundations.py"
-      ]
+      ],
+      "cx2_note": "CX2 local SMTP/IMAP + CalDAV/CardDAV REAL_PROVIDER_CLI_PASS; Thunderbird EXTERNAL when absent; no Gmail/Outlook claims",
+      "cx1_overstatement_correction": "CX1 DIGITAL_PASS downgraded to HARNESS_PASS where fixture/marker based; see Device OS CX1_RECLASSIFICATION.json"
     },
     {
       "id": "CX-P0-007",
@@ -332,5 +344,16 @@
     "p0_still_open_train": [
       "CX-P0-012"
     ]
-  }
+  },
+  "cx2": {
+    "wave": "CX2",
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "device_os_prs": [
+      137,
+      138,
+      139
+    ],
+    "evidence_root": "gunnchos-device-os:artifacts/complete_experience/cx2/"
+  },
+  "generated_at_utc": "2026-09-16T02:36:52Z"
 }

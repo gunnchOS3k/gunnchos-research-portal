@@ -32,7 +32,9 @@
         "MS Office fidelity EXTERNAL_PENDING"
       ],
       "standardized": false,
-      "cx0_status": "DIGITAL_CANDIDATE"
+      "cx0_status": "DIGITAL_CANDIDATE",
+      "cx2_status": "REAL_PROVIDER_CLI_PASS",
+      "cx1_status_corrected": "HARNESS_PASS_or_REAL_PROVIDER_CLI_PASS"
     },
     {
       "name": "Chromium/Firefox",
@@ -59,10 +61,12 @@
       ],
       "sandbox": "Flatpak/browser",
       "blockers": [
+        "GUI download/chooser HUMAN_VALIDATION_PENDING",
         "PWA lifecycle product manager ABSENT"
       ],
       "standardized": false,
-      "cx0_status": "DIGITAL_CANDIDATE"
+      "cx0_status": "DIGITAL_CANDIDATE",
+      "cx2_status": "REAL_PROVIDER_CLI_PASS"
     },
     {
       "name": "Blender",
@@ -416,7 +420,8 @@
         "not selected; Cont IX uses PWA fallback"
       ],
       "standardized": false,
-      "cx0_status": "CANDIDATE"
+      "cx0_status": "CANDIDATE",
+      "cx2_status": "EXTERNAL_PROVIDER_PENDING"
     },
     {
       "name": "Podman",
@@ -532,5 +537,20 @@
         "notes": "explicitly_not_claimed"
       }
     ]
+  },
+  "cx2": {
+    "evidence_taxonomy": [
+      "CONTRACT_PASS",
+      "HARNESS_PASS",
+      "REAL_PROVIDER_CLI_PASS",
+      "REAL_PROVIDER_GUI_PASS",
+      "REAL_USER_JOURNEY_DIGITAL_PASS",
+      "HUMAN_VALIDATION_PENDING",
+      "PHYSICAL_VALIDATION_PENDING",
+      "EXTERNAL_PROVIDER_PENDING",
+      "NOT_APPLICABLE"
+    ],
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "live_snapshot_ref": "gunnchos-device-os:docs/complete-experience/CX2_PROVIDER_QUALIFICATION_LIVE.json"
   }
 }

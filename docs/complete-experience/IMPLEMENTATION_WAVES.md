@@ -5,7 +5,7 @@
 - Optional additive foundation DRAFT PRs: Device OS providers, WAIKE standards architecture, gunnchAI broker contract
 - **No merges; do not alter #134/#14**
 
-## Wave CX1 — Ordinary-user digital foundations (THIS WAVE — in progress)
+## Wave CX1 — Ordinary-user digital foundations (complete as DRAFT stack)
 Focus P0 domains 1–8, 17–18, 21 on Device OS + portal contracts wiring.
 
 Device OS branch: `eng/cx1-ordinary-user-foundations`  
@@ -31,8 +31,23 @@ Leave Device Lab WAIKE Hub bind (P0-012) to release-train owners.
 
 `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
 
-## Wave CX2 — Comms + productivity productization
-Email/calendar native path depth, Connect chat/video, docs beyond install ledger, IPP physical print SI.
+## Wave CX2 — Real user surfaces + provider productization (THIS WAVE — DRAFT in progress)
+
+Device OS stacked DRAFT PRs #137/#138/#139 (bases CX1 → CX2A → CX2B).
+Portal branch: `docs/cx2-real-surface-productization-control`
+
+Delivered with honest classes (not inflated PASS):
+- First-party GUI surfaces in existing launcher_mock shell
+- Local package-repo App Center with real process launch evidence
+- Chrome + LibreOffice real provider CLI paths where present
+- Local SMTP/IMAP + CalDAV/CardDAV protocol stacks
+- Screenshot via OS capture when permitted; CUPS when queues exist
+- J1–J7 authentic journey runner with REAL_PROVIDER_PARTIAL / HARNESS_PASS / PENDING where earned
+- HUMAN_A11Y_PENDING + PHYSICAL_PRINTER_VALIDATION_PENDING packets
+
+Still pending: browser GUI download/chooser automation, Flatpak on non-Linux hosts, chat/video AV, xdg portals on macOS, physical print SI execution.
+
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
 
 ## Wave CX3 — Education credentials + standards adapters
 OB3/CLR/CASE/Caliper (non-certifying), portfolio SoR.

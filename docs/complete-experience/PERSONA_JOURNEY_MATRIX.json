@@ -190,5 +190,10 @@
       "remote_cloud_path_for_high_end": "declared_not_deleted",
       "acceptance_plan_path": "docs/complete-experience/personas/OFFLINE_USER_ACCEPTANCE.md"
     }
+  },
+  "cx2": {
+    "journeys_ref": "gunnchos-device-os:artifacts/complete_experience/cx2/JOURNEYS.json",
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "note": "J1\u2013J7 earned REAL_PROVIDER_* / HARNESS_PASS / PENDING only; no fabricated REAL_USER_JOURNEY_DIGITAL_PASS"
   }
 }
