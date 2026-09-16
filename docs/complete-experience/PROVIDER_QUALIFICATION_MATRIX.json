@@ -475,5 +475,62 @@
       "standardized": false,
       "cx0_status": "DIGITAL_CANDIDATE"
     }
-  ]
+  ],
+  "cx1": {
+    "updated_at_utc": "2026-09-16T02:06:32Z",
+    "notes": "CX1 qualifies local digital adapters; cloud/Gmail/Outlook not claimed",
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "entries": [
+      {
+        "provider": "local_fs_vault",
+        "status": "DIGITAL_PASS",
+        "evidence": "device-os cx1 Vault"
+      },
+      {
+        "provider": "local_backup_integrity",
+        "status": "DIGITAL_PASS",
+        "evidence": "journey_5"
+      },
+      {
+        "provider": "durable_sync_queue",
+        "status": "DIGITAL_PASS",
+        "evidence": "journey_4"
+      },
+      {
+        "provider": "flatpak",
+        "status": "DIGITAL_PARTIAL",
+        "notes": "fail_closed_when_absent"
+      },
+      {
+        "provider": "xdg_desktop_portal",
+        "status": "DIGITAL_PARTIAL",
+        "notes": "fail_closed_when_absent"
+      },
+      {
+        "provider": "libreoffice",
+        "status": "DIGITAL_PARTIAL",
+        "notes": "host_dependent_fixture_fallback"
+      },
+      {
+        "provider": "system_browser",
+        "status": "DIGITAL_PARTIAL",
+        "notes": "qualification_not_default"
+      },
+      {
+        "provider": "cups_virtual_pdf",
+        "status": "DIGITAL_PASS",
+        "notes": "physical_PHYSICAL_PENDING"
+      },
+      {
+        "provider": "thunderbird",
+        "status": "DIGITAL_PARTIAL",
+        "notes": "absent_fail_closed"
+      },
+      {
+        "provider": "gmail_outlook",
+        "status": "EXTERNAL_PROVIDER_PENDING",
+        "notes": "explicitly_not_claimed"
+      }
+    ]
+  }
 }

@@ -17,3 +17,21 @@ Full data: `PROVIDER_QUALIFICATION_MATRIX.json`.
 | FreeCAD | UNQUALIFIED | Not packaged |
 | Podman | CANDIDATE | Workstation image missing |
 | VSCodium/neovim | DIGITAL_CANDIDATE | Builder mode incomplete |
+
+
+## CX1 ordinary-user digital foundations
+
+| Provider | Status | Notes |
+|----------|--------|-------|
+| Local FS Vault | DIGITAL_PASS | Product file authority |
+| Local backup + integrity | DIGITAL_PASS | Journey 5 |
+| Durable sync queue | DIGITAL_PASS | Survives restart |
+| Flatpak | DIGITAL_PARTIAL | Fail closed when absent |
+| xdg-desktop-portal | DIGITAL_PARTIAL | Fail closed when absent |
+| LibreOffice | DIGITAL_PARTIAL | Host-dependent |
+| System browser | DIGITAL_PARTIAL | Not standardized as default |
+| CUPS virtual PDF | DIGITAL_PASS | Physical print PHYSICAL_PENDING |
+| Thunderbird | DIGITAL_PARTIAL | Fail closed when absent |
+| Gmail/Outlook | EXTERNAL_PROVIDER_PENDING | Not claimed |
+
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`

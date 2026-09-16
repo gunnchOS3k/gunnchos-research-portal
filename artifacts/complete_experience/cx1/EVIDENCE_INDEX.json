@@ -1,0 +1,11 @@
+{
+  "schema": "gunnchos.portal.cx1.evidence_index.v1",
+  "canonical_repo": "gunnchos-device-os",
+  "paths": [
+    "artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json",
+    "artifacts/complete_experience/cx1/JOURNEYS.json",
+    "artifacts/complete_experience/cx1/DEVICE_PROFILE_MATRIX.json"
+  ],
+  "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+  "device_lab_gate_tokens_mutated": false
+}

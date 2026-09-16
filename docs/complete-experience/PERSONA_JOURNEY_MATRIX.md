@@ -17,3 +17,7 @@ Executable plans: `personas/*_ACCEPTANCE.md`.
 | offline_user | 2,4,5,9,14,17,18 | handheld_student, community_hub | DEFINED_NOT_EXECUTED |
 
 High-end workloads: preserve via **declared remote/cloud path**; do not delete local capability.
+
+## CX1 digital foundations note
+
+Ordinary-user journeys 1–6 are digitally exercisable on Device OS CX1 (see `artifacts/complete_experience/cx1/JOURNEYS.json`). Persona HUMAN acceptance remains HUMAN_PENDING. `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`.

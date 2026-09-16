@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.complete_experience.capability_registry.v1",
   "version": "1.0.0",
-  "generated_at_utc": "2026-09-16T01:24:51Z",
+  "generated_at_utc": "2026-09-16T02:05:47Z",
   "authority": {
     "name": "Complete Experience Capability Registry",
     "scope": "portfolio-level Complete Experience ownership and coverage truth",
@@ -132,16 +132,15 @@
       "key": "onboarding_identity",
       "name": "Onboarding / Identity",
       "status": "PARTIAL",
-      "production_authority": "gunnchos-device-os:UnifiedIdentityPlane (digital; multiple planes coexist)",
+      "production_authority": "gunnchos-device-os:cx1.IdentityPlane (local-first; IdentitySession v1)",
       "repos": [
         "gunnchos-device-os",
         "gunnchos-waike-learning-platform"
       ],
-      "implementation": "Device OS phase_xv identity, onboarding_wizard, UnifiedIdentityPlane; WAIKE hub identity module",
+      "implementation": "CX1 IdentityPlane first-run/guest/switch/lock + SecretStore; CX0 UnifiedIdentityPlane retained",
       "tests_evidence": [
-        "tests/phase_xv/test_phase_xv.py",
-        "tests/test_onboarding_wizard.py",
-        "tests/test_unified_identity.py"
+        "tests/cx1/test_cx1_foundations.py",
+        "artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json"
       ],
       "device_profiles": [
         "handheld_student",
@@ -149,106 +148,106 @@
         "office_dock"
       ],
       "missing": [
-        "Single production IdentitySession authority",
         "Biometrics PHYSICAL_PENDING",
-        "First-boot shell product UX"
+        "Polished first-boot graphical shell",
+        "Single merged identity authority across WAIKE"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 2,
       "key": "files_sync_backup_recovery",
       "name": "Files / Sync / Backup / Recovery",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.Vault",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "StoragePlane, WebDAV lab protocol, OfflineSyncEngine, serviceability backup/restore",
+      "implementation": "CX1 Vault CRUD/trash/search/backup/restore/durable sync queue over CX0 FileProvider",
       "tests_evidence": [
-        "tests/wp013/test_serviceability.py",
-        "tests/test_offline_sync.py"
+        "tests/cx1/test_cx1_foundations.py",
+        "artifacts/complete_experience/cx1/JOURNEYS.json"
       ],
       "device_profiles": [
         "all"
       ],
       "missing": [
-        "FileProvider v1 product surface",
-        "cloud/drive mounts",
-        "user-facing Files UX",
-        "cross-device SyncProvider"
+        "cloud/drive mounts EXTERNAL_PROVIDER_PENDING",
+        "cross-device SyncProvider",
+        "rich graphical Files UX"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 3,
       "key": "app_discovery_install_update_rollback",
       "name": "App discovery / install / update / rollback",
       "status": "PARTIAL",
-      "production_authority": "gunnchos-device-os:PackageManager (digital channels)",
+      "production_authority": "gunnchos-device-os:cx1.AppCenter",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "PackageManager, package_lifecycle, sandbox_executor (bubblewrap), Flatpak lane metadata",
+      "implementation": "CX1 App Center discover/install/launch/update/rollback/remove + Flatpak fail-closed",
       "tests_evidence": [
-        "tests/phase_xiv/test_phase_xiv.py",
-        "tests/test_updater_rollback.py",
-        "tests/test_sandbox_policy.py"
+        "tests/cx1/test_cx1_foundations.py"
       ],
       "device_profiles": [
         "all"
       ],
       "missing": [
-        "xdg-desktop-portal",
-        "app store discovery UX",
-        "AppProvider/AppPackage contracts enforced in product",
-        "portal file-chooser"
+        "xdg-desktop-portal host availability",
+        "production Flatpak remotes on all profiles",
+        "graphical store polish"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 4,
       "key": "browser_web_pwa",
       "name": "Browser / Web / PWA",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.BrowserQualification",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "Cont IX browser_e2e, WEB_PWA compat lane, Device Lab Chromium guest evidence",
+      "implementation": "CX1 browser qualification harness; digital webview-equivalent when binary absent; default NOT standardized",
       "tests_evidence": [
-        "artifacts/continuation_ix/browser_e2e.json"
+        "artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json"
       ],
       "device_profiles": [
         "all"
       ],
       "missing": [
-        "Product browser shell",
-        "PWA install/update/offline-cache lifecycle"
+        "Qualified system browser on all device profiles",
+        "Default standardization after qualification PASS",
+        "camera/mic PHYSICAL_PENDING"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 5,
       "key": "everyday_productivity",
       "name": "Everyday productivity",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.ProductivitySuite",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "Cont VIII/IX LibreOffice/PDF digital stack; productivity_install ledger",
+      "implementation": "CX1 LibreOffice adapter create/edit/save/PDF + Vault bind; fixture fallback when absent",
       "tests_evidence": [
-        "artifacts/continuation_ix/office_work_digital_ready.json",
-        "tests/test_continuation_ix_digital_lock.py"
+        "artifacts/complete_experience/cx1/JOURNEYS.json"
       ],
       "device_profiles": [
         "office_dock",
@@ -256,93 +255,94 @@
         "handheld_student"
       ],
       "missing": [
-        "Notes/tasks/whiteboard/screenshot/screen-recording product paths",
-        "MS Office EXTERNAL_PENDING",
-        "provider qualification standardization"
+        "Notes/tasks/whiteboard product paths",
+        "PDF annotate HUMAN_PENDING",
+        "MS Office EXTERNAL_PENDING"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 6,
       "key": "comms_collab",
       "name": "Email / calendar / chat / video / screen sharing",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.Connect",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "email_calendar_e2e (PWA fallback), video_meeting_e2e synthetic, Matrix L2 sim",
+      "implementation": "CX1 Connect local SMTP/IMAP-shaped outbox + CalDAV/CardDAV fixtures; conference web launch",
       "tests_evidence": [
-        "artifacts/continuation_ix/email_calendar_e2e.json",
-        "artifacts/continuation_ix/video_meeting_e2e.json"
+        "artifacts/complete_experience/cx1/JOURNEYS.json"
       ],
       "device_profiles": [
         "office_dock",
         "handheld_student"
       ],
       "missing": [
-        "Native email client",
-        "gunnch Connect chat product",
-        "real A/V + screen share",
-        "presence/DND"
+        "Thunderbird profile qualification when installed",
+        "Native chat/video product",
+        "No Gmail/Outlook completeness"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 7,
       "key": "printers_scanners_peripherals",
       "name": "Printers / scanners / peripherals",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.PrintingPlane",
       "repos": [
         "gunnchos-device-os",
         "edge-io-measurement-node"
       ],
-      "implementation": "CUPS-PDF virtual print; print_backend lab; Ring sensing adjacent",
+      "implementation": "CX1 virtual PDF printer + CUPS discover/submit; peripheral detection inventory",
       "tests_evidence": [
-        "device_lab/hw_backends/print_backend.py"
+        "artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json"
       ],
       "device_profiles": [
         "office_dock"
       ],
       "missing": [
-        "IPP detection",
+        "Physical print PHYSICAL_PENDING",
         "SANE scanners",
-        "peripheral hotplug product path",
-        "physical CUPS PHYSICAL_PENDING"
+        "full peripheral validation"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 8,
       "key": "accessibility",
       "name": "Accessibility",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.Assist",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "accessibility_manager SUPPORTED_FEATURES; phase_xv AT-SPI-style tree; a11y_hardening",
+      "implementation": "CX1 Assist keyboard-only journey + semantics/focus; DIGITAL_A11Y_PASS \u2260 human PASS",
       "tests_evidence": [
-        "tests/test_accessibility_manager.py"
+        "artifacts/complete_experience/cx1/JOURNEYS.json"
       ],
       "device_profiles": [
         "all"
       ],
       "missing": [
-        "Human a11y study HUMAN_PENDING",
-        "AT-SPI guest bus reliability",
-        "WCAG journey PASS evidence (lint \u2260 a11y PASS)"
+        "HUMAN_A11Y_PENDING study",
+        "AT-SPI guest reliability",
+        "switch/adaptive hardware"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 9,
@@ -576,15 +576,15 @@
       "key": "offline_low_bandwidth_community_hub",
       "name": "Offline / low-bandwidth / community hub",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.OfflinePlane",
       "repos": [
         "gunnchos-device-os",
         "gunnchos-waike-learning-platform",
         "ntn-resilience-sim"
       ],
-      "implementation": "OfflineSyncEngine, offline_mode_manager, network_decision; WAIKE offline reconnect GUI skipped on Device Lab",
+      "implementation": "CX1 OfflinePlane connectivity cut/reconnect, resumable download, package metadata cache, sync restart survival",
       "tests_evidence": [
-        "tests/test_offline_sync.py"
+        "artifacts/complete_experience/cx1/JOURNEYS.json"
       ],
       "device_profiles": [
         "handheld_student",
@@ -592,39 +592,38 @@
       ],
       "missing": [
         "Community hub product",
-        "E2E offline reconnect on Device Lab",
-        "low-bandwidth adaptive UX"
+        "Device Lab offline reconnect train evidence"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 18,
       "key": "security_privacy",
       "name": "Security / privacy",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.SecurityPrivacyPlane",
       "repos": [
         "gunnchos-device-os",
         "gunnchos-6g-security-trust-privacy-lab"
       ],
-      "implementation": "privacy controller, permissions_manager, sandbox, attestation digital; research lab",
+      "implementation": "CX1 permissions dashboard, indicators, secret-store/firewall/encryption/TPM discovery (honest)",
       "tests_evidence": [
-        "tests/privacy/test_privacy_controller.py",
-        "tests/test_permissions_manager.py"
+        "artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json"
       ],
       "device_profiles": [
         "all"
       ],
       "missing": [
-        "Portal-mediated permission UX",
-        "production IdP/TPM",
-        "PermissionGrant product contract"
+        "Production IdP/TPM verification",
+        "No fake hardware security PASS"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     },
     {
       "id": 19,
@@ -685,25 +684,26 @@
       "key": "support_repair_ownership",
       "name": "Support / repair / ownership",
       "status": "PARTIAL",
-      "production_authority": null,
+      "production_authority": "gunnchos-device-os:cx1.Care",
       "repos": [
         "gunnchos-device-os"
       ],
-      "implementation": "export_diagnostic_bundle + redact_text; support_lifecycle; support_self_service Cont IX",
+      "implementation": "CX1 Care SupportBundle export/redaction/checksums + recovery plan + backup-before-reset",
       "tests_evidence": [
-        "tests/wp013/test_serviceability.py"
+        "artifacts/complete_experience/cx1/CX1_EVIDENCE_REPORT.json"
       ],
       "device_profiles": [
         "all"
       ],
       "missing": [
-        "SupportBundle product UX",
-        "ownership transfer flows",
-        "repair scheduling"
+        "Warranty/RMA readiness not claimed from software",
+        "Ownership transfer flows",
+        "Repair scheduling"
       ],
       "device_lab_train_depends": false,
       "safe_parallel": true,
-      "priority": "P0"
+      "priority": "P0",
+      "cx1_advanced": true
     }
   ],
   "status_counts": {
@@ -714,5 +714,11 @@
   "priority_counts": {
     "P0": 12,
     "P1": 9
+  },
+  "cx1": {
+    "wave": "ordinary_user_digital_foundations",
+    "device_os_branch": "eng/cx1-ordinary-user-foundations",
+    "evidence_root": "gunnchos-device-os/artifacts/complete_experience/cx1/",
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
   }
 }
