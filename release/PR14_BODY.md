@@ -1,7 +1,7 @@
 # STREAM P1 — Device Lab current-pin (Prompt 17G.5B)
 
 ## Snapshot
-- Device OS PR: #134 @ `daf054ac75c8c901f374ad833bb954d1eb006043` (continue only; Cursor merges nothing)
+- Device OS PR: #134 @ `364275208602d726e3f4f7fd6c8f66b2357faf04` (continue only; Cursor merges nothing)
 - Portal PR: #14 (this PR; #15 consumes)
 - WAIKE accepted-main: `232fc8dc3aa10d3dd644ef48d1d8c63da50d4d3c` (PR #12 merge-commit; glibc236 artifact `3df1e42e…`)
 - Pin manifest: `47fe0c86856c4eec795a7b28c582532d612175475a83f91ad315720326a5ce15`
