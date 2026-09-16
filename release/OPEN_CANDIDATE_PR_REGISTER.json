@@ -7,7 +7,7 @@
       "pr": 134,
       "role": "device_lab_evidence",
       "merged": false,
-      "tip": "364275208602d726e3f4f7fd6c8f66b2357faf04"
+      "tip": "5ce7cb3e857b5b90cc19c939fb2d21831641a47b"
     },
     {
       "repo": "gunnchos-research-portal",
@@ -29,5 +29,13 @@
       "pr": 15,
       "note": "consumes #14"
     }
-  ]
+  ],
+  "network_proof_17g5c1": {
+    "QEMU_SCOPED_GUESTFWD_PASS": true,
+    "QEMU_GUEST_ISOLATION_RETAINED": true,
+    "WAIKE_GUEST_HUB_REACHABILITY_PASS": true,
+    "WAIKE_REAL_HUB_CLIENT_BIND_PASS": true,
+    "NEXT_GATE": "17G5D_FULL_WAIKE_GUI_JOURNEY_REEARN",
+    "updated_at_utc": "2026-09-16T15:50:37Z"
+  }
 }
