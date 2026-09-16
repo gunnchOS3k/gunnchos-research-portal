@@ -46,3 +46,5 @@ Evidence: Device OS `artifacts/complete_experience/cx2f/`.
 
 `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
 
+
+- [CX2G Chromium Shell Render Control](./CX2G_CHROMIUM_SHELL_RENDER_CONTROL.md)
