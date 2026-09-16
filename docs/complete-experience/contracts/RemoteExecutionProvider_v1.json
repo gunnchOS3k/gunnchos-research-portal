@@ -1,0 +1,36 @@
+{
+  "schema": "gunnchos.contracts.RemoteExecutionProvider.v1",
+  "required": [
+    "provider_id",
+    "protocols",
+    "auth"
+  ],
+  "properties": {
+    "provider_id": {
+      "type": "string"
+    },
+    "protocols": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "rdp",
+          "vnc",
+          "ssh",
+          "cloud_render",
+          "cloud_build"
+        ]
+      }
+    },
+    "auth": {
+      "enum": [
+        "local_sso",
+        "token",
+        "ssh_key"
+      ]
+    },
+    "preserves_local_capability": {
+      "type": "boolean",
+      "const": true
+    }
+  }
+}

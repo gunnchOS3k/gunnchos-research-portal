@@ -1,0 +1,28 @@
+{
+  "schema": "gunnchos.contracts.AccessibilityCapability.v1",
+  "required": [
+    "device_profile",
+    "features"
+  ],
+  "properties": {
+    "device_profile": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "atspi_available": {
+      "type": "boolean"
+    },
+    "evidence_tier": {
+      "enum": [
+        "digital",
+        "human",
+        "physical"
+      ]
+    }
+  }
+}

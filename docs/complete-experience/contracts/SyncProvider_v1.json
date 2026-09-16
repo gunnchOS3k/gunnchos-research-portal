@@ -1,0 +1,33 @@
+{
+  "schema": "gunnchos.contracts.SyncProvider.v1",
+  "required": [
+    "provider_id",
+    "conflict_policy",
+    "scopes"
+  ],
+  "properties": {
+    "provider_id": {
+      "type": "string"
+    },
+    "conflict_policy": {
+      "enum": [
+        "manual",
+        "lww",
+        "three_way"
+      ]
+    },
+    "scopes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bandwidth_class": {
+      "enum": [
+        "full",
+        "low",
+        "offline_only"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "gunnchos.contracts.PeripheralCapability.v1",
+  "required": [
+    "device_profile",
+    "peripherals"
+  ],
+  "properties": {
+    "device_profile": {
+      "type": "string"
+    },
+    "peripherals": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "ipp_detect": {
+      "type": "boolean"
+    },
+    "scanner_detect": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "gunnchos.contracts.ContinuityState.v1",
+  "required": [
+    "session_id",
+    "anchors",
+    "tier"
+  ],
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "anchors": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "display",
+          "input",
+          "audio",
+          "network",
+          "app_context"
+        ]
+      }
+    },
+    "tier": {
+      "enum": [
+        "digital_sim",
+        "physical_pending",
+        "physical_pass"
+      ]
+    },
+    "dock_present": {
+      "type": "boolean"
+    }
+  }
+}

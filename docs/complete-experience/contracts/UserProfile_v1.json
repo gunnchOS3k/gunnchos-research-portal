@@ -1,0 +1,40 @@
+{
+  "schema": "gunnchos.contracts.UserProfile.v1",
+  "required": [
+    "profile_id",
+    "display_name",
+    "persona_hints",
+    "locale",
+    "created_at"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "persona_hints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "locale": {
+      "type": "string"
+    },
+    "accessibility_prefs": {
+      "type": "object"
+    },
+    "device_profile_eligibility": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

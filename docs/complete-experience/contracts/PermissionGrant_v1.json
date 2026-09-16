@@ -1,0 +1,40 @@
+{
+  "schema": "gunnchos.contracts.PermissionGrant.v1",
+  "required": [
+    "grant_id",
+    "app_id",
+    "scope",
+    "state",
+    "decided_at"
+  ],
+  "properties": {
+    "grant_id": {
+      "type": "string"
+    },
+    "app_id": {
+      "type": "string"
+    },
+    "scope": {
+      "enum": [
+        "camera",
+        "microphone",
+        "files",
+        "location",
+        "notifications",
+        "contacts",
+        "screen_capture"
+      ]
+    },
+    "state": {
+      "enum": [
+        "allow",
+        "deny",
+        "ask",
+        "revoked"
+      ]
+    },
+    "decided_at": {
+      "type": "string"
+    }
+  }
+}

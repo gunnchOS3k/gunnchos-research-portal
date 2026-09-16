@@ -1,0 +1,33 @@
+{
+  "schema": "gunnchos.contracts.SupportBundle.v1",
+  "required": [
+    "bundle_id",
+    "created_at",
+    "redaction_profile",
+    "artifacts"
+  ],
+  "properties": {
+    "bundle_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "redaction_profile": {
+      "enum": [
+        "strict",
+        "standard",
+        "owner_debug"
+      ]
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contains_pii": {
+      "type": "boolean"
+    }
+  }
+}

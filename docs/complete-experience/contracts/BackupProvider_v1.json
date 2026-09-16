@@ -1,0 +1,33 @@
+{
+  "schema": "gunnchos.contracts.BackupProvider.v1",
+  "required": [
+    "provider_id",
+    "destinations",
+    "encryption"
+  ],
+  "properties": {
+    "provider_id": {
+      "type": "string"
+    },
+    "destinations": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "local",
+          "removable",
+          "remote"
+        ]
+      }
+    },
+    "encryption": {
+      "enum": [
+        "none",
+        "device_key",
+        "user_passphrase"
+      ]
+    },
+    "restore_verified": {
+      "type": "boolean"
+    }
+  }
+}

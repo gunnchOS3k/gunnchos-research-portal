@@ -1,0 +1,479 @@
+{
+  "schema": "gunnchos.complete_experience.provider_qualification_matrix.v1",
+  "policy": "zero_additional_license_cost_candidates; do_not_standardize_until_compatibility_demonstrated",
+  "providers": [
+    {
+      "name": "LibreOffice",
+      "license": "MPL-2.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak",
+        "native"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "office_dock",
+        "ds_xl",
+        "handheld_student"
+      ],
+      "update": "Flatpak/distro",
+      "formats": [
+        "odf",
+        "ooxml-import"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "MS Office fidelity EXTERNAL_PENDING"
+      ],
+      "standardized": false,
+      "cx0_status": "DIGITAL_CANDIDATE"
+    },
+    {
+      "name": "Chromium/Firefox",
+      "license": "BSD/MPL",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak",
+        "native"
+      ],
+      "offline": "partial",
+      "a11y": "strong",
+      "profiles": [
+        "all"
+      ],
+      "update": "Flatpak/distro",
+      "formats": [
+        "web",
+        "pwa"
+      ],
+      "sandbox": "Flatpak/browser",
+      "blockers": [
+        "PWA lifecycle product manager ABSENT"
+      ],
+      "standardized": false,
+      "cx0_status": "DIGITAL_CANDIDATE"
+    },
+    {
+      "name": "Blender",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64-limited"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak",
+        "native"
+      ],
+      "offline": "yes",
+      "a11y": "weak",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "blend",
+        "glTF"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "GPU/RAM; ARM64 performance; not packaged in Device OS"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "Godot",
+      "license": "MIT",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "native",
+        "export"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "handheld_student",
+        "ds_xl"
+      ],
+      "update": "app channel",
+      "formats": [
+        "godot"
+      ],
+      "sandbox": "native/export",
+      "blockers": [
+        "first-party games use Godot; editor not productized"
+      ],
+      "standardized": false,
+      "cx0_status": "PARTIAL_VIA_GAMES"
+    },
+    {
+      "name": "KiCad",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "partial",
+      "x11": "yes",
+      "packaging": [
+        "native",
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "weak",
+      "profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "update": "distro/Flatpak",
+      "formats": [
+        "kicad"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "SoT in hardware repo; Device OS lane missing"
+      ],
+      "standardized": false,
+      "cx0_status": "DIGITAL_SOT_EXTERNAL"
+    },
+    {
+      "name": "Krita",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "kra",
+        "png"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "not installed in guest G15"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "Inkscape",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "svg"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "WHICH_INKSCAPE=missing in G15"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "GIMP",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "xcf",
+        "png"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "WHICH_GIMP=missing in G15"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "Kdenlive",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "weak",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "mlt"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "GPU encode; not packaged"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "OBS Studio",
+      "license": "GPL-2.0",
+      "arches": [
+        "x86_64",
+        "aarch64-limited"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak",
+        "native"
+      ],
+      "offline": "yes",
+      "a11y": "weak",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "recording"
+      ],
+      "sandbox": "pipewire portal needed",
+      "blockers": [
+        "portal screen-capture ABSENT"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "Audacity",
+      "license": "GPL-3.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "ds_xl",
+        "handheld_student"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "wav",
+        "ogg"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "not packaged"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "Ardour",
+      "license": "GPL-2.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "partial",
+      "x11": "yes",
+      "packaging": [
+        "native",
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "weak",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "distro",
+      "formats": [
+        "ardour"
+      ],
+      "sandbox": "native",
+      "blockers": [
+        "JACK/PipeWire complexity"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "FreeCAD",
+      "license": "LGPL-2.1",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "partial",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak",
+        "native"
+      ],
+      "offline": "yes",
+      "a11y": "weak",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "FCStd",
+        "step"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "not packaged"
+      ],
+      "standardized": false,
+      "cx0_status": "UNQUALIFIED"
+    },
+    {
+      "name": "Thunderbird",
+      "license": "MPL-2.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "Flatpak",
+        "native"
+      ],
+      "offline": "partial",
+      "a11y": "strong",
+      "profiles": [
+        "office_dock",
+        "ds_xl"
+      ],
+      "update": "Flatpak",
+      "formats": [
+        "eml",
+        "ical"
+      ],
+      "sandbox": "Flatpak",
+      "blockers": [
+        "not selected; Cont IX uses PWA fallback"
+      ],
+      "standardized": false,
+      "cx0_status": "CANDIDATE"
+    },
+    {
+      "name": "Podman",
+      "license": "Apache-2.0",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "n/a",
+      "x11": "n/a",
+      "packaging": [
+        "native"
+      ],
+      "offline": "yes",
+      "a11y": "n/a",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "distro",
+      "formats": [
+        "oci"
+      ],
+      "sandbox": "rootless containers",
+      "blockers": [
+        "workstation image not productized"
+      ],
+      "standardized": false,
+      "cx0_status": "CANDIDATE"
+    },
+    {
+      "name": "VSCodium / neovim",
+      "license": "MIT",
+      "arches": [
+        "x86_64",
+        "aarch64"
+      ],
+      "wayland": "yes",
+      "x11": "yes",
+      "packaging": [
+        "native",
+        "Flatpak"
+      ],
+      "offline": "yes",
+      "a11y": "partial",
+      "profiles": [
+        "ds_xl"
+      ],
+      "update": "distro",
+      "formats": [
+        "code"
+      ],
+      "sandbox": "varies",
+      "blockers": [
+        "ledger present; not full Builder mode"
+      ],
+      "standardized": false,
+      "cx0_status": "DIGITAL_CANDIDATE"
+    }
+  ]
+}
