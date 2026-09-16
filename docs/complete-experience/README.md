@@ -36,3 +36,13 @@ Evidence: Device OS `artifacts/complete_experience/cx2e/`.
 
 `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
 
+## CX2F
+
+Non-cloud kernel + DRM Weston + production shell render/capture + journey re-earn on `docs/cx2f-drm-shell-render-capture-control` (stacked on CX2E #20).
+
+Device OS: `eng/cx2f-drm-shell-render-capture-journey-reearn` (base CX2E #141).
+
+Evidence: Device OS `artifacts/complete_experience/cx2f/`.
+
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+
