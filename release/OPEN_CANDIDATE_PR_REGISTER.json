@@ -1,13 +1,13 @@
 {
   "schema": "gunnchos.open_candidate_pr_register.v1",
-  "generated_at_utc": "2026-09-16T00:16:38Z",
+  "generated_at_utc": "2026-09-16T03:11:36Z",
   "candidates": [
     {
       "repo": "gunnchos-device-os",
       "pr": 134,
       "role": "device_lab_evidence",
       "merged": false,
-      "tip": "471855907cb33a67d4a4cf0260816db0029943d7"
+      "tip": "daf054ac75c8c901f374ad833bb954d1eb006043"
     },
     {
       "repo": "gunnchos-research-portal",
@@ -18,10 +18,9 @@
     {
       "repo": "gunnchos-waike-learning-platform",
       "pr": 12,
-      "role": "draft_product_hub_url_runtime",
-      "merged": false,
-      "is_draft": true,
-      "head": "9c4f4c25c5a85d6e2af2694cda4dfc882d09be15"
+      "role": "product_hub_endpoint_policy_runtime",
+      "merged": true,
+      "merge_sha": "232fc8dc3aa10d3dd644ef48d1d8c63da50d4d3c"
     }
   ],
   "consumer_only": [
