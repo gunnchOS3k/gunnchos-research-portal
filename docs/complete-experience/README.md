@@ -25,3 +25,14 @@ Evidence: Device OS `artifacts/complete_experience/cx2/` (separate from Device L
 CX1 DIGITAL_PASS overstatements are reclassified to HARNESS_PASS / REAL_PROVIDER_* in CX2 taxonomy without falsifying CX1 history.
 
 `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+
+## CX2E
+
+Linux graphical session + real user journey proof on `docs/cx2e-linux-graphical-session-control` (stacked on CX2D #19).
+
+Device OS: `eng/cx2e-linux-graphical-session-journey-proof` (base CX2D #140).
+
+Evidence: Device OS `artifacts/complete_experience/cx2e/`.
+
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+

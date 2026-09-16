@@ -49,6 +49,15 @@ Still pending: browser GUI download/chooser automation, Flatpak on non-Linux hos
 
 `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
 
+## Wave CX2D — Linux real-user journey closure (DRAFT)
+Device OS #140 / Portal #19. Fail-closed without Linux GUI guest proof.
+
+## Wave CX2E — Linux graphical session + journey proof (THIS WAVE — DRAFT)
+Device OS `eng/cx2e-linux-graphical-session-journey-proof` / Portal `docs/cx2e-linux-graphical-session-control`.
+QEMU Debian 12 aarch64 + Weston/Wayland + DBus + production gunnch_shell + J1–J7 upgrade.
+Evidence: `artifacts/complete_experience/cx2e/`.
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+
 ## Wave CX3 — Education credentials + standards adapters
 OB3/CLR/CASE/Caliper (non-certifying), portfolio SoR.
 
