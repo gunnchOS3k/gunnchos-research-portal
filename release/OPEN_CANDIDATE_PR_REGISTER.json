@@ -1,13 +1,13 @@
 {
   "schema": "gunnchos.open_candidate_pr_register.v1",
-  "generated_at_utc": "2026-09-16T03:11:36Z",
+  "generated_at_utc": "2026-09-16T22:15:00Z",
   "candidates": [
     {
       "repo": "gunnchos-device-os",
       "pr": 134,
       "role": "device_lab_evidence",
       "merged": false,
-      "tip": "5ce7cb3e857b5b90cc19c939fb2d21831641a47b"
+      "tip": "a03dc5d02d55b5f2c4855ff784b9239f78888e6d"
     },
     {
       "repo": "gunnchos-research-portal",
@@ -37,5 +37,14 @@
     "WAIKE_REAL_HUB_CLIENT_BIND_PASS": true,
     "NEXT_GATE": "17G5D_FULL_WAIKE_GUI_JOURNEY_REEARN",
     "updated_at_utc": "2026-09-16T15:50:37Z"
+  },
+  "waike_gui_journey_17g5d": {
+    "WAIKE_GUEST_HUB_REACHABILITY_PASS": true,
+    "WAIKE_REAL_HUB_CLIENT_BIND_PASS": false,
+    "WAIKE_ATSPI_WINDOW_PASS": false,
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": false,
+    "primary_blocker": "guest_fetch_owner_bundle_failed",
+    "NEXT_GATE": "DEVICE_OS_134_WAIKE_9P_BUNDLE_FETCH_OVER_VIRTIO_SERIAL",
+    "updated_at_utc": "2026-09-16T22:15:00Z"
   }
 }
