@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.stream_p1.closure_flags.v1",
   "generated_at_utc": "2026-09-17T00:16:00Z",
-  "prompt": "17G.5F",
+  "prompt": "17G.6",
   "device_os_pr": 134,
   "device_os_tip": "e26e4caec753d09ad8bfd79fadb9bbfb865659ae",
   "portal_pr": 14,
@@ -22,8 +22,8 @@
   "WAIKE_GUEST_HUB_REACHABILITY_PASS": true,
   "WAIKE_REAL_HUB_CLIENT_BIND_PASS": false,
   "WAIKE_ATSPI_WINDOW_PASS": false,
-  "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": false,
-  "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": false,
+  "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": true,
+  "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
   "ECO010_SOAK_PASS": false,
   "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": false,
   "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
@@ -54,6 +54,13 @@
     "updated_at_utc": "2026-09-17T00:14:51Z"
   },
   "WAIKE_EFFECTIVE_WEBVIEW_CSP_PASS": true,
-  "updated_at_utc": "2026-09-17T15:42:30Z",
-  "NEXT_GATE": "WAIKE_PR16_CUSTOM_PROTOCOL_EMBED_OWNER_MERGE_REFREEZE"
+  "updated_at_utc": "2026-09-17T22:53:52Z",
+  "NEXT_GATE": "ECO010_SOAK",
+  "portal_14_merged": true,
+  "portal_14_merge_sha": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+  "device_os_134_merge_sha": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+  "waike_17_merge_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
+  "gunnchai_accepted_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+  "device_os_continuation_pr": 155,
+  "device_os_continuation_head": "84dc67771e57ab644b67518bff9724a6ce965ce2"
 }
