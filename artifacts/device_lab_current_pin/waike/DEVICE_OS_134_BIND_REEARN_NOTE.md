@@ -1,10 +1,10 @@
-# Device OS #134 WAIKE client HTTP bind re-earn (additive)
+# Device OS #134 Hub bind PASS + CSP/GUI Hub next gate
 
-- Device OS tip: `a42f9aa` on `cursor/device-lab-current-pin-revalidation` (PR #134 OPEN/DRAFT)
-- Leading root cause: Hub missing CORS for Tauri `http://ipc.localhost` Origin (OPTIONS preflight) while WebKit showed ESTAB TCP and `hub_login_fetch_start`
-- Additive Device OS fix: guestfwd CORS proxy + WebKit-mimic probe + retry fix
-- WAIKE durable CORS branch pushed: `cursor/waike-hub-device-lab-cors` @ `b2c2f23` (DRAFT PR create blocked by gh auth; open via compare URL)
-- `WAIKE_REAL_HUB_CLIENT_BIND_PASS=false` — guest QEMU re-earn blocked in agent sandbox (HVF sysctl); do not claim WAIKE=true
-- LIVE/DSXL/RING/FOUR_GAME retention unchanged
-- NEXT_GATE=`DEVICE_OS_134_WAIKE_CLIENT_HTTP_BIND_REEARN`
-- Do not merge #134/#14; CX untouched; gunnchAI not started
+- Device OS tip: `aff29a9bb708b9103adb2d6465aa78cb0f05f66a` on `cursor/device-lab-current-pin-revalidation` (PR #134 OPEN/DRAFT)
+- Additive fix: QEMU `guestfwd=…-cmd:hub_guestfwd_cmd_relay_8787.sh` + preserve `cmd` in `parse_guestfwd_env` + CORS proxy ACCEPT/HTTP matrix
+- `WAIKE_REAL_HUB_CLIENT_BIND_PASS=true` — guest OPTIONS+POST hit Hub via cmd relay (unsandboxed HVF)
+- `WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false` — journey A+B learner depth still incomplete after bind
+- LIVE/DSXL/RING/FOUR_GAME retention unchanged (true)
+- NEXT_GATE=`DEVICE_OS_134_WAIKE_EFFECTIVE_CSP_GUI_HUB_REEARN`
+- WAIKE #17 DRAFT remains open for durable Hub CORS (`b2c2f23`)
+- Do not merge #134/#14/#17; CX untouched; gunnchAI not started
