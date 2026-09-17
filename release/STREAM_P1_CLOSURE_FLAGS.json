@@ -52,5 +52,8 @@
     "primary_blocker": "client_not_bound_to_real_hub_after_policy_authorized_launch",
     "NEXT_GATE": "DEVICE_OS_134_WAIKE_RUNTIME_CONTEXT_TO_WEBVIEW_BIND",
     "updated_at_utc": "2026-09-17T00:14:51Z"
-  }
+  },
+  "WAIKE_EFFECTIVE_WEBVIEW_CSP_PASS": true,
+  "updated_at_utc": "2026-09-17T14:12:37Z",
+  "NEXT_GATE": "DEVICE_OS_134_WAIKE_CLIENT_HTTP_BIND_REEARN"
 }

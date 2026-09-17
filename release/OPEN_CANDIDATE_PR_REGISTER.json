@@ -46,5 +46,9 @@
     "primary_blocker": "guest_fetch_owner_bundle_failed",
     "NEXT_GATE": "DEVICE_OS_134_WAIKE_9P_BUNDLE_FETCH_OVER_VIRTIO_SERIAL",
     "updated_at_utc": "2026-09-16T22:15:00Z"
-  }
+  },
+  "updated_at_utc": "2026-09-17T14:12:37Z",
+  "device_os_pr_134_tip": "bd26ff335888f1575188bb1aab8379fab23029e0",
+  "waike_accepted_main": "5037df0c2dd1a966fcb07422a27366b14fe56b2f",
+  "note_17g5f": "WAIKE #15 effective CSP PASS; client HTTP bind FAIL; do not merge #134/#14"
 }
