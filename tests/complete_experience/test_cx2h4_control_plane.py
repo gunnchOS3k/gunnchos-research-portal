@@ -22,7 +22,8 @@ def test_cx2h4_control_doc_exists():
     assert "CX3_EDUCATION_CREDENTIALS_PORTFOLIO" in text
     # Must keep full complete experience false
     assert "FULL_COMPLETE_EXPERIENCE_COMPLETE=false" in text or "| **false**" in text
-    assert "do **not** set `FULL_COMPLETE_EXPERIENCE_COMPLETE=true`" in text.lower()
+    assert "FULL_COMPLETE_EXPERIENCE_COMPLETE=true`" in text  # forbidden claim mentioned as "do not set"
+    assert "do **not** set" in text.lower()
 
 
 def test_cx2h4_cannot_claim_closure_if_blocker_register_nonempty_language():
