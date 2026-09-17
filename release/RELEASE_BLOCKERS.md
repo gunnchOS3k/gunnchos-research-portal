@@ -47,3 +47,13 @@ No shipping physical gunnchOS; no conversion of HOST_RESOURCE_BLOCKED into gate 
 - LIVE/DSXL true; `ECO010_REEARN_REQUIRED_AFTER_RING_FIX=true`; `ECO010_SOAK_PASS=false` (stale for new candidate; do not erase historical PASS evidence).
 - `DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS=false`; `DEVICE_LAB_CANDIDATE_READY_FOR_OWNER=false`. Unmerged.
 - Next recommended gate: Four-Game real runtime Device Lab (firewall; not started).
+
+
+## Prompt 17G.5J update (2026-09-17T22:22:21Z)
+- Device OS [#134](https://github.com/gunnchOS3k/gunnchos-device-os/pull/134) **MERGED** — accepted-main merge `c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe` (PR head `819f5a839cad9442d7850a203a9f59db37b08c70`; parents `898e44cfa8b7574c0de7b8312b0996816799eca4` + `819f5a839cad9442d7850a203a9f59db37b08c70`).
+- Post-merge main CI: **47/47 SUCCESS** on merge SHA; local release-control tests 14 passed.
+- Compact accepted-main release rebind PASS; WAIKE pin `7ccb64459df088d41655af51c959a7bbbac849a3`; manifest `8da7a6f9688e88b8fa31ad61c6f0f4229a8cbf83cbc0ad0711a81557643df36b`; LIVE/DSXL/RING/FOUR_GAME/WAIKE retained true.
+- Portal #14 final sync binds control-plane to merge SHA (not PR head). Historical 17G.5I snapshots retained.
+- `GUNNCHAI_GATE_BLOCKED_ON_PORTAL_14_OWNER_MERGE=true`; intended next gate after Portal merge: `GUNNCHAI_DEVICE_LAB_INTEGRATION`.
+- Cursor does **not** merge Portal #14; do **not** start gunnchAI / lifecycle / ECO010 / independent verify.
+- NEXT_OWNER_ACTION: `MERGE_PORTAL_14_WITH_MERGE_COMMIT`.

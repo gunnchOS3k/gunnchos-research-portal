@@ -6,14 +6,18 @@
       "repo": "gunnchos-device-os",
       "pr": 134,
       "role": "device_lab_evidence",
-      "merged": false,
-      "tip": "819f5a839cad9442d7850a203a9f59db37b08c70"
+      "merged": true,
+      "tip": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+      "merge_sha": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+      "pr_head": "819f5a839cad9442d7850a203a9f59db37b08c70",
+      "state": "MERGED"
     },
     {
       "repo": "gunnchos-research-portal",
       "pr": 14,
       "role": "stream_p1_control_plane",
-      "merged": false
+      "merged": false,
+      "state": "OPEN_DRAFT"
     },
     {
       "repo": "gunnchos-waike-learning-platform",
@@ -47,15 +51,20 @@
     "NEXT_GATE": "DEVICE_OS_134_WAIKE_9P_BUNDLE_FETCH_OVER_VIRTIO_SERIAL",
     "updated_at_utc": "2026-09-16T22:15:00Z"
   },
-  "updated_at_utc": "2026-09-17T21:54:37Z",
-  "device_os_pr_134_tip": "819f5a839cad9442d7850a203a9f59db37b08c70",
+  "updated_at_utc": "2026-09-17T22:22:21Z",
+  "device_os_pr_134_tip": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
   "waike_accepted_main": "7ccb64459df088d41655af51c959a7bbbac849a3",
   "note_17g5f": "WAIKE #15 effective CSP PASS; client HTTP bind FAIL; do not merge #134/#14",
   "device_os_134_ci_green": true,
   "waike_artifact_sha256": "071cce1383561e14cf957cdcd5e932e04884a2d2a5bba35cdbbce08e137e58f8",
   "pin_manifest_sha256": "8da7a6f9688e88b8fa31ad61c6f0f4229a8cbf83cbc0ad0711a81557643df36b",
-  "DEVICE_OS_134_ACCEPTED_MAIN_MERGE_SHA": "PENDING_OWNER_MERGE",
+  "DEVICE_OS_134_ACCEPTED_MAIN_MERGE_SHA": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
   "DEVICE_OS_134_EXACT_HEAD_CI_PASS": true,
   "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
-  "note_17g5i": "WAIKE #17 accepted-main CORS re-freeze; #134 exact-head CI green; Portal #14 remains OPEN/DRAFT; do not merge #14 yet"
+  "note_17g5i": "WAIKE #17 accepted-main CORS re-freeze; #134 exact-head CI green; Portal #14 remains OPEN/DRAFT; do not merge #14 yet",
+  "device_os_pr_134_pr_head": "819f5a839cad9442d7850a203a9f59db37b08c70",
+  "device_os_pr_134_merged": true,
+  "DEVICE_OS_134_ACCEPTED_MAIN_MERGE_PASS": true,
+  "DEVICE_OS_134_POST_MERGE_MAIN_VALIDATION_PASS": true,
+  "note_17g5j": "Device OS #134 accepted-main merge c3b7a51; Portal #14 final sync; GUNNCHAI blocked on Portal #14 owner merge; do not start gunnchAI"
 }
