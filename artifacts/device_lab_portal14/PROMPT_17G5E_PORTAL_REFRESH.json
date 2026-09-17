@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-09-17T04:06:45Z",
+  "prompt": "17G.5E",
+  "portal_pr": 14,
+  "device_os_pr": 134,
+  "device_os_tip": "d89790ef8b4e56e77953287b0a9b67680a039d43",
+  "waike_accepted_main": "95c7b847c76e9d58dcf3536ea7268e1b65fdcd15",
+  "artifact_sha256": "e928a1c4170a1511fa3fcad249e9d4d17138075651cd5c510a78ea312ea17be6",
+  "pin_manifest_sha256": "56f3ec29ad5b90219165a3bded3261605a3e7e5bb0ec9760cafb6fe3e5e4d936",
+  "WAIKE_EXACT_RUNTIME_CSP_PASS": true,
+  "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": false,
+  "WAIKE_GUEST_HUB_REACHABILITY_PASS": true,
+  "WAIKE_REAL_HUB_CLIENT_BIND_PASS": false,
+  "NEXT_GATE": "WAIKE_CSP_RUNTIME_APPLY_REMEDIATION",
+  "LIVE_DSXL_RING_FOUR_GAME_retained": true,
+  "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": false,
+  "cursor_merges_nothing": true,
+  "note": "Portal release-control #14 refreshed after Device OS 17G.5E CSP re-freeze honest FAIL on client Hub HTTP bind."
+}

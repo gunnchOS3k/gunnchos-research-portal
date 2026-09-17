@@ -1,0 +1,24 @@
+{
+  "schema": "gunnchos.release.ready_packet.v1",
+  "packet": "ANIME_PIXEL_ACCEPTANCE",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "status": "PENDING_DEVICE",
+  "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
+  "accepted_main_sha": "b537c7bbd74cb9adfeff068aa9efa1912d29cd4f",
+  "adb_observation": {
+    "serial": "27211JEGR06194",
+    "state": "unauthorized",
+    "observed_at_utc": "2026-09-07T20:59:22Z"
+  },
+  "execution_packet": [
+    "Owner unlocks USB debugging authorization on Pixel 6a 27211JEGR06194",
+    "adb devices shows 'device'",
+    "Checkout anime-aggressors accepted main b537c7bbd74c",
+    "Run Wave022 pixel harness / install APK built from that SHA",
+    "Record PIXEL acceptance JSON bound to accepted main SHA (not local-only 780818a1 provenance)"
+  ],
+  "local_provenance_note": "Local PIXEL_BUILD_PROVENANCE.json exists but PHYSICALLY_TESTED_RUNTIME_SHA!=accepted main; not current-pin PASS.",
+  "evidence_class": "TARGET_HARDWARE",
+  "cursor_can_do_more_now": false,
+  "requires_edmund": true
+}

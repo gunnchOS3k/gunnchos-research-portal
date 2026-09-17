@@ -1,0 +1,21 @@
+{
+  "schema": "gunnchos.release.ready_packet.v1",
+  "packet": "GUNNCHAI_HUMAN_EVAL",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "status": "PENDING_HUMANS",
+  "HUMAN_EVALUATION": "PENDING_HUMANS",
+  "digital_status": "DIGITAL_GREEN",
+  "accepted_main_sha": "4b4f411710e8cdb8102a7e11502f8497f68156b1",
+  "prep_assets_on_main": [
+    "evals/wave003/results/WAVE003_EVAL.json",
+    "evidence/engineering_wave003/",
+    "docs/13_EVALUATION_AND_RED_TEAMING.md"
+  ],
+  "owner_actions": [
+    "Recruit human evaluators",
+    "Run human rubric against current main SHA",
+    "File HUMAN_E6 evidence; do not infer from digital PASS"
+  ],
+  "cursor_can_do_more_now": false,
+  "requires_edmund": true
+}
