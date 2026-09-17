@@ -83,3 +83,5 @@ Lab: `os_build/cx2h3_linux_lab/`.
 ## Next gate
 
 `NEXT_CX_GATE=CX2H4_P0_DIGITAL_CLOSURE_AUDIT`
+
+Portal follow-on: `docs/cx2h4-p0-digital-closure-control` (CX2H.4).
