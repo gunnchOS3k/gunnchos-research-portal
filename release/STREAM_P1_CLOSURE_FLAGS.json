@@ -3,7 +3,7 @@
   "generated_at_utc": "2026-09-17T00:16:00Z",
   "prompt": "17G.5F",
   "device_os_pr": 134,
-  "device_os_tip": "96772ca1e3a0243270860a2bac5893b157f6d957",
+  "device_os_tip": "e26e4caec753d09ad8bfd79fadb9bbfb865659ae",
   "portal_pr": 14,
   "pin_manifest_sha256": "456cd0277f777076bfaa001a7e0b97a5c35313627f142d57b989355847f81e42",
   "waike_accepted_main": "5037df0c2dd1a966fcb07422a27366b14fe56b2f",
@@ -54,6 +54,6 @@
     "updated_at_utc": "2026-09-17T00:14:51Z"
   },
   "WAIKE_EFFECTIVE_WEBVIEW_CSP_PASS": true,
-  "updated_at_utc": "2026-09-17T15:38:02Z",
+  "updated_at_utc": "2026-09-17T15:42:30Z",
   "NEXT_GATE": "WAIKE_PR16_CUSTOM_PROTOCOL_EMBED_OWNER_MERGE_REFREEZE"
 }
