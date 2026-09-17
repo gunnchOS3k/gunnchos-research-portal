@@ -3,7 +3,7 @@
 ## 17G.5F status (WAIKE #15 accepted-main; white-WebView product defect)
 
 - WAIKE LP accepted-main: `5037df0c2dd1a966fcb07422a27366b14fe56b2f` (merge commit of Platform PR #15)
-- Device OS tip: `74478acffbd2a85c8d19d8d9bc9acf87f024e064`
+- Device OS tip: `a5400503c00fcf9749547bc7f75cc392ed2996d6`
 - Artifact: `6442824be7f27355b7189d307cc45da69be31c7ddd30a96134a80c820fb2333a`
 - Manifest: `456cd0277f777076bfaa001a7e0b97a5c35313627f142d57b989355847f81e42`
 - `WAIKE_EFFECTIVE_WEBVIEW_CSP_PASS=true` (DirectiveMap + HTML meta + authorized Hub origin in connect-src)
