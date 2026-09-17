@@ -1,0 +1,194 @@
+{
+  "schema": "gunnchos.complete_experience.persona_journey_matrix.v1",
+  "generated_at_utc": "2026-09-16T01:24:51Z",
+  "acceptance_dimensions": [
+    "discovery_onboarding",
+    "authentic_workflow",
+    "persistence",
+    "recovery",
+    "export_share",
+    "accessibility",
+    "security_privacy",
+    "device_profile",
+    "no_second_primary_computer"
+  ],
+  "personas": {
+    "learner": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        13,
+        17,
+        18
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "ds_xl"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/LEARNER_ACCEPTANCE.md"
+    },
+    "educator": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10,
+        13,
+        20
+      ],
+      "device_profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/EDUCATOR_ACCEPTANCE.md"
+    },
+    "creator": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        2,
+        3,
+        11,
+        13,
+        15,
+        16
+      ],
+      "device_profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/CREATOR_ACCEPTANCE.md"
+    },
+    "developer": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        2,
+        3,
+        12,
+        13,
+        15,
+        18
+      ],
+      "device_profiles": [
+        "ds_xl"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/DEVELOPER_ACCEPTANCE.md"
+    },
+    "hardware_builder": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        7,
+        11,
+        12,
+        19,
+        21
+      ],
+      "device_profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/HARDWARE_BUILDER_ACCEPTANCE.md"
+    },
+    "office_worker": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        16,
+        18
+      ],
+      "device_profiles": [
+        "office_dock"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/OFFICE_WORKER_ACCEPTANCE.md"
+    },
+    "gamer": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        3,
+        14,
+        15,
+        16
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "ds_xl"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/GAMER_ACCEPTANCE.md"
+    },
+    "family_user": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        14,
+        18,
+        20,
+        21
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "office_dock"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/FAMILY_USER_ACCEPTANCE.md"
+    },
+    "accessibility_user": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        1,
+        4,
+        5,
+        8,
+        13,
+        18,
+        21
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/ACCESSIBILITY_USER_ACCEPTANCE.md"
+    },
+    "offline_user": {
+      "status": "DEFINED_NOT_EXECUTED",
+      "primary_capabilities": [
+        2,
+        4,
+        5,
+        9,
+        14,
+        17,
+        18
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "community_hub"
+      ],
+      "remote_cloud_path_for_high_end": "declared_not_deleted",
+      "acceptance_plan_path": "docs/complete-experience/personas/OFFLINE_USER_ACCEPTANCE.md"
+    }
+  }
+}

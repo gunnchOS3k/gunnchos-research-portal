@@ -1,0 +1,36 @@
+{
+  "schema": "gunnchos.contracts.AppPackage.v1",
+  "required": [
+    "package_id",
+    "version",
+    "channel",
+    "signature"
+  ],
+  "properties": {
+    "package_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "channel": {
+      "enum": [
+        "stable",
+        "beta",
+        "dev"
+      ]
+    },
+    "signature": {
+      "type": "string"
+    },
+    "sandbox_profile": {
+      "type": "string"
+    },
+    "portals_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

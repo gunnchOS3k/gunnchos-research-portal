@@ -1,0 +1,30 @@
+{
+  "schema": "gunnchos.contracts.AppProvider.v1",
+  "required": [
+    "provider_id",
+    "operations"
+  ],
+  "properties": {
+    "provider_id": {
+      "type": "string"
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "discover",
+          "install",
+          "update",
+          "rollback",
+          "remove"
+        ]
+      }
+    },
+    "lanes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
