@@ -1,0 +1,19 @@
+{
+  "schema": "gunnchos.contracts.PortfolioArtifact.v1",
+  "required": [
+    "artifact_id",
+    "title",
+    "visibility",
+    "linked_credential_ids",
+    "certification_claimed"
+  ],
+  "properties": {
+    "artifact_id": { "type": "string" },
+    "title": { "type": "string" },
+    "visibility": { "enum": ["private", "selective", "public_local"] },
+    "linked_credential_ids": { "type": "array" },
+    "evidence_refs": { "type": "array" },
+    "summary": { "type": "string" },
+    "certification_claimed": { "type": "boolean", "const": false }
+  }
+}

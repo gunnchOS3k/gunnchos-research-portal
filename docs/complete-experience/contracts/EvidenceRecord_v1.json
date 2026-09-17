@@ -1,0 +1,20 @@
+{
+  "schema": "gunnchos.contracts.EvidenceRecord.v1",
+  "required": [
+    "evidence_id",
+    "source",
+    "artifact_sha256",
+    "artifact_path",
+    "captured_at",
+    "certification_claimed"
+  ],
+  "properties": {
+    "evidence_id": { "type": "string" },
+    "source": { "enum": ["vault", "learning", "lab", "import"] },
+    "artifact_sha256": { "type": "string" },
+    "artifact_path": { "type": "string" },
+    "captured_at": { "type": "string" },
+    "mime": { "type": "string" },
+    "certification_claimed": { "type": "boolean", "const": false }
+  }
+}
