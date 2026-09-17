@@ -1,0 +1,42 @@
+{
+  "schema": "gunnchos.contracts.IdentitySession.v1",
+  "required": [
+    "session_id",
+    "profile_id",
+    "auth_method",
+    "issued_at",
+    "expires_at",
+    "state"
+  ],
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "auth_method": {
+      "enum": [
+        "password",
+        "passkey",
+        "guardian",
+        "school_sso",
+        "guest"
+      ]
+    },
+    "issued_at": {
+      "type": "string"
+    },
+    "expires_at": {
+      "type": "string"
+    },
+    "state": {
+      "enum": [
+        "active",
+        "locked",
+        "revoked",
+        "guest"
+      ]
+    }
+  }
+}

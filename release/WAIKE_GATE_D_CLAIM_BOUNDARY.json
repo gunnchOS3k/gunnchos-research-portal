@@ -1,0 +1,59 @@
+{
+  "schema": "gunnchos.release.waike_gate_d_claim_boundary.v1",
+  "generated_at_utc": "2026-09-07T20:59:22Z",
+  "accepted_main_sha": "ef73dc1804b9aca93382b846283d26e6c7ff0ea4",
+  "gates": {
+    "Gate_B_PR_5": {
+      "state": "MERGED",
+      "merge_commit_subject": "Merge pull request #5 from gunnchOS3k/cursor/waike-learning-gate-b-ai-18-tracks"
+    },
+    "Gate_C_PR_6": {
+      "state": "MERGED",
+      "merge_commit_subject": "Merge pull request #6 from gunnchOS3k/cursor/waike-learning-gate-c-interop-hardening"
+    },
+    "Gate_D_PR_7": {
+      "state": "MERGED",
+      "merge_commit_subject": "Merge pull request #7 from gunnchOS3k/cursor/waike-learning-gate-d-full-acceptance"
+    }
+  },
+  "digital_baseline": "GATE_D",
+  "software_blocker_waike_pr5_open": false,
+  "claims": {
+    "ALL_18_WAIKE_TRACKS_DIGITALLY_AVAILABLE": {
+      "status": "EARNED_DIGITAL",
+      "evidence": "reports/GATE_D_ALL_18_TRACK_ACCEPTANCE.json on accepted main (18/18 PASS)",
+      "evidence_class": "DIGITAL"
+    },
+    "LEARNER_AND_INSTRUCTOR_WORKFLOWS_DIGITALLY_COMPLETE": {
+      "status": "EARNED_DIGITAL",
+      "evidence": "reports/GATE_D_LEARNER_JOURNEY.json + GATE_D_INSTRUCTOR_JOURNEY.json status=PASS",
+      "evidence_class": "DIGITAL"
+    },
+    "READY_FOR_STAFF_ALPHA_AND_HUMAN_VALIDATION": {
+      "status": "EARNED_DIGITAL_READINESS",
+      "evidence": "Gate D digital baseline merged; staff-alpha execution packet prepared under release/ready_packets/",
+      "evidence_class": "DIGITAL",
+      "human_classroom_validation": "PENDING_HUMANS"
+    },
+    "AUTOMATED_FULL_PLATFORM_PASS": {
+      "status": "NOT_CLAIMED_AS_MASTER_TOKEN",
+      "reason": "Committed reports/FULL_COMPLETION_STATE.json remains source=committed_baseline_not_ci_artifact with claims_earned=[]. Gate D journey/track reports PASS on main; master token requires exact-head CI artifact per WAIKE honesty rule.",
+      "supporting_digital_reports_on_main": true,
+      "evidence_class": "DIGITAL"
+    }
+  },
+  "must_remain_open": [
+    "HUMAN staff alpha / classroom validation",
+    "Physical Device Quartet",
+    "WCAG certification",
+    "FERPA / institutional privacy certification",
+    "OneRoster / QTI / LTI external vendor field certification",
+    "Independent external security review",
+    "Production signing / notarization"
+  ],
+  "pins": {
+    "device_os": "4f02a48780d300a5d3a7758937b20e3bf9364d0d",
+    "waike_research_ops": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+    "gunnchai": "4b4f411710e8cdb8102a7e11502f8497f68156b1"
+  }
+}

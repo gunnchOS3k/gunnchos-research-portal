@@ -1,0 +1,25 @@
+{
+  "schema": "gunnchos.release.windows_pilot0_blocked.v1",
+  "product": "anime-aggressors",
+  "status": "WINDOWS_PILOT0_PASS_SUPERSEDES_BLOCKED",
+  "prior_code": "GODOT_WEB_EXPORT_TIMEOUT_900S",
+  "closed_at_utc": "2026-09-08T04:10:00Z",
+  "observed_pass_head": "789b229406bef24d0a614309f84ef08e605fec6c",
+  "pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/98",
+  "run_url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/34181939591",
+  "closure": {
+    "root_cause": "CI installed Godot 4.3 mono while project.godot requires 4.5; Web export hung with no index.",
+    "fix": "Godot 4.5.0 standard + 4.5.stable templates; resolve real win64.exe; pre-import; authentic Web export exit 0.",
+    "claim": "WINDOWS_PILOT0_PASS",
+    "soak_seconds": 1800,
+    "web_bundle_bytes": 52179579
+  },
+  "ready_packet": true,
+  "WINDOWS_PILOT0_CANDIDATES_READY_FOR_OWNER": true,
+  "ANIME_PIXEL_ACCEPTANCE": "PENDING_DEVICE",
+  "non_claims": [
+    "Does not claim Pixel device acceptance",
+    "Does not claim Unity licensed Windows PASS",
+    "Does not start DEVICE_LAB"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "gunnchos.contracts.FileProvider.v1",
+  "required": [
+    "provider_id",
+    "uri_schemes",
+    "capabilities"
+  ],
+  "properties": {
+    "provider_id": {
+      "type": "string"
+    },
+    "uri_schemes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "list",
+          "read",
+          "write",
+          "watch",
+          "search",
+          "thumbnail"
+        ]
+      }
+    },
+    "offline_cache": {
+      "type": "boolean"
+    }
+  }
+}

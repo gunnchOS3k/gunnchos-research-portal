@@ -1,0 +1,718 @@
+{
+  "schema": "gunnchos.complete_experience.capability_registry.v1",
+  "version": "1.0.0",
+  "generated_at_utc": "2026-09-16T01:24:51Z",
+  "authority": {
+    "name": "Complete Experience Capability Registry",
+    "scope": "portfolio-level Complete Experience ownership and coverage truth",
+    "does_not_override": [
+      "Device Lab gate authority in Portal release-control (PR #14 / stream-p1)",
+      "Device Lab accepted-main pin manifests",
+      "Device OS PR #134 current-pin revalidation branch"
+    ]
+  },
+  "truth_rules": [
+    "Build != journey success",
+    "Package install != complete",
+    "Schema != certification",
+    "Lint != accessibility PASS",
+    "No fabricated evidence",
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE must remain false until all persona no-second-computer journeys PASS with evidence"
+  ],
+  "repos_audited": {
+    "gunnchos-research-portal": {
+      "accepted_main_sha": "eef765bdb6156a59a2aef556292cdf1e9e16efb6",
+      "role": "complete_experience_control_plane + release_control_plane",
+      "device_lab_pin": true
+    },
+    "gunnchos-device-os": {
+      "accepted_main_sha": "898e44cfa8b7574c0de7b8312b0996816799eca4",
+      "role": "device_os_orchestrator",
+      "device_lab_pin": true
+    },
+    "gunnchos-waike-learning-platform": {
+      "accepted_main_sha": "b1c3ab5d4faa4d2613569e474013ccf0976d346e",
+      "role": "waike_learning_platform",
+      "device_lab_pin": true
+    },
+    "waike-research-ops": {
+      "accepted_main_sha": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+      "role": "waike_curriculum_ops",
+      "device_lab_pin": true
+    },
+    "gunnchAI3k": {
+      "accepted_main_sha": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+      "role": "gunnchai_runtime",
+      "device_lab_pin": true
+    },
+    "anime-aggressors": {
+      "accepted_main_sha": "258cc0c45991ac9dded0c3d7813894d9fd7ca56d",
+      "role": "game_anime",
+      "device_lab_pin": true
+    },
+    "pedestrian-pursuit": {
+      "accepted_main_sha": "ba698e929b573096ef50e0699990f3f0c6d571b6",
+      "role": "game_pedestrian",
+      "device_lab_pin": true
+    },
+    "archive-of-life-artifact-world": {
+      "accepted_main_sha": "8611d2e30315792c38d7d5062e108b8bb87df2c2",
+      "role": "game_archive",
+      "device_lab_pin": true
+    },
+    "beatlink-party": {
+      "accepted_main_sha": "06b4a6f74159ee933984be913e269eab64246efb",
+      "role": "game_beatlink",
+      "device_lab_pin": true
+    },
+    "gunnchos-hardware-industrial-design": {
+      "accepted_main_sha": "9ee0ef2f688b2c18428bfabc316b23687a02988d",
+      "role": "hardware_industrial_design",
+      "device_lab_pin": true
+    },
+    "edge-io-measurement-node": {
+      "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "role": "edge_io_ring",
+      "device_lab_pin": true
+    },
+    "gunnchos-7gc-ai-ran-field-kit": {
+      "accepted_main_sha": "9e93e41a3b16b009c9cc5163b775360d4d2ef693",
+      "role": "ai_ran_field_kit",
+      "device_lab_pin": true
+    },
+    "gunnchos-6g-security-trust-privacy-lab": {
+      "accepted_main_sha": "d276579333a8254c7424e8df50c8824b200bc122",
+      "role": "security_trust_privacy_lab",
+      "device_lab_pin": true
+    },
+    "7gc-digital-twin": {
+      "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+      "role": "research_continuity_twin",
+      "device_lab_pin": false
+    },
+    "spectrumx-ai-ran-gary": {
+      "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
+      "role": "research_ai_ran",
+      "device_lab_pin": false
+    },
+    "readygary-6g-beam-selection": {
+      "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+      "role": "research_beam_selection",
+      "device_lab_pin": false
+    },
+    "ntn-resilience-sim": {
+      "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
+      "role": "research_ntn_resilience",
+      "device_lab_pin": false
+    },
+    "gunnchos-gpu-nr-baseband-platform": {
+      "accepted_main_sha": "3931f51d43b7bee87db6d710a9df5a7c1136fcfa",
+      "role": "phy_baseband",
+      "device_lab_pin": false
+    },
+    "gunnchos-emergent-service-intent-protocols": {
+      "accepted_main_sha": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+      "role": "research_service_intent",
+      "device_lab_pin": false
+    },
+    "gunnchos-technology-landscape": {
+      "accepted_main_sha": "DISCOVERED_VIA_GH_NOT_LOCALLY_PINNED",
+      "role": "books_technology_landscape",
+      "device_lab_pin": false
+    },
+    "gunnchos-site": {
+      "accepted_main_sha": "DISCOVERED_VIA_GH_NOT_LOCALLY_PINNED",
+      "role": "public_site",
+      "device_lab_pin": false
+    }
+  },
+  "capabilities": [
+    {
+      "id": 1,
+      "key": "onboarding_identity",
+      "name": "Onboarding / Identity",
+      "status": "PARTIAL",
+      "production_authority": "gunnchos-device-os:UnifiedIdentityPlane (digital; multiple planes coexist)",
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-waike-learning-platform"
+      ],
+      "implementation": "Device OS phase_xv identity, onboarding_wizard, UnifiedIdentityPlane; WAIKE hub identity module",
+      "tests_evidence": [
+        "tests/phase_xv/test_phase_xv.py",
+        "tests/test_onboarding_wizard.py",
+        "tests/test_unified_identity.py"
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "ds_xl",
+        "office_dock"
+      ],
+      "missing": [
+        "Single production IdentitySession authority",
+        "Biometrics PHYSICAL_PENDING",
+        "First-boot shell product UX"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 2,
+      "key": "files_sync_backup_recovery",
+      "name": "Files / Sync / Backup / Recovery",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "StoragePlane, WebDAV lab protocol, OfflineSyncEngine, serviceability backup/restore",
+      "tests_evidence": [
+        "tests/wp013/test_serviceability.py",
+        "tests/test_offline_sync.py"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "FileProvider v1 product surface",
+        "cloud/drive mounts",
+        "user-facing Files UX",
+        "cross-device SyncProvider"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 3,
+      "key": "app_discovery_install_update_rollback",
+      "name": "App discovery / install / update / rollback",
+      "status": "PARTIAL",
+      "production_authority": "gunnchos-device-os:PackageManager (digital channels)",
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "PackageManager, package_lifecycle, sandbox_executor (bubblewrap), Flatpak lane metadata",
+      "tests_evidence": [
+        "tests/phase_xiv/test_phase_xiv.py",
+        "tests/test_updater_rollback.py",
+        "tests/test_sandbox_policy.py"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "xdg-desktop-portal",
+        "app store discovery UX",
+        "AppProvider/AppPackage contracts enforced in product",
+        "portal file-chooser"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 4,
+      "key": "browser_web_pwa",
+      "name": "Browser / Web / PWA",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "Cont IX browser_e2e, WEB_PWA compat lane, Device Lab Chromium guest evidence",
+      "tests_evidence": [
+        "artifacts/continuation_ix/browser_e2e.json"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "Product browser shell",
+        "PWA install/update/offline-cache lifecycle"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 5,
+      "key": "everyday_productivity",
+      "name": "Everyday productivity",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "Cont VIII/IX LibreOffice/PDF digital stack; productivity_install ledger",
+      "tests_evidence": [
+        "artifacts/continuation_ix/office_work_digital_ready.json",
+        "tests/test_continuation_ix_digital_lock.py"
+      ],
+      "device_profiles": [
+        "office_dock",
+        "ds_xl",
+        "handheld_student"
+      ],
+      "missing": [
+        "Notes/tasks/whiteboard/screenshot/screen-recording product paths",
+        "MS Office EXTERNAL_PENDING",
+        "provider qualification standardization"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 6,
+      "key": "comms_collab",
+      "name": "Email / calendar / chat / video / screen sharing",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "email_calendar_e2e (PWA fallback), video_meeting_e2e synthetic, Matrix L2 sim",
+      "tests_evidence": [
+        "artifacts/continuation_ix/email_calendar_e2e.json",
+        "artifacts/continuation_ix/video_meeting_e2e.json"
+      ],
+      "device_profiles": [
+        "office_dock",
+        "handheld_student"
+      ],
+      "missing": [
+        "Native email client",
+        "gunnch Connect chat product",
+        "real A/V + screen share",
+        "presence/DND"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 7,
+      "key": "printers_scanners_peripherals",
+      "name": "Printers / scanners / peripherals",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "edge-io-measurement-node"
+      ],
+      "implementation": "CUPS-PDF virtual print; print_backend lab; Ring sensing adjacent",
+      "tests_evidence": [
+        "device_lab/hw_backends/print_backend.py"
+      ],
+      "device_profiles": [
+        "office_dock"
+      ],
+      "missing": [
+        "IPP detection",
+        "SANE scanners",
+        "peripheral hotplug product path",
+        "physical CUPS PHYSICAL_PENDING"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 8,
+      "key": "accessibility",
+      "name": "Accessibility",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "accessibility_manager SUPPORTED_FEATURES; phase_xv AT-SPI-style tree; a11y_hardening",
+      "tests_evidence": [
+        "tests/test_accessibility_manager.py"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "Human a11y study HUMAN_PENDING",
+        "AT-SPI guest bus reliability",
+        "WCAG journey PASS evidence (lint \u2260 a11y PASS)"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 9,
+      "key": "waike_learning_teaching",
+      "name": "WAIKE learning / teaching",
+      "status": "PARTIAL",
+      "production_authority": "gunnchos-waike-learning-platform (runtime); waike-research-ops (curriculum SoT)",
+      "repos": [
+        "gunnchos-waike-learning-platform",
+        "waike-research-ops",
+        "gunnchos-device-os"
+      ],
+      "implementation": "Hub activity/assessment/gradebook; Gate B/C/D; LTI/QTI/OneRoster digital; Device Lab GUI/Hub still blocked on accepted-main hub bind",
+      "tests_evidence": [
+        "reports/GATE_D_ALL_18_TRACK_ACCEPTANCE.json",
+        "tests/gate_d/*"
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "ds_xl"
+      ],
+      "missing": [
+        "CASE/Caliper/OB3/CLR/Edu-API",
+        "Device Lab authentic Hub bind (train blocker)",
+        "staff-alpha HUMAN_PENDING"
+      ],
+      "device_lab_train_depends": true,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 10,
+      "key": "portfolio_credentials",
+      "name": "Portfolio / credentials",
+      "status": "ABSENT",
+      "production_authority": null,
+      "repos": [
+        "waike-research-ops",
+        "gunnchos-waike-learning-platform"
+      ],
+      "implementation": "Ops docs/portfolio stubs only; no LP runtime issuer",
+      "tests_evidence": [],
+      "device_profiles": [
+        "handheld_student",
+        "ds_xl"
+      ],
+      "missing": [
+        "Open Badges 3.0",
+        "CLR 2.0",
+        "verifiable credential schemas",
+        "portfolio SoR endpoints"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 11,
+      "key": "creative_studio",
+      "name": "Creative studio",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-hardware-industrial-design"
+      ],
+      "implementation": "creator_studio hub (coder/project); KiCad SoT in hardware; launcher placeholders for Krita/GIMP/Blender",
+      "tests_evidence": [
+        "artifacts/product_use/journeys/G15_creative/result.json"
+      ],
+      "device_profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "missing": [
+        "Blender/Krita/GIMP/Inkscape/OBS/Kdenlive packaging lanes",
+        "CreatorProject provider",
+        "qualification matrix PASS"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 12,
+      "key": "developer_maker_workstation",
+      "name": "Developer / data / AI / cyber / maker workstation",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-hardware-industrial-design",
+        "gunnchAI3k",
+        "gunnchos-gpu-nr-baseband-platform"
+      ],
+      "implementation": "terminal+IDE ledger; creator_studio; DS-XL coder contracts; KiCad; research baseband",
+      "tests_evidence": [
+        "tests/test_dual_screen.py"
+      ],
+      "device_profiles": [
+        "ds_xl"
+      ],
+      "missing": [
+        "Podman/OCI workstation image",
+        "packet-capture/RISC-V/Verilog productized matrix",
+        "DS-XL dual-eDP EXTERNAL_PENDING"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 13,
+      "key": "gunnchai",
+      "name": "gunnchAI",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchAI3k",
+        "gunnchos-waike-learning-platform",
+        "gunnchos-device-os"
+      ],
+      "implementation": "product_service /v1/assist; capability_mechanisms; stage2 capability echo; local-runtime providers; WAIKE adapter",
+      "tests_evidence": [
+        "tests/system-layer/product_service.test.ts",
+        "tests/system-layer/capability_mechanisms.test.ts"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "Unified Capability Broker contract",
+        "single capability enum",
+        "WAIKE adapter SHA drift vs origin/main"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 14,
+      "key": "games_media_leisure",
+      "name": "Games / media / leisure",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "anime-aggressors",
+        "pedestrian-pursuit",
+        "archive-of-life-artifact-world",
+        "beatlink-party",
+        "gunnchos-device-os"
+      ],
+      "implementation": "Four first-party games with Device Lab guest proofs; Cont VIII/IX recreation digital ready; media baseline mock",
+      "tests_evidence": [
+        "artifacts/product_use/journeys/FOUR_GAME/four_games_in_guest.json"
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "ds_xl"
+      ],
+      "missing": [
+        "Media library/player product",
+        "gamepad/BT PHYSICAL_PENDING",
+        "HUMAN_QA_PENDING",
+        "package manifest SHA drift"
+      ],
+      "device_lab_train_depends": true,
+      "safe_parallel": false,
+      "priority": "P1"
+    },
+    {
+      "id": 15,
+      "key": "compatibility_remote_execution",
+      "name": "Compatibility / remote execution",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "CompatRegistry lanes (native/Flatpak/PWA/OCI/Proton/Android experimental); qemu-user for guest arch",
+      "tests_evidence": [
+        "tests/stage2/test_compat.py"
+      ],
+      "device_profiles": [
+        "ds_xl",
+        "office_dock"
+      ],
+      "missing": [
+        "RemoteExecutionProvider (RDP/VNC)",
+        "cloud render/build adapters",
+        "Android lane unevaluated"
+      ],
+      "device_lab_train_depends": true,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 16,
+      "key": "continuity",
+      "name": "Continuity",
+      "status": "PHYSICAL_PENDING",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "7gc-digital-twin",
+        "ntn-resilience-sim",
+        "gunnchos-emergent-service-intent-protocols",
+        "edge-io-measurement-node",
+        "gunnchos-hardware-industrial-design"
+      ],
+      "implementation": "ContinuityCoordinator digital dock sim; research twins; Ring sensing; dock CAD",
+      "tests_evidence": [
+        "tests/test_dock_continuity_sim_suite.py",
+        "docs/gate1/DOCK_CONTINUITY.md"
+      ],
+      "device_profiles": [
+        "office_dock",
+        "handheld_student"
+      ],
+      "missing": [
+        "Physical dock SI",
+        "nearby transfer/clipboard UX",
+        "ContinuityState product authority"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 17,
+      "key": "offline_low_bandwidth_community_hub",
+      "name": "Offline / low-bandwidth / community hub",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-waike-learning-platform",
+        "ntn-resilience-sim"
+      ],
+      "implementation": "OfflineSyncEngine, offline_mode_manager, network_decision; WAIKE offline reconnect GUI skipped on Device Lab",
+      "tests_evidence": [
+        "tests/test_offline_sync.py"
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "community_hub"
+      ],
+      "missing": [
+        "Community hub product",
+        "E2E offline reconnect on Device Lab",
+        "low-bandwidth adaptive UX"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 18,
+      "key": "security_privacy",
+      "name": "Security / privacy",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-6g-security-trust-privacy-lab"
+      ],
+      "implementation": "privacy controller, permissions_manager, sandbox, attestation digital; research lab",
+      "tests_evidence": [
+        "tests/privacy/test_privacy_controller.py",
+        "tests/test_permissions_manager.py"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "Portal-mediated permission UX",
+        "production IdP/TPM",
+        "PermissionGrant product contract"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    },
+    {
+      "id": 19,
+      "key": "firmware_driver_hardware_lifecycle",
+      "name": "Firmware / driver / hardware lifecycle",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-hardware-industrial-design"
+      ],
+      "implementation": "DriverHal sim, capsule_update_client simulated, A/B OS update; no fwupd/LVFS",
+      "tests_evidence": [
+        "tests/test_capsule_update_client.py",
+        "tests/phase_xv/test_phase_xv.py"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "fwupd/LVFS provider",
+        "live device probing",
+        "production firmware UX"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 20,
+      "key": "school_family_work_admin",
+      "name": "School / family / work administration",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-waike-learning-platform"
+      ],
+      "implementation": "MDM policy agent digital sample policies; guardian/parental controls; school/fleet modes",
+      "tests_evidence": [
+        "tests/test_secure_boot_mdm.py",
+        "tests/test_guardian_controls.py"
+      ],
+      "device_profiles": [
+        "handheld_student",
+        "fleet_admin"
+      ],
+      "missing": [
+        "Production MDM enrollment/push/wipe EXTERNAL_PENDING",
+        "EffectivePolicy production authority"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P1"
+    },
+    {
+      "id": 21,
+      "key": "support_repair_ownership",
+      "name": "Support / repair / ownership",
+      "status": "PARTIAL",
+      "production_authority": null,
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "implementation": "export_diagnostic_bundle + redact_text; support_lifecycle; support_self_service Cont IX",
+      "tests_evidence": [
+        "tests/wp013/test_serviceability.py"
+      ],
+      "device_profiles": [
+        "all"
+      ],
+      "missing": [
+        "SupportBundle product UX",
+        "ownership transfer flows",
+        "repair scheduling"
+      ],
+      "device_lab_train_depends": false,
+      "safe_parallel": true,
+      "priority": "P0"
+    }
+  ],
+  "status_counts": {
+    "PARTIAL": 19,
+    "ABSENT": 1,
+    "PHYSICAL_PENDING": 1
+  },
+  "priority_counts": {
+    "P0": 12,
+    "P1": 9
+  }
+}

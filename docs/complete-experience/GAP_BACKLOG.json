@@ -1,0 +1,261 @@
+{
+  "schema": "gunnchos.complete_experience.gap_backlog.v1",
+  "counts": {
+    "P0": 12,
+    "P1": 11,
+    "P2": 5,
+    "P3": 3
+  },
+  "gaps": [
+    {
+      "id": "CX-P0-001",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 1,
+      "title": "Single IdentitySession production authority + first-boot UX",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-002",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 2,
+      "title": "FileProvider/SyncProvider/BackupProvider product surfaces",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-003",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 3,
+      "title": "xdg-desktop-portal + AppProvider discovery UX",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-004",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 4,
+      "title": "Product browser/PWA lifecycle manager",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-005",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 5,
+      "title": "Everyday docs path beyond digital LibreOffice install ledger",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-006",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 6,
+      "title": "Native email/calendar client path (PWA fallback insufficient)",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-007",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 7,
+      "title": "IPP printer detection + physical print path",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-008",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 8,
+      "title": "Accessibility journey PASS evidence (not lint)",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-009",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 17,
+      "title": "Offline reconnect + Files offline UX",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-010",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 18,
+      "title": "Portal-mediated PermissionGrant UX",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-011",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 21,
+      "title": "SupportBundle product export with redaction UX",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P0-012",
+      "priority": "P0",
+      "class": "COMPLETE-EXPERIENCE BLOCKER",
+      "domain": 9,
+      "title": "WAIKE authentic Hub bind on Device Lab (train-owned; do not hijack #134)",
+      "status": "OPEN",
+      "device_lab_train": true
+    },
+    {
+      "id": "CX-P1-001",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 10,
+      "title": "Portfolio/credentials runtime (OB3/CLR)",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-002",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 11,
+      "title": "Creative studio FOSS packaging qualification",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-003",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 12,
+      "title": "Podman/OCI developer workstation image",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-004",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 13,
+      "title": "Unified Capability Broker in gunnchAI",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-005",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 14,
+      "title": "Media library/player + game HUMAN_QA",
+      "status": "OPEN",
+      "device_lab_train": true
+    },
+    {
+      "id": "CX-P1-006",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 15,
+      "title": "RemoteExecutionProvider (RDP/VNC/cloud)",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-007",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 16,
+      "title": "Physical dock continuity SI",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-008",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 19,
+      "title": "fwupd/LVFS firmware provider",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-009",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 20,
+      "title": "Production MDM EffectivePolicy authority",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-010",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 6,
+      "title": "Chat/video/screen-share product (gunnch Connect)",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P1-011",
+      "priority": "P1",
+      "class": "MAJOR",
+      "domain": 9,
+      "title": "CASE/Caliper/Edu-API standards adapters",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P2-001",
+      "priority": "P2",
+      "class": "PARITY",
+      "domain": 5,
+      "title": "Notes/tasks/whiteboard/screenshot/screen-recording",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P2-002",
+      "priority": "P2",
+      "class": "PARITY",
+      "domain": 7,
+      "title": "Scanner/SANE support",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P2-003",
+      "priority": "P2",
+      "class": "PARITY",
+      "domain": 15,
+      "title": "Android compatibility lane evaluation",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P2-004",
+      "priority": "P2",
+      "class": "PARITY",
+      "domain": 14,
+      "title": "Gamepad/BT leisure peripherals",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P2-005",
+      "priority": "P2",
+      "class": "PARITY",
+      "domain": 12,
+      "title": "Packet-capture / RISC-V / Verilog productized matrix",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P3-001",
+      "priority": "P3",
+      "class": "ENHANCEMENT",
+      "domain": 16,
+      "title": "Nearby share / clipboard handoff polish",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P3-002",
+      "priority": "P3",
+      "class": "ENHANCEMENT",
+      "domain": 17,
+      "title": "Community hub content marketplace",
+      "status": "OPEN"
+    },
+    {
+      "id": "CX-P3-003",
+      "priority": "P3",
+      "class": "ENHANCEMENT",
+      "domain": 21,
+      "title": "Repair scheduling integration",
+      "status": "OPEN"
+    }
+  ]
+}
