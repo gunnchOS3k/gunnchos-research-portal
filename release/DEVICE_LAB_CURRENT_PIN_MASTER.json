@@ -4,7 +4,7 @@
   "work_item": "DEVICE_LAB_CURRENT_PIN_REVALIDATION",
   "branch": "cursor/device-lab-current-pin-revalidation",
   "base": "origin/main",
-  "device_os_tip": "bd26ff335888f1575188bb1aab8379fab23029e0",
+  "device_os_tip": "df325461842f80cf00f89ee77e60a522b38bb443",
   "pin_manifest_sha256": "456cd0277f777076bfaa001a7e0b97a5c35313627f142d57b989355847f81e42",
   "LIVE_GUNNCHOS_VISUAL_PASS": true,
   "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
@@ -72,5 +72,7 @@
   "WAIKE_GUEST_HUB_REACHABILITY_PASS": true,
   "WAIKE_REAL_HUB_CLIENT_BIND_PASS": false,
   "NEXT_GATE": "DEVICE_OS_134_WAIKE_CLIENT_HTTP_BIND_REEARN",
-  "prompt_17g5f": true
+  "prompt_17g5f": true,
+  "updated_at_utc": "2026-09-17T14:53:47Z",
+  "device_os_134_ci_green": true
 }
