@@ -62,3 +62,17 @@ Evidence: Device OS `artifacts/complete_experience/cx2h/`.
 `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
 
 - [CX2H Journey Digital Pass Control](./CX2H_JOURNEY_DIGITAL_PASS_CONTROL.md)
+
+## CX2H.2
+
+Document/print/recovery J1+J7 on `docs/cx2h2-document-print-recovery-control` (stacked on CX2H.1B).
+
+Device OS: `eng/cx2h2-document-print-recovery-j1-j7` (base CX2H.1B).
+
+J2/J5 remain BLOCKED. J6 HUMAN_VALIDATION_PENDING. PHYSICAL_PRINTER_PENDING=true.
+
+Evidence: Device OS `artifacts/complete_experience/cx2h2/`.
+
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+
+- [CX2H.2 Document/Print/Recovery Control](./CX2H2_DOCUMENT_PRINT_RECOVERY_CONTROL.md)
