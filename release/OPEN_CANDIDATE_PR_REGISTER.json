@@ -7,7 +7,7 @@
       "pr": 134,
       "role": "device_lab_evidence",
       "merged": false,
-      "tip": "a03dc5d02d55b5f2c4855ff784b9239f78888e6d"
+      "tip": "819f5a839cad9442d7850a203a9f59db37b08c70"
     },
     {
       "repo": "gunnchos-research-portal",
@@ -17,10 +17,10 @@
     },
     {
       "repo": "gunnchos-waike-learning-platform",
-      "pr": 12,
+      "pr": 17,
       "role": "product_hub_endpoint_policy_runtime",
       "merged": true,
-      "merge_sha": "232fc8dc3aa10d3dd644ef48d1d8c63da50d4d3c"
+      "merge_sha": "7ccb64459df088d41655af51c959a7bbbac849a3"
     }
   ],
   "consumer_only": [
@@ -47,9 +47,15 @@
     "NEXT_GATE": "DEVICE_OS_134_WAIKE_9P_BUNDLE_FETCH_OVER_VIRTIO_SERIAL",
     "updated_at_utc": "2026-09-16T22:15:00Z"
   },
-  "updated_at_utc": "2026-09-17T14:53:47Z",
-  "device_os_pr_134_tip": "df325461842f80cf00f89ee77e60a522b38bb443",
-  "waike_accepted_main": "5037df0c2dd1a966fcb07422a27366b14fe56b2f",
+  "updated_at_utc": "2026-09-17T21:54:37Z",
+  "device_os_pr_134_tip": "819f5a839cad9442d7850a203a9f59db37b08c70",
+  "waike_accepted_main": "7ccb64459df088d41655af51c959a7bbbac849a3",
   "note_17g5f": "WAIKE #15 effective CSP PASS; client HTTP bind FAIL; do not merge #134/#14",
-  "device_os_134_ci_green": true
+  "device_os_134_ci_green": true,
+  "waike_artifact_sha256": "071cce1383561e14cf957cdcd5e932e04884a2d2a5bba35cdbbce08e137e58f8",
+  "pin_manifest_sha256": "8da7a6f9688e88b8fa31ad61c6f0f4229a8cbf83cbc0ad0711a81557643df36b",
+  "DEVICE_OS_134_ACCEPTED_MAIN_MERGE_SHA": "PENDING_OWNER_MERGE",
+  "DEVICE_OS_134_EXACT_HEAD_CI_PASS": true,
+  "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+  "note_17g5i": "WAIKE #17 accepted-main CORS re-freeze; #134 exact-head CI green; Portal #14 remains OPEN/DRAFT; do not merge #14 yet"
 }
