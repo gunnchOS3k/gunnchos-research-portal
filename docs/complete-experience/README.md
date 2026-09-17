@@ -48,3 +48,17 @@ Evidence: Device OS `artifacts/complete_experience/cx2f/`.
 
 
 - [CX2G Chromium Shell Render Control](./CX2G_CHROMIUM_SHELL_RENDER_CONTROL.md)
+
+## CX2H
+
+Journey digital-pass closure on `docs/cx2h-journey-digital-pass-control` (stacked on CX2G #22).
+
+Device OS: `eng/cx2h-journey-digital-pass-closure` (base CX2G #143).
+
+CX2H.1: real XDG portal session + J3 App Center Flatpak lifecycle. J1/J2/J5/J7 remain BLOCKED.
+
+Evidence: Device OS `artifacts/complete_experience/cx2h/`.
+
+`FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+
+- [CX2H Journey Digital Pass Control](./CX2H_JOURNEY_DIGITAL_PASS_CONTROL.md)
