@@ -1,12 +1,12 @@
 {
   "schema": "gunnchos.stream_p1.closure_flags.v1",
   "generated_at_utc": "2026-09-17T00:16:00Z",
-  "prompt": "17G.5D",
+  "prompt": "17G.5F",
   "device_os_pr": 134,
-  "device_os_tip": "9e986afb18ebfbf0e75bd582b3ca001d32b940fa",
+  "device_os_tip": "74478acffbd2a85c8d19d8d9bc9acf87f024e064",
   "portal_pr": 14,
-  "pin_manifest_sha256": "47fe0c86856c4eec795a7b28c582532d612175475a83f91ad315720326a5ce15",
-  "waike_accepted_main": "232fc8dc3aa10d3dd644ef48d1d8c63da50d4d3c",
+  "pin_manifest_sha256": "456cd0277f777076bfaa001a7e0b97a5c35313627f142d57b989355847f81e42",
+  "waike_accepted_main": "5037df0c2dd1a966fcb07422a27366b14fe56b2f",
   "LIVE_GUNNCHOS_VISUAL_PASS": true,
   "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
   "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
@@ -28,12 +28,12 @@
   "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": false,
   "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
   "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": false,
-  "primary_blocker": "client_not_bound_to_real_hub_after_policy_authorized_launch",
-  "WAIKE_PRODUCT_PR": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/12",
-  "WAIKE_PRODUCT_PR_MERGED": true,
-  "WAIKE_PRODUCT_PR_MERGE_SHA": "232fc8dc3aa10d3dd644ef48d1d8c63da50d4d3c",
-  "next_gate": "DEVICE_OS_134_WAIKE_RUNTIME_CONTEXT_TO_WEBVIEW_BIND",
-  "note": "17G.5D: 9p owner-bundle fetch over virtio-serial FIXED (FETCH_OK via=9p); trusted runtime Hub launch ack PASS; honest FAIL at WebView Hub bind; do not start gunnchAI.",
+  "primary_blocker": "waike_webview_loads_devurl_localhost_1420_without_custom_protocol",
+  "WAIKE_PRODUCT_PR": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/16",
+  "WAIKE_PRODUCT_PR_MERGED": false,
+  "WAIKE_PRODUCT_PR_MERGE_SHA": null,
+  "next_gate": "WAIKE_PR16_CUSTOM_PROTOCOL_EMBED_OWNER_MERGE_REFREEZE",
+  "note": "17G.5F: effective CSP PASS + Hub reachability PASS; white WebView loads localhost:1420 without custom-protocol; draft WAIKE #16; keep WAIKE=false; do not start gunnchAI.",
   "network_proof_17g5c1": {
     "QEMU_SCOPED_GUESTFWD_PASS": true,
     "QEMU_GUEST_ISOLATION_RETAINED": true,
@@ -54,6 +54,6 @@
     "updated_at_utc": "2026-09-17T00:14:51Z"
   },
   "WAIKE_EFFECTIVE_WEBVIEW_CSP_PASS": true,
-  "updated_at_utc": "2026-09-17T14:12:37Z",
-  "NEXT_GATE": "DEVICE_OS_134_WAIKE_CLIENT_HTTP_BIND_REEARN"
+  "updated_at_utc": "2026-09-17T15:36:51Z",
+  "NEXT_GATE": "WAIKE_PR16_CUSTOM_PROTOCOL_EMBED_OWNER_MERGE_REFREEZE"
 }
