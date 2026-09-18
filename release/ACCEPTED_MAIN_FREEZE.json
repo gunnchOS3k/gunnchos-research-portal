@@ -1,17 +1,19 @@
 {
-  "schema": "gunnchos.device_lab.post_portal14_merge.accepted_main_freeze.v1",
-  "generated_at_utc": "2026-09-17T22:38:08Z",
-  "prompt": "17G.6",
+  "schema": "gunnchos.device_lab.post_155_merge.accepted_main_candidate_freeze.v1",
+  "generated_at_utc": "2026-09-18T01:41:55Z",
+  "prompt": "17G.7",
+  "source": "gunnchos-device-os/artifacts/device_lab_current_pin/post_155_merge/ACCEPTED_MAIN_CANDIDATE_FREEZE.json",
   "run_condition": {
     "waike_17_merge": "7ccb64459df088d41655af51c959a7bbbac849a3",
     "device_os_134_merge": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+    "device_os_155_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "device_os_155_pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
     "portal_14_merge": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
-    "portal_main_equals_14_merge": true,
-    "intervening_portal_commits_after_14": [],
+    "device_os_main_equals_155_merge": true,
     "RUN_CONDITION_MET": true
   },
   "accepted_mains": {
-    "gunnchos-device-os": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+    "gunnchos-device-os": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
     "gunnchos-research-portal": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
     "gunnchos-waike-learning-platform": "7ccb64459df088d41655af51c959a7bbbac849a3",
     "gunnchAI3k": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
@@ -23,10 +25,19 @@
     "gunnchos-hardware-industrial-design": "9ee0ef2f688b2c18428bfabc316b23687a02988d",
     "edge-io-measurement-node": "af57fbdac857ae386b23b5b747fdc05797621f92"
   },
-  "expected_gunnchai_at_campaign_creation": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
-  "gunnchai_live_matches_expected": true,
-  "pin_manifest_sha256": "80c37d959b97666abd688334a76611a264cfd3aa21a3ae317f7740f0897977b1",
-  "pin_manifest_path": "artifacts/device_lab_current_pin/post_portal14_merge/ACCEPTED_MAIN_PIN_MANIFEST.json",
+  "identities": {
+    "device_os_155_pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+    "device_os_155_accepted_main_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "device_os_current_main": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "device_os_134_accepted_main": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+    "portal_14_accepted_main": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+    "waike_17": "7ccb64459df088d41655af51c959a7bbbac849a3",
+    "gunnchai_accepted_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+    "never_present_pr_head_as_accepted_main": true
+  },
+  "pin_manifest_sha256": "271e52938b19f66d79a652d050a8be039cf942bd67ced3cc8cd16babd1db27ea",
+  "original_17g6_freeze_sha256": "a8ab546f9ae939056d047925859e48daf797a6f7d970dc74fc1527618a936724",
+  "new_accepted_main_freeze_sha256": "9115f7b60ea2e362e6399cfcdfefe21fd28ed53cc2a4ebdd2f448aecba65258c",
   "runtime_target": {
     "preflight_path": "artifacts/device_lab_current_pin/waike/RUNTIME_TARGET_PREFLIGHT.json",
     "RUNTIME_TARGET_PREFLIGHT_PASS": true,
@@ -34,28 +45,21 @@
     "source_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
     "artifact_sha256": "071cce1383561e14cf957cdcd5e932e04884a2d2a5bba35cdbbce08e137e58f8"
   },
-  "retained_prior_gates": {
-    "LIVE_GUNNCHOS_VISUAL_PASS": true,
-    "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
-    "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
-    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
-    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
-    "provenance_checks": {
-      "source_artifact": "artifacts/device_lab_current_pin/post_134_merge/DEVICE_OS_134_ACCEPTED_MAIN_RELEASE_REBIND.json",
-      "DEVICE_OS_134_ACCEPTED_MAIN_RELEASE_REBIND_PASS": true,
-      "RUNTIME_TARGET_PREFLIGHT_PASS": true,
-      "waike_sha_match": true,
-      "runtime_target_source_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
-      "artifact_sha256": "071cce1383561e14cf957cdcd5e932e04884a2d2a5bba35cdbbce08e137e58f8",
-      "portal_14_intervening_commits": [],
-      "retention_decision": "RETAIN",
-      "reason": "Post-#134 compact rebind PASS; Portal #14 merge is control-plane only and does not invalidate Device Lab LIVE/DSXL/RING/FOUR_GAME/WAIKE evidence bound to Device OS #134 + WAIKE #17."
-    }
-  },
   "four_game_accepted_mains": {
     "anime-aggressors": "258cc0c45991ac9dded0c3d7813894d9fd7ca56d",
     "pedestrian-pursuit": "ba698e929b573096ef50e0699990f3f0c6d571b6",
     "archive-of-life-artifact-world": "8611d2e30315792c38d7d5062e108b8bb87df2c2",
     "beatlink-party": "06b4a6f74159ee933984be913e269eab64246efb"
-  }
+  },
+  "waike_artifact_sha256": "071cce1383561e14cf957cdcd5e932e04884a2d2a5bba35cdbbce08e137e58f8",
+  "history_snapshots": [
+    {
+      "prompt": "17G.6",
+      "captured_at_utc": "2026-09-17T22:38:08Z",
+      "note": "post_portal14_merge freeze retained historically",
+      "device_os_accepted_main": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+      "portal_14_merge": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+      "freeze_sha256": "a8ab546f9ae939056d047925859e48daf797a6f7d970dc74fc1527618a936724"
+    }
+  ]
 }

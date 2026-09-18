@@ -21,5 +21,8 @@
   "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": false,
   "note": "17G.6 in progress: gunnchAI+lifecycle PASS on Device OS #155; ECO010 1800s soak running; independent verify pending ECO010.",
   "physical_human_external_separate": true,
-  "cursor_never_merges": true
+  "cursor_never_merges": true,
+  "historical": true,
+  "superseded_by": "17G.7",
+  "superseded_note": "Retained as historical snapshot; current state is PROMPT_17G7_PORTAL_REFRESH.json"
 }

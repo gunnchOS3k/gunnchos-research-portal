@@ -15,7 +15,7 @@
     "PRODUCTION_RELEASE_READY_FOR_OWNER": false,
     "WINDOWS_PILOT0_ACCEPTED_MAIN_PASS": true,
     "WINDOWS_CEASED_TO_BE_DIGITAL_BLOCKER": true,
-    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false
+    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": true
   },
   "decision_rationale": {
     "RC_SOFTWARE_PILOT": [
@@ -46,9 +46,9 @@
       "products": [
         {
           "product": "gunnchos-device-os",
-          "accepted_main_sha": "4f02a48780d300a5d3a7758937b20e3bf9364d0d",
-          "accepted_main_sha12": "4f02a48780d3",
-          "digital_status": "PARTIAL",
+          "accepted_main_sha": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+          "accepted_main_sha12": "1c20c264d27b",
+          "digital_status": "DIGITAL_ACCEPTED_MAIN_CANDIDATE",
           "evidence_class_pass": [
             "DIGITAL"
           ],
@@ -62,14 +62,15 @@
           "notes": [
             "Advanced from prior freeze 28562a845620 via PR #132 WAIKE learning Device OS integration.",
             "DIGITAL_RELEASE_LOCK present; DIGITAL blockers empty; PHYSICAL/EXTERNAL open.",
-            "wp011r tokens exist on tree but assessed tips are older than 4f02a48780d3 \u2014 do not inherit as current-pin PASS."
+            "wp011r tokens exist on tree but assessed tips are older than 4f02a48780d3 \u2014 do not inherit as current-pin PASS.",
+            "HISTORICAL notes retained above; 17G.7 current: Device OS #155 accepted-main merge 1c20c264d27bc8daf3a7d5b3280256f871ae1a06."
           ],
           "shipping_os_claimed": false
         },
         {
           "product": "device-lab-integration",
-          "accepted_main_sha12": "4f02a48780d3",
-          "digital_status": "NOT_RUN_CURRENT_PIN",
+          "accepted_main_sha12": "1c20c264d27b",
+          "digital_status": "DIGITAL_ACCEPTED_MAIN_PASS",
           "evidence_class_pass": [],
           "evidence_class_pending": [
             "DIGITAL",
@@ -77,9 +78,9 @@
             "TARGET_HARDWARE"
           ],
           "notes": [
-            "DIGITAL_DEVICE_LAB_PASS=false for current pin (fresh revalidation not executed).",
+            "17G.7 DIGITAL_DEVICE_LAB_ACCEPTED_MAIN_PASS=true on merge 1c20c26.",
             "PHYSICAL_DEVICE_QUARTET_PASS=false (must remain).",
-            "See release/ready_packets/DEVICE_LAB_CURRENT_PIN_READY_PACKET.json."
+            "CX/human/physical/external still open."
           ]
         },
         {
@@ -253,14 +254,14 @@
         },
         {
           "product": "gunnchos-research-portal",
-          "accepted_main_sha12": "eef765bdb615",
-          "digital_status": "CONTROL_PLANE_PR14",
+          "accepted_main_sha12": "7ad4ce84ab61",
+          "digital_status": "CONTROL_PLANE_PR15_OWNER_MERGE_READY",
           "evidence_class_pass": [
             "DIGITAL"
           ],
           "evidence_class_pending": [],
           "notes": [
-            "PR #14 continues as sole RC0 control-plane PR."
+            "Portal #14 accepted-main merged; Portal #15 Prompt 18 control tower final sync awaiting owner merge."
           ]
         }
       ]
@@ -343,11 +344,12 @@
     }
   ],
   "tokens": {
-    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
-    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false
+    "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": true,
+    "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false,
+    "DIGITAL_DEVICE_LAB_ACCEPTED_MAIN_PASS": true
   },
-  "updated_at_utc": "2026-09-18T01:20:13Z",
-  "prompt": "17G.6",
+  "updated_at_utc": "2026-09-18T01:41:55Z",
+  "prompt": "17G.7",
   "device_os_continuation_pr": 155,
   "device_os_continuation_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
   "device_os_continuation_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/155",
@@ -356,7 +358,7 @@
   "device_os_134_merge_sha": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
   "waike_17_merge_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
   "gunnchai_accepted_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
-  "pin_manifest_sha256": "80c37d959b97666abd688334a76611a264cfd3aa21a3ae317f7740f0897977b1",
+  "pin_manifest_sha256": "271e52938b19f66d79a652d050a8be039cf942bd67ced3cc8cd16babd1db27ea",
   "LIVE_GUNNCHOS_VISUAL_PASS": true,
   "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
   "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
@@ -369,7 +371,19 @@
   "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": true,
   "DEVICE_LAB_RELEASE_CONTINUATION_EXACT_HEAD_CI_PASS": true,
   "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": true,
-  "NEXT_OWNER_ACTION": "MERGE_DEVICE_LAB_RELEASE_CONTINUATION_WITH_MERGE_COMMIT",
+  "NEXT_OWNER_ACTION": "MERGE_PORTAL_15_WITH_MERGE_COMMIT",
   "NEXT_GATE": null,
-  "do_not_merge_by_cursor": true
+  "do_not_merge_by_cursor": true,
+  "device_os_continuation_merged": true,
+  "device_os_155_pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+  "device_os_155_accepted_main_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+  "device_os_accepted_main": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+  "DEVICE_OS_155_ACCEPTED_MAIN_MERGE_SHA": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+  "accepted_main_freeze_sha256": "9115f7b60ea2e362e6399cfcdfefe21fd28ed53cc2a4ebdd2f448aecba65258c",
+  "DIGITAL_DEVICE_LAB_ACCEPTED_MAIN_PASS": true,
+  "DEVICE_LAB_ACCEPTED_MAIN_CANDIDATE_PASS": true,
+  "DEVICE_LAB_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
+  "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+  "J6_CLASS": "HUMAN_VALIDATION_PENDING",
+  "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
 }

@@ -1,5 +1,15 @@
 # ECOSYSTEM_ACCEPTED_MAIN_REGISTRY
 
+> **17G.7 current-state (live):** Device OS accepted-main = `1c20c264d27bc8daf3a7d5b3280256f871ae1a06` (PR #155 merge; PR head `d20fe17422f1092b240ec5ecf985c71d9bc14e3f` is NOT accepted main). Portal #14 = `7ad4ce84ab61037d140f2185de14b191ecf7ec28`. WAIKE #17 = `7ccb64459df088d41655af51c959a7bbbac849a3`. gunnchAI = `65b799e21dc1c4979d52b9c8b328f7aa47059bde`. Pin/freeze = `271e52938b19f66d79a652d050a8be039cf942bd67ced3cc8cd16babd1db27ea` / `9115f7b60ea2e362e6399cfcdfefe21fd28ed53cc2a4ebdd2f448aecba65258c`. Digital accepted-main candidate PASS. Next owner action: `MERGE_PORTAL_15_WITH_MERGE_COMMIT`. Human/physical/CX remain pending. Historical Prompt 18 discovery body retained below.
+
+Generated current overlay: `2026-09-18T01:41:55Z`  
+Prompt: **17G.7** — #155 Accepted-Main Rebind + Portal #15 Final Release-Control Sync  
+Machine-readable: [`ECOSYSTEM_ACCEPTED_MAIN_REGISTRY.json`](./ECOSYSTEM_ACCEPTED_MAIN_REGISTRY.json) (`current_state_17g7`)
+
+---
+
+## Historical Prompt 18 discovery snapshot (retained)
+
 Generated: `2026-09-15T05:17:53Z`  
 Prompt: **18** — gunnchOS3k Ecosystem Release Control Tower  
 Org: `gunnchOS3k`  

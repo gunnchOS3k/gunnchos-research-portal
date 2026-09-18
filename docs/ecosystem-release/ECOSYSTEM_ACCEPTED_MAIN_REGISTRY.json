@@ -9,7 +9,7 @@
   "device_lab_pin_master": "release/DEVICE_LAB_CURRENT_PIN_MASTER.json",
   "device_lab_firewall": {
     "ACTIVE_DEVICE_LAB_PIN_SET_PRESERVED": true,
-    "primary_blocker": "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS",
+    "primary_blocker": null,
     "do_not_merge_or_edit_runtime_paths": [
       "anime-aggressors",
       "pedestrian-pursuit",
@@ -17,7 +17,8 @@
       "beatlink-party",
       "gunnchos-device-os Device Lab current-pin PR #134 worktree paths"
     ],
-    "prompt_17f_separation": true
+    "prompt_17f_separation": true,
+    "note_17g7": "FOUR_GAME/WAIKE/gunnchAI/lifecycle/ECO010 digital PASS on Device OS #155 accepted-main; physical/human still pending"
   },
   "evidence_classes_allowed": [
     "ACCEPTED_MAIN_DIGITAL_PASS",
@@ -36,15 +37,15 @@
       "purpose": "Canonical ecosystem IA + release control plane",
       "product_area": "Research/7GC control",
       "evidence_class": "DRAFT_DIGITAL_CANDIDATE",
-      "last_credible_acceptance": "origin/main CI success; STREAM P1 freeze on draft PR #14",
+      "last_credible_acceptance": "Portal #14 accepted-main; Portal #15 Prompt 18 control tower owner-merge ready (17G.7)",
       "gates": {
         "human": false,
         "physical": false,
         "external": false
       },
       "ci_note": "main CI success",
-      "origin_main_sha": "eef765bdb6156a59a2aef556292cdf1e9e16efb6",
-      "origin_main_sha12": "eef765bdb615",
+      "origin_main_sha": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+      "origin_main_sha12": "7ad4ce84ab61",
       "device_lab_pinned": true,
       "open_prs": [],
       "open_pr_count": 0,
@@ -73,16 +74,16 @@
       "repo": "gunnchos-device-os",
       "purpose": "gunnchOS + Device Lab + middleware host",
       "product_area": "OS/middleware",
-      "evidence_class": "DIGITAL_BLOCKED",
-      "last_credible_acceptance": "Windows Pilot0 ACCEPTED_MAIN_PASS=true; Device Lab current-pin NOT PASS (PR #134 draft)",
+      "evidence_class": "ACCEPTED_MAIN_DIGITAL_PASS",
+      "last_credible_acceptance": "Device OS #155 accepted-main merge 1c20c264d27bc8daf3a7d5b3280256f871ae1a06 (17G.7); digital candidate PASS; human/physical pending",
       "gates": {
         "human": true,
         "physical": true,
         "external": false
       },
-      "ci_note": "main Learning OS / continuity workflows success; #134 exact-head CI green but unmerged",
-      "origin_main_sha": "898e44cfa8b7574c0de7b8312b0996816799eca4",
-      "origin_main_sha12": "898e44cfa8b7",
+      "ci_note": "main post-#155 merge CI all green",
+      "origin_main_sha": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+      "origin_main_sha12": "1c20c264d27b",
       "device_lab_pinned": true,
       "open_prs": [],
       "open_pr_count": 0,
@@ -176,8 +177,8 @@
         "external": true
       },
       "ci_note": "Gate D/C/Windows Pilot0 success on main",
-      "origin_main_sha": "8610018a62e07548405a58384773d96a7be7950b",
-      "origin_main_sha12": "8610018a62e0",
+      "origin_main_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
+      "origin_main_sha12": "7ccb64459df0",
       "device_lab_pinned": true,
       "open_prs": [],
       "open_pr_count": 0,
@@ -479,5 +480,31 @@
       }
     ],
     "discovery_correction": "Prompt 18 initial pass marked books NOT_APPLICABLE (not in local workspace). Follow-up discovery confirmed GH-only repo gunnchos-technology-landscape."
-  }
+  },
+  "current_state_17g7": {
+    "generated_at_utc": "2026-09-18T01:41:55Z",
+    "prompt": "17G.7",
+    "device_os_155_pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+    "device_os_155_accepted_main_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "device_os_current_main": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "portal_14_accepted_main": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+    "waike_17": "7ccb64459df088d41655af51c959a7bbbac849a3",
+    "gunnchai_accepted_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+    "pin_manifest_sha256": "271e52938b19f66d79a652d050a8be039cf942bd67ced3cc8cd16babd1db27ea",
+    "accepted_main_freeze_sha256": "9115f7b60ea2e362e6399cfcdfefe21fd28ed53cc2a4ebdd2f448aecba65258c",
+    "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": true,
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+    "ECO010_SOAK_PASS": true,
+    "DEVICE_LAB_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
+    "DIGITAL_DEVICE_LAB_ACCEPTED_MAIN_PASS": true,
+    "DEVICE_LAB_ACCEPTED_MAIN_CANDIDATE_PASS": true,
+    "LIVE_GUNNCHOS_VISUAL_PASS": true,
+    "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
+    "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+    "NEXT_OWNER_ACTION": "MERGE_PORTAL_15_WITH_MERGE_COMMIT",
+    "note": "Historical registry body below retained; use current_state_17g7 for live identities. Device OS accepted main is #155 merge SHA, not PR head."
+  },
+  "generated_at_utc_current": "2026-09-18T01:41:55Z"
 }

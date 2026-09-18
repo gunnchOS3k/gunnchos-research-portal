@@ -30,17 +30,23 @@
     {
       "repo": "gunnchos-device-os",
       "pr": 155,
-      "draft": true,
+      "draft": false,
       "branch": "release/device-lab-post-waike-closure",
       "head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
-      "role": "device_lab_post_portal14_release_continuation"
+      "role": "device_lab_post_portal14_release_continuation_accepted_main",
+      "merged": true,
+      "state": "MERGED",
+      "pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+      "merge_sha": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+      "tip": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06"
     }
   ],
   "consumer_only": [
     {
       "repo": "gunnchos-research-portal",
       "pr": 15,
-      "note": "consumes #14"
+      "note": "17G.7 final release-control sync; owner merge of Portal #15 next; Cursor does not merge",
+      "role": "ecosystem_control_tower_final_sync"
     }
   ],
   "network_proof_17g5c1": {
@@ -60,23 +66,23 @@
     "NEXT_GATE": "DEVICE_OS_134_WAIKE_9P_BUNDLE_FETCH_OVER_VIRTIO_SERIAL",
     "updated_at_utc": "2026-09-16T22:15:00Z"
   },
-  "updated_at_utc": "2026-09-18T01:20:13Z",
+  "updated_at_utc": "2026-09-18T01:41:55Z",
   "device_os_pr_134_tip": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
   "waike_accepted_main": "7ccb64459df088d41655af51c959a7bbbac849a3",
   "note_17g5f": "WAIKE #15 effective CSP PASS; client HTTP bind FAIL; do not merge #134/#14",
   "device_os_134_ci_green": true,
   "waike_artifact_sha256": "071cce1383561e14cf957cdcd5e932e04884a2d2a5bba35cdbbce08e137e58f8",
-  "pin_manifest_sha256": "80c37d959b97666abd688334a76611a264cfd3aa21a3ae317f7740f0897977b1",
+  "pin_manifest_sha256": "271e52938b19f66d79a652d050a8be039cf942bd67ced3cc8cd16babd1db27ea",
   "DEVICE_OS_134_ACCEPTED_MAIN_MERGE_SHA": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
   "DEVICE_OS_134_EXACT_HEAD_CI_PASS": true,
   "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
-  "note_17g5i": "WAIKE #17 accepted-main CORS re-freeze; #134 exact-head CI green; Portal #14 remains OPEN/DRAFT; do not merge #14 yet",
+  "note_17g5i": "HISTORICAL: WAIKE #17 accepted-main CORS re-freeze; #134 exact-head CI green; Portal #14 remains OPEN/DRAFT; do not merge #14 yet",
   "device_os_pr_134_pr_head": "819f5a839cad9442d7850a203a9f59db37b08c70",
   "device_os_pr_134_merged": true,
   "DEVICE_OS_134_ACCEPTED_MAIN_MERGE_PASS": true,
   "DEVICE_OS_134_POST_MERGE_MAIN_VALIDATION_PASS": true,
   "note_17g5j": "Device OS #134 accepted-main merge c3b7a51; Portal #14 final sync; GUNNCHAI blocked on Portal #14 owner merge; do not start gunnchAI",
-  "prompt": "17G.6",
+  "prompt": "17G.7",
   "portal_14_merged": true,
   "portal_14_merge_sha": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
   "device_os_continuation_pr": 155,
@@ -86,7 +92,7 @@
   "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
   "ECO010_SOAK_PASS": true,
   "NEXT_GATE": null,
-  "note_17g6": "17G.6 complete digital closure; Device OS #155 DRAFT tip green; owner merge only",
+  "note_17g6": "HISTORICAL: 17G.6 complete digital closure on #155 DRAFT tip; superseded by 17G.7 accepted-main rebind",
   "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": true,
   "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": true,
   "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": true,
@@ -98,6 +104,15 @@
   "device_os_134_merge_sha": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
   "waike_17_merge_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
   "gunnchai_accepted_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
-  "NEXT_OWNER_ACTION": "MERGE_DEVICE_LAB_RELEASE_CONTINUATION_WITH_MERGE_COMMIT",
-  "do_not_merge_by_cursor": true
+  "NEXT_OWNER_ACTION": "MERGE_PORTAL_15_WITH_MERGE_COMMIT",
+  "do_not_merge_by_cursor": true,
+  "device_os_155_pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+  "device_os_155_accepted_main_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+  "DEVICE_OS_155_ACCEPTED_MAIN_MERGE_SHA": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+  "DEVICE_OS_155_ACCEPTED_MAIN_MERGE_PASS": true,
+  "DEVICE_LAB_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
+  "DIGITAL_DEVICE_LAB_ACCEPTED_MAIN_PASS": true,
+  "DEVICE_LAB_ACCEPTED_MAIN_CANDIDATE_PASS": true,
+  "accepted_main_freeze_sha256": "9115f7b60ea2e362e6399cfcdfefe21fd28ed53cc2a4ebdd2f448aecba65258c",
+  "note_17g7": "Device OS #155 MERGED as accepted-main 1c20c26; never treat PR head d20fe17 as accepted main; Portal #15 owner merge next"
 }
