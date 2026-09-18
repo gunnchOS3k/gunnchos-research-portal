@@ -1,0 +1,15 @@
+{
+  "CX5_PORTAL_INTEGRATION_PREPARED_PASS": true,
+  "generated_at": "2026-09-18T03:37:52Z",
+  "prompt": "CX5.0R",
+  "device_os_integration_head": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+  "device_os_accepted_integration_merge_sha": "PENDING_OWNER_MERGE",
+  "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+  "ECO010_SOAK_PASS": true,
+  "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": true,
+  "CX5_RELEASE_AND_COMPLETE_EXPERIENCE_DIGITAL_PASS": true,
+  "CX5_DEVICE_OS_INTEGRATION_EXACT_HEAD_CI_PASS": true,
+  "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+  "portal_head": "62be63a734e5764d2124b3bbdc7494100a16cdc7",
+  "portal_tests": "7 passed"
+}

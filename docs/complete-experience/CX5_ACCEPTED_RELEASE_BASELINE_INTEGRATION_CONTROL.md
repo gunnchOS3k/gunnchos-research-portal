@@ -1,39 +1,44 @@
-# CX5.0 — Accepted Release Baseline Integration Control
+# CX5.1 — Accepted-Main Rebind + Portal Integration Control
 
-Generated: 2026-09-18T03:24:28Z
-Prompt: CX5.0R
+Generated: 2026-09-18T14:16:07Z
+Prompt: CX5.1
 
-## Accepted release baseline
+## Accepted release baseline (post #156)
 
 | Surface | Identity |
 |---|---|
-| Device OS main | `1c20c264d27bc8daf3a7d5b3280256f871ae1a06` (#155) |
-| Device OS #134 merge | `c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe` |
+| Device OS main / #156 merge | `438aaf2b54d3365d681dd6eeeb73f6ac58663acc` |
+| Device OS #156 PR head (not accepted main) | `e55ad514e18022e99ec7beee56b17e6e00cc91e1` |
+| Device OS #155 merge | `1c20c264d27bc8daf3a7d5b3280256f871ae1a06` |
 | Portal main / #15 merge | `722d85fce4cd66e26e0abef1f56b34bc3bcf81a8` |
-| Portal #14 merge | `7ad4ce84ab61037d140f2185de14b191ecf7ec28` |
+| Portal #34 | DRAFT — `PENDING_OWNER_MERGE` |
 | WAIKE main | `7ccb64459df088d41655af51c959a7bbbac849a3` |
 | gunnchAI main | `65b799e21dc1c4979d52b9c8b328f7aa47059bde` |
 
-## Device OS consolidation candidate
+## Device OS #156
 
-- Branch: `integration/cx-complete-experience-release-baseline`
-- Head: `e55ad514e18022e99ec7beee56b17e6e00cc91e1`
-- PR: https://github.com/gunnchOS3k/gunnchos-device-os/pull/156
-- Accepted integration merge SHA: `PENDING_OWNER_MERGE`
+- Merged with **Create a merge commit**
+- Accepted main = merge SHA `438aaf2b54d3365d681dd6eeeb73f6ac58663acc` (never the PR head)
 
-Do **not** treat the Device OS integration PR head as accepted main.
+## Portal #34
 
-## CX5.0R digital tokens
+- Continue DRAFT only
+- Accepted merge SHA = `PENDING_OWNER_MERGE`
+- Cursor does **not** merge
 
-- `CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=true`
-- `ECO010_SOAK_PASS=true`
-- `DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS=true`
-- `CX5_DEVICE_OS_INTEGRATION_EXACT_HEAD_CI_PASS=true`
-- `CX5_RELEASE_AND_COMPLETE_EXPERIENCE_DIGITAL_PASS=true`
+## Tokens
 
-## Human / physical / external
-
+- `CX5_DEVICE_OS_156_ACCEPTED_MAIN_MERGE_PASS=true`
+- `CX5_DEVICE_OS_156_ACCEPTED_MAIN_EQUIVALENCE_PASS=true`
+- `CX5_RELEASE_ACCEPTED_MAIN_REBIND_PASS=true`
+- `CX5_COMPLETE_EXPERIENCE_ACCEPTED_MAIN_REBIND_PASS=true`
+- `CX5_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS=true`
+- `CX5_DEVICE_OS_POST_MERGE_MAIN_VALIDATION_PASS=true`
+- `CX5_VALIDATION_CENTER_ACCEPTED_BUILD_PASS=true`
+- `CX5_FINAL_VALIDATION_DEVICE_BUILD_ELIGIBLE=true`
 - `CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE=false`
 - `J6_CLASS=HUMAN_VALIDATION_PENDING`
-- Physical printer / camera-mic / EVT / DVT / PVT pending
-- `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
+
+## Next owner action
+
+`MERGE_CX_PORTAL_INTEGRATION_WITH_MERGE_COMMIT` (Portal #34) — Cursor does not merge.

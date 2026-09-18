@@ -1,0 +1,17 @@
+{
+  "schema": "CX5_1_PORTAL_34_CONSISTENCY/v1",
+  "generated_at_utc": "2026-09-18T14:16:30Z",
+  "prompt": "CX5.1",
+  "checks": {
+    "pr_head_not_presented_as_accepted_main": true,
+    "not_stale_155_as_current_device_os": true,
+    "portal_15_shown_merged": true,
+    "lifecycle_eco_independent_true": true,
+    "vc_not_draft_only": true,
+    "human_validation_not_eligible": true,
+    "portal_34_pending_owner_merge": true,
+    "physical_not_promoted": true,
+    "no_accepted_fields_equal_pr_head": true
+  },
+  "CX5_PORTAL_34_CONSISTENCY_PASS": true
+}
