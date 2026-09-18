@@ -1,55 +1,46 @@
-# Stream H v2 — Clean-Room Verification Report
+# Stream H v2.1 — Clean-Room Verification Report
 
-Generated: 2026-09-18T20:47:50Z
+Generated: 2026-09-18T21:26:14Z
 
 ## Method
-- Detached clean worktrees at expected accepted-main SHAs under `.worktrees/stream-h-v2-cleanroom-20260918/`
-- Working-tree dirt of owner checkouts ignored; verification uses clean worktrees only
-- Fail-closed: gates earned only when reproduced or verified from accepted-main artifacts without fabrication
+- Detached clean worktrees at accepted-main SHAs (anime refreshed after PR #100 merge)
+- Fail-closed: gates earned only when reproduced on accepted main without fabrication
+- Do not treat PR-branch evidence as accepted-main
 
 ## Pin results
-All production expected SHAs **MATCH** live `origin/main` after fetch (WAIKE LP required fetch to advance 7ccb6445→747e64e).
+| Repo | SHA | Result |
+|------|-----|--------|
+| gunnchos-research-portal | `ff1325a1…` | PASS_CONTROL_PLANE_PIN |
+| gunnchos-device-os | `55f63da0…` | PASS_STREAM_A (prior) |
+| gunnchos-waike-learning-platform | `747e64e6…` | PASS_STREAM_B (prior) |
+| waike-research-ops | `c13179ea…` | PASS_STREAM_B (prior) |
+| gunnchAI3k | `076b7ccd…` | PASS_STREAM_B (prior) |
+| gunnchos-hardware-industrial-design | `56125d17…` | PASS_STREAM_E_F_DIGITAL_PREP_NOT_FAB (prior) |
+| anime-aggressors | `85418e99…` (#100) | **PASS_STREAM_C_ACCEPTED_MAIN** |
+| pedestrian-pursuit | `e0c21fcc…` | FAIL_STREAM_C_CLEANROOM_RERUN |
+| archive-of-life-artifact-world | `a2145ca6…` | FAIL_STREAM_C_CLEANROOM_RERUN |
+| beatlink-party | `22a21a41…` | FAIL_STREAM_C_CLEANROOM_RERUN |
 
-| Repo | SHA | Clean WT | Result |
-|------|-----|----------|--------|
-| gunnchos-research-portal | `ff1325a1a65ebfae5aab5532dcd05876fa643240` | True | PASS_CONTROL_PLANE_PIN |
-| gunnchos-device-os | `55f63da0f4555c2f235caeae7d6bc20ab1b15638` | True | PASS_STREAM_A |
-| gunnchos-waike-learning-platform | `747e64e6386c10ef8c0f72c50eb5557035e5c9b9` | True | PASS_STREAM_B |
-| waike-research-ops | `c13179eaec0b23cf5a18b7dec9043e193bcb9460` | True | PASS_STREAM_B |
-| gunnchAI3k | `076b7ccd7c3f71d3299ead9a72e45291cd33689a` | True | PASS_STREAM_B |
-| gunnchos-hardware-industrial-design | `56125d1738a437f413ee4418c51c2f3a82bcbac8` | True | PASS_STREAM_E_F_DIGITAL_PREP_NOT_FAB |
-| anime-aggressors | `836bb4ace3bcb136c4cf40724b9182a627baa08c` | True | FAIL_STREAM_C_CLEANROOM_RERUN |
-| pedestrian-pursuit | `e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e` | True | FAIL_STREAM_C_CLEANROOM_RERUN |
-| archive-of-life-artifact-world | `a2145ca61cc3b67749c961010bd0129970f4ca4b` | True | FAIL_STREAM_C_CLEANROOM_RERUN |
-| beatlink-party | `22a21a411463344450f121d281b3a0dba27f1c56` | True | FAIL_STREAM_C_CLEANROOM_RERUN |
-| gunnchos-greenfield-experimental | `9d848f03c4aa5ab972912d45c7a8212f99140e97` | True | PASS_LOCAL_SIMULATION_ONLY |
+## Anime accepted-main verification (#100 → `85418e99`)
+- `python3 tools/digital_engineering_exhaustion/stream_c/run_stream_c.py` → GATE true; failures `[]`; quarantine 800; `RIGHTS_CLEARANCE_COMPLETE=false`
+- Canonical Godot: `Godot-4.5.app` headless import/smoke/soak PASS (`canonical_headless_ok=true`)
+- Residual classify unit tests: 7 passed
+- `npm run test:netplay` / `test:rollback` / art+character validators: PASS
+- Note: Homebrew `godot` 4.7.1 MoltenVK SIGABRT observed; treated as non-canonical on this host (not used for gate)
 
-## Stream A (device-os @55f63da)
-- Gates OPEN_PR / SOFTWARE_V1 / JOURNEYS / HUMAN_INFRA / REFINEMENT = **true**
-- CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE = **false**; FULL_COMPLETE_EXPERIENCE_COMPLETE = **false**
-- Tests: cx4 38 passed; refinement 5 passed; journeys 20 passed
+## Stream C all-four rollup
+- `GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED=false` (fail-closed; not all four green in same pass)
+- `ANIME_STREAM_C_ACCEPTED_MAIN_PASS=true`
+- Pedestrian: launch/loading fail via `tools/run_godot_headless.sh`
+- Archive: `npm run audit:provenance` host EPERM (tsx IPC)
+- Beatlink: pnpm install/build tooling residuals
+- Rights quarantine remains active; no fabricated clearance/fun claims
 
-## Stream B
-- WAIKE LP telemetry on main (#18); `test_telemetry.py` **2 passed** (venv)
-- waike-ops ledger gate true (pins in ledger artifact historically lagged; live mains rebound)
-- gunnchAI jest **5 passed** SYNTHETIC; no human promotion
+## Gates kept false
+`RIGHTS_CLEARANCE_COMPLETE`, `CX4_FINAL_*`, `READY_TO_BEGIN_FULL_GATING_HUMAN_VALIDATION`, `FULL_COMPLETE_EXPERIENCE_COMPLETE`, `CPB0_OPEN_READY_FOR_FAB`, `PHYSICAL_HARDWARE_VALIDATED`, EVT/DVT/PVT pending
 
-## Stream C
-- Clean-room `run_stream_c.py` on all four games → **GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED=false**
-- Anime Godot headless SIGSEGV (exit -6) on Godot 4.7.1; rights quarantine still enforced
-- Committed-on-main GATE_STATUS had been true — **not reproduced**; fail-closed false
-
-## Hardware (#83 = 56125d1)
-- Stream E/F digital-prep gates true; NXP-1 OPN/pinmap/symbol/PMIC/power understood true
-- Memory/ERC/PCB/BOM/fab-audit/READY_FOR_FAB **false**; EVT/DVT/PVT pending; PHYSICAL_HARDWARE_VALIDATED=false; RFQ_SENT=false
-
-## Support/docs
-- Not present on prior accepted portal main; **G_GAPFILL_BY_H**: stream_g packs imported from historical #37 into this v2 PR
-- SUPPORT/DOCUMENTATION prep gates true as digital prep only
-
-## GXE local
-- Tip `9d848f0` on `slice/gxe-3-creator-game`; simulation exhausted true; FPGA/physical false
-- Section: LOCAL_RESEARCH_EVIDENCE_NOT_ACCEPTED_PRODUCTION_MAIN — does **not** block software pilot
+## Software pilot
+Still READY for CX/Device OS + WAIKE digital surfaces. Games onboarding/menus/input/save-load/pause/a11y/crash-recovery/task+fun **not** expanded into software pilot until all-four aggregate true.
 
 ## PR strategy
-Supersede stale PR #37 with branch `eng/stream-h-cleanroom-verification-v2` (DRAFT). No automatic merge.
+Refresh portal #38 in place on `eng/stream-h-cleanroom-verification-v2` (DRAFT). No automatic merge.

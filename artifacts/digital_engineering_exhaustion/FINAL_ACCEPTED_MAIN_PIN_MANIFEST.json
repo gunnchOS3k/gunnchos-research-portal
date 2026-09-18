@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.final_accepted_main_pin_manifest.v2",
-  "generated_at_utc": "2026-09-18T20:47:50Z",
-  "stream": "H_v2",
+  "generated_at_utc": "2026-09-18T21:26:14Z",
+  "stream": "H_v2.1",
   "pins": {
     "gunnchos-research-portal": {
       "sha": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
@@ -42,10 +42,12 @@
       "materiality": null
     },
     "anime-aggressors": {
-      "sha": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+      "sha": "85418e99b395f56b644e72b7ac91d60e42be5c61",
       "match_expected": true,
-      "subject": "Merge pull request #99 (stream-c)",
-      "materiality": null
+      "subject": "Merge pull request #100 (stream-c anime headless residual)",
+      "materiality": {
+        "note": "Accepted-main Stream C clean-room PASS with Godot-4.5 + writable Godot user-data; brew godot 4.7.1 MoltenVK SIGABRT is non-canonical on this host"
+      }
     },
     "pedestrian-pursuit": {
       "sha": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
@@ -88,5 +90,11 @@
     },
     "blocks_software_pilot": false
   },
-  "hardware_union": "#81+#82+#83 on 56125d1738a437f413ee4418c51c2f3a82bcbac8"
+  "hardware_union": "#81+#82+#83 on 56125d1738a437f413ee4418c51c2f3a82bcbac8",
+  "refresh": {
+    "reason": "Anime PR #100 merged; refresh accepted-main verification",
+    "anime_pr_100_merge_sha": "85418e99b395f56b644e72b7ac91d60e42be5c61",
+    "anime_pr_100_head_pre_merge": "fb753f168e9b27a612e54403b031ff15f7de0489",
+    "portal_pr_38_prior_head": "ddfbb4097bc213010e66be24d8f58d7b029e04fe"
+  }
 }

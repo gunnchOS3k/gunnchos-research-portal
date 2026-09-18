@@ -1,6 +1,8 @@
-# Final Accepted-Main Pin Manifest (Stream H v2)
+# Final Accepted-Main Pin Manifest (Stream H v2.1)
 
-Generated: 2026-09-18T20:47:50Z
+Generated: 2026-09-18T21:26:14Z
+
+Refresh: Anime PR #100 merged (`85418e99…`); pre-merge head `fb753f16…`. Portal #38 prior head `ddfbb409…`.
 
 | Repo | Accepted main SHA | Match expected |
 |------|-------------------|----------------|
@@ -10,7 +12,7 @@ Generated: 2026-09-18T20:47:50Z
 | waike-research-ops | `c13179eaec0b23cf5a18b7dec9043e193bcb9460` | True |
 | gunnchAI3k | `076b7ccd7c3f71d3299ead9a72e45291cd33689a` | True |
 | gunnchos-hardware-industrial-design | `56125d1738a437f413ee4418c51c2f3a82bcbac8` | True |
-| anime-aggressors | `836bb4ace3bcb136c4cf40724b9182a627baa08c` | True |
+| anime-aggressors | `85418e99b395f56b644e72b7ac91d60e42be5c61` | True |
 | pedestrian-pursuit | `e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e` | True |
 | archive-of-life-artifact-world | `a2145ca61cc3b67749c961010bd0129970f4ca4b` | True |
 | beatlink-party | `22a21a411463344450f121d281b3a0dba27f1c56` | True |

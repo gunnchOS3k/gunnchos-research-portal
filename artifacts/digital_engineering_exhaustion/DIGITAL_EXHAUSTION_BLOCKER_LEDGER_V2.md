@@ -1,6 +1,6 @@
-# Digital Exhaustion Blocker Ledger V2
+# Digital Exhaustion Blocker Ledger V2.1
 
-Generated: 2026-09-18T20:47:50Z
+Generated: 2026-09-18T21:26:14Z
 
 ## Readiness (exact)
 - `UNDERLYING_DIGITAL_ENGINEERING_ACCEPTED_MAIN` = `True`
@@ -14,6 +14,8 @@ Generated: 2026-09-18T20:47:50Z
 - `ABSOLUTE_DIGITAL_ENGINEERING_EXHAUSTED` = `False`
 - `DIGITAL_ENGINEERING_EXHAUSTED` = `True`
 - `G_GAPFILL_BY_H` = `True`
+- `ANIME_STREAM_C_ACCEPTED_MAIN_PASS` = `True`
+- `GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED` = `False`
 
 ## Blockers
 ### HUMAN_VALIDATION_REQUIRED — gunnchos-device-os / CX4 human sessions / a11y with disabled users
@@ -26,13 +28,13 @@ Generated: 2026-09-18T20:47:50Z
 - Who: Owner / academic reviewers
 - Blocks software pilot: False; final gating: True; physical/fab: False
 
-### HUMAN_VALIDATION_REQUIRED — games/* / fun/balance/feel + host digital residual
-- Missing: Clean-room stream-c re-run failed (Godot SIGSEGV / build/launch dims); playtest sheets remain HUMAN; committed-on-main gate not reproduced
+### HUMAN_VALIDATION_REQUIRED — games/* / fun/balance/feel + cross-game digital residual
+- Missing: Anime #100 accepted-main Stream C PASS (`85418e9`); all-four aggregate still false — pedestrian headless launch/loading; archive `audit:provenance` host EPERM; beatlink pnpm/build tooling. Fun/balance playtest sheets remain HUMAN.
 - Who: Games engineering + human playtesters
 - Blocks software pilot: False; final gating: True; physical/fab: False
 
 ### LEGAL_RIGHTS_REVIEW_REQUIRED — games/* / rights quarantine
-- Missing: RIGHTS_CLEARANCE_COMPLETE=false; quarantine ledgers active (798/589/136/204)
+- Missing: RIGHTS_CLEARANCE_COMPLETE=false; quarantine ledgers active (anime~800 + peer quarantines)
 - Who: Legal
 - Blocks software pilot: False; final gating: True; physical/fab: False
 
@@ -70,7 +72,6 @@ Generated: 2026-09-18T20:47:50Z
 - Missing: CERTIFICATION_COMPLETE=false; lab_engaged=false
 - Who: Owner + cert lab
 - Blocks software pilot: False; final gating: True; physical/fab: False
-
 
 ## NXP ordinary-account vs vendor-restricted
 Ordinary-account can unlock more EDA: UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP notes.

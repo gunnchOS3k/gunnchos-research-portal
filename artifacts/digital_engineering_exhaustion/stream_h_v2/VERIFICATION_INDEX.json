@@ -1,6 +1,6 @@
 {
   "schema": "gunnchos.stream_h_v2.verification_index.v1",
-  "generated_at_utc": "2026-09-18T20:47:50Z",
+  "generated_at_utc": "2026-09-18T21:26:14Z",
   "fail_closed": true,
   "accepted_main_pins": {
     "gunnchos-research-portal": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
@@ -9,7 +9,7 @@
     "waike-research-ops": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
     "gunnchAI3k": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
     "gunnchos-hardware-industrial-design": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
-    "anime-aggressors": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+    "anime-aggressors": "85418e99b395f56b644e72b7ac91d60e42be5c61",
     "pedestrian-pursuit": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
     "archive-of-life-artifact-world": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
     "beatlink-party": "22a21a411463344450f121d281b3a0dba27f1c56"
@@ -87,10 +87,11 @@
       "earned": false,
       "owner_stream": "C",
       "evidence": [
-        "clean-room stream-c re-run GATE_STATUS false x4",
-        "anime Godot headless SIGSEGV exit -6"
+        "stream_h_v2/games_cleanroom_v21/AGGREGATE.json all_four_green=false",
+        "anime-aggressors GATE true @85418e9 (Godot-4.5 canonical)",
+        "pedestrian/archive/beatlink GATE false on same-pass clean-room"
       ],
-      "note": "Committed-on-main GATE_STATUS was true at merge; clean-room re-execution on this host failed. Fail-closed: gate false. Rights quarantine still active; RIGHTS_CLEARANCE_COMPLETE=false."
+      "note": "Anime residual #100 closed on accepted main and clean-room reproduced. Fail-closed aggregate remains false until all four green in one pass. RIGHTS_CLEARANCE_COMPLETE=false; quarantine active."
     },
     "GXE_SIMULATION_ENGINEERING_EXHAUSTED": {
       "value": true,
@@ -244,9 +245,9 @@
     "READY_TO_BEGIN_FULL_GATING_HUMAN_VALIDATION": false,
     "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
     "definitions": {
-      "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": "Software control plane + Device OS Stream A + WAIKE/gunnchAI Stream B + hardware Stream E/F digital-prep + support/docs gap-fill are exhausted under ordinary-account / public collateral. Games Stream C clean-room host Godot headless SIGSEGV remains an open automatable digital residual for GAMES only and does not block CX/Device-OS software human pilot. GXE is local research and does not block.",
+      "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": "Software control plane + Device OS Stream A + WAIKE/gunnchAI Stream B + hardware Stream E/F digital-prep + support/docs gap-fill are exhausted under ordinary-account / public collateral. Anime Stream C accepted-main clean-room PASS after #100; all-four-game aggregate remains false (pedestrian/archive/beatlink clean-room residuals). Games aggregate does not block CX/Device-OS software human pilot. GXE is local research and does not block.",
       "DIGITAL_ENGINEERING_EXHAUSTED_legacy": "Same as AT_CURRENT_ACCESS for campaign continuity; ABSOLUTE remains false while owner NXP ordinary-account collateral (UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP) and vendor-restricted pinmaps can unlock further EDA.",
-      "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": "CX4 validation-center / Device OS software pilot + WAIKE synthetic-safe digital surfaces may begin. Not games playtest gate; not final gating; not fab/cert.",
+      "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": "CX4 validation-center / Device OS software pilot + WAIKE synthetic-safe digital surfaces may begin. Games playtest NOT in software pilot until GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED=true. Not final gating; not fab/cert.",
       "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": "Program scaffolding (infra, refinement loop, handoffs) ready to start; not final-gating eligibility."
     },
     "ABSOLUTE_DIGITAL_ENGINEERING_EXHAUSTED": false,
@@ -255,27 +256,21 @@
   },
   "stream_c_cleanroom": {
     "anime-aggressors": {
-      "exhausted": false,
-      "failures": [
-        "launch",
-        "save_load",
-        "crash_recovery",
-        "persistence",
-        "loading",
-        "networking"
-      ],
-      "quarantine": 798,
-      "committed_gate_was": true
+      "exhausted": true,
+      "failures": [],
+      "quarantine": 800,
+      "accepted_main_sha": "85418e99b395f56b644e72b7ac91d60e42be5c61",
+      "godot_bin": "/Users/gunnchos/Applications/Godot/Godot-4.5.app/Contents/MacOS/Godot",
+      "canonical_headless_ok": true,
+      "note": "PASS after #100; brew godot 4.7.1 MoltenVK ABRT observed but non-canonical"
     },
     "pedestrian-pursuit": {
       "exhausted": false,
       "failures": [
-        "build",
         "launch",
-        "crash_recovery",
         "loading"
       ],
-      "quarantine": 589,
+      "accepted_main_sha": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
       "committed_gate_was": true
     },
     "archive-of-life-artifact-world": {
@@ -283,7 +278,7 @@
       "failures": [
         "asset_validation"
       ],
-      "quarantine": 136,
+      "accepted_main_sha": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
       "committed_gate_was": true
     },
     "beatlink-party": {
@@ -294,8 +289,12 @@
         "loading",
         "asset_validation"
       ],
-      "quarantine": 204,
+      "accepted_main_sha": "22a21a411463344450f121d281b3a0dba27f1c56",
       "committed_gate_was": true
+    },
+    "aggregate": {
+      "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED": false,
+      "ANIME_STREAM_C_ACCEPTED_MAIN_PASS": true
     }
   },
   "games_aggregate_exhausted": false,
@@ -400,5 +399,8 @@
     "reason": "PR #37 head stale (4593097); regenerating from origin/main ff1325a is cleaner than merge --no-ff into stale evidence"
   },
   "NEXT_OWNER_ACTION": "REVIEW_AND_MERGE_STREAM_H_V2_THEN_FREEZE_HUMAN_VALIDATION_CANDIDATE_1",
-  "no_automatic_merge": true
+  "no_automatic_merge": true,
+  "stream": "H_v2.1",
+  "anime_stream_c_accepted_main_pass": true,
+  "next_owner_action": "REVIEW_AND_MERGE_STREAM_H_V2_THEN_FREEZE_HUMAN_VALIDATION_CANDIDATE_1"
 }

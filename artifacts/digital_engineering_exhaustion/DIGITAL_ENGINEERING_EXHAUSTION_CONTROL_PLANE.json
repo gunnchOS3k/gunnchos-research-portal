@@ -1,8 +1,8 @@
 {
   "schema": "DIGITAL_ENGINEERING_EXHAUSTION_CONTROL_PLANE/v2",
   "campaign": "GUNNCHOS3K_DIGITAL_ENGINEERING_EXHAUSTION",
-  "stream": "H_V2_CLEANROOM",
-  "generated_at_utc": "2026-09-18T20:47:50Z",
+  "stream": "H_V2_1_REFRESH_AFTER_ANIME_100",
+  "generated_at_utc": "2026-09-18T21:26:14Z",
   "workspace_root": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos",
   "truth_boundary": {
     "no_fabricated_human_physical_external_evidence": true,
@@ -469,9 +469,9 @@
       "name": "anime-aggressors",
       "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/anime-aggressors",
       "default_branch": "main",
-      "accepted_main_sha": "258cc0c45991ac9dded0c3d7813894d9fd7ca56d",
+      "accepted_main_sha": "85418e99b395f56b644e72b7ac91d60e42be5c61",
       "accepted_main_source": "origin/main",
-      "accepted_main_subject": "Merge pull request #98 (windows-pilot0 authentic evidence)",
+      "accepted_main_subject": "Merge pull request #100 (stream-c anime headless residual)",
       "current_branch": "cursor/windows-pilot0-authentic-evidence",
       "head_sha": "789b229406bef24d0a614309f84ef08e605fec6c",
       "dirty_state": {

@@ -1,7 +1,7 @@
 {
   "schema": "gunnchos.digital_engineering_exhaustion.blocker_ledger.v2",
-  "generated_at_utc": "2026-09-18T20:47:50Z",
-  "stream": "H_v2",
+  "generated_at_utc": "2026-09-18T21:26:14Z",
+  "stream": "H_v2.1",
   "readiness": {
     "UNDERLYING_DIGITAL_ENGINEERING_ACCEPTED_MAIN": true,
     "CONTROL_PLANE_ACCEPTED_MAIN": true,
@@ -12,7 +12,7 @@
     "READY_TO_BEGIN_FULL_GATING_HUMAN_VALIDATION": false,
     "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
     "definitions": {
-      "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": "Software control plane + Device OS Stream A + WAIKE/gunnchAI Stream B + hardware Stream E/F digital-prep + support/docs gap-fill are exhausted under ordinary-account / public collateral. Games Stream C clean-room host Godot headless SIGSEGV remains an open automatable digital residual for GAMES only and does not block CX/Device-OS software human pilot. GXE is local research and does not block.",
+      "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": "Software control plane + Device OS Stream A + WAIKE/gunnchAI Stream B + hardware Stream E/F digital-prep + support/docs gap-fill are exhausted under ordinary-account / public collateral. Anime Stream C accepted-main clean-room PASS after #100; all-four-game aggregate remains false (pedestrian/archive/beatlink clean-room residuals). Games aggregate does not block CX/Device-OS software human pilot. GXE is local research and does not block.",
       "DIGITAL_ENGINEERING_EXHAUSTED_legacy": "Same as AT_CURRENT_ACCESS for campaign continuity; ABSOLUTE remains false while owner NXP ordinary-account collateral (UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP) and vendor-restricted pinmaps can unlock further EDA.",
       "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": "CX4 validation-center / Device OS software pilot + WAIKE synthetic-safe digital surfaces may begin. Not games playtest gate; not final gating; not fab/cert.",
       "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": "Program scaffolding (infra, refinement loop, handoffs) ready to start; not final-gating eligibility."
@@ -45,8 +45,8 @@
     {
       "class": "HUMAN_VALIDATION_REQUIRED",
       "repo": "games/*",
-      "subsystem": "fun/balance/feel + host digital residual",
-      "exact_missing_evidence": "Clean-room stream-c re-run failed (Godot SIGSEGV / build/launch dims); playtest sheets remain HUMAN; committed-on-main gate not reproduced",
+      "subsystem": "fun/balance/feel + cross-game digital residual",
+      "exact_missing_evidence": "Anime #100 accepted-main Stream C PASS (85418e9); all-four aggregate still false \u2014 pedestrian headless script ABRT/launch-loading; archive audit:provenance EPERM/tsx; beatlink pnpm install/build missing tooling. Fun/balance playtest sheets remain HUMAN. RIGHTS_CLEARANCE_COMPLETE=false; quarantine active.",
       "who_resolves": "Games engineering + human playtesters",
       "blocks_software_pilot": false,
       "blocks_final_gating": true,
@@ -56,7 +56,7 @@
       "class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
       "repo": "games/*",
       "subsystem": "rights quarantine",
-      "exact_missing_evidence": "RIGHTS_CLEARANCE_COMPLETE=false; quarantine ledgers active (798/589/136/204)",
+      "exact_missing_evidence": "RIGHTS_CLEARANCE_COMPLETE=false; quarantine ledgers active (anime~800 + peer game quarantines)",
       "who_resolves": "Legal",
       "blocks_software_pilot": false,
       "blocks_final_gating": true,
@@ -170,5 +170,7 @@
   "fabrication_scan": {
     "phys_cert_true_found": 0,
     "note": "No PHYSICAL_HARDWARE_VALIDATED/CERTIFICATION_COMPLETE/RFQ_SENT true on accepted hardware main"
-  }
+  },
+  "anime_stream_c_accepted_main_pass": true,
+  "games_aggregate_exhausted": false
 }

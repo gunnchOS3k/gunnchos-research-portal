@@ -1,0 +1,44 @@
+{
+  "schema": "gunnchos.stream_c.cross_game_rollup.v21",
+  "generated_at_utc": "2026-09-18T21:26:14Z",
+  "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED": false,
+  "ANIME_STREAM_C_ACCEPTED_MAIN_PASS": true,
+  "RIGHTS_CLEARANCE_COMPLETE": false,
+  "games": {
+    "anime-aggressors": {
+      "gate": true,
+      "failures": [],
+      "sha": "85418e99b395f56b644e72b7ac91d60e42be5c61"
+    },
+    "pedestrian-pursuit": {
+      "gate": false,
+      "failures": [
+        "launch",
+        "loading"
+      ],
+      "sha": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e"
+    },
+    "archive-of-life-artifact-world": {
+      "gate": false,
+      "failures": [
+        "asset_validation"
+      ],
+      "sha": "a2145ca61cc3b67749c961010bd0129970f4ca4b"
+    },
+    "beatlink-party": {
+      "gate": false,
+      "failures": [
+        "build",
+        "launch",
+        "loading",
+        "asset_validation"
+      ],
+      "sha": "22a21a411463344450f121d281b3a0dba27f1c56"
+    }
+  },
+  "notes": [
+    "Fail-closed aggregate: anime PASS after #100; other three red in same host pass",
+    "Do not expand software pilot to games until aggregate true",
+    "No fabricated human/physical/rights/fab evidence"
+  ]
+}

@@ -1,6 +1,6 @@
-# Physical Validation Handoff V2
+# Physical Validation Handoff V2.1
 
-Generated: 2026-09-18T20:47:50Z
+Generated: 2026-09-18T21:26:14Z
 
 ## Digital-prep complete ≠ physical/fab
 Hardware accepted main `56125d1` (#81+#82+#83 union):
@@ -11,6 +11,11 @@ Hardware accepted main `56125d1` (#81+#82+#83 union):
 - `PHYSICAL_HARDWARE_VALIDATED=false`
 - `RFQ_SENT=false`
 - `CERTIFICATION_COMPLETE=false`
+- `CPB0_OPEN_READY_FOR_FAB=false`
+
+## Games physical
+- Android device playtest: PHYSICAL_HARDWARE_REQUIRED (no adb device in Stream C clean-room)
+- Do not claim device playtest from host headless evidence
 
 ## Ordinary-account NXP collateral (owner can fetch)
 UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP programming notes — may unlock further EDA without claiming fab.
