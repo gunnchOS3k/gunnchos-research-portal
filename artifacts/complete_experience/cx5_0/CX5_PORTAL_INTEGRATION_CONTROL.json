@@ -1,6 +1,7 @@
 {
   "schema": "CX5_PORTAL_INTEGRATION_CONTROL/v1",
-  "generated_at": "2026-09-18T02:12:47Z",
+  "generated_at": "2026-09-18T03:24:28Z",
+  "prompt": "CX5.0R",
   "accepted_release_baseline": {
     "device_os_main": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
     "device_os_pr_134_merge": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
@@ -13,20 +14,18 @@
   },
   "device_os_integration": {
     "branch": "integration/cx-complete-experience-release-baseline",
-    "head": "4934778e2dbe193b99fa80df28765ac2b188e66d",
-    "pr_url": "PENDING_DRAFT_PR_CREATE",
+    "head": "4f0c18f09a1cf8c3910e045a39d8c12a1da6035f",
+    "pr": 156,
+    "pr_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/156",
     "accepted_integration_merge_sha": "PENDING_OWNER_MERGE",
     "note": "Do not present Device OS integration PR head as accepted main."
   },
   "portal_integration": {
     "branch": "integration/cx-complete-experience-control-release-baseline",
-    "head": "4e3da9e1b05a3bb580485100473d65208e94c5c0",
-    "pr_url": "PENDING_DRAFT_PR_CREATE",
-    "state": "DRAFT_UNMERGED"
-  },
-  "cumulative_cx_stack_coverage": {
-    "device_CX0_to_CX4_2": true,
-    "portal_CX1_to_CX4_2": true
+    "pr": 34,
+    "pr_url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/34",
+    "state": "DRAFT_UNMERGED",
+    "head": null
   },
   "current_integrated_digital_tokens": {
     "CX5_CURRENT_TIP_GUEST_OVERLAY_PASS": true,
@@ -34,10 +33,12 @@
     "CX5_COMPLETE_EXPERIENCE_DIGITAL_REGRESSION_PASS": true,
     "CX5_VALIDATION_CENTER_INTEGRATED_PASS": true,
     "CX5_FINAL_FREEZE_PRECHECK_PASS": true,
-    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": false,
-    "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": true
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+    "ECO010_SOAK_PASS": true,
+    "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": true,
+    "CX5_DEVICE_OS_INTEGRATION_EXACT_HEAD_CI_PASS": true,
+    "CX5_RELEASE_AND_COMPLETE_EXPERIENCE_DIGITAL_PASS": true
   },
-  "validation_center_status": "integrated_on_device_candidate",
   "human_physical_external": {
     "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
     "J6_CLASS": "HUMAN_VALIDATION_PENDING",
@@ -48,9 +49,9 @@
     "PVT_PENDING": true,
     "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
   },
+  "CX5_PORTAL_INTEGRATION_PREPARED_PASS": true,
   "portal_exact_head_tests": {
-    "result": "34 passed",
+    "result": "PASS_LOG",
     "ok": true
-  },
-  "CX5_PORTAL_INTEGRATION_PREPARED_PASS": true
+  }
 }

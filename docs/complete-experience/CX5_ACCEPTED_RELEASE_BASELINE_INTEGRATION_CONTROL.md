@@ -1,6 +1,7 @@
 # CX5.0 — Accepted Release Baseline Integration Control
 
-Generated: 2026-09-18T02:12:47Z
+Generated: 2026-09-18T03:24:28Z
+Prompt: CX5.0R
 
 ## Accepted release baseline
 
@@ -16,16 +17,19 @@ Generated: 2026-09-18T02:12:47Z
 ## Device OS consolidation candidate
 
 - Branch: `integration/cx-complete-experience-release-baseline`
-- Head: `4934778e2dbe193b99fa80df28765ac2b188e66d`
+- Head: `4f0c18f09a1cf8c3910e045a39d8c12a1da6035f`
+- PR: https://github.com/gunnchOS3k/gunnchos-device-os/pull/156
 - Accepted integration merge SHA: `PENDING_OWNER_MERGE`
 
 Do **not** treat the Device OS integration PR head as accepted main.
 
-## Portal consolidation candidate
+## CX5.0R digital tokens
 
-- Branch: `integration/cx-complete-experience-control-release-baseline`
-- Head: `4e3da9e1b05a3bb580485100473d65208e94c5c0`
-- State: DRAFT / unmerged
+- `CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=true`
+- `ECO010_SOAK_PASS=true`
+- `DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS=true`
+- `CX5_DEVICE_OS_INTEGRATION_EXACT_HEAD_CI_PASS=true`
+- `CX5_RELEASE_AND_COMPLETE_EXPERIENCE_DIGITAL_PASS=true`
 
 ## Human / physical / external
 
@@ -33,7 +37,3 @@ Do **not** treat the Device OS integration PR head as accepted main.
 - `J6_CLASS=HUMAN_VALIDATION_PENDING`
 - Physical printer / camera-mic / EVT / DVT / PVT pending
 - `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`
-
-## Old CX PRs
-
-Historical stacked CX PRs remain open as review surfaces; not closed by CX5.0.
