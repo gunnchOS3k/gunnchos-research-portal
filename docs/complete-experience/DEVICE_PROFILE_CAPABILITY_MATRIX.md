@@ -1,29 +1,28 @@
 # Device Profile × Capability Matrix
 
-Statuses reflect CX0 inventory (digital foundations). PHYSICAL/HUMAN pending noted.
+Statuses reflect **CX1 ordinary-user digital foundations** (stacked on CX0).  
+PHYSICAL/HUMAN pending remain explicit. Device Lab gate evidence is **not** mutated.
 
-| Domain | handheld_student | ds_xl | office_dock | fleet_admin | community_hub |
-|--------|------------------|-------|-------------|--------------|---------------|
-| 1 Identity | PARTIAL | PARTIAL | PARTIAL | PARTIAL | ABSENT |
-| 2 Files/sync | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 3 Apps | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 4 Browser/PWA | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 5 Productivity | PARTIAL | PARTIAL | PARTIAL | — | PARTIAL |
-| 6 Comms | PARTIAL | PARTIAL | PARTIAL | — | PARTIAL |
-| 7 Peripherals | PARTIAL | PARTIAL | PARTIAL (print focus) | — | PARTIAL |
-| 8 Accessibility | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 9 WAIKE | PARTIAL (train dep) | PARTIAL | — | — | PARTIAL offline |
-| 10 Portfolio | ABSENT | ABSENT | ABSENT | — | ABSENT |
-| 11 Creative | — | PARTIAL | PARTIAL | — | — |
-| 12 Dev/maker | — | PARTIAL | PARTIAL | — | — |
-| 13 gunnchAI | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 14 Games/media | PARTIAL (train dep) | PARTIAL | — | — | PARTIAL |
-| 15 Compat/remote | PARTIAL | PARTIAL | PARTIAL | — | PARTIAL |
-| 16 Continuity | PHYSICAL_PENDING | PHYSICAL_PENDING | PHYSICAL_PENDING | — | — |
-| 17 Offline/hub | PARTIAL | PARTIAL | PARTIAL | — | PARTIAL |
-| 18 Security | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 19 Firmware | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
-| 20 Admin | PARTIAL | PARTIAL | PARTIAL | PARTIAL | — |
-| 21 Support | PARTIAL | PARTIAL | PARTIAL | PARTIAL | PARTIAL |
+| Domain | handheld_student / Student 14.5 | handheld_hybrid | ds_xl / DS-XL Coder | edge_io_rings | docked / office_dock | generic CI/QEMU |
+|--------|----------------------------------|-----------------|--------------------|---------------|----------------------|-----------------|
+| 1 Identity | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED |
+| 2 Files/sync | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED |
+| 3 Apps | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED |
+| 4 Browser/PWA | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | PROVIDER_REQUIRED |
+| 5 Productivity | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | PROVIDER_REQUIRED |
+| 6 Comms | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED |
+| 7 Peripherals/Print | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | PHYSICAL_PENDING | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED |
+| 8 Accessibility | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED |
+| 9 WAIKE | PARTIAL (train dep) | PARTIAL | PARTIAL | — | — | PARTIAL |
+| 17 Offline | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED |
+| 18 Security | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED | DEGRADED_SUPPORTED |
+| 21 Support/Care | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED | SUPPORTED |
 
-Legend: `—` = not primary for profile (must be explicit, not silent failure).
+Machine-readable peer: Device OS `artifacts/complete_experience/cx1/DEVICE_PROFILE_MATRIX.json`.
+
+Legend: `—` = not primary for profile. `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`.
+
+
+## CX2 product vs provider (separate booleans)
+
+See Device OS `artifacts/complete_experience/cx2/DEVICE_PROFILE_MATRIX.json` and `PRODUCT_PROVIDER_MATRIX.json`. Profiles: student_14_5, handheld_hybrid, ds_xl, docked, ci_qemu. Edge IO/Rings = accessory not desktop. `FULL_COMPLETE_EXPERIENCE_COMPLETE=false`.

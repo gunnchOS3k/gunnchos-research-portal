@@ -1,0 +1,20 @@
+{
+  "schema": "gunnchos.contracts.IssuerProfile.v1",
+  "required": [
+    "issuer_id",
+    "name",
+    "algorithm",
+    "public_key_b64",
+    "ephemeral",
+    "certification_claimed"
+  ],
+  "properties": {
+    "issuer_id": { "type": "string" },
+    "name": { "type": "string" },
+    "algorithm": { "const": "Ed25519" },
+    "public_key_b64": { "type": "string" },
+    "ephemeral": { "type": "boolean" },
+    "certification_claimed": { "type": "boolean", "const": false },
+    "realm": { "enum": ["lab", "dev", "production_pending"] }
+  }
+}
