@@ -1,0 +1,38 @@
+{
+  "schema": "gunnchos.support.warranty_decision_tree.v1",
+  "claim_boundary": "DIGITAL_TREE \u2014 commercial warranty terms EXTERNAL_PARTY_REQUIRED / LEGAL_RIGHTS_REVIEW_REQUIRED",
+  "nodes": [
+    {
+      "id": "start",
+      "ask": "Is device within digital eligibility window metadata?",
+      "yes": "check_abuse",
+      "no": "OUT_OF_WARRANTY_CANDIDATE"
+    },
+    {
+      "id": "check_abuse",
+      "ask": "Fault consistent with liquid/impact/unauthorized mod?",
+      "yes": "OUT_OF_WARRANTY_CANDIDATE",
+      "no": "check_software"
+    },
+    {
+      "id": "check_software",
+      "ask": "Software recovery exhausted (safe mode, rollback, reinstall)?",
+      "yes": "IN_WARRANTY_CANDIDATE",
+      "no": "return_self_serve"
+    },
+    {
+      "id": "return_self_serve",
+      "result": "SELF_SERVE_RECOVERY"
+    },
+    {
+      "id": "IN_WARRANTY_CANDIDATE",
+      "result": "IN_WARRANTY_CANDIDATE",
+      "note": "Legal warranty decision is EXTERNAL"
+    },
+    {
+      "id": "OUT_OF_WARRANTY_CANDIDATE",
+      "result": "OUT_OF_WARRANTY_CANDIDATE",
+      "note": "Legal warranty decision is EXTERNAL"
+    }
+  ]
+}
