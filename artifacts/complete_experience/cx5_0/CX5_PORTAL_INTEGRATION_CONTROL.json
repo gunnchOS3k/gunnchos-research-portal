@@ -1,6 +1,6 @@
 {
   "schema": "CX5_PORTAL_INTEGRATION_CONTROL/v1",
-  "generated_at": "2026-09-18T03:24:28Z",
+  "generated_at": "2026-09-18T03:37:52Z",
   "prompt": "CX5.0R",
   "accepted_release_baseline": {
     "device_os_main": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
@@ -14,7 +14,7 @@
   },
   "device_os_integration": {
     "branch": "integration/cx-complete-experience-release-baseline",
-    "head": "4f0c18f09a1cf8c3910e045a39d8c12a1da6035f",
+    "head": "909f984861bcf2011b1a9e43732ed9718eeef972",
     "pr": 156,
     "pr_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/156",
     "accepted_integration_merge_sha": "PENDING_OWNER_MERGE",
@@ -25,7 +25,7 @@
     "pr": 34,
     "pr_url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/34",
     "state": "DRAFT_UNMERGED",
-    "head": "dd87480ffde74d02448eaff6a42c000e7b65ef7d"
+    "head": "62be63a734e5764d2124b3bbdc7494100a16cdc7"
   },
   "current_integrated_digital_tokens": {
     "CX5_CURRENT_TIP_GUEST_OVERLAY_PASS": true,
@@ -51,7 +51,7 @@
   },
   "CX5_PORTAL_INTEGRATION_PREPARED_PASS": true,
   "portal_exact_head_tests": {
-    "result": "PASS_LOG",
+    "result": "7 passed",
     "ok": true
   }
 }
