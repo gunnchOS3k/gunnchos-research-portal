@@ -2,7 +2,7 @@
   "schema": "CX5_1_PORTAL_34_EXACT_HEAD_CI/v1",
   "generated_at_utc": "2026-09-18T14:19:29Z",
   "prompt": "CX5.1",
-  "exact_portal_head": "4d23901772fe34335c5e01786063c5a4fc18e6a3",
+  "exact_portal_head": "b9122c41083537f57f4fd8b04cbc68f2fc3eb5c9",
   "checks_total": 2,
   "checks_success": 2,
   "checks_failed": 0,

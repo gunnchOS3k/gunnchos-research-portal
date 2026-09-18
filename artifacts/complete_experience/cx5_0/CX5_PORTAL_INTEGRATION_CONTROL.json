@@ -31,7 +31,7 @@
     "head_pre_cx5_1": "f35c034c1204f1b5644355b1ca6e12d13ed697f3",
     "accepted_merge_sha": "PENDING_OWNER_MERGE",
     "note": "CX5.1 final sync after Device OS #156 accepted-main merge; PENDING_OWNER_MERGE",
-    "head": "4d23901772fe34335c5e01786063c5a4fc18e6a3",
+    "head": "b9122c41083537f57f4fd8b04cbc68f2fc3eb5c9",
     "CX5_PORTAL_34_OWNER_MERGE_READY": true
   },
   "current_integrated_digital_tokens": {

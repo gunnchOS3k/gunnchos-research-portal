@@ -18,7 +18,7 @@
   "J_device_build_freeze_eligible": true,
   "K_final_human_eligibility_reason": "Portal #34 not accepted main; physical/human pending; CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE=false",
   "L_portal_34_old_head": "f35c034c1204f1b5644355b1ca6e12d13ed697f3",
-  "L_portal_34_new_head": "4d23901772fe34335c5e01786063c5a4fc18e6a3",
+  "L_portal_34_new_head": "b9122c41083537f57f4fd8b04cbc68f2fc3eb5c9",
   "M_portal_current_identities": {
     "device_os_main": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
     "portal_15": "722d85fce4cd66e26e0abef1f56b34bc3bcf81a8",
