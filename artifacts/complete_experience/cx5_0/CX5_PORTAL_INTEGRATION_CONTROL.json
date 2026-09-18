@@ -14,7 +14,7 @@
   },
   "device_os_integration": {
     "branch": "integration/cx-complete-experience-release-baseline",
-    "head": "909f984861bcf2011b1a9e43732ed9718eeef972",
+    "head": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
     "pr": 156,
     "pr_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/156",
     "accepted_integration_merge_sha": "PENDING_OWNER_MERGE",

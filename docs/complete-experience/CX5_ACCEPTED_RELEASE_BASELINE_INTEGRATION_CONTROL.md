@@ -17,7 +17,7 @@ Prompt: CX5.0R
 ## Device OS consolidation candidate
 
 - Branch: `integration/cx-complete-experience-release-baseline`
-- Head: `909f984861bcf2011b1a9e43732ed9718eeef972`
+- Head: `e55ad514e18022e99ec7beee56b17e6e00cc91e1`
 - PR: https://github.com/gunnchOS3k/gunnchos-device-os/pull/156
 - Accepted integration merge SHA: `PENDING_OWNER_MERGE`
 

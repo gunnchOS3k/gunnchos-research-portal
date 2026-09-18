@@ -2,7 +2,7 @@
   "CX5_PORTAL_INTEGRATION_PREPARED_PASS": true,
   "generated_at": "2026-09-18T03:37:52Z",
   "prompt": "CX5.0R",
-  "device_os_integration_head": "909f984861bcf2011b1a9e43732ed9718eeef972",
+  "device_os_integration_head": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
   "device_os_accepted_integration_merge_sha": "PENDING_OWNER_MERGE",
   "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
   "ECO010_SOAK_PASS": true,
