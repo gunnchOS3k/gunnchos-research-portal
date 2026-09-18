@@ -1,0 +1,958 @@
+{
+  "schema": "DIGITAL_ENGINEERING_EXHAUSTION_CONTROL_PLANE/v1",
+  "campaign": "GUNNCHOS3K_DIGITAL_ENGINEERING_EXHAUSTION",
+  "stream": "CONTROL",
+  "generated_at_utc": "2026-09-18T18:35:17Z",
+  "workspace_root": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos",
+  "truth_boundary": {
+    "no_fabricated_human_physical_external_evidence": true,
+    "simulation_remains_simulation": true,
+    "synthetic_personas_are_fixtures_not_humans": true
+  },
+  "git_policy": {
+    "draft_prs_only": true,
+    "no_merge_by_cursor": true,
+    "no_direct_main_changes": true,
+    "default_branch_name": "main",
+    "never_use_master": true
+  },
+  "architecture_doctrine": {
+    "PRODUCT_MAINLINE": "AMD_CUSTOM_X86",
+    "OPEN_ENGINEERING_MAINLINE": "NXP_IMX95_OPEN_CUSTOM",
+    "GREENFIELD_EXPERIMENT": "GXE",
+    "REFERENCE_CONTROL": "COM_HPC_AND_COTS",
+    "experience_first": "USER_OUTCOME \u2192 Experience Contract \u2192 software efficiency \u2192 runtime optimization \u2192 hardware acceleration where justified \u2192 custom silicon/board where justified"
+  },
+  "gh_live_status": {
+    "status": "BLOCKED",
+    "detail": "gh auth status: token in keyring invalid for gunnchOS3k; GraphQL returns Forbidden. Open PR counts below are last-known inventory (2026-09-18T15:16:54Z) where available, not live.",
+    "owner_action_required": "gh auth login -h github.com"
+  },
+  "workspace_discovery": {
+    "requested_present": [
+      "gunnchos-research-portal",
+      "gunnchos-device-os",
+      "7gc-digital-twin",
+      "spectrumx-ai-ran-gary",
+      "readygary-6g-beam-selection",
+      "ntn-resilience-sim",
+      "edge-io-measurement-node",
+      "gunnchos-hardware-industrial-design",
+      "gunnchAI3k",
+      "waike-research-ops",
+      "anime-aggressors",
+      "pedestrian-pursuit",
+      "archive-of-life-artifact-world",
+      "beatlink-party",
+      "gunnchos-gpu-nr-baseband-platform",
+      "gunnchos-emergent-service-intent-protocols"
+    ],
+    "additional_found": [
+      "gunnchos-waike-learning-platform",
+      "gunnchos-greenfield-experimental"
+    ],
+    "missing_from_workspace": [],
+    "gunnchai_siblings_note": "Primary product repo is gunnchAI3k. Local sibling worktrees observed: gunnchAI3k-mastery-002-wt, gunnchAI3k-wave003-integrity-repair (not accepted-main pins)."
+  },
+  "repos": [
+    {
+      "name": "gunnchos-research-portal",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
+      "default_branch": "main",
+      "accepted_main_sha": "6467551bbd68732d4681d763c35cc3b5da410879",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #34 (consolidated CE control)",
+      "current_branch": "main",
+      "head_sha": "e60705b8b3cd8b28ad713edfa165ecc2adfa884a",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 4,
+        "dirty_tracked_or_staged": 0,
+        "dirty_untracked": 4
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 20,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "release/v1.0/V1_0_ACCEPTED_BASELINE.json",
+        "release/v1.0/OPEN_PR_INVENTORY.json",
+        "artifacts/digital_engineering_exhaustion/"
+      ],
+      "dependency_pins": [],
+      "release_critical": true,
+      "experimental": false,
+      "role": "hub_control_plane",
+      "remote": "https://github.com/gunnchOS3k/gunnchos-research-portal.git",
+      "current_blockers": [
+        {
+          "class": "EXTERNAL_PARTY_REQUIRED",
+          "note": "Live gh PR list blocked: GitHub token in keyring invalid (gh auth login required)."
+        },
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "CX5 real human session launch remains owner/human path; no fabricated participant evidence."
+        }
+      ]
+    },
+    {
+      "name": "gunnchos-device-os",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-device-os",
+      "default_branch": "main",
+      "accepted_main_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #156 (consolidated Complete Experience)",
+      "current_branch": "eng/cx2h2-document-print-recovery-j1-j7",
+      "head_sha": "1dbd6bf2d72e22a697db26c7b715853b1beea31e",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 65,
+        "dirty_tracked_or_staged": 5,
+        "dirty_untracked": 60
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 18,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "release/v1.0/V1_0_ACCEPTED_BASELINE.json",
+        "release/v1.0/OPEN_PR_INVENTORY.json",
+        "artifacts/device_lab_current_pin/ACCEPTED_MAIN_PIN_MANIFEST.json",
+        "artifacts/complete_experience/"
+      ],
+      "dependency_pins": [
+        "requirements.txt",
+        "REPRODUCIBILITY_MANIFEST.yaml",
+        "apps/gunnch_shell/package-lock.json",
+        "apps/launcher_mock/package-lock.json"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "product_runtime_os",
+      "remote": "https://github.com/gunnchOS3k/gunnchos-device-os.git",
+      "current_blockers": [
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "Device-lab / printer / camera-mic physical truth tokens remain pending."
+        },
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Complete Experience human validation not claimed complete."
+        },
+        {
+          "class": "EXTERNAL_PARTY_REQUIRED",
+          "note": "Live open-PR refresh blocked by invalid gh auth."
+        }
+      ]
+    },
+    {
+      "name": "7gc-digital-twin",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/7gc-digital-twin",
+      "default_branch": "main",
+      "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #31 (rq1 statistical parity)",
+      "current_branch": "research/rq1-statistical-parity-001",
+      "head_sha": "dd0a7b0738f9e4e65830ea2397fb4438e255d5b0",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 28,
+        "dirty_tracked_or_staged": 28,
+        "dirty_untracked": 0
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [],
+      "dependency_pins": [
+        "requirements.txt"
+      ],
+      "release_critical": false,
+      "experimental": false,
+      "role": "research_feeder",
+      "remote": "https://github.com/gunnchOS3k/7gc-digital-twin.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Campus/operational claims remain simulation-class until field evidence."
+        }
+      ]
+    },
+    {
+      "name": "spectrumx-ai-ran-gary",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/spectrumx-ai-ran-gary",
+      "default_branch": "main",
+      "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #102 (rq2 fidelity checkpoint)",
+      "current_branch": "research/rq2-fidelity-checkpoint-001",
+      "head_sha": "b44357f764d440f983132bd44a9c23c180591f70",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 15,
+        "dirty_tracked_or_staged": 15,
+        "dirty_untracked": 0
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "requirements.txt",
+        "pyproject.toml"
+      ],
+      "release_critical": false,
+      "experimental": false,
+      "role": "research_feeder",
+      "remote": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Research metrics are synthetic/sim unless labeled otherwise."
+        }
+      ]
+    },
+    {
+      "name": "readygary-6g-beam-selection",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/readygary-6g-beam-selection",
+      "default_branch": "main",
+      "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #27 (accepted-main CI hygiene)",
+      "current_branch": "cursor/readygary-accepted-main-ci-hygiene-001",
+      "head_sha": "7150384f73f4fc5441d26237f2c296a575061fb9",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 31,
+        "dirty_tracked_or_staged": 30,
+        "dirty_untracked": 1
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [
+        "results/",
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "requirements.txt"
+      ],
+      "release_critical": false,
+      "experimental": false,
+      "role": "research_feeder",
+      "remote": "https://github.com/gunnchOS3k/readygary-6g-beam-selection.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Held-out research tables are sim/synthetic class."
+        }
+      ]
+    },
+    {
+      "name": "ntn-resilience-sim",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/ntn-resilience-sim",
+      "default_branch": "main",
+      "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #28 (rq3 statistical parity)",
+      "current_branch": "research/rq3-statistical-parity-001",
+      "head_sha": "7afde2ef17020b286cd943603e19ec001678a60b",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 7,
+        "dirty_tracked_or_staged": 7,
+        "dirty_untracked": 0
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [],
+      "dependency_pins": [
+        "requirements.txt"
+      ],
+      "release_critical": false,
+      "experimental": false,
+      "role": "research_feeder",
+      "remote": "https://github.com/gunnchOS3k/ntn-resilience-sim.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "NTN scenarios remain SIMULATION."
+        }
+      ]
+    },
+    {
+      "name": "edge-io-measurement-node",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/edge-io-measurement-node",
+      "default_branch": "main",
+      "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #38 (supervisor-ready portfolio)",
+      "current_branch": "cursor/supervisor-ready-portfolio-release-001",
+      "head_sha": "3c5606751be45cd770d397b7e261afaa0701a0b1",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 15,
+        "dirty_tracked_or_staged": 14,
+        "dirty_untracked": 1
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "requirements.txt"
+      ],
+      "release_critical": false,
+      "experimental": false,
+      "role": "research_feeder",
+      "remote": "https://github.com/gunnchOS3k/edge-io-measurement-node.git",
+      "current_blockers": [
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "Real measurement capture requires edge hardware."
+        }
+      ]
+    },
+    {
+      "name": "gunnchos-hardware-industrial-design",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-hardware-industrial-design",
+      "default_branch": "main",
+      "accepted_main_sha": "4a8aefb5fd6203842267f5adbd72b8ed324e1fac",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #80 (hw1d1 accepted-main rebind)",
+      "current_branch": "cursor/supervisor-ready-portfolio-release-001",
+      "head_sha": "5a93e261fdd8187341b94100c0df20eba6bc18b1",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 11,
+        "dirty_tracked_or_staged": 10,
+        "dirty_untracked": 1
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [
+        "artifacts/",
+        ".worktrees/hw1d1-accepted-main-rebind/hardware_v1/GATES.json (worktree; promote via Stream E/F DRAFT PR)"
+      ],
+      "dependency_pins": [
+        "requirements.txt"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "hardware_industrial_design",
+      "remote": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design.git",
+      "current_blockers": [
+        {
+          "class": "VENDOR_RESTRICTED_COLLATERAL_REQUIRED",
+          "note": "AMD product-mainline pin maps / proprietary enablement gated."
+        },
+        {
+          "class": "PURCHASE_OR_FAB_AUTHORIZATION_REQUIRED",
+          "note": "CPB0 open fab quote/authorization is owner-only."
+        },
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "EVT/DVT/PVT physical pass tokens remain false."
+        }
+      ]
+    },
+    {
+      "name": "gunnchAI3k",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchAI3k",
+      "default_branch": "main",
+      "accepted_main_sha": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #46 (windows-pilot0 authentic evidence)",
+      "current_branch": "release/inspect-main",
+      "head_sha": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 22,
+        "dirty_tracked_or_staged": 19,
+        "dirty_untracked": 3
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 5,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "artifacts/device_lab_preflight/"
+      ],
+      "dependency_pins": [
+        "package-lock.json",
+        "python-ai-bridge/requirements.txt"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "gunnchai_tutor",
+      "remote": "https://github.com/gunnchOS3k/gunnchAI3k.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Human tutoring evaluation remains non-automatable; synthetic evals must stay SYNTHETIC."
+        }
+      ]
+    },
+    {
+      "name": "waike-research-ops",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/waike-research-ops",
+      "default_branch": "main",
+      "accepted_main_sha": "fbf7685bc5686201ccaa0128ee83346d59b3d584",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #57 (waike seven-gc digital)",
+      "current_branch": "cursor/waike-post53-ci-hygiene-001",
+      "head_sha": "0c627ab700cf72a89a9aad06369e5dedb8fb9b82",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 12,
+        "dirty_tracked_or_staged": 11,
+        "dirty_untracked": 1
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [
+        "artifacts/"
+      ],
+      "dependency_pins": [],
+      "release_critical": true,
+      "experimental": false,
+      "role": "waike_ops_curriculum",
+      "remote": "https://github.com/gunnchOS3k/waike-research-ops.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Academic/curriculum human review gaps classified by Stream B."
+        }
+      ]
+    },
+    {
+      "name": "anime-aggressors",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/anime-aggressors",
+      "default_branch": "main",
+      "accepted_main_sha": "258cc0c45991ac9dded0c3d7813894d9fd7ca56d",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #98 (windows-pilot0 authentic evidence)",
+      "current_branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "789b229406bef24d0a614309f84ef08e605fec6c",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 262,
+        "dirty_tracked_or_staged": 200,
+        "dirty_untracked": 62
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 3,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "release/",
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "package-lock.json"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "game",
+      "remote": "https://github.com/gunnchOS3k/anime-aggressors.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Playtest fun/balance feel gates pending."
+        },
+        {
+          "class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+          "note": "Third-party asset rights inventory/quarantine owned by Stream C."
+        },
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "Authentic device play evidence where claimed requires hardware."
+        }
+      ]
+    },
+    {
+      "name": "pedestrian-pursuit",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/pedestrian-pursuit",
+      "default_branch": "main",
+      "accepted_main_sha": "ba698e929b573096ef50e0699990f3f0c6d571b6",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #23 (windows-pilot0 authentic evidence)",
+      "current_branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "599c6b320d7c2d2340ead82f74f085a7b17939fc",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 7,
+        "dirty_tracked_or_staged": 0,
+        "dirty_untracked": 7
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 1,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "release/",
+        "artifacts/"
+      ],
+      "dependency_pins": [],
+      "release_critical": true,
+      "experimental": false,
+      "role": "game",
+      "remote": "https://github.com/gunnchOS3k/pedestrian-pursuit.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Playtest fun/balance pending."
+        },
+        {
+          "class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+          "note": "Rights inventory Stream C."
+        }
+      ]
+    },
+    {
+      "name": "archive-of-life-artifact-world",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/archive-of-life-artifact-world",
+      "default_branch": "main",
+      "accepted_main_sha": "8611d2e30315792c38d7d5062e108b8bb87df2c2",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #36 (windows-pilot0 authentic evidence)",
+      "current_branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "89f0bb447c27b250ee67c3c21549c1b4b3278c7d",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 5,
+        "dirty_tracked_or_staged": 3,
+        "dirty_untracked": 2
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 1,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "release/",
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "package-lock.json",
+        "data-pipeline/uv.lock"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "game",
+      "remote": "https://github.com/gunnchOS3k/archive-of-life-artifact-world.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Playtest fun/balance pending."
+        },
+        {
+          "class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+          "note": "Rights inventory Stream C."
+        }
+      ]
+    },
+    {
+      "name": "beatlink-party",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/beatlink-party",
+      "default_branch": "main",
+      "accepted_main_sha": "06b4a6f74159ee933984be913e269eab64246efb",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #26 (windows-pilot0 authentic evidence)",
+      "current_branch": "cursor/windows-pilot0-authentic-evidence",
+      "head_sha": "b20a570a817398078430f8fa2761b1d1fe8cf89c",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 6,
+        "dirty_tracked_or_staged": 2,
+        "dirty_untracked": 4
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 1,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "release/",
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "pnpm-lock.yaml"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "game",
+      "remote": "https://github.com/gunnchOS3k/beatlink-party.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Playtest fun/balance pending."
+        },
+        {
+          "class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+          "note": "Audio/asset rights inventory Stream C."
+        },
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "Pixel/device install evidence authenticity where claimed."
+        }
+      ]
+    },
+    {
+      "name": "gunnchos-gpu-nr-baseband-platform",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-gpu-nr-baseband-platform",
+      "default_branch": "main",
+      "accepted_main_sha": "3931f51d43b7bee87db6d710a9df5a7c1136fcfa",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #3 (supervisor-ready portfolio)",
+      "current_branch": "cursor/supervisor-ready-portfolio-release-001",
+      "head_sha": "2a5c483fdeb6d6357e62590e4a7cf6ef3b023bac",
+      "dirty_state": {
+        "clean": true,
+        "dirty_total": 0,
+        "dirty_tracked_or_staged": 0,
+        "dirty_untracked": 0
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [],
+      "dependency_pins": [],
+      "release_critical": false,
+      "experimental": true,
+      "role": "research_platform",
+      "remote": "https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform.git",
+      "current_blockers": [
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "GPU/NR baseband physical validation not claimed."
+        }
+      ]
+    },
+    {
+      "name": "gunnchos-emergent-service-intent-protocols",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-emergent-service-intent-protocols",
+      "default_branch": "main",
+      "accepted_main_sha": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #3 (supervisor-ready portfolio)",
+      "current_branch": "cursor/supervisor-ready-portfolio-release-001",
+      "head_sha": "7381de141836569550c0000b28eca3a538b18be2",
+      "dirty_state": {
+        "clean": true,
+        "dirty_total": 0,
+        "dirty_tracked_or_staged": 0,
+        "dirty_untracked": 0
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": null,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+        "note": "Not present in prior OPEN_PR_INVENTORY snapshot; live gh list unavailable."
+      },
+      "release_gate_artifacts": [],
+      "dependency_pins": [
+        "pyproject.toml"
+      ],
+      "release_critical": false,
+      "experimental": true,
+      "role": "research_platform",
+      "remote": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Protocol research claims remain digital/experimental until fielded."
+        }
+      ]
+    },
+    {
+      "name": "gunnchos-waike-learning-platform",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-waike-learning-platform",
+      "default_branch": "main",
+      "accepted_main_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
+      "accepted_main_source": "origin/main",
+      "accepted_main_subject": "Merge pull request #17 (waike hub device-lab)",
+      "current_branch": "HEAD",
+      "head_sha": "34fb050ccabec813cef4811d64581b32453e1ec2",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 1,
+        "dirty_tracked_or_staged": 0,
+        "dirty_untracked": 1
+      },
+      "open_prs": {
+        "live_fetch_status": "BLOCKED_GH_AUTH_INVALID",
+        "last_known_inventory_count": 1,
+        "last_known_inventory_source": "gunnchos-research-portal/release/v1.0/OPEN_PR_INVENTORY.json",
+        "last_known_inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z"
+      },
+      "release_gate_artifacts": [
+        "(Stream B will bind WAIKE gates)"
+      ],
+      "dependency_pins": [
+        "apps/client/pnpm-lock.yaml"
+      ],
+      "release_critical": true,
+      "experimental": false,
+      "role": "waike_product",
+      "remote": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform.git",
+      "current_blockers": [
+        {
+          "class": "HUMAN_VALIDATION_REQUIRED",
+          "note": "Learner/instructor validation not automatable end-state."
+        },
+        {
+          "class": "EXTERNAL_PARTY_REQUIRED",
+          "note": "Detached HEAD workspace; live PR refresh blocked by gh auth."
+        }
+      ]
+    },
+    {
+      "name": "gunnchos-greenfield-experimental",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-greenfield-experimental",
+      "default_branch": "main",
+      "accepted_main_sha": "ed677ab07770e896d1f45c864e81c6faf16d8a30",
+      "accepted_main_source": "local/main",
+      "accepted_main_subject": "chore(repo): rename default branch to main",
+      "current_branch": "hardening/gxe-1-1-qemu-usermode",
+      "head_sha": "f0d484e49354012173404a62b15c7b58afc76ac3",
+      "dirty_state": {
+        "clean": false,
+        "dirty_total": 34,
+        "dirty_tracked_or_staged": 15,
+        "dirty_untracked": 19
+      },
+      "open_prs": {
+        "live_fetch_status": "NO_REMOTE",
+        "last_known_inventory_count": 0,
+        "note": "Isolated GXE repo; preserve experimental isolation."
+      },
+      "release_gate_artifacts": [
+        "gates/GATES.json",
+        "artifacts/"
+      ],
+      "dependency_pins": [
+        "pyproject.toml"
+      ],
+      "release_critical": false,
+      "experimental": true,
+      "role": "GXE",
+      "remote": null,
+      "current_blockers": [
+        {
+          "class": "PHYSICAL_HARDWARE_REQUIRED",
+          "note": "FPGA/custom board physical gates remain false; continue simulation on experimental branches only."
+        },
+        {
+          "class": "EXTERNAL_PARTY_REQUIRED",
+          "note": "No remote; no production merge; no remote creation unless separately authorized."
+        }
+      ]
+    }
+  ],
+  "open_pr_count_summary": {
+    "live": null,
+    "last_known_from_inventory": {
+      "gunnchos-device-os": 18,
+      "gunnchos-research-portal": 20,
+      "gunnchos-waike-learning-platform": 1,
+      "gunnchAI3k": 5,
+      "anime-aggressors": 3,
+      "pedestrian-pursuit": 1,
+      "archive-of-life-artifact-world": 1,
+      "beatlink-party": 1
+    },
+    "inventory_generated_at_utc": "2026-09-18T15:16:54.807907Z",
+    "repos_without_inventory_row": [
+      "7gc-digital-twin",
+      "spectrumx-ai-ran-gary",
+      "readygary-6g-beam-selection",
+      "ntn-resilience-sim",
+      "edge-io-measurement-node",
+      "gunnchos-hardware-industrial-design",
+      "waike-research-ops",
+      "gunnchos-gpu-nr-baseband-platform",
+      "gunnchos-emergent-service-intent-protocols"
+    ]
+  },
+  "master_gates_section_23": {
+    "OPEN_PR_ENGINEERING_HYGIENE_PASS": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "A",
+      "note": "Stub: false until Stream A earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "SOFTWARE_V1_PRE_HUMAN_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "A",
+      "note": "Stub: false until Stream A earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "ALL_AUTOMATABLE_USER_JOURNEYS_PASS": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "A",
+      "note": "Stub: false until Stream A earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "HUMAN_VALIDATION_INFRASTRUCTURE_READY": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "A",
+      "note": "Stub: false until Stream A earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "HUMAN_REFINEMENT_LOOP_READY": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "A",
+      "note": "Stub: false until Stream A earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "WAIKE_DIGITAL_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "B",
+      "note": "Stub: false until Stream B earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "GUNNCHAI_PRE_HUMAN_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "B",
+      "note": "Stub: false until Stream B earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "C",
+      "note": "Stub: false until Stream C earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "GXE_SIMULATION_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "D",
+      "note": "Stub: false until Stream D earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "NXP_OPEN_CUSTOM_DIGITAL_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "E",
+      "note": "Stub: false until Stream E earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "AMD_PUBLIC_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "E",
+      "note": "Stub: false until Stream E earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "RINGS_DIGITAL_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "E",
+      "note": "Stub: false until Stream E earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "DOCK_DIGITAL_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "E",
+      "note": "Stub: false until Stream E earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "MECHANICAL_DIGITAL_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "F",
+      "note": "Stub: false until Stream F earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "PHYSICAL_VALIDATION_ENGINEERING_PREP_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "F",
+      "note": "Stub: false until Stream F earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "CERTIFICATION_ENGINEERING_PREP_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "F",
+      "note": "Stub: false until Stream F earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "MANUFACTURING_ENGINEERING_PREP_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "F",
+      "note": "Stub: false until Stream F earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "SUPPORT_ENGINEERING_PREP_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "G",
+      "note": "Stub: false until Stream G earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    },
+    "DOCUMENTATION_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "earned": false,
+      "owner_stream": "G",
+      "note": "Stub: false until Stream G earns with authentic evidence. Streams A\u2013G update; Stream H verifies."
+    }
+  },
+  "master_campaign_gates": {
+    "DIGITAL_ENGINEERING_EXHAUSTED": false,
+    "READY_TO_BEGIN_FULL_HUMAN_VALIDATION": false,
+    "note": "Remain false until all section-23 gates earned and Stream H clean-room verification passes. Streams A\u2013G update evidence; CONTROL does not fabricate completion."
+  },
+  "next_owner_actions": [
+    "REAUTH_GITHUB_CLI (gh auth login) so live open-PR hygiene can proceed",
+    "ALLOW_STREAMS_A_G_TO_UPDATE_GATES_WITH_EVIDENCE",
+    "DO_NOT_MERGE_UNTIL_STREAM_H_CLEANROOM",
+    "PARALLEL_LATER: MERGE_REVIEWED_DIGITAL_COMPLETION_PRS | AUTHORIZE_CPB0_OPEN_FAB_QUOTE | ACQUIRE_REQUIRED_PHYSICAL_HARDWARE | ENGAGE_CERTIFICATION_LAB | BEGIN_REAL_HUMAN_VALIDATION"
+  ],
+  "next_recommended_owner_action_now": "REAUTH_GITHUB_CLI_THEN_LET_STREAMS_A_G_PROCEED_FROM_THESE_PINS"
+}
