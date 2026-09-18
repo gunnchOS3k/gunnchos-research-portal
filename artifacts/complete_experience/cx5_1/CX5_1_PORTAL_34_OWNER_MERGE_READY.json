@@ -1,0 +1,27 @@
+{
+  "schema": "CX5_1_PORTAL_34_OWNER_MERGE_READY/v1",
+  "generated_at_utc": "2026-09-18T14:19:29Z",
+  "prompt": "CX5.1",
+  "portal_pr": 34,
+  "portal_head_pre_cx5_1": "f35c034c1204f1b5644355b1ca6e12d13ed697f3",
+  "portal_head": "4d23901772fe34335c5e01786063c5a4fc18e6a3",
+  "device_os_156_pr_head": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+  "device_os_156_accepted_main_merge_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+  "portal_34_accepted_merge_sha": "PENDING_OWNER_MERGE",
+  "preconditions": {
+    "CX5_DEVICE_OS_156_ACCEPTED_MAIN_MERGE_PASS": true,
+    "CX5_DEVICE_OS_156_ACCEPTED_MAIN_EQUIVALENCE_PASS": true,
+    "CX5_RELEASE_ACCEPTED_MAIN_REBIND_PASS": true,
+    "CX5_COMPLETE_EXPERIENCE_ACCEPTED_MAIN_REBIND_PASS": true,
+    "CX5_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
+    "CX5_DEVICE_OS_POST_MERGE_MAIN_VALIDATION_PASS": true,
+    "CX5_VALIDATION_CENTER_ACCEPTED_BUILD_PASS": true,
+    "CX5_FINAL_VALIDATION_DEVICE_BUILD_ELIGIBLE": true,
+    "CX5_PORTAL_34_CONSISTENCY_PASS": true,
+    "CX5_PORTAL_34_FINAL_EXACT_HEAD_CI_PASS": true
+  },
+  "CX5_PORTAL_34_OWNER_MERGE_READY": true,
+  "NEXT_OWNER_ACTION": "MERGE_CX_PORTAL_INTEGRATION_WITH_MERGE_COMMIT",
+  "cursor_does_not_merge": true,
+  "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false
+}

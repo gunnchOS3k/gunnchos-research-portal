@@ -1,0 +1,14 @@
+{
+  "schema": "CX5_1_PORTAL_34_EXACT_HEAD_CI/v1",
+  "generated_at_utc": "2026-09-18T14:19:29Z",
+  "prompt": "CX5.1",
+  "exact_portal_head": "4d23901772fe34335c5e01786063c5a4fc18e6a3",
+  "checks_total": 2,
+  "checks_success": 2,
+  "checks_failed": 0,
+  "checks_pending": 0,
+  "workflow_runs": 2,
+  "local_pytest": "7 passed",
+  "CX5_PORTAL_34_FINAL_EXACT_HEAD_CI_PASS": true,
+  "note": "CI terminal green on exact Portal #34 head before tip-stamp; tip-stamp re-polled after push."
+}
