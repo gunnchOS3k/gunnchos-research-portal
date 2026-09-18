@@ -1,0 +1,294 @@
+{
+  "schema": "gunnchos.stream_h_v2.accepted_main_verification_index.v1",
+  "generated_at_utc": "2026-09-18T20:47:50Z",
+  "supersedes": {
+    "historical_pr": 37,
+    "historical_branch": "eng/stream-h-cleanroom-verification",
+    "historical_head": "4593097b20a90a30b66d232f0507a4995f8b87d0",
+    "reason": "stale after portal #35/#36; pins moved; regenerating as v2"
+  },
+  "pins": {
+    "gunnchos-research-portal": {
+      "expected": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+      "actual": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+      "match": true,
+      "subject": "Merge pull request #35 (dee-control-plane-baselines); #36=ea71cb3c ancestor",
+      "materiality": null,
+      "role": "control_plane",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/portal",
+      "dirty_in_clean_room": 0
+    },
+    "gunnchos-device-os": {
+      "expected": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+      "actual": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+      "match": true,
+      "subject": "Merge pull request #157 (stream-a digital exhaustion)",
+      "materiality": null,
+      "role": "product_runtime_os",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchos-device-os",
+      "dirty_in_clean_room": 0
+    },
+    "gunnchos-waike-learning-platform": {
+      "expected": "747e64e6386c10ef8c0f72c50eb5557035e5c9b9",
+      "actual": "747e64e6386c10ef8c0f72c50eb5557035e5c9b9",
+      "match": true,
+      "subject": "Merge pull request #18 (stream-b waike telemetry)",
+      "materiality": {
+        "note": "Initial local origin/main lagged at 7ccb6445 until fetch; intentional accepted main is 747e64e"
+      },
+      "role": "learning_os",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchos-waike-learning-platform",
+      "dirty_in_clean_room": 0
+    },
+    "waike-research-ops": {
+      "expected": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
+      "actual": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
+      "match": true,
+      "subject": "Merge pull request #58 (stream-b waike-ops exhaustion ledger)",
+      "materiality": null,
+      "role": "curriculum_ops",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/waike-research-ops",
+      "dirty_in_clean_room": 0
+    },
+    "gunnchAI3k": {
+      "expected": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
+      "actual": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
+      "match": true,
+      "subject": "Merge pull request #49 (stream-b gunnchai pre-human exhaustion)",
+      "materiality": null,
+      "role": "ai_tutor",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchAI3k",
+      "dirty_in_clean_room": 0
+    },
+    "gunnchos-hardware-industrial-design": {
+      "expected": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+      "actual": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+      "match": true,
+      "subject": "Merge pull request #83 (nxp-open-cpb0-eda); union #81+#82+#83 on main",
+      "materiality": null,
+      "role": "hardware",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchos-hardware-industrial-design",
+      "dirty_in_clean_room": 0
+    },
+    "anime-aggressors": {
+      "expected": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+      "actual": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+      "match": true,
+      "subject": "Merge pull request #99 (stream-c)",
+      "materiality": null,
+      "role": "game",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/anime-aggressors",
+      "dirty_in_clean_room": 0
+    },
+    "pedestrian-pursuit": {
+      "expected": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
+      "actual": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
+      "match": true,
+      "subject": "Merge pull request #24 (stream-c)",
+      "materiality": null,
+      "role": "game",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/pedestrian-pursuit",
+      "dirty_in_clean_room": 0
+    },
+    "archive-of-life-artifact-world": {
+      "expected": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
+      "actual": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
+      "match": true,
+      "subject": "Merge pull request #37 (stream-c)",
+      "materiality": null,
+      "role": "game",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/archive-of-life-artifact-world",
+      "dirty_in_clean_room": 0
+    },
+    "beatlink-party": {
+      "expected": "22a21a411463344450f121d281b3a0dba27f1c56",
+      "actual": "22a21a411463344450f121d281b3a0dba27f1c56",
+      "match": true,
+      "subject": "Merge pull request #27 (stream-c)",
+      "materiality": null,
+      "role": "game",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/beatlink-party",
+      "dirty_in_clean_room": 0
+    }
+  },
+  "rows": [
+    {
+      "repo": "gunnchos-research-portal",
+      "accepted_main_sha": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+      "expected_sha": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [],
+      "result": "PASS_CONTROL_PLANE_PIN",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": null,
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/portal"
+    },
+    {
+      "repo": "gunnchos-device-os",
+      "accepted_main_sha": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+      "expected_sha": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "PYTHONPATH=.:src pytest -q tests/cx4_validation_center/ => 38 passed",
+        "PYTHONPATH=.:src pytest -q tests/cx4_validation_center/test_stream_a_refinement.py => 5 passed",
+        "PYTHONPATH=.:src pytest -q tests/test_phase_xi_user_journeys.py tests/test_golden_journey_infrastructure.py => 20 passed",
+        "pytest -k 'install or upgrade or recovery...' (broad) => 3 failed, 101 passed, 5 errors (image-build env; not Stream A documented gate suite)"
+      ],
+      "result": "PASS_STREAM_A",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": null,
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchos-device-os"
+    },
+    {
+      "repo": "gunnchos-waike-learning-platform",
+      "accepted_main_sha": "747e64e6386c10ef8c0f72c50eb5557035e5c9b9",
+      "expected_sha": "747e64e6386c10ef8c0f72c50eb5557035e5c9b9",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "PYTHONPATH=services/hub pytest -q tests/exhaustion/test_telemetry.py => 2 passed"
+      ],
+      "result": "PASS_STREAM_B",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": null,
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchos-waike-learning-platform"
+    },
+    {
+      "repo": "waike-research-ops",
+      "accepted_main_sha": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
+      "expected_sha": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "pytest -q tests => all passed (84)"
+      ],
+      "result": "PASS_STREAM_B",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": null,
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/waike-research-ops"
+    },
+    {
+      "repo": "gunnchAI3k",
+      "accepted_main_sha": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
+      "expected_sha": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "npx jest --testPathPattern='pre_human|promptInjection|Hallucination' => 5 passed (2 suites)"
+      ],
+      "result": "PASS_STREAM_B",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": null,
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchAI3k"
+    },
+    {
+      "repo": "gunnchos-hardware-industrial-design",
+      "accepted_main_sha": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+      "expected_sha": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [],
+      "result": "PASS_STREAM_E_F_DIGITAL_PREP_NOT_FAB",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": null,
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/gunnchos-hardware-industrial-design"
+    },
+    {
+      "repo": "anime-aggressors",
+      "accepted_main_sha": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+      "expected_sha": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "make stream-c-exhaust / run_stream_c.py => GATE false; Godot headless SIGSEGV"
+      ],
+      "result": "FAIL_STREAM_C_CLEANROOM_RERUN",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/anime-aggressors"
+    },
+    {
+      "repo": "pedestrian-pursuit",
+      "accepted_main_sha": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
+      "expected_sha": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "run_stream_c.py => GATE false"
+      ],
+      "result": "FAIL_STREAM_C_CLEANROOM_RERUN",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/pedestrian-pursuit"
+    },
+    {
+      "repo": "archive-of-life-artifact-world",
+      "accepted_main_sha": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
+      "expected_sha": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "run_stream_c.py => GATE false (asset_validation)"
+      ],
+      "result": "FAIL_STREAM_C_CLEANROOM_RERUN",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/archive-of-life-artifact-world"
+    },
+    {
+      "repo": "beatlink-party",
+      "accepted_main_sha": "22a21a411463344450f121d281b3a0dba27f1c56",
+      "expected_sha": "22a21a411463344450f121d281b3a0dba27f1c56",
+      "match": true,
+      "clean": true,
+      "dirty_files_in_clean_room": 0,
+      "tests": [
+        "run_stream_c.py => GATE false"
+      ],
+      "result": "FAIL_STREAM_C_CLEANROOM_RERUN",
+      "evidence_path": "artifacts/digital_engineering_exhaustion/stream_h_v2/",
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "clean_room_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/repos/beatlink-party"
+    },
+    {
+      "repo": "gunnchos-greenfield-experimental",
+      "accepted_main_sha": null,
+      "branch_tip": "9d848f03c4aa5ab972912d45c7a8212f99140e97",
+      "match": true,
+      "clean": true,
+      "result": "PASS_LOCAL_SIMULATION_ONLY",
+      "evidence_path": "LOCAL_RESEARCH_EVIDENCE_NOT_ACCEPTED_PRODUCTION_MAIN",
+      "blocker_class": "PHYSICAL_HARDWARE_REQUIRED",
+      "blocks_software_pilot": false
+    }
+  ],
+  "gxe_local": {
+    "repo": "gunnchos-greenfield-experimental",
+    "branch": "slice/gxe-3-creator-game",
+    "tip": "9d848f03c4aa5ab972912d45c7a8212f99140e97",
+    "tip_match": true,
+    "production_main_dependency": false,
+    "section": "LOCAL_RESEARCH_EVIDENCE_NOT_ACCEPTED_PRODUCTION_MAIN",
+    "gates": {
+      "GXE_SIMULATION_ENGINEERING_EXHAUSTED": true,
+      "GXE_KERNEL_BOOT_IN_SIM": true,
+      "GXE_SIM_EXECUTION_STABILITY_PASS": true,
+      "GXE2_SIM_STABILITY_PASS": true,
+      "GXE3_SIM_STABILITY_PASS": true,
+      "GXE_FPGA_REFERENCE_BOOT_PASS": false,
+      "GXE_PHYSICAL_EVT_PASS": false
+    },
+    "blocks_software_pilot": false
+  }
+}

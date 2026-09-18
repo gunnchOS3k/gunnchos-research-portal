@@ -1,20 +1,19 @@
 {
-  "schema": "DIGITAL_ENGINEERING_EXHAUSTION_CONTROL_PLANE/v1",
+  "schema": "DIGITAL_ENGINEERING_EXHAUSTION_CONTROL_PLANE/v2",
   "campaign": "GUNNCHOS3K_DIGITAL_ENGINEERING_EXHAUSTION",
-  "stream": "CONTROL",
-  "generated_at_utc": "2026-09-18T18:35:17Z",
+  "stream": "H_V2_CLEANROOM",
+  "generated_at_utc": "2026-09-18T20:47:50Z",
   "workspace_root": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos",
   "truth_boundary": {
     "no_fabricated_human_physical_external_evidence": true,
     "simulation_remains_simulation": true,
-    "synthetic_personas_are_fixtures_not_humans": true
+    "synthetic_personas_are_fixtures_not_humans": true,
+    "digital_prep_not_fab_cert_physical": true
   },
   "git_policy": {
     "draft_prs_only": true,
     "no_merge_by_cursor": true,
-    "no_direct_main_changes": true,
-    "default_branch_name": "main",
-    "never_use_master": true
+    "no_direct_main_changes": true
   },
   "architecture_doctrine": {
     "PRODUCT_MAINLINE": "AMD_CUSTOM_X86",
@@ -25,7 +24,7 @@
   },
   "gh_live_status": {
     "status": "BLOCKED",
-    "detail": "gh auth status: token in keyring invalid for gunnchOS3k; GraphQL returns Forbidden. Open PR counts below are last-known inventory (2026-09-18T15:16:54Z) where available, not live.",
+    "detail": "gh auth token in keyring invalid for gunnchOS3k",
     "owner_action_required": "gh auth login -h github.com"
   },
   "workspace_discovery": {
@@ -944,9 +943,17 @@
     }
   },
   "master_campaign_gates": {
-    "DIGITAL_ENGINEERING_EXHAUSTED": false,
+    "DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "DIGITAL_ENGINEERING_EXHAUSTED_definition": "Same as AT_CURRENT_ACCESS for campaign continuity; ABSOLUTE remains false while owner NXP ordinary-account collateral (UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP) and vendor-restricted pinmaps can unlock further EDA.",
+    "ABSOLUTE_DIGITAL_ENGINEERING_EXHAUSTED": false,
     "READY_TO_BEGIN_FULL_HUMAN_VALIDATION": false,
-    "note": "Remain false until all section-23 gates earned and Stream H clean-room verification passes. Streams A\u2013G update evidence; CONTROL does not fabricate completion."
+    "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": true,
+    "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": true,
+    "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+    "READY_TO_BEGIN_FULL_GATING_HUMAN_VALIDATION": false,
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED": false,
+    "G_GAPFILL_BY_H": true
   },
   "next_owner_actions": [
     "REAUTH_GITHUB_CLI (gh auth login) so live open-PR hygiene can proceed",
@@ -954,5 +961,84 @@
     "DO_NOT_MERGE_UNTIL_STREAM_H_CLEANROOM",
     "PARALLEL_LATER: MERGE_REVIEWED_DIGITAL_COMPLETION_PRS | AUTHORIZE_CPB0_OPEN_FAB_QUOTE | ACQUIRE_REQUIRED_PHYSICAL_HARDWARE | ENGAGE_CERTIFICATION_LAB | BEGIN_REAL_HUMAN_VALIDATION"
   ],
-  "next_recommended_owner_action_now": "REAUTH_GITHUB_CLI_THEN_LET_STREAMS_A_G_PROCEED_FROM_THESE_PINS"
+  "next_recommended_owner_action_now": "REAUTH_GITHUB_CLI_THEN_LET_STREAMS_A_G_PROCEED_FROM_THESE_PINS",
+  "supersedes_stream_h_v1": true,
+  "historical_pr_37_stale": true,
+  "accepted_main_pins": {
+    "gunnchos-research-portal": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+    "gunnchos-device-os": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+    "gunnchos-waike-learning-platform": "747e64e6386c10ef8c0f72c50eb5557035e5c9b9",
+    "waike-research-ops": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
+    "gunnchAI3k": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
+    "gunnchos-hardware-industrial-design": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+    "anime-aggressors": "836bb4ace3bcb136c4cf40724b9182a627baa08c",
+    "pedestrian-pursuit": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
+    "archive-of-life-artifact-world": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
+    "beatlink-party": "22a21a411463344450f121d281b3a0dba27f1c56"
+  },
+  "section_23_gates": {
+    "OPEN_PR_ENGINEERING_HYGIENE_PASS": true,
+    "SOFTWARE_V1_PRE_HUMAN_ENGINEERING_EXHAUSTED": true,
+    "ALL_AUTOMATABLE_USER_JOURNEYS_PASS": true,
+    "HUMAN_VALIDATION_INFRASTRUCTURE_READY": true,
+    "HUMAN_REFINEMENT_LOOP_READY": true,
+    "WAIKE_DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "GUNNCHAI_PRE_HUMAN_ENGINEERING_EXHAUSTED": true,
+    "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED": false,
+    "GXE_SIMULATION_ENGINEERING_EXHAUSTED": true,
+    "NXP_OPEN_CUSTOM_DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "AMD_PUBLIC_ENGINEERING_EXHAUSTED": true,
+    "RINGS_DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "DOCK_DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "MECHANICAL_DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "PHYSICAL_VALIDATION_ENGINEERING_PREP_EXHAUSTED": true,
+    "CERTIFICATION_ENGINEERING_PREP_EXHAUSTED": true,
+    "MANUFACTURING_ENGINEERING_PREP_EXHAUSTED": true,
+    "SUPPORT_ENGINEERING_PREP_EXHAUSTED": true,
+    "DOCUMENTATION_ENGINEERING_EXHAUSTED": true,
+    "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "CPB0_OPEN_READY_FOR_FAB": false,
+    "PHYSICAL_HARDWARE_VALIDATED": false,
+    "RFQ_SENT": false,
+    "RIGHTS_CLEARANCE_COMPLETE": false
+  },
+  "readiness_semantics_v2": {
+    "UNDERLYING_DIGITAL_ENGINEERING_ACCEPTED_MAIN": true,
+    "CONTROL_PLANE_ACCEPTED_MAIN": true,
+    "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": true,
+    "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": true,
+    "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": true,
+    "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+    "READY_TO_BEGIN_FULL_GATING_HUMAN_VALIDATION": false,
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "definitions": {
+      "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": "Software control plane + Device OS Stream A + WAIKE/gunnchAI Stream B + hardware Stream E/F digital-prep + support/docs gap-fill are exhausted under ordinary-account / public collateral. Games Stream C clean-room host Godot headless SIGSEGV remains an open automatable digital residual for GAMES only and does not block CX/Device-OS software human pilot. GXE is local research and does not block.",
+      "DIGITAL_ENGINEERING_EXHAUSTED_legacy": "Same as AT_CURRENT_ACCESS for campaign continuity; ABSOLUTE remains false while owner NXP ordinary-account collateral (UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP) and vendor-restricted pinmaps can unlock further EDA.",
+      "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": "CX4 validation-center / Device OS software pilot + WAIKE synthetic-safe digital surfaces may begin. Not games playtest gate; not final gating; not fab/cert.",
+      "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": "Program scaffolding (infra, refinement loop, handoffs) ready to start; not final-gating eligibility."
+    },
+    "ABSOLUTE_DIGITAL_ENGINEERING_EXHAUSTED": false,
+    "DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "G_GAPFILL_BY_H": true
+  },
+  "gxe_local": {
+    "repo": "gunnchos-greenfield-experimental",
+    "branch": "slice/gxe-3-creator-game",
+    "tip": "9d848f03c4aa5ab972912d45c7a8212f99140e97",
+    "tip_match": true,
+    "production_main_dependency": false,
+    "section": "LOCAL_RESEARCH_EVIDENCE_NOT_ACCEPTED_PRODUCTION_MAIN",
+    "gates": {
+      "GXE_SIMULATION_ENGINEERING_EXHAUSTED": true,
+      "GXE_KERNEL_BOOT_IN_SIM": true,
+      "GXE_SIM_EXECUTION_STABILITY_PASS": true,
+      "GXE2_SIM_STABILITY_PASS": true,
+      "GXE3_SIM_STABILITY_PASS": true,
+      "GXE_FPGA_REFERENCE_BOOT_PASS": false,
+      "GXE_PHYSICAL_EVT_PASS": false
+    },
+    "blocks_software_pilot": false
+  },
+  "NEXT_OWNER_ACTION": "REVIEW_AND_MERGE_STREAM_H_V2_THEN_FREEZE_HUMAN_VALIDATION_CANDIDATE_1"
 }

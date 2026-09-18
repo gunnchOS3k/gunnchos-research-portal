@@ -1,0 +1,174 @@
+{
+  "schema": "gunnchos.digital_engineering_exhaustion.blocker_ledger.v2",
+  "generated_at_utc": "2026-09-18T20:47:50Z",
+  "stream": "H_v2",
+  "readiness": {
+    "UNDERLYING_DIGITAL_ENGINEERING_ACCEPTED_MAIN": true,
+    "CONTROL_PLANE_ACCEPTED_MAIN": true,
+    "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": true,
+    "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": true,
+    "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": true,
+    "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+    "READY_TO_BEGIN_FULL_GATING_HUMAN_VALIDATION": false,
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+    "definitions": {
+      "DIGITAL_ENGINEERING_EXHAUSTED_AT_CURRENT_ACCESS": "Software control plane + Device OS Stream A + WAIKE/gunnchAI Stream B + hardware Stream E/F digital-prep + support/docs gap-fill are exhausted under ordinary-account / public collateral. Games Stream C clean-room host Godot headless SIGSEGV remains an open automatable digital residual for GAMES only and does not block CX/Device-OS software human pilot. GXE is local research and does not block.",
+      "DIGITAL_ENGINEERING_EXHAUSTED_legacy": "Same as AT_CURRENT_ACCESS for campaign continuity; ABSOLUTE remains false while owner NXP ordinary-account collateral (UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP) and vendor-restricted pinmaps can unlock further EDA.",
+      "READY_TO_BEGIN_SOFTWARE_HUMAN_PILOT": "CX4 validation-center / Device OS software pilot + WAIKE synthetic-safe digital surfaces may begin. Not games playtest gate; not final gating; not fab/cert.",
+      "READY_TO_BEGIN_HUMAN_VALIDATION_PROGRAM": "Program scaffolding (infra, refinement loop, handoffs) ready to start; not final-gating eligibility."
+    },
+    "ABSOLUTE_DIGITAL_ENGINEERING_EXHAUSTED": false,
+    "DIGITAL_ENGINEERING_EXHAUSTED": true,
+    "G_GAPFILL_BY_H": true
+  },
+  "blockers": [
+    {
+      "class": "HUMAN_VALIDATION_REQUIRED",
+      "repo": "gunnchos-device-os",
+      "subsystem": "CX4 human sessions / a11y with disabled users",
+      "exact_missing_evidence": "Real consented human session bundles + reviewer signoff; no fabricated participants",
+      "who_resolves": "Owner + human validation moderators",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "HUMAN_VALIDATION_REQUIRED",
+      "repo": "gunnchAI3k",
+      "subsystem": "live tutoring eval",
+      "exact_missing_evidence": "Human tutoring evaluation \u2260 SYNTHETIC suite",
+      "who_resolves": "Owner / academic reviewers",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "HUMAN_VALIDATION_REQUIRED",
+      "repo": "games/*",
+      "subsystem": "fun/balance/feel + host digital residual",
+      "exact_missing_evidence": "Clean-room stream-c re-run failed (Godot SIGSEGV / build/launch dims); playtest sheets remain HUMAN; committed-on-main gate not reproduced",
+      "who_resolves": "Games engineering + human playtesters",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+      "repo": "games/*",
+      "subsystem": "rights quarantine",
+      "exact_missing_evidence": "RIGHTS_CLEARANCE_COMPLETE=false; quarantine ledgers active (798/589/136/204)",
+      "who_resolves": "Legal",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "PHYSICAL_HARDWARE_REQUIRED",
+      "repo": "gunnchos-device-os",
+      "subsystem": "printer/camera-mic AV",
+      "exact_missing_evidence": "physical_printer_pass=false; physical_camera_mic_av_pass=false",
+      "who_resolves": "Lab owners",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "PHYSICAL_HARDWARE_REQUIRED",
+      "repo": "gunnchos-hardware-industrial-design",
+      "subsystem": "EVT/DVT/PVT",
+      "exact_missing_evidence": "EVT/DVT/PVT_PHYSICAL_PASS=false; PHYSICAL_HARDWARE_VALIDATED=false",
+      "who_resolves": "Hardware + lab",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": true
+    },
+    {
+      "class": "PHYSICAL_HARDWARE_REQUIRED",
+      "repo": "gunnchos-greenfield-experimental",
+      "subsystem": "FPGA",
+      "exact_missing_evidence": "GXE_FPGA_REFERENCE_BOOT_PASS=false",
+      "who_resolves": "GXE researchers",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": false,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "VENDOR_RESTRICTED_COLLATERAL_REQUIRED",
+      "repo": "gunnchos-hardware-industrial-design",
+      "subsystem": "NXP vendor-restricted vs ordinary-account",
+      "exact_missing_evidence": "Vendor-restricted pinmap/hash/NDA packs still blocked. Ordinary-account NXP collateral that can unlock more EDA without claiming fab: UG10210, EVK BOM/LPDDR5 MPN, PMIC/OTP programming notes. NXP_PUBLIC_MEMORY_TOPOLOGY_UNDERSTOOD=false; CPB0_OPEN_SCHEMATIC_ERC_PASS=false; CPB0_OPEN_PCB_DRC_PASS=false; CPB0_OPEN_BOM_AVL_DIGITAL_PASS=false; CPB0_OPEN_DIGITAL_FAB_AUDIT_PASS=false; CPB0_OPEN_READY_FOR_FAB=false",
+      "who_resolves": "Owner (ordinary-account download) + Vendor (restricted)",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": false,
+      "blocks_physical_fab": true
+    },
+    {
+      "class": "PURCHASE_OR_FAB_AUTHORIZATION_REQUIRED",
+      "repo": "gunnchos-hardware-industrial-design",
+      "subsystem": "RFQ/fab",
+      "exact_missing_evidence": "RFQ_SENT=false; digital-prep \u2260 fab-ready",
+      "who_resolves": "Owner purchasing",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": false,
+      "blocks_physical_fab": true
+    },
+    {
+      "class": "EXTERNAL_PARTY_REQUIRED",
+      "repo": "gunnchos-research-portal",
+      "subsystem": "gh auth / PR publish",
+      "exact_missing_evidence": "gh auth keyring invalid for gunnchOS3k; live PR create/push may require owner re-auth",
+      "who_resolves": "Owner: gh auth login",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": false,
+      "blocks_physical_fab": false
+    },
+    {
+      "class": "EXTERNAL_PARTY_REQUIRED",
+      "repo": "certification",
+      "subsystem": "lab engagement",
+      "exact_missing_evidence": "CERTIFICATION_COMPLETE=false; lab_engaged=false",
+      "who_resolves": "Owner + cert lab",
+      "blocks_software_pilot": false,
+      "blocks_final_gating": true,
+      "blocks_physical_fab": false
+    }
+  ],
+  "allowed_blocker_classes": [
+    "HUMAN_VALIDATION_REQUIRED",
+    "PHYSICAL_HARDWARE_REQUIRED",
+    "EXTERNAL_PARTY_REQUIRED",
+    "VENDOR_RESTRICTED_COLLATERAL_REQUIRED",
+    "LEGAL_RIGHTS_REVIEW_REQUIRED",
+    "PURCHASE_OR_FAB_AUTHORIZATION_REQUIRED"
+  ],
+  "nxp_collateral_distinction": {
+    "ordinary_account_can_unlock_more_eda": [
+      "UG10210",
+      "EVK BOM / LPDDR5 MPN",
+      "PMIC / OTP programming notes"
+    ],
+    "vendor_restricted_still_blocked": [
+      "Restricted pinmap hashes",
+      "NDA custom ballmaps / USB4",
+      "Full vendor OTP databases beyond public"
+    ],
+    "current_nxp1_truth": {
+      "NXP_EXACT_SOC_OPN_FROZEN": true,
+      "NXP_PUBLIC_PINMAP_UNDERSTOOD": true,
+      "CPB0_OPEN_SOC_SYMBOL_VALIDATED": true,
+      "NXP_OPEN_PMIC_ARCHITECTURE_FROZEN": true,
+      "NXP_PUBLIC_POWER_ARCHITECTURE_UNDERSTOOD": true,
+      "NXP_PUBLIC_MEMORY_TOPOLOGY_UNDERSTOOD": false,
+      "CPB0_OPEN_SCHEMATIC_ERC_PASS": false,
+      "CPB0_OPEN_PCB_DRC_PASS": false,
+      "CPB0_OPEN_BOM_AVL_DIGITAL_PASS": false,
+      "CPB0_OPEN_DIGITAL_FAB_AUDIT_PASS": false,
+      "CPB0_OPEN_READY_FOR_FAB": false,
+      "pmic_otp_frozen": false
+    }
+  },
+  "fabrication_scan": {
+    "phys_cert_true_found": 0,
+    "note": "No PHYSICAL_HARDWARE_VALIDATED/CERTIFICATION_COMPLETE/RFQ_SENT true on accepted hardware main"
+  }
+}
