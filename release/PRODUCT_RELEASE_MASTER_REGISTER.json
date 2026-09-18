@@ -345,5 +345,31 @@
   "tokens": {
     "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": false,
     "RC_SOFTWARE_PILOT_READY_FOR_OWNER": false
-  }
+  },
+  "updated_at_utc": "2026-09-18T01:20:13Z",
+  "prompt": "17G.6",
+  "device_os_continuation_pr": 155,
+  "device_os_continuation_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+  "device_os_continuation_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/155",
+  "portal_14_merged": true,
+  "portal_14_merge_sha": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+  "device_os_134_merge_sha": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+  "waike_17_merge_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
+  "gunnchai_accepted_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+  "pin_manifest_sha256": "80c37d959b97666abd688334a76611a264cfd3aa21a3ae317f7740f0897977b1",
+  "LIVE_GUNNCHOS_VISUAL_PASS": true,
+  "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
+  "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
+  "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+  "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+  "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": true,
+  "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+  "ECO010_SOAK_PASS": true,
+  "DEVICE_LAB_CURRENT_PIN_INDEPENDENT_DIGITAL_VERIFY_PASS": true,
+  "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS": true,
+  "DEVICE_LAB_RELEASE_CONTINUATION_EXACT_HEAD_CI_PASS": true,
+  "DEVICE_LAB_CANDIDATE_READY_FOR_OWNER": true,
+  "NEXT_OWNER_ACTION": "MERGE_DEVICE_LAB_RELEASE_CONTINUATION_WITH_MERGE_COMMIT",
+  "NEXT_GATE": null,
+  "do_not_merge_by_cursor": true
 }
