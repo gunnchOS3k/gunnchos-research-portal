@@ -1,0 +1,16 @@
+{
+  "schema": "gunnchos.contracts.PortfolioCollection.v1",
+  "required": [
+    "collection_id",
+    "owner_profile_id",
+    "artifact_ids",
+    "certification_claimed"
+  ],
+  "properties": {
+    "collection_id": { "type": "string" },
+    "owner_profile_id": { "type": "string" },
+    "artifact_ids": { "type": "array" },
+    "title": { "type": "string" },
+    "certification_claimed": { "type": "boolean", "const": false }
+  }
+}

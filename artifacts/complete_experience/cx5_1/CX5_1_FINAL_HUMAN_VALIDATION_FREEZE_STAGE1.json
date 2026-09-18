@@ -1,0 +1,27 @@
+{
+  "schema": "CX5_1_FINAL_HUMAN_VALIDATION_FREEZE_STAGE1/v1",
+  "generated_at_utc": "2026-09-18T14:13:45Z",
+  "prompt": "CX5.1",
+  "accepted_device_os_merge_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+  "freeze_check": {
+    "CX4_HUMAN_VALIDATION_FREEZE_CHECK_PASS": true,
+    "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+    "FINAL_GATING_ELIGIBLE": false,
+    "missing_conditions": [
+      "tested_build_commit_frozen",
+      "final_target_branch_or_rc_known",
+      "required_hardware_provider_prerequisites_real",
+      "cx_stack_accepted_merged_or_release_candidate"
+    ]
+  },
+  "CX5_FINAL_VALIDATION_DEVICE_BUILD_ELIGIBLE": true,
+  "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+  "reason_human_not_eligible": "Portal #34 not yet accepted main; control plane not rebound; physical/human pending.",
+  "J6_CLASS": "HUMAN_VALIDATION_PENDING",
+  "PHYSICAL_PRINTER_PENDING": true,
+  "PHYSICAL_CAMERA_MIC_AV_PENDING": true,
+  "EVT_PENDING": true,
+  "DVT_PENDING": true,
+  "PVT_PENDING": true,
+  "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
+}

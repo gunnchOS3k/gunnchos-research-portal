@@ -1,0 +1,41 @@
+{
+  "schema": "CX5_ACCEPTED_MAIN_DIGITAL_REBIND/v1",
+  "generated_at_utc": "2026-09-18T14:13:45Z",
+  "prompt": "CX5.1",
+  "mode": "compact_accepted_main",
+  "accepted_main_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+  "pr_head_sha": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+  "tree_basis": "merge_tree_identical_to_pr_head",
+  "release_gates": {
+    "LIVE_GUNNCHOS_VISUAL_PASS": true,
+    "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
+    "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+    "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+    "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": true,
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+    "ECO010_SOAK_PASS": true
+  },
+  "complete_experience_surfaces": {
+    "P0_no_second_computer_digital_closure": true,
+    "education_career_digital_closure": true,
+    "wallet_portfolio_verifier": true,
+    "CX4_readiness": true,
+    "Validation_Center": true,
+    "one_click_launch": true,
+    "freeze_materiality_engine": true,
+    "export_recovery": true
+  },
+  "retention_decision": "RETAIN",
+  "reason": "Merge tree identical to #156 head; release + CX evidence resolve with PASS; rebound identity to merge SHA.",
+  "CX5_RELEASE_ACCEPTED_MAIN_REBIND_PASS": true,
+  "CX5_COMPLETE_EXPERIENCE_ACCEPTED_MAIN_REBIND_PASS": true,
+  "LIVE_GUNNCHOS_VISUAL_PASS": true,
+  "DSXL_DUAL_COMPOSITOR_UX_PASS": true,
+  "RING_TO_REAL_APP_STATE_MUTATION_PASS": true,
+  "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+  "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+  "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS": true,
+  "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+  "ECO010_SOAK_PASS": true
+}

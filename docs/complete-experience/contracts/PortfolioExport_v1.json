@@ -1,0 +1,20 @@
+{
+  "schema": "gunnchos.contracts.PortfolioExport.v1",
+  "required": [
+    "export_id",
+    "format",
+    "selected_artifact_ids",
+    "manifest",
+    "exported_at",
+    "certification_claimed"
+  ],
+  "properties": {
+    "export_id": { "type": "string" },
+    "format": { "enum": ["portable_html_manifest.v1"] },
+    "selected_artifact_ids": { "type": "array" },
+    "manifest": { "type": "object" },
+    "exported_at": { "type": "string" },
+    "certification_claimed": { "type": "boolean", "const": false },
+    "privacy_mode": { "enum": ["selective", "all_private_excluded"] }
+  }
+}

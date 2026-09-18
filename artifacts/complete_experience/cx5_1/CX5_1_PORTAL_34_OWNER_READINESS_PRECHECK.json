@@ -1,0 +1,19 @@
+{
+  "schema": "CX5_1_PORTAL_34_OWNER_READINESS/v1",
+  "generated_at_utc": "2026-09-18T14:17:09Z",
+  "prompt": "CX5.1",
+  "preconditions": {
+    "CX5_DEVICE_OS_156_ACCEPTED_MAIN_MERGE_PASS": true,
+    "CX5_DEVICE_OS_156_ACCEPTED_MAIN_EQUIVALENCE_PASS": true,
+    "CX5_RELEASE_ACCEPTED_MAIN_REBIND_PASS": true,
+    "CX5_COMPLETE_EXPERIENCE_ACCEPTED_MAIN_REBIND_PASS": true,
+    "CX5_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
+    "CX5_DEVICE_OS_POST_MERGE_MAIN_VALIDATION_PASS": true,
+    "CX5_VALIDATION_CENTER_ACCEPTED_BUILD_PASS": true,
+    "CX5_FINAL_VALIDATION_DEVICE_BUILD_ELIGIBLE": true,
+    "CX5_PORTAL_34_CONSISTENCY_PASS": true,
+    "local_portal_tests_7_passed": true,
+    "CX5_PORTAL_34_FINAL_EXACT_HEAD_CI_PASS": "PENDING_PUSH"
+  },
+  "note": "Owner merge ready only after exact-head CI terminal green on final Portal #34 head."
+}

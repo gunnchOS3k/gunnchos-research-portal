@@ -1,0 +1,44 @@
+{
+  "schema": "CX5_ACCEPTED_MAIN_COMPLETE_EXPERIENCE_FREEZE/v1",
+  "generated_at_utc": "2026-09-18T14:13:45Z",
+  "prompt": "CX5.1",
+  "device_os_156_pr_head": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+  "device_os_156_accepted_main_merge_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+  "device_os_current_main_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+  "note": "Never label #156 PR head as accepted main after merge.",
+  "portal_accepted_main_sha": "722d85fce4cd66e26e0abef1f56b34bc3bcf81a8",
+  "portal_15_merge_sha": "722d85fce4cd66e26e0abef1f56b34bc3bcf81a8",
+  "portal_34_head": "f35c034c1204f1b5644355b1ca6e12d13ed697f3",
+  "portal_34_accepted_merge_sha": "PENDING_OWNER_MERGE",
+  "waike_accepted_main_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
+  "gunnchai_accepted_main_sha": "65b799e21dc1c4979d52b9c8b328f7aa47059bde",
+  "four_game": {
+    "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS": true,
+    "title_tokens": {
+      "ANIME_DEVICE_LAB_PASS": true,
+      "PEDESTRIAN_DEVICE_LAB_PASS": true,
+      "ARCHIVE_DEVICE_LAB_PASS": true,
+      "BEATLINK_DEVICE_LAB_PASS": true
+    },
+    "evidence": "artifacts/wp011r/games/four_games_in_guest.json",
+    "pin_manifest_sha256": "456cd0277f777076bfaa001a7e0b97a5c35313627f142d57b989355847f81e42"
+  },
+  "RuntimeTarget": {
+    "waike_source_sha": "7ccb64459df088d41655af51c959a7bbbac849a3",
+    "runtime_target_source_sha": "7ccb64459df088d41655af51c959a7bbbac849a3"
+  },
+  "lifecycle_matrix_sha256": "23df5892e1cc37e43a88a35f28c9c0e56eaeb104569fa56165726a8ce6296721",
+  "eco010_evidence_sha256": "1356653eb77a624a9927658baff8653673ba88662d76d8b27f68a914f8e75924",
+  "eco010_pass_sha256": "c7c0d8cb7734632b5acf50a2134ef67e40b756b0a02be14419189bee1024b7aa",
+  "independent_verifier_evidence_sha256": "20171fa4a1ee21605d8f8106e75ca48d4d66c67cab333c954f0c766f35115fc8",
+  "validation_center_contract_hashes": {
+    "library.py": "e4758365d009f33501b3e2c77b71f0eb8eb522cac309ce69bc2c5c6ba30ddd19",
+    "contracts.py": "8acc943a935944a2ffe5389ce1ac661306c9c094f8e144179d2e828c34a294ad",
+    "freeze.py": "4bccdb633547a376b5fa205c4a076feecb5aa955818b19e2fec7eb32c7e4184e",
+    "materiality.py": "fbb6d2db42ebab32e4e79cdee6e6f375fcafc65ec30e77bc90804d411aa04b3a",
+    "rehearsal.py": "f469828b1325216066608dca0946ff078c0f16d0f96839827fcb5eca48c93503"
+  },
+  "validation_center_prior_report_sha256": "6a51459a4f7d423dc1f6cac1195f1083af34af443034eb5fd839507639203d5d",
+  "prior_cx5_0r_head_sha": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+  "evidence_earn_tip_sha": "22edff8eabc927ef1b97e6f3799fed1a61d6678a"
+}

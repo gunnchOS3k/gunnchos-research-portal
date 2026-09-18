@@ -1,0 +1,101 @@
+{
+  "schema": "CX5_ACCEPTED_MAIN_INDEPENDENT_VERIFY/v1",
+  "generated_at_utc": "2026-09-18T14:13:45Z",
+  "prompt": "CX5.1",
+  "accepted_main_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+  "pr_head_sha": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+  "evidence_exact_integration_head": "22edff8eabc927ef1b97e6f3799fed1a61d6678a",
+  "fresh_disk_reads": {
+    "device_os_accepted_main_identity": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "lifecycle": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-device-os/.worktrees/cx5-1-accepted-main-rebind/artifacts/complete_experience/cx5_0/release_regression/lifecycle/CURRENT_PIN_APP_LIFECYCLE_MATRIX.json",
+    "eco010": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-device-os/.worktrees/cx5-1-accepted-main-rebind/artifacts/complete_experience/cx5_0/release_regression/eco010/ECO010_SOAK.json",
+    "validation_center": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-device-os/.worktrees/cx5-1-accepted-main-rebind/artifacts/complete_experience/cx5_0/CX5_VALIDATION_CENTER_INTEGRATION_REPORT.json",
+    "waike": "7ccb64459df088d41655af51c959a7bbbac849a3",
+    "gunnchai": "65b799e21dc1c4979d52b9c8b328f7aa47059bde"
+  },
+  "hashes": {
+    "lifecycle": "23df5892e1cc37e43a88a35f28c9c0e56eaeb104569fa56165726a8ce6296721",
+    "eco010": "1356653eb77a624a9927658baff8653673ba88662d76d8b27f68a914f8e75924",
+    "eco010_pass": "c7c0d8cb7734632b5acf50a2134ef67e40b756b0a02be14419189bee1024b7aa",
+    "independent_verify_prior": "20171fa4a1ee21605d8f8106e75ca48d4d66c67cab333c954f0c766f35115fc8",
+    "validation_center_report": "6a51459a4f7d423dc1f6cac1195f1083af34af443034eb5fd839507639203d5d",
+    "task_packs": {
+      "library.py": "e4758365d009f33501b3e2c77b71f0eb8eb522cac309ce69bc2c5c6ba30ddd19",
+      "contracts.py": "8acc943a935944a2ffe5389ce1ac661306c9c094f8e144179d2e828c34a294ad",
+      "freeze.py": "4bccdb633547a376b5fa205c4a076feecb5aa955818b19e2fec7eb32c7e4184e",
+      "materiality.py": "fbb6d2db42ebab32e4e79cdee6e6f375fcafc65ec30e77bc90804d411aa04b3a",
+      "rehearsal.py": "f469828b1325216066608dca0946ff078c0f16d0f96839827fcb5eca48c93503"
+    }
+  },
+  "authoritative": {
+    "checks": {
+      "lifecycle_pass": true,
+      "lifecycle_mandatory_apps_present": true,
+      "lifecycle_all_apps_ok": true,
+      "accepted_main_identity": true,
+      "lifecycle_evidence_tip_ok": true,
+      "eco010_soak_body": true,
+      "eco010_pass_token": true,
+      "LIVE": true,
+      "DSXL": true,
+      "RING": true,
+      "FOUR_GAME": true,
+      "WAIKE": true,
+      "GUNNCHAI": true
+    },
+    "missing": [],
+    "PASS": true
+  },
+  "adversarial": {
+    "cases": [
+      {
+        "case": "forged_pass_token_short_duration",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "lifecycle_row_removed",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "shortened_soak",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "stale_device_os_sha_as_accepted_main",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "modified_evidence_shortened_flag",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "pr_head_substituted_for_accepted_main_sha",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "missing_validation_center_evidence",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "altered_task_pack_hash",
+        "must_fail": true,
+        "failed": true
+      },
+      {
+        "case": "forged_vc_pass_without_integrity",
+        "must_fail": true,
+        "failed": true
+      }
+    ],
+    "all_fail_closed": true
+  },
+  "prefer_fail_over_false_pass": true,
+  "CX5_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true
+}

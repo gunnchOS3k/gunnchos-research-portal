@@ -1,0 +1,68 @@
+{
+  "schema": "CX5_PORTAL_INTEGRATION_CONTROL/v1",
+  "generated_at": "2026-09-18T14:19:29Z",
+  "prompt": "CX5.1",
+  "accepted_release_baseline": {
+    "device_os_main": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "device_os_pr_134_merge": "c3b7a5183aba0c0567cdc3483bbce2c43dd12ebe",
+    "device_os_pr_155_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "device_os_pr_156_merge": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "portal_main": "722d85fce4cd66e26e0abef1f56b34bc3bcf81a8",
+    "portal_pr_14_merge": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+    "portal_pr_15_merge": "722d85fce4cd66e26e0abef1f56b34bc3bcf81a8",
+    "waike_main": "7ccb64459df088d41655af51c959a7bbbac849a3",
+    "gunnchai_main": "65b799e21dc1c4979d52b9c8b328f7aa47059bde"
+  },
+  "device_os_integration": {
+    "branch": "integration/cx-complete-experience-release-baseline",
+    "pr_head": "e55ad514e18022e99ec7beee56b17e6e00cc91e1",
+    "pr": 156,
+    "pr_url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/156",
+    "accepted_integration_merge_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "current_main_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "state": "ACCEPTED_MAIN",
+    "note": "Do not present Device OS #156 PR head as accepted main; accepted main is the merge commit."
+  },
+  "portal_integration": {
+    "branch": "integration/cx-complete-experience-control-release-baseline",
+    "pr": 34,
+    "pr_url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/34",
+    "state": "DRAFT_UNMERGED",
+    "head_pre_cx5_1": "f35c034c1204f1b5644355b1ca6e12d13ed697f3",
+    "accepted_merge_sha": "PENDING_OWNER_MERGE",
+    "note": "CX5.1 final sync after Device OS #156 accepted-main merge; PENDING_OWNER_MERGE",
+    "head": "b9122c41083537f57f4fd8b04cbc68f2fc3eb5c9",
+    "CX5_PORTAL_34_OWNER_MERGE_READY": true
+  },
+  "current_integrated_digital_tokens": {
+    "CX5_DEVICE_OS_156_ACCEPTED_MAIN_MERGE_PASS": true,
+    "CX5_DEVICE_OS_156_ACCEPTED_MAIN_EQUIVALENCE_PASS": true,
+    "CX5_RELEASE_ACCEPTED_MAIN_REBIND_PASS": true,
+    "CX5_COMPLETE_EXPERIENCE_ACCEPTED_MAIN_REBIND_PASS": true,
+    "CX5_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
+    "CX5_DEVICE_OS_POST_MERGE_MAIN_VALIDATION_PASS": true,
+    "CX5_VALIDATION_CENTER_ACCEPTED_BUILD_PASS": true,
+    "CX5_FINAL_VALIDATION_DEVICE_BUILD_ELIGIBLE": true,
+    "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS": true,
+    "ECO010_SOAK_PASS": true
+  },
+  "human_physical_external": {
+    "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
+    "J6_CLASS": "HUMAN_VALIDATION_PENDING",
+    "PHYSICAL_PRINTER_PENDING": true,
+    "PHYSICAL_CAMERA_MIC_AV_PENDING": true,
+    "EVT_PENDING": true,
+    "DVT_PENDING": true,
+    "PVT_PENDING": true,
+    "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
+  },
+  "CX5_PORTAL_INTEGRATION_PREPARED_PASS": true,
+  "historical_preserved": true,
+  "portal_exact_head_tests": {
+    "result": "7 passed",
+    "ok": true,
+    "runner": "python3.11 -m pytest -q tests/test_audit_portfolio.py",
+    "at": "2026-09-18T14:17:09Z"
+  },
+  "NEXT_OWNER_ACTION": "MERGE_CX_PORTAL_INTEGRATION_WITH_MERGE_COMMIT"
+}
