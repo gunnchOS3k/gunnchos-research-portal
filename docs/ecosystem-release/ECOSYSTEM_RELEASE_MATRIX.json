@@ -1,0 +1,291 @@
+{
+  "schema": "gunnchos.ecosystem.release_matrix.v1",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
+  "prompt": "18",
+  "pin_sha_refs": {
+    "gunnchos-research-portal": "eef765bdb615",
+    "gunnchos-7gc-ai-ran-field-kit": "9e93e41a3b16",
+    "gunnchos-device-os": "898e44cfa8b7",
+    "gunnchos-hardware-industrial-design": "9ee0ef2f688b",
+    "edge-io-measurement-node": "af57fbdac857",
+    "gunnchAI3k": "65b799e21dc1",
+    "waike-research-ops": "fbf7685bc568",
+    "gunnchos-waike-learning-platform": "8610018a62e0",
+    "anime-aggressors": "258cc0c45991",
+    "pedestrian-pursuit": "ba698e929b57",
+    "archive-of-life-artifact-world": "8611d2e30315",
+    "beatlink-party": "06b4a6f74159",
+    "7gc-digital-twin": "dc43a567e3f2",
+    "spectrumx-ai-ran-gary": "9060655e7243",
+    "readygary-6g-beam-selection": "569875224db7",
+    "ntn-resilience-sim": "c4215fc1039f",
+    "gunnchos-gpu-nr-baseband-platform": "3931f51d43b7",
+    "gunnchos-emergent-service-intent-protocols": "088c5e88e155",
+    "oulu-6g-security-trust-privacy-lab": "d276579333a8",
+    "oulu-wce-readiness-dashboard": "eb09ebeb955f",
+    "oulu-open-ran-testbed-lab": "c86f3e497506"
+  },
+  "domains": [
+    {
+      "domain_id": 1,
+      "domain": "Games",
+      "accepted_main_capability": "Four game repos on pinned mains with Windows Pilot0 digital lineage; BeatLink Pixel smoke retained",
+      "missing_digital": "Device Lab Four-Game real-runtime PASS on current pin; fresh Pixel acceptance for Anime",
+      "missing_integration_evidence": "FOUR_GAME_REAL_RUNTIME_DEVICE_LAB_PASS=false under Prompt 17E/17F firewall",
+      "human_gap": "Playtest / UX approval across titles",
+      "physical_gap": "Anime Pixel adb unauthorized; physical Device Quartet not required for desktop RC but blocks handheld claims",
+      "external_vendor_legal_gap": "BeatLink commercial rights / catalog licensing",
+      "next_owner_independent_action": "Do not edit pin paths; await Prompt 17F Four-Game evidence only",
+      "next_owner_required_action": "Authorize Pixel device; rights review for BeatLink; human playtests",
+      "repos": [
+        "anime-aggressors",
+        "pedestrian-pursuit",
+        "archive-of-life-artifact-world",
+        "beatlink-party",
+        "gunnchos-device-os"
+      ],
+      "evidence_class": "DIGITAL_BLOCKED"
+    },
+    {
+      "domain_id": 2,
+      "domain": "Hardware",
+      "accepted_main_capability": "Digital EVT packets for five SKUs; Rings firmware digital build PASS",
+      "missing_digital": "FIRMWARE_DIGITAL_BUILD_PASS for student/handheld/DS-XL/dock",
+      "missing_integration_evidence": "Physical EVT correlation packets unsigned",
+      "human_gap": "Ergonomic studies",
+      "physical_gap": "EVT/DVT/PVT across Device Quartet",
+      "external_vendor_legal_gap": "NDA firmware vendors; CM quotes; FAE",
+      "next_owner_independent_action": "Keep digital EVT packets current; no false PHYSICAL PASS",
+      "next_owner_required_action": "Fund EVT lab; sign NDAs; RFQ send",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ],
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING"
+    },
+    {
+      "domain_id": 3,
+      "domain": "Device OS/software",
+      "accepted_main_capability": "Windows Pilot0 ACCEPTED_MAIN_PASS; guest LIVE/DSXL/Ring mutation PASS on draft #134 candidate",
+      "missing_digital": "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS; ECO010 re-earn; lifecycle matrix; independent verify",
+      "missing_integration_evidence": "WAIKE/gunnchAI Device Lab integration PASS on current pin",
+      "human_gap": "Interactive guest UX owner soak approval",
+      "physical_gap": "PHYSICAL_DEVICE_QUARTET_PASS",
+      "external_vendor_legal_gap": "None blocking commodity Windows software pilot",
+      "next_owner_independent_action": "Serialize with Prompt 17F; do not concurrent-edit #134 pin paths from Prompt 18",
+      "next_owner_required_action": "Owner merge decision only after current-pin PASS packet",
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "evidence_class": "DIGITAL_BLOCKED"
+    },
+    {
+      "domain_id": 4,
+      "domain": "Middleware/service continuity",
+      "accepted_main_capability": "Continuity / middleware inventory + Wave006 continuity CI on device-os main; ESIP research repo present",
+      "missing_digital": "End-to-end middleware golden journeys revalidated on current Device Lab pin",
+      "missing_integration_evidence": "CURRENT_PIN_APP_LIFECYCLE_MATRIX_PASS=false",
+      "human_gap": "Cross-device handoff UX",
+      "physical_gap": "Dock continuity physical",
+      "external_vendor_legal_gap": "None immediate",
+      "next_owner_independent_action": "Document middleware map honesty; avoid pin invalidation",
+      "next_owner_required_action": "Approve lifecycle matrix after digital re-earn",
+      "repos": [
+        "gunnchos-device-os",
+        "gunnchos-emergent-service-intent-protocols"
+      ],
+      "evidence_class": "DIGITAL_BLOCKED"
+    },
+    {
+      "domain_id": 5,
+      "domain": "AI",
+      "accepted_main_capability": "Wave003 digital eval green on main; Windows Pilot0 lineage merged",
+      "missing_digital": "Device Lab gunnchAI integration PASS on current pin",
+      "missing_integration_evidence": "GUNNCHAI_DEVICE_LAB_INTEGRATION_PASS=false",
+      "human_gap": "HUMAN_E6 / human-eval packet execution",
+      "physical_gap": "N/A for internal alpha",
+      "external_vendor_legal_gap": "Model license compliance ongoing",
+      "next_owner_independent_action": "Ship executable human-eval protocol + result schema (Prompt 18 stream)",
+      "next_owner_required_action": "Recruit evaluators; score HUMAN_E6",
+      "repos": [
+        "gunnchAI3k"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING"
+    },
+    {
+      "domain_id": 6,
+      "domain": "WAIKE curriculum",
+      "accepted_main_capability": "waike-research-ops taxonomy / course maps on main",
+      "missing_digital": "Fresh campus-track automation evidence if curriculum drifts",
+      "missing_integration_evidence": "Classroom LMS interoperability external",
+      "human_gap": "Instructor review of tracks",
+      "physical_gap": "N/A",
+      "external_vendor_legal_gap": "FERPA / OneRoster / QTI / LTI certification",
+      "next_owner_independent_action": "Keep COURSE_DIGITAL_RC validators honest",
+      "next_owner_required_action": "Staff curriculum review; privacy counsel for K-12",
+      "repos": [
+        "waike-research-ops"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING"
+    },
+    {
+      "domain_id": 7,
+      "domain": "Native learning platform",
+      "accepted_main_capability": "Gates B/C/D merged; 18/18 tracks digitally available per prior packets",
+      "missing_digital": "AUTOMATED_FULL_PLATFORM_PASS master token not claimed",
+      "missing_integration_evidence": "WAIKE_REAL_RUNTIME_DEVICE_LAB_PASS=false",
+      "human_gap": "Staff alpha + learner/instructor alpha",
+      "physical_gap": "Device Quartet optional for software alpha",
+      "external_vendor_legal_gap": "FERPA/accessibility cert",
+      "next_owner_independent_action": "Refresh staff-alpha packets to current SHA 8610018a62e0",
+      "next_owner_required_action": "Run staff alpha; no K-12 claim",
+      "repos": [
+        "gunnchos-waike-learning-platform",
+        "waike-research-ops",
+        "gunnchAI3k"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING"
+    },
+    {
+      "domain_id": 8,
+      "domain": "Books/publications",
+      "accepted_main_capability": "gunnchos-technology-landscape on main with reader-preview CI + human-validation launch prep (#10)",
+      "missing_digital": "Local workspace clone for offline control-tower refresh; optional deeper chapter digital completeness audit",
+      "missing_integration_evidence": "WAIKE-lab cross-links as field-validated learning (if claimed)",
+      "human_gap": "Reader-preview / guidebook human validation sessions",
+      "physical_gap": "N/A for digital reader",
+      "external_vendor_legal_gap": "Third-party figure/content rights if any",
+      "next_owner_independent_action": "Track GH-only repo in control tower; do not invent alternate book repos",
+      "next_owner_required_action": "Run human reader-preview validation; decide publish/distribution",
+      "repos": [
+        "gunnchos-technology-landscape"
+      ],
+      "evidence_class": "HUMAN_VALIDATION_PENDING"
+    },
+    {
+      "domain_id": 9,
+      "domain": "Creation tools",
+      "accepted_main_capability": "Device Lab creator journeys / DS-XL coder profiles exist digitally in device-os",
+      "missing_digital": "learn\u2192create\u2192build\u2192test\u2192deploy\u2192run\u2192debug\u2192share end-to-end digital proof on current pin",
+      "missing_integration_evidence": "Offline recoverability demo package",
+      "human_gap": "Creator onboarding usability",
+      "physical_gap": "DS-XL pre-EVT physical",
+      "external_vendor_legal_gap": "Toolchain licenses",
+      "next_owner_independent_action": "Document creation path from existing journeys without editing 17F pin paths",
+      "next_owner_required_action": "Approve creator alpha participants",
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "evidence_class": "DIGITAL_BLOCKED"
+    },
+    {
+      "domain_id": 10,
+      "domain": "Edge IO/Rings",
+      "accepted_main_capability": "Synthetic measurement + privacy sanitize + Rings firmware digital build",
+      "missing_digital": "Stronger export readiness attestation packet for campus/7GC consumers",
+      "missing_integration_evidence": "Ring physical EVT; Device Lab ring already digitally PASS on #134 candidate (not main)",
+      "human_gap": "Ergonomics",
+      "physical_gap": "Ring functional EVT",
+      "external_vendor_legal_gap": "Battery UN38.3 later stages",
+      "next_owner_independent_action": "Digital privacy/export prep draft PR (Prompt 18 stream)",
+      "next_owner_required_action": "Authorize physical EVT spend",
+      "repos": [
+        "edge-io-measurement-node",
+        "gunnchos-hardware-industrial-design"
+      ],
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING"
+    },
+    {
+      "domain_id": 11,
+      "domain": "Security/privacy/update/recovery",
+      "accepted_main_capability": "Device-os security waves + edge-io consent gates + gunnchAI privacy docs on main",
+      "missing_digital": "Current-pin recovery/update matrix PASS",
+      "missing_integration_evidence": "Red-team re-earn on current tip",
+      "human_gap": "Privacy notice review",
+      "physical_gap": "Secure boot on silicon",
+      "external_vendor_legal_gap": "Regulatory privacy for education markets",
+      "next_owner_independent_action": "Maintain fail-closed claim boundaries",
+      "next_owner_required_action": "Legal review for staff-alpha data",
+      "repos": [
+        "gunnchos-device-os",
+        "edge-io-measurement-node",
+        "gunnchAI3k",
+        "oulu-6g-security-trust-privacy-lab"
+      ],
+      "evidence_class": "DIGITAL_BLOCKED"
+    },
+    {
+      "domain_id": 12,
+      "domain": "Support/warranty/RMA",
+      "accepted_main_capability": "Digital support/RMA prep packet closed for Pilot0 control plane",
+      "missing_digital": "None blocking software pilot docs",
+      "missing_integration_evidence": "Live ticketing/ops system",
+      "human_gap": "Staffing support roles",
+      "physical_gap": "Depot RMA flow",
+      "external_vendor_legal_gap": "Warranty legal terms",
+      "next_owner_independent_action": "Keep SUPPORT_WARRANTY_MANUFACTURING_DIGITAL_PREP referenced",
+      "next_owner_required_action": "Staff + counsel finalize warranty",
+      "repos": [
+        "gunnchos-hardware-industrial-design",
+        "gunnchos-research-portal"
+      ],
+      "evidence_class": "VENDOR_EXTERNAL_PENDING"
+    },
+    {
+      "domain_id": 13,
+      "domain": "Manufacturing/factory readiness",
+      "accepted_main_capability": "Digital manufacturing readiness docs + RFQ packets exist",
+      "missing_digital": "N/A beyond docs",
+      "missing_integration_evidence": "Factory bring-up evidence",
+      "human_gap": "CM engagement",
+      "physical_gap": "PVT / mass manufacturing",
+      "external_vendor_legal_gap": "CM quotes, NDAs",
+      "next_owner_independent_action": "Do not claim MASS_MANUFACTURING_PASS",
+      "next_owner_required_action": "Send RFQs; select CM",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ],
+      "evidence_class": "VENDOR_EXTERNAL_PENDING"
+    },
+    {
+      "domain_id": 14,
+      "domain": "Carrier/connectivity/certification",
+      "accepted_main_capability": "NTN/AI-RAN/ReadyGary digital research sims; connectivity orchestrator concepts in middleware map",
+      "missing_digital": "Carrier lab digital harness beyond sims",
+      "missing_integration_evidence": "PTCRB/GCF/carrier acceptance",
+      "human_gap": "Operator stakeholder demos",
+      "physical_gap": "RF/FCC/CE; modem bring-up",
+      "external_vendor_legal_gap": "Carrier partnerships",
+      "next_owner_independent_action": "Keep simulation\u2260physical boundary explicit",
+      "next_owner_required_action": "Engage test labs / carriers when EVT ready",
+      "repos": [
+        "ntn-resilience-sim",
+        "spectrumx-ai-ran-gary",
+        "readygary-6g-beam-selection",
+        "gunnchos-device-os"
+      ],
+      "evidence_class": "REGULATORY_PENDING"
+    },
+    {
+      "domain_id": 15,
+      "domain": "Research/7GC supporting infrastructure",
+      "accepted_main_capability": "Portal + field-kit + twin + AI-RAN + beam + NTN + GPU NR + ESIP mains present",
+      "missing_digital": "Unified ecosystem release control tower (this Prompt 18)",
+      "missing_integration_evidence": "Cross-repo release matrix kept current after Device Lab",
+      "human_gap": "Supervisor/faculty reviews (PhD path separate)",
+      "physical_gap": "Field measurement when claimed",
+      "external_vendor_legal_gap": "Venue submission owner-only",
+      "next_owner_independent_action": "Land Prompt 18 control-tower draft PR",
+      "next_owner_required_action": "Owner merge control-plane updates when ready",
+      "repos": [
+        "gunnchos-research-portal",
+        "gunnchos-7gc-ai-ran-field-kit",
+        "7gc-digital-twin",
+        "spectrumx-ai-ran-gary",
+        "readygary-6g-beam-selection",
+        "ntn-resilience-sim",
+        "gunnchos-gpu-nr-baseband-platform"
+      ],
+      "evidence_class": "DRAFT_DIGITAL_CANDIDATE"
+    }
+  ]
+}

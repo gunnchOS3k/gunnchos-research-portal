@@ -1,0 +1,17 @@
+{
+  "schema": "gunnchos.portal.portal_15_release_control_consistency.v1",
+  "generated_at_utc": "2026-09-18T01:43:12Z",
+  "prompt": "17G.7",
+  "portal_15_branch": "release/prompt18-ecosystem-control-tower",
+  "scope": "current_state_excluding_historical_snapshots",
+  "expected": {
+    "device_os_155_pr_head": "d20fe17422f1092b240ec5ecf985c71d9bc14e3f",
+    "device_os_155_accepted_main_merge": "1c20c264d27bc8daf3a7d5b3280256f871ae1a06",
+    "portal_14": "7ad4ce84ab61037d140f2185de14b191ecf7ec28",
+    "pin_manifest_sha256": "271e52938b19f66d79a652d050a8be039cf942bd67ced3cc8cd16babd1db27ea",
+    "accepted_main_freeze_sha256": "9115f7b60ea2e362e6399cfcdfefe21fd28ed53cc2a4ebdd2f448aecba65258c"
+  },
+  "failures": [],
+  "PORTAL_15_RELEASE_CONTROL_CONSISTENCY_PASS": true,
+  "notes": "Historical history_snapshots and note_17g5* fields may retain superseded NEXT_OWNER_ACTION values by design."
+}

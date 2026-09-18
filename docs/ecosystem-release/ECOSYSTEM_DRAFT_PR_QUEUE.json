@@ -1,0 +1,49 @@
+{
+  "schema": "gunnchos.ecosystem.draft_pr_queue.v1",
+  "generated_at_utc": "2026-09-15T05:16:14Z",
+  "wip_cap": 3,
+  "policy": "Draft only; Cursor never merges; Device Lab pins preserved",
+  "streams": [
+    {
+      "stream_id": 1,
+      "title": "Ecosystem Release Control Tower artifacts",
+      "repo": "gunnchos-research-portal",
+      "branch": "release/prompt18-ecosystem-control-tower",
+      "status": "DRAFT_OPEN",
+      "pr": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/15",
+      "pin_safe": true,
+      "rationale": "Cross-product release truth; docs-only control plane",
+      "pr_number": 15
+    },
+    {
+      "stream_id": 2,
+      "title": "gunnchAI human-eval packet tooling",
+      "repo": "gunnchAI3k",
+      "branch": "release/prompt18-human-eval-packet",
+      "status": "DRAFT_OPEN",
+      "pr": "https://github.com/gunnchOS3k/gunnchAI3k/pull/47",
+      "pin_safe": true,
+      "rationale": "Unblocks HUMAN_E6 without Device Lab game pin edits",
+      "pr_number": 47
+    },
+    {
+      "stream_id": 3,
+      "title": "Edge IO privacy digital export prep",
+      "repo": "edge-io-measurement-node",
+      "branch": "release/prompt18-privacy-digital-prep",
+      "status": "DRAFT_OPEN",
+      "pr": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/39",
+      "pin_safe": true,
+      "rationale": "Digital privacy/export attestation; no physical EVT claims",
+      "pr_number": 39
+    }
+  ],
+  "explicitly_not_started_due_to_pin_firewall": [
+    "anime-aggressors runtime",
+    "pedestrian-pursuit runtime",
+    "archive-of-life runtime",
+    "beatlink-party runtime",
+    "gunnchos-device-os #134 Device Lab pin paths"
+  ],
+  "updated_at_utc": "2026-09-15T05:16:14Z"
+}

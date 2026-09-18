@@ -1,0 +1,143 @@
+{
+  "schema": "gunnchos.ecosystem.blocker_register.v1",
+  "generated_at_utc": "2026-09-15T05:17:53Z",
+  "blockers": [
+    {
+      "rank": 1,
+      "id": "BLK-FOUR-GAME",
+      "title": "Four-Game real runtime Device Lab PASS",
+      "evidence_class": "DIGITAL_BLOCKED",
+      "repos": [
+        "gunnchos-device-os",
+        "anime-aggressors",
+        "pedestrian-pursuit",
+        "archive-of-life-artifact-world",
+        "beatlink-party"
+      ],
+      "owner_independent": "Prompt 17F only; Prompt 18 must not touch pin paths",
+      "owner_required": "Review after Four-Game evidence packet",
+      "blocks": [
+        "RC Software Pilot",
+        "Interactive Guest current-pin"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "BLK-DEVICE-LAB-CURRENT-PIN",
+      "title": "DIGITAL_DEVICE_LAB_CURRENT_PIN_PASS false",
+      "evidence_class": "DIGITAL_BLOCKED",
+      "repos": [
+        "gunnchos-device-os"
+      ],
+      "owner_independent": "Continue 17E/F gates (ECO010 re-earn, WAIKE, gunnchAI, lifecycle, independent) on #134",
+      "owner_required": "Merge authority after PASS",
+      "blocks": [
+        "RC Software Pilot"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "BLK-ANIME-PIXEL",
+      "title": "Anime Pixel acceptance PENDING_DEVICE",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "repos": [
+        "anime-aggressors"
+      ],
+      "owner_independent": "Keep ready packet; no false PASS",
+      "owner_required": "Authorize adb device",
+      "blocks": [
+        "Android/Pixel candidate"
+      ]
+    },
+    {
+      "rank": 4,
+      "id": "BLK-HUMAN-AI-WAIKE",
+      "title": "gunnchAI HUMAN_E6 + WAIKE staff/learner alpha",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "repos": [
+        "gunnchAI3k",
+        "gunnchos-waike-learning-platform",
+        "waike-research-ops"
+      ],
+      "owner_independent": "Executable protocols (Prompt 18)",
+      "owner_required": "Run human sessions",
+      "blocks": [
+        "Internal alphas",
+        "Soft Pilot human claims"
+      ]
+    },
+    {
+      "rank": 5,
+      "id": "BLK-HARDWARE-EVT",
+      "title": "EVT_PHYSICAL_PASS false across SKUs",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "repos": [
+        "gunnchos-hardware-industrial-design",
+        "edge-io-measurement-node"
+      ],
+      "owner_independent": "Maintain digital packets",
+      "owner_required": "Fund EVT; NDAs",
+      "blocks": [
+        "RC Hardware EVT",
+        "Production"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "BLK-RIGHTS-BEATLINK",
+      "title": "BeatLink commercial rights",
+      "evidence_class": "RIGHTS_PENDING",
+      "repos": [
+        "beatlink-party"
+      ],
+      "owner_independent": "Document rights-safe catalog constraints",
+      "owner_required": "Licensing decisions",
+      "blocks": [
+        "BeatLink commercial RC"
+      ]
+    },
+    {
+      "rank": 7,
+      "id": "BLK-REG-CARRIER",
+      "title": "RF/FCC/CE/carrier certification",
+      "evidence_class": "REGULATORY_PENDING",
+      "repos": [
+        "gunnchos-hardware-industrial-design",
+        "gunnchos-device-os"
+      ],
+      "owner_independent": "No simulation\u2192cert conversion",
+      "owner_required": "Lab engagement",
+      "blocks": [
+        "Production release"
+      ]
+    },
+    {
+      "rank": 8,
+      "id": "BLK-MFG-SUPPORT",
+      "title": "Manufacturing + warranty external",
+      "evidence_class": "VENDOR_EXTERNAL_PENDING",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ],
+      "owner_independent": "Digital prep already closed",
+      "owner_required": "CM/RFQ/warranty counsel",
+      "blocks": [
+        "Production release"
+      ]
+    },
+    {
+      "rank": 9,
+      "id": "BLK-BOOK-HUMAN",
+      "title": "Technology Landscape reader-preview human validation",
+      "evidence_class": "HUMAN_VALIDATION_PENDING",
+      "repos": [
+        "gunnchos-technology-landscape"
+      ],
+      "owner_independent": "Keep control-tower tracking; CI reader-preview already green on main",
+      "owner_required": "Run human reader sessions; publish decision",
+      "blocks": [
+        "book reader-preview candidate"
+      ]
+    }
+  ]
+}

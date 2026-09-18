@@ -1,0 +1,128 @@
+{
+  "schema": "gunnchos.ecosystem.physical_external_queue.v1",
+  "generated_at_utc": "2026-09-15T04:54:16Z",
+  "items": [
+    {
+      "id": "PX-RING-EVT",
+      "stage": "EVT",
+      "title": "Ring functional EVT",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "packet": "docs/ecosystem-release/packets/PHYSICAL_RING_EVT_OWNER_PACKET.md",
+      "repos": [
+        "edge-io-measurement-node",
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-STUDENT-EVT",
+      "stage": "EVT",
+      "title": "Student 14.5 pre-EVT\u2192EVT",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "packet": "docs/ecosystem-release/packets/PHYSICAL_DEVICE_QUARTET_EVT_OWNER_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-HANDHELD-EVT",
+      "stage": "EVT",
+      "title": "Handheld hybrid EVT",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "packet": "docs/ecosystem-release/packets/PHYSICAL_DEVICE_QUARTET_EVT_OWNER_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-DSXL-EVT",
+      "stage": "EVT",
+      "title": "DS-XL coder EVT",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "packet": "docs/ecosystem-release/packets/PHYSICAL_DEVICE_QUARTET_EVT_OWNER_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-ANIME-PIXEL",
+      "stage": "TARGET_HARDWARE",
+      "title": "Anime Pixel acceptance",
+      "evidence_class": "PHYSICAL_VALIDATION_PENDING",
+      "packet": "release/ready_packets/ANIME_PIXEL_ACCEPTANCE_READY_PACKET.json",
+      "repos": [
+        "anime-aggressors"
+      ]
+    },
+    {
+      "id": "PX-RF-FCC-CE",
+      "stage": "REGULATORY",
+      "title": "RF / FCC / CE",
+      "evidence_class": "REGULATORY_PENDING",
+      "packet": "docs/ecosystem-release/packets/EXTERNAL_REGULATORY_CARRIER_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-CARRIER",
+      "stage": "CARRIER",
+      "title": "Carrier / PTCRB",
+      "evidence_class": "REGULATORY_PENDING",
+      "packet": "docs/ecosystem-release/packets/EXTERNAL_REGULATORY_CARRIER_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design",
+        "gunnchos-device-os"
+      ]
+    },
+    {
+      "id": "PX-UN38",
+      "stage": "BATTERY",
+      "title": "Battery UN38.3",
+      "evidence_class": "VENDOR_EXTERNAL_PENDING",
+      "packet": "docs/ecosystem-release/packets/EXTERNAL_VENDOR_MFG_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-VENDOR-NDA",
+      "stage": "VENDOR",
+      "title": "Vendor NDA/FAE firmware",
+      "evidence_class": "VENDOR_EXTERNAL_PENDING",
+      "packet": "docs/ecosystem-release/packets/EXTERNAL_VENDOR_MFG_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-MFG-RFQ",
+      "stage": "MANUFACTURING",
+      "title": "CM quotes / RFQ send",
+      "evidence_class": "VENDOR_EXTERNAL_PENDING",
+      "packet": "docs/ecosystem-release/packets/EXTERNAL_VENDOR_MFG_PACKET.md",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    },
+    {
+      "id": "PX-RIGHTS",
+      "stage": "RIGHTS",
+      "title": "BeatLink + content licensing",
+      "evidence_class": "RIGHTS_PENDING",
+      "packet": "docs/ecosystem-release/packets/EXTERNAL_RIGHTS_PACKET.md",
+      "repos": [
+        "beatlink-party"
+      ]
+    },
+    {
+      "id": "PX-SUPPORT-RMA",
+      "stage": "SUPPORT",
+      "title": "Support/warranty/RMA ops",
+      "evidence_class": "VENDOR_EXTERNAL_PENDING",
+      "packet": "release/ready_packets/SUPPORT_WARRANTY_MANUFACTURING_DIGITAL_PREP.json",
+      "repos": [
+        "gunnchos-hardware-industrial-design"
+      ]
+    }
+  ]
+}
