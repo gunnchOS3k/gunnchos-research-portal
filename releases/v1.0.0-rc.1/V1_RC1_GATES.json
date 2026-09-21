@@ -1,7 +1,7 @@
 {
   "schema": "V1_RC1_GATES/v1",
   "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T16:46:33Z",
+  "generated_at_utc": "2026-09-21T16:59:17Z",
   "gates": {
     "ACCEPTED_MAIN_MANIFEST_PASS": true,
     "RECOVERED_CHILD_ANCESTRY_PASS": true,
@@ -24,7 +24,7 @@
   "V1_0_0_RELEASE_AUTHORIZED": false,
   "notes": {
     "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt APKs; BeatLink web zip only.",
-    "PIXEL_V1_RC1_DEMO_PASS": "false until owner completes on-device Sign-in \u2192 tracks \u2192 lesson after bootstrap.",
+    "PIXEL_V1_RC1_DEMO_PASS": "false: CDP web-client login\u219218 tracks\u2192lesson proven on Pixel, but Capsule WAIKE Continue lesson does not hand off; Nearby Edge unavailable.",
     "RELEASE_ASSET_HASH_PASS": "Non-self-referential checksum model; see RELEASE_HASH_VERIFICATION.json"
   }
 }
