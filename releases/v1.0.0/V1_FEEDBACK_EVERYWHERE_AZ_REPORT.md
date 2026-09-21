@@ -118,6 +118,9 @@ Feedback URL builders strip unsafe chars; no serial/IP/token/path in query param
 | Edge IO | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/edge-io-measurement-node/pull/new/docs/v1-feedback-hub |
 | Hardware industrial | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/new/docs/v1-feedback-hub |
 | waike-research-ops | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/waike-research-ops/pull/new/docs/v1-feedback-hub |
-| WAIKE LP (primary) | patch kit only | Agent store `v1_feedback_everywhere_patches/waike/` + worktree `gunnchAI3k/.worktrees/waike-lp-stream-b` |
+| WAIKE LP (primary) | patch kit only (see note) | Agent store `v1_feedback_everywhere_patches/waike/` + worktree `gunnchAI3k/.worktrees/waike-lp-stream-b` |
 | Field kit | patch kit only | Agent store `v1_feedback_everywhere_patches/field-kit/` |
+
+### WAIKE LP note
+Primary repo `gunnchos-waike-learning-platform` was **outside the agent workspace** (writes blocked). Feedback UI was applied to a nested copy under `gunnchAI3k/.worktrees/waike-lp-stream-b` and committed into the **gunnchAI3k** `release/v1-in-app-feedback` branch as `.worktrees/waike-lp-stream-b/...` paths — **not** a proper WAIKE LP PR. Owner must copy the patch kit into the real WAIKE LP repo and open a narrow draft there.
 
