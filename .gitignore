@@ -9,3 +9,6 @@ release_staging_large/
 
 # Pedestrian APK oversized for git
 release_staging/**/pedestrian-pursuit*.apk
+
+# RC1 demo runtime (credentials, pids)
+releases/v1.0.0-rc.1/demo/.runtime/

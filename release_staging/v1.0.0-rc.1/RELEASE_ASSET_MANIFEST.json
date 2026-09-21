@@ -1,148 +1,168 @@
 {
   "schema": "RELEASE_ASSET_MANIFEST/v1",
   "release": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T15:55:42Z",
-  "asset_count": 26,
+  "generated_at_utc": "2026-09-21T16:31:29Z",
+  "checksum_model": {
+    "self_hash_in_manifest": false,
+    "sha256sums_includes_self": false,
+    "sha256sums_includes_manifest": true,
+    "notes": "Manifest lists assets only (no self-hash). SHA256SUMS hashes assets + this manifest, never itself."
+  },
+  "asset_count": 24,
   "assets": [
-    {
-      "path": "RELEASE_ASSET_MANIFEST.json",
-      "sha256": "e15b26bbb8f6e4f80ed97eb621c1578e9a1cd0a0aeebd914e2a14a6bc8a73359",
-      "bytes": 3025
-    },
-    {
-      "path": "SHA256SUMS.txt",
-      "sha256": "1083982b63910a90ab789166d81009f3862ebf4760c29579778d8214db54a442",
-      "bytes": 1714
-    },
     {
       "path": "anime/PROVENANCE.json",
       "sha256": "933921989eca54bfd296b5d71a2750772e2e650e3ec513c18a46a6fcd428fb9f",
-      "bytes": 531
+      "bytes": 531,
+      "bundled_in_portal_git": true
     },
     {
       "path": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
       "sha256": "26c6d70a65430dec162ea49e2cc4213c654fff59ff16f62060fdea01c59de9ab",
-      "bytes": 90694886
+      "bytes": 90694886,
+      "bundled_in_portal_git": true
     },
     {
       "path": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk.sha256",
       "sha256": "bd444617173095a0faaf0703cd49639b54c81eaa9d73975543b26a6750e20cf4",
-      "bytes": 105
+      "bytes": 105,
+      "bundled_in_portal_git": true
     },
     {
       "path": "archive/PROVENANCE.json",
       "sha256": "e0578e527b4721cf16d6c86de04134fe1cb3fda4c3ab696865fa70ab8312c876",
-      "bytes": 566
+      "bytes": 566,
+      "bundled_in_portal_git": true
     },
     {
       "path": "archive/archive-of-life-debug-v1.0.0-rc.1.apk",
       "sha256": "a662998d7eeee5bb1023400d88a250e10057da35378d2db9b74f5ba200074856",
-      "bytes": 17235652
+      "bytes": 17235652,
+      "bundled_in_portal_git": true
     },
     {
       "path": "archive/archive-of-life-debug-v1.0.0-rc.1.apk.sha256",
       "sha256": "308f8163edff8a0d0247b35e03d52e6f9723cdc9247471325428657508efb709",
-      "bytes": 104
+      "bytes": 104,
+      "bundled_in_portal_git": true
     },
     {
       "path": "beatlink/beatlink-web-v1.0.0-rc.1.zip",
       "sha256": "3ff16df8e540e87dec44a9a181c701bf1e21377d700df7d58d7c0fcb835b6b77",
-      "bytes": 119718
+      "bytes": 119718,
+      "bundled_in_portal_git": true
     },
     {
       "path": "curriculum/waike-curriculum-v1.0.0-rc.1.zip",
       "sha256": "609dd81419085cbfdcfc07807b3037ac4ddb64b0f4ee13c85f276fa7e836407a",
-      "bytes": 2708676
+      "bytes": 2708676,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/BUILD_MANIFEST.json",
       "sha256": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
-      "bytes": 444
+      "bytes": 444,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/INSTALL_UNINSTALL.md",
       "sha256": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
-      "bytes": 731
+      "bytes": 731,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/RC1_REBUILD_MANIFEST.json",
       "sha256": "68fcfdfe4dcb916672345e37aad781cdf735ec8605e34bc7e84a201d62718215",
-      "bytes": 389
+      "bytes": 389,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/RC1_STAGING_PROVENANCE.json",
       "sha256": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
-      "bytes": 763
+      "bytes": 763,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/SBOM_FILES.json",
       "sha256": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
-      "bytes": 9019
+      "bytes": 9019,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
       "sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
-      "bytes": 14046372
+      "bytes": 14046372,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk.sha256",
       "sha256": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
-      "bytes": 65
+      "bytes": 65,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
       "sha256": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
-      "bytes": 13081828
+      "bytes": 13081828,
+      "bundled_in_portal_git": true
     },
     {
       "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk.sha256",
       "sha256": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
-      "bytes": 279
+      "bytes": 279,
+      "bundled_in_portal_git": true
     },
     {
       "path": "gunnchai/gunnchai-runtime-v1.0.0-rc.1.zip",
       "sha256": "b76ee4572955dd97396575ce33bb59e5042f325ab11301f94864611ea20105f4",
-      "bytes": 804448
+      "bytes": 804448,
+      "bundled_in_portal_git": true
     },
     {
       "path": "hardware/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
       "sha256": "f7bca655200128f3b4136dad778eeeac341178ddf9c0e6159cd08e02e4128d5e",
-      "bytes": 2927310
+      "bytes": 2927310,
+      "bundled_in_portal_git": true
     },
     {
       "path": "pedestrian/PROVENANCE.json",
       "sha256": "c3fedd27660a9d9d341d418bd812595c4dce1c525c987e330d277d2fb632850c",
-      "bytes": 928
+      "bytes": 928,
+      "bundled_in_portal_git": true
     },
     {
       "path": "pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk.sha256",
       "sha256": "0dd476a58ab2652e1db83adf78a025a1a6b498171772ddf9c6214534fdca66e5",
-      "bytes": 205
+      "bytes": 205,
+      "bundled_in_portal_git": true
     },
     {
       "path": "research/research-systems-v1.0.0-rc.1.zip",
       "sha256": "8a95d21832c4bdf81087c309db06ac832f14201ac270c0dc6f821dde8f7448c8",
-      "bytes": 34456
+      "bytes": 34456,
+      "bundled_in_portal_git": true
     },
     {
       "path": "waike/waike-web-pwa-v1.0.0-rc.1.zip",
       "sha256": "6d640374d7c46a5d9bb2a6096dbbf90a5d6e53564afc4691b9de3f94332e9ce5",
-      "bytes": 75953
+      "bytes": 75953,
+      "bundled_in_portal_git": true
     },
     {
       "path": "EXTERNAL:release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
       "sha256": "6dc7ec4e9ca6977e98d775c7eadd799d7a7ca330ce6102c738a6dc305d07af15",
       "bytes": 118579553,
       "bundled_in_portal_git": false,
-      "reason": "exceeds_github_100mb_limit"
+      "reason": "exceeds_github_100mb_limit",
+      "attach_to_github_release": true
     }
   ],
-  "RELEASE_ASSET_HASH_PASS": true,
   "games_artifacts": {
     "anime_apk": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
     "archive_apk": "archive/archive-of-life-debug-v1.0.0-rc.1.apk",
     "pedestrian_apk_external": "release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
     "beatlink_web_zip": "beatlink/beatlink-web-v1.0.0-rc.1.zip",
-    "beatlink_apk": "not_applicable_web_only"
-  }
+    "beatlink_apk": "not_applicable_web_only_rc1"
+  },
+  "RELEASE_ASSET_HASH_PASS": true
 }

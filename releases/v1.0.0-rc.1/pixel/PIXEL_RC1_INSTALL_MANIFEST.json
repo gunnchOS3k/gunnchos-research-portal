@@ -32,7 +32,11 @@
       "package": "com.gunnchos.beatlinkparty",
       "installed": true,
       "versionName": "1.1.2",
-      "versionCode": "4"
+      "versionCode": "4",
+      "rc1_artifact": false,
+      "classification": "preexisting_non_rc1_demo_app",
+      "rc1_distribution": "web_zip_only",
+      "notes": "Installed Android package last updated before RC1 rebuild window; not the RC1 BeatLink artifact. RC1 ships beatlink-web-v1.0.0-rc.1.zip only."
     },
     {
       "package": "com.gunnchos3k.scalywings",
@@ -58,11 +62,16 @@
   "PIXEL_V1_RC1_INSTALL_PASS": true,
   "capsule_rebuilt_installed": true,
   "capsule_rebuilt_artifact": "release_staging/v1.0.0-rc.1/device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
-  "updated_at_utc": "2026-09-21T15:56:50Z",
+  "updated_at_utc": "2026-09-21T16:46:01Z",
   "games_rc1_rebuild_installed": true,
   "games_rc1_rebuild_artifacts": {
     "anime": "release_staging/v1.0.0-rc.1/anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
     "pedestrian": "release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
     "archive": "release_staging/v1.0.0-rc.1/archive/archive-of-life-debug-v1.0.0-rc.1.apk"
+  },
+  "beatlink": {
+    "rc1_artifact": "release_staging/v1.0.0-rc.1/beatlink/beatlink-web-v1.0.0-rc.1.zip",
+    "android_apk_rc1": null,
+    "device_package_if_present": "preexisting_non_rc1_demo_app"
   }
 }

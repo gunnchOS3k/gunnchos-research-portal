@@ -1,5 +1,5 @@
-e15b26bbb8f6e4f80ed97eb621c1578e9a1cd0a0aeebd914e2a14a6bc8a73359  RELEASE_ASSET_MANIFEST.json
-1083982b63910a90ab789166d81009f3862ebf4760c29579778d8214db54a442  SHA256SUMS.txt
+6dc7ec4e9ca6977e98d775c7eadd799d7a7ca330ce6102c738a6dc305d07af15  EXTERNAL:release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk
+e2949ec010b870daafa2a455787d636a976125713a8dc57852f78e797cf9ab7c  RELEASE_ASSET_MANIFEST.json
 933921989eca54bfd296b5d71a2750772e2e650e3ec513c18a46a6fcd428fb9f  anime/PROVENANCE.json
 26c6d70a65430dec162ea49e2cc4213c654fff59ff16f62060fdea01c59de9ab  anime/anime-aggressors-debug-v1.0.0-rc.1.apk
 bd444617173095a0faaf0703cd49639b54c81eaa9d73975543b26a6750e20cf4  anime/anime-aggressors-debug-v1.0.0-rc.1.apk.sha256

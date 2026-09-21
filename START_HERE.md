@@ -31,6 +31,10 @@
 
 ## Canonical public front door
 
+**Publication canonical (after owner merge + `v1.0.0-rc.1` tag):**  
+https://github.com/gunnchOS3k/gunnchos-research-portal/blob/v1.0.0-rc.1/START_HERE.md
+
+**Owner-preview (draft branch — review only):**  
 https://github.com/gunnchOS3k/gunnchos-research-portal/blob/release/v1.0.0-rc1-ecosystem-freeze/START_HERE.md
 
-QR assets: [releases/v1.0.0-rc.1/qr/](releases/v1.0.0-rc.1/qr/)
+QR assets encode the publication-canonical tag URL: [releases/v1.0.0-rc.1/qr/](releases/v1.0.0-rc.1/qr/)

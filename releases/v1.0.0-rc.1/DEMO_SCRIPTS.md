@@ -2,6 +2,15 @@
 
 Device alias: `PIXEL_V1_DEMO_DEVICE`
 
+## Bootstrap (required once before demo)
+
+```bash
+./releases/v1.0.0-rc.1/demo/start_demo_services.sh
+```
+
+Starts WAIKE Hub (seeded), `adb reverse`, optional Nearby Edge. No secrets printed.
+
+
 ## 30-second hallway
 
 1. Unlock Pixel → open gunnchOS Capsule Home  

@@ -1,0 +1,220 @@
+{
+  "schema": "RELEASE_HASH_VERIFICATION/v1",
+  "release": "gunnchOS Ecosystem v1.0.0-rc.1",
+  "generated_at_utc": "2026-09-21T16:31:29Z",
+  "checksum_model": {
+    "self_hash_in_manifest": false,
+    "sha256sums_includes_self": false,
+    "sha256sums_includes_manifest": true,
+    "notes": "Manifest lists assets only (no self-hash). SHA256SUMS hashes assets + this manifest, never itself."
+  },
+  "sha256sums_path": "release_staging/v1.0.0-rc.1/SHA256SUMS.txt",
+  "manifest_path": "release_staging/v1.0.0-rc.1/RELEASE_ASSET_MANIFEST.json",
+  "entries": [
+    {
+      "path": "EXTERNAL:release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+      "exists": true,
+      "bytes": 118579553,
+      "sha256_expected": "6dc7ec4e9ca6977e98d775c7eadd799d7a7ca330ce6102c738a6dc305d07af15",
+      "sha256_recomputed": "6dc7ec4e9ca6977e98d775c7eadd799d7a7ca330ce6102c738a6dc305d07af15",
+      "pass": true
+    },
+    {
+      "path": "RELEASE_ASSET_MANIFEST.json",
+      "exists": true,
+      "bytes": 6130,
+      "sha256_expected": "e2949ec010b870daafa2a455787d636a976125713a8dc57852f78e797cf9ab7c",
+      "sha256_recomputed": "e2949ec010b870daafa2a455787d636a976125713a8dc57852f78e797cf9ab7c",
+      "pass": true
+    },
+    {
+      "path": "anime/PROVENANCE.json",
+      "exists": true,
+      "bytes": 531,
+      "sha256_expected": "933921989eca54bfd296b5d71a2750772e2e650e3ec513c18a46a6fcd428fb9f",
+      "sha256_recomputed": "933921989eca54bfd296b5d71a2750772e2e650e3ec513c18a46a6fcd428fb9f",
+      "pass": true
+    },
+    {
+      "path": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
+      "exists": true,
+      "bytes": 90694886,
+      "sha256_expected": "26c6d70a65430dec162ea49e2cc4213c654fff59ff16f62060fdea01c59de9ab",
+      "sha256_recomputed": "26c6d70a65430dec162ea49e2cc4213c654fff59ff16f62060fdea01c59de9ab",
+      "pass": true
+    },
+    {
+      "path": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk.sha256",
+      "exists": true,
+      "bytes": 105,
+      "sha256_expected": "bd444617173095a0faaf0703cd49639b54c81eaa9d73975543b26a6750e20cf4",
+      "sha256_recomputed": "bd444617173095a0faaf0703cd49639b54c81eaa9d73975543b26a6750e20cf4",
+      "pass": true
+    },
+    {
+      "path": "archive/PROVENANCE.json",
+      "exists": true,
+      "bytes": 566,
+      "sha256_expected": "e0578e527b4721cf16d6c86de04134fe1cb3fda4c3ab696865fa70ab8312c876",
+      "sha256_recomputed": "e0578e527b4721cf16d6c86de04134fe1cb3fda4c3ab696865fa70ab8312c876",
+      "pass": true
+    },
+    {
+      "path": "archive/archive-of-life-debug-v1.0.0-rc.1.apk",
+      "exists": true,
+      "bytes": 17235652,
+      "sha256_expected": "a662998d7eeee5bb1023400d88a250e10057da35378d2db9b74f5ba200074856",
+      "sha256_recomputed": "a662998d7eeee5bb1023400d88a250e10057da35378d2db9b74f5ba200074856",
+      "pass": true
+    },
+    {
+      "path": "archive/archive-of-life-debug-v1.0.0-rc.1.apk.sha256",
+      "exists": true,
+      "bytes": 104,
+      "sha256_expected": "308f8163edff8a0d0247b35e03d52e6f9723cdc9247471325428657508efb709",
+      "sha256_recomputed": "308f8163edff8a0d0247b35e03d52e6f9723cdc9247471325428657508efb709",
+      "pass": true
+    },
+    {
+      "path": "beatlink/beatlink-web-v1.0.0-rc.1.zip",
+      "exists": true,
+      "bytes": 119718,
+      "sha256_expected": "3ff16df8e540e87dec44a9a181c701bf1e21377d700df7d58d7c0fcb835b6b77",
+      "sha256_recomputed": "3ff16df8e540e87dec44a9a181c701bf1e21377d700df7d58d7c0fcb835b6b77",
+      "pass": true
+    },
+    {
+      "path": "curriculum/waike-curriculum-v1.0.0-rc.1.zip",
+      "exists": true,
+      "bytes": 2708676,
+      "sha256_expected": "609dd81419085cbfdcfc07807b3037ac4ddb64b0f4ee13c85f276fa7e836407a",
+      "sha256_recomputed": "609dd81419085cbfdcfc07807b3037ac4ddb64b0f4ee13c85f276fa7e836407a",
+      "pass": true
+    },
+    {
+      "path": "device-os/BUILD_MANIFEST.json",
+      "exists": true,
+      "bytes": 444,
+      "sha256_expected": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
+      "sha256_recomputed": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
+      "pass": true
+    },
+    {
+      "path": "device-os/INSTALL_UNINSTALL.md",
+      "exists": true,
+      "bytes": 731,
+      "sha256_expected": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
+      "sha256_recomputed": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
+      "pass": true
+    },
+    {
+      "path": "device-os/RC1_REBUILD_MANIFEST.json",
+      "exists": true,
+      "bytes": 389,
+      "sha256_expected": "68fcfdfe4dcb916672345e37aad781cdf735ec8605e34bc7e84a201d62718215",
+      "sha256_recomputed": "68fcfdfe4dcb916672345e37aad781cdf735ec8605e34bc7e84a201d62718215",
+      "pass": true
+    },
+    {
+      "path": "device-os/RC1_STAGING_PROVENANCE.json",
+      "exists": true,
+      "bytes": 763,
+      "sha256_expected": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
+      "sha256_recomputed": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
+      "pass": true
+    },
+    {
+      "path": "device-os/SBOM_FILES.json",
+      "exists": true,
+      "bytes": 9019,
+      "sha256_expected": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
+      "sha256_recomputed": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
+      "pass": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
+      "exists": true,
+      "bytes": 14046372,
+      "sha256_expected": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
+      "sha256_recomputed": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
+      "pass": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk.sha256",
+      "exists": true,
+      "bytes": 65,
+      "sha256_expected": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
+      "sha256_recomputed": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
+      "pass": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
+      "exists": true,
+      "bytes": 13081828,
+      "sha256_expected": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
+      "sha256_recomputed": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
+      "pass": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk.sha256",
+      "exists": true,
+      "bytes": 279,
+      "sha256_expected": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
+      "sha256_recomputed": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
+      "pass": true
+    },
+    {
+      "path": "gunnchai/gunnchai-runtime-v1.0.0-rc.1.zip",
+      "exists": true,
+      "bytes": 804448,
+      "sha256_expected": "b76ee4572955dd97396575ce33bb59e5042f325ab11301f94864611ea20105f4",
+      "sha256_recomputed": "b76ee4572955dd97396575ce33bb59e5042f325ab11301f94864611ea20105f4",
+      "pass": true
+    },
+    {
+      "path": "hardware/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+      "exists": true,
+      "bytes": 2927310,
+      "sha256_expected": "f7bca655200128f3b4136dad778eeeac341178ddf9c0e6159cd08e02e4128d5e",
+      "sha256_recomputed": "f7bca655200128f3b4136dad778eeeac341178ddf9c0e6159cd08e02e4128d5e",
+      "pass": true
+    },
+    {
+      "path": "pedestrian/PROVENANCE.json",
+      "exists": true,
+      "bytes": 928,
+      "sha256_expected": "c3fedd27660a9d9d341d418bd812595c4dce1c525c987e330d277d2fb632850c",
+      "sha256_recomputed": "c3fedd27660a9d9d341d418bd812595c4dce1c525c987e330d277d2fb632850c",
+      "pass": true
+    },
+    {
+      "path": "pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk.sha256",
+      "exists": true,
+      "bytes": 205,
+      "sha256_expected": "0dd476a58ab2652e1db83adf78a025a1a6b498171772ddf9c6214534fdca66e5",
+      "sha256_recomputed": "0dd476a58ab2652e1db83adf78a025a1a6b498171772ddf9c6214534fdca66e5",
+      "pass": true
+    },
+    {
+      "path": "research/research-systems-v1.0.0-rc.1.zip",
+      "exists": true,
+      "bytes": 34456,
+      "sha256_expected": "8a95d21832c4bdf81087c309db06ac832f14201ac270c0dc6f821dde8f7448c8",
+      "sha256_recomputed": "8a95d21832c4bdf81087c309db06ac832f14201ac270c0dc6f821dde8f7448c8",
+      "pass": true
+    },
+    {
+      "path": "waike/waike-web-pwa-v1.0.0-rc.1.zip",
+      "exists": true,
+      "bytes": 75953,
+      "sha256_expected": "6d640374d7c46a5d9bb2a6096dbbf90a5d6e53564afc4691b9de3f94332e9ce5",
+      "sha256_recomputed": "6d640374d7c46a5d9bb2a6096dbbf90a5d6e53564afc4691b9de3f94332e9ce5",
+      "pass": true
+    }
+  ],
+  "entry_count": 25,
+  "self_referential_sha256sums": false,
+  "self_hash_in_manifest": false,
+  "pedestrian_external_included": true,
+  "RELEASE_ASSET_HASH_PASS": true
+}
