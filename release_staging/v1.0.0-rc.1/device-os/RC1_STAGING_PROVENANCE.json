@@ -1,18 +1,18 @@
 {
-  "artifact": "gunnchOS-Capsule-Pixel6a-pilot.apk",
-  "accepted_main_sha": "bf109e704ac28b38b9fe1d9ce39954158f061793",
-  "build_manifest": {
-    "artifact": "artifacts/android_capsule/release/gunnchOS-Capsule-Pixel6a-pilot.apk",
-    "sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
-    "git_sha": "f460ac7b0e94c98060e7aeafc3ee82fb3c65237d",
-    "accepted_main_baseline": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
-    "shell_reused": true,
-    "signing": "debug_pilot",
-    "install": "adb install -r",
-    "no_wipe": true,
-    "no_bootloader": true,
-    "no_root": true
-  },
-  "rebuild_status": "agent_rebuild_interrupted_during_shell_tests; staged tracked accepted-main pilot APK",
-  "generated_at_utc": "2026-09-21T15:33:09Z"
+  "artifact": "gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+  "accepted_main_sha": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0",
+  "feedback_pr": 164,
+  "vulnerability_closure_ancestor": "3b6103700708953747a11cb01a5bbadcba9b0cb6",
+  "build_manifest": "BUILD_MANIFEST.json",
+  "rebuild_manifest": "RC1_REBUILD_MANIFEST.json",
+  "sha256": "a0c55be39c407ffd24868a715c9c86bb2da07efbff16dc2ddb90aecebef45826",
+  "bytes": 13083400,
+  "build_class": "accepted_main_post_feedback_debug_rc1",
+  "pixel_install": "adb install -r",
+  "privacy": "device serial and local network identifiers excluded from committed evidence",
+  "supersedes": [
+    "gunnchOS-Capsule-Pixel6a-pilot.apk",
+    "gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk",
+    "gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk"
+  ]
 }
