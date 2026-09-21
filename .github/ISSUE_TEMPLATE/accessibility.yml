@@ -1,8 +1,14 @@
 name: Accessibility feedback
 description: Barriers using gunnchOS products with assistive tech or diverse abilities
 title: "[a11y] "
-labels: ["feedback:accessibility", "needs-triage"]
+labels: ["feedback:accessibility", "needs-triage", "accessibility"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve accessibility. Disability / assistive-tech disclosure is **optional**.
+        Describe the barrier without medical information. This form is **not** a claim of formal accessibility certification.
+        Do not post exploitable security details publicly — see SECURITY.md.
   - type: dropdown
     id: surface
     attributes:
@@ -13,12 +19,14 @@ body:
   - type: input
     id: at
     attributes:
-      label: Assistive technology / needs
+      label: Assistive technology / needs (optional)
+      description: Optional. Examples — VoiceOver, TalkBack, keyboard-only, color vision. You may leave blank.
       placeholder: "VoiceOver, TalkBack, keyboard-only, color vision, …"
   - type: textarea
     id: barrier
     attributes:
       label: Barrier described
+      description: What happened? You can describe the barrier without sharing medical information.
     validations:
       required: true
   - type: textarea
@@ -26,3 +34,7 @@ body:
     attributes:
       label: Impact
       description: What could you not complete?
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround (optional)

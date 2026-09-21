@@ -33,3 +33,10 @@ See [RESEARCH_V1.md](RESEARCH_V1.md) for per-system question/method/inputs/outpu
 ## Feedback
 
 - Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

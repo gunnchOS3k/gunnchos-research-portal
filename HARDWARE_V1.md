@@ -63,3 +63,10 @@ Where documented on accepted main: first-party dock / charge / I/O expansion —
 ## Artifact
 
 `release_staging/v1.0.0-rc.1/hardware/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip`
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

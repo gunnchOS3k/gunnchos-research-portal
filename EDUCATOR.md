@@ -23,3 +23,10 @@ See [PIXEL_DEMO.md](PIXEL_DEMO.md) and [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.
 ## Feedback
 
 - Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

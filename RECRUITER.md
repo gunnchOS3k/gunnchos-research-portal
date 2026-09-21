@@ -60,3 +60,10 @@ Public GitHub front door: repository `START_HERE.md` on branch `release/v1.0.0-r
 ## Feedback
 
 - Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

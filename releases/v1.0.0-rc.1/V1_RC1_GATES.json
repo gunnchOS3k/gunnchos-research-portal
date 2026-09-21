@@ -1,7 +1,7 @@
 {
   "schema": "V1_RC1_GATES/v1",
   "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T18:20:00Z",
+  "generated_at_utc": "2026-09-21T19:12:39Z",
   "gates": {
     "ACCEPTED_MAIN_MANIFEST_PASS": true,
     "RECOVERED_CHILD_ANCESTRY_PASS": true,
@@ -27,11 +27,12 @@
   "V1_0_0_RELEASE_AUTHORIZED": false,
   "notes": {
     "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt APKs; BeatLink web zip only.",
-    "PIXEL_V1_RC1_DEMO_PASS": "true: Capsule→WAIKE Continue/adapter opens loopback client; CDP login→18 tracks→lesson on Capsule-opened Chrome. Nearby Edge honestly unavailable.",
+    "PIXEL_V1_RC1_DEMO_PASS": "true: Capsule\u2192WAIKE Continue/adapter opens loopback client; CDP login\u219218 tracks\u2192lesson on Capsule-opened Chrome. Nearby Edge honestly unavailable.",
     "RELEASE_ASSET_HASH_PASS": "Non-self-referential checksum model; see RELEASE_HASH_VERIFICATION.json",
-    "PUBLIC_FEEDBACK_FRONT_DOOR_PASS": "Portal FEEDBACK.md + issue forms (bug/feature/experience/research/hardware/accessibility/documentation) + triage/release docs. In-app Feedback links remain RC1_DESIRED / V1_REQUIRED — not RC1 blockers.",
+    "PUBLIC_FEEDBACK_FRONT_DOOR_PASS": "Portal FEEDBACK.md + issue forms + triage/release docs. Final-V1 in-app gates tracked in releases/v1.0.0/V1_FINAL_FEEDBACK_GATES.json \u2014 not RC1 blockers.",
     "SECURITY_PRIVATE_REPORTING_PASS": "SECURITY.md private-advisory path on portal + release-bearing components; blank_issues disabled with security contact link.",
     "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "Device OS apps/launcher_mock npm audit --omit=dev critical=0 high=0 after safe lockfile fix; evidence under releases/v1.0.0-rc.1/security/device_os_launcher_mock/. Remaining vitest/vite advisories are DEV_ONLY_ACCEPTED + DEFERRED_MAJOR_BUMP (no npm audit fix --force).",
-    "DEVICE_OS_ACCEPTED_MAIN": "c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4 (PR #161 owner-merged; supersedes bf109e7…)"
+    "DEVICE_OS_ACCEPTED_MAIN": "c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4 (PR #161 owner-merged; supersedes bf109e7\u2026)",
+    "FINAL_V1_FEEDBACK_GATES": "See releases/v1.0.0/V1_FINAL_FEEDBACK_GATES.json (not required for RC1)."
   }
 }

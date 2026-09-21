@@ -7,6 +7,10 @@
 
 ## Choose your path
 
+**Secondary action:** [Give feedback / suggest an improvement](FEEDBACK.md) — bugs, features, research, hardware, accessibility, docs. Security stays private ([SECURITY.md](SECURITY.md)).
+
+## Choose your path
+
 | Audience | Open |
 |---|---|
 | Recruiter / hiring | [RECRUITER.md](RECRUITER.md) |

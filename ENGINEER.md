@@ -35,3 +35,10 @@ RC1 is accepted-main only. Open PRs are classified and **not** merged into the f
 ## Feedback
 
 - Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

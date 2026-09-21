@@ -95,3 +95,10 @@ All pins are live accepted `origin/main` SHAs.
 | Outputs | Tutor responses with availability honesty |
 | Real vs synthetic | Model/runtime dependent; never fake product inference |
 | Reproduce | `gunnchAI3k` @ `ef665648aecb…` (children `d4a5c6d…`, `e2d1adc…`) |
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

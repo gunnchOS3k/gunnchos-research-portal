@@ -10,3 +10,10 @@ Interactive experiences are first-party stress tests of gunnchOS realtime system
 | **BeatLink Party** | Networking and multi-device realtime interaction | `acdeb77bdf01c40a0e78f4adae6c119752ca5cca` | `3fd2a2acf1afb0d44d6eb81f4b31dee323183f72` |
 
 Artifacts are packaged only in forms each repo truthfully supports (APK / Capacitor / host-player / PWA). No fake Android packages for uniformity.
+
+## Feedback & Suggestions
+
+Public feedback hub: [FEEDBACK.md](FEEDBACK.md)  
+Security (private only): [SECURITY.md](SECURITY.md)  
+Do not post exploitable security details publicly.
+

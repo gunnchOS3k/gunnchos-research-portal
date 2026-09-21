@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/gunnchOS3k/gunnchos-research-portal/security/advisories/new
     about: Report security issues privately. Do not open public issues for vulnerabilities.
   - name: Public feedback guide
-    url: https://github.com/gunnchOS3k/gunnchos-research-portal/blob/release/v1.0.0-rc1-ecosystem-freeze/FEEDBACK.md
-    about: How to file bugs, features, experience, research, hardware, accessibility, and docs feedback.
+    url: https://github.com/gunnchOS3k/gunnchos-research-portal/blob/main/FEEDBACK.md
+    about: How to file bugs, features, experience, research, hardware, accessibility, and docs feedback. (Accepted-main URL; live after portal #39 merges.)

@@ -37,3 +37,12 @@
 - Fix in component → link PR; note in [CHANGELOG.md](../../CHANGELOG.md) when released
 - Duplicate → close with pointer
 - Out of scope / experimental → label `release:later` with short rationale
+
+
+## Extended taxonomy
+
+See [FEEDBACK_TAXONOMY.md](FEEDBACK_TAXONOMY.md) for the full V1 label set (`feedback`, `P0-security`…`P4-idea`, `accepted`/`declined`/`planned`/`in-progress`/`released`).
+
+## Credit loop
+
+When feedback ships: link issue→PR, mention in release notes, close with release version, credit contributor when appropriate. Never expose private security reporter identity without consent.
