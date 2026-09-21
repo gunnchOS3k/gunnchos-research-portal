@@ -52,7 +52,9 @@ Portal `RELEASE_NOTES_v1.0.0-rc.1.md` uses template Feedback & Suggestions block
 Portal accessibility issue form kept public; optional AT disclosure; no certification claim; security warning present.
 
 ## P — Private security path verified?
-**Documented:** PASS. **Live advisory enablement:** UNVERIFIED (`gh auth` invalid) → `PRIVATE_SECURITY_REPORTING_SETUP_REQUIRED=true`, `SECURITY_PRIVATE_PATH_VERIFIED=false` in `releases/v1.0.0/V1_FINAL_FEEDBACK_GATES.json`.
+**Documented:** PASS (SECURITY.md + advisory URL present). **Live Private Vulnerability Reporting:** DISABLED on portal and Device OS (`gh api .../private-vulnerability-reporting` → `enabled=false`).
+→ `SECURITY_PRIVATE_PATH_VERIFIED=false`, `PRIVATE_SECURITY_REPORTING_SETUP_REQUIRED=true`. Owner must enable GitHub Private Vulnerability Reporting before final V1 claims this gate PASS.
+
 
 ## Q — Discussions status
 `GITHUB_DISCUSSIONS_OPTIONAL_NOT_ENABLED` — see `docs/feedback/GITHUB_DISCUSSIONS_STATUS.md`. Issues remain guaranteed V1 mechanism. No claim Discussions is live.
