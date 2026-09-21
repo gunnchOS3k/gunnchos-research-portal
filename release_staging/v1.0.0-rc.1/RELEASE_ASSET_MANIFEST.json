@@ -1,15 +1,15 @@
 {
   "schema": "RELEASE_ASSET_MANIFEST/v1",
   "release": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T21:40:22Z",
-  "freeze_basis": "post-feedback accepted mains",
+  "generated_at_utc": "2026-09-21T21:43:00Z",
+  "freeze_basis": "post-feedback accepted mains + explicit RC1 owner approval",
   "checksum_model": {
     "self_hash_in_manifest": false,
     "sha256sums_includes_self": false,
     "sha256sums_includes_manifest": true,
-    "notes": "Manifest lists assets only (no self-hash). SHA256SUMS hashes assets + this manifest, never itself."
+    "notes": "Manifest lists authoritative RC1 assets only. Superseded pre-feedback Device OS APKs may remain in git history but are not release assets."
   },
-  "asset_count": 28,
+  "asset_count": 21,
   "assets": [
     {
       "path": "anime/PROVENANCE.json",
@@ -61,14 +61,14 @@
     },
     {
       "path": "device-os/BUILD_MANIFEST.json",
-      "sha256": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
-      "bytes": 444,
+      "sha256": "00cae99ea8fe63ea603cd63c60305f02c2514b91592d5d8be2528ed98461411e",
+      "bytes": 536,
       "bundled_in_portal_git": true
     },
     {
       "path": "device-os/INSTALL_UNINSTALL.md",
-      "sha256": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
-      "bytes": 731,
+      "sha256": "fa77b89078b84d41092e89a44ca81cafd716cd909e8042b8d8bbb73fc7fc7ca2",
+      "bytes": 1077,
       "bundled_in_portal_git": true
     },
     {
@@ -79,26 +79,8 @@
     },
     {
       "path": "device-os/RC1_STAGING_PROVENANCE.json",
-      "sha256": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
-      "bytes": 763,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/SBOM_FILES.json",
-      "sha256": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
-      "bytes": 9019,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
-      "sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
-      "bytes": 14046372,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk.sha256",
-      "sha256": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
-      "bytes": 65,
+      "sha256": "68d12b14fb67093deda1ca68a580db609f0e88a737e6136b06be67285e59ddf9",
+      "bytes": 793,
       "bundled_in_portal_git": true
     },
     {
@@ -111,30 +93,6 @@
       "path": "device-os/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk.sha256",
       "sha256": "8b7f08ae98575b0a0d67813d2416a27784638a505177b4f3df557f5723614855",
       "bytes": 281,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk",
-      "sha256": "a604305740595de5a0a84a42f46f01b980c8bb3af6ccb5d3b7eb240671ed93cc",
-      "bytes": 13083004,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk.sha256",
-      "sha256": "1e49e4493468aff726801dd31956f3a03b4bb44ce353540e64ca4cfb18fa97db",
-      "bytes": 65,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
-      "sha256": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
-      "bytes": 13081828,
-      "bundled_in_portal_git": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk.sha256",
-      "sha256": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
-      "bytes": 279,
       "bundled_in_portal_git": true
     },
     {
@@ -188,6 +146,15 @@
     "pedestrian_apk_external": "release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
     "beatlink_web_zip": "beatlink/beatlink-web-v1.0.0-rc.1.zip",
     "beatlink_apk": "not_applicable_web_only_rc1"
+  },
+  "device_os_authority": {
+    "accepted_main_sha": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0",
+    "artifact": "device-os/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+    "superseded_staging_artifacts": [
+      "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
+      "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk",
+      "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk"
+    ]
   },
   "RELEASE_ASSET_HASH_PASS": true
 }
