@@ -1,6 +1,6 @@
 # A–Z delta — RC1 release-blocker closure
 
-A — live PR #39 head: `e826c4cebc9984698d8cc973f5fea89ba7207599` (branch `release/v1.0.0-rc1-ecosystem-freeze`)
+A — live PR #39 head: `d329fa0e48e35af6afc07c746ff1b45d1dc26b58` (branch `release/v1.0.0-rc1-ecosystem-freeze`)
 B — PR body: draft at `releases/v1.0.0-rc.1/PR39_BODY.md` (apply with `gh pr edit 39 --body-file ...` when auth available); GAMES=true; owner flags false; no serials
 C — checksum model: SHA256SUMS does not hash itself; manifest has no self-hash; see checksum_model in RELEASE_ASSET_MANIFEST.json
 D — checksum recompute: RELEASE_ASSET_HASH_PASS=True (25 entries; pedestrian EXTERNAL included)
