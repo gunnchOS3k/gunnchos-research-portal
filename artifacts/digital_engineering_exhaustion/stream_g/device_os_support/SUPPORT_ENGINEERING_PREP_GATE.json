@@ -1,0 +1,43 @@
+{
+  "schema": "gunnchos.stream_g.support_engineering_prep_gate.v1",
+  "generated_at": "2026-09-18T18:34:45Z",
+  "SUPPORT_ENGINEERING_PREP_EXHAUSTED": true,
+  "claim_boundary": "Digital schemas, trees, KB drafts, and script inventory complete. No human-validated support ops. Commercial warranty EXTERNAL.",
+  "completed": [
+    "diagnostic_bundle.schema.json",
+    "self_test_matrix.json",
+    "SAFE_MODE.md",
+    "RECOVERY.md",
+    "error_codes.json",
+    "REPAIR_TREES.md",
+    "rma_intake.schema.json",
+    "warranty_decision_tree.json",
+    "kb_drafts/*",
+    "SUPPORT_SCRIPTS.md",
+    "existing factory_rma digital model referenced"
+  ],
+  "remaining_non_automatable": [
+    {
+      "item": "Human support-ops validation",
+      "class": "HUMAN_VALIDATION_REQUIRED"
+    },
+    {
+      "item": "Commercial warranty terms",
+      "class": "LEGAL_RIGHTS_REVIEW_REQUIRED"
+    },
+    {
+      "item": "Depot / logistics / spare stocking",
+      "class": "EXTERNAL_PARTY_REQUIRED"
+    },
+    {
+      "item": "Physical FRU replacement verification",
+      "class": "PHYSICAL_HARDWARE_REQUIRED"
+    }
+  ],
+  "references": [
+    "docs/FACTORY_RMA_SUPPORT_STREAM.md",
+    "requirements/SUPPORT_AND_REPAIR_REQUIREMENTS.md",
+    "docs/release/USER_SUPPORT.md",
+    "artifacts/factory_rma/"
+  ]
+}
