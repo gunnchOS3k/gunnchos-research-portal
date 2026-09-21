@@ -98,3 +98,26 @@ Feedback URL builders strip unsafe chars; no serial/IP/token/path in query param
 8. When matrix all PASS (or waive), set final V1 feedback gates + only then authorize `v1.0.0`
 
 **Do not publish final v1.0.0 in this pass.**
+
+
+## Draft branches pushed (open draft PRs — API create blocked)
+
+| Component | Branch | Open draft PR |
+|---|---|---|
+| Portal (#39 updated) | `release/v1.0.0-rc1-ecosystem-freeze` @ `e65dc6d` | https://github.com/gunnchOS3k/gunnchos-research-portal/pull/39 |
+| Device OS | `release/v1-in-app-feedback` | https://github.com/gunnchOS3k/gunnchos-device-os/pull/new/release/v1-in-app-feedback |
+| Anime | `release/v1-in-app-feedback` | https://github.com/gunnchOS3k/anime-aggressors/pull/new/release/v1-in-app-feedback |
+| Pedestrian | `release/v1-in-app-feedback` | https://github.com/gunnchOS3k/pedestrian-pursuit/pull/new/release/v1-in-app-feedback |
+| Archive | `release/v1-in-app-feedback` | https://github.com/gunnchOS3k/archive-of-life-artifact-world/pull/new/release/v1-in-app-feedback |
+| BeatLink | `release/v1-in-app-feedback` | https://github.com/gunnchOS3k/beatlink-party/pull/new/release/v1-in-app-feedback |
+| gunnchAI | `release/v1-in-app-feedback` | https://github.com/gunnchOS3k/gunnchAI3k/pull/new/release/v1-in-app-feedback |
+| Digital Twin | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/7gc-digital-twin/pull/new/docs/v1-feedback-hub |
+| SpectrumX | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/new/docs/v1-feedback-hub |
+| ReadyGary | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/readygary-6g-beam-selection/pull/new/docs/v1-feedback-hub |
+| NTN | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/ntn-resilience-sim/pull/new/docs/v1-feedback-hub |
+| Edge IO | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/edge-io-measurement-node/pull/new/docs/v1-feedback-hub |
+| Hardware industrial | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/new/docs/v1-feedback-hub |
+| waike-research-ops | `docs/v1-feedback-hub` | https://github.com/gunnchOS3k/waike-research-ops/pull/new/docs/v1-feedback-hub |
+| WAIKE LP (primary) | patch kit only | Agent store `v1_feedback_everywhere_patches/waike/` + worktree `gunnchAI3k/.worktrees/waike-lp-stream-b` |
+| Field kit | patch kit only | Agent store `v1_feedback_everywhere_patches/field-kit/` |
+
