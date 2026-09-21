@@ -1,0 +1,13 @@
+{
+  "artifact": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
+  "accepted_main_sha": "649b20f422b31bba2af9bf0c5c1b2b555c9a4a40",
+  "contains_required": "106e92e",
+  "build_worktree": "anime-aggressors/.worktrees/rc1-games-release-pass",
+  "godot": "4.5.stable.official.876b29033",
+  "export_type": "debug",
+  "package": "com.gunnchos.animeaggressors",
+  "sha256": "26c6d70a65430dec162ea49e2cc4213c654fff59ff16f62060fdea01c59de9ab",
+  "bytes": 90694886,
+  "built_at_utc": "2026-09-21T15:55:21Z",
+  "bundled_in_portal_git": true
+}

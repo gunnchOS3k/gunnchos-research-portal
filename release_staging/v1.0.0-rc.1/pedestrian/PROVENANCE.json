@@ -1,7 +1,17 @@
 {
   "artifact": "not_bundled_in_portal_git",
-  "reason": "pedestrian-pursuit-debug.apk exceeds GitHub 100MB limit",
-  "accepted_main_target": "d91f102f251ef67d536d2f95188de7d627701902",
-  "pixel_install_state": "package com.gunnchos.pedestrianpursuit versionName 0.3.10 versionCode 14 already installed; physical demo launch earned",
-  "rebuild_path": "Godot export-release Android from accepted main when signing env available"
+  "reason": "pedestrian-pursuit-debug.apk exceeds GitHub 100MB blob limit",
+  "accepted_main_sha": "d91f102f251ef67d536d2f95188de7d627701902",
+  "contains_required": "622ed74",
+  "build_worktree": "pedestrian-pursuit/.worktrees/rc1-games-release-pass",
+  "godot": "4.5.stable.official.876b29033",
+  "export_type": "debug",
+  "package": "com.gunnchos.pedestrianpursuit",
+  "sha256": "6dc7ec4e9ca6977e98d775c7eadd799d7a7ca330ce6102c738a6dc305d07af15",
+  "bytes": 118579553,
+  "external_path": "release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+  "draft_release_attach": "Attach external APK to pedestrian-pursuit draft release v1.0.0-rc.1; do not force-commit into portal git",
+  "built_at_utc": "2026-09-21T15:55:21Z",
+  "bundled_in_portal_git": false,
+  "rebuild_note": "Godot export succeeded; editor SIGSEGV only during post-export cleanup"
 }

@@ -1,7 +1,7 @@
 {
   "schema": "V1_RC1_GATES/v1",
   "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T15:41:10Z",
+  "generated_at_utc": "2026-09-21T15:55:42Z",
   "gates": {
     "ACCEPTED_MAIN_MANIFEST_PASS": true,
     "RECOVERED_CHILD_ANCESTRY_PASS": true,
@@ -9,7 +9,7 @@
     "WAIKE_18_TRACK_RELEASE_PASS": true,
     "GUNNCHAI_RELEASE_PASS": true,
     "DEVICE_OS_RELEASE_PASS": true,
-    "GAMES_RELEASE_PASS": false,
+    "GAMES_RELEASE_PASS": true,
     "HARDWARE_DIGITAL_RELEASE_PASS": true,
     "RESEARCH_RELEASE_PASS": true,
     "RELEASE_ASSET_HASH_PASS": true,
@@ -23,7 +23,7 @@
   },
   "V1_0_0_RELEASE_AUTHORIZED": false,
   "notes": {
-    "GAMES_RELEASE_PASS": "Pixel demo launches of accepted-main-installed Anime+Pedestrian succeeded; BeatLink web zip staged; clean Godot/Capacitor APK rebuilds for Anime/Archive not completed this session \u2014 gate remains false (no greenwash)",
+    "GAMES_RELEASE_PASS": "Clean accepted-main rebuilds: Anime Godot debug APK (649b20f, hashed+staged in portal git); Archive Capacitor debug APK (7b3e2e5, hashed+staged); Pedestrian Godot debug APK (d91f102, hashed; stored in release_staging_large \u2014 exceeds 100MB git limit); BeatLink web zip verified (acdeb77). No fake BeatLink APK.",
     "WAIKE_18_TRACK_RELEASE_PASS": "Curriculum bundle from waike-research-ops accepted main + WAIKE web/PWA zip from clean worktree",
     "demo_entrypoint_pr": "NOT created \u2014 Home\u2192WAIKE/Games/gunnchAI <=1 tap"
   }

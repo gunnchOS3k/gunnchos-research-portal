@@ -58,5 +58,11 @@
   "PIXEL_V1_RC1_INSTALL_PASS": true,
   "capsule_rebuilt_installed": true,
   "capsule_rebuilt_artifact": "release_staging/v1.0.0-rc.1/device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
-  "updated_at_utc": "2026-09-21T15:41:10Z"
+  "updated_at_utc": "2026-09-21T15:56:50Z",
+  "games_rc1_rebuild_installed": true,
+  "games_rc1_rebuild_artifacts": {
+    "anime": "release_staging/v1.0.0-rc.1/anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
+    "pedestrian": "release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+    "archive": "release_staging/v1.0.0-rc.1/archive/archive-of-life-debug-v1.0.0-rc.1.apk"
+  }
 }
