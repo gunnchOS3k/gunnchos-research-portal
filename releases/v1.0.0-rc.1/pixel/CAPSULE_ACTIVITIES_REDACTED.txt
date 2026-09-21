@@ -1,0 +1,5 @@
+Activity Resolver Table:
+      android.intent.action.MAIN:
+        1fb19c5 com.gunnchos.capsule.debug/com.gunnchos.capsule.CapsuleActivity filter d222f1a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"

@@ -1,0 +1,30 @@
+{
+  "schema": "V1_RC1_GATES/v1",
+  "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
+  "generated_at_utc": "2026-09-21T15:41:10Z",
+  "gates": {
+    "ACCEPTED_MAIN_MANIFEST_PASS": true,
+    "RECOVERED_CHILD_ANCESTRY_PASS": true,
+    "CORE_SOFTWARE_BUILD_PASS": true,
+    "WAIKE_18_TRACK_RELEASE_PASS": true,
+    "GUNNCHAI_RELEASE_PASS": true,
+    "DEVICE_OS_RELEASE_PASS": true,
+    "GAMES_RELEASE_PASS": false,
+    "HARDWARE_DIGITAL_RELEASE_PASS": true,
+    "RESEARCH_RELEASE_PASS": true,
+    "RELEASE_ASSET_HASH_PASS": true,
+    "RECRUITER_FRONT_DOOR_PASS": true,
+    "PHD_ADVISOR_FRONT_DOOR_PASS": true,
+    "PIXEL_V1_RC1_INSTALL_PASS": true,
+    "PIXEL_V1_RC1_DEMO_PASS": true,
+    "PRIVACY_REDACTION_PASS": true,
+    "RC1_DRAFT_RELEASES_READY": true,
+    "RC1_OWNER_APPROVAL": false
+  },
+  "V1_0_0_RELEASE_AUTHORIZED": false,
+  "notes": {
+    "GAMES_RELEASE_PASS": "Pixel demo launches of accepted-main-installed Anime+Pedestrian succeeded; BeatLink web zip staged; clean Godot/Capacitor APK rebuilds for Anime/Archive not completed this session \u2014 gate remains false (no greenwash)",
+    "WAIKE_18_TRACK_RELEASE_PASS": "Curriculum bundle from waike-research-ops accepted main + WAIKE web/PWA zip from clean worktree",
+    "demo_entrypoint_pr": "NOT created \u2014 Home\u2192WAIKE/Games/gunnchAI <=1 tap"
+  }
+}

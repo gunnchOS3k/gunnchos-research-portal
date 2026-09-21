@@ -1,0 +1,7 @@
+{
+  "artifact": "not_bundled_in_portal_git",
+  "reason": "pedestrian-pursuit-debug.apk exceeds GitHub 100MB limit",
+  "accepted_main_target": "d91f102f251ef67d536d2f95188de7d627701902",
+  "pixel_install_state": "package com.gunnchos.pedestrianpursuit versionName 0.3.10 versionCode 14 already installed; physical demo launch earned",
+  "rebuild_path": "Godot export-release Android from accepted main when signing env available"
+}

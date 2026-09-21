@@ -1,0 +1,89 @@
+{
+  "schema": "RELEASE_ASSET_MANIFEST/v1",
+  "release": "gunnchOS Ecosystem v1.0.0-rc.1",
+  "generated_at_utc": "2026-09-21T15:42:45Z",
+  "asset_count": 16,
+  "assets": [
+    {
+      "path": "beatlink/beatlink-web-v1.0.0-rc.1.zip",
+      "sha256": "3ff16df8e540e87dec44a9a181c701bf1e21377d700df7d58d7c0fcb835b6b77",
+      "bytes": 119718
+    },
+    {
+      "path": "curriculum/waike-curriculum-v1.0.0-rc.1.zip",
+      "sha256": "609dd81419085cbfdcfc07807b3037ac4ddb64b0f4ee13c85f276fa7e836407a",
+      "bytes": 2708676
+    },
+    {
+      "path": "device-os/BUILD_MANIFEST.json",
+      "sha256": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
+      "bytes": 444
+    },
+    {
+      "path": "device-os/INSTALL_UNINSTALL.md",
+      "sha256": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
+      "bytes": 731
+    },
+    {
+      "path": "device-os/RC1_REBUILD_MANIFEST.json",
+      "sha256": "68fcfdfe4dcb916672345e37aad781cdf735ec8605e34bc7e84a201d62718215",
+      "bytes": 389
+    },
+    {
+      "path": "device-os/RC1_STAGING_PROVENANCE.json",
+      "sha256": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
+      "bytes": 763
+    },
+    {
+      "path": "device-os/SBOM_FILES.json",
+      "sha256": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
+      "bytes": 9019
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
+      "sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
+      "bytes": 14046372
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk.sha256",
+      "sha256": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
+      "bytes": 65
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
+      "sha256": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
+      "bytes": 13081828
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk.sha256",
+      "sha256": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
+      "bytes": 279
+    },
+    {
+      "path": "gunnchai/gunnchai-runtime-v1.0.0-rc.1.zip",
+      "sha256": "b76ee4572955dd97396575ce33bb59e5042f325ab11301f94864611ea20105f4",
+      "bytes": 804448
+    },
+    {
+      "path": "hardware/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+      "sha256": "f7bca655200128f3b4136dad778eeeac341178ddf9c0e6159cd08e02e4128d5e",
+      "bytes": 2927310
+    },
+    {
+      "path": "pedestrian/PROVENANCE.json",
+      "sha256": "51cfdc175a022a9e4390fb37eaeb7935886d4194a635a24f989aeefbc7926b1b",
+      "bytes": 431
+    },
+    {
+      "path": "research/research-systems-v1.0.0-rc.1.zip",
+      "sha256": "8a95d21832c4bdf81087c309db06ac832f14201ac270c0dc6f821dde8f7448c8",
+      "bytes": 34456
+    },
+    {
+      "path": "waike/waike-web-pwa-v1.0.0-rc.1.zip",
+      "sha256": "6d640374d7c46a5d9bb2a6096dbbf90a5d6e53564afc4691b9de3f94332e9ce5",
+      "bytes": 75953
+    }
+  ],
+  "RELEASE_ASSET_HASH_PASS": true
+}

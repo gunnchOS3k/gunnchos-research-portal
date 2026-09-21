@@ -1,0 +1,7 @@
+{
+  "artifact": "gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
+  "sha256": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
+  "accepted_main_sha": "bf109e704ac28b38b9fe1d9ce39954158f061793",
+  "build_method": "npm run build (shell) + gradlew assembleDebug; tests skipped for agent packaging after accepted-main source",
+  "generated_at_utc": "2026-09-21T15:37:37Z"
+}

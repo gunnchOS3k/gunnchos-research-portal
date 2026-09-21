@@ -1,0 +1,26 @@
+{
+  "schema": "PIXEL_RC1_BASELINE/v1",
+  "device_alias": "PIXEL_V1_DEMO_DEVICE",
+  "serial_committed": false,
+  "adb_device_count": 1,
+  "product_model": "Pixel 6a",
+  "device_codename": "bluejay",
+  "android_version": "17",
+  "sdk": "37",
+  "battery_percent": "99",
+  "free_storage_kb": "26959524",
+  "screen_size": "Physical size: 1080x2400",
+  "screen_density": "Physical density: 420",
+  "network_status_sanitized": "connectivity_present_sanitized",
+  "gunnchos_packages": [
+    "com.gunnchos3k.scalywings",
+    "com.gunnchos.animeaggressors",
+    "com.gunnchos.finds",
+    "com.gunnchos.archiveoflife",
+    "com.gunnchos.pedestrianpursuit",
+    "com.gunnchos.beatlinkparty",
+    "org.gunnchos.edgeio.debug",
+    "com.gunnchos.capsule.debug"
+  ],
+  "captured_at_utc": "2026-09-21T15:23:13Z"
+}

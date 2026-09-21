@@ -1,0 +1,575 @@
+{
+  "schema": "FINAL_ACCEPTED_MAIN_MANIFEST/v1",
+  "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
+  "release_class": "First Public Engineering & Demonstration Release Candidate",
+  "final_release_target": "v1.0.0",
+  "generated_at_utc": "2026-09-21T15:16:58Z",
+  "freeze_authority": {
+    "umbrella_repo": "gunnchOS3k/gunnchos-research-portal",
+    "branch": "release/v1.0.0-rc1-ecosystem-freeze",
+    "portal_accepted_main_sha": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+    "supersedes_prs": [
+      37,
+      38
+    ],
+    "merge_authorized": false
+  },
+  "claim_boundary": {
+    "DIGITAL_HARDWARE_ENGINEERING_RELEASE": true,
+    "READY_FOR_FAB": false,
+    "EVT_PASS": false,
+    "DVT_PASS": false,
+    "PVT_PASS": false,
+    "RF_CERTIFICATION": false,
+    "CARRIER_CERTIFICATION": false,
+    "REGULATORY_CERTIFICATION": false,
+    "BATTERY_TRANSPORT_CERTIFICATION": false,
+    "MANUFACTURING_READINESS": false,
+    "WARRANTY_RMA_READINESS": false,
+    "V1_0_0_RELEASE_AUTHORIZED": false,
+    "RC1_OWNER_APPROVAL": false
+  },
+  "hardware_outside_v1": {
+    "pr_84": "OUTSIDE_RC1",
+    "prs_69_to_79": "EXPERIMENTAL"
+  },
+  "components": [
+    {
+      "repo": "gunnchOS3k/gunnchos-research-portal",
+      "local_name": "gunnchos-research-portal",
+      "role": "Umbrella portal / front door",
+      "lane": "Core",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 38,
+          "title": "Stream H v2: accepted-main clean-room verification and human-validation handoff",
+          "class": "STALE",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/38"
+        },
+        {
+          "number": 37,
+          "title": "stream-h: clean-room digital exhaustion master report",
+          "class": "STALE",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/37"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-device-os",
+      "local_name": "gunnchos-device-os",
+      "role": "gunnchOS Device OS + Android Capsule",
+      "lane": "Core",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "bf109e704ac28b38b9fe1d9ce39954158f061793",
+      "required_recovered_children": [],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "local_name": "gunnchos-waike-learning-platform",
+      "role": "WAIKE Learning Platform",
+      "lane": "Core",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "c306543ccc89fb0304734d0ebbaa94f8a0b19c1d",
+      "required_recovered_children": [
+        "efe21df092c7230e7bf756764976faf2ee42b79d"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/waike-research-ops",
+      "local_name": "waike-research-ops",
+      "role": "WAIKE curriculum / research ops",
+      "lane": "Core",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "e919976237cb67e26582b1da7caf975d6f35d883",
+      "required_recovered_children": [
+        "63ba9f25ac6b8d8d1b6dd118923566fd51c57b62"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/gunnchAI3k",
+      "local_name": "gunnchAI3k",
+      "role": "gunnchAI edge intelligence",
+      "lane": "Core",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "ef665648aecb06230ecf7017065861b148e19c35",
+      "required_recovered_children": [
+        "d4a5c6d857c303b6a8d1ed564d6cbedb4dfc6343",
+        "e2d1adcb5847cf00282fb7fa64970254b14e344e"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-hardware-industrial-design",
+      "local_name": "gunnchos-hardware-industrial-design",
+      "role": "Hardware design (digital engineering)",
+      "lane": "Hardware",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 84,
+          "title": "NXP open-custom: CPB0-O collateral-unlocked EDA continuation",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/84"
+        },
+        {
+          "number": 79,
+          "title": "EXP: Student P132/P132i AI-first vs 8840U mainline",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/79"
+        },
+        {
+          "number": 78,
+          "title": "EXP: DS-XL Ryzen AI Embedded X100-class vs 8845HS mainline",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/78"
+        },
+        {
+          "number": 77,
+          "title": "EXP: COM-HPC modular product architecture vs custom motherboard mainline",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/77"
+        },
+        {
+          "number": 76,
+          "title": "EXP: RAUC A/B vs vendor capsule/EC update",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/76"
+        },
+        {
+          "number": 75,
+          "title": "EXP: coreboot vs vendor UEFI",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/75"
+        },
+        {
+          "number": 74,
+          "title": "EXP: sEMG wrist vs IMU/cap ring input",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/74"
+        },
+        {
+          "number": 73,
+          "title": "EXP: Inductive ring charge vs magnetic cradle",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/73"
+        },
+        {
+          "number": 72,
+          "title": "EXP: Dock USB4 80 vs USB4 40",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/72"
+        },
+        {
+          "number": 71,
+          "title": "EXP: DS-XL OLED+IPS hybrid vs dual IPS",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/71"
+        },
+        {
+          "number": 70,
+          "title": "EXP: Student OLED panel vs IPS",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/70"
+        },
+        {
+          "number": 69,
+          "title": "EXP: ARM IQX-class SoM vs custom AMD Platform Core v1",
+          "class": "EXPERIMENTAL",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/pull/69"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/edge-io-measurement-node",
+      "local_name": "edge-io-measurement-node",
+      "role": "Edge IO measurement node",
+      "lane": "Research",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "af57fbdac857ae386b23b5b747fdc05797621f92",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 39,
+          "title": "feat(privacy): Prompt 18 digital research export prep",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/39"
+        },
+        {
+          "number": 18,
+          "title": "Add PhD application readiness documentation",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/18"
+        },
+        {
+          "number": 17,
+          "title": "Portfolio hardening: mission docs, CI, evidence discipline (Tier 1)",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/17"
+        },
+        {
+          "number": 16,
+          "title": "Oulu WCE alignment hardening and evidence roadmap",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/16"
+        },
+        {
+          "number": 8,
+          "title": "docs: WAIKE_INTEGRATION.md",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/pull/8"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-7gc-ai-ran-field-kit",
+      "local_name": "gunnchos-7gc-ai-ran-field-kit",
+      "role": "7GC AI-RAN Field Kit",
+      "lane": "Research",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "9e93e41a3b16b009c9cc5163b775360d4d2ef693",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 75,
+          "title": "docs: land independent #74 post-main-merge VP",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/75"
+        },
+        {
+          "number": 71,
+          "title": "Cycle 3B: digital engineering burndown + accepted baseline",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/71"
+        },
+        {
+          "number": 1,
+          "title": "Portfolio hardening: mission docs, CI, evidence discipline (Tier 1)",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/1"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/7gc-digital-twin",
+      "local_name": "7gc-digital-twin",
+      "role": "7GC Digital Twin",
+      "lane": "Research",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "dc43a567e3f2e81a5b59fea6dd67c7054cfdde56",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 29,
+          "title": "docs(readme): Cycle 3A WP-012 \u00a7F information contract",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/7gc-digital-twin/pull/29"
+        },
+        {
+          "number": 23,
+          "title": "Add PhD application readiness documentation",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/7gc-digital-twin/pull/23"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/spectrumx-ai-ran-gary",
+      "local_name": "spectrumx-ai-ran-gary",
+      "role": "SpectrumX AI-RAN Gary",
+      "lane": "Research",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "9060655e724374f60cbbb86832816c9c2d332ca4",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 99,
+          "title": "docs(readme): Cycle 3A WP-012 \u00a7F information contract",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/99"
+        },
+        {
+          "number": 93,
+          "title": "Add PhD application readiness documentation",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/93"
+        },
+        {
+          "number": 92,
+          "title": "Portfolio hardening: mission docs, CI, evidence discipline (Tier 1)",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/92"
+        },
+        {
+          "number": 91,
+          "title": "Oulu WCE alignment hardening and evidence roadmap",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/91"
+        },
+        {
+          "number": 83,
+          "title": "docs: WAIKE_INTEGRATION.md",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/pull/83"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/readygary-6g-beam-selection",
+      "local_name": "readygary-6g-beam-selection",
+      "role": "ReadyGary beam selection",
+      "lane": "Research",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "569875224db7812890ec6abc48dfe43a608094f3",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 22,
+          "title": "Add PhD application readiness documentation",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/pull/22"
+        },
+        {
+          "number": 21,
+          "title": "Portfolio hardening: mission docs, CI, evidence discipline (Tier 1)",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/pull/21"
+        },
+        {
+          "number": 20,
+          "title": "Oulu WCE alignment hardening and evidence roadmap",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/pull/20"
+        },
+        {
+          "number": 12,
+          "title": "docs: WAIKE_INTEGRATION.md",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/pull/12"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/ntn-resilience-sim",
+      "local_name": "ntn-resilience-sim",
+      "role": "NTN resilience simulation",
+      "lane": "Research",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "c4215fc1039f5452917b9b2034b42e03fdc13689",
+      "required_recovered_children": [],
+      "open_prs": [
+        {
+          "number": 26,
+          "title": "docs(readme): Cycle 3A WP-012 \u00a7F information contract",
+          "class": "OUTSIDE_RC1",
+          "draft": true,
+          "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/pull/26"
+        },
+        {
+          "number": 20,
+          "title": "Add PhD application readiness documentation",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/pull/20"
+        },
+        {
+          "number": 10,
+          "title": "docs: WAIKE_INTEGRATION.md",
+          "class": "OUTSIDE_RC1",
+          "draft": false,
+          "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/pull/10"
+        }
+      ],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/anime-aggressors",
+      "local_name": "anime-aggressors",
+      "role": "Anime Aggressors",
+      "lane": "Experiences",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "649b20f422b31bba2af9bf0c5c1b2b555c9a4a40",
+      "required_recovered_children": [
+        "106e92e31bae019498828b9880cc677e425426f0"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/pedestrian-pursuit",
+      "local_name": "pedestrian-pursuit",
+      "role": "Pedestrian Pursuit",
+      "lane": "Experiences",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "d91f102f251ef67d536d2f95188de7d627701902",
+      "required_recovered_children": [
+        "622ed74d2dfc4a500ecad6f26fdbb0c4f762f962"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/archive-of-life-artifact-world",
+      "local_name": "archive-of-life-artifact-world",
+      "role": "Archive of Life",
+      "lane": "Experiences",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "7b3e2e51782541a1a2d2896fc317a5e41e9db8f8",
+      "required_recovered_children": [
+        "a095d90aa339d42914d12c6102aad8a276d53f08"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    },
+    {
+      "repo": "gunnchOS3k/beatlink-party",
+      "local_name": "beatlink-party",
+      "role": "BeatLink Party",
+      "lane": "Experiences",
+      "in_v1_rc1": true,
+      "accepted_main_sha": "acdeb77bdf01c40a0e78f4adae6c119752ca5cca",
+      "required_recovered_children": [
+        "3fd2a2acf1afb0d44d6eb81f4b31dee323183f72"
+      ],
+      "open_prs": [],
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+    }
+  ],
+  "recovered_child_ancestry": {
+    "gunnchos-waike-learning-platform": {
+      "accepted_main": "c306543ccc89fb0304734d0ebbaa94f8a0b19c1d",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "efe21df092c7230e7bf756764976faf2ee42b79d",
+          "resolved_sha": "efe21df092c7230e7bf756764976faf2ee42b79d",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    },
+    "waike-research-ops": {
+      "accepted_main": "e919976237cb67e26582b1da7caf975d6f35d883",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "63ba9f25ac6b8d8d1b6dd118923566fd51c57b62",
+          "resolved_sha": "63ba9f25ac6b8d8d1b6dd118923566fd51c57b62",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    },
+    "gunnchAI3k": {
+      "accepted_main": "ef665648aecb06230ecf7017065861b148e19c35",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "d4a5c6d857c303b6a8d1ed564d6cbedb4dfc6343",
+          "resolved_sha": "d4a5c6d857c303b6a8d1ed564d6cbedb4dfc6343",
+          "is_ancestor_of_origin_main": true
+        },
+        {
+          "required_prefix_or_sha": "e2d1adcb5847cf00282fb7fa64970254b14e344e",
+          "resolved_sha": "e2d1adcb5847cf00282fb7fa64970254b14e344e",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    },
+    "anime-aggressors": {
+      "accepted_main": "649b20f422b31bba2af9bf0c5c1b2b555c9a4a40",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "106e92e31bae019498828b9880cc677e425426f0",
+          "resolved_sha": "106e92e31bae019498828b9880cc677e425426f0",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    },
+    "pedestrian-pursuit": {
+      "accepted_main": "d91f102f251ef67d536d2f95188de7d627701902",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "622ed74d2dfc4a500ecad6f26fdbb0c4f762f962",
+          "resolved_sha": "622ed74d2dfc4a500ecad6f26fdbb0c4f762f962",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    },
+    "archive-of-life-artifact-world": {
+      "accepted_main": "7b3e2e51782541a1a2d2896fc317a5e41e9db8f8",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "a095d90aa339d42914d12c6102aad8a276d53f08",
+          "resolved_sha": "a095d90aa339d42914d12c6102aad8a276d53f08",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    },
+    "beatlink-party": {
+      "accepted_main": "acdeb77bdf01c40a0e78f4adae6c119752ca5cca",
+      "proofs": [
+        {
+          "required_prefix_or_sha": "3fd2a2acf1afb0d44d6eb81f4b31dee323183f72",
+          "resolved_sha": "3fd2a2acf1afb0d44d6eb81f4b31dee323183f72",
+          "is_ancestor_of_origin_main": true
+        }
+      ],
+      "pass": true
+    }
+  },
+  "RECOVERED_CHILD_ANCESTRY_PASS": true,
+  "ACCEPTED_MAIN_MANIFEST_PASS": true
+}
