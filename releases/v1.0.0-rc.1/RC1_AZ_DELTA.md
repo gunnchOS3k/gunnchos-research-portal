@@ -20,7 +20,7 @@ Q — QR: regenerated SVG/PNG for tag URL; FRONT_DOOR_URL.txt updated
 R — release notes: `RELEASE_NOTES_v1.0.0-rc.1.md` present
 S — draft release commands: updated with attachments + placeholder target
 T — technical gates: see V1_RC1_GATES.json (owner flags false)
-U — PIXEL_V1_RC1_DEMO_PASS=False
+U — PIXEL_V1_RC1_DEMO_PASS=True
 V — RELEASE_ASSET_HASH_PASS=True
 W — RC1_DRAFT_RELEASES_READY=True
 X — RC1_OWNER_APPROVAL=false
