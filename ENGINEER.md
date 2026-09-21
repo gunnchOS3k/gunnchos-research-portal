@@ -31,3 +31,7 @@ RC1 is accepted-main only. Open PRs are classified and **not** merged into the f
 - Merge portal RC1 PR without owner approval
 - Claim fab/EVT/DVT/PVT/cert
 - Fabricate Pixel serials or personal data in commits
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)

@@ -3,7 +3,7 @@
   "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
   "release_class": "First Public Engineering & Demonstration Release Candidate",
   "final_release_target": "v1.0.0",
-  "generated_at_utc": "2026-09-21T15:16:58Z",
+  "generated_at_utc": "2026-09-21T18:19:14Z",
   "freeze_authority": {
     "umbrella_repo": "gunnchOS3k/gunnchos-research-portal",
     "branch": "release/v1.0.0-rc1-ecosystem-freeze",
@@ -66,10 +66,11 @@
       "role": "gunnchOS Device OS + Android Capsule",
       "lane": "Core",
       "in_v1_rc1": true,
-      "accepted_main_sha": "bf109e704ac28b38b9fe1d9ce39954158f061793",
+      "accepted_main_sha": "c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4",
       "required_recovered_children": [],
       "open_prs": [],
-      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1"
+      "open_pr_disposition": "all open PRs classified OUTSIDE_RC1/STALE/EXPERIMENTAL/FUTURE \u2014 none merged into RC1",
+      "notes": "Post-#161 accepted main (normal merge c6fd04a). Supersedes bf109e7."
     },
     {
       "repo": "gunnchOS3k/gunnchos-waike-learning-platform",

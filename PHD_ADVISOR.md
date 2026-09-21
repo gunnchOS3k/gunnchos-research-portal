@@ -29,3 +29,7 @@ gunnchOS is a reproducible, evidence-bounded platform for studying **6G / IMT-20
 ## Reproduce entry
 
 See [RESEARCH_V1.md](RESEARCH_V1.md) for per-system question/method/inputs/outputs and accepted-main SHAs.
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)

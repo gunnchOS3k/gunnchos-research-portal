@@ -19,3 +19,7 @@ WAIKE is the learning platform + curriculum operations layer: **18 tracks**, les
 - Accessibility validation for disabled users is pending unless separately evidenced
 
 See [PIXEL_DEMO.md](PIXEL_DEMO.md) and [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md).
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)

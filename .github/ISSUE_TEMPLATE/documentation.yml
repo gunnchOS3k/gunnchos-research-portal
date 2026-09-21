@@ -1,0 +1,25 @@
+name: Documentation feedback
+description: Gaps, errors, or clarity issues in START_HERE and related docs
+title: "[docs] "
+labels: ["feedback:documentation", "needs-triage"]
+body:
+  - type: input
+    id: path
+    attributes:
+      label: Doc path or URL
+      placeholder: "START_HERE.md / RECRUITER.md / …"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Incorrect, Outdated, Unclear, Missing, Typo / formatting]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What should change?
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+name: Research feedback
+description: Feedback on digital twin, SpectrumX, beam selection, NTN, Edge IO, field kit
+title: "[research] "
+labels: ["feedback:research", "needs-triage"]
+body:
+  - type: dropdown
+    id: repo
+    attributes:
+      label: Research component
+      options:
+        - 7gc-digital-twin
+        - spectrumx-ai-ran-gary
+        - readygary-6g-beam-selection
+        - ntn-resilience-sim
+        - edge-io-measurement-node
+        - gunnchos-7gc-ai-ran-field-kit
+        - Cross-research / methodology
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim or result you are commenting on
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+    validations:
+      required: true
+  - type: checkboxes
+    id: ethics
+    attributes:
+      label: Ethics
+      options:
+        - label: No private field / competition datasets are attached
+          required: true

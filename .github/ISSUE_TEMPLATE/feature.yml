@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose a capability for a future release
+title: "[feature] "
+labels: ["feedback:feature", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Feature ideas feed the public roadmap. Security-sensitive requests still go through private advisories."
+  - type: dropdown
+    id: lane
+    attributes:
+      label: Lane
+      options: [Core software, Hardware, Research, Experiences, Portal / docs, Cross-cutting]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / opportunity
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Desired timeframe
+      options: [RC1 career-fair, Before v1.0.0, Post v1.0.0, Exploratory]

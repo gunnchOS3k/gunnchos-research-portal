@@ -7,7 +7,7 @@ Authority: live `origin/main` only. No branch tip substitutes for accepted main.
 | Lane | Component | Accepted main SHA | Recovered child(ren) | Open PRs (class) |
 |---|---|---|---|---|
 | Core | `gunnchos-research-portal` | `ff1325a1a65ebfae5aab5532dcd05876fa643240` | — | #38:STALE, #37:STALE |
-| Core | `gunnchos-device-os` | `bf109e704ac28b38b9fe1d9ce39954158f061793` | — | none |
+| Core | `gunnchos-device-os` | `c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4` | — | none |
 | Core | `gunnchos-waike-learning-platform` | `c306543ccc89fb0304734d0ebbaa94f8a0b19c1d` | `efe21df092c7…` | none |
 | Core | `waike-research-ops` | `e919976237cb67e26582b1da7caf975d6f35d883` | `63ba9f25ac6b…` | none |
 | Core | `gunnchAI3k` | `ef665648aecb06230ecf7017065861b148e19c35` | `d4a5c6d857c3…`, `e2d1adcb5847…` | none |

@@ -29,6 +29,14 @@
 - Experiences / games: [EXPERIENCES_V1.md](EXPERIENCES_V1.md)
 - Release notes: [RELEASE_NOTES_v1.0.0-rc.1.md](RELEASE_NOTES_v1.0.0-rc.1.md)
 
+
+
+## Feedback & security
+
+- Public feedback (bugs, features, experiences, research, hardware, a11y, docs): [FEEDBACK.md](FEEDBACK.md)
+- Security vulnerabilities: private only — [SECURITY.md](SECURITY.md) (never public issues)
+- Roadmap / changelog: [ROADMAP.md](ROADMAP.md) · [CHANGELOG.md](CHANGELOG.md)
+
 ## Canonical public front door
 
 **Publication canonical (after owner merge + `v1.0.0-rc.1` tag):**  

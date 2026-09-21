@@ -56,3 +56,7 @@ Final `v1.0.0` is **not** authorized until owner approval.
 ## QR destination
 
 Public GitHub front door: repository `START_HERE.md` on branch `release/v1.0.0-rc1-ecosystem-freeze` (see `releases/v1.0.0-rc.1/qr/`).
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)

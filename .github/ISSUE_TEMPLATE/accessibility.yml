@@ -1,0 +1,28 @@
+name: Accessibility feedback
+description: Barriers using gunnchOS products with assistive tech or diverse abilities
+title: "[a11y] "
+labels: ["feedback:accessibility", "needs-triage"]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      options: [Portal docs, Capsule / Device OS, WAIKE client, Games, Research UIs, Other]
+    validations:
+      required: true
+  - type: input
+    id: at
+    attributes:
+      label: Assistive technology / needs
+      placeholder: "VoiceOver, TalkBack, keyboard-only, color vision, …"
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Barrier described
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: What could you not complete?

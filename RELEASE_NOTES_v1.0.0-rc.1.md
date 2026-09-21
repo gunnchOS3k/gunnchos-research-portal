@@ -27,3 +27,7 @@
 ## Known limitations
 
 See [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md). `RC1_OWNER_APPROVAL=false`. `V1_0_0_RELEASE_AUTHORIZED=false`.
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)

@@ -1,0 +1,30 @@
+name: Experience / game feedback
+description: Feedback on Anime Aggressors, Pedestrian Pursuit, Archive of Life, or BeatLink
+title: "[experience] "
+labels: ["feedback:experience", "needs-triage"]
+body:
+  - type: dropdown
+    id: title_game
+    attributes:
+      label: Experience
+      options: [Anime Aggressors, Pedestrian Pursuit, Archive of Life, BeatLink Party, Capsule launcher / shell UX, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Gameplay bug, UX friction, Performance, Content / data, Accessibility in-game, Praise / what worked]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: "Android APK / web / desktop"

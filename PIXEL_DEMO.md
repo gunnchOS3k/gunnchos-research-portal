@@ -29,3 +29,7 @@ See [releases/v1.0.0-rc.1/DEMO_SCRIPTS.md](releases/v1.0.0-rc.1/DEMO_SCRIPTS.md)
 - `releases/v1.0.0-rc.1/pixel/` — redacted baseline
 - `PIXEL_RC1_INSTALL_MANIFEST.json`
 - `PIXEL_RC1_DEMO_ACCEPTANCE.json` — `PIXEL_V1_RC1_DEMO_PASS` only if physically earned
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)
