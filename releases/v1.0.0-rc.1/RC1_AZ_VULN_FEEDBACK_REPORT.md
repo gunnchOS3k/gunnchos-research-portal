@@ -63,7 +63,10 @@ Explicitly rejected mid-freeze; plan in `DEPENDENCY_REMEDIATION_PLAN.md`
 **Not invented.** `RC1_OWNER_APPROVAL=false`. Owner review packet remains unchecked.
 
 ## P — Portal PR #39
-Draft branch `release/v1.0.0-rc1-ecosystem-freeze` updated with SHA, vuln evidence, feedback front door, security path, triage, roadmap, gates, limitations. Prefer push; **do not merge**.
+- URL: https://github.com/gunnchOS3k/gunnchos-research-portal/pull/39 (still **draft**, not merged)
+- Head: `9b13dafa84e2ee7a78ee2f770bce43471840a820`
+- Body refreshed with SHA, vuln evidence, feedback front door, security path, triage, roadmap, gates, limitations
+- Device OS follow-up draft: https://github.com/gunnchOS3k/gunnchos-device-os/pull/162 @ `fe67f8400ae03e00f41b7e85b988e8262a66ac84`
 
 ## Q — Quality / regression
 `npm test` in launcher_mock: **14 files / 77 tests passed**
@@ -84,9 +87,10 @@ Not merged
 Production-reachable critical = **0** (RC1 requirement met)
 
 ## W — Worktree / branch artifacts
-- Device OS: `.worktrees/v1-rc1-vuln-closure` branch `release/v1-rc1-vuln-closure` @ `fe67f84…`
-- Portal: `.worktrees/v1-rc1-ecosystem-freeze` branch `release/v1.0.0-rc1-ecosystem-freeze`
-- Component FEEDBACK/SECURITY scaffolding applied under `_rc1_release_worktrees/*` and research local roots (docs only; stronger templates preserved)
+- Device OS: `.worktrees/v1-rc1-vuln-closure` branch `release/v1-rc1-vuln-closure` @ `fe67f84…` (pushed; draft PR #162)
+- Portal: `.worktrees/v1-rc1-ecosystem-freeze` branch `release/v1.0.0-rc1-ecosystem-freeze` @ `9b13daf…` (pushed to #39)
+- Component FEEDBACK/SECURITY scaffolding applied under `_rc1_release_worktrees/*` and research local roots (docs only; stronger templates preserved; **not** all component branches force-pushed in this pass)
+- Field-kit (`gunnchos-7gc-ai-ran-field-kit`): SECURITY/FEEDBACK crosslink **not** written this pass (sandbox/approval boundary); portal research form still lists it as a routing option
 
 ## X — Explicit non-publish
 No GitHub Release publish; no final `v1.0.0`
