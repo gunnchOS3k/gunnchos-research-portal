@@ -1,30 +1,52 @@
-# Start here
+# START HERE — gunnchOS Ecosystem v1.0.0-rc.1
 
-**Faculty / Communications Engineering supervisor:** use [docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md) instead of this page.
+**gunnchOS** is an integrated computing, learning, AI, wireless research, hardware engineering, and interactive-experience ecosystem.
 
-**Canonical product/ecosystem zero-context entry (Cycle 3A.2):** this page.  
-GitHub profile README is **OWNER_DEFERRED** / non-blocking (`PROFILE_README_EDIT_FREEZE=ACTIVE`).
+**Release:** `gunnchOS Ecosystem v1.0.0-rc.1` — First Public Engineering & Demonstration Release Candidate  
+**Final target:** `v1.0.0` only after owner RC acceptance (not published yet)
 
-**30 seconds:** gunnchOS3k is a **carrier-grade-targeted** (not certified; not carrier-grade today) **equitable** compute ecosystem built around affordable first-party computers (Student 14.5, Handheld Hybrid, DS-XL Coder, Edge I/O Rings, First-party Dock) that run **gunnchOS**, use local-first **gunnchAI3k**, support spatial **Ring** input, education/work/creation/gaming, and resilient **5G-Advanced / NTN-capable** connectivity — without claiming standardized commercial 6G today.
+## Choose your path
 
-**5 minutes:** read [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md) and [STATUS.md](STATUS.md).
+**Secondary action:** [Give feedback / suggest an improvement](FEEDBACK.md) — bugs, features, research, hardware, accessibility, docs. Security stays private ([SECURITY.md](SECURITY.md)).
 
-**15 minutes:** skim [ECOSYSTEM_MAP.md](ECOSYSTEM_MAP.md) and [EVIDENCE.md](EVIDENCE.md).
+## Choose your path
 
-**30 minutes:** pick a repo from [REPO_CATALOG.md](REPO_CATALOG.md).
-
-**60 minutes:** follow a beginner/intern path in the audience guides and run something in an owner repo.
-
-| Next | Link |
+| Audience | Open |
 |---|---|
-| Product family | [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md) |
-| Current status | [STATUS.md](STATUS.md) |
-| Intern path | [audiences/INTERN.md](audiences/INTERN.md) |
-| Researcher path | [audiences/RESEARCHER.md](audiences/RESEARCHER.md) |
-| Device Lab | [DEVICE_LAB.md](DEVICE_LAB.md) |
-| Games | [GAMES.md](GAMES.md) |
-| Manufacturing | [MANUFACTURING.md](MANUFACTURING.md) |
-| Security / evidence | [EVIDENCE.md](EVIDENCE.md) |
-| Product Charter (control plane) | https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/tree/main/program/charter |
+| Recruiter / hiring | [RECRUITER.md](RECRUITER.md) |
+| PhD / research advisor | [PHD_ADVISOR.md](PHD_ADVISOR.md) |
+| Engineer | [ENGINEER.md](ENGINEER.md) |
+| Educator / student | [EDUCATOR.md](EDUCATOR.md) |
+| Live Pixel demo | [PIXEL_DEMO.md](PIXEL_DEMO.md) |
 
-Optional (deferred): GitHub profile https://github.com/gunnchOS3k/gunnchOS3k — not required for navigation acceptance this cycle.
+## What you can trust today
+
+- Accepted-main freeze for 16 V1 components — see [releases/v1.0.0-rc.1/COMPONENT_VERSION_MATRIX.md](releases/v1.0.0-rc.1/COMPONENT_VERSION_MATRIX.md)
+- Digital software + digital hardware engineering artifacts
+- Career-fair Pixel USB-C demonstration path
+- Honest limitations — [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md)
+
+## Lane maps
+
+- Hardware (digital engineering): [HARDWARE_V1.md](HARDWARE_V1.md)
+- Research systems: [RESEARCH_V1.md](RESEARCH_V1.md)
+- Experiences / games: [EXPERIENCES_V1.md](EXPERIENCES_V1.md)
+- Release notes: [RELEASE_NOTES_v1.0.0-rc.1.md](RELEASE_NOTES_v1.0.0-rc.1.md)
+
+
+
+## Feedback & security
+
+- Public feedback (bugs, features, experiences, research, hardware, a11y, docs): [FEEDBACK.md](FEEDBACK.md)
+- Security vulnerabilities: private only — [SECURITY.md](SECURITY.md) (never public issues)
+- Roadmap / changelog: [ROADMAP.md](ROADMAP.md) · [CHANGELOG.md](CHANGELOG.md)
+
+## Canonical public front door
+
+**Publication canonical (after owner merge + `v1.0.0-rc.1` tag):**  
+https://github.com/gunnchOS3k/gunnchos-research-portal/blob/v1.0.0-rc.1/START_HERE.md
+
+**Owner-preview (draft branch — review only):**  
+https://github.com/gunnchOS3k/gunnchos-research-portal/blob/release/v1.0.0-rc1-ecosystem-freeze/START_HERE.md
+
+QR assets encode the publication-canonical tag URL: [releases/v1.0.0-rc.1/qr/](releases/v1.0.0-rc.1/qr/)

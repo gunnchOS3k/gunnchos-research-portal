@@ -1,0 +1,42 @@
+{
+  "schema": "V1_FINAL_FEEDBACK_GATES/v1",
+  "release_identity": "gunnchOS Ecosystem v1.0.0 (final) \u2014 feedback gates only",
+  "generated_at_utc": "2026-09-21T21:12:46Z",
+  "policy": "Do not publish final v1.0.0 until all gates true OR owner explicit waiver. RC1 does not require every in-app gate.",
+  "gates": {
+    "PUBLIC_FEEDBACK_FRONT_DOOR_PASS": true,
+    "ALL_COMPONENT_REPOS_FEEDBACK_LINK_PASS": true,
+    "DEVICE_OS_IN_APP_FEEDBACK_PASS": true,
+    "WAIKE_IN_APP_FEEDBACK_PASS": true,
+    "GUNNCHAI_FEEDBACK_PASS": true,
+    "ANIME_FEEDBACK_PASS": true,
+    "PEDESTRIAN_FEEDBACK_PASS": true,
+    "ARCHIVE_FEEDBACK_PASS": true,
+    "BEATLINK_FEEDBACK_PASS": true,
+    "HARDWARE_FEEDBACK_PASS": true,
+    "RESEARCH_FEEDBACK_PASS": true,
+    "ACCESSIBILITY_FEEDBACK_PASS": true,
+    "SECURITY_PRIVATE_PATH_VERIFIED": true,
+    "PRIVATE_SECURITY_REPORTING_SETUP_REQUIRED": false,
+    "RELEASE_NOTES_FEEDBACK_PASS": true,
+    "FEEDBACK_TRIAGE_PROCESS_PASS": true,
+    "FEEDBACK_TO_RELEASE_TRACEABILITY_PASS": true,
+    "GITHUB_DISCUSSIONS_OPTIONAL_NOT_ENABLED": true
+  },
+  "V1_0_0_RELEASE_AUTHORIZED": false,
+  "notes": {
+    "SECURITY_PRIVATE_PATH_VERIFIED": "Live gh api private-vulnerability-reporting: portal enabled=true, device-os enabled=true.",
+    "URL_STRATEGY": "Product links use accepted-main FEEDBACK.md; no freeze-branch URLs in product code.",
+    "EVIDENCE": "Owner-merged feedback/security PRs on all V1 component mains; matrix regenerated post-merge.",
+    "PRIVATE_SECURITY_REPORTING": {
+      "portal": {
+        "enabled": true,
+        "checked_via": "GET /repos/gunnchOS3k/gunnchos-research-portal/private-vulnerability-reporting"
+      },
+      "device_os": {
+        "enabled": true,
+        "checked_via": "GET /repos/gunnchOS3k/gunnchos-device-os/private-vulnerability-reporting"
+      }
+    }
+  }
+}

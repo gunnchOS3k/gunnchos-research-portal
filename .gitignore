@@ -3,3 +3,12 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv_r5s1/
+
+# Oversized RC1 binaries (>GitHub 100MB) — draft-release attach only
+release_staging_large/
+
+# Pedestrian APK oversized for git
+release_staging/**/pedestrian-pursuit*.apk
+
+# RC1 demo runtime (credentials, pids)
+releases/v1.0.0-rc.1/demo/.runtime/

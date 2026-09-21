@@ -1,0 +1,8 @@
+# Canonical RC1 front door (accepted-main / tagged release after owner merge+tag)
+https://github.com/gunnchOS3k/gunnchos-research-portal/blob/v1.0.0-rc.1/START_HERE.md
+
+# Owner-preview (current draft branch) — OK for PR review only; not publication canonical
+# https://github.com/gunnchOS3k/gunnchos-research-portal/blob/release/v1.0.0-rc1-ecosystem-freeze/START_HERE.md
+
+# Strategy: after PR #39 merges to portal main and tag v1.0.0-rc.1 is cut, QR must encode the tag URL above.
+# Do not encode localhost or private IPs.

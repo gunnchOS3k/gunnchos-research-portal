@@ -1,0 +1,40 @@
+{
+  "schema": "V1_RC1_GATES/v1",
+  "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
+  "generated_at_utc": "2026-09-21T21:22:14Z",
+  "gates": {
+    "ACCEPTED_MAIN_MANIFEST_PASS": true,
+    "RECOVERED_CHILD_ANCESTRY_PASS": true,
+    "CORE_SOFTWARE_BUILD_PASS": true,
+    "WAIKE_18_TRACK_RELEASE_PASS": true,
+    "GUNNCHAI_RELEASE_PASS": true,
+    "DEVICE_OS_RELEASE_PASS": true,
+    "GAMES_RELEASE_PASS": true,
+    "HARDWARE_DIGITAL_RELEASE_PASS": true,
+    "RESEARCH_RELEASE_PASS": true,
+    "RELEASE_ASSET_HASH_PASS": true,
+    "RECRUITER_FRONT_DOOR_PASS": true,
+    "PHD_ADVISOR_FRONT_DOOR_PASS": true,
+    "PIXEL_V1_RC1_INSTALL_PASS": true,
+    "PIXEL_V1_RC1_DEMO_PASS": true,
+    "PIXEL_POST_FEEDBACK_INSTALL_PASS": true,
+    "PRIVACY_REDACTION_PASS": true,
+    "PUBLIC_FEEDBACK_FRONT_DOOR_PASS": true,
+    "SECURITY_PRIVATE_REPORTING_PASS": true,
+    "SECURITY_PRIVATE_PATH_VERIFIED": true,
+    "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": true,
+    "RC1_DRAFT_RELEASES_READY": true,
+    "RC1_OWNER_APPROVAL": false
+  },
+  "V1_0_0_RELEASE_AUTHORIZED": false,
+  "notes": {
+    "POST_FEEDBACK_FREEZE": "Rebuilt from owner-merged feedback/security mains. Portal #40 FEEDBACK/forms authoritative on main; freeze branch merged main via --no-ff.",
+    "DEVICE_OS_ACCEPTED_MAIN": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0 (PR #164; #162 vuln closure in ancestry)",
+    "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt from post-feedback mains; BeatLink web zip only.",
+    "PIXEL_POST_FEEDBACK_INSTALL_PASS": "Capsule+Anime+Archive+Pedestrian install Success on Pixel 6a; serial redacted.",
+    "PIXEL_V1_RC1_DEMO_PASS": "Prior Capsule\u2192WAIKE Continue/CDP career-fair PASS retained; Nearby Edge honestly unavailable. Runtime Capsule rebuilt \u2014 RC1_OWNER_APPROVAL reset false pending re-approval.",
+    "SECURITY_PRIVATE_PATH_VERIFIED": "Live PVR enabled=true on portal + Device OS.",
+    "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "launcher_mock npm audit --omit=dev critical=0 high=0 (NPM_AUDIT_PRODUCTION_POST_FEEDBACK.json).",
+    "RC1_OWNER_APPROVAL": "false \u2014 re-approval required after post-feedback runtime rebuilds."
+  }
+}

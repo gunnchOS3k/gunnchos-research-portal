@@ -1,11 +1,12 @@
-# Contributing
+# Contributing — gunnchOS Ecosystem portal
 
-1. Fork and branch from `main` (or the active phase branch).
-2. Keep competition submission paths intact in `spectrumx-ai-ran-gary`.
-3. No secrets, PII, or private competition data in commits.
-4. Label issues with `track:*`, `phase:*`, and `priority:*` where applicable.
-5. Link PRs to the [7GC AI-RAN Digital Twin Program](https://github.com/gunnchOS3k/7gc-digital-twin).
+1. Branch from `main` (or the active release freeze branch when contributing to an RC).
+2. Prefer small, reviewable PRs. Do not mix unrelated feature work into an RC freeze.
+3. No secrets, PII, or private competition / field data in commits, issues, or artifacts.
+4. User-facing changes: update [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]` when appropriate.
+5. Public product feedback: use [FEEDBACK.md](FEEDBACK.md) issue forms.
+6. **Security vulnerabilities:** private advisories only — see [SECURITY.md](SECURITY.md). Never file public security issues.
 
 ## Reproducibility
 
-See `docs/04_reproducibility_checklist.md` (or repo-specific checklist).
+See `REPRODUCIBILITY.md` and release evidence under `releases/`.

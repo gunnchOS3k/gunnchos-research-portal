@@ -1,0 +1,157 @@
+{
+  "schema": "RELEASE_HASH_VERIFICATION/v1",
+  "generated_at_utc": "2026-09-21T21:40:22Z",
+  "model": "non_self_referential",
+  "sha256sums_self_excluded": true,
+  "manifest_self_hash_excluded": true,
+  "entries": [
+    {
+      "path": "anime/PROVENANCE.json",
+      "sha256": "629c861f6889f7c22b19eacede9d6c3f06bc5bd6a80cb37b790418820f7719df",
+      "verified": true
+    },
+    {
+      "path": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk",
+      "sha256": "0366c44ed2342c59add6f25412ce011fc7b56ae384fdd1d39b7c6b9c90ee6ce0",
+      "verified": true
+    },
+    {
+      "path": "anime/anime-aggressors-debug-v1.0.0-rc.1.apk.sha256",
+      "sha256": "b1b87bf09d84427e29112b0004b67b3beb4d28da7268f0c6439311b73969c314",
+      "verified": true
+    },
+    {
+      "path": "archive/PROVENANCE.json",
+      "sha256": "293b42b21394aa8a282369f0eae63a62ad5cb3682498d68e9f6b76d364b90f4c",
+      "verified": true
+    },
+    {
+      "path": "archive/archive-of-life-debug-v1.0.0-rc.1.apk",
+      "sha256": "58697e7e74d3f781bae3552c1ee899ce3f7b0898afd9cba7523f535a01cc546b",
+      "verified": true
+    },
+    {
+      "path": "archive/archive-of-life-debug-v1.0.0-rc.1.apk.sha256",
+      "sha256": "7aef1a98ae810aa944e454fe0b490e355c13cadc6ecf62fcb0ba09bfd9a318bb",
+      "verified": true
+    },
+    {
+      "path": "beatlink/beatlink-web-v1.0.0-rc.1.zip",
+      "sha256": "0701ce5f46240661848b8d67f7e6ccebb70e2de8c6b6fb63aba17b406fe78eb0",
+      "verified": true
+    },
+    {
+      "path": "curriculum/waike-curriculum-v1.0.0-rc.1.zip",
+      "sha256": "a82be46b5e08c062d92aee96b890c297009d9f674d7051e74a14833379a27366",
+      "verified": true
+    },
+    {
+      "path": "device-os/BUILD_MANIFEST.json",
+      "sha256": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
+      "verified": true
+    },
+    {
+      "path": "device-os/INSTALL_UNINSTALL.md",
+      "sha256": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
+      "verified": true
+    },
+    {
+      "path": "device-os/RC1_REBUILD_MANIFEST.json",
+      "sha256": "bcf6bb05d6c30b7cc6c89a3e401be29ba337c5c37b66a4207520c2e01aeb42ef",
+      "verified": true
+    },
+    {
+      "path": "device-os/RC1_STAGING_PROVENANCE.json",
+      "sha256": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
+      "verified": true
+    },
+    {
+      "path": "device-os/SBOM_FILES.json",
+      "sha256": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
+      "sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk.sha256",
+      "sha256": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+      "sha256": "a0c55be39c407ffd24868a715c9c86bb2da07efbff16dc2ddb90aecebef45826",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk.sha256",
+      "sha256": "8b7f08ae98575b0a0d67813d2416a27784638a505177b4f3df557f5723614855",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk",
+      "sha256": "a604305740595de5a0a84a42f46f01b980c8bb3af6ccb5d3b7eb240671ed93cc",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk.sha256",
+      "sha256": "1e49e4493468aff726801dd31956f3a03b4bb44ce353540e64ca4cfb18fa97db",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
+      "sha256": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
+      "verified": true
+    },
+    {
+      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk.sha256",
+      "sha256": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
+      "verified": true
+    },
+    {
+      "path": "gunnchai/gunnchai-runtime-v1.0.0-rc.1.zip",
+      "sha256": "e173efc2af0e2ad01e346389371b48ffad651976ebd8daefec4c4b0161ef95af",
+      "verified": true
+    },
+    {
+      "path": "hardware/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+      "sha256": "8ac577d8372667b28f6adc5a5e906d40986eb0341f1c32a3059f6b9dd41f83ba",
+      "verified": true
+    },
+    {
+      "path": "pedestrian/PROVENANCE.json",
+      "sha256": "40fe416ee6680ee63d56775a26541e23a72590d65c86aaf7685f727ea094abe9",
+      "verified": true
+    },
+    {
+      "path": "pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk.sha256",
+      "sha256": "2976b57a4e262ba74765d19fb7709a114ab8f3757c95f3dfc15f50cbf770156a",
+      "verified": true
+    },
+    {
+      "path": "research/research-systems-v1.0.0-rc.1.zip",
+      "sha256": "a2b227a8f863c06a398569bc143dfa35b1afdff3e4a252d28c7624b9b1729d52",
+      "verified": true
+    },
+    {
+      "path": "waike/waike-web-pwa-v1.0.0-rc.1.zip",
+      "sha256": "0fac59750ff34b4fe8cc369b7e46e359253e28cad21de8490ba03c7937ff22b1",
+      "verified": true
+    },
+    {
+      "path": "EXTERNAL:release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+      "sha256": "9e8c14db87b3fda51404a2a7d169e80a31ee3a65c5eab9de665724e1e0df29e4",
+      "verified": true
+    },
+    {
+      "path": "RELEASE_ASSET_MANIFEST.json",
+      "sha256": "6ed1a5399adfa6dc910d823684135cbbfa1001d03f298e69171ad707ba446abd",
+      "verified": true
+    }
+  ],
+  "all_match": true,
+  "RELEASE_ASSET_HASH_PASS": true,
+  "mismatches": []
+}

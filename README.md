@@ -44,3 +44,7 @@ Connectivity language: 5G-Advanced / NTN-capable architecture, IMT-2030-aligned 
 ## History
 
 Prior “research spine / 7gc as program hub” and product-only front door notes: [docs/history/](docs/history/), [docs/uml/legacy/](docs/uml/legacy/).
+
+## Feedback
+
+- Public feedback: [FEEDBACK.md](FEEDBACK.md) · Security (private): [SECURITY.md](SECURITY.md)

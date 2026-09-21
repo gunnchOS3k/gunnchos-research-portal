@@ -1,0 +1,10 @@
+{
+  "schema": "PRIVACY_REDACTION/v1",
+  "serial_committed": false,
+  "personal_accounts_used": false,
+  "notification_contents_committed": false,
+  "tokens_committed": false,
+  "seeded_demo_identities_only": true,
+  "PRIVACY_REDACTION_PASS": true,
+  "generated_at_utc": "2026-09-21T15:41:10Z"
+}

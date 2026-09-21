@@ -1,0 +1,13 @@
+{
+  "artifact": "archive/archive-of-life-debug-v1.0.0-rc.1.apk",
+  "accepted_main_sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+  "feedback_pr": 41,
+  "build_worktree": "archive-of-life-artifact-world/.worktrees/post-feedback-rebuild",
+  "build": "vite + npx cap sync android + gradlew assembleDebug",
+  "export_type": "debug",
+  "package": "com.gunnchos.archiveoflife",
+  "built_at_utc": "2026-09-21T21:19:45Z",
+  "bundled_in_portal_git": true,
+  "sha256": "58697e7e74d3f781bae3552c1ee899ce3f7b0898afd9cba7523f535a01cc546b",
+  "bytes": 17236015
+}
