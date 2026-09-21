@@ -1,7 +1,7 @@
 {
   "schema": "V1_RC1_GATES/v1",
   "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T21:22:14Z",
+  "generated_at_utc": "2026-09-21T21:43:00Z",
   "gates": {
     "ACCEPTED_MAIN_MANIFEST_PASS": true,
     "RECOVERED_CHILD_ANCESTRY_PASS": true,
@@ -24,7 +24,7 @@
     "SECURITY_PRIVATE_PATH_VERIFIED": true,
     "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": true,
     "RC1_DRAFT_RELEASES_READY": true,
-    "RC1_OWNER_APPROVAL": false
+    "RC1_OWNER_APPROVAL": true
   },
   "V1_0_0_RELEASE_AUTHORIZED": false,
   "notes": {
@@ -32,9 +32,10 @@
     "DEVICE_OS_ACCEPTED_MAIN": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0 (PR #164; #162 vuln closure in ancestry)",
     "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt from post-feedback mains; BeatLink web zip only.",
     "PIXEL_POST_FEEDBACK_INSTALL_PASS": "Capsule+Anime+Archive+Pedestrian install Success on Pixel 6a; serial redacted.",
-    "PIXEL_V1_RC1_DEMO_PASS": "Prior Capsule\u2192WAIKE Continue/CDP career-fair PASS retained; Nearby Edge honestly unavailable. Runtime Capsule rebuilt \u2014 RC1_OWNER_APPROVAL reset false pending re-approval.",
+    "PIXEL_V1_RC1_DEMO_PASS": "Prior Capsule→WAIKE Continue/CDP career-fair PASS retained; Nearby Edge honestly unavailable. Runtime Capsule rebuilt — RC1_OWNER_APPROVAL reset false pending re-approval.",
     "SECURITY_PRIVATE_PATH_VERIFIED": "Live PVR enabled=true on portal + Device OS.",
     "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "launcher_mock npm audit --omit=dev critical=0 high=0 (NPM_AUDIT_PRODUCTION_POST_FEEDBACK.json).",
-    "RC1_OWNER_APPROVAL": "false \u2014 re-approval required after post-feedback runtime rebuilds."
+    "RC1_OWNER_APPROVAL": "true — Edmund explicitly re-approved RC1 and authorized portal #39 merge plus creation of draft v1.0.0-rc.1 prereleases on 2026-09-21.",
+    "RC1_PUBLICATION_AUTHORIZED": "false — draft prereleases only; publication remains a separate owner decision."
   }
 }
