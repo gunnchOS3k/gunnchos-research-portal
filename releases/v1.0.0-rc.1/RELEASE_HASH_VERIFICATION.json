@@ -1,6 +1,6 @@
 {
   "schema": "RELEASE_HASH_VERIFICATION/v1",
-  "generated_at_utc": "2026-09-21T21:40:22Z",
+  "generated_at_utc": "2026-09-21T21:43:00Z",
   "model": "non_self_referential",
   "sha256sums_self_excluded": true,
   "manifest_self_hash_excluded": true,
@@ -47,12 +47,12 @@
     },
     {
       "path": "device-os/BUILD_MANIFEST.json",
-      "sha256": "3e9d6b9f014259be47cd7a6b207c61bf079bc58b1a1f207918dffdf6335306db",
+      "sha256": "00cae99ea8fe63ea603cd63c60305f02c2514b91592d5d8be2528ed98461411e",
       "verified": true
     },
     {
       "path": "device-os/INSTALL_UNINSTALL.md",
-      "sha256": "2752ab7f29f9e0ae756a7f84f985034d1515f2c41eb5915c0ea514f5e86d0356",
+      "sha256": "fa77b89078b84d41092e89a44ca81cafd716cd909e8042b8d8bbb73fc7fc7ca2",
       "verified": true
     },
     {
@@ -62,22 +62,7 @@
     },
     {
       "path": "device-os/RC1_STAGING_PROVENANCE.json",
-      "sha256": "b0d334d0854b055b38352fe7a13f094379346df5bbe183eb4450aac5f4e9af8d",
-      "verified": true
-    },
-    {
-      "path": "device-os/SBOM_FILES.json",
-      "sha256": "82b9ae9a2723536304b0f0bc666b7d577647be1b9ceb299136ea04bf31ad612f",
-      "verified": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk",
-      "sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
-      "verified": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-pilot.apk.sha256",
-      "sha256": "cac97ebd1839f2a443a0fefa4f1d43d7dcdb474293a7ff9c313a21d06d27b441",
+      "sha256": "68d12b14fb67093deda1ca68a580db609f0e88a737e6136b06be67285e59ddf9",
       "verified": true
     },
     {
@@ -88,26 +73,6 @@
     {
       "path": "device-os/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk.sha256",
       "sha256": "8b7f08ae98575b0a0d67813d2416a27784638a505177b4f3df557f5723614855",
-      "verified": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk",
-      "sha256": "a604305740595de5a0a84a42f46f01b980c8bb3af6ccb5d3b7eb240671ed93cc",
-      "verified": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-handoff-debug.apk.sha256",
-      "sha256": "1e49e4493468aff726801dd31956f3a03b4bb44ce353540e64ca4cfb18fa97db",
-      "verified": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk",
-      "sha256": "2bd9973c81cc901e76e63945e42e3602fdec40c9c206796bf159de6e5ab72c6e",
-      "verified": true
-    },
-    {
-      "path": "device-os/gunnchOS-Capsule-Pixel6a-rc1-rebuilt-debug.apk.sha256",
-      "sha256": "8ae6f6b29ccfb89f0f4b95ac5b609c2ac65c489fd6734b96c9a965f907340568",
       "verified": true
     },
     {
@@ -147,11 +112,12 @@
     },
     {
       "path": "RELEASE_ASSET_MANIFEST.json",
-      "sha256": "6ed1a5399adfa6dc910d823684135cbbfa1001d03f298e69171ad707ba446abd",
+      "sha256": "06b3491ea4a6c5fa43f2164442e46c0dcb62ae8f7bfc4665989ef4e69785011f",
       "verified": true
     }
   ],
   "all_match": true,
   "RELEASE_ASSET_HASH_PASS": true,
-  "mismatches": []
+  "mismatches": [],
+  "notes": "Authoritative RC1 set excludes superseded pre-feedback Device OS APKs and stale pre-feedback provenance authority."
 }
