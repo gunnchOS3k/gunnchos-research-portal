@@ -1,39 +1,24 @@
-# Component Version Matrix — gunnchOS Ecosystem v1.0.0-rc.1
+# Component version matrix — post-feedback accepted mains
 
-Generated: `2026-09-21T15:16:58Z`
+Generated: 2026-09-21T21:22:14Z
 
-Authority: live `origin/main` only. No branch tip substitutes for accepted main.
-
-| Lane | Component | Accepted main SHA | Recovered child(ren) | Open PRs (class) |
+| Component | Repo | Feedback/security PR | Accepted main SHA | Artifact |
 |---|---|---|---|---|
-| Core | `gunnchos-research-portal` | `ff1325a1a65ebfae5aab5532dcd05876fa643240` | — | #38:STALE, #37:STALE |
-| Core | `gunnchos-device-os` | `c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4` | — | none |
-| Core | `gunnchos-waike-learning-platform` | `c306543ccc89fb0304734d0ebbaa94f8a0b19c1d` | `efe21df092c7…` | none |
-| Core | `waike-research-ops` | `e919976237cb67e26582b1da7caf975d6f35d883` | `63ba9f25ac6b…` | none |
-| Core | `gunnchAI3k` | `ef665648aecb06230ecf7017065861b148e19c35` | `d4a5c6d857c3…`, `e2d1adcb5847…` | none |
-| Hardware | `gunnchos-hardware-industrial-design` | `56125d1738a437f413ee4418c51c2f3a82bcbac8` | — | #84:OUTSIDE_RC1, #79:EXPERIMENTAL, #78:EXPERIMENTAL, #77:EXPERIMENTAL, #76:EXPERIMENTAL, #75:EXPERIMENTAL (+6) |
-| Research | `edge-io-measurement-node` | `af57fbdac857ae386b23b5b747fdc05797621f92` | — | #39:OUTSIDE_RC1, #18:OUTSIDE_RC1, #17:OUTSIDE_RC1, #16:OUTSIDE_RC1, #8:OUTSIDE_RC1 |
-| Research | `gunnchos-7gc-ai-ran-field-kit` | `9e93e41a3b16b009c9cc5163b775360d4d2ef693` | — | #75:OUTSIDE_RC1, #71:OUTSIDE_RC1, #1:OUTSIDE_RC1 |
-| Research | `7gc-digital-twin` | `dc43a567e3f2e81a5b59fea6dd67c7054cfdde56` | — | #29:OUTSIDE_RC1, #23:OUTSIDE_RC1 |
-| Research | `spectrumx-ai-ran-gary` | `9060655e724374f60cbbb86832816c9c2d332ca4` | — | #99:OUTSIDE_RC1, #93:OUTSIDE_RC1, #92:OUTSIDE_RC1, #91:OUTSIDE_RC1, #83:OUTSIDE_RC1 |
-| Research | `readygary-6g-beam-selection` | `569875224db7812890ec6abc48dfe43a608094f3` | — | #22:OUTSIDE_RC1, #21:OUTSIDE_RC1, #20:OUTSIDE_RC1, #12:OUTSIDE_RC1 |
-| Research | `ntn-resilience-sim` | `c4215fc1039f5452917b9b2034b42e03fdc13689` | — | #26:OUTSIDE_RC1, #20:OUTSIDE_RC1, #10:OUTSIDE_RC1 |
-| Experiences | `anime-aggressors` | `649b20f422b31bba2af9bf0c5c1b2b555c9a4a40` | `106e92e31bae…` | none |
-| Experiences | `pedestrian-pursuit` | `d91f102f251ef67d536d2f95188de7d627701902` | `622ed74d2dfc…` | none |
-| Experiences | `archive-of-life-artifact-world` | `7b3e2e51782541a1a2d2896fc317a5e41e9db8f8` | `a095d90aa339…` | none |
-| Experiences | `beatlink-party` | `acdeb77bdf01c40a0e78f4adae6c119752ca5cca` | `3fd2a2acf1af…` | none |
+| Portal | gunnchos-research-portal | #40 | `5e4141db0577af5b0abc563bd58f3ecd2611ccf6` | FEEDBACK.md + forms |
+| Device OS / Capsule | gunnchos-device-os | #164 (+#162 ancestor) | `2218ead0efa0e4b8a622717a0a9bf623ee95ddb0` | Capsule APK post-feedback |
+| WAIKE LP | gunnchos-waike-learning-platform | #24 | `a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518` | waike-web-pwa zip |
+| gunnchAI | gunnchAI3k | #57 | `04eef2d891a8dda58455acc58a8e93e7865379b8` | gunnchai-runtime zip |
+| Anime | anime-aggressors | #105 | `6cd1b3100a7e467c2c991394576891660deb1162` | debug APK |
+| Pedestrian | pedestrian-pursuit | #31 | `3e98106939786c69a64657f4cc2b9a652a3b5fec` | external APK >100MB |
+| Archive | archive-of-life-artifact-world | #41 | `03d734453f040e3081e763277e2c15aa62ef095e` | debug APK |
+| BeatLink | beatlink-party | #31 | `e1a5d9998f93d707440f68673c0da844617dc10e` | web zip |
+| Hardware | gunnchos-hardware-industrial-design | #85 | `af5af66a28e36351b3929ef15756b6df6381ff6a` | docs zip |
+| Twin | 7gc-digital-twin | #32 | `9654ac82a722e800193e771556036dbb0df263db` | research zip |
+| SpectrumX | spectrumx-ai-ran-gary | #103 | `2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a` | research zip |
+| ReadyGary | readygary-6g-beam-selection | #28 | `e04b38b48cd2ebd87243153ca8fad9e914f16b21` | research zip |
+| NTN | ntn-resilience-sim | #29 | `05aaa9aec16882f58bac6ce4ff47618d9812f69f` | research zip |
+| Edge IO | edge-io-measurement-node | #40 | `758b14a2c06b70a6678fc761d5360bde5e7cb235` | research zip |
+| WAIKE Ops | waike-research-ops | #62 | `34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0` | curriculum/research |
+| Field Kit | gunnchos-7gc-ai-ran-field-kit | #119 | `4f3095e349f522d6db9901b99101f3fe5dff9f6c` | research zip |
 
-## Ancestry
-
-**RECOVERED_CHILD_ANCESTRY_PASS** = `True`
-
-## Hardware classification
-
-- V1 class: `DIGITAL_HARDWARE_ENGINEERING_RELEASE`
-- PR #84: OUTSIDE V1
-- PRs #69–#79: EXPERIMENTAL / OUTSIDE V1 mainline
-- No READY_FOR_FAB / EVT / DVT / PVT / certification claims
-
-## Freeze rule
-
-No new features enter RC1 after gates pass. Only release-blocking, packaging, claim, privacy/security, and install/demo fixes.
+**Authority:** post-feedback accepted `origin/main` SHAs only. Pre-feedback pins (e.g. Device OS `c6fd04a…`) superseded.

@@ -1,13 +1,13 @@
 {
   "artifact": "archive/archive-of-life-debug-v1.0.0-rc.1.apk",
-  "accepted_main_sha": "7b3e2e51782541a1a2d2896fc317a5e41e9db8f8",
-  "contains_required": "a095d90",
-  "build_worktree": "archive-of-life-artifact-world/.worktrees/rc1-games-release-pass",
+  "accepted_main_sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+  "feedback_pr": 41,
+  "build_worktree": "archive-of-life-artifact-world/.worktrees/post-feedback-rebuild",
   "build": "vite + npx cap sync android + gradlew assembleDebug",
   "export_type": "debug",
   "package": "com.gunnchos.archiveoflife",
-  "sha256": "a662998d7eeee5bb1023400d88a250e10057da35378d2db9b74f5ba200074856",
-  "bytes": 17235652,
-  "built_at_utc": "2026-09-21T15:55:21Z",
-  "bundled_in_portal_git": true
+  "built_at_utc": "2026-09-21T21:19:45Z",
+  "bundled_in_portal_git": true,
+  "sha256": "58697e7e74d3f781bae3552c1ee899ce3f7b0898afd9cba7523f535a01cc546b",
+  "bytes": 17236015
 }

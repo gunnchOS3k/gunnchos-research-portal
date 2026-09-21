@@ -1,17 +1,15 @@
 {
   "artifact": "not_bundled_in_portal_git",
   "reason": "pedestrian-pursuit-debug.apk exceeds GitHub 100MB blob limit",
-  "accepted_main_sha": "d91f102f251ef67d536d2f95188de7d627701902",
-  "contains_required": "622ed74",
-  "build_worktree": "pedestrian-pursuit/.worktrees/rc1-games-release-pass",
+  "accepted_main_sha": "3e98106939786c69a64657f4cc2b9a652a3b5fec",
+  "feedback_pr": 31,
+  "build_worktree": "pedestrian-pursuit/.worktrees/post-feedback-rebuild",
   "godot": "4.5.stable.official.876b29033",
   "export_type": "debug",
   "package": "com.gunnchos.pedestrianpursuit",
-  "sha256": "6dc7ec4e9ca6977e98d775c7eadd799d7a7ca330ce6102c738a6dc305d07af15",
-  "bytes": 118579553,
   "external_path": "release_staging_large/v1.0.0-rc.1/pedestrian/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
-  "draft_release_attach": "Attach external APK to pedestrian-pursuit draft release v1.0.0-rc.1; do not force-commit into portal git",
-  "built_at_utc": "2026-09-21T15:55:21Z",
+  "built_at_utc": "2026-09-21T21:19:45Z",
   "bundled_in_portal_git": false,
-  "rebuild_note": "Godot export succeeded; editor SIGSEGV only during post-export cleanup"
+  "sha256": "9e8c14db87b3fda51404a2a7d169e80a31ee3a65c5eab9de665724e1e0df29e4",
+  "bytes": 118580389
 }

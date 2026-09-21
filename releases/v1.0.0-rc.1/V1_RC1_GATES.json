@@ -1,7 +1,7 @@
 {
   "schema": "V1_RC1_GATES/v1",
   "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
-  "generated_at_utc": "2026-09-21T19:12:39Z",
+  "generated_at_utc": "2026-09-21T21:22:14Z",
   "gates": {
     "ACCEPTED_MAIN_MANIFEST_PASS": true,
     "RECOVERED_CHILD_ANCESTRY_PASS": true,
@@ -17,22 +17,24 @@
     "PHD_ADVISOR_FRONT_DOOR_PASS": true,
     "PIXEL_V1_RC1_INSTALL_PASS": true,
     "PIXEL_V1_RC1_DEMO_PASS": true,
+    "PIXEL_POST_FEEDBACK_INSTALL_PASS": true,
     "PRIVACY_REDACTION_PASS": true,
     "PUBLIC_FEEDBACK_FRONT_DOOR_PASS": true,
     "SECURITY_PRIVATE_REPORTING_PASS": true,
+    "SECURITY_PRIVATE_PATH_VERIFIED": true,
     "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": true,
     "RC1_DRAFT_RELEASES_READY": true,
     "RC1_OWNER_APPROVAL": false
   },
   "V1_0_0_RELEASE_AUTHORIZED": false,
   "notes": {
-    "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt APKs; BeatLink web zip only.",
-    "PIXEL_V1_RC1_DEMO_PASS": "true: Capsule\u2192WAIKE Continue/adapter opens loopback client; CDP login\u219218 tracks\u2192lesson on Capsule-opened Chrome. Nearby Edge honestly unavailable.",
-    "RELEASE_ASSET_HASH_PASS": "Non-self-referential checksum model; see RELEASE_HASH_VERIFICATION.json",
-    "PUBLIC_FEEDBACK_FRONT_DOOR_PASS": "Portal FEEDBACK.md + issue forms + triage/release docs. Final-V1 in-app gates tracked in releases/v1.0.0/V1_FINAL_FEEDBACK_GATES.json \u2014 not RC1 blockers.",
-    "SECURITY_PRIVATE_REPORTING_PASS": "SECURITY.md private-advisory path on portal + release-bearing components; blank_issues disabled with security contact link.",
-    "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "Device OS apps/launcher_mock npm audit --omit=dev critical=0 high=0 after safe lockfile fix; evidence under releases/v1.0.0-rc.1/security/device_os_launcher_mock/. Remaining vitest/vite advisories are DEV_ONLY_ACCEPTED + DEFERRED_MAJOR_BUMP (no npm audit fix --force).",
-    "DEVICE_OS_ACCEPTED_MAIN": "c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4 (PR #161 owner-merged; supersedes bf109e7\u2026)",
-    "FINAL_V1_FEEDBACK_GATES": "See releases/v1.0.0/V1_FINAL_FEEDBACK_GATES.json (not required for RC1)."
+    "POST_FEEDBACK_FREEZE": "Rebuilt from owner-merged feedback/security mains. Portal #40 FEEDBACK/forms authoritative on main; freeze branch merged main via --no-ff.",
+    "DEVICE_OS_ACCEPTED_MAIN": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0 (PR #164; #162 vuln closure in ancestry)",
+    "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt from post-feedback mains; BeatLink web zip only.",
+    "PIXEL_POST_FEEDBACK_INSTALL_PASS": "Capsule+Anime+Archive+Pedestrian install Success on Pixel 6a; serial redacted.",
+    "PIXEL_V1_RC1_DEMO_PASS": "Prior Capsule\u2192WAIKE Continue/CDP career-fair PASS retained; Nearby Edge honestly unavailable. Runtime Capsule rebuilt \u2014 RC1_OWNER_APPROVAL reset false pending re-approval.",
+    "SECURITY_PRIVATE_PATH_VERIFIED": "Live PVR enabled=true on portal + Device OS.",
+    "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "launcher_mock npm audit --omit=dev critical=0 high=0 (NPM_AUDIT_PRODUCTION_POST_FEEDBACK.json).",
+    "RC1_OWNER_APPROVAL": "false \u2014 re-approval required after post-feedback runtime rebuilds."
   }
 }

@@ -1,0 +1,37 @@
+{
+  "schema": "PIXEL_POST_FEEDBACK_ACCEPTANCE/v1",
+  "generated_at_utc": "2026-09-21T21:21:31Z",
+  "device_model": "Pixel_6a",
+  "serial_redacted": true,
+  "installs": {
+    "capsule": true,
+    "anime": true,
+    "archive": true,
+    "pedestrian": true
+  },
+  "packages_observed_redacted": [
+    "package:com.gunnchos3k.scalywings",
+    "package:com.gunnchos.animeaggressors",
+    "package:com.gunnchos.finds",
+    "package:com.gunnchos.archiveoflife",
+    "package:com.gunnchos.pedestrianpursuit",
+    "package:com.gunnchos.beatlinkparty",
+    "package:org.gunnchos.edgeio.debug",
+    "package:com.gunnchos.capsule.debug"
+  ],
+  "feedback_surface_smoke": {
+    "capsule_home_ui_captured": true,
+    "anime_ui_captured": true,
+    "canonical_feedback_hub": "https://github.com/gunnchOS3k/gunnchos-research-portal/blob/main/FEEDBACK.md",
+    "note": "In-app Feedback deep-link UI varies by surface; installs from post-feedback accepted-main APKs succeeded. Career-fair WAIKE Continue path reuses prior RC1 demo bootstrap; Nearby Edge remains honestly unavailable."
+  },
+  "waike_career_fair_path": {
+    "status": "REUSE_PRIOR_RC1_PASS_WITH_POST_FEEDBACK_CAPSULE",
+    "nearby_edge": "unavailable_honest",
+    "note": "Full CDP career-fair path previously PASS on RC1; Capsule rebuilt from post-#164 main. Re-approval required before publishing."
+  },
+  "PIXEL_POST_FEEDBACK_INSTALL_PASS": true,
+  "privacy": {
+    "raw_serial_recorded": false
+  }
+}
