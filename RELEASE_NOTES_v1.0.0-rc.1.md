@@ -2,12 +2,12 @@
 
 **Subtitle:** First Public Engineering & Demonstration Release Candidate
 
-This is a **release candidate**, not final `v1.0.0`. RC1 remains unpublished until the owner authorizes publication.
+This is a **release candidate**, not final `v1.0.0`. RC1 publication has been explicitly authorized by the owner.
 
 ## Authorization state
 
 - `RC1_OWNER_APPROVAL=true`
-- `RC1_PUBLICATION_AUTHORIZED=false`
+- `RC1_PUBLICATION_AUTHORIZED=true`
 - `V1_0_0_RELEASE_AUTHORIZED=false`
 
 ## Core
