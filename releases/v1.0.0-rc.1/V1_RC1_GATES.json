@@ -36,6 +36,6 @@
     "SECURITY_PRIVATE_PATH_VERIFIED": "Live PVR enabled=true on portal + Device OS.",
     "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "launcher_mock npm audit --omit=dev critical=0 high=0 (NPM_AUDIT_PRODUCTION_POST_FEEDBACK.json).",
     "RC1_OWNER_APPROVAL": "true — Edmund explicitly re-approved RC1 and authorized portal #39 merge plus creation of draft v1.0.0-rc.1 prereleases on 2026-09-21.",
-    "RC1_PUBLICATION_AUTHORIZED": "false — draft prereleases only; publication remains a separate owner decision."
+    "RC1_PUBLICATION_AUTHORIZED": "true — Edmund explicitly authorized RC1 publication in chat on 2026-09-21. Final v1.0.0 remains unauthorized."
   }
 }

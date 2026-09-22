@@ -20,7 +20,7 @@ Updated: 2026-09-21 after explicit RC1 re-approval.
 - [x] Set `RC1_OWNER_APPROVAL=true`
 - [x] Authorize normal merge of portal PR #39
 - [x] Authorize creation of **draft** `v1.0.0-rc.1` prereleases
-- [ ] Authorize publication of RC1
+- [x] Authorize publication of RC1
 - [ ] Authorize final `v1.0.0`
 
 ## Boundary
@@ -29,4 +29,11 @@ Edmund explicitly stated:
 
 > “I re-approve RC1 and authorize portal #39 merge and creation of the v1.0.0-rc.1 draft prereleases. I do not authorize final v1.0.0 yet.”
 
-This approval authorizes the merge and creation of draft prereleases only. It does **not** authorize publishing RC1 and does **not** authorize final `v1.0.0`.
+Edmund subsequently explicitly authorized **RC1 publication** in chat on 2026-09-21. Final `v1.0.0` remains **not authorized**.
+
+## RC1 publication authorization
+
+- [x] Publish the existing 16 `v1.0.0-rc.1` draft prereleases after exact pre-publication verification
+- [ ] Publish final `v1.0.0`
+
+**Boundary:** RC1 publication is authorized. Final `v1.0.0` is not authorized.
