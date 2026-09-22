@@ -32,7 +32,7 @@
     "DEVICE_OS_ACCEPTED_MAIN": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0 (PR #164; #162 vuln closure in ancestry)",
     "GAMES_RELEASE_PASS": "Anime/Archive/Pedestrian rebuilt from post-feedback mains; BeatLink web zip only.",
     "PIXEL_POST_FEEDBACK_INSTALL_PASS": "Capsule+Anime+Archive+Pedestrian install Success on Pixel 6a; serial redacted.",
-    "PIXEL_V1_RC1_DEMO_PASS": "Prior Capsule→WAIKE Continue/CDP career-fair PASS retained; Nearby Edge honestly unavailable. Runtime Capsule rebuilt — RC1_OWNER_APPROVAL reset false pending re-approval.",
+    "PIXEL_V1_RC1_DEMO_PASS": "Prior Capsule→WAIKE career-fair PASS retained; post-feedback Capsule rebuild/install accepted by owner during RC1 re-approval. Nearby Edge remains honestly unavailable.",
     "SECURITY_PRIVATE_PATH_VERIFIED": "Live PVR enabled=true on portal + Device OS.",
     "DEPENDENCY_PRODUCTION_CRITICAL_ZERO_PASS": "launcher_mock npm audit --omit=dev critical=0 high=0 (NPM_AUDIT_PRODUCTION_POST_FEEDBACK.json).",
     "RC1_OWNER_APPROVAL": "true — Edmund explicitly re-approved RC1 and authorized portal #39 merge plus creation of draft v1.0.0-rc.1 prereleases on 2026-09-21.",
