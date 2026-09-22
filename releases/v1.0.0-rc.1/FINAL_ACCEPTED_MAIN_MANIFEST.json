@@ -4,7 +4,7 @@
   "release_class": "First Public Engineering & Demonstration Release Candidate",
   "final_release_target": "v1.0.0",
   "freeze_status": "POST_FEEDBACK_ACCEPTED_MAIN_FREEZE",
-  "generated_at_utc": "2026-09-21T21:06:57Z",
+  "generated_at_utc": "2026-09-22T02:30:00Z",
   "verification": {
     "method": "gh pr view mergeCommit + git merge-base --is-ancestor + origin/main HEAD equality",
     "device_os_162_vuln_closure_sha": "3b6103700708953747a11cb01a5bbadcba9b0cb6",
@@ -15,16 +15,15 @@
   },
   "freeze_authority": {
     "umbrella_repo": "gunnchOS3k/gunnchos-research-portal",
-    "branch": "release/v1.0.0-rc1-ecosystem-freeze",
-    "portal_accepted_main_sha": "5e4141db0577af5b0abc563bd58f3ecd2611ccf6",
-    "portal_feedback_pr": 40,
+    "portal_release_target_source": "GitHub Release target_commitish",
+    "portal_release_target_embedded": false,
+    "pre_metadata_closure_main_sha": "79967f4a84154e4ede6ad44c6caadabc0a30f123",
     "freeze_pr": 39,
-    "supersedes_prs": [
-      37,
-      38
-    ],
-    "merge_authorized": false,
-    "note": "DO NOT MERGE #39 without owner; DO NOT publish RC1 or v1.0.0"
+    "feedback_pr": 40,
+    "owner_approval_recorded": true,
+    "rc1_publication_authorized": false,
+    "v1_0_0_release_authorized": false,
+    "note": "Portal #39 and #40 are merged. Draft v1.0.0-rc.1 prereleases exist. RC1 remains unpublished. Portal SHA is not embedded here to avoid self-reference; resolve from GitHub Release target_commitish after metadata-closure merge."
   },
   "claim_boundary": {
     "DIGITAL_HARDWARE_ENGINEERING_RELEASE": true,
@@ -39,7 +38,8 @@
     "MANUFACTURING_READINESS": false,
     "WARRANTY_RMA_READINESS": false,
     "V1_0_0_RELEASE_AUTHORIZED": false,
-    "RC1_OWNER_APPROVAL": false
+    "RC1_OWNER_APPROVAL": true,
+    "RC1_PUBLICATION_AUTHORIZED": false
   },
   "hardware_outside_v1": {
     "pr_84": "OUTSIDE_RC1",
@@ -52,14 +52,16 @@
       "role": "Umbrella portal / front door",
       "lane": "Core",
       "in_v1_rc1": true,
-      "accepted_main_sha": "5e4141db0577af5b0abc563bd58f3ecd2611ccf6",
+      "release_target_source": "GitHub Release target_commitish",
+      "pre_metadata_closure_main_sha": "79967f4a84154e4ede6ad44c6caadabc0a30f123",
       "feedback_security_merge_pr": 40,
+      "freeze_pr": 39,
       "pin_verified_live": true,
-      "is_origin_main_head": true,
+      "is_origin_main_head": false,
       "required_recovered_children": [],
       "open_prs": [],
-      "open_pr_disposition": "post-feedback accepted mains are freeze authority; pre-feedback SHAs superseded",
-      "notes": "Portal #40 FEEDBACK/forms on accepted main; freeze PR #39 reconciles release packaging atop main."
+      "open_pr_disposition": "portal release target resolved externally from GitHub Release target_commitish after metadata-closure merge",
+      "notes": "Do not treat pre_metadata_closure_main_sha or any superseded portal SHA (e.g. 5e4141db…) as current release authority. #39/#40 merged; drafts created; RC1 unpublished."
     },
     {
       "repo": "gunnchOS3k/gunnchos-device-os",
@@ -74,7 +76,7 @@
       "required_recovered_children": [],
       "open_prs": [],
       "open_pr_disposition": "post-feedback accepted mains are freeze authority; pre-feedback SHAs superseded",
-      "notes": "Post-feedback #164 on main. Vuln closure #162 (3b610370\u2026) is ancestor of main. Supersedes pre-feedback c6fd04a/bf109e7."
+      "notes": "Post-feedback #164 on main. Vuln closure #162 (3b610370…) is ancestor of main. Supersedes pre-feedback c6fd04a/bf109e7."
     },
     {
       "repo": "gunnchOS3k/gunnchos-waike-learning-platform",
@@ -278,7 +280,10 @@
       "c6fd04aced44b0d3eec6f07c3b0b3fdbe50ad7a4",
       "bf109e704ac28b38b9fe1d9ce39954158f061793"
     ],
-    "note": "Do not use pre-feedback SHAs as current authority"
+    "gunnchos-research-portal": [
+      "5e4141db0577af5b0abc563bd58f3ecd2611ccf6"
+    ],
+    "note": "Do not use pre-feedback or pre-metadata-closure portal SHAs as current authority"
   },
   "recovered_child_ancestry": {},
   "RECOVERED_CHILD_ANCESTRY_PASS": true,

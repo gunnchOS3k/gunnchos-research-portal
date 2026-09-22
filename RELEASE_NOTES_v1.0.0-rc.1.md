@@ -2,6 +2,14 @@
 
 **Subtitle:** First Public Engineering & Demonstration Release Candidate
 
+This is a **release candidate**, not final `v1.0.0`. RC1 remains unpublished until the owner authorizes publication.
+
+## Authorization state
+
+- `RC1_OWNER_APPROVAL=true`
+- `RC1_PUBLICATION_AUTHORIZED=false`
+- `V1_0_0_RELEASE_AUTHORIZED=false`
+
 ## Core
 
 - Device OS / Capsule, WAIKE Learning Platform, waike-research-ops curriculum, gunnchAI3k
@@ -18,24 +26,25 @@
 
 ## Experiences
 
-- Anime Aggressors, Pedestrian Pursuit, Archive of Life, BeatLink Party on recovered mains
+- Anime Aggressors, Pedestrian Pursuit, Archive of Life, BeatLink Party on post-feedback accepted mains
 
 ## Demo state
 
 - Pixel USB-C career-fair path; install + acceptance artifacts under `releases/v1.0.0-rc.1/pixel/`
+- Nearby Edge remains honestly unavailable in this RC
 
 ## Known limitations
 
-See [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md). `RC1_OWNER_APPROVAL=false`. `V1_0_0_RELEASE_AUTHORIZED=false`.
+See https://github.com/gunnchOS3k/gunnchos-research-portal/blob/main/KNOWN_LIMITATIONS.md
 
 ## Feedback & Suggestions
 
-Tried this release? Found a bug, have an idea, or want to suggest a research/hardware improvement?
+Found a bug, have an idea, or want to suggest an improvement?
 
-Use the gunnchOS Ecosystem feedback hub:
 https://github.com/gunnchOS3k/gunnchos-research-portal/blob/main/FEEDBACK.md
 
-Please report security vulnerabilities privately:
-https://github.com/gunnchOS3k/gunnchos-research-portal/blob/main/SECURITY.md
+## Security
 
 Do not post exploitable security details publicly.
+
+https://github.com/gunnchOS3k/gunnchos-research-portal/blob/main/SECURITY.md
