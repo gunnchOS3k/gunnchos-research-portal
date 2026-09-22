@@ -4,7 +4,7 @@
   "release_class": "First Public Engineering & Demonstration Release Candidate",
   "final_release_target": "v1.0.0",
   "freeze_status": "POST_FEEDBACK_ACCEPTED_MAIN_FREEZE",
-  "generated_at_utc": "2026-09-22T02:30:00Z",
+  "generated_at_utc": "2026-09-22T02:45:00Z",
   "verification": {
     "method": "gh pr view mergeCommit + git merge-base --is-ancestor + origin/main HEAD equality",
     "device_os_162_vuln_closure_sha": "3b6103700708953747a11cb01a5bbadcba9b0cb6",
@@ -21,9 +21,9 @@
     "freeze_pr": 39,
     "feedback_pr": 40,
     "owner_approval_recorded": true,
-    "rc1_publication_authorized": false,
+    "rc1_publication_authorized": true,
     "v1_0_0_release_authorized": false,
-    "note": "Portal #39 and #40 are merged. Draft v1.0.0-rc.1 prereleases exist. RC1 remains unpublished. Portal SHA is not embedded here to avoid self-reference; resolve from GitHub Release target_commitish after metadata-closure merge."
+    "note": "Portal #39 and #40 are merged. RC1 publication is explicitly owner-authorized. Final v1.0.0 remains unauthorized. Portal SHA is resolved from GitHub Release target_commitish to avoid self-reference."
   },
   "claim_boundary": {
     "DIGITAL_HARDWARE_ENGINEERING_RELEASE": true,
@@ -39,7 +39,7 @@
     "WARRANTY_RMA_READINESS": false,
     "V1_0_0_RELEASE_AUTHORIZED": false,
     "RC1_OWNER_APPROVAL": true,
-    "RC1_PUBLICATION_AUTHORIZED": false
+    "RC1_PUBLICATION_AUTHORIZED": true
   },
   "hardware_outside_v1": {
     "pr_84": "OUTSIDE_RC1",
@@ -61,7 +61,7 @@
       "required_recovered_children": [],
       "open_prs": [],
       "open_pr_disposition": "portal release target resolved externally from GitHub Release target_commitish after metadata-closure merge",
-      "notes": "Do not treat pre_metadata_closure_main_sha or any superseded portal SHA (e.g. 5e4141db…) as current release authority. #39/#40 merged; drafts created; RC1 unpublished."
+      "notes": "Portal release target is resolved externally from GitHub Release target_commitish. #39/#40 merged; RC1 publication explicitly authorized; final v1.0.0 remains unauthorized."
     },
     {
       "repo": "gunnchOS3k/gunnchos-device-os",
