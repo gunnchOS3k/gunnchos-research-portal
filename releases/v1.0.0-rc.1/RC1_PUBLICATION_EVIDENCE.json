@@ -1,0 +1,270 @@
+{
+  "schema": "RC1_PUBLICATION_EVIDENCE/v1",
+  "release_identity": "gunnchOS Ecosystem v1.0.0-rc.1",
+  "generated_at_utc": "2026-09-22T02:53:44Z",
+  "authorization": {
+    "RC1_OWNER_APPROVAL": true,
+    "RC1_PUBLICATION_AUTHORIZED": true,
+    "V1_0_0_RELEASE_AUTHORIZED": false
+  },
+  "portal_publication_authority_main_sha": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+  "portal_release_target_commitish": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+  "publish_order": [
+    "research",
+    "hardware",
+    "experiences",
+    "gunnchai",
+    "waike_ops",
+    "waike_lp",
+    "device_os",
+    "umbrella"
+  ],
+  "releases": [
+    {
+      "repo": "gunnchOS3k/7gc-digital-twin",
+      "lane": "research",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:08Z",
+      "targetCommitish": "9654ac82a722e800193e771556036dbb0df263db",
+      "url": "https://github.com/gunnchOS3k/7gc-digital-twin/releases/tag/v1.0.0-rc.1",
+      "assets": []
+    },
+    {
+      "repo": "gunnchOS3k/spectrumx-ai-ran-gary",
+      "lane": "research",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:10Z",
+      "targetCommitish": "2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a",
+      "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/releases/tag/v1.0.0-rc.1",
+      "assets": []
+    },
+    {
+      "repo": "gunnchOS3k/readygary-6g-beam-selection",
+      "lane": "research",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:13Z",
+      "targetCommitish": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/releases/tag/v1.0.0-rc.1",
+      "assets": []
+    },
+    {
+      "repo": "gunnchOS3k/ntn-resilience-sim",
+      "lane": "research",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:15Z",
+      "targetCommitish": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/releases/tag/v1.0.0-rc.1",
+      "assets": []
+    },
+    {
+      "repo": "gunnchOS3k/edge-io-measurement-node",
+      "lane": "research",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:17Z",
+      "targetCommitish": "758b14a2c06b70a6678fc761d5360bde5e7cb235",
+      "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/releases/tag/v1.0.0-rc.1",
+      "assets": []
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-7gc-ai-ran-field-kit",
+      "lane": "research",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:20Z",
+      "targetCommitish": "4f3095e349f522d6db9901b99101f3fe5dff9f6c",
+      "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/releases/tag/v1.0.0-rc.1",
+      "assets": []
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-hardware-industrial-design",
+      "lane": "hardware",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:22Z",
+      "targetCommitish": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "gunnchOS-Hardware-Design-v1.0.0-rc.1.zip"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/anime-aggressors",
+      "lane": "experiences",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:25Z",
+      "targetCommitish": "6cd1b3100a7e467c2c991394576891660deb1162",
+      "url": "https://github.com/gunnchOS3k/anime-aggressors/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "anime-aggressors-debug-v1.0.0-rc.1.apk",
+        "anime-aggressors-debug-v1.0.0-rc.1.apk.sha256",
+        "PROVENANCE.json"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/pedestrian-pursuit",
+      "lane": "experiences",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:27Z",
+      "targetCommitish": "3e98106939786c69a64657f4cc2b9a652a3b5fec",
+      "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+        "pedestrian-pursuit-debug-v1.0.0-rc.1.apk.sha256",
+        "PROVENANCE.json"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/archive-of-life-artifact-world",
+      "lane": "experiences",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:29Z",
+      "targetCommitish": "03d734453f040e3081e763277e2c15aa62ef095e",
+      "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "archive-of-life-debug-v1.0.0-rc.1.apk",
+        "archive-of-life-debug-v1.0.0-rc.1.apk.sha256",
+        "PROVENANCE.json"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/beatlink-party",
+      "lane": "experiences",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:31Z",
+      "targetCommitish": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "url": "https://github.com/gunnchOS3k/beatlink-party/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "beatlink-web-v1.0.0-rc.1.zip"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/gunnchAI3k",
+      "lane": "gunnchai",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:33Z",
+      "targetCommitish": "04eef2d891a8dda58455acc58a8e93e7865379b8",
+      "url": "https://github.com/gunnchOS3k/gunnchAI3k/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "gunnchai-runtime-v1.0.0-rc.1.zip"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/waike-research-ops",
+      "lane": "waike_ops",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:35Z",
+      "targetCommitish": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "url": "https://github.com/gunnchOS3k/waike-research-ops/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "waike-curriculum-v1.0.0-rc.1.zip"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "lane": "waike_lp",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:38Z",
+      "targetCommitish": "a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518",
+      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "waike-web-pwa-v1.0.0-rc.1.zip"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-device-os",
+      "lane": "device_os",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:40Z",
+      "targetCommitish": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0",
+      "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "BUILD_MANIFEST.json",
+        "gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+        "gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk.sha256",
+        "INSTALL_UNINSTALL.md",
+        "RC1_REBUILD_MANIFEST.json",
+        "RC1_STAGING_PROVENANCE.json"
+      ]
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-research-portal",
+      "lane": "umbrella",
+      "isDraft": false,
+      "isPrerelease": true,
+      "publishedAt": "2026-09-22T02:49:42Z",
+      "targetCommitish": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+      "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/tag/v1.0.0-rc.1",
+      "assets": [
+        "APP_VERSION_MAPPING.md",
+        "COMPONENT_VERSION_MATRIX.md",
+        "FINAL_ACCEPTED_MAIN_MANIFEST.json",
+        "FRONT_DOOR.png",
+        "FRONT_DOOR.svg",
+        "FRONT_DOOR_URL.txt",
+        "gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+        "RELEASE_ASSET_MANIFEST.json",
+        "RELEASE_HASH_VERIFICATION.json",
+        "RELEASE_NOTES_v1.0.0-rc.1.md",
+        "research-systems-v1.0.0-rc.1.zip",
+        "SHA256SUMS.txt",
+        "V1_RC1_GATES.json"
+      ]
+    }
+  ],
+  "post_verify": {
+    "all_isDraft_false": true,
+    "all_isPrerelease_true": true,
+    "all_publishedAt_set": true,
+    "no_v1_0_0_release": true
+  },
+  "asset_verification": {
+    "CAPSULE_ONLY_PASS": true,
+    "BEATLINK_WEB_ONLY_PASS": true,
+    "GUNNCHAI_NO_WEIGHTS_PASS": true,
+    "HARDWARE_CLAIM_BOUNDARY_PASS": true,
+    "digests": {
+      "anime": "0366c44ed2342c59add6f25412ce011fc7b56ae384fdd1d39b7c6b9c90ee6ce0",
+      "archive": "58697e7e74d3f781bae3552c1ee899ce3f7b0898afd9cba7523f535a01cc546b",
+      "pedestrian": "9e8c14db87b3fda51404a2a7d169e80a31ee3a65c5eab9de665724e1e0df29e4",
+      "capsule": "a0c55be39c407ffd24868a715c9c86bb2da07efbff16dc2ddb90aecebef45826"
+    }
+  },
+  "outsider_download_audit": {
+    "method": "gh release download from public v1.0.0-rc.1 tags into temp dir + SHA256",
+    "sums_path": "releases/v1.0.0-rc.1/publication/OUTSIDER_SHA256SUMS.txt",
+    "DIGEST_MATCH_PASS": true
+  },
+  "pixel_public_release_smoke": {
+    "PIXEL_PUBLIC_RELEASE_SMOKE_PASS": true,
+    "evidence_path": "releases/v1.0.0-rc.1/pixel/public_release_smoke/PIXEL_PUBLIC_RELEASE_SMOKE.json",
+    "serial_redacted": true,
+    "adb_exclusive": true,
+    "device": "Pixel 6a (bluejay)"
+  },
+  "public_url_audit": {
+    "all_release_pages_http_200": true,
+    "feedback_security_known_limitations_http_200": true,
+    "anonymous_api_sample_draft_false_prerelease_true": true,
+    "v1_0_0_portal_page_http_404": true
+  },
+  "stop_gates": {
+    "created_v1_0_0": false,
+    "product_code_changes": false,
+    "v1_1_features": false,
+    "binary_changes": false
+  },
+  "RC1_PUBLICATION_PASS": true
+}

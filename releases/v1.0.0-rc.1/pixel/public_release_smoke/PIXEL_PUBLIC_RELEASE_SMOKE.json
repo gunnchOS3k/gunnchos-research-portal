@@ -1,0 +1,41 @@
+{
+  "schema": "PIXEL_PUBLIC_RELEASE_SMOKE/v1",
+  "release": "v1.0.0-rc.1",
+  "generated_at_utc": "2026-09-22T02:52:16Z",
+  "device": {
+    "model": "Pixel 6a",
+    "codename": "bluejay",
+    "serial": "REDACTED_PIXEL_SERIAL"
+  },
+  "adb_exclusive": true,
+  "source": "public GitHub Release downloads (outsider path)",
+  "apks": [
+    {
+      "label": "capsule",
+      "path": "gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+      "sha256": "a0c55be39c407ffd24868a715c9c86bb2da07efbff16dc2ddb90aecebef45826",
+      "install": "Success"
+    },
+    {
+      "label": "anime",
+      "path": "anime-aggressors-debug-v1.0.0-rc.1.apk",
+      "sha256": "0366c44ed2342c59add6f25412ce011fc7b56ae384fdd1d39b7c6b9c90ee6ce0",
+      "install": "Success"
+    },
+    {
+      "label": "archive",
+      "path": "archive-of-life-debug-v1.0.0-rc.1.apk",
+      "sha256": "58697e7e74d3f781bae3552c1ee899ce3f7b0898afd9cba7523f535a01cc546b",
+      "install": "Success"
+    },
+    {
+      "label": "pedestrian",
+      "path": "pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+      "sha256": "9e8c14db87b3fda51404a2a7d169e80a31ee3a65c5eab9de665724e1e0df29e4",
+      "install": "Success"
+    }
+  ],
+  "PIXEL_PUBLIC_RELEASE_SMOKE_PASS": true,
+  "serial_redacted": true,
+  "beatlink": "web-only zip; no APK install in this smoke"
+}

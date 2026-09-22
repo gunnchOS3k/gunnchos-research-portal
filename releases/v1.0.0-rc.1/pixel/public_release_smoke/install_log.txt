@@ -1,0 +1,16 @@
+===== install capsule =====
+Performing Streamed Install
+Success
+INSTALL_OK capsule
+===== install anime =====
+Performing Streamed Install
+Success
+INSTALL_OK anime
+===== install archive =====
+Performing Streamed Install
+Success
+INSTALL_OK archive
+===== install pedestrian =====
+Performing Streamed Install
+Success
+INSTALL_OK pedestrian
