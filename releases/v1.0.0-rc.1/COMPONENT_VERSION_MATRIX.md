@@ -1,10 +1,10 @@
 # Component version matrix — post-feedback accepted mains
 
-Generated: 2026-09-21T21:22:14Z
+Generated: 2026-09-22T02:30:00Z
 
 | Component | Repo | Feedback/security PR | Accepted main SHA | Artifact |
 |---|---|---|---|---|
-| Portal | gunnchos-research-portal | #40 | `5e4141db0577af5b0abc563bd58f3ecd2611ccf6` | FEEDBACK.md + forms |
+| Portal | gunnchos-research-portal | #39/#40 | See umbrella GitHub Release `target_commitish` | release metadata/front door |
 | Device OS / Capsule | gunnchos-device-os | #164 (+#162 ancestor) | `2218ead0efa0e4b8a622717a0a9bf623ee95ddb0` | Capsule APK post-feedback |
 | WAIKE LP | gunnchos-waike-learning-platform | #24 | `a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518` | waike-web-pwa zip |
 | gunnchAI | gunnchAI3k | #57 | `04eef2d891a8dda58455acc58a8e93e7865379b8` | gunnchai-runtime zip |
@@ -22,3 +22,5 @@ Generated: 2026-09-21T21:22:14Z
 | Field Kit | gunnchos-7gc-ai-ran-field-kit | #119 | `4f3095e349f522d6db9901b99101f3fe5dff9f6c` | research zip |
 
 **Authority:** post-feedback accepted `origin/main` SHAs only. Pre-feedback pins (e.g. Device OS `c6fd04a…`) superseded.
+
+**Portal note:** Portal target is resolved externally from the GitHub Release `target_commitish` to avoid a self-referential metadata commit SHA. Do not treat `5e4141db…` or `pre_metadata_closure_main_sha` (`79967f4…`) as current release authority after the metadata-closure merge.
