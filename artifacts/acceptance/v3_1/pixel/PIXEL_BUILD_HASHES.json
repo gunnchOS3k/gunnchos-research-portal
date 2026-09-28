@@ -1,5 +1,47 @@
 {
-  "generated_at": "2026-09-28T21:33:28Z",
-  "builds": [],
-  "note": "No APKs built/installed this pass \u2014 Pixel disconnected. Hashes will be recorded on reconnect for exact-head candidates only."
+  "generated_at": "2026-09-28T21:49:21Z",
+  "builds": [
+    {
+      "product": "Anime Aggressors",
+      "main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/anime/builds/android/anime-aggressors-debug.apk",
+      "artifact_sha256": "a6f7545e245c963109dcf1f196a50c222f66639f496bc8ba9c9003fa51a8501a",
+      "package_id": "com.gunnchos.animeaggressors",
+      "version_name": "0.3.7",
+      "version_code": 219,
+      "export_type": "debug",
+      "signer_dn": "C=US, O=Android, CN=Android Debug",
+      "signer_cert_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "embedded_git_sha_verified": true,
+      "embedded_git_sha_path": "assets/data/runtime/build_identity.json",
+      "install_result": "NOT_ATTEMPTED_NO_ADB_DEVICE"
+    },
+    {
+      "product": "Pedestrian Pursuit",
+      "main_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "artifact_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/pedestrian/build/android/pedestrian-pursuit-debug.apk",
+      "artifact_sha256": "a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd",
+      "package_id": "com.gunnchos.pedestrianpursuit",
+      "version_name": "0.4.3-race-experience-v3",
+      "version_code": 18,
+      "export_type": "debug",
+      "signer_dn": "C=US, O=Android, CN=Android Debug",
+      "signer_cert_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "embedded_git_sha_verified": true,
+      "embedded_git_sha_path": "assets/data/build_identity.json",
+      "install_result": "NOT_ATTEMPTED_NO_ADB_DEVICE",
+      "note": "Built from post-#38 main tip after Gate1 online-arch fix merged."
+    },
+    {
+      "product": "gunnchOS / device-os",
+      "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "artifact_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-device-os/artifacts/android_capsule/release/gunnchOS-Capsule-Pixel6a-pilot.apk",
+      "artifact_sha256": "8863d83acba11be6bb3ce7a5767499ac2031c564006aceb950f312d8376b5b9d",
+      "exact_head": false,
+      "provenance_baseline_sha": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+      "install_result": "BLOCKED_NOT_EXACT_HEAD",
+      "note": "Existing pilot APK is stale vs current main; do not install as V3.1 exact-head until rebuilt."
+    }
+  ],
+  "note": "Exact-head Anime+Pedestrian APKs prepared locally. Installs blocked: Pixel not adb-visible on this host."
 }

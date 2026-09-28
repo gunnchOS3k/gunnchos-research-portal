@@ -1,23 +1,9 @@
 {
-  "generated_at": "2026-09-28T21:33:28Z",
+  "generated_at": "2026-09-28T21:49:21Z",
   "schema": "v3_1_gate_census",
   "UNKNOWN_GATE_COUNT": 0,
-  "FIXABLE_DIGITAL_FAILURE_COUNT": 1,
-  "fixable_digital_failures": [
-    {
-      "id": "PEDESTRIAN_GATE1_ONLINE_ARCH_SCOPE",
-      "repository": "gunnchOS3k/pedestrian-pursuit",
-      "main_sha": "9505edb6839f75c381054833d7f9989b77ca057b",
-      "workflow": "Gate 1 post-merge integrity / godot-headless-no-false-green",
-      "run": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/36481879070",
-      "symptom": "BetaProductStateTest: online arch must stay private/dev scoped",
-      "root_cause": "PartyLink #37 renamed SCOPE to same_room_lan_v1 without 'private' substring",
-      "draft_fix_pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38",
-      "draft_fix_branch": "fix/v3-1-beta-online-arch-scope",
-      "local_revalidation": "BetaProductStateTest PASS on Godot 4.7.1 after private_same_room_lan_v1",
-      "merged_on_main": false
-    }
-  ],
+  "FIXABLE_DIGITAL_FAILURE_COUNT": 0,
+  "fixable_digital_failures": [],
   "anime_required_ci_at_tip": {
     "sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
     "status_at_report": "IN_PROGRESS_POST_116_MERGE",
@@ -35,21 +21,20 @@
     "FIXABLE_DIGITAL_OPEN": 1
   },
   "yellow": [
-    "Pedestrian Gate1 godot-headless-no-false-green FAILED on main \u2014 draft fix opened",
-    "Anime post-#116 required CI still running on tip 4b54b2c4",
-    "Pixel USB not connected \u2014 exact-head install matrix incomplete"
+    "Owner claimed Pixel connected but this host still has empty adb devices / no USB Android gadget",
+    "Exact-head Anime+Pedestrian APKs ready locally; installs not performed",
+    "device-os pilot APK not exact-head vs current main",
+    "Some Anime tip wave/Windows jobs still in_progress at last poll"
   ],
   "green": [
-    "Anime #115+#116 on main; #106 closed superseded",
-    "PartyLink Anime/Pedestrian digital evidence still on main",
-    "Archive GKIP engineering on main",
-    "Quartet + universal shell on MLV/device-os main",
-    "Portal V3 packet #47 merged; V3.1 is addendum not overwrite"
+    "Pedestrian #38 MERGED; Gate1 godot-headless-no-false-green SUCCESS on 77a5413",
+    "Anime #115+#116 on main; exact-head APK exported with embedded SHA verified",
+    "PR106 salvage disposition complete"
   ],
   "terminal_gates": {
     "V3_1_CURRENT_MAIN_REBASELINE_PASS": true,
     "UNKNOWN_GATE_COUNT": 0,
-    "FIXABLE_DIGITAL_FAILURE_COUNT": 1,
+    "FIXABLE_DIGITAL_FAILURE_COUNT": 0,
     "PIXEL_CONNECTED_PASS": false,
     "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
     "PIXEL_SIGNER_SAFETY_PASS": false,
@@ -64,5 +49,14 @@
     "REAL_RIC_FIELD_PASS": false,
     "DIGITAL_ECOSYSTEM_V1_RELEASE_AUTHORIZED": false
   },
-  "NEXT_MASTER_ACTION": "OWNER_MERGE_PEDESTRIAN_GATE1_FIX_THEN_CONNECT_PIXEL_FOR_V3_1_EXACT_HEAD"
+  "NEXT_MASTER_ACTION": "AUTHORIZE_PIXEL_ADB_ON_THIS_HOST_THEN_INSTALL_EXACT_HEAD_APKS",
+  "fixable_digital_closed": [
+    {
+      "id": "PEDESTRIAN_GATE1_ONLINE_ARCH_SCOPE",
+      "pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38",
+      "merged": true,
+      "merge_commit": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "godot_headless_no_false_green": "success on tip"
+    }
+  ]
 }

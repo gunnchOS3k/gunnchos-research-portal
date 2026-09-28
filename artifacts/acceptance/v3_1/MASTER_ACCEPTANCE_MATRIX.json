@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T21:33:28Z",
+  "generated_at": "2026-09-28T21:49:21Z",
   "schema": "master_acceptance_matrix.v3_1",
   "unknown_gate_count": 0,
-  "fixable_digital_failure_count_open_on_main": 1,
-  "fixable_digital_note": "Pedestrian Gate1 BetaProductStateTest online-arch scope after #37; draft fix https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38. Anime #115+#116 MERGED; tip CI in progress. Pixel disconnected.",
+  "fixable_digital_failure_count_open_on_main": 0,
+  "fixable_digital_note": "Pedestrian #38 MERGED (77a5413); Gate1 godot-headless green. Pixel still not adb-visible on automation host.",
   "pixel_connected": false,
   "pr106_salvage_on_main": true,
   "census": {
@@ -58,12 +58,12 @@
       "gate_id": "G0-PP-GATE1-MAIN",
       "product": "Pedestrian Pursuit",
       "requirement": "Gate 1 post-merge integrity on current main",
-      "classification": "FIXABLE_DIGITAL_OPEN",
+      "classification": "PASS_WITH_EVIDENCE",
       "evidence_class": "CI",
       "repository": "gunnchOS3k/pedestrian-pursuit",
-      "commit": "9505edb6839f75c381054833d7f9989b77ca057b",
-      "artifact": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/36481879070",
-      "reason": "godot-headless-no-false-green failed BetaProductStateTest online-arch private scope; draft fix opened.",
+      "commit": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "artifact": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38",
+      "reason": "PR #38 merged; godot-headless-no-false-green success on tip.",
       "claim_boundary": "Draft only; not merged by Cursor.",
       "draft_fix_pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38"
     },
@@ -76,7 +76,7 @@
       "repository": "control-plane",
       "commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
       "artifact": "artifacts/acceptance/v3_1/pixel/PIXEL_EXACT_HEAD_MATRIX.json",
-      "reason": "adb devices empty this pass; no installs attempted.",
+      "reason": "Exact-head Anime+Ped APKs built; installs blocked \u2014 adb devices empty on this host despite owner claim.",
       "claim_boundary": "Does not claim Pixel validation."
     },
     {

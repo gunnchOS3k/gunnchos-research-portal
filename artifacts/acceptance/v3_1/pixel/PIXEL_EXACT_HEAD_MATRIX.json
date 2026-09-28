@@ -1,199 +1,82 @@
 {
-  "generated_at": "2026-09-28T21:33:28Z",
+  "generated_at": "2026-09-28T21:49:21Z",
   "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
   "PIXEL_CONNECTED_PASS": false,
   "PIXEL_SIGNER_SAFETY_PASS": false,
+  "PIXEL_SIGNER_SAFETY_CANDIDATE_READY": true,
+  "candidate_signer_cert_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
   "rows": [
-    {
-      "product": "device-os",
-      "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
-      "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
-      ],
-      "status": "REQUIRES_PHYSICAL"
-    },
     {
       "product": "anime-aggressors",
       "main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
+      "artifact_path_or_source": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/anime/builds/android/anime-aggressors-debug.apk",
+      "artifact_sha256": "a6f7545e245c963109dcf1f196a50c222f66639f496bc8ba9c9003fa51a8501a",
+      "package_id": "com.gunnchos.animeaggressors",
+      "version": "0.3.7 (219)",
+      "signer_fingerprint_summary": "Android Debug cert sha256 b637ea5f982aa1d3\u2026",
+      "install_result": "NOT_ATTEMPTED_NO_ADB_DEVICE",
       "launch_result": "NOT_ATTEMPTED",
       "device_model": null,
       "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
       "crash_count": null,
       "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL",
-        "Do not claim 8-human from one Pixel"
+        "ADB empty on automation host",
+        "online_hub_scene.gd parse warnings during export; APK still produced with embedded SHA"
       ],
-      "status": "REQUIRES_PHYSICAL"
+      "status": "APK_READY_INSTALL_BLOCKED"
     },
     {
       "product": "pedestrian-pursuit",
-      "main_sha": "9505edb6839f75c381054833d7f9989b77ca057b",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
+      "main_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "artifact_path_or_source": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/pedestrian/build/android/pedestrian-pursuit-debug.apk",
+      "artifact_sha256": "a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd",
+      "package_id": "com.gunnchos.pedestrianpursuit",
+      "version": "0.4.3-race-experience-v3 (18)",
+      "signer_fingerprint_summary": "Android Debug cert sha256 b637ea5f982aa1d3\u2026",
+      "install_result": "NOT_ATTEMPTED_NO_ADB_DEVICE",
       "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
+      "status": "APK_READY_INSTALL_BLOCKED",
       "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL",
-        "Gate1 fix must merge before exact-head APK preference"
-      ],
-      "status": "REQUIRES_PHYSICAL"
+        "PR #38 merged; Gate1 godot-headless green on tip; install awaits adb"
+      ]
+    },
+    {
+      "product": "device-os",
+      "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "status": "BLOCKED_NOT_EXACT_HEAD",
+      "install_result": "BLOCKED",
+      "known_limitations": [
+        "Pilot APK provenance baseline_sha != current main"
+      ]
     },
     {
       "product": "archive-of-life",
       "main_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
+      "status": "REQUIRES_PHYSICAL_BROWSER_OR_REBUILD",
       "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
-      ],
-      "status": "REQUIRES_PHYSICAL"
+        "Prefer mobile web/PWA unless exact-head APK rebuilt from current main"
+      ]
     },
     {
       "product": "3k-mlv",
-      "main_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
+      "status": "REQUIRES_PHYSICAL_BROWSER",
       "known_limitations": [
-        "web/mobile-browser class; no native APK"
-      ],
-      "status": "REQUIRES_PHYSICAL_BROWSER"
+        "web class; no native APK"
+      ]
     },
     {
       "product": "waike",
-      "main_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
+      "status": "REQUIRES_PHYSICAL_BROWSER",
       "known_limitations": [
-        "desktop/web class; mobile-web only if usable"
-      ],
-      "status": "REQUIRES_PHYSICAL_BROWSER"
+        "desktop/web class"
+      ]
     },
     {
       "product": "beatlink-party",
-      "main_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
+      "status": "REQUIRES_PHYSICAL_BROWSER",
       "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
-      ],
-      "status": "REQUIRES_PHYSICAL_BROWSER"
-    },
-    {
-      "product": "gunnchai",
-      "main_sha": null,
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
-      "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
-      ],
-      "status": "REQUIRES_PHYSICAL"
-    },
-    {
-      "product": "7gc-network-twin",
-      "main_sha": null,
-      "artifact_path_or_source": null,
-      "artifact_sha256": null,
-      "package_id": null,
-      "version": null,
-      "signer_fingerprint_summary": null,
-      "install_result": "NOT_ATTEMPTED",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "first_screen_capture": null,
-      "key_flow_captures": [],
-      "sanitized_logcat": null,
-      "crash_count": null,
-      "known_limitations": [
-        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
-      ],
-      "status": "REQUIRES_PHYSICAL"
+        "web class"
+      ]
     }
   ],
   "partylink_topology_note": "One Pixel cannot validate 8 humans; use display host + Pixel as P1 + other browsers."

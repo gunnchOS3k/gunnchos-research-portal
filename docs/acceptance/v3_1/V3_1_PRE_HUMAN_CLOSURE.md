@@ -63,3 +63,21 @@ NEXT_MASTER_ACTION=RUN_OWNER_FRIEND_AND_ASYNC_HUMAN_ACCEPTANCE
 ```
 
 Nothing merged automatically by this pass.
+
+
+## Pixel reconnect update (post owner claim)
+
+Owner reported Pixel connected. Automation host still observes:
+
+- `adb devices -l` → empty
+- USB enumerator → no Android/Pixel gadget
+- mDNS `_adb._tcp` → none
+
+Exact-head APKs prepared (not installed):
+
+- Anime `4b54b2c4` sha256 `a6f7545e245c963109dcf1f196a50c222f66639f496bc8ba9c9003fa51a8501a`
+- Pedestrian `77a5413` sha256 `a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd` (post-#38)
+
+```text
+NEXT_MASTER_ACTION=AUTHORIZE_PIXEL_ADB_ON_THIS_HOST_THEN_INSTALL_EXACT_HEAD_APKS
+```

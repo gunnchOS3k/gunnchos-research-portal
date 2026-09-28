@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:33:28Z",
+  "generated_at": "2026-09-28T21:49:21Z",
   "control_plane_branch": "acceptance/v3-1-post-salvage-pixel-prehuman",
   "control_plane_worktree": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/portal",
   "playbook": "CURSOR_V3_1_POST_SALVAGE_PIXEL_PREHUMAN_CLOSURE",
@@ -23,7 +23,7 @@
     "portal_v3_packet_pr47_merged_on_main": true,
     "pixel_connected": false,
     "anime_main": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
-    "pedestrian_main": "9505edb6839f75c381054833d7f9989b77ca057b",
+    "pedestrian_main": "77a5413c15e0d25524fe5381e117678aa2d42edf",
     "archive_main": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
     "mlv_main": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
     "device_os_main": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
@@ -36,7 +36,9 @@
       "archive_42_23ce4da": true,
       "mlv_5_94cba498": true,
       "device_os_168_2ae070fd": true
-    }
+    },
+    "pixel_adb_visible_this_host": false,
+    "pedestrian_pr38_merged_on_main": true
   },
   "pr106_salvage_disposition": {
     "audit_playbook": "CURSOR_ANIME_PR106_SALVAGE_FORWARD_PORT_AUDIT.md",
@@ -142,8 +144,8 @@
       "repository": "gunnchOS3k/pedestrian-pursuit",
       "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/pedestrian-pursuit",
       "expected_main_at_v3": "9505edb6839f75c381054833d7f9989b77ca057b",
-      "live_main": "9505edb6839f75c381054833d7f9989b77ca057b",
-      "drift_from_v3": false,
+      "live_main": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "drift_from_v3": true,
       "v3_expected_is_ancestor_of_live": true,
       "default_branch": "main"
     },
@@ -165,5 +167,6 @@
       "v3_expected_is_ancestor_of_live": true,
       "default_branch": "main"
     }
-  ]
+  ],
+  "pixel_reconnect_note": "Owner reported Pixel connected, but this automation host still sees empty `adb devices` and empty USB enumerator. Installs blocked."
 }
