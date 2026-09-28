@@ -1,0 +1,8 @@
+
+> @beatlink/web@0.1.0 build /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/beatlink/apps/web
+> tsc -p tsconfig.json && vite build
+
+src/lib/deviceSettings.tsx(15,8): error TS2307: Cannot find module '@beatlink/device-ux' or its corresponding type declarations.
+/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/beatlink/apps/web:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @beatlink/web@0.1.0 build: `tsc -p tsconfig.json && vite build`
+Exit status 2

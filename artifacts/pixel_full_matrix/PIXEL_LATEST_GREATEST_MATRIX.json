@@ -1,28 +1,76 @@
 {
   "generated_at": "2026-09-28T22:58:07Z",
-  "PIXEL_CONNECTED_PASS": true,
-  "PIXEL_SIGNER_SAFETY_PASS": true,
-  "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
-  "PIXEL_LATEST_GREATEST_MATRIX_COMPLETE": true,
-  "PIXEL_EXACT_HEAD_CORE_GAMES_INSTALL_PASS": true,
   "device": {
     "model": "Pixel 6a",
     "device": "bluejay",
     "android_version": "17",
     "serial_sha256_16": "6fb6d47ec6650fab"
   },
-  "current_main_shas": {
-    "gunnchOS / device-os": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
-    "Anime Aggressors": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
-    "Pedestrian Pursuit": "77a5413c15e0d25524fe5381e117678aa2d42edf",
-    "Archive of Life": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
-    "BeatLink Party": "e1a5d9998f93d707440f68673c0da844617dc10e",
-    "3k MLV": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
-    "WAIKE": "9966e95b84a8b008ea50ffebd3f851950c1136be",
-    "gunnchAI": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
-    "7GC / Network Twin": "94cba498f7b6b4b78825af16d9ed403bdb617eaf"
+  "anime_pr117": {
+    "state": "MERGED",
+    "merged_at": "2026-09-28T22:18:26Z",
+    "new_main_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+    "prior_main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30"
   },
-  "evidence_root": "artifacts/pixel_full_matrix/",
+  "portal_pr48": {
+    "state": "OPEN_DRAFT",
+    "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/48",
+    "head": "ee1c674d0e41147c1fe910022a984922276eb056"
+  },
+  "gates": {
+    "PIXEL_CONNECTED_PASS": true,
+    "PIXEL_SIGNER_SAFETY_PASS": true,
+    "PIXEL_DEVICE_OS_EXACT_MAIN_INSTALL_PASS": true,
+    "PIXEL_DEVICE_OS_LAUNCH_PASS": true,
+    "PIXEL_DEVICE_OS_BUILD_IDENTITY_PASS": true,
+    "PIXEL_ANIME_EXACT_MAIN_INSTALL_PASS": true,
+    "PIXEL_ANIME_BUILD_IDENTITY_PASS": true,
+    "PIXEL_ANIME_CORE_SMOKE_PASS": true,
+    "PIXEL_ANIME_PARTY_ENTRY_PASS": true,
+    "ANIME_PIXEL_BASELINE_WAITING_ON_117": false,
+    "ANIME_PARTY_MODE_FUN_PASS": false,
+    "ANIME_8_HUMAN_PHYSICAL_SESSION_PASS": false,
+    "HUMAN_ANIMATION_QUALITY_PASS": false,
+    "PIXEL_PEDESTRIAN_EXACT_MAIN_INSTALL_PASS": true,
+    "PIXEL_PEDESTRIAN_BUILD_IDENTITY_PASS": true,
+    "PIXEL_PEDESTRIAN_CORE_RACE_SMOKE_PASS": true,
+    "PIXEL_PEDESTRIAN_PARTY_ENTRY_PASS": true,
+    "PIXEL_ARCHIVE_EXACT_MAIN_INSTALL_PASS": true,
+    "PIXEL_ARCHIVE_BUILD_IDENTITY_PASS": true,
+    "PIXEL_ARCHIVE_CORE_LOOP_PASS": true,
+    "PIXEL_ARCHIVE_ARCHIVEDEX_PASS": true,
+    "GLOBAL_DATA_COMPLETE": false,
+    "ALL_SPECIES_INGESTED": false,
+    "PIXEL_BEATLINK_EXACT_MAIN_INSTALL_PASS": true,
+    "PIXEL_BEATLINK_BUILD_IDENTITY_PASS": true,
+    "PIXEL_BEATLINK_ROOM_FLOW_PASS": true,
+    "PIXEL_MLV_EXACT_MAIN_LOAD_PASS": true,
+    "PIXEL_7GC_ATLAS_VISIBLE": true,
+    "PIXEL_7GC_ALL_SEVEN_LOAD": true,
+    "PIXEL_MLV_NETWORK_TWIN_LOAD_PASS": true,
+    "PIXEL_MLV_GALLERY_PRIVACY_SMOKE_PASS": true,
+    "PIXEL_WAIKE_WEB_CLIENT_PASS": true,
+    "PIXEL_WAIKE_18_TRACK_VISIBILITY_OBSERVED": true,
+    "PIXEL_WAIKE_OFFLINE_RECONNECT_PASS": true,
+    "PIXEL_WAIKE_GUNNCHAI_SURFACE_LOAD_PASS": false,
+    "GUNNCHAI_LIVE_PROVIDER_QUALIFICATION_PASS": false,
+    "WAIKE_ANDROID_NATIVE_BUILD_PASS": false,
+    "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
+    "PIXEL_LATEST_GREATEST_MATRIX_COMPLETE": true
+  },
+  "summary": {
+    "PIXEL_DEVICE": "Pixel 6a bluejay",
+    "ANDROID_VERSION": "17",
+    "NATIVE_APPS_INSTALLED": 5,
+    "PWA_SURFACES_AVAILABLE": 2,
+    "INTEGRATED_SURFACES_AVAILABLE": 1,
+    "EXACT_MAIN_MATCH_COUNT": 8,
+    "BLOCKED_PRODUCT_COUNT": 1,
+    "UNKNOWN_COUNT": 0,
+    "PASS_EXACT_MAIN_COUNT": 8,
+    "PIXEL_LATEST_GREATEST_MATRIX_COMPLETE": true,
+    "NEXT_MASTER_ACTION": "RUN_OWNER_PIXEL_WALKTHROUGH_THEN_FRIEND_AND_ASYNC_HUMAN_ACCEPTANCE"
+  },
   "rows": [
     {
       "product": "gunnchOS / device-os",
@@ -220,31 +268,13 @@
       ]
     }
   ],
-  "anime_pr117_merged": true,
-  "anime_main_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
-  "blockers": [
-    {
-      "product": "gunnchAI",
-      "delivery_mode": "INTEGRATED_SURFACE",
-      "repo": "gunnchOS3k/gunnchAI3k",
-      "origin_main_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
-      "candidate_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
-      "installed_or_served_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
-      "version_name": "",
-      "version_code": "",
-      "package_id": "",
-      "artifact_sha256": "",
-      "signer_sha256": "",
-      "install_or_load_result": "TEST_THROUGH_WAIKE",
-      "launch_result": "AI_SURFACE_NOT_EARNED",
-      "exact_main_match": false,
-      "test_surface": "waike_ask_gunnchai",
-      "status": "BLOCKED_REQUIRED_SERVICE",
-      "known_limitations": [
-        "GUNNCHAI_LIVE_PROVIDER_QUALIFICATION_PASS=false",
-        "PIXEL_WAIKE_AI_SURFACE_PASS=false this pass"
-      ]
-    }
-  ],
-  "NEXT_MASTER_ACTION": "RUN_OWNER_PIXEL_WALKTHROUGH_THEN_FRIEND_AND_ASYNC_HUMAN_ACCEPTANCE"
+  "waike_gates_snapshot": {
+    "captured_at": "2026-09-28T22:57:10Z",
+    "WAIKE_PIXEL_WEB_CLIENT_PASS": true,
+    "PIXEL_PILOT_ALL_18_TRACKS_LOADED": true,
+    "PIXEL_LEARNER_18_TRACK_VISIBILITY_PASS": false,
+    "PIXEL_WAIKE_OFFLINE_RESTART_RECONNECT_PASS": true,
+    "PIXEL_WAIKE_AI_SURFACE_PASS": false,
+    "PIXEL_WAIKE_STABILITY_PASS": false
+  }
 }
