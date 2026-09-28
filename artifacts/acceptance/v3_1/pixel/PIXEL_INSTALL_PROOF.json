@@ -1,6 +1,8 @@
 {
   "generated_at": "2026-09-28T21:54:22Z",
-  "builds": [
+  "PIXEL_CONNECTED_PASS": true,
+  "PIXEL_SIGNER_SAFETY_PASS": true,
+  "installs": [
     {
       "product": "Anime Aggressors",
       "main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
@@ -33,5 +35,12 @@
       "launch_pid": "16747",
       "last_update_time_device": "2026-09-28 16:53:25"
     }
-  ]
+  ],
+  "screenshots": [
+    "local_install/anime_launch.png",
+    "local_install/ped_launch.png"
+  ],
+  "logcat": "local_install/logcat_sanitized.txt",
+  "human_gates_remain_false": true,
+  "DIGITAL_ECOSYSTEM_V1_RELEASE_AUTHORIZED": false
 }

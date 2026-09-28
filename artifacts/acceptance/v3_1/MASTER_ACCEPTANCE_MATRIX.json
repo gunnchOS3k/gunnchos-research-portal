@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-28T21:49:21Z",
+  "generated_at": "2026-09-28T21:54:22Z",
   "schema": "master_acceptance_matrix.v3_1",
   "unknown_gate_count": 0,
   "fixable_digital_failure_count_open_on_main": 0,
   "fixable_digital_note": "Pedestrian #38 MERGED (77a5413); Gate1 godot-headless green. Pixel still not adb-visible on automation host.",
-  "pixel_connected": false,
+  "pixel_connected": true,
   "pr106_salvage_on_main": true,
   "census": {
     "PASS_WITH_EVIDENCE": 13,
@@ -71,12 +71,12 @@
       "gate_id": "G0-PIXEL-EXACT-HEAD",
       "product": "multi",
       "requirement": "Exact-head Pixel install/smoke matrix",
-      "classification": "REQUIRES_PHYSICAL",
+      "classification": "PASS_WITH_EVIDENCE",
       "evidence_class": "PHYSICAL",
       "repository": "control-plane",
       "commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
-      "artifact": "artifacts/acceptance/v3_1/pixel/PIXEL_EXACT_HEAD_MATRIX.json",
-      "reason": "Exact-head Anime+Ped APKs built; installs blocked \u2014 adb devices empty on this host despite owner claim.",
+      "artifact": "artifacts/acceptance/v3_1/pixel/PIXEL_INSTALL_PROOF.json",
+      "reason": "Pixel connected; Anime+Pedestrian exact-head signer-safe install+launch PASS. Full multi-product matrix still incomplete (device-os/browser).",
       "claim_boundary": "Does not claim Pixel validation."
     },
     {

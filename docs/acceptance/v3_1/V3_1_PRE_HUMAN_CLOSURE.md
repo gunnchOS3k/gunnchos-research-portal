@@ -81,3 +81,16 @@ Exact-head APKs prepared (not installed):
 ```text
 NEXT_MASTER_ACTION=AUTHORIZE_PIXEL_ADB_ON_THIS_HOST_THEN_INSTALL_EXACT_HEAD_APKS
 ```
+
+
+## Pixel install update (2026-09-28T21:54:22Z)
+
+- Device: Pixel 6a / `bluejay` / Android 17 (serial redacted; sha16 `6fb6d47ec6650fab`)
+- Anime: install Success, launch PID running, versionName 0.3.7 / versionCode 219, SHA `a6f7545e245c963109dcf1f196a50c222f66639f496bc8ba9c9003fa51a8501a`, embedded main `4b54b2c40b10c95e59077055eeba5bba2221bd30` on-device `True`
+- Pedestrian: install Success, launch PID running, versionName 0.4.3-race-experience-v3 / versionCode 18, SHA `a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd`, embedded main `77a5413c15e0d25524fe5381e117678aa2d42edf` on-device `True`
+- Signer safety: PASS (`b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a`)
+- Human/8P/release gates remain false
+
+```text
+NEXT_MASTER_ACTION=RUN_OWNER_FRIEND_AND_ASYNC_HUMAN_ACCEPTANCE
+```

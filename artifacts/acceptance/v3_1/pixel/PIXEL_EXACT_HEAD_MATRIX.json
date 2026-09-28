@@ -1,82 +1,75 @@
 {
-  "generated_at": "2026-09-28T21:49:21Z",
+  "generated_at": "2026-09-28T21:54:22Z",
+  "PIXEL_CONNECTED_PASS": true,
+  "PIXEL_SIGNER_SAFETY_PASS": true,
   "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
-  "PIXEL_CONNECTED_PASS": false,
-  "PIXEL_SIGNER_SAFETY_PASS": false,
-  "PIXEL_SIGNER_SAFETY_CANDIDATE_READY": true,
-  "candidate_signer_cert_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+  "PIXEL_EXACT_HEAD_CORE_GAMES_INSTALL_PASS": true,
+  "device": {
+    "model": "Pixel 6a",
+    "codename": "bluejay",
+    "android": "17",
+    "serial_sha256_16": "6fb6d47ec6650fab"
+  },
   "rows": [
     {
       "product": "anime-aggressors",
       "main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
-      "artifact_path_or_source": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/anime/builds/android/anime-aggressors-debug.apk",
       "artifact_sha256": "a6f7545e245c963109dcf1f196a50c222f66639f496bc8ba9c9003fa51a8501a",
       "package_id": "com.gunnchos.animeaggressors",
       "version": "0.3.7 (219)",
-      "signer_fingerprint_summary": "Android Debug cert sha256 b637ea5f982aa1d3\u2026",
-      "install_result": "NOT_ATTEMPTED_NO_ADB_DEVICE",
-      "launch_result": "NOT_ATTEMPTED",
-      "device_model": null,
-      "android_version": null,
-      "crash_count": null,
+      "signer_fingerprint_summary": "Android Debug b637ea5f982aa1d3\u2026",
+      "install_result": "Success",
+      "launch_result": "PASS_PID_RUNNING",
+      "device_model": "Pixel 6a",
+      "android_version": "17",
+      "first_screen_capture": "artifacts/acceptance/v3_1/pixel/local_install/anime_launch.png",
+      "embedded_sha_on_device": true,
+      "crash_count_sampled": "see logcat_sanitized.txt",
+      "status": "PASS_INSTALL_LAUNCH",
       "known_limitations": [
-        "ADB empty on automation host",
-        "online_hub_scene.gd parse warnings during export; APK still produced with embedded SHA"
-      ],
-      "status": "APK_READY_INSTALL_BLOCKED"
+        "Automated launch only; human Party/Arena/fun gates remain false"
+      ]
     },
     {
       "product": "pedestrian-pursuit",
       "main_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
-      "artifact_path_or_source": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/pedestrian/build/android/pedestrian-pursuit-debug.apk",
       "artifact_sha256": "a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd",
       "package_id": "com.gunnchos.pedestrianpursuit",
       "version": "0.4.3-race-experience-v3 (18)",
-      "signer_fingerprint_summary": "Android Debug cert sha256 b637ea5f982aa1d3\u2026",
-      "install_result": "NOT_ATTEMPTED_NO_ADB_DEVICE",
-      "launch_result": "NOT_ATTEMPTED",
-      "status": "APK_READY_INSTALL_BLOCKED",
+      "signer_fingerprint_summary": "Android Debug b637ea5f982aa1d3\u2026",
+      "install_result": "Success",
+      "launch_result": "PASS_PID_RUNNING",
+      "device_model": "Pixel 6a",
+      "android_version": "17",
+      "first_screen_capture": "artifacts/acceptance/v3_1/pixel/local_install/ped_launch.png",
+      "embedded_sha_on_device": true,
+      "status": "PASS_INSTALL_LAUNCH",
       "known_limitations": [
-        "PR #38 merged; Gate1 godot-headless green on tip; install awaits adb"
+        "Automated launch only; human Party Race gates remain false"
       ]
     },
     {
       "product": "device-os",
-      "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
       "status": "BLOCKED_NOT_EXACT_HEAD",
-      "install_result": "BLOCKED",
       "known_limitations": [
-        "Pilot APK provenance baseline_sha != current main"
+        "Pilot APK provenance != current main; not installed this pass"
       ]
     },
     {
       "product": "archive-of-life",
-      "main_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
-      "status": "REQUIRES_PHYSICAL_BROWSER_OR_REBUILD",
-      "known_limitations": [
-        "Prefer mobile web/PWA unless exact-head APK rebuilt from current main"
-      ]
+      "status": "REQUIRES_PHYSICAL_BROWSER_OR_REBUILD"
     },
     {
       "product": "3k-mlv",
-      "status": "REQUIRES_PHYSICAL_BROWSER",
-      "known_limitations": [
-        "web class; no native APK"
-      ]
+      "status": "REQUIRES_PHYSICAL_BROWSER"
     },
     {
       "product": "waike",
-      "status": "REQUIRES_PHYSICAL_BROWSER",
-      "known_limitations": [
-        "desktop/web class"
-      ]
+      "status": "REQUIRES_PHYSICAL_BROWSER"
     },
     {
       "product": "beatlink-party",
-      "status": "REQUIRES_PHYSICAL_BROWSER",
-      "known_limitations": [
-        "web class"
-      ]
+      "status": "REQUIRES_PHYSICAL_BROWSER"
     }
   ],
   "partylink_topology_note": "One Pixel cannot validate 8 humans; use display host + Pixel as P1 + other browsers."

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T21:49:21Z",
+  "generated_at": "2026-09-28T21:54:22Z",
   "schema": "v3_1_gate_census",
   "UNKNOWN_GATE_COUNT": 0,
   "FIXABLE_DIGITAL_FAILURE_COUNT": 0,
@@ -21,23 +21,24 @@
     "FIXABLE_DIGITAL_OPEN": 1
   },
   "yellow": [
-    "Owner claimed Pixel connected but this host still has empty adb devices / no USB Android gadget",
-    "Exact-head Anime+Pedestrian APKs ready locally; installs not performed",
-    "device-os pilot APK not exact-head vs current main",
-    "Some Anime tip wave/Windows jobs still in_progress at last poll"
+    "device-os exact-head APK not rebuilt/installed",
+    "Archive/MLV/WAIKE/BeatLink Pixel browser surfaces not exercised this pass",
+    "Human Party/Arena/fun/feel gates remain false"
   ],
   "green": [
-    "Pedestrian #38 MERGED; Gate1 godot-headless-no-false-green SUCCESS on 77a5413",
-    "Anime #115+#116 on main; exact-head APK exported with embedded SHA verified",
-    "PR106 salvage disposition complete"
+    "Pixel 6a bluejay Android 17 authorized on USB",
+    "Anime exact-head install+launch PASS (4b54b2c4 / a6f7545e\u2026)",
+    "Pedestrian exact-head install+launch PASS (77a5413 / a006f7c8\u2026)",
+    "Signer safety PASS (Android Debug b637ea5f\u2026)",
+    "Pedestrian #38 on main; Gate1 green"
   ],
   "terminal_gates": {
     "V3_1_CURRENT_MAIN_REBASELINE_PASS": true,
     "UNKNOWN_GATE_COUNT": 0,
     "FIXABLE_DIGITAL_FAILURE_COUNT": 0,
-    "PIXEL_CONNECTED_PASS": false,
+    "PIXEL_CONNECTED_PASS": true,
     "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
-    "PIXEL_SIGNER_SAFETY_PASS": false,
+    "PIXEL_SIGNER_SAFETY_PASS": true,
     "PIXEL_OWNER_TEST_PACKET_READY": true,
     "HUMAN_ACCEPTANCE_PACKET_REFRESHED": true,
     "ANIME_8_HUMAN_PHYSICAL_SESSION_PASS": false,
@@ -47,9 +48,10 @@
     "GLOBAL_DATA_COMPLETE": false,
     "RIGHTS_PROVENANCE_RELEASE_PASS": false,
     "REAL_RIC_FIELD_PASS": false,
-    "DIGITAL_ECOSYSTEM_V1_RELEASE_AUTHORIZED": false
+    "DIGITAL_ECOSYSTEM_V1_RELEASE_AUTHORIZED": false,
+    "PIXEL_EXACT_HEAD_CORE_GAMES_INSTALL_PASS": true
   },
-  "NEXT_MASTER_ACTION": "AUTHORIZE_PIXEL_ADB_ON_THIS_HOST_THEN_INSTALL_EXACT_HEAD_APKS",
+  "NEXT_MASTER_ACTION": "RUN_OWNER_FRIEND_AND_ASYNC_HUMAN_ACCEPTANCE",
   "fixable_digital_closed": [
     {
       "id": "PEDESTRIAN_GATE1_ONLINE_ARCH_SCOPE",
