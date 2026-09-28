@@ -1,0 +1,12 @@
+{
+  "main_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+  "npm_test": {
+    "passed": 337,
+    "failed": 1,
+    "suites_passed": 68,
+    "suites_failed": 1
+  },
+  "failing_test": "tests/system-layer/evaluation_harness.test.ts withinLatencyBudget",
+  "interpretation": "Local model eval exceeded latency budget. Not treated as live-provider qualification. Exact-SHA CI succeeded.",
+  "JEV_PRODUCTION_DEFAULT": false
+}

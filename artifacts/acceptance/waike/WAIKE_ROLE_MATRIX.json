@@ -1,0 +1,11 @@
+{
+  "roles": [
+    "learner",
+    "instructor",
+    "grader",
+    "guardian",
+    "admin"
+  ],
+  "automated_authz": "covered by WAIKE CI Gate C/D and hub authorization tests on main SHA",
+  "human_usability": false
+}

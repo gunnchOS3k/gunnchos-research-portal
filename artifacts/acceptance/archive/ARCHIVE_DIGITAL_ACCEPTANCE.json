@@ -1,0 +1,10 @@
+{
+  "main_sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+  "npm_test": {
+    "files": 29,
+    "tests": 134,
+    "failed": 0
+  },
+  "GLOBAL_DATA_COMPLETE": false,
+  "ALL_SPECIES_INGESTED": false
+}

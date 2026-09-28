@@ -1,0 +1,8 @@
+{
+  "live_party_session": false,
+  "local_socket_create_join_reconnect_harness": true,
+  "tests_passed": 151,
+  "classification": "REQUIRES_HUMAN",
+  "reason": "Local Socket.IO create/join/reconnect/rematch passed. Real two-device party fun remains human.",
+  "credentials": "ABSENT"
+}
