@@ -1,0 +1,26 @@
+{
+  "ASYNC_REMOTE_TESTER_PACKAGE_READY": true,
+  "ASYNC_REMOTE_HUMAN_RESULTS_RECEIVED": false,
+  "ASYNC_REMOTE_HUMAN_RESULTS_REVIEWED": false,
+  "tasks": [
+    "PartyLink join by QR/code",
+    "Player vs spectator",
+    "Controller experience",
+    "Arena / Race Director comprehension",
+    "Reconnect",
+    "Large-screen display",
+    "Universal shell on current host OS",
+    "Hardware Quartet concept/proxy only",
+    "ArchiveDex search + pagination + sources",
+    "Offline/degraded Archive behavior if exposed"
+  ],
+  "cannot_grant": [
+    "hardware EVT",
+    "Ring accuracy",
+    "universal display compatibility",
+    "rights clearance",
+    "institutional approval",
+    "scientific global completeness",
+    "real RF/RIC/carrier"
+  ]
+}

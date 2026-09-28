@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-28T20:57:43Z",
+  "RIGHTS_PROVENANCE_RELEASE_PASS": false,
+  "items": [
+    {
+      "asset_class": "code",
+      "classification": "AUTOMATED_CLEAR_BY_DOCUMENTED_LICENSE",
+      "notes": "repo LICENSE files; not a legal opinion"
+    },
+    {
+      "asset_class": "dependencies",
+      "classification": "AUTOMATED_CLEAR_BY_DOCUMENTED_LICENSE",
+      "notes": "inventory via package managers; no mass upgrade performed"
+    },
+    {
+      "asset_class": "Anime announcer/voice",
+      "classification": "REQUIRES_RIGHTS_REVIEW",
+      "notes": "owner/rightsholder if unresolved"
+    },
+    {
+      "asset_class": "BeatLink commercial music",
+      "classification": "REQUIRES_RIGHTS_REVIEW",
+      "notes": "no Spotify gameplay claim"
+    },
+    {
+      "asset_class": "Archive scientific sources/media",
+      "classification": "BLOCKED_EXTERNAL_DATA",
+      "notes": "IUCN/media REQUIRES_RIGHTS_REVIEW; COL/GBIF/etc blocked external data"
+    },
+    {
+      "asset_class": "AI-generated assets",
+      "classification": "REQUIRES_RIGHTS_REVIEW",
+      "notes": "review queue"
+    }
+  ]
+}

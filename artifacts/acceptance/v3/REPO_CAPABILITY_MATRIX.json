@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-09-28T20:57:43Z",
+  "repos": [
+    {
+      "repository": "gunnchOS3k/gunnchos-research-portal",
+      "live_main": "003aa242aeac5089bb2cc4ad86383a534cba66e0",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-device-os",
+      "live_main": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/3k-mlv",
+      "live_main": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "live_main": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchAI3k",
+      "live_main": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-7gc-ai-ran-field-kit",
+      "live_main": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/7gc-digital-twin",
+      "live_main": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/spectrumx-ai-ran-gary",
+      "live_main": "9591d6a135ccdb37dfd1ea489e6837ec3dde288d",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/edge-io-measurement-node",
+      "live_main": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/anime-aggressors",
+      "live_main": "ea9c3c60ee52a8e814688805cc0a454053c9baa5",
+      "drift_from_v3_prompt_pin": true,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "live_main": "9505edb6839f75c381054833d7f9989b77ca057b",
+      "drift_from_v3_prompt_pin": true,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/archive-of-life-artifact-world",
+      "live_main": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "drift_from_v3_prompt_pin": true,
+      "notes": "on origin/main"
+    },
+    {
+      "repository": "gunnchOS3k/beatlink-party",
+      "live_main": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "drift_from_v3_prompt_pin": false,
+      "notes": "on origin/main"
+    }
+  ],
+  "draft_only_defect_prs": [
+    {
+      "repo": "anime-aggressors",
+      "pr": 115,
+      "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/115",
+      "purpose": "web CI PartyLink module resolution",
+      "merged": false
+    }
+  ],
+  "merged_v3_scope_now_on_main": [
+    {
+      "repo": "anime-aggressors",
+      "pr": 114,
+      "main": "ea9c3c60ee52a8e814688805cc0a454053c9baa5"
+    },
+    {
+      "repo": "pedestrian-pursuit",
+      "pr": 37,
+      "main": "9505edb6839f75c381054833d7f9989b77ca057b"
+    },
+    {
+      "repo": "archive-of-life-artifact-world",
+      "pr": 42,
+      "main": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1"
+    },
+    {
+      "repo": "3k-mlv",
+      "pr": 5,
+      "main": "94cba498f7b6b4b78825af16d9ed403bdb617eaf"
+    },
+    {
+      "repo": "gunnchos-device-os",
+      "pr": 168,
+      "main": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f"
+    }
+  ]
+}

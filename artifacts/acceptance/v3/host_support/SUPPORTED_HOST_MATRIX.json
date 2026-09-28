@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-09-28T20:57:43Z",
+  "MLV_HOST_NEUTRAL_ARCHITECTURE_PASS": true,
+  "MLV_HOST_CAPABILITY_ADAPTER_PASS": true,
+  "MLV_CORE_WORLD_NO_GUNNCHOS_HARD_DEPENDENCY_PASS": true,
+  "MLV_HOST_PRIVACY_PARITY_PASS": true,
+  "MLV_SUPPORTED_HOST_MATRIX_PUBLISHED": true,
+  "hosts": [
+    {
+      "host": "gunnchOS",
+      "status": "AUTOMATED_PASS",
+      "evidence": "device-os #168 continuity + MLV #5"
+    },
+    {
+      "host": "browser/PWA",
+      "status": "AUTOMATED_PASS",
+      "evidence": "MLV web/privacy CI"
+    },
+    {
+      "host": "macOS",
+      "status": "NOT_TESTED",
+      "evidence": "no dedicated host soak in this pass"
+    },
+    {
+      "host": "Windows",
+      "status": "HUMAN_REQUIRED",
+      "evidence": "Windows pilot workflows exist; human confirmation required"
+    },
+    {
+      "host": "Linux",
+      "status": "NOT_TESTED",
+      "evidence": "no dedicated host soak in this pass"
+    },
+    {
+      "host": "Android",
+      "status": "HUMAN_REQUIRED",
+      "evidence": "capsule/Android paths exist; Pixel install REQUIRES_PHYSICAL"
+    }
+  ],
+  "claim_boundary": "Neutral architecture \u2260 every OS supported. Only exercised rows may pass."
+}

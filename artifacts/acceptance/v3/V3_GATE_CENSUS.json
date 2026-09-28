@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-28T20:57:43Z",
+  "MASTER_ACCEPTANCE_V3_PREREQUISITES_PASS": true,
+  "classification_census": {
+    "PASS_WITH_EVIDENCE": 12,
+    "REQUIRES_HUMAN": 6,
+    "BLOCKED_EXTERNAL_DATA": 1,
+    "REQUIRES_SCIENTIFIC_REVIEW": 1,
+    "REQUIRES_PHYSICAL": 3,
+    "BLOCKED_EXTERNAL": 1,
+    "REQUIRES_RIGHTS_REVIEW": 2,
+    "REQUIRES_INSTITUTIONAL_PILOT": 1
+  },
+  "unknown_gate_count": 0,
+  "yellow": [
+    "Anime #114 post-merge web CI FAILED on main (fix in draft #115)",
+    "Pedestrian #37 post-merge CI still pending/queued at report time"
+  ],
+  "green": [
+    "PartyLink Anime/Pedestrian on main with digital 2/4/6/8 evidence",
+    "Archive GKIP engineering on main",
+    "Quartet + universal shell on MLV/device-os main"
+  ],
+  "missing_or_requires_human_physical": [
+    "Pixel exact-head install",
+    "Owner/friend Party Mode sessions",
+    "Rights clearance",
+    "Live gunnchAI provider",
+    "Real RF/RIC/carrier",
+    "Approved scientific source snapshots"
+  ]
+}
