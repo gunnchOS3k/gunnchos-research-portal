@@ -1,0 +1,10 @@
+{
+  "REAL_CAMPUS_MEASUREMENT_PASS": false,
+  "REAL_TWIN_CALIBRATION_PASS": false,
+  "SHADOW_RIC_VALIDATION_PASS": false,
+  "AUTHORIZED_TESTBED_CANARY_PASS": false,
+  "O_RAN_E2_ACTUATION_PASS": false,
+  "PRODUCTION_RIC_CONTROL_PASS": false,
+  "CARRIER_GRADE_PASS": false,
+  "reason": "No authentic authorized facility/testbed evidence in this run."
+}

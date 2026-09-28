@@ -1,0 +1,5 @@
+{
+  "gunnchai_npm_audit_this_run": "77 vulnerabilities reported by npm audit after npm ci (9 low / 36 moderate / 31 high / 1 critical). Not silently upgraded.",
+  "no_large_dependency_upgrades": true,
+  "owner_review": true
+}

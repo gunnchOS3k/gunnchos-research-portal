@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-09-28T17:00:32Z",
+  "control_plane_branch": "acceptance/master-automation-exhaustion-v1",
+  "control_plane_worktree": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_acceptance_exhaustion_worktrees/portal",
+  "pixel_connected": true,
+  "pixel_model": "Pixel 6a",
+  "pixel_serial_redacted_class": "device attached via adb; serial recorded only in local adb output",
+  "hosted_credentials_present": false,
+  "jev_credentials_present": false,
+  "stacked_merges_not_on_main": {
+    "3k-mlv_pr2": {
+      "pr": "https://github.com/gunnchOS3k/3k-mlv/pull/2",
+      "head": "5ce416d25f7821ee5506be1a60fd30315372956c",
+      "merge": "3f70f409b6315ae929b6231e653f56a9b84ffd16",
+      "base": "revival/gunnchos-world-workspace-v1",
+      "on_main": false
+    },
+    "3k-mlv_pr3": {
+      "pr": "https://github.com/gunnchOS3k/3k-mlv/pull/3",
+      "head": "60fd7173d8e2fbe5dabe7f77cdccd2ba3abdcc78",
+      "merge": "bc3bb3c3835d5f3c0513b70770256a829d597e86",
+      "base": "world/home-7gc-campus-gallery-v2",
+      "on_main": false
+    },
+    "device-os_pr166": {
+      "pr": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/166",
+      "head": "88ef2f8e6e4e8235bfef4fd32b8d22cec89f0e04",
+      "merge": "43384c9a061aa983df159d13738c1fb85dea7e42",
+      "base": "integration/3k-mlv-world-workspace-v1",
+      "on_main": false
+    },
+    "anime_pr112": {
+      "pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/112",
+      "head": "ebfe932fa18c1a1041f485327ee1199197f1886f",
+      "merge": "82c35459a0ef35f94f16d5dbb7b9aeff214c3610",
+      "base": "presentation/select-announcer-critical-launch-v1",
+      "on_main": false
+    },
+    "pedestrian_pr35": {
+      "pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/35",
+      "head": "df2fec1dd1f41f406a5b9ad136609ae8edcf2f96",
+      "merge": "2c5637f7d805aefed2f2d7495c87286b28831633",
+      "base": "gamefeel/camera-direction-dynamic-chase-v2",
+      "on_main": false
+    }
+  },
+  "repos": [
+    {
+      "repository": "gunnchOS3k/gunnchos-research-portal",
+      "expected_main_at_prompt": "003aa242aeac5089bb2cc4ad86383a534cba66e0",
+      "live_main": "003aa242aeac5089bb2cc4ad86383a534cba66e0",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-device-os",
+      "expected_main_at_prompt": "6d57bde0f3f2cfeb1f2afa00319957b6c1c3bb51",
+      "live_main": "6d57bde0f3f2cfeb1f2afa00319957b6c1c3bb51",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": [
+        {
+          "number": 165,
+          "state": "MERGED",
+          "base": "main",
+          "on_live_main": true,
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/165"
+        },
+        {
+          "number": 166,
+          "state": "MERGED",
+          "base": "integration/3k-mlv-world-workspace-v1",
+          "on_live_main": false,
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/pull/166",
+          "note": "stacked merge; Campus/WAIKE/Network Twin continuity not on origin/main"
+        }
+      ]
+    },
+    {
+      "repository": "gunnchOS3k/3k-mlv",
+      "expected_main_at_prompt": "da5bf53e8a89bb331f9a65df1698278dda072871",
+      "live_main": "da5bf53e8a89bb331f9a65df1698278dda072871",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": [
+        {
+          "number": 1,
+          "state": "MERGED",
+          "base": "main",
+          "on_live_main": true,
+          "url": "https://github.com/gunnchOS3k/3k-mlv/pull/1"
+        },
+        {
+          "number": 2,
+          "state": "MERGED",
+          "base": "revival/gunnchos-world-workspace-v1",
+          "on_live_main": false,
+          "url": "https://github.com/gunnchOS3k/3k-mlv/pull/2",
+          "note": "stacked merge; Campus V2 not on origin/main"
+        },
+        {
+          "number": 3,
+          "state": "MERGED",
+          "base": "world/home-7gc-campus-gallery-v2",
+          "on_live_main": false,
+          "url": "https://github.com/gunnchOS3k/3k-mlv/pull/3",
+          "note": "stacked merge; Network Twin not on origin/main"
+        }
+      ]
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "expected_main_at_prompt": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "live_main": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/waike-research-ops",
+      "expected_main_at_prompt": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "live_main": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/gunnchAI3k",
+      "expected_main_at_prompt": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "live_main": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-7gc-ai-ran-field-kit",
+      "expected_main_at_prompt": "4aa2b3228b98ef3b61c10d6385e8aa268f5cf7a3",
+      "live_main": "4aa2b3228b98ef3b61c10d6385e8aa268f5cf7a3",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/edge-io-measurement-node",
+      "expected_main_at_prompt": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "live_main": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/7gc-digital-twin",
+      "expected_main_at_prompt": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "live_main": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/spectrumx-ai-ran-gary",
+      "expected_main_at_prompt": "9591d6a135ccdb37dfd1ea489e6837ec3dde288d",
+      "live_main": "9591d6a135ccdb37dfd1ea489e6837ec3dde288d",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/anime-aggressors",
+      "expected_main_at_prompt": "f2e69a523e1a773d9a142b0b70f94966a25ffdca",
+      "live_main": "f2e69a523e1a773d9a142b0b70f94966a25ffdca",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": [
+        {
+          "number": 112,
+          "state": "MERGED",
+          "base": "presentation/select-announcer-critical-launch-v1",
+          "on_live_main": false,
+          "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/112"
+        },
+        {
+          "number": 106,
+          "state": "OPEN",
+          "isDraft": true,
+          "base": "unknown",
+          "on_live_main": false,
+          "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/106",
+          "note": "authored-animation R&D; excluded from release baseline"
+        }
+      ]
+    },
+    {
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "expected_main_at_prompt": "ba87f8368ee0e2296ea0b90ac69c6bc94490e898",
+      "live_main": "ba87f8368ee0e2296ea0b90ac69c6bc94490e898",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": [
+        {
+          "number": 35,
+          "state": "MERGED",
+          "base": "gamefeel/camera-direction-dynamic-chase-v2",
+          "on_live_main": false,
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/35"
+        }
+      ]
+    },
+    {
+      "repository": "gunnchOS3k/archive-of-life-artifact-world",
+      "expected_main_at_prompt": "03d734453f040e3081e763277e2c15aa62ef095e",
+      "live_main": "03d734453f040e3081e763277e2c15aa62ef095e",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    },
+    {
+      "repository": "gunnchOS3k/beatlink-party",
+      "expected_main_at_prompt": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "live_main": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "drift_detected": false,
+      "expected_is_ancestor_of_live": true,
+      "default_branch": "main",
+      "working_tree_source": "isolated worktree under repos/_acceptance_exhaustion_worktrees (owner dirty checkout untouched)",
+      "owner_dirty": true,
+      "open_prs_relevant_to_acceptance": []
+    }
+  ],
+  "claim_boundary": "SHAs verified via git fetch + gh pr view on 2026-09-28. GitHub MERGED does not imply the work is on origin/main when base was a stacked branch."
+}

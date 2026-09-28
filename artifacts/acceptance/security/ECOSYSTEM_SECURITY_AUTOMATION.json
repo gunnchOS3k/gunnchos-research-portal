@@ -1,0 +1,7 @@
+{
+  "mlv_privacy_tests": "16 passed on main",
+  "waike_authz_ci": true,
+  "no_ric_actuation_from_browser": true,
+  "hosted_supabase": "BLOCKED_EXTERNAL",
+  "owner_security_review": false
+}

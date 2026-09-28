@@ -1,0 +1,8 @@
+{
+  "PRIVATE_default": true,
+  "friend_not_acl": true,
+  "gallery_public_only": true,
+  "explicit_publish": true,
+  "tests_passed": 16,
+  "claim_boundary": "Proven on origin/main privacy harness only."
+}

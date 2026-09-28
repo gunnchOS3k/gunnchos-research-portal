@@ -1,0 +1,7 @@
+{
+  "product": "gunnchOS",
+  "main_sha": "6d57bde0f3f2cfeb1f2afa00319957b6c1c3bb51",
+  "android_rebuild_this_run": false,
+  "reason": "Exact current-main APK/AAB not rebuilt in this exhaustion pass. Pixel has com.gunnchos.capsule.debug installed; identity vs this SHA not proven. physical_install_status=NOT_REBUILT.",
+  "windows_pilot0_ci": "https://github.com/gunnchOS3k/gunnchos-device-os/actions/runs/36285814265"
+}

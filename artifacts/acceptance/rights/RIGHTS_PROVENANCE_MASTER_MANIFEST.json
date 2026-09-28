@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-28T17:00:32Z",
+  "legal_opinion": false,
+  "assets": [
+    {
+      "asset": "source code",
+      "product": "portfolio",
+      "source": "repos",
+      "license": "MIT (sampled portal LICENSE)",
+      "attribution_required": true,
+      "redistribution_status": "see LICENSE",
+      "evidence": "LICENSE files",
+      "classification": "AUTOMATED_CLEAR_BY_DOCUMENTED_LICENSE"
+    },
+    {
+      "asset": "BeatLink music/audio",
+      "product": "BeatLink Party",
+      "source": "content/",
+      "license": "unknown/mixed",
+      "attribution_required": true,
+      "redistribution_status": "unknown",
+      "evidence": "inventory incomplete for legal clearance",
+      "classification": "REQUIRES_RIGHTS_REVIEW"
+    },
+    {
+      "asset": "Anime announcer/voice",
+      "product": "Anime Aggressors",
+      "source": "game audio",
+      "license": "unknown",
+      "attribution_required": true,
+      "redistribution_status": "unknown",
+      "evidence": "placeholder TTS likely",
+      "classification": "REQUIRES_RIGHTS_REVIEW"
+    },
+    {
+      "asset": "Anime models/textures/animation",
+      "product": "Anime Aggressors",
+      "source": "art pipeline + PR106 excluded",
+      "license": "mixed CC0 candidate / unreviewed",
+      "attribution_required": true,
+      "redistribution_status": "unknown",
+      "evidence": "main art-pipeline vs stacked 161",
+      "classification": "REQUIRES_RIGHTS_REVIEW"
+    },
+    {
+      "asset": "Archive scientific datasets",
+      "product": "Archive of Life",
+      "source": "COL/GBIF/IUCN/etc",
+      "license": "source-specific",
+      "attribution_required": true,
+      "redistribution_status": "unknown",
+      "evidence": "ingest pipeline",
+      "classification": "REQUIRES_RIGHTS_REVIEW"
+    },
+    {
+      "asset": "WAIKE curriculum",
+      "product": "WAIKE",
+      "source": "authored tracks",
+      "license": "internal educational",
+      "attribution_required": true,
+      "redistribution_status": "not public distribution by default",
+      "evidence": "18-track matrix",
+      "classification": "NOT_DISTRIBUTED"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "on_current_main": false,
+  "stacked_digital_shadow_only": true,
+  "REAL_ACTUATION_ENABLED": false,
+  "CAMPUS_DESIGN_EXPORT_SCHEMA_PASS": "7/7 stacked",
+  "backend_pins_on_their_mains": true
+}

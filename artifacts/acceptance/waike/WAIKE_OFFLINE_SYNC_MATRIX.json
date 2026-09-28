@@ -1,0 +1,5 @@
+{
+  "ci_offline_dimension": "present in GATE_D matrix (per-track offline YES/NO)",
+  "DIGITAL_CONFIDENCE_offline_pack": "missing/shared in learner readiness artifact",
+  "human": false
+}
