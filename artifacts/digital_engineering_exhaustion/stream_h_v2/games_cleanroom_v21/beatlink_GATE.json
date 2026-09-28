@@ -1,0 +1,112 @@
+{
+  "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED": false,
+  "HUMAN_FUN_BALANCE_FEEL": "HUMAN_VALIDATION_REQUIRED",
+  "RIGHTS_CLEARANCE_COMPLETE": false,
+  "RIGHTS_QUARANTINE_ACTIVE": true,
+  "accepted_main_sha": "22a21a411463344450f121d281b3a0dba27f1c56",
+  "blockers": [
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "save_load",
+      "evidence": "session resume tests in wave007/vitest"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "menus",
+      "evidence": "web UI create-room flows"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "input",
+      "evidence": "device UX package"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "pause_resume",
+      "evidence": "session resume A/B/C"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "crash_recovery",
+      "evidence": "reconnect / network failure tests"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "persistence",
+      "evidence": "session resume tests in wave007/vitest"
+    },
+    {
+      "blocker_class": "PHYSICAL_HARDWARE_REQUIRED",
+      "dimension": "frame_pacing",
+      "evidence": "device timing profile needs hardware"
+    },
+    {
+      "blocker_class": "PHYSICAL_HARDWARE_REQUIRED",
+      "dimension": "leaks",
+      "evidence": "needs soak on device"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "resolution",
+      "evidence": "viewport responsive tests in wave007"
+    },
+    {
+      "blocker_class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+      "dimension": "audio",
+      "evidence": "synthetic catalog + rights gate; commercial playback not licensed"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "a11y",
+      "evidence": "a11y not disability-validated"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "local_multiplayer",
+      "evidence": "multi-client browser tests"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "networking",
+      "evidence": "pnpm test (full suite) + network packages"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "offline",
+      "evidence": "degraded network paths; full offline party limited"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "install_update",
+      "evidence": "web/server deploy"
+    },
+    {
+      "blocker_class": "PHYSICAL_HARDWARE_REQUIRED",
+      "dimension": "android",
+      "evidence": "no adb device"
+    },
+    {
+      "blocker_class": "LEGAL_RIGHTS_REVIEW_REQUIRED",
+      "dimension": "rights",
+      "evidence": "204 quarantined assets"
+    },
+    {
+      "blocker_class": "HUMAN_VALIDATION_REQUIRED",
+      "dimension": "fun_balance_feel",
+      "evidence": "playtest task sheets are templates only"
+    }
+  ],
+  "evaluated_at": "2026-09-18T21:24:55.287354+00:00",
+  "failures": [
+    "build",
+    "launch",
+    "loading",
+    "asset_validation"
+  ],
+  "game_id": "beatlink-party",
+  "host": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.7"
+  },
+  "unclassified_partial": []
+}

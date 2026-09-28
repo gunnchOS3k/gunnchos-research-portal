@@ -1,0 +1,104 @@
+{
+  "schema": "gunnchos.device_os.diagnostic_bundle.v1",
+  "type": "object",
+  "required": [
+    "bundle_id",
+    "created_at",
+    "os_version",
+    "device_class",
+    "build_sha",
+    "self_tests",
+    "redaction_profile"
+  ],
+  "properties": {
+    "bundle_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "os_version": {
+      "type": "string"
+    },
+    "device_class": {
+      "type": "string"
+    },
+    "build_sha": {
+      "type": "string"
+    },
+    "self_tests": {
+      "type": "object",
+      "properties": {
+        "network": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "skip"
+          ]
+        },
+        "storage": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "skip"
+          ]
+        },
+        "update": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "skip"
+          ]
+        },
+        "ring": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "skip"
+          ]
+        },
+        "dock": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "skip"
+          ]
+        },
+        "thermal_soft": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "skip"
+          ]
+        }
+      }
+    },
+    "fault_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "journal_snippet_sha256": {
+      "type": "string"
+    },
+    "redaction_profile": {
+      "enum": [
+        "strict",
+        "standard"
+      ]
+    },
+    "contains_pii": {
+      "type": "boolean"
+    },
+    "claim_boundary": {
+      "const": "DIGITAL_SCHEMA_NOT_FIELD_VALIDATED"
+    }
+  }
+}

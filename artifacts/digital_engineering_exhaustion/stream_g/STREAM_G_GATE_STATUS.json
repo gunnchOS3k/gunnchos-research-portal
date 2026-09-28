@@ -1,0 +1,65 @@
+{
+  "schema": "gunnchos.digital_engineering_exhaustion.stream_g.gates.v1",
+  "generated_at": "2026-09-18T18:33:52Z",
+  "stream": "G",
+  "gates": {
+    "SUPPORT_ENGINEERING_PREP_EXHAUSTED": {
+      "value": true,
+      "earned_by": "stream_g",
+      "claim_boundary": "Digital prep only \u2014 no human-validated support ops, no commercial warranty, no depot SLA.",
+      "evidence": [
+        "gunnchos-device-os artifacts/digital_engineering_exhaustion/stream_g/SUPPORT_ENGINEERING_PREP_GATE.json",
+        "gunnchos-hardware-industrial-design artifacts/digital_engineering_exhaustion/stream_g/FRU_WARRANTY_PACK.json",
+        "portal artifacts/digital_engineering_exhaustion/stream_g/support/"
+      ]
+    },
+    "DOCUMENTATION_ENGINEERING_EXHAUSTED": {
+      "value": true,
+      "earned_by": "stream_g",
+      "claim_boundary": "Newcomer packs + missing policy files delivered as digital engineering. Human readability validation remains HUMAN_VALIDATION_REQUIRED.",
+      "evidence": [
+        "portal artifacts/digital_engineering_exhaustion/stream_g/DOCUMENTATION_MATRIX.json",
+        "per-repo docs/stream_g/NEWCOMER_PACK.md (via draft PRs)"
+      ]
+    },
+    "DIGITAL_ENGINEERING_EXHAUSTED": {
+      "value": false,
+      "reason": "Depends on Streams A\u2013F (and CONTROL/H) independently earning their section-23 gates. Stream G does not fabricate peer completion."
+    },
+    "READY_TO_BEGIN_FULL_HUMAN_VALIDATION": {
+      "value": false,
+      "reason": "Requires SOFTWARE_V1_PRE_HUMAN_ENGINEERING_EXHAUSTED, ALL_AUTOMATABLE_USER_JOURNEYS_PASS, HUMAN_VALIDATION_INFRASTRUCTURE_READY, HUMAN_REFINEMENT_LOOP_READY, and peer stream gates. Not independently verified by Stream G."
+    }
+  },
+  "dependencies_on_other_streams": {
+    "A": [
+      "SOFTWARE_V1_PRE_HUMAN_ENGINEERING_EXHAUSTED",
+      "ALL_AUTOMATABLE_USER_JOURNEYS_PASS",
+      "HUMAN_VALIDATION_INFRASTRUCTURE_READY",
+      "HUMAN_REFINEMENT_LOOP_READY",
+      "OPEN_PR_ENGINEERING_HYGIENE_PASS"
+    ],
+    "B": [
+      "WAIKE_DIGITAL_ENGINEERING_EXHAUSTED",
+      "GUNNCHAI_PRE_HUMAN_ENGINEERING_EXHAUSTED"
+    ],
+    "C": [
+      "GAMES_PRE_HUMAN_PLAYTEST_ENGINEERING_EXHAUSTED"
+    ],
+    "D": [
+      "GXE_SIMULATION_ENGINEERING_EXHAUSTED"
+    ],
+    "E": [
+      "NXP_OPEN_CUSTOM_DIGITAL_ENGINEERING_EXHAUSTED",
+      "AMD_PUBLIC_ENGINEERING_EXHAUSTED",
+      "RINGS_DIGITAL_ENGINEERING_EXHAUSTED",
+      "DOCK_DIGITAL_ENGINEERING_EXHAUSTED"
+    ],
+    "F": [
+      "MECHANICAL_DIGITAL_ENGINEERING_EXHAUSTED",
+      "PHYSICAL_VALIDATION_ENGINEERING_PREP_EXHAUSTED",
+      "CERTIFICATION_ENGINEERING_PREP_EXHAUSTED",
+      "MANUFACTURING_ENGINEERING_PREP_EXHAUSTED"
+    ]
+  }
+}
