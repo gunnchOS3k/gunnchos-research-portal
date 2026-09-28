@@ -1,0 +1,9 @@
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+✔ Copying web assets from dist to android/app/src/main/assets/public in 80.34ms
+✔ Creating capacitor.config.json in android/app/src/main/assets in 394.33μs
+✔ copy android in 87.03ms
+✔ Updating Android plugins in 789.83μs
+[info] Found 1 Capacitor plugin for android:
+       @capacitor/app@6.0.3
+✔ update android in 20.34ms
+[info] Sync finished in 0.114s

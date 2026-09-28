@@ -1,0 +1,5 @@
+Building anime at 72e5dada4e557b42b6abb8c85f218f0a5b3d2e35
+EXIT:0
+EXIT:0
+-rw-r--r--@ 1 gunnchos  staff    91M Sep 28 17:32 builds/android/anime-aggressors-debug.apk
+69c87a30c6b3240fa49e5e703d51218a73bff63d304c617651f7868ca919fa7a  builds/android/anime-aggressors-debug.apk

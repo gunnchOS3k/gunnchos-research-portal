@@ -1,0 +1,4 @@
+
+> @beatlink/shared@0.1.0 build /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/beatlink/packages/shared
+> tsc -p tsconfig.json
+

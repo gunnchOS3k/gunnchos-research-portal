@@ -1,0 +1,67 @@
+
+> 3k-mlv@1.0.0 test /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv
+> node --test tests/privacy/*.test.mjs tests/campus/*.test.mjs tests/network_twin/*.test.mjs
+
+▶ 7GC campus source fidelity
+  ✔ parses the committed canonical manifest (0.376375ms)
+  ✔ fails if a canonical requirement disappears (0.385666ms)
+  ✔ every requirement maps source → phase → digital object/route → function → evidence (0.344958ms)
+  ✔ keeps local room programs non-generic (0.124542ms)
+  ✔ covers all seven phase models (0.06475ms)
+  ✔ keeps human / pixel / merge gates false (0.062541ms)
+  ✔ does not imply physical campuses or a WAIKE Antarctic station (0.113584ms)
+✔ 7GC campus source fidelity (2.028334ms)
+▶ Network Twin parent regressions
+  ✔ keeps seven canonical nodes and 473 coverage (0.645ms)
+  ✔ does not change the Campus V2 source-version identifier (4.316333ms)
+  ✔ preserves Gaza and Graham truth (0.175625ms)
+✔ Network Twin parent regressions (5.71ms)
+▶ Network Twin contracts
+  ✔ exports schema-valid design bundles for 7/7 campuses (8.8415ms)
+  ✔ consumes pinned Phase-1 optimization fixtures for 7/7 (12.555667ms)
+  ✔ pins live backend and WAIKE heads (4.9335ms)
+✔ Network Twin contracts (26.991083ms)
+▶ Network Twin UX and privacy
+  ✔ keeps Network Twin inside Campus navigation (0.272167ms)
+  ✔ is planning-only and has no browser actuation (0.794417ms)
+  ✔ labels synthetic evidence honestly (0.084125ms)
+  ✔ does not join learner records into optimization (0.708458ms)
+  ✔ preserves WAIKE contract truth (0.198167ms)
+  ✔ keeps human / pixel / merge / physical gates false (5.35225ms)
+✔ Network Twin UX and privacy (7.670791ms)
+▶ Campus / Gallery / study-room privacy
+  ✔ campus presence does not expose Home PRIVATE files (0.49425ms)
+  ✔ Gallery is PUBLIC only (0.102125ms)
+  ✔ public project edits use a private working copy (0.10675ms)
+  ✔ study room ACL is explicit; friend != ACL (0.113875ms)
+  ✔ Gaza sensitive-location suppression holds (0.751292ms)
+  ✔ evidence metadata carries no secrets (0.660541ms)
+  ✔ WAIKE campus surfaces do not invent LMS rows (0.895667ms)
+  ✔ campus and gallery deep links parse without tokens (0.223833ms)
+✔ Campus / Gallery / study-room privacy (4.085333ms)
+▶ Alice / Bob / anonymous privacy harness
+  ✔ upload defaults PRIVATE (0.865709ms)
+  ✔ owner can read PRIVATE (0.198084ms)
+  ✔ other user cannot read PRIVATE (0.19175ms)
+  ✔ anonymous cannot read PRIVATE (0.136541ms)
+  ✔ PRIVATE is absent to visitors, not a locked placeholder (0.157458ms)
+  ✔ non-owner cannot mutate node (0.146166ms)
+  ✔ placement cannot expose PRIVATE (1.583125ms)
+  ✔ anonymous cannot read SHARED by UUID (0.154583ms)
+  ✔ valid SHARED token opens exactly the intended node (0.201208ms)
+  ✔ SHARED is excluded from public discovery (0.212542ms)
+  ✔ publish requires explicit confirmation (0.19425ms)
+  ✔ anonymous may discover and read PUBLIC (0.076125ms)
+  ✔ unpublish removes public access (0.073042ms)
+  ✔ revoked token fails (0.0815ms)
+  ✔ expired token fails (0.0845ms)
+  ✔ gunnchOS deep link opens MLV home/node routes (0.39975ms)
+✔ Alice / Bob / anonymous privacy harness (5.877375ms)
+ℹ tests 43
+ℹ suites 6
+ℹ pass 43
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 127.396667

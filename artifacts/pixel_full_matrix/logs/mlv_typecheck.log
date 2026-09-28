@@ -1,0 +1,8 @@
+
+> 3k-mlv@1.0.0 type-check /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv
+> pnpm --filter mlv-web type-check
+
+
+> mlv-web@0.0.0 type-check /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv/apps/mlv-web
+> tsc --noEmit
+

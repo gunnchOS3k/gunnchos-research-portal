@@ -1,0 +1,11 @@
+
+> 3k-mlv@1.0.0 preview /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv
+> pnpm --filter mlv-web preview --host --port 4174
+
+
+> mlv-web@0.0.0 preview /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv/apps/mlv-web
+> vite preview --host --port 4174
+
+  ➜  Local:   http://localhost:4174/3k-mlv/
+  ➜  Network: http://10.33.33.1:4174/3k-mlv/
+  ➜  Network: http://10.110.10.148:4174/3k-mlv/

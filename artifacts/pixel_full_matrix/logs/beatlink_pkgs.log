@@ -1,0 +1,5 @@
+Scope: 2 of 6 workspace projects
+packages/shared build$ tsc -p tsconfig.json
+packages/shared build: Done
+packages/game-engine build$ tsc -p tsconfig.json
+packages/game-engine build: Done
