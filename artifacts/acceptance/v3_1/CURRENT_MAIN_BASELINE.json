@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-09-28T21:33:28Z",
+  "control_plane_branch": "acceptance/v3-1-post-salvage-pixel-prehuman",
+  "control_plane_worktree": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/portal",
+  "playbook": "CURSOR_V3_1_POST_SALVAGE_PIXEL_PREHUMAN_CLOSURE",
+  "historical_v3_preserved_at": "artifacts/acceptance/v3/",
+  "supersedes_stale_v3_facts_without_overwrite": [
+    "Anime #115 was draft-only \u2192 now MERGED (1dcbf7af)",
+    "Anime main pre-#115 \u2192 now 4b54b2c4 includes #115+#116",
+    "FIXABLE_DIGITAL_FAILURE_COUNT Anime web \u2192 closed by #115; new Pedestrian Gate1 failure opened",
+    "Pixel connected=false \u2192 still false this pass (REQUIRES_PHYSICAL)"
+  ],
+  "prerequisites": {
+    "V3_1_POST_SALVAGE_PRECONDITIONS_PASS": true,
+    "anime_pr115_merged_on_main": true,
+    "anime_pr116_salvage_forward_port_merged_on_main": true,
+    "anime_pr106_closed_superseded": true,
+    "partylink_anime_pr114_merged_on_main": true,
+    "partylink_pedestrian_pr37_merged_on_main": true,
+    "archive_global_ingestion_pr42_merged_on_main": true,
+    "quartet_mlv_pr5_merged_on_main": true,
+    "quartet_device_os_pr168_merged_on_main": true,
+    "portal_v3_packet_pr47_merged_on_main": true,
+    "pixel_connected": false,
+    "anime_main": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+    "pedestrian_main": "9505edb6839f75c381054833d7f9989b77ca057b",
+    "archive_main": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+    "mlv_main": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+    "device_os_main": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+    "portal_main": "e1d349d6c68928efa563edccc5993695d69f37cd",
+    "ancestors": {
+      "anime_115_1dcbf7af": true,
+      "anime_116_386c9917": true,
+      "anime_114_ea9c3c60": true,
+      "pedestrian_37_9505edb": true,
+      "archive_42_23ce4da": true,
+      "mlv_5_94cba498": true,
+      "device_os_168_2ae070fd": true
+    }
+  },
+  "pr106_salvage_disposition": {
+    "audit_playbook": "CURSOR_ANIME_PR106_SALVAGE_FORWARD_PORT_AUDIT.md",
+    "forward_port_pr": "https://github.com/gunnchOS3k/anime-aggressors/pull/116",
+    "forward_port_state": "MERGED",
+    "forward_port_merge_commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+    "legacy_pr106": "https://github.com/gunnchOS3k/anime-aggressors/pull/106",
+    "legacy_pr106_state": "CLOSED",
+    "disposition": "FORWARD_PORT_MERGED_LEGACY_106_SUPERSEDED"
+  },
+  "repos": [
+    {
+      "repository": "gunnchOS3k/gunnchos-research-portal",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
+      "expected_main_at_v3": "003aa242aeac5089bb2cc4ad86383a534cba66e0",
+      "live_main": "e1d349d6c68928efa563edccc5993695d69f37cd",
+      "drift_from_v3": true,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-device-os",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-device-os",
+      "expected_main_at_v3": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "live_main": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/3k-mlv",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_quartet_worktrees/3k-mlv",
+      "expected_main_at_v3": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "live_main": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_rc1_release_worktrees/gunnchos-waike-learning-platform",
+      "expected_main_at_v3": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "live_main": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchAI3k",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchAI3k",
+      "expected_main_at_v3": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "live_main": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/gunnchos-7gc-ai-ran-field-kit",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-7gc-ai-ran-field-kit",
+      "expected_main_at_v3": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "live_main": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/7gc-digital-twin",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/7gc-digital-twin",
+      "expected_main_at_v3": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "live_main": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/spectrumx-ai-ran-gary",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/spectrumx-ai-ran-gary",
+      "expected_main_at_v3": "9591d6a135ccdb37dfd1ea489e6837ec3dde288d",
+      "live_main": "9591d6a135ccdb37dfd1ea489e6837ec3dde288d",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/edge-io-measurement-node",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/edge-io-measurement-node",
+      "expected_main_at_v3": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "live_main": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/anime-aggressors",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/anime-aggressors",
+      "expected_main_at_v3": "ea9c3c60ee52a8e814688805cc0a454053c9baa5",
+      "live_main": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "drift_from_v3": true,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/pedestrian-pursuit",
+      "expected_main_at_v3": "9505edb6839f75c381054833d7f9989b77ca057b",
+      "live_main": "9505edb6839f75c381054833d7f9989b77ca057b",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/archive-of-life-artifact-world",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/archive-of-life-artifact-world",
+      "expected_main_at_v3": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "live_main": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    },
+    {
+      "repository": "gunnchOS3k/beatlink-party",
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/beatlink-party",
+      "expected_main_at_v3": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "live_main": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "drift_from_v3": false,
+      "v3_expected_is_ancestor_of_live": true,
+      "default_branch": "main"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-09-28T21:33:28Z",
+  "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
+  "PIXEL_CONNECTED_PASS": false,
+  "PIXEL_SIGNER_SAFETY_PASS": false,
+  "rows": [
+    {
+      "product": "device-os",
+      "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
+      ],
+      "status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "anime-aggressors",
+      "main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL",
+        "Do not claim 8-human from one Pixel"
+      ],
+      "status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "pedestrian-pursuit",
+      "main_sha": "9505edb6839f75c381054833d7f9989b77ca057b",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL",
+        "Gate1 fix must merge before exact-head APK preference"
+      ],
+      "status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "archive-of-life",
+      "main_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
+      ],
+      "status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "3k-mlv",
+      "main_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "web/mobile-browser class; no native APK"
+      ],
+      "status": "REQUIRES_PHYSICAL_BROWSER"
+    },
+    {
+      "product": "waike",
+      "main_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "desktop/web class; mobile-web only if usable"
+      ],
+      "status": "REQUIRES_PHYSICAL_BROWSER"
+    },
+    {
+      "product": "beatlink-party",
+      "main_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
+      ],
+      "status": "REQUIRES_PHYSICAL_BROWSER"
+    },
+    {
+      "product": "gunnchai",
+      "main_sha": null,
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
+      ],
+      "status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "7gc-network-twin",
+      "main_sha": null,
+      "artifact_path_or_source": null,
+      "artifact_sha256": null,
+      "package_id": null,
+      "version": null,
+      "signer_fingerprint_summary": null,
+      "install_result": "NOT_ATTEMPTED",
+      "launch_result": "NOT_ATTEMPTED",
+      "device_model": null,
+      "android_version": null,
+      "first_screen_capture": null,
+      "key_flow_captures": [],
+      "sanitized_logcat": null,
+      "crash_count": null,
+      "known_limitations": [
+        "Pixel disconnected \u2014 REQUIRES_PHYSICAL"
+      ],
+      "status": "REQUIRES_PHYSICAL"
+    }
+  ],
+  "partylink_topology_note": "One Pixel cannot validate 8 humans; use display host + Pixel as P1 + other browsers."
+}
