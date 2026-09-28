@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-28T20:57:43Z",
+  "classification": "PRE_HUMAN_ACCEPTANCE_CANDIDATE",
+  "not_rc": true,
+  "pixel_connected": false,
+  "physical_install_status": "REQUIRES_PHYSICAL",
+  "artifacts": [
+    {
+      "product": "Anime Aggressors web",
+      "repository": "gunnchOS3k/anime-aggressors",
+      "main_sha": "ea9c3c60ee52a8e814688805cc0a454053c9baa5",
+      "platform": "web",
+      "install_or_launch_method": "npm run build -w anime-aggressors-web / CI artifact",
+      "known_limitations": "main web CI needs #115; prefer CI artifact after merge",
+      "physical_install_status": "N/A"
+    },
+    {
+      "product": "Pedestrian Pursuit",
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "main_sha": "9505edb6839f75c381054833d7f9989b77ca057b",
+      "platform": "godot/android",
+      "install_or_launch_method": "CI/Actions APK preferred",
+      "known_limitations": "post-merge CI pending; no large binaries committed",
+      "physical_install_status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "Archive of Life",
+      "repository": "gunnchOS3k/archive-of-life-artifact-world",
+      "main_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "platform": "web/android",
+      "install_or_launch_method": "CI/Actions artifact",
+      "known_limitations": "engineering complete; scientific sources blocked external",
+      "physical_install_status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "3k MLV",
+      "repository": "gunnchOS3k/3k-mlv",
+      "main_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "platform": "web",
+      "install_or_launch_method": "privacy-and-build CI",
+      "known_limitations": "hosted deploy may remain external",
+      "physical_install_status": "N/A"
+    },
+    {
+      "product": "gunnchOS / device-os",
+      "repository": "gunnchOS3k/gunnchos-device-os",
+      "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "platform": "android/desktop as supported",
+      "install_or_launch_method": "CI package lanes",
+      "known_limitations": "Pixel install not performed this pass",
+      "physical_install_status": "REQUIRES_PHYSICAL"
+    },
+    {
+      "product": "BeatLink Party",
+      "repository": "gunnchOS3k/beatlink-party",
+      "main_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "platform": "web",
+      "install_or_launch_method": "CI artifact",
+      "known_limitations": "music rights separate",
+      "physical_install_status": "N/A"
+    },
+    {
+      "product": "WAIKE",
+      "repository": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "main_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "platform": "desktop/web",
+      "install_or_launch_method": "CI",
+      "known_limitations": "authored curriculum may remain PARTIAL",
+      "physical_install_status": "N/A"
+    }
+  ]
+}

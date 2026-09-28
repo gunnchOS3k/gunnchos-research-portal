@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-28T20:57:43Z",
+  "STUDENT_14_5_HOME_PROFILE_PASS": true,
+  "STUDENT_14_5_LAB_PROFILE_PASS": true,
+  "HANDHELD_PORTABLE_PROFILE_PASS": true,
+  "HANDHELD_DOCKED_PROFILE_PASS": true,
+  "HANDHELD_DOCK_UNDOCK_CONTINUITY_PASS": true,
+  "DS_XL_DUAL_SCREEN_PROFILE_PASS": true,
+  "RINGS_SPATIAL_PERIPHERAL_DIGITAL_CONTRACT_PASS": true,
+  "physical_required_false": {
+    "PHYSICAL_STUDENT_14_5_EVT_PASS": false,
+    "PHYSICAL_HANDHELD_EVT_PASS": false,
+    "PHYSICAL_DS_XL_EVT_PASS": false,
+    "PHYSICAL_RINGS_EVT_PASS": false,
+    "PHYSICAL_DOCK_DISPLAY_MATRIX_PASS": false,
+    "PHYSICAL_RINGS_DISCONNECTED_KEYBOARD_PASS": false
+  },
+  "evidence": [
+    "3k-mlv #5 on main @ 94cba498",
+    "device-os #168 on main @ 2ae070fd",
+    "artifacts/v1_scope digital profiles"
+  ]
+}
