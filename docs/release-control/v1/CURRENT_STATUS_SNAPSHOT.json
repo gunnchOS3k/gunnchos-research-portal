@@ -1,0 +1,62 @@
+{
+  "snapshot_date": "2026-09-30",
+  "release": {
+    "published_rc": "v1.0.0-rc.1",
+    "rc1_published": true,
+    "final_v1_published": false,
+    "final_v1_authorized": false,
+    "recommended_next_candidate": "v1.0.0-rc.2",
+    "september_21_freeze": "STALE_FOR_FINAL"
+  },
+  "active_high_impact_prs": [
+    {
+      "repo": "gunnchOS3k/anime-aggressors",
+      "pr": 118,
+      "draft": true,
+      "head": "5bfe8ae8e3f985ca242994ab5bc5a5198cd82308",
+      "next": "signer-safe G7 then G6/G8/G9"
+    },
+    {
+      "repo": "gunnchOS3k/pedestrian-pursuit",
+      "pr": 39,
+      "draft": true,
+      "head": "80a6841f359d2b6e18b3a540ce025e8aa691a0bb",
+      "next": "exact-head + owner eight-course review"
+    },
+    {
+      "repo": "gunnchOS3k/3k-mlv",
+      "pr": 6,
+      "draft": true,
+      "head": "b5f2d8f4d49a56e4ed2b0ac7f445716322d36ea6",
+      "next": "decide v1 vs v1.1"
+    },
+    {
+      "repo": "gunnchOS3k/gunnchos-research-portal",
+      "pr": 48,
+      "draft": true,
+      "head": "a55f320ab0af88a71ccdef3d273bc83eb9db7b67",
+      "next": "refresh after product merges"
+    }
+  ],
+  "public_hosting": {
+    "google_workspace_domain_verified": true,
+    "gmail_activated": true,
+    "spf_complete": true,
+    "dkim_activated": true,
+    "cloudflare_repo_access": "CONFIGURED",
+    "production_live": false,
+    "first_target": "mlv.gunnchos.com"
+  },
+  "human_external": {
+    "anime_g6": "REQUIRES_HUMAN",
+    "anime_g7": "SIGNER_BLOCKED_PHYSICAL",
+    "anime_g8": "REQUIRES_HUMAN",
+    "anime_g9": "REQUIRES_HUMAN",
+    "hardware_evt": false,
+    "carrier_certification": false,
+    "manufacturing": false,
+    "beatlink_commercial_rights": "REQUIRES_RIGHTS_REVIEW",
+    "archive_global_scientific_complete": false,
+    "waike_institutional_pilot": false
+  }
+}

@@ -6,6 +6,8 @@ Canonical **public entry** for the gunnchOS3k experimental computing and communi
 
 This repository is a navigation and evidence-map control plane. It is not a RAN, not hardware proof, and not a University of Oulu appointment.
 
+Ecosystem doctrine and the v1 release-control pack live in the repo now: [docs/START_HERE_ECOSYSTEM.md](docs/START_HERE_ECOSYSTEM.md). The master constitution is [docs/ecosystem-doctrine/00_MASTER_GUNNCHOS_ECOSYSTEM_CONSTITUTION.md](docs/ecosystem-doctrine/00_MASTER_GUNNCHOS_ECOSYSTEM_CONSTITUTION.md). Importing those documents does not authorize `v1.0.0`.
+
 Working thesis: **Resilience-Aware Service Continuity in Heterogeneous 6G Networks: Cross-Layer Orchestration for Resource-Constrained Devices.**
 
 | Audience | Start |

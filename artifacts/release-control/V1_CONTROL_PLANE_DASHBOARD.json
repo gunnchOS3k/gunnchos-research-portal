@@ -1,0 +1,73 @@
+{
+  "schema": "gunnchos.v1.control_plane_dashboard.v1",
+  "source": "docs/release-control/v1",
+  "doctrine": "docs/ecosystem-doctrine",
+  "scope_count": 68,
+  "disposition_counts": {
+    "HISTORICAL_RELEASE": 1,
+    "IN_V1_CANDIDATE_PENDING_OWNER": 3,
+    "IN_V1_CLAIM_MATRIX": 1,
+    "IN_V1_DIGITAL_ENGINEERING": 4,
+    "IN_V1_HUMAN_GATE": 2,
+    "IN_V1_OPTIONAL_BUT_TRACKED": 1,
+    "IN_V1_OPTIONAL_PROVIDER_GATE": 1,
+    "IN_V1_REQUIRED": 41,
+    "IN_V1_REQUIRED_FOR_INTERFACE_NOT_CERTIFICATION": 1,
+    "IN_V1_REQUIRED_RECOMMENDED": 1,
+    "IN_V1_REQUIRED_WITH_CLAIM_BOUNDARY": 2,
+    "IN_V1_REQUIRED_WITH_HUMAN_BOUNDARY": 1,
+    "POST_V1_EXTERNAL": 1,
+    "POST_V1_OR_CLAIM_BOUNDARY": 1,
+    "POST_V1_OR_EXTERNAL_DATA_GATE": 1,
+    "POST_V1_PHYSICAL": 1,
+    "POST_V1_PHYSICAL_EXTERNAL": 1,
+    "POST_V1_REGULATORY": 2,
+    "POST_V1_RIGHTS_BLOCKED": 1,
+    "POST_V1_VENDOR": 1
+  },
+  "unresolved_owner_gates": [
+    "MLV-001",
+    "MLV-002",
+    "MLV-004",
+    "MLV-006",
+    "WAIKE-004",
+    "WAIKE-006",
+    "AI-001",
+    "ANIME-002",
+    "ANIME-005",
+    "ANIME-007",
+    "ANIME-010",
+    "PP-002",
+    "PP-003",
+    "ARCH-001",
+    "BEAT-001",
+    "PUB-001",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007"
+  ],
+  "physical_gates": [
+    "HW-005",
+    "R-006",
+    "R-007"
+  ],
+  "external_gates": [
+    "ARCH-003",
+    "BEAT-002",
+    "BEAT-003",
+    "HW-006",
+    "HW-007",
+    "HW-008",
+    "OPS-006"
+  ],
+  "active_v1_lanes": [
+    "Anime PR #118 signer-safe G7 + owner review",
+    "3k MLV Cloudflare deployment",
+    "Pedestrian PR #39 owner review"
+  ],
+  "v1_release_authorized": false,
+  "historical_rc": "v1.0.0-rc.1",
+  "rc1_immutable": true,
+  "import_is_not_evidence": true,
+  "errors": []
+}

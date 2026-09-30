@@ -10,7 +10,8 @@ audit:
 
 test:
 	$(PYTHON) scripts/validate_supervisor_ready.py
-	$(PYTHON) -m pytest -q tests/test_audit_portfolio.py
+	$(PYTHON) scripts/validate_control_plane.py
+	$(PYTHON) -m pytest -q tests/test_audit_portfolio.py tests/test_control_plane_import.py
 
 code-health-r5-s1: test
 	$(PYTHON) scripts/run_r5_s1_mutation_kills.py

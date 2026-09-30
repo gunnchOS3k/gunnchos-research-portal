@@ -1,0 +1,65 @@
+{
+  "schema": "gunnchos.ecosystem.doctrine.v1",
+  "date": "2026-09-30",
+  "north_star": "One coherent personal, educational, creative, research, social, and recreational computing world across validated devices and hosts.",
+  "canonical_architecture": [
+    "USER",
+    "3K_MLV_WORLD_SHELL",
+    "HOME_CAMPUS_GALLERY",
+    "WAIKE_GAMES_GUNNCHAI_RESEARCH_MEDIA_WORKBENCH",
+    "HOST_CAPABILITY_ADAPTER",
+    "HOST_OS",
+    "HARDWARE"
+  ],
+  "non_negotiables": [
+    "privacy_by_default",
+    "explicit_sharing",
+    "one_ecosystem_not_fragmented_apps",
+    "host_neutral_world_first_party_depth",
+    "digital_equity_as_product_requirement",
+    "offline_where_practical",
+    "human_quality_gates_remain_human",
+    "claims_not_stronger_than_evidence",
+    "rights_safe_release_modes",
+    "support_matrix_instead_of_universal_claims",
+    "scope_creep_documented_not_lost"
+  ],
+  "places": {
+    "home": "private_personal",
+    "campus": "learning_research_collaboration",
+    "gallery": "public_shared_creation"
+  },
+  "hardware_quartet": [
+    "Student 14.5",
+    "Handheld Hybrid",
+    "DS-XL Coder",
+    "Edge I/O Rings"
+  ],
+  "games": [
+    "Anime Aggressors",
+    "Pedestrian Pursuit",
+    "Archive of Life",
+    "BeatLink Party"
+  ],
+  "party_link": {
+    "principle": "Controllers are personal. The match is shared.",
+    "roles": [
+      "OWNER",
+      "DISPLAY_HOST",
+      "PLAYER",
+      "SPECTATOR"
+    ]
+  },
+  "evidence_classes": [
+    "digital",
+    "integration",
+    "end_to_end",
+    "device",
+    "human",
+    "physical",
+    "scientific",
+    "rights",
+    "regulatory",
+    "vendor"
+  ]
+}

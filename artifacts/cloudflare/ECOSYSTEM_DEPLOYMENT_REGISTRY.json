@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-09-30",
+  "services": [
+    {
+      "hostname": "gunnchos.com",
+      "repo": "gunnchOS3k/gunnchos-site",
+      "accepted_main_sha": "a023599ea4fc4126922fb8b41da5827f281ce099",
+      "worker_name": "gunnchos-site",
+      "workers_dev_url": null,
+      "custom_domain": "gunnchos.com",
+      "deployment_status": "DRAFT_CONFIG_ONLY",
+      "build_command": "npm run cloudflare:build",
+      "deploy_command": "npm run cloudflare:deploy",
+      "preview_status": "script_present_not_run_as_production",
+      "public_env": ["NEXT_PUBLIC_SITE_URL", "NEXT_PUBLIC_BUILD_SHA", "GUNNCHOS_*_URL"],
+      "secrets": [],
+      "backend": "none for gateway pages",
+      "free_plan_fit": "FREE_WITHIN_WORKERS_QUOTA_IF_MOSTLY_STATIC",
+      "blockers": ["draft PR not merged", "zone not active", "wrangler unauthenticated"]
+    },
+    {
+      "hostname": "mlv.gunnchos.com",
+      "repo": "gunnchOS3k/3k-mlv",
+      "accepted_main_sha": "818dc201cd73762e3a50a883c45345f9bf367dd3",
+      "worker_name": "3k-mlv",
+      "workers_dev_url": null,
+      "custom_domain": "mlv.gunnchos.com",
+      "deployment_status": "MAIN_READY_NOT_DEPLOYED_BY_THIS_SESSION",
+      "build_command": "pnpm run cloudflare:check",
+      "deploy_command": "pnpm run cloudflare:deploy",
+      "preview_status": "not smoked",
+      "public_env": ["VITE_BASE_PATH=/"],
+      "secrets": ["none committed; Supabase public values only if already qualified"],
+      "backend": "optional Supabase",
+      "free_plan_fit": "FREE_STATIC",
+      "blockers": ["wrangler unauthenticated", "custom domain requires active zone", "workers.dev smoke not run"]
+    },
+    {
+      "hostname": "campus.gunnchos.com",
+      "repo": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "accepted_main_sha": null,
+      "worker_name": null,
+      "workers_dev_url": null,
+      "custom_domain": "campus.gunnchos.com",
+      "deployment_status": "NOT_WORKER_READY",
+      "build_command": null,
+      "deploy_command": null,
+      "preview_status": "not prepared in this session",
+      "public_env": [],
+      "secrets": [],
+      "backend": "learning API not connected",
+      "free_plan_fit": "UNKNOWN",
+      "blockers": ["no Worker config added; product deploy was not forced green"]
+    },
+    {
+      "hostname": "anime.gunnchos.com",
+      "repo": "gunnchOS3k/anime-aggressors",
+      "accepted_main_sha": null,
+      "worker_name": null,
+      "deployment_status": "NOT_WORKER_READY",
+      "free_plan_fit": "POTENTIAL_PAID_AT_SCALE",
+      "blockers": ["owned by a separate visible-quality track", "no infrastructure PR in this session"]
+    },
+    {
+      "hostname": "pursuit.gunnchos.com",
+      "repo": "gunnchOS3k/pedestrian-pursuit",
+      "deployment_status": "NOT_WORKER_READY",
+      "free_plan_fit": "POTENTIAL_PAID_AT_SCALE",
+      "blockers": ["not Worker-ready"]
+    },
+    {
+      "hostname": "archive.gunnchos.com",
+      "repo": "gunnchOS3k/archive-of-life-artifact-world",
+      "deployment_status": "NOT_WORKER_READY",
+      "free_plan_fit": "UNKNOWN",
+      "blockers": ["not Worker-ready"]
+    },
+    {
+      "hostname": "beatlink.gunnchos.com",
+      "repo": "gunnchOS3k/beatlink-party",
+      "deployment_status": "NOT_WORKER_READY",
+      "free_plan_fit": "KNOWN_PAID_DEPENDENCY",
+      "blockers": ["commercial music rights", "not Worker-ready"]
+    },
+    {
+      "hostname": "research.gunnchos.com",
+      "repo": "gunnchOS3k/gunnchos-research-portal",
+      "accepted_main_sha": "e1d349d6c68928efa563edccc5993695d69f37cd",
+      "deployment_status": "DOCS_CONTROL_PLANE",
+      "free_plan_fit": "FREE_STATIC",
+      "blockers": ["static docs host not configured", "no production deploy"]
+    }
+  ]
+}
