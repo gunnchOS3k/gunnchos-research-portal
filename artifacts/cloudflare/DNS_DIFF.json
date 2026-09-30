@@ -1,0 +1,10 @@
+{
+  "ready_to_change_nameservers": false,
+  "dns_changed_by_cursor": false,
+  "differences": [
+    "Cloudflare zone was not created or written, so there is no live target zone to diff.",
+    "DKIM public key text is not fully retained.",
+    "Zone export of every Squarespace record is missing.",
+    "Parent DS exists. A nameserver cutover without an owner DNSSEC step would break validation."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-09-30",
+  "account_plan_queried": false,
+  "published_workers_free": {
+    "source": "https://developers.cloudflare.com/workers/platform/limits/",
+    "source_updated": "2026-09-05",
+    "requests_per_day": 100000,
+    "cpu_ms": 10,
+    "workers": 100,
+    "static_asset_files": 20000,
+    "static_asset_bytes": 26214400
+  },
+  "paid_upgrade_performed": false,
+  "usage_unknown": true
+}

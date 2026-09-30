@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-30",
+  "mx_expected": "Google Workspace ASPMX set",
+  "mx_present": true,
+  "spf_expected": "v=spf1 include:_spf.google.com ~all",
+  "spf_present": true,
+  "dkim_expected": "google._domainkey TXT",
+  "dkim_present": true,
+  "dkim_value_retained": false,
+  "dmarc_expected": "preserve if present",
+  "dmarc_present": false,
+  "dmarc_absent_by_source": true,
+  "google_verification_txt_at_apex": "not observed beside SPF",
+  "cloudflare_email_routing_enabled": false,
+  "google_admin_changed": false
+}

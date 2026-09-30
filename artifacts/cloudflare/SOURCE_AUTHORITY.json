@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-09-30T18:50:00Z",
+  "production_classification": "accepted-main-not-deployed-by-this-session",
+  "repos": [
+    {
+      "repo": "gunnchOS3k/3k-mlv",
+      "branch": "main",
+      "sha": "818dc201cd73762e3a50a883c45345f9bf367dd3",
+      "classification": "production-candidate",
+      "note": "Merge of Cloudflare hardening PR #7. Eligible as production source. Not deployed by this session."
+    },
+    {
+      "repo": "gunnchOS3k/3k-mlv",
+      "branch": "deploy/cloudflare-workers-v1",
+      "sha": "1e7984de83d5f0aaaa9b0167f48dc87e0c7fc6f9",
+      "classification": "merged-pr-head",
+      "note": "PR #7 is merged. Do not deploy this branch head separately from main 818dc201."
+    }
+  ]
+}
