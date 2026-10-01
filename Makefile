@@ -1,4 +1,4 @@
-.PHONY: bootstrap audit test verify reproduce diagrams uml supervisor-snapshot paper code-health-r5-s1
+.PHONY: bootstrap audit test verify reproduce diagrams uml supervisor-snapshot paper code-health-r5-s1 surfaces-test
 
 PYTHON ?= python3
 
@@ -11,6 +11,9 @@ audit:
 test:
 	$(PYTHON) scripts/validate_supervisor_ready.py
 	$(PYTHON) -m pytest -q tests/test_audit_portfolio.py
+
+surfaces-test:
+	$(PYTHON) -m pytest -q tests/test_gunnchosctl_surfaces.py
 
 code-health-r5-s1: test
 	$(PYTHON) scripts/run_r5_s1_mutation_kills.py
