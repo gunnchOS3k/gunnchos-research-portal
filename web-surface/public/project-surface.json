@@ -1,0 +1,21 @@
+{
+  "repo": "gunnchos-research-portal",
+  "productName": "Research portal",
+  "family": "Research",
+  "classification": "STATIC_RESEARCH_SURFACE_WORKER",
+  "acceptedSha": "e1d349d6c68928efa563edccc5993695d69f37cd",
+  "status": "STAGING_WORKER",
+  "summary": "Index of gunnchOS research repositories and how they are described. It is not the public gunnchos.com gateway.",
+  "capabilities": [
+    "See which research repos exist and their claim boundaries",
+    "Open the source repository"
+  ],
+  "limitations": [
+    "Does not grant field validation, peer review, or carrier acceptance",
+    "Not the branded gunnchos.com site"
+  ],
+  "sourceUrl": "https://github.com/gunnchOS3k/gunnchos-research-portal",
+  "returnUrlEnv": "GUNNCHOS_PORTAL_URL",
+  "returnUrl": "https://gunnchos-site.gunnchos-finds.workers.dev",
+  "workerName": "gunnchos-research"
+}

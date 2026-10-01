@@ -1,0 +1,112 @@
+{
+  "schema": "gunnchos.surfacekit.v2",
+  "measured_topology": false,
+  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "what-is-real-today",
+      "label": "What is real today"
+    },
+    {
+      "id": "what-is-not-proven",
+      "label": "What is not proven"
+    },
+    {
+      "id": "product-ecosystem-supporting-not-sixteen-dissertations",
+      "label": "Product ecosystem (supporting, not sixteen"
+    }
+  ],
+  "rows": [
+    {
+      "source": "README.md",
+      "scenario_id": "Overview",
+      "site_id": "Research",
+      "ethical_framing": "# gunnchOS3k research portal Canonical **public entry** for the gunnchOS3k experimental computing and communications portfolio. **Prospective doctoral supervisor (Communications Engineering / 6G Flagship fit, no affiliation claimed):** start at **[docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md)** (\u224810 minutes). This repository is a navigation and evidence-map control plane. It is not a RAN, not "
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "What is real today",
+      "site_id": "Research",
+      "ethical_framing": "- Sixteen-repo map with dissertation roles (`portfolio/repo_roles.yaml`) - Regenerable audit (`make audit`) and claim-boundary validator (`make test`) - Honest gates: physical EVT/RF, independent reproduction, and human playtest remain pending where listed"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "What is not proven",
+      "site_id": "Research",
+      "ethical_framing": "Simulations are not RF. Device Lab is not EVT silicon. Games are workloads unless a frozen RQ experiment uses them. Dashboard: [docs/phd/PORTFOLIO_READINESS_DASHBOARD.md](docs/phd/PORTFOLIO_READINESS_DASHBOARD.md) UML: [docs/uml/README.md](docs/uml/README.md) Reproduce: [REPRODUCIBILITY.md](REPRODUCIBILITY.md) make bootstrap make reproduce"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Product ecosystem (supporting, not sixteen dissertations)",
+      "site_id": "Research",
+      "ethical_framing": "The Cycle 3A product information architecture remains for non-research readers: [START_HERE.md](START_HERE.md), [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md), [STATUS.md](STATUS.md), [REPO_CATALOG.md](REPO_CATALOG.md). Product charter lives in [`gunnchos-7gc-ai-ran-field-kit`](https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit) `program/charter/` \u2014 **out of the 16-repo dissertation scope** except as charter referen"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "History",
+      "site_id": "Research",
+      "ethical_framing": "Prior \u201cresearch spine / 7gc as program hub\u201d and product-only front door notes: [docs/history/](docs/history/), [docs/uml/legacy/](docs/uml/legacy/)."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Feedback",
+      "site_id": "Research",
+      "ethical_framing": "- Public feedback: [FEEDBACK.md](FEEDBACK.md) \u00b7 Security (private): [SECURITY.md](SECURITY.md)"
+    }
+  ],
+  "sources": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "# gunnchOS3k research portal Canonical **public entry** for the gunnchOS3k experimental computing and communications portfolio. **Prospective doctoral supervisor (Communications Engineering / 6G Flagship fit, no affiliation claimed):** start at **[docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md)** (\u224810 minutes). This repository is a navigation and evidence-map control plane. It is not a RAN, not "
+    },
+    {
+      "id": "what-is-real-today",
+      "title": "What is real today",
+      "body": "- Sixteen-repo map with dissertation roles (`portfolio/repo_roles.yaml`) - Regenerable audit (`make audit`) and claim-boundary validator (`make test`) - Honest gates: physical EVT/RF, independent reproduction, and human playtest remain pending where listed"
+    },
+    {
+      "id": "what-is-not-proven",
+      "title": "What is not proven",
+      "body": "Simulations are not RF. Device Lab is not EVT silicon. Games are workloads unless a frozen RQ experiment uses them. Dashboard: [docs/phd/PORTFOLIO_READINESS_DASHBOARD.md](docs/phd/PORTFOLIO_READINESS_DASHBOARD.md) UML: [docs/uml/README.md](docs/uml/README.md) Reproduce: [REPRODUCIBILITY.md](REPRODUCIBILITY.md) make bootstrap make reproduce"
+    },
+    {
+      "id": "product-ecosystem-supporting-not-sixteen-dissertations",
+      "title": "Product ecosystem (supporting, not sixteen dissertations)",
+      "body": "The Cycle 3A product information architecture remains for non-research readers: [START_HERE.md](START_HERE.md), [PRODUCT_FAMILY.md](PRODUCT_FAMILY.md), [STATUS.md](STATUS.md), [REPO_CATALOG.md](REPO_CATALOG.md). Product charter lives in [`gunnchos-7gc-ai-ran-field-kit`](https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit) `program/charter/` \u2014 **out of the 16-repo dissertation scope** except as charter referen"
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "body": "Prior \u201cresearch spine / 7gc as program hub\u201d and product-only front door notes: [docs/history/](docs/history/), [docs/uml/legacy/](docs/uml/legacy/)."
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback",
+      "body": "- Public feedback: [FEEDBACK.md](FEEDBACK.md) \u00b7 Security (private): [SECURITY.md](SECURITY.md)"
+    }
+  ],
+  "artifacts": [
+    "docs/acceptance/v3/ACCEPTANCE_OBSERVATION_FORM.md",
+    "docs/acceptance/v3/ACCEPTANCE_SESSION_RUN_OF_SHOW.md",
+    "docs/acceptance/v3/ACCESSIBILITY_HUMAN_CHECKLIST.md",
+    "docs/acceptance/v3/ACCESSIBILITY_SUMMARY.md",
+    "docs/acceptance/v3/CLAIMS_AND_NONCLAIMS.md",
+    "docs/acceptance/v3/FRIEND_COLD_USER_SCRIPT.md",
+    "docs/acceptance/v3/KNOWN_LIMITATIONS.md",
+    "docs/acceptance/v3/MASTER_HUMAN_ACCEPTANCE_PACKET.md",
+    "docs/acceptance/v3/OWNER_EXPERT_VALIDATION_SCRIPT.md",
+    "docs/acceptance/v3/RIGHTS_OWNER_CHECKLIST.md",
+    "docs/acceptance/v3/RIGHTS_REVIEW_QUEUE.md",
+    "docs/acceptance/v3/SECURITY_PRIVACY_SUMMARY.md"
+  ],
+  "methods": "# Reproducibility \u2014 research portal This repository is documentation + audit scripts. It does not produce RF results. ```bash git clone https://github.com/gunnchOS3k/gunnchos-research-portal.git cd gunnchos-research-portal python3 -m pip install pyyaml make audit make test make reproduce ``` Expected: `scripts/validate_supervisor_ready.py` prints PASS; `portfolio/supervisor_ready_manifest.yaml` is regenerated. Sibling checkouts: set `PORTFOLIO_REPOS_ROOT` to the directory that contains the other 15 repos if they are not `../<name>`. Record the portal commit SHA in any supervisor packet. This is not independent reproduction of RQ1\u2013RQ3 experiments. ",
+  "cards": [],
+  "runtime_mode": "PRECOMPUTED",
+  "runtime_boot": false
+}
