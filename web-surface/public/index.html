@@ -7,45 +7,76 @@
   <title>Research portal · gunnchOS</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
-<body style="--accent:#8eb4ff">
+<body data-surfacekit="v2" data-theme="dark">
   <a class="skip" href="#content">Skip to content</a>
   <header class="top">
     <p class="mark">gunnchOS</p>
-    <a id="portal-return" href="#return" aria-label="Return to gunnchOS">← gunnchOS</a>
+    <nav class="tools" aria-label="Surface">
+      <button type="button" id="theme-toggle">Light theme</button>
+      <a id="portal-return" href="#return" aria-label="Return to gunnchOS">← gunnchOS</a>
+    </nav>
   </header>
   <main id="content">
-    <p class="kicker">Research</p>
+    <p class="kicker">Research · STAGING_WORKER</p>
     <h1>Research portal</h1>
-    <p class="badge">STAGING_WORKER</p>
     <p class="lead">Index of gunnchOS research repositories and how they are described. It is not the public gunnchos.com gateway.</p>
-    <section aria-labelledby="what">
+    
+    <p><a class="cta" id="primary-action" href="#explore">Explore evidence</a></p>
+    <section id="explore" aria-labelledby="explore-title">
+      <h2 id="explore-title">Explore evidence</h2>
+      <p id="diagram-note"></p>
+      <div class="layout">
+        <div>
+          <svg id="diagram" role="img" aria-labelledby="diagram-note" viewBox="0 0 640 160"></svg>
+          <label for="row-select">Repository record</label>
+          <select id="row-select"></select>
+          <label for="row-filter">Filter records</label>
+          <input id="row-filter" type="search" placeholder="Filter by text in the repository records">
+        </div>
+        <div id="detail" tabindex="0" aria-live="polite"></div>
+      </div>
+      <div id="directory"></div>
+      <table id="evidence">
+        <caption>Records copied from this repository</caption>
+        <thead><tr id="evidence-head"></tr></thead>
+        <tbody id="evidence-body"></tbody>
+      </table>
+    </section>
+    <section id="overview" aria-labelledby="overview-title">
+      <h2 id="overview-title">Overview</h2>
+      <div class="cards"><article><h3>Overview</h3><p># gunnchOS3k research portal Canonical **public entry** for the gunnchOS3k experimental computing and communications portfolio. **Prospective doctoral supervisor (Communications Engineering / 6G Flagship fit, no affiliation claimed):** start at **[docs/phd/START_HERE_SUPERVISOR.md](docs/phd/START_HERE_SUPERVISOR.md)** (≈10 minutes). This repository is a navigation and evidence-map control plane. It is not a RAN, not </p></article><article><h3>What is real today</h3><p>- Sixteen-repo map with dissertation roles (`portfolio/repo_roles.yaml`) - Regenerable audit (`make audit`) and claim-boundary validator (`make test`) - Honest gates: physical EVT/RF, independent reproduction, and human playtest remain pending where listed</p></article><article><h3>What is not proven</h3><p>Simulations are not RF. Device Lab is not EVT silicon. Games are workloads unless a frozen RQ experiment uses them. Dashboard: [docs/phd/PORTFOLIO_READINESS_DASHBOARD.md](docs/phd/PORTFOLIO_READINESS_DASHBOARD.md) UML: [docs/uml/README.md](docs/uml/README.md) Reproduce: [REPRODUCIBILITY.md](REPRODUCIBILITY.md) make bootstrap make reproduce</p></article></div>
+    </section>
+    <section id="methods" aria-labelledby="methods-title">
+      <h2 id="methods-title">Methods</h2>
+      <p># Reproducibility — research portal This repository is documentation + audit scripts. It does not produce RF results. ```bash git clone https://github.com/gunnchOS3k/gunnchos-research-portal.git cd gunnchos-research-portal python3 -m pip install pyyaml make audit make test make reproduce ``` Expected: `scripts/validate_supervisor_ready.py` prints PASS; `portfolio/supervisor_ready_manifest.yaml` is regenerated. Sibling checkouts: set `PORTFOLIO_REPOS_ROOT` to the directory that contains the other 15 repos if they are not `../&lt;name&gt;`. Record the portal commit SHA in any supervisor packet. This is not independent reproduction of RQ1–RQ3 experiments. </p>
+      <p>Native research runtimes stay on a local checkout. This page shows repository records only.</p>
+    </section>
+    <section id="artifacts" aria-labelledby="artifacts-title">
+      <h2 id="artifacts-title">Artifacts</h2>
+      <ul><li><code>docs/acceptance/v3/ACCEPTANCE_OBSERVATION_FORM.md</code></li><li><code>docs/acceptance/v3/ACCEPTANCE_SESSION_RUN_OF_SHOW.md</code></li><li><code>docs/acceptance/v3/ACCESSIBILITY_HUMAN_CHECKLIST.md</code></li><li><code>docs/acceptance/v3/ACCESSIBILITY_SUMMARY.md</code></li><li><code>docs/acceptance/v3/CLAIMS_AND_NONCLAIMS.md</code></li><li><code>docs/acceptance/v3/FRIEND_COLD_USER_SCRIPT.md</code></li><li><code>docs/acceptance/v3/KNOWN_LIMITATIONS.md</code></li><li><code>docs/acceptance/v3/MASTER_HUMAN_ACCEPTANCE_PACKET.md</code></li><li><code>docs/acceptance/v3/OWNER_EXPERT_VALIDATION_SCRIPT.md</code></li><li><code>docs/acceptance/v3/RIGHTS_OWNER_CHECKLIST.md</code></li><li><code>docs/acceptance/v3/RIGHTS_REVIEW_QUEUE.md</code></li><li><code>docs/acceptance/v3/SECURITY_PRIVACY_SUMMARY.md</code></li></ul>
+    </section>
+    <section id="source" aria-labelledby="source-title">
+      <h2 id="source-title">Source</h2>
+      <p><a href="https://github.com/gunnchOS3k/gunnchos-research-portal">Source repository</a></p>
+      <p>Pinned source <code>e1d349d6c68928efa563edccc5993695d69f37cd</code></p>
+    </section>
+    <section id="limits" aria-labelledby="limits-title">
+      <h2 id="limits-title">Limitations</h2>
+      <ul><li>Does not grant field validation, peer review, or carrier acceptance</li><li>Not the branded gunnchos.com site</li></ul>
+    </section>
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About / Build status / Evidence</h2>
       <h2 id="what">What is this?</h2>
       <p>Index of gunnchOS research repositories and how they are described. It is not the public gunnchos.com gateway.</p>
       <p>The research code is not executing here. This is a research surface.</p>
-    </section>
-    <section aria-labelledby="why">
       <h2 id="why">Why does it exist?</h2>
       <p>It gives this repository a public web surface inside the gunnchOS ecosystem without pretending the original runtime runs on Cloudflare Workers.</p>
-    </section>
-    <section aria-labelledby="today">
       <h2 id="today">What can I actually do with it today?</h2>
-      <ul><li>See which research repos exist and their claim boundaries</li><li>Open the source repository</li></ul>
-    </section>
-    <section aria-labelledby="tech">
-      <h2 id="tech">What technology is inside it?</h2>
-      <p>Classification STATIC_RESEARCH_SURFACE_WORKER. Accepted source <code>e1d349d6c68928efa563edccc5993695d69f37cd</code>.</p>
-    </section>
-    <section aria-labelledby="evidence">
-      <h2 id="evidence">What evidence exists?</h2>
-      <p><a href="https://github.com/gunnchOS3k/gunnchos-research-portal">Source repository</a>. Read the repository for methods, results, and status. This page does not add new experimental claims.</p>
-    </section>
-    <section aria-labelledby="limits">
-      <h2 id="limits">What is not finished?</h2>
+      <p>Use the primary action to inspect repository records, then open the source for the local toolchain.</p>
+      <h2 id="unfinished">What is not finished?</h2>
       <ul><li>Does not grant field validation, peer review, or carrier acceptance</li><li>Not the branded gunnchos.com site</li></ul>
-    </section>
-    <section aria-labelledby="fit">
-      <h2 id="fit">Where does it fit in gunnchOS?</h2>
-      <p>Family: Research. Return with the gunnchOS link in the header.</p>
+      <p class="badge">STAGING_WORKER</p>
+      <p>Runtime mode on this page: PRECOMPUTED. No remote model call is made.</p>
     </section>
   </main>
   <script src="/app.js"></script>
