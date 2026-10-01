@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -35,6 +36,16 @@ DOMAIN_KEYS = {
     "ethical_framing",
 }
 GAME = {"HEAVY_ASSET_EXTERNAL_RUNTIME_SURFACE", "GAME_LANDING_WORKER"}
+EVIDENCE_CLASSES = (
+    "MEASURED",
+    "SIMULATED",
+    "SYNTHETIC_SIM",
+    "REFERENCE_ARCHITECTURE",
+    "REFERENCE_IMPLEMENTATION",
+    "LIVE_EXTERNAL_APP",
+    "STATIC_PRODUCT_ARTIFACT",
+    "DIRECTORY",
+)
 
 
 def get(url: str) -> tuple[int, str]:
@@ -86,27 +97,36 @@ def depth(classification: str, html: str, explore: dict | None) -> dict:
     for row in rows:
         domain_keys.update(k for k in row if k not in {"source", "scenario_id"})
     readme_only = all(str(r.get("source") or "") == "README.md" for r in rows) if rows else True
-    domain_data = measured or bool(domain_keys & DOMAIN_KEYS) or (not generic_nodes and bool(labels))
+    domain_data = bool(domain_keys & DOMAIN_KEYS) or (not generic_nodes and bool(labels)) or bool(rows and not readme_only)
+    declared = re.findall(r"Evidence class:\s*([A-Z_]+)", html)
+    evidence_class = next((name for name in declared if name in EVIDENCE_CLASSES), "")
+    live_embed = 'id="spectrumx-streamlit-app"' in html and "embed=true" in html
     out = {
         "methods_nonempty": len(methods.strip()) > 40,
         "source_list_nonempty": "source repository" in html.lower() or bool(explore.get("sources")),
         "repo_authentic_artifact_count": len(artifacts),
-        "domain_specific_interaction": 'id="row-select"' in html and bool(rows) and not readme_only,
-        "domain_specific_diagram_or_data": domain_data and not generic_nodes,
-        "generic_readme_headings_only": readme_only or generic_nodes or not measured,
+        "domain_specific_interaction": ('id="row-select"' in html and bool(rows) and not readme_only) or live_embed,
+        "domain_specific_diagram_or_data": (domain_data and not generic_nodes) or live_embed,
+        "generic_readme_headings_only": readme_only or generic_nodes,
         "measured_topology": measured,
+        "evidence_class": evidence_class,
+        "limitations_shown": "limitation" in html.lower(),
         "node_labels": [n.get("label") for n in nodes],
         "row_count": len(rows),
         "card_count": len(cards),
     }
     if classification == "STATIC_RESEARCH_SURFACE_WORKER":
+        class_ok = evidence_class in EVIDENCE_CLASSES and (evidence_class != "MEASURED" or measured)
+        legacy_measured = (not evidence_class) and measured and not readme_only
         out["depth_pass"] = (
             out["methods_nonempty"]
             and out["source_list_nonempty"]
             and out["repo_authentic_artifact_count"] >= 1
             and out["domain_specific_interaction"]
             and out["domain_specific_diagram_or_data"]
+            and out["limitations_shown"]
             and not out["generic_readme_headings_only"]
+            and (class_ok or legacy_measured)
         )
     elif classification == "META_DIRECTORY_WORKER":
         entries = len(cards) or len(rows)
@@ -173,7 +193,7 @@ def main() -> None:
     fields = [
         "repo", "pr", "classification", "worker_url", "http_status", "shell_pass", "depth_pass",
         "generic_status_only", "methods_nonempty", "repo_authentic_artifact_count",
-        "domain_specific_interaction", "domain_specific_diagram_or_data", "generic_readme_headings_only",
+        "domain_specific_interaction", "domain_specific_diagram_or_data",         "generic_readme_headings_only", "evidence_class",
         "row_count", "runtime_pending",
     ]
     with (dest / "SURFACE_DEPTH_MATRIX.csv").open("w", newline="", encoding="utf-8") as handle:
