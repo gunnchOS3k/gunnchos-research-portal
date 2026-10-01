@@ -36,6 +36,7 @@ DOMAIN_KEYS = {
     "ethical_framing",
 }
 GAME = {"HEAVY_ASSET_EXTERNAL_RUNTIME_SURFACE", "GAME_LANDING_WORKER"}
+DEVELOPMENT_RUNTIME = "LIVE_DEVELOPMENT_RUNTIME"
 EVIDENCE_CLASSES = (
     "MEASURED",
     "SIMULATED",
@@ -80,6 +81,67 @@ def shell(html: str, status: int) -> dict:
         "provenance": provenance,
         "truth_boundary": truth and "official oulu" not in low,
         "shell_pass": passed,
+    }
+
+
+def development_runtime(html: str, status: int, manifest: dict | None, runtime_status: int, runtime_html: str) -> dict:
+    """Development boot with an exact manifest. This is not final approval."""
+    manifest = manifest or {}
+    files = manifest.get("files") or {}
+    hrefs = re.findall(r'href="(/runtime/([0-9a-f]{40})/index\.html)"', html)
+    sha = hrefs[0][1] if hrefs else ""
+    exact_files = bool(files) and all(
+        isinstance(item, dict) and "sha256" in item and "bytes" in item for item in files.values()
+    )
+    labeled = 'id="dev-label">DEVELOPMENT BUILD' in html and "STAGING_WORKER" in html
+    approval_claim = "approval is true" in html.lower() or "accepted main." in html.lower() and "not accepted main" not in html.lower()
+    shell_pass = (
+        status == 200
+        and labeled
+        and 'id="primary-action"' in html
+        and 'aria-label="Return to gunnchOS"' in html
+        and 'name="viewport"' in html
+        and "source repository" in html.lower()
+        and bool(sha)
+        and not approval_claim
+    )
+    boot = runtime_status == 200 and "DEVELOPMENT BUILD" in runtime_html
+    depth_pass = (
+        shell_pass
+        and manifest.get("sha") == sha
+        and manifest.get("label") == "DEVELOPMENT_BUILD"
+        and manifest.get("channel") == "DEVELOPMENT"
+        and manifest.get("acceptedMain") is False
+        and exact_files
+        and boot
+    )
+    return {
+        "http_status": status,
+        "surfacekit_v2": 'data-surfacekit="v2"' in html,
+        "generic_status_only": False,
+        "primary_action": 'id="primary-action"' in html,
+        "return_nav": 'aria-label="Return to gunnchOS"' in html,
+        "theme_control": 'id="theme-toggle"' in html,
+        "mobile_viewport": 'name="viewport"' in html,
+        "provenance": "source repository" in html.lower(),
+        "truth_boundary": labeled and manifest.get("acceptedMain") is False,
+        "shell_pass": shell_pass,
+        "depth_pass": depth_pass,
+        "depth_note": "Development runtime boots from the exact manifest. Not final approval.",
+        "runtime_sha": sha,
+        "runtime_boot": boot,
+        "methods_nonempty": False,
+        "source_list_nonempty": "source repository" in html.lower(),
+        "repo_authentic_artifact_count": len(files),
+        "domain_specific_interaction": depth_pass,
+        "domain_specific_diagram_or_data": exact_files,
+        "generic_readme_headings_only": False,
+        "measured_topology": False,
+        "evidence_class": "",
+        "limitations_shown": "not accepted main" in html.lower() or "not a release" in html.lower(),
+        "node_labels": [],
+        "row_count": 0,
+        "card_count": 0,
     }
 
 
@@ -167,8 +229,25 @@ def main() -> None:
                 explore = json.loads(exp_body)
             except json.JSONDecodeError:
                 explore = None
-        judged_shell = shell(html, status)
-        judged_depth = depth(item["classification"], html, explore)
+        if item["classification"] == DEVELOPMENT_RUNTIME:
+            man_status, man_body = get(url + "runtime-manifest")
+            manifest = None
+            if man_status == 200:
+                try:
+                    manifest = json.loads(man_body)
+                except json.JSONDecodeError:
+                    manifest = None
+            runtime_href = ""
+            found = re.search(r'href="(/runtime/[0-9a-f]{40}/index\.html)"', html)
+            if found:
+                runtime_href = found.group(1)
+            runtime_status, runtime_html = get(url.rstrip("/") + runtime_href) if runtime_href else (0, "")
+            judged = development_runtime(html, status, manifest, runtime_status, runtime_html)
+            judged_shell = judged
+            judged_depth = judged
+        else:
+            judged_shell = shell(html, status)
+            judged_depth = depth(item["classification"], html, explore)
         row = {
             "repo": item["repo"],
             "pr": item["pr"],
@@ -177,7 +256,11 @@ def main() -> None:
             "worker_url": url,
             "recorded_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "explore_http": exp_status,
-            **judged_shell,
+            **{k: v for k, v in judged_shell.items() if k not in judged_depth or k in {
+                "http_status", "surfacekit_v2", "generic_status_only", "primary_action",
+                "return_nav", "theme_control", "mobile_viewport", "provenance",
+                "truth_boundary", "shell_pass",
+            }},
             **{k: v for k, v in judged_depth.items() if k != "node_labels"},
             "node_labels": judged_depth.get("node_labels"),
             "runtime_pending": item["classification"] in GAME,

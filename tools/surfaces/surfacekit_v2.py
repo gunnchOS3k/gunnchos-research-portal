@@ -18,6 +18,7 @@ PRIMARY = {
     "BACKEND_CONTROL_SURFACE_WORKER": "Run local demo",
     "HEAVY_ASSET_EXTERNAL_RUNTIME_SURFACE": "Review build status",
     "GAME_LANDING_WORKER": "Review build status",
+    "LIVE_DEVELOPMENT_RUNTIME": "Play development build",
 }
 
 OULU_NOTE = (

@@ -25,8 +25,8 @@ gunnchos-hardware-industrial-design,86,STATIC_PRODUCT_SURFACE_WORKER,https://gun
 gunnchos-device-os,169,STATIC_PRODUCT_SURFACE_WORKER,https://gunnchos-device-os.gunnchos-finds.workers.dev/,200,True,True,False,True,12,False,True,True,,6,False
 gunnchAI3k,59,BACKEND_CONTROL_SURFACE_WORKER,https://gunnchos-gunnchai.gunnchos-finds.workers.dev/,200,True,True,False,True,12,False,True,True,,6,False
 gunnchai-ai-ur-013-sandbox,3,BACKEND_CONTROL_SURFACE_WORKER,https://gunnchos-ai-ur-013.gunnchos-finds.workers.dev/,200,True,True,False,False,0,False,False,True,,1,False
-anime-aggressors,120,HEAVY_ASSET_EXTERNAL_RUNTIME_SURFACE,https://anime-aggressors-web.gunnchos-finds.workers.dev/,200,False,False,True,False,0,False,False,True,,0,True
-pedestrian-pursuit,40,GAME_LANDING_WORKER,https://pedestrian-pursuit-web.gunnchos-finds.workers.dev/,200,False,False,True,False,0,False,False,True,,0,True
+anime-aggressors,120,LIVE_DEVELOPMENT_RUNTIME,https://anime-aggressors-web.gunnchos-finds.workers.dev/,200,True,True,False,False,9,True,True,False,,0,False
+pedestrian-pursuit,40,LIVE_DEVELOPMENT_RUNTIME,https://pedestrian-pursuit-web.gunnchos-finds.workers.dev/,200,True,True,False,False,9,True,True,False,,0,False
 gunnchOS3k,6,META_DIRECTORY_WORKER,https://gunnchos-ecosystem-index.gunnchos-finds.workers.dev/,200,True,True,False,False,0,False,True,True,,6,False
 gunnchOS3k-MLV-Hackathons,2,META_DIRECTORY_WORKER,https://gunnchos-mlv-hackathons.gunnchos-finds.workers.dev/,200,True,True,False,False,1,False,True,True,,6,False
 gunnchOS3k-MLV-Arcade,2,META_DIRECTORY_WORKER,https://gunnchos-mlv-arcade.gunnchos-finds.workers.dev/,200,True,True,False,False,4,False,True,True,,6,False
