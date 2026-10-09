@@ -1,5 +1,7 @@
 # Current release authority
 
+Baseline adoption: [immutable snapshot and rolling-board policy](BASELINE_ADOPTION.md). Subsequent progress is recorded in [separately versioned rolling revisions](rolling/CURRENT.json); the October 9 ledger and evidence remain unchanged. The immediate INV-01 implementation origin is `https://gunnchos.com` with a proposed `/i/<opaque-token>` route, pending implementation and verification. No configured `play.gunnchos.com` host is assumed.
+
 The canonical V1.0.0 release-control source is [the October 9 full feature-and-gate ledger](V1_0_0_LEDGER_2026-10-09.json), rendered as the [release matrix](V1_0_0_READINESS_2026-10-09.md) and [implementation tickets/dependency path](V1_0_0_EXECUTION_2026-10-09.md).
 
 Verdict: **NOT READY**. Target: **October 23, 2026**, fourth anniversary. Every owner-required feature remains in scope. Only the previously recorded website taste approval is retained; all other human/device/release gates remain open.
