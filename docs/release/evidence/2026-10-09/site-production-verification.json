@@ -1,0 +1,166 @@
+{
+  "verifiedAt": "2026-10-07T01:41:16.997571+00:00",
+  "repository": "gunnchOS3k/gunnchos-site",
+  "pullRequest": "https://github.com/gunnchOS3k/gunnchos-site/pull/19",
+  "pullRequestState": "MERGED",
+  "finalPrHead": "42ced4bc427cdbddead7b3e67aa8ef6c67b23574",
+  "mergeSha": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+  "exactDeployedMainSha": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+  "sourceTree": "d8362f7e1a42f54c810ec23c15cbd6d422600a9c",
+  "sourceTreeMatchesGreenPrHead": true,
+  "cleanBeforeBuild": true,
+  "cleanBeforeDeploy": true,
+  "worker": "gunnchos-site",
+  "workerVersion": "d6da71fd-ee12-45c7-a8db-d4f4364312ca",
+  "workerActiveAllocation": "100%",
+  "production": "https://gunnchos.com",
+  "versionPreview": "https://d6da71fd-gunnchos-site.gunnchos-finds.workers.dev",
+  "canonicalSourceException": {
+    "source": "Owner-supplied image0 6.JPG; explicit V1 canonical-source exception",
+    "canonical": "/brand/gunnchos-logo.jpg",
+    "sourceSha256": "6e11a84fc595e1a63ae290a61f07ab91e1d8cb86fc71c34e5cfaabdd34e38ecf",
+    "sourceSize": [
+      278,
+      252
+    ],
+    "sourceMode": "RGB",
+    "canonicalCopiedByteForByte": true,
+    "derivatives": [
+      {
+        "file": "app/icon.png",
+        "canvas": [
+          192,
+          192
+        ],
+        "artwork": [
+          192,
+          174
+        ],
+        "mode": "RGB",
+        "alpha": false
+      },
+      {
+        "file": "app/apple-icon.png",
+        "canvas": [
+          180,
+          180
+        ],
+        "artwork": [
+          180,
+          163
+        ],
+        "mode": "RGB",
+        "alpha": false
+      },
+      {
+        "file": "public/brand/favicon-16.png",
+        "canvas": [
+          16,
+          16
+        ],
+        "artwork": [
+          16,
+          15
+        ],
+        "mode": "RGB",
+        "alpha": false
+      },
+      {
+        "file": "public/brand/favicon-32.png",
+        "canvas": [
+          32,
+          32
+        ],
+        "artwork": [
+          32,
+          29
+        ],
+        "mode": "RGB",
+        "alpha": false
+      },
+      {
+        "file": "public/brand/favicon-48.png",
+        "canvas": [
+          48,
+          48
+        ],
+        "artwork": [
+          48,
+          44
+        ],
+        "mode": "RGB",
+        "alpha": false
+      }
+    ],
+    "socialCanvas": [
+      1200,
+      630
+    ],
+    "socialLogo": [
+      278,
+      252
+    ],
+    "futureImprovement": "Higher-resolution transparent canonical logo; non-blocking future asset-quality improvement."
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS with two pre-existing image warnings",
+    "focusedSeoUnitTests": 3,
+    "secretScan": "PASS",
+    "cloudflareConfig": "PASS",
+    "nextBuild": "PASS",
+    "openNextCleanMergedMainBuild": "PASS",
+    "focusedLocalBrowser": {
+      "passed": 15,
+      "intentionalSkips": 3
+    },
+    "currentHeadCI": {
+      "run": "https://github.com/gunnchOS3k/gunnchos-site/actions/runs/37557120344",
+      "conclusion": "SUCCESS",
+      "unitPassed": 74,
+      "optInRemoteUnitSkip": 1,
+      "browserPassed": 70,
+      "intentionalBrowserSkips": 12
+    },
+    "productionLandingChecks": 15,
+    "productionResponsiveChecks": 6,
+    "productionPassport": {
+      "startTime": "2026-10-07T01:39:20.690Z",
+      "duration": 27841.653,
+      "expected": 8,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "productionClosedSurfaces": {
+      "PROD_CLOSED_FORM_PASS": true,
+      "PROD_CLOSED_API_PASS": true,
+      "PROD_PREVIEW_ROUTE_404": true,
+      "PROD_ADMIN_FAIL_CLOSED": true,
+      "PROD_GALLERY_EMPTY": true
+    },
+    "sitemap": "PASS",
+    "robots": "PASS",
+    "productionIndexability": "PASS",
+    "fallbackAndVersionPreviewNoindex": "PASS",
+    "canonicalAndSocialMetadata": "PASS",
+    "OrganizationWebSiteBreadcrumbJsonLd": "PASS",
+    "defaultSocialPng": [
+      1200,
+      630
+    ],
+    "canonicalJpegByteIdentical": "PASS",
+    "activePublicContact": "hello@gunnchos.com",
+    "contactMailto": "PASS",
+    "obsoleteDisclaimerGone": true
+  },
+  "ownerApproval": "Explicit owner approval of PR #19 taste direction and completed closure, with the supplied native-size JPEG source exception, in this task.",
+  "V1_SITE_HUMAN_TASTE_PASS": true,
+  "otherHumanDeviceReleaseGatesInferred": false,
+  "DNS_CHANGED": false,
+  "RC2_V1_PUBLISHED": false,
+  "pausedProductWorkStarted": false,
+  "higherResolutionTransparentLogo": "Non-blocking future asset-quality improvement",
+  "searchEngineHandoff": "docs/SEO_LAUNCH_CHECKLIST.md",
+  "reportIsPostDeploymentEvidenceNotANewSourceCommit": true
+}

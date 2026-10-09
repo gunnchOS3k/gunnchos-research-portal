@@ -1,0 +1,735 @@
+{
+  "as_of": "2026-10-09",
+  "method": "GitHub connector GET reads; deployed evidence separately scoped",
+  "portal_main": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+  "repos": {
+    "gunnchos-site": {
+      "sha": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "subject": "Merge pull request #19 from gunnchOS3k/v1/site-brand-taste-pass\n\nComplete approved site taste pass, contact and SEO closure",
+      "date": "2026-10-07T01:35:31Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-site/commit/3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e"
+    },
+    "gunnchos-waike-learning-platform": {
+      "sha": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "subject": "Merge pull request #27 from gunnchOS3k/v1/full-learner-journey",
+      "date": "2026-10-06T12:30:23Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/commit/2641042936f3b965daccb11091c80cbc6fa64f91"
+    },
+    "waike-research-ops": {
+      "sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "subject": "Merge pull request #62 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:54:01Z",
+      "url": "https://github.com/gunnchOS3k/waike-research-ops/commit/34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0"
+    },
+    "pedestrian-pursuit": {
+      "sha": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "subject": "Merge pull request #41 from gunnchOS3k/v1/tutorial-dismiss",
+      "date": "2026-10-06T00:25:48Z",
+      "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/commit/957ff95b89d0516855ea61ddba19224a0583c3f8"
+    },
+    "anime-aggressors": {
+      "sha": "887e100114c9741ebc7a449b46116bcb6eef5072",
+      "subject": "Merge pull request #121 from gunnchOS3k/surface/exact-main-web-runtime",
+      "date": "2026-10-04T17:34:30Z",
+      "url": "https://github.com/gunnchOS3k/anime-aggressors/commit/887e100114c9741ebc7a449b46116bcb6eef5072"
+    },
+    "archive-of-life-artifact-world": {
+      "sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "subject": "Merge pull request #42 from gunnchOS3k/program/global-knowledge-ingestion-v1",
+      "date": "2026-09-28T20:48:29Z",
+      "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/commit/23ce4dafc2711449cab43a5bb6f42698c61ed2a1"
+    },
+    "beatlink-party": {
+      "sha": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "subject": "Merge pull request #32 from gunnchOS3k/integration/gunnchos-return-navigation",
+      "date": "2026-10-01T13:18:53Z",
+      "url": "https://github.com/gunnchOS3k/beatlink-party/commit/e15bc30856c67c508ab0c56b401e05eb34a58595"
+    },
+    "3k-mlv": {
+      "sha": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "subject": "Merge pull request #9 from gunnchOS3k/world/spatial-commons-neighborhood-v1",
+      "date": "2026-10-05T16:21:15Z",
+      "url": "https://github.com/gunnchOS3k/3k-mlv/commit/2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d"
+    },
+    "gunnchos-device-os": {
+      "sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "subject": "Merge pull request #168 from gunnchOS3k/eng/v1-hardware-quartet-universal-shell",
+      "date": "2026-09-28T20:15:35Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-device-os/commit/2ae070fd8b050c3520ed8dac211e0d607bf9f63f"
+    },
+    "gunnchos-hardware-industrial-design": {
+      "sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "subject": "Merge pull request #85 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:51:22Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/commit/af5af66a28e36351b3929ef15756b6df6381ff6a"
+    },
+    "gunnchAI3k": {
+      "sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "subject": "Merge pull request #58 from gunnchOS3k/research/kirby-jev-system-one-adoption-v1",
+      "date": "2026-09-27T01:36:49Z",
+      "url": "https://github.com/gunnchOS3k/gunnchAI3k/commit/e08b68bdbc26715a903bca51a9740f621a3b2dd6"
+    },
+    "gunnchos-7gc-ai-ran-field-kit": {
+      "sha": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "subject": "Merge pull request #121 from gunnchOS3k/fix/code-health-authenticity-current-main-baseline",
+      "date": "2026-09-28T19:02:45Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/commit/9dfc326647880c244904dd50a47ea80c3d46748e"
+    },
+    "7gc-digital-twin": {
+      "sha": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "subject": "Merge pull request #33 from gunnchOS3k/integration/mlv-campus-network-twin-v2",
+      "date": "2026-09-27T01:29:28Z",
+      "url": "https://github.com/gunnchOS3k/7gc-digital-twin/commit/1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa"
+    },
+    "edge-io-measurement-node": {
+      "sha": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "subject": "Merge pull request #41 from gunnchOS3k/integration/campus-calibration-evidence-v2",
+      "date": "2026-09-27T01:30:07Z",
+      "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/commit/f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a"
+    },
+    "spectrumx-ai-ran-gary": {
+      "sha": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "subject": "Merge pull request #106 from gunnchOS3k/surface/source-and-reproduce",
+      "date": "2026-10-02T18:14:52Z",
+      "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/commit/48eeacb7440af3a72966f3c4d5288d15c7de9617"
+    },
+    "readygary-6g-beam-selection": {
+      "sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "subject": "Merge pull request #28 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:52:31Z",
+      "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/commit/e04b38b48cd2ebd87243153ca8fad9e914f16b21"
+    },
+    "ntn-resilience-sim": {
+      "sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "subject": "Merge pull request #29 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:52:46Z",
+      "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/commit/05aaa9aec16882f58bac6ce4ff47618d9812f69f"
+    },
+    "gunnchos-emergent-service-intent-protocols": {
+      "sha": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+      "subject": "Merge pull request #3 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "date": "2026-08-18T20:35:56Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols/commit/088c5e88e155aaf9e4711c7b87a85d37145bbe31"
+    },
+    "gunnchos-gpu-nr-baseband-platform": {
+      "sha": "3931f51d43b7bee87db6d710a9df5a7c1136fcfa",
+      "subject": "Merge pull request #3 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "date": "2026-08-18T20:35:31Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform/commit/3931f51d43b7bee87db6d710a9df5a7c1136fcfa"
+    },
+    "gunnchos-technology-landscape": {
+      "sha": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+      "subject": "Merge pull request #10 from gunnchOS3k/cursor/human-validation-launch-prep-001",
+      "date": "2026-09-05T17:32:23Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-technology-landscape/commit/8d56d214fa6490ba6f99058babea834b5d3bb4ab"
+    }
+  },
+  "prs": {
+    "gunnchos-sitePR18": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-site/pull/18",
+      "state": "open",
+      "merged": false,
+      "draft": false,
+      "base": "main",
+      "base_sha": "acd021361c4c3312dd49ebfbe29238f221b6434e",
+      "head": "v1/passport-pass2u-event-final",
+      "head_sha": "3de66816db4be9f8261961cfe8b52659237c8f37",
+      "merge_commit_sha": null,
+      "body": "Preserve the approved Passport constellation and dark foundation while integrating pink sampled from the owner logo, a compact controller/wordmark lockup, and exact source-pixel 3K/MLV marks. The profile hero, event card, print view, and social preview share the branding; QR modules remain dark-on-white.\n\nAdd a local `passport:pass2u -- --profile <opaque-id>` export for existing opted-in profiles. The complete owner kit includes a ZIP, front design reference, clean background/strip, small logos/thumbnail, QR PNG/SVG, field JSON, concise iPhone guide, and a 1080×1920 Photos fallback. Owner signatures are omitted for other participant profiles. No Pass2U account/API calls, signing, payment, or automatic publication occur. Remove the dormant official Apple action from the event card; this event path needs no Apple Developer enrollment.\n\nValidation: 35 focused Passport unit tests and 10 desktop/mobile browser checks pass, including independent decoding of exported QR and fallback, exact handwriting source pixels, share/privacy/lenses, pink focus, print controls, accessibility, and mobile width. Native lint/Next build and secret/registry checks pass. Required Cloudflare runtime checks follow before exact-main deployment. Existing CI remains intact.\n\nAn optional broad `tsc --noEmit` check reports the same four preexisting errors on unchanged main (Playwright/Axe type mismatch and absent React DOM declarations); no suppressions or unrelated type changes are introduced. Physical iPhone Pass2U installation, camera scanning, and event acceptance remain owner-only. V1_PASSPORT_HUMAN_PASS remains false.\n\nThe existing Passport authorization permits a normal focused merge and deployment to gunnchos-site after green CI/runtime checks. Wrangler, DNS, authentication, public registry content, and unrelated products remain unchanged.\n"
+    },
+    "gunnchos-sitePR19": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-site/pull/19",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "base": "main",
+      "base_sha": "acd021361c4c3312dd49ebfbe29238f221b6434e",
+      "head": "v1/site-brand-taste-pass",
+      "head_sha": "42ced4bc427cdbddead7b3e67aa8ef6c67b23574",
+      "merge_commit_sha": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "body": "## Result\n\nConverges the public website on the owner-approved PR #19 taste direction: navy/cyan/pink with restrained constellation cues, clear routes for learning, research, devices, play, projects, and community, and responsive page hierarchy. Existing truth boundaries and the Passport visual/behavior surface are preserved.\n\nThe final closure changes the workspace label to **My Home**, makes owner-verified **hello@gunnchos.com** the active public contact channel, removes the obsolete mailbox disclaimer, and completes unique search metadata, production canonicals, OG/Twitter metadata, grounded Organization/WebSite and nested breadcrumb JSON-LD, deterministic sitemap, production robots, and preview noindex protection.\n\nThe owner explicitly authorized the full **278×252 JPEG** as the V1 canonical-source exception. The public header preserves its entire artwork without a circular crop; opaque icon derivatives only downscale; the 1200×630 social card uses the approved visual system with the JPEG at native size. No upscaling, AI redraw, reconstruction, fabricated transparency, or destructive cropping. A higher-resolution transparent logo is a **non-blocking future asset-quality improvement**.\n\n## Validation and production verification\n\nTypecheck, lint (two existing warnings), focused SEO unit tests, secret scan, Cloudflare configuration, and both Next/OpenNext builds passed. Focused local browser checks: 15 passes / three intentional skips. [CI on final head](https://github.com/gunnchOS3k/gunnchos-site/actions/runs/37557120344) passed: 74 unit tests / one opt-in remote skip; 70 browser tests / 12 intentional skips.\n\nMarked ready and merged normally. Final PR head: `42ced4bc427cdbddead7b3e67aa8ef6c67b23574`. Merge and exact deployed main: `3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e`. A clean detached checkout was built with that SHA and the accepted branded URLs; its source tree is identical to the green PR head. Existing `gunnchos-site` Worker version: `d6da71fd-ee12-45c7-a8db-d4f4364312ca`, active at 100%.\n\n[Production](https://gunnchos.com) verification passed across 15 landing pages and six 390px/320px layout checks. Homepage, Contact, My Home, Research, Devices, Play, Campus/WAIKE, Gallery, Status, unique titles/descriptions, production canonicals, OG/Twitter metadata, icon/social asset delivery, Organization/WebSite/Breadcrumb JSON-LD, deterministic sitemap, robots, and deployed Status SHA passed. The canonical public JPEG is byte-identical to the supplied original. Contact presents `hello@gunnchos.com` as the active public mailto channel and the obsolete disclaimer is gone.\n\nProduction remains indexable. The fallback workers.dev host and [new version preview](https://d6da71fd-gunnchos-site.gunnchos-finds.workers.dev) have noindex protection. The unchanged focused Passport suite passed all eight production checks, including lenses/event card, QR decoding, share fallback, closed Wallet, vCard privacy, mobile layout/focus, and accessibility. All five existing Open Lab fail-closed checks passed.\n\n`V1_SITE_HUMAN_TASTE_PASS=true` is recorded after successful production verification based on explicit owner approval. No other gate is inferred. DNS was unchanged. RC2/V1 remains unpublished. Passport, Anime Aggressors, Archive of Life, and other product engineering remain paused.\n\nAsset provenance: `public/brand/provenance.json`; source notes: `docs/BRAND_ASSETS.md`; owner-only [search-engine checklist](https://github.com/gunnchOS3k/gunnchos-site/blob/main/docs/SEO_LAUNCH_CHECKLIST.md). The local post-deployment report, full verification JSON, screenshots, build/deploy logs, and Passport results are saved under `artifacts/production-closure` in the exact-main deployment checkout. Historical pre-production review artifacts retain their original source/version and gate state.\n"
+    },
+    "gunnchos-waike-learning-platformPR27": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/pull/27",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "base": "main",
+      "base_sha": "90fb9c5ceab51d99dfff7b5e6d1775fd1dca85d6",
+      "head": "v1/full-learner-journey",
+      "head_sha": "c73fae5945338d28c9915024c468fc0925027e93",
+      "merge_commit_sha": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "body": "The public learner path now opens authored content from all 18 verified curriculum packages without requiring a school Hub. Learners can browse lessons, assignment instructions, quizzes, labs, and portfolio instructions while school schedules, submissions, grades, messages, and AI remain explicitly unavailable until a real Hub supplies them.\n\nDigital Confidence now packages the material already authored in the pinned canonical curriculum, including its shared GENERAL_IT lessons, quizzes, labs, rubrics, outcomes, AI policy, and offline pack. The compiler respects the explicit WAIKE_ROOT pin. Native pack tests use isolated compile outputs and preserve all trust/tamper/role assertions.\n\nValidation:\n\n- Exact curriculum pin: 63ba9f25ac6b8d8d1b6dd118923566fd51c57b62; 18/18 packages compile and verify.\n- Full make test: 126 core, 99 Gate A, 201 Gate B, 74 Gate C, 16 Gate D, 38 Rust, 78 frontend passed.\n- Final frontend regression: 96 tests passed, including all 18 content routes; lint passed.\n- make build passed for the pack, Vite production bundle, and native Rust binary.\n- Final Gate C/D verifiers honor WAIKE_ALLOW_FAKE_AI=0; production AI acceptance remains false.\n- Public curriculum validator and signed-payload reachability evidence passed.\n\nDetailed package IDs/hashes, real-content matrix, and test evidence are in reports/V1_PUBLIC_LEARNER_JOURNEY.md and .json.\n\nOwner review is requested. V1_WAIKE_HUMAN_PASS, production school-Hub/hosted acceptance, Pixel/device acceptance, external OneRoster/QTI/LTI certification, production signing/notarization, and independent security/accessibility/privacy certification remain false/open. This PR does not deploy or authorize an automatic merge.\n"
+    },
+    "pedestrian-pursuitPR41": {
+      "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/41",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "base": "main",
+      "base_sha": "f1c1a4cec80e2708baf5e3367f952eb9dae26b26",
+      "head": "v1/tutorial-dismiss",
+      "head_sha": "06ad070e8cded5c8f1693634dff2338fc9583f8d",
+      "merge_commit_sha": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "body": "## Summary\n- restore an explicit persistent Not now path on the first-run prompt\n- keep Race Now and Learn the Track independently reachable, including keyboard/controller/Android back behavior\n- add a fresh-profile onboarding-to-race regression test without granting tutorial rewards\n- fix rail-speed compounding and cap AI-only stacked boosts at the evaluator contract discovered during regression\n\n## Validation\n- python content validator: PASS\n- Python unit tests: 31/31 PASS\n- full Godot headless suite: PEDESTRIAN_MAIN_GODOT_HEADLESS_PASS\n- exhaustive competitive AI matrix: 768/768 PASS, zero errors, zero cheats\n- digital RC packaging: PEDESTRIAN_DIGITAL_RC_READY\n\nPhysical-performance validation remains pending; no human gate was changed."
+    },
+    "3k-mlvPR9": {
+      "url": "https://github.com/gunnchOS3k/3k-mlv/pull/9",
+      "state": "closed",
+      "merged": true,
+      "draft": false,
+      "base": "main",
+      "base_sha": "a10cfe7535cde6508699735930378a2801fa31f4",
+      "head": "world/spatial-commons-neighborhood-v1",
+      "head_sha": "bf08de4caeea3d2a80ce79233c906e19ae7f96a5",
+      "merge_commit_sha": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "body": "## Summary\n- Replaces the signed-in flat home block with a room-to-room neighborhood on the existing React Three Fiber stack: 3k MLV Commons, a player house (exterior plus front room and study), and a campus transit plaza.\n- All seven destinations are physically present and named Gary, Ghana, Guyana, Geelong, Ruhr, Gaza, and Graham Land. Each has an enterable exterior, lobby, learning room, and gallery. Geometry is original and stylized.\n- Affiliation claims stay false. Gaza has no coordinates and no site claim. Ruhr is the world label for the existing Germany catalog slug. This does not flip HUMAN_7GC_* or other LIVE gates, and it does not replace the schematic drawings on PR #6.\n\n## Test plan\n- [x] `node --test tests/world/spatial_neighborhood.test.mjs tests/privacy/*.test.mjs tests/deployment/portal_return.test.mjs`\n- [x] `tsc --noEmit` in `apps/mlv-web`\n- [x] Local walk: Commons → house exterior → front room → study → Commons → transit (seven names visible) → Gary exterior → Gary lobby → Gary gallery\n- [x] Same enterable stack walked for Ghana, Guyana, Geelong, Ruhr, Gaza, and Graham Land\n- [ ] Not deployed. Screenshots are local development captures in `artifacts/world/spatial_commons/`\n\n\nMade with [Cursor](https://cursor.com)"
+    }
+  },
+  "anime_checkpoint": {
+    "sha": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+    "branch": "codex/anime-v1-closure-2026-10-06"
+  },
+  "checks": {
+    "gunnchos-site@42ced4bc427cdbddead7b3e67aa8ef6c67b23574": {
+      "total": 1,
+      "returned": 1,
+      "checks": [
+        {
+          "name": "ci",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-site/actions/runs/37557120344/job/112585794971"
+        }
+      ]
+    },
+    "pedestrian-pursuit@06ad070e8cded5c8f1693634dff2338fc9583f8d": {
+      "total": 5,
+      "returned": 5,
+      "checks": [
+        {
+          "name": "godot-headless-no-false-green",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/37359927080/job/111931709397"
+        },
+        {
+          "name": "wp014-actual-production-runtime",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/37359927080/job/111931709057"
+        },
+        {
+          "name": "gate1-core-loop",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/37359927080/job/111931708696"
+        },
+        {
+          "name": "windows-pilot0-windows-2025",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/37359927113/job/111931683399"
+        },
+        {
+          "name": "wave010",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/actions/runs/37359927094/job/111931682879"
+        }
+      ]
+    },
+    "anime-aggressors@e063b13bcb293ad3ac7b8673c82d8830f8e0b24d": {
+      "total": 1,
+      "returned": 1,
+      "checks": [
+        {
+          "name": "web",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/anime-aggressors/actions/runs/37514720098/job/112444565444"
+        }
+      ]
+    },
+    "gunnchos-site@3de66816db4be9f8261961cfe8b52659237c8f37": {
+      "total": 1,
+      "returned": 1,
+      "checks": [
+        {
+          "name": "ci",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-site/actions/runs/37534729812/job/112512667245"
+        }
+      ]
+    },
+    "gunnchos-waike-learning-platform@c73fae5945338d28c9915024c468fc0925027e93": {
+      "total": 77,
+      "returned": 77,
+      "checks": [
+        {
+          "name": "verify-gate-c",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112262449561"
+        },
+        {
+          "name": "verify-gate-d",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112261877595"
+        },
+        {
+          "name": "oneroster-local-mapping",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361911"
+        },
+        {
+          "name": "accessibility",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361848"
+        },
+        {
+          "name": "diagnostics-truth",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361847"
+        },
+        {
+          "name": "qti3-subset",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361790"
+        },
+        {
+          "name": "production-admin-ui",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361769"
+        },
+        {
+          "name": "rust",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361729"
+        },
+        {
+          "name": "qti-section-authz",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361726"
+        },
+        {
+          "name": "diagnostics",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361712"
+        },
+        {
+          "name": "native-linux",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361711"
+        },
+        {
+          "name": "privacy-behavior",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361706"
+        },
+        {
+          "name": "adversarial-review",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361697"
+        },
+        {
+          "name": "frontend",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361683"
+        },
+        {
+          "name": "deviceos-real-tauri-runtime-e2e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361663"
+        },
+        {
+          "name": "keyboard-e2e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361580"
+        },
+        {
+          "name": "macos-native",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361534"
+        },
+        {
+          "name": "keyboard-real-e2e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361520"
+        },
+        {
+          "name": "mutation-concurrency",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361476"
+        },
+        {
+          "name": "oneroster-revocation",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361473"
+        },
+        {
+          "name": "pilot-performance",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361459"
+        },
+        {
+          "name": "rate-limit-window",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361383"
+        },
+        {
+          "name": "rate-limits",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361321"
+        },
+        {
+          "name": "destructive-restore-real",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361291"
+        },
+        {
+          "name": "performance",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361217"
+        },
+        {
+          "name": "backup-db-integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361196"
+        },
+        {
+          "name": "continuity",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361184"
+        },
+        {
+          "name": "install-update-rollback",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361178"
+        },
+        {
+          "name": "admin",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361094"
+        },
+        {
+          "name": "backup-restore",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361074"
+        },
+        {
+          "name": "privacy-controls",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361063"
+        },
+        {
+          "name": "concurrency",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361038"
+        },
+        {
+          "name": "deep-links",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361033"
+        },
+        {
+          "name": "authorization-sabotage",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361030"
+        },
+        {
+          "name": "package-lifecycle-enforcement",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361023"
+        },
+        {
+          "name": "session-security",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259361016"
+        },
+        {
+          "name": "device-profiles",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360979"
+        },
+        {
+          "name": "ai-security-regression",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360967"
+        },
+        {
+          "name": "observability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360953"
+        },
+        {
+          "name": "archive-security",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360484"
+        },
+        {
+          "name": "package-lifecycle",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360449"
+        },
+        {
+          "name": "oneroster-security",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360436"
+        },
+        {
+          "name": "backup-security",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360407"
+        },
+        {
+          "name": "lti-production-jwks",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360390"
+        },
+        {
+          "name": "qti-security",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360273"
+        },
+        {
+          "name": "deviceos-integration",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360224"
+        },
+        {
+          "name": "deviceos-contract",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360145"
+        },
+        {
+          "name": "migration-upgrade",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360126"
+        },
+        {
+          "name": "oneroster",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360101"
+        },
+        {
+          "name": "qti",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360056"
+        },
+        {
+          "name": "lti",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259360037"
+        },
+        {
+          "name": "lti-security",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259359993"
+        },
+        {
+          "name": "full-prior-regression",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259359976"
+        },
+        {
+          "name": "discovery-contracts",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733690/job/112259359651"
+        },
+        {
+          "name": "interop-acceptance",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259359260"
+        },
+        {
+          "name": "native-linux",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259359135"
+        },
+        {
+          "name": "offline-cross-device",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259359080"
+        },
+        {
+          "name": "a11y-frontend",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259359057"
+        },
+        {
+          "name": "native-linux-aarch64",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733766/job/112259359028"
+        },
+        {
+          "name": "all-18-tracks",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259359002"
+        },
+        {
+          "name": "data-durability",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358998"
+        },
+        {
+          "name": "security-privacy",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358991"
+        },
+        {
+          "name": "adversarial-final",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358970"
+        },
+        {
+          "name": "full-prior-regression",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358953"
+        },
+        {
+          "name": "learner-journey",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358919"
+        },
+        {
+          "name": "perf-ops",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358916"
+        },
+        {
+          "name": "rust",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358915"
+        },
+        {
+          "name": "deviceos-real-tauri-runtime-e2e",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358911"
+        },
+        {
+          "name": "other-roles",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358870"
+        },
+        {
+          "name": "deviceos-acceptance",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358829"
+        },
+        {
+          "name": "instructor-journey",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358781"
+        },
+        {
+          "name": "gunnchai-acceptance",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358772"
+        },
+        {
+          "name": "macos-native",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358723"
+        },
+        {
+          "name": "clean-room",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733722/job/112259358565"
+        },
+        {
+          "name": "windows-pilot0-windows-2025",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733701/job/112259358324"
+        },
+        {
+          "name": "windows-pilot0-windows-latest",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733701/job/112259357891"
+        },
+        {
+          "name": "native-linux-aarch64-glibc236",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/actions/runs/37460733748/job/112259357774"
+        }
+      ]
+    }
+  }
+}

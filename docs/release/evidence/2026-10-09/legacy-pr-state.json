@@ -1,0 +1,18 @@
+{
+  "pedestrian-pursuitPR39": {
+    "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/39",
+    "state": "closed",
+    "merged": true,
+    "head": "v4/course-worlds-powerup-readability",
+    "head_sha": "c4f2f42b792307034e6e343c055c45c26e4ddf0d",
+    "base_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf"
+  },
+  "anime-aggressorsPR118": {
+    "url": "https://github.com/gunnchOS3k/anime-aggressors/pull/118",
+    "state": "closed",
+    "merged": true,
+    "head": "v4/dual-form-power-roster",
+    "head_sha": "11eb8a420c1f9777fe2555d64bdaf718c3955299",
+    "base_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35"
+  }
+}

@@ -1,5 +1,7 @@
 # V1 readiness — 2026-10-04
 
+Historical snapshot, superseded for current V1 decisions by the [October 9 full-scope ledger](V1_0_0_READINESS_2026-10-09.md). Preserve this evidence; its gold-slice criteria, older source pins and open-PR notes are not current release authority.
+
 This board records what was checked in the convergence pass after gunnchOS site PR #10. It is not a release authorization. `v1.0.0-rc.1` remains the published release candidate. RC2 was not cut. `V1_0_0_RELEASE_AUTHORIZED=false`.
 
 No domain below is a substitute for another domain.

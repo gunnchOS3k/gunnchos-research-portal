@@ -1,0 +1,71 @@
+{
+  "schema": "waike.exact_main_production_smoke.v1",
+  "main_sha": "2641042936f3b965daccb11091c80cbc6fa64f91",
+  "accepted_pr": 27,
+  "accepted_tip_ancestor": "c73fae5945338d28c9915024c468fc0925027e93",
+  "deployment_worktree": "/Users/gunnchos/Downloads/gunnchos-codex-worktrees/waike-production-2641042",
+  "source_modified": false,
+  "curriculum_pin": "63ba9f25ac6b8d8d1b6dd118923566fd51c57b62",
+  "public_url": "https://learn.gunnchos.com",
+  "runtime": {
+    "mechanism": "existing Cloudflare assets-only Worker waike-campus",
+    "version": "14883cdd-d66d-4019-a2f2-ff27ac39577c",
+    "version_number": 2,
+    "previous_version": "2e18d44c-68b6-42d3-808c-104ab9914f0c",
+    "deployed_utc": "2026-10-06T12:36:45.676Z",
+    "traffic_percent": 100,
+    "compatibility_date": "2026-09-30",
+    "assets_not_found_handling": "single-page-application",
+    "bindings": [],
+    "existing_domain_binding_unchanged": true,
+    "dns_routes_auth_hub_unrelated_services_changed": false
+  },
+  "build": {
+    "node": "24.9.0",
+    "pnpm": "9.15.9",
+    "vite": "6.4.3",
+    "wrangler": "4.147.0",
+    "dependency_command": "pnpm install --offline --frozen-lockfile",
+    "command": "VITE_GUNNCHOS_PORTAL_URL=https://gunnchos.com VITE_HUB_URL= VITE_WAIKE_MOCK_HUB=false VITE_PIXEL_PILOT=false pnpm run build",
+    "result": "PASS",
+    "warning": "Vite bundle exceeds 500 kB advisory threshold",
+    "sha256": {
+      "dist/index.html": "b67c3aa303587e4703a24f9abe6883ae867327e92813c1665a954a53fc0c34c9",
+      "dist/assets/index-AtBkz8KJ.js": "0297a36b70b3a76bbda3bdf0a507ae54e8f9b5e8ecbb5b41fd2272234fa53152",
+      "dist/assets/index-Kb4Esy_X.css": "d6680a06b14c6f633d4bc6f602ea72af54d6e18426e4ba0a6a8d70855d547282",
+      "dist/sw.js": "8fb52f8d874078e36594482fb5c45d7a8bb3366b6ea1ca1bd2a860d8f08f77bf",
+      "public_curriculum_json": "f04cab2f5a67676faf72588e063cc7554287583373df75aead7d87c2eaca69e8",
+      "pnpm-lock.yaml": "b16a11ce846d94d6b176c778385f45146874970a897770622d9db73f489c00ca"
+    },
+    "public_html_and_js_match_build_hashes": true
+  },
+  "smoke": [
+    {"check": "public runtime loads", "result": "PASS", "evidence": "Live in-app browser rendered WAIKE Learning OS at learn.gunnchos.com"},
+    {"check": "18 tracks discoverable", "result": "PASS", "evidence": "Courses displayed all 18 track cards"},
+    {"check": "real authored lesson", "result": "PASS", "evidence": "Digital Confidence Week 1: The Civic Tech Desk opened authored ticket 4417 and remember/calculate/talk lesson content"},
+    {"check": "assignment and lab paths", "result": "PASS", "evidence": "A01 opened authored operator-journal instructions; lab_ticket_queue opened tickets 4417/4418/4419, validation requirements and runner instructions"},
+    {"check": "Grades no-Hub boundary", "result": "PASS", "evidence": "Explicitly unavailable without a school Hub; no scores, mastery or completion fabricated"},
+    {"check": "Today Calendar Messages no-Hub boundaries", "result": "PASS", "evidence": "No invented school schedule, agenda or messages; Hub requirement explicit"},
+    {"check": "Digital Confidence complete packaged content", "result": "PASS", "evidence": "10 lessons, 10 assignments, 10 labs and 10 quizzes; real content opens and offline-pack declaration present, not prior partial declaration"},
+    {"check": "mobile-width Grades navigation", "result": "PASS", "evidence": "Grades visible and opened at 390x844 viewport; responsive browser evidence only, not physical-device acceptance"},
+    {"check": "gunnchOS and MLV return navigation", "result": "PASS", "evidence": "Return to gunnchOS reached gunnchos.com; Enter 3k MLV reached mlv.gunnchos.com; browser back returned to WAIKE"},
+    {"check": "obvious runtime or console failure", "result": "PASS", "evidence": "No WAIKE-origin console errors; service-worker registration diagnostic warnings only"}
+  ],
+  "additional_boundary_check": "Ask gunnchAI reports Hub unavailable; no fake AI",
+  "caveats": [
+    "An already-open pre-deployment browser session required a second reload to move from its cached service-worker version to the new bundle. Public HTTP HTML and JavaScript matched the deployment immediately.",
+    "MLV displayed its existing Supabase-unconfigured banner; no MLV changes or acceptance are claimed.",
+    "This is sampled production smoke, not human curriculum approval, exhaustive track navigation or physical-device certification."
+  ],
+  "gates": {
+    "V1_WAIKE_HUMAN_PASS": false,
+    "production_school_hub_acceptance": false,
+    "production_ai_acceptance": false,
+    "pixel_device_acceptance": false,
+    "external_oneroster_qti_lti_certification": false,
+    "independent_security_accessibility_privacy_certification": false,
+    "production_signing_notarization": false
+  },
+  "rc2_published": false,
+  "v1_published": false
+}

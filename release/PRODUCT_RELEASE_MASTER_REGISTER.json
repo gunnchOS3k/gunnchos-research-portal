@@ -385,5 +385,9 @@
   "DEVICE_LAB_ACCEPTED_MAIN_INDEPENDENT_VERIFY_PASS": true,
   "CX4_FINAL_HUMAN_VALIDATION_ELIGIBLE": false,
   "J6_CLASS": "HUMAN_VALIDATION_PENDING",
-  "FULL_COMPLETE_EXPERIENCE_COMPLETE": false
+  "FULL_COMPLETE_EXPERIENCE_COMPLETE": false,
+  "authority_status": "HISTORICAL_SUPERSEDED_FOR_V1_0_0",
+  "current_v1_authority": "docs/release/V1_0_0_LEDGER_2026-10-09.json",
+  "superseded_as_of": "2026-10-09",
+  "historical_tokens_are_not_current_acceptance": true
 }

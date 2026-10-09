@@ -1,0 +1,3808 @@
+{
+  "schema": "gunnchos.v1.full_release_ledger.v1",
+  "as_of": "2026-10-09",
+  "timezone": "America/Chicago",
+  "target": "2026-10-23",
+  "target_name": "Fourth anniversary",
+  "portal_base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+  "verdict": "NOT_READY",
+  "release_identity": "Software + digital engineering, full owner-declared V1 scope",
+  "authority": [
+    "owner-full-completion-policy.md",
+    "owner-archive-full-coverage.md",
+    "owner-invites-addendum.md"
+  ],
+  "authority_precedence": "Newer full-completion policy and Archive/invite owner overrides supersede September sample/gold-slice/deferred-science dispositions. Accepted-main/CI cannot approve a human gate.",
+  "reconciliation_only": true,
+  "merged_or_published_by_this_task": false,
+  "repo_bases": {
+    "gunnchos-site": {
+      "sha": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "subject": "Merge pull request #19 from gunnchOS3k/v1/site-brand-taste-pass\n\nComplete approved site taste pass, contact and SEO closure",
+      "date": "2026-10-07T01:35:31Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-site/commit/3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e"
+    },
+    "gunnchos-waike-learning-platform": {
+      "sha": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "subject": "Merge pull request #27 from gunnchOS3k/v1/full-learner-journey",
+      "date": "2026-10-06T12:30:23Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/commit/2641042936f3b965daccb11091c80cbc6fa64f91"
+    },
+    "waike-research-ops": {
+      "sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "subject": "Merge pull request #62 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:54:01Z",
+      "url": "https://github.com/gunnchOS3k/waike-research-ops/commit/34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0"
+    },
+    "pedestrian-pursuit": {
+      "sha": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "subject": "Merge pull request #41 from gunnchOS3k/v1/tutorial-dismiss",
+      "date": "2026-10-06T00:25:48Z",
+      "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/commit/957ff95b89d0516855ea61ddba19224a0583c3f8"
+    },
+    "anime-aggressors": {
+      "sha": "887e100114c9741ebc7a449b46116bcb6eef5072",
+      "subject": "Merge pull request #121 from gunnchOS3k/surface/exact-main-web-runtime",
+      "date": "2026-10-04T17:34:30Z",
+      "url": "https://github.com/gunnchOS3k/anime-aggressors/commit/887e100114c9741ebc7a449b46116bcb6eef5072"
+    },
+    "archive-of-life-artifact-world": {
+      "sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "subject": "Merge pull request #42 from gunnchOS3k/program/global-knowledge-ingestion-v1",
+      "date": "2026-09-28T20:48:29Z",
+      "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/commit/23ce4dafc2711449cab43a5bb6f42698c61ed2a1"
+    },
+    "beatlink-party": {
+      "sha": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "subject": "Merge pull request #32 from gunnchOS3k/integration/gunnchos-return-navigation",
+      "date": "2026-10-01T13:18:53Z",
+      "url": "https://github.com/gunnchOS3k/beatlink-party/commit/e15bc30856c67c508ab0c56b401e05eb34a58595"
+    },
+    "3k-mlv": {
+      "sha": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "subject": "Merge pull request #9 from gunnchOS3k/world/spatial-commons-neighborhood-v1",
+      "date": "2026-10-05T16:21:15Z",
+      "url": "https://github.com/gunnchOS3k/3k-mlv/commit/2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d"
+    },
+    "gunnchos-device-os": {
+      "sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "subject": "Merge pull request #168 from gunnchOS3k/eng/v1-hardware-quartet-universal-shell",
+      "date": "2026-09-28T20:15:35Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-device-os/commit/2ae070fd8b050c3520ed8dac211e0d607bf9f63f"
+    },
+    "gunnchos-hardware-industrial-design": {
+      "sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "subject": "Merge pull request #85 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:51:22Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/commit/af5af66a28e36351b3929ef15756b6df6381ff6a"
+    },
+    "gunnchAI3k": {
+      "sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "subject": "Merge pull request #58 from gunnchOS3k/research/kirby-jev-system-one-adoption-v1",
+      "date": "2026-09-27T01:36:49Z",
+      "url": "https://github.com/gunnchOS3k/gunnchAI3k/commit/e08b68bdbc26715a903bca51a9740f621a3b2dd6"
+    },
+    "gunnchos-7gc-ai-ran-field-kit": {
+      "sha": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "subject": "Merge pull request #121 from gunnchOS3k/fix/code-health-authenticity-current-main-baseline",
+      "date": "2026-09-28T19:02:45Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/commit/9dfc326647880c244904dd50a47ea80c3d46748e"
+    },
+    "7gc-digital-twin": {
+      "sha": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "subject": "Merge pull request #33 from gunnchOS3k/integration/mlv-campus-network-twin-v2",
+      "date": "2026-09-27T01:29:28Z",
+      "url": "https://github.com/gunnchOS3k/7gc-digital-twin/commit/1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa"
+    },
+    "edge-io-measurement-node": {
+      "sha": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "subject": "Merge pull request #41 from gunnchOS3k/integration/campus-calibration-evidence-v2",
+      "date": "2026-09-27T01:30:07Z",
+      "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/commit/f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a"
+    },
+    "spectrumx-ai-ran-gary": {
+      "sha": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "subject": "Merge pull request #106 from gunnchOS3k/surface/source-and-reproduce",
+      "date": "2026-10-02T18:14:52Z",
+      "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/commit/48eeacb7440af3a72966f3c4d5288d15c7de9617"
+    },
+    "readygary-6g-beam-selection": {
+      "sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "subject": "Merge pull request #28 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:52:31Z",
+      "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/commit/e04b38b48cd2ebd87243153ca8fad9e914f16b21"
+    },
+    "ntn-resilience-sim": {
+      "sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "subject": "Merge pull request #29 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:52:46Z",
+      "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/commit/05aaa9aec16882f58bac6ce4ff47618d9812f69f"
+    },
+    "gunnchos-emergent-service-intent-protocols": {
+      "sha": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+      "subject": "Merge pull request #3 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "date": "2026-08-18T20:35:56Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols/commit/088c5e88e155aaf9e4711c7b87a85d37145bbe31"
+    },
+    "gunnchos-gpu-nr-baseband-platform": {
+      "sha": "3931f51d43b7bee87db6d710a9df5a7c1136fcfa",
+      "subject": "Merge pull request #3 from gunnchOS3k/cursor/supervisor-ready-portfolio-release-001",
+      "date": "2026-08-18T20:35:31Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-gpu-nr-baseband-platform/commit/3931f51d43b7bee87db6d710a9df5a7c1136fcfa"
+    },
+    "gunnchos-technology-landscape": {
+      "sha": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+      "subject": "Merge pull request #10 from gunnchOS3k/cursor/human-validation-launch-prep-001",
+      "date": "2026-09-05T17:32:23Z",
+      "url": "https://github.com/gunnchOS3k/gunnchos-technology-landscape/commit/8d56d214fa6490ba6f99058babea834b5d3bb4ab"
+    },
+    "gunnchos-research-portal": {
+      "sha": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "subject": "Merge PR #53: October readiness board",
+      "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/commit/947138fcec929f7f21f1738fb6e2fad11f32661a"
+    }
+  },
+  "preserved_checkpoints": {
+    "anime-aggressors": {
+      "branch": "codex/anime-v1-closure-2026-10-06",
+      "commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "runtime_source_commit": "ce2775f1fddc725c4cad639ef03d87666ec6d003",
+      "pck_sha256": "a62f4458506dc66d5fcd7eaf088148a1e8edc9e57d696e83e2e123a14c3435dc",
+      "accepted_main": "887e100114c9741ebc7a449b46116bcb6eef5072",
+      "deployed_source": "0188ea458dce77ba322e7e1fede841f216c004f0",
+      "merged": false
+    },
+    "passport-pass2u": {
+      "repo": "gunnchos-site",
+      "branch": "v1/passport-pass2u-event-final",
+      "commit": "3de66816db4be9f8261961cfe8b52659237c8f37",
+      "base_commit": "acd021361c4c3312dd49ebfbe29238f221b6434e",
+      "merged": false
+    },
+    "waike-curriculum": {
+      "repo": "waike-research-ops",
+      "ref": "63ba9f25ac6b8d8d1b6dd118923566fd51c57b62",
+      "note": "Pinned source consumed by deployed WAIKE, separate from latest main"
+    }
+  },
+  "features": [
+    {
+      "id": "MLV-001",
+      "repo": "3k-mlv",
+      "feature": "Home / Campus / Gallery world shell",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-002",
+      "repo": "3k-mlv",
+      "feature": "Selective-sharing privacy model",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-003",
+      "repo": "3k-mlv",
+      "feature": "Campus→WAIKE integration",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_INTEGRATION",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-004",
+      "repo": "3k-mlv",
+      "feature": "Gallery public/shared creation surface",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_PARTIAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-005",
+      "repo": "3k-mlv",
+      "feature": "Universal host shell / capability adapter",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-006",
+      "repo": "3k-mlv",
+      "feature": "Seven source-traceable 7GC campuses",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PR9_MERGED_FULL_WORLD_INCOMPLETE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "owner-full-completion-policy.md",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_CANDIDATE_PENDING_OWNER",
+      "historical_status": "DRAFT_PR_6",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-007",
+      "repo": "gunnchos-site",
+      "feature": "Cloudflare Workers production + previews",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "SITE-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "PROMPT_READY_NOT_DEPLOYED",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-008",
+      "repo": "gunnchos-site",
+      "feature": "mlv.gunnchos.com live",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "SITE-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "NOT_LIVE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "MLV-009",
+      "repo": "gunnchos-site",
+      "feature": "gunnchos.com ecosystem front door",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "SITE-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "NOT_LIVE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-001",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "Native LMS platform",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-002",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "Offline sync / durable outbox",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-003",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "Assessments / quizzes / labs / groups",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_SUBSTANTIAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-004",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "18 learning tracks",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED_WITH_CLAIM_BOUNDARY",
+      "historical_status": "PLATFORM_AVAILABLE_CONTENT_REVIEW_PENDING",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-005",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "OneRoster / QTI / LTI interfaces",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED_FOR_INTERFACE_NOT_CERTIFICATION",
+      "historical_status": "IMPLEMENTED_OR_PARTIAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-006",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "Staff + learner/instructor alpha",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "IN_V1_HUMAN_GATE",
+      "historical_status": "REQUIRES_HUMAN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WAIKE-007",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "K-12 institutional rollout",
+      "required_for_v1": false,
+      "scope": "POST_V1_EXTERNAL",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ],
+      "historical_disposition": "POST_V1_EXTERNAL",
+      "historical_status": "NOT_AUTHORIZED",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "AI-001",
+      "repo": "gunnchAI3k",
+      "feature": "Student tutoring / assignment assistance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "AI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_IMPLEMENTED",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "AI-002",
+      "repo": "gunnchAI3k",
+      "feature": "Instructor counterpart",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "AI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED_WITH_CLAIM_BOUNDARY",
+      "historical_status": "IMPLEMENTED_OR_PARTIAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "AI-003",
+      "repo": "gunnchAI3k",
+      "feature": "Live provider qualification",
+      "required_for_v1": false,
+      "scope": "IN_V1_OPTIONAL_PROVIDER_GATE",
+      "base_branch": "main",
+      "base_commit": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "AI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_OPTIONAL_PROVIDER_GATE",
+      "historical_status": "BLOCKED_EXTERNAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-001",
+      "repo": "anime-aggressors",
+      "feature": "Nine-fighter roster",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-03"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DRAFT_PR_118",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-002",
+      "repo": "anime-aggressors",
+      "feature": "18 authored body presentations",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-03"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS_PR118",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-003",
+      "repo": "anime-aggressors",
+      "feature": "999 animation slots / 216 move routes",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-03"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS_PR118",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-004",
+      "repo": "anime-aggressors",
+      "feature": "Puppet / Essence / Prismatic Gray",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_PR118",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-005",
+      "repo": "anime-aggressors",
+      "feature": "Yin + Yang playable",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-03"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "TUNING_CANDIDATE_PR118",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-006",
+      "repo": "anime-aggressors",
+      "feature": "Seven-route Story campaign",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_PR118",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-007",
+      "repo": "anime-aggressors",
+      "feature": "PartyLink 2/4/6/8-player architecture",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-03"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-008",
+      "repo": "anime-aggressors",
+      "feature": "Exact-head Android CI + animectl",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-05"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "PASS",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-009",
+      "repo": "anime-aggressors",
+      "feature": "Pixel G7 exact-head physical smoke",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "PIX-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "BLOCKED_SIGNER_MISMATCH",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ANIME-010",
+      "repo": "anime-aggressors",
+      "feature": "G6 visual / G8 feel / G9 final art",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HUM-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_HUMAN_GATE",
+      "historical_status": "REQUIRES_HUMAN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "PP-001",
+      "repo": "pedestrian-pursuit",
+      "feature": "Eight V4 course worlds",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "PUR-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_CANDIDATE_PENDING_OWNER",
+      "historical_status": "DRAFT_PR_39",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "PP-002",
+      "repo": "pedestrian-pursuit",
+      "feature": "Power-up/world readability",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "PUR-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_CANDIDATE_PENDING_OWNER",
+      "historical_status": "DIGITAL_PASS_PR39",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "PP-003",
+      "repo": "pedestrian-pursuit",
+      "feature": "PartyLink / Party Race",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "PUR-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ARCH-001",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Living Archive playable experience",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ARC-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "IMPLEMENTED_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ARCH-002",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Global knowledge ingestion engine",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ARC-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "ENGINEERING_PASS_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ARCH-003",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Approved real scientific source snapshots",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "SCIENTIFIC_COMPLETENESS_FALSE",
+      "owner_approved": "PENDING",
+      "external": "DATA_LICENSE_AND_SCIENTIFIC_REVIEW_PENDING",
+      "complete": false,
+      "tickets": [
+        "ARC-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "owner-archive-full-coverage.md",
+        "archive-ingestion-gates.json"
+      ],
+      "historical_disposition": "POST_V1_OR_EXTERNAL_DATA_GATE",
+      "historical_status": "BLOCKED_EXTERNAL_DATA",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "ARCH-004",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Human scientific review",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "SCIENTIFIC_COMPLETENESS_FALSE",
+      "owner_approved": "PENDING",
+      "external": "DATA_LICENSE_AND_SCIENTIFIC_REVIEW_PENDING",
+      "complete": false,
+      "tickets": [
+        "HUM-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv",
+        "owner-archive-full-coverage.md",
+        "archive-ingestion-gates.json"
+      ],
+      "historical_disposition": "POST_V1_OR_CLAIM_BOUNDARY",
+      "historical_status": "REQUIRES_SCIENTIFIC_REVIEW",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "BEAT-001",
+      "repo": "beatlink-party",
+      "feature": "Multi-client Stage Energy experience",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "BL-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "BEAT-002",
+      "repo": "beatlink-party",
+      "feature": "Rights-safe audio/catalog mode",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "BL-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "REQUIRED_BOUNDARY",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "BEAT-003",
+      "repo": "beatlink-party",
+      "feature": "Spotify/unlicensed commercial music gameplay",
+      "required_for_v1": false,
+      "scope": "POST_V1_RIGHTS_BLOCKED",
+      "base_branch": "main",
+      "base_commit": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "BL-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "POST_V1_RIGHTS_BLOCKED",
+      "historical_status": "REQUIRES_RIGHTS_REVIEW",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "DEVOS-001",
+      "repo": "gunnchos-device-os",
+      "feature": "Android Capsule / gunnchOS shell",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "DEV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "DEVOS-002",
+      "repo": "gunnchos-device-os",
+      "feature": "Cross-app continuity",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "DEV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_SUBSTANTIAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "DEVOS-003",
+      "repo": "gunnchos-device-os",
+      "feature": "Windows host support",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "DEV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_PASS_HISTORY",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "DEVOS-004",
+      "repo": "gunnchos-device-os",
+      "feature": "Linux / Android / macOS host adapters",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "DEV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_CLAIM_MATRIX",
+      "historical_status": "MIXED_VALIDATION",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "DEVOS-005",
+      "repo": "gunnchos-device-os",
+      "feature": "Update / recovery / security lifecycle",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "DEV-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_IMPLEMENTED",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-001",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "Student 14.5 digital design",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_DIGITAL_ENGINEERING",
+      "historical_status": "DIGITAL_PROFILE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-002",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "Handheld Hybrid digital design",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_DIGITAL_ENGINEERING",
+      "historical_status": "DIGITAL_PROFILE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-003",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "DS-XL Coder digital design",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_DIGITAL_ENGINEERING",
+      "historical_status": "DIGITAL_PROFILE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-004",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "Edge I/O Rings digital design",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_DIGITAL_ENGINEERING",
+      "historical_status": "DIGITAL_PROFILE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-005",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "EVT / DVT / PVT",
+      "required_for_v1": false,
+      "scope": "POST_V1_PHYSICAL",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "POST_V1_PHYSICAL",
+      "historical_status": "REQUIRES_PHYSICAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-006",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "RF / FCC / CE / carrier approval",
+      "required_for_v1": false,
+      "scope": "POST_V1_REGULATORY",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "POST_V1_REGULATORY",
+      "historical_status": "REGULATORY_PENDING",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-007",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "Battery transport / UN38.3",
+      "required_for_v1": false,
+      "scope": "POST_V1_REGULATORY",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "POST_V1_REGULATORY",
+      "historical_status": "EXTERNAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "HW-008",
+      "repo": "gunnchos-hardware-industrial-design",
+      "feature": "Manufacturing / warranty / RMA / support",
+      "required_for_v1": false,
+      "scope": "POST_V1_VENDOR",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "HW-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "POST_V1_VENDOR",
+      "historical_status": "VENDOR_EXTERNAL_PENDING",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-001",
+      "repo": "7gc-digital-twin",
+      "feature": "7GC Digital Twin",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-TWIN"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_RESEARCH_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-002",
+      "repo": "gunnchos-7gc-ai-ran-field-kit",
+      "feature": "AI-RAN Field Kit",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-FIELD"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_RESEARCH_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-003",
+      "repo": "readygary-6g-beam-selection",
+      "feature": "ReadyGary beam selection",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-BEAM"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_RESEARCH_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-004",
+      "repo": "spectrumx-ai-ran-gary",
+      "feature": "SpectrumX AI-RAN Gary",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-RAN"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_RESEARCH_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-005",
+      "repo": "ntn-resilience-sim",
+      "feature": "NTN resilience simulation",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-NTN"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_RESEARCH_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-006",
+      "repo": "edge-io-measurement-node",
+      "feature": "Edge IO measurement node",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-EDGE"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "DIGITAL_RESEARCH_MAIN",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-007",
+      "repo": "gunnchos-research-portal",
+      "feature": "Real campus/RIC/carrier validation",
+      "required_for_v1": false,
+      "scope": "POST_V1_PHYSICAL_EXTERNAL",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "POST_V1_PHYSICAL_EXTERNAL",
+      "historical_status": "REQUIRES_PHYSICAL",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "R-008",
+      "repo": "gunnchos-research-portal",
+      "feature": "research.gunnchos.com",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "RES-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "NOT_LIVE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "PUB-001",
+      "repo": "gunnchos-technology-landscape",
+      "feature": "Technology Landscape guidebook",
+      "required_for_v1": false,
+      "scope": "IN_V1_OPTIONAL_BUT_TRACKED",
+      "base_branch": "main",
+      "base_commit": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "PUB-01"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_OPTIONAL_BUT_TRACKED",
+      "historical_status": "DIGITAL_READER_EXISTS",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-001",
+      "repo": "gunnchos-research-portal",
+      "feature": "Published v1.0.0-rc.1",
+      "required_for_v1": false,
+      "scope": "HISTORICAL_RELEASE",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "HISTORICAL_RELEASE",
+      "historical_status": "PUBLISHED",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-002",
+      "repo": "gunnchos-research-portal",
+      "feature": "Fresh final accepted-main manifest",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "STALE_FROM_2026_09_21",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-003",
+      "repo": "gunnchos-research-portal",
+      "feature": "v1.0.0-rc.2 / final candidate",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED_RECOMMENDED",
+      "historical_status": "NOT_CREATED",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-004",
+      "repo": "gunnchos-research-portal",
+      "feature": "Feedback/security front doors",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "PASS_HISTORY",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-005",
+      "repo": "gunnchos-research-portal",
+      "feature": "Accessibility automation + human review",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED_WITH_HUMAN_BOUNDARY",
+      "historical_status": "AUTO_PASS_HUMAN_PENDING",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-006",
+      "repo": "gunnchos-research-portal",
+      "feature": "Rights/provenance manifest",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-02"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "REQUIRES_RIGHTS_REVIEW",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "OPS-007",
+      "repo": "gunnchos-research-portal",
+      "feature": "Final v1.0.0 authorization",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "REL-03"
+      ],
+      "evidence": [
+        "historical-scope-ledger.csv"
+      ],
+      "historical_disposition": "IN_V1_REQUIRED",
+      "historical_status": "FALSE",
+      "historical_status_is_current": false
+    },
+    {
+      "id": "WORLD-01",
+      "repo": "3k-mlv",
+      "feature": "Commons — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-02",
+      "repo": "3k-mlv",
+      "feature": "My Home: Exterior/Yard — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-03",
+      "repo": "3k-mlv",
+      "feature": "My Home: Living/Front Room — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-04",
+      "repo": "3k-mlv",
+      "feature": "My Home: Media Room — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-05",
+      "repo": "3k-mlv",
+      "feature": "My Home: Office/Workbench — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-06",
+      "repo": "3k-mlv",
+      "feature": "My Home: Bedroom/Logoff — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-07",
+      "repo": "3k-mlv",
+      "feature": "Gallery: Lobby — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-08",
+      "repo": "3k-mlv",
+      "feature": "Gallery: Local Culture — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-09",
+      "repo": "3k-mlv",
+      "feature": "Gallery: Rotating Institution — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-10",
+      "repo": "3k-mlv",
+      "feature": "Gallery: 7GC Exchange — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-11",
+      "repo": "3k-mlv",
+      "feature": "Gallery: Public Community — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-12",
+      "repo": "3k-mlv",
+      "feature": "Gallery: My Gallery — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-13",
+      "repo": "3k-mlv",
+      "feature": "Campus Transit — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-14",
+      "repo": "3k-mlv",
+      "feature": "Gary — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-15",
+      "repo": "3k-mlv",
+      "feature": "Ghana — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-16",
+      "repo": "3k-mlv",
+      "feature": "Guyana — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-17",
+      "repo": "3k-mlv",
+      "feature": "Geelong — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-18",
+      "repo": "3k-mlv",
+      "feature": "Ruhr — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-19",
+      "repo": "3k-mlv",
+      "feature": "Gaza — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "WORLD-20",
+      "repo": "3k-mlv",
+      "feature": "Graham Land — full declared spatial, provenance, navigation, mobile/accessibility/state acceptance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "MLV-01",
+        "MLV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-full-completion-policy.md"
+      ]
+    },
+    {
+      "id": "ANIME-CAMPAIGN",
+      "repo": "anime-aggressors",
+      "feature": "145 Story nodes / seven complete Gray routes / five Convergence nodes",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "OWNER_CANON_OPEN",
+      "complete": false,
+      "tickets": [
+        "ANI-01",
+        "ANI-02"
+      ],
+      "evidence": [
+        "anime-checkpoint-handoff.md",
+        "github-snapshot.json"
+      ]
+    },
+    {
+      "id": "ANIME-FORMS",
+      "repo": "anime-aggressors",
+      "feature": "64 full form lifecycles and distinct competitive/cosmic Yin/Yang kits",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-03"
+      ],
+      "evidence": [
+        "anime-checkpoint-handoff.md",
+        "github-snapshot.json"
+      ]
+    },
+    {
+      "id": "ANIME-OVA",
+      "repo": "anime-aggressors",
+      "feature": "Full Kaia OVA and six Campaign Variations, voice/music/cinematic mix",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-04"
+      ],
+      "evidence": [
+        "anime-checkpoint-handoff.md",
+        "github-snapshot.json"
+      ]
+    },
+    {
+      "id": "ANIME-EXPORT",
+      "repo": "anime-aggressors",
+      "feature": "Full shipping Web/Android and PartyLink proof",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "PRESERVED_UNMERGED_CHECKPOINT",
+      "deployed": "OLDER_ACCEPTED_MAIN_DEVELOPMENT",
+      "automated": "SCOPED_CHECKPOINT_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ANI-05"
+      ],
+      "evidence": [
+        "anime-checkpoint-handoff.md",
+        "github-snapshot.json"
+      ]
+    },
+    {
+      "id": "ARC-ICS",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Every applicable pinned ICS eon/era/period/epoch/age",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "DATA_AND_LICENSE_PENDING",
+      "complete": false,
+      "tickets": [
+        "ARC-01",
+        "ARC-02"
+      ],
+      "evidence": [
+        "owner-archive-full-coverage.md"
+      ]
+    },
+    {
+      "id": "ARC-LIFE",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "All accepted taxa/synonyms/fossil records in pinned full authoritative snapshots; full-source denominator",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "DATA_AND_LICENSE_PENDING",
+      "complete": false,
+      "tickets": [
+        "ARC-01",
+        "ARC-02"
+      ],
+      "evidence": [
+        "owner-archive-full-coverage.md",
+        "archive-global-coverage.json"
+      ]
+    },
+    {
+      "id": "ARC-MAPS",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "17/17 full-Earth source-verified maps, 648 cells each; expand when full ICS adds supported gates",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "STRUCTURE_ONLY_PASS",
+      "owner_approved": "PENDING",
+      "external": "SOURCE_DATA_AND_RIGHTS_PENDING",
+      "complete": false,
+      "tickets": [
+        "ARC-03"
+      ],
+      "evidence": [
+        "archive-temporal-map-contract.md",
+        "archive-production-readiness.json"
+      ]
+    },
+    {
+      "id": "ARC-UX",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Full scientific search/tree/time/geography/provenance/uncertainty/game-link/mobile UX",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "PARTIAL",
+      "deployed": "NOT_VERIFIED",
+      "automated": "PARTIAL_HISTORICAL",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "ARC-02",
+        "ARC-03"
+      ],
+      "evidence": [
+        "owner-archive-full-coverage.md"
+      ]
+    },
+    {
+      "id": "PASSPORT",
+      "repo": "gunnchos-site",
+      "feature": "Opt-in public Passport four lenses, QR, share, vCard/print; free Pass2U event kit",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "CORE_MERGED_PASS2U_PR18_OPEN",
+      "deployed": "CORE_DEPLOYED_PASS2U_NOT_DEPLOYED",
+      "automated": "PR18_HEAD_CI_AND_SCOPED_LOCAL_PASS",
+      "owner_approved": "PENDING",
+      "external": "IPHONE_OWNER_ACCEPTANCE_PENDING",
+      "complete": false,
+      "tickets": [
+        "PAS-01",
+        "PAS-02"
+      ],
+      "evidence": [
+        "github-snapshot.json",
+        "site-production-closure.md"
+      ]
+    },
+    {
+      "id": "SITE-TASTE",
+      "repo": "gunnchos-site",
+      "feature": "Owner-approved website taste, contact/My Home/SEO and exact production main",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "MERGED",
+      "deployed": "EXACT_MAIN_DEPLOYED",
+      "automated": "CI_AND_PRODUCTION_PASS",
+      "owner_approved": "APPROVED_RECORDED",
+      "external": "NONE_IDENTIFIED",
+      "complete": true,
+      "tickets": [
+        "SITE-01"
+      ],
+      "evidence": [
+        "github-snapshot.json",
+        "site-production-closure.md",
+        "site-production-verification.json"
+      ]
+    },
+    {
+      "id": "WAIKE-PUBLIC",
+      "repo": "gunnchos-waike-learning-platform",
+      "feature": "Authored public content across all 18 tracks",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "merged": "MERGED_IMPLEMENTATION",
+      "deployed": "PUBLIC_18_TRACK_BUILD_ONLY",
+      "automated": "PR_HEAD_SCOPED_CI_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "WAI-01",
+        "WAI-02"
+      ],
+      "evidence": [
+        "github-snapshot.json",
+        "waike-production-smoke.json",
+        "waike-production-smoke.json",
+        "github-snapshot.json"
+      ]
+    },
+    {
+      "id": "PUR-TUTORIAL",
+      "repo": "pedestrian-pursuit",
+      "feature": "Persistent optional tutorial/Not now/Race Now/Learn the Track; bounded rail and AI boosts",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "merged": "MERGED",
+      "deployed": "EXACT_MAIN_DEVELOPMENT_DEPLOYED",
+      "automated": "PR_HEAD_CI_AND_768_AI_CASES_PASS",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "PUR-01"
+      ],
+      "evidence": [
+        "github-snapshot.json",
+        "pursuit-live-manifest.json"
+      ]
+    },
+    {
+      "id": "INVITE-PROTOCOL",
+      "repo": "gunnchos-site",
+      "feature": "Universal opaque/signed token create/resolve/accept/decline/expire and version/privacy",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-01",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-ANIME",
+      "repo": "anime-aggressors",
+      "feature": "Challenge to Fight",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-ANI",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-PURSUIT",
+      "repo": "pedestrian-pursuit",
+      "feature": "Race Me / asynchronous ghost-time/results/rematch",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-PUR",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-BEATLINK",
+      "repo": "beatlink-party",
+      "feature": "Join My Party room/session shell",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-BL",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-ARCHIVE",
+      "repo": "archive-of-life-artifact-world",
+      "feature": "Join My Expedition/Museum Tour/Discovery Challenge with provenance",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-ARC",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-MLV_HANDOFF",
+      "repo": "3k-mlv",
+      "feature": "Fight/Race/Party/Expedition invite surface",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-MLV",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-DEVICE_HANDOFF",
+      "repo": "gunnchos-device-os",
+      "feature": "Receive/open/route supported native/browser targets",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-DEV",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    },
+    {
+      "id": "INVITE-BROWSER_FALLBACK",
+      "repo": "gunnchos-site",
+      "feature": "iOS/Android HTTPS, supported native app links and uninstalled/error fallback",
+      "required_for_v1": true,
+      "scope": "V1_REQUIRED",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "merged": "NO_COMPLETE_V1_EVIDENCE",
+      "deployed": "NOT_VERIFIED",
+      "automated": "NOT_PROVEN",
+      "owner_approved": "PENDING",
+      "external": "NONE_IDENTIFIED",
+      "complete": false,
+      "tickets": [
+        "INV-02",
+        "HUM-01"
+      ],
+      "evidence": [
+        "owner-invites-addendum.md"
+      ]
+    }
+  ],
+  "gates": {
+    "V1_PUBLIC_SITE_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": true,
+      "state": "PASS_RECORDED",
+      "depends_on": [],
+      "evidence": [
+        "site-production-closure.md",
+        "site-production-verification.json"
+      ]
+    },
+    "V1_SITE_HUMAN_TASTE_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": true,
+      "state": "APPROVED_RECORDED",
+      "depends_on": [],
+      "evidence": [
+        "site-production-closure.md",
+        "github-snapshot.json"
+      ]
+    },
+    "V1_MLV_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_WAIKE_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_ANIME_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_PURSUIT_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_ARCHIVE_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "HUMAN_SCIENTIFIC_REVIEW_COMPLETE": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_BEATLINK_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_GUNNCHAI_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_HARDWARE_DIGITAL_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_PASSPORT_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_ACCESSIBILITY_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "FINAL_CHARACTER_ART_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "ANIMATION_TASTE_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "GAME_FEEL_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "VFX_TASTE_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "SFX_MIX_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "STORY_HUMAN_PASS": {
+      "kind": "HUMAN",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_PIXEL_ACCEPTANCE_PASS": {
+      "kind": "PHYSICAL_OWNER",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_PROTOCOL_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_ANIME_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_PURSUIT_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_BEATLINK_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_ARCHIVE_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_MLV_HANDOFF_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_DEVICE_HANDOFF_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_BROWSER_FALLBACK_PASS": {
+      "kind": "AUTOMATED",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_INVITES_FULL_PASS": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [
+        "V1_INVITES_PROTOCOL_PASS",
+        "V1_INVITES_ANIME_PASS",
+        "V1_INVITES_PURSUIT_PASS",
+        "V1_INVITES_BEATLINK_PASS",
+        "V1_INVITES_ARCHIVE_PASS",
+        "V1_INVITES_MLV_HANDOFF_PASS",
+        "V1_INVITES_DEVICE_HANDOFF_PASS",
+        "V1_INVITES_BROWSER_FALLBACK_PASS"
+      ],
+      "evidence": []
+    },
+    "V1_FULL_FEATURE_MATRIX_PASS": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_ARCHIVE_SCIENTIFIC_COVERAGE_PASS": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_EXACT_BUILD_DEPLOY_PROVENANCE_PASS": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_AUTOMATED_PIPELINE_PASS": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_RIGHTS_PROVENANCE_PASS": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "RC2_READY": {
+      "kind": "AUTOMATED_AGGREGATE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "RC2_OWNER_AUTHORIZED": {
+      "kind": "OWNER_RELEASE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    },
+    "V1_0_0_RELEASE_AUTHORIZED": {
+      "kind": "OWNER_RELEASE",
+      "required_for_v1": true,
+      "passed": false,
+      "state": "OPEN",
+      "depends_on": [],
+      "evidence": []
+    }
+  },
+  "tickets": [
+    {
+      "id": "REL-01",
+      "priority": "P0",
+      "repo": "gunnchos-research-portal",
+      "title": "Lock every required V1 feature and exact evidence identity",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "kind": "ENGINEERING",
+      "depends_on": [],
+      "acceptance": "Validate this ledger against owner full-completion, Archive and invite overrides. Resolve any ambiguous scope with an explicit owner decision; retain all required rows until then. Record source SHA, artifact hash, deployment version, test scope/date and approval reference for each result.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/rel-01-v1"
+    },
+    {
+      "id": "ARC-01",
+      "priority": "P0",
+      "repo": "archive-of-life-artifact-world",
+      "title": "Acquire and license full authoritative snapshot set",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "kind": "EXTERNAL_AND_ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Record full ICS chart and CoL releases, GBIF mapping/occurrences, PBDB extinct/fossil records and relevant Neotoma/IUCN datasets; evaluate Open Tree/EOL relationships/context with permitted fields. Record licenses, redistribution decisions, DOI/version/date/checksum, full denominators, failures and source age. External approvals are owner/source-provider gates. No scraping substitute or fixture denominators.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/arc-01-v1"
+    },
+    {
+      "id": "ARC-02",
+      "priority": "P0",
+      "repo": "archive-of-life-artifact-world",
+      "title": "Ingest all pinned known-life and time records",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "ARC-01"
+      ],
+      "acceptance": "Reuse merged streaming/checkpoint/dedupe/synonym/conflict/index/offline engine; index every applicable eon/era/period/epoch/age and all accepted taxa in chosen full snapshots, synonyms and fossils. Prove restart/idempotency/incremental equivalence and numerator/full-source denominator with unresolved records. Complete taxonomic, extinct/extant, time, geography, lineage/provenance browse, progressive mobile search and game links.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/arc-02-v1"
+    },
+    {
+      "id": "ARC-03",
+      "priority": "P0",
+      "repo": "archive-of-life-artifact-world",
+      "title": "Close full-Earth map and displayed-science gates",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "ARC-01",
+        "ARC-02"
+      ],
+      "acceptance": "Deliver all 17 supported Time Atlas gate maps, each covering 648 cells with packaged GeoJSON/PMTiles checksums, licensed non-mock approved source snapshots and uncertainty. Expand map requirements if full ICS support introduces gates. Replace mock hero science and NASA regional fallback with authentic licensed evidence or explicit unavailable states. Run typecheck, data, coverage, ArchiveDex, maps, implementation, release, source validation/audit, build, pipeline and audit:production. Qualified scientific review remains separate.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/arc-03-v1"
+    },
+    {
+      "id": "ANI-01",
+      "priority": "P0",
+      "repo": "anime-aggressors",
+      "title": "Complete seven campaigns, Gray and Convergence",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Continue preserved checkpoint: implement actual five-Puppet 3v2, release decisions/equilibrium 2v2/paired releases/Essence 2→4→6, second impossible confrontation, Gray gameplay/cinematics, endings/unlocks/next route and 5 Convergence nodes. Close all 145 nodes and 7/7 Gray routes through real encounter receipts and save/resume, never menu advancement. Parameterize unresolved First Loss identities; do independent downstream technical work without choosing owner canon.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/ani-01-v1"
+    },
+    {
+      "id": "ANI-02",
+      "priority": "P0",
+      "repo": "anime-aggressors",
+      "title": "Resolve six First Loss canon choices",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "kind": "OWNER",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Owner selects six unresolved First Loss identities/dialogue using checkpoint options; preserve Kaia→Rook. Approval must identify chosen canon and source/version; no automatic choice.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/ani-02-v1"
+    },
+    {
+      "id": "ANI-03",
+      "priority": "P0",
+      "repo": "anime-aggressors",
+      "title": "Finish full roster/forms/moves and authored presentation",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Complete nine fighters, 18 BASE male/female presentations and 64 declared form rows; validate all 216 move routes and 999 semantic slots in real runtime. Author bespoke locomotion/combat/aerial/throw/reaction/select/result/story acting and secondary hair/cloth motion, synchronized hitbox/VFX/SFX/camera. Distinct Yin/Yang inward absorption/outward creation kits and all non-base transform/combat/KO/results lifecycles. Candidate GLBs, 111 procedural slots and 135 WAVs cannot pass final art/motion/mix gates.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/ani-03-v1"
+    },
+    {
+      "id": "ANI-04",
+      "priority": "P1",
+      "repo": "anime-aggressors",
+      "title": "Finish full OVA and six Campaign Variations",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "ANI-01",
+        "ANI-02",
+        "ANI-03"
+      ],
+      "acceptance": "Finish shared Story graph and route-specific chemistry/First Loss reactions, Prismatic focus/endings, expressive animation, screenplay, voice/music and cinematic mix. Watch pause/seek/return must not grant Story progress/unlocks. Continuous 131.6s preview is development evidence only.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/ani-04-v1"
+    },
+    {
+      "id": "ANI-05",
+      "priority": "P0",
+      "repo": "anime-aggressors",
+      "title": "Earn full exported Web/Android and PartyLink proof",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "ANI-01",
+        "ANI-02",
+        "ANI-03",
+        "ANI-04"
+      ],
+      "acceptance": "Export exact implementation source, retain source SHA separate from evidence-only commit and artifact SHA256. Exercise full shipped campaigns and roster/form lifecycles on exported Web/Android; actual PartyLink declared 2/4/6/8 session matrix with no netcode overclaim. Recheck signer-safe Pixel path on this candidate; never reuse PR #118 device or old web CI as proof.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/ani-05-v1"
+    },
+    {
+      "id": "MLV-01",
+      "priority": "P0",
+      "repo": "3k-mlv",
+      "title": "Complete the full world across seven campuses",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "PR #9 is merged, so continue main rather than resolving its old conflict. Preserve WorldRuntime. Complete Commons; My Home exterior/yard, living/front, media, office/workbench, bedroom/logoff; Gallery lobby/local culture/rotating institution/7GC exchange/public community/My Gallery; Transit; Gary/Ghana/Guyana/Geelong/Ruhr/Gaza/Graham Land. Every campus needs arrival, civic/lobby, lab, archive/gallery, showcase/community, return, local provenance and mobile/a11y/state evidence. House A/B/C design candidates and declared host adapters remain traceable. Reachability or Gary gold slice is insufficient.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/mlv-01-v1"
+    },
+    {
+      "id": "MLV-02",
+      "priority": "P1",
+      "repo": "3k-mlv",
+      "title": "Verify full hosted privacy, campus and creator matrix",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "MLV-01",
+        "WAI-01"
+      ],
+      "acceptance": "Bind deployed build to exact accepted source; test private/shared Home/Gallery creation, persistence/auth unavailable boundaries, seven Campus→WAIKE journeys, supported host shell/state/recovery/accessibility. Record full coverage and explicit human spatial/local-identity/usability review.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/mlv-02-v1"
+    },
+    {
+      "id": "WAI-01",
+      "priority": "P0",
+      "repo": "gunnchos-waike-learning-platform",
+      "title": "Close full learner/assessment/offline/integration matrix",
+      "base_branch": "main",
+      "base_commit": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Credit PR #27 and 18/18 compiled content. Verify every track authored lesson/assignment/quiz/lab/portfolio, supported Hub assessment lifecycle/groups/grades/receipts, offline install/restart/lease/revocation/conflict/retry/durable acknowledgement. Public no-Hub stays unavailable. Rebind standards supported subsets, gunnchAI real-or-unavailable and Device OS launch to final pins; production Hub and real AI remain distinct external claims, external certification remains outside software V1. Preserve 77 successful PR-head checks including native and real-Tauri evidence; rerun only changed final integration.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/wai-01-v1"
+    },
+    {
+      "id": "WAI-02",
+      "priority": "P1",
+      "repo": "waike-research-ops",
+      "title": "Close full 18-track academic and content review",
+      "base_branch": "main",
+      "base_commit": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "kind": "OWNER_AND_ENGINEERING",
+      "depends_on": [
+        "WAI-01"
+      ],
+      "acceptance": "Preserve V1 runtime content pin 63ba9f25ac6b8d8d1b6dd118923566fd51c57b62 separately from latest ops main. Review every package/outcome/rubric/AI policy, including IT Support absent policy declaration; document approvals and any remedial authored changes. Human learner/instructor/staff sessions across full declared product; no fake grades/approval.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/wai-02-v1"
+    },
+    {
+      "id": "PUR-01",
+      "priority": "P0",
+      "repo": "pedestrian-pursuit",
+      "title": "Close complete courses/modes/items/Party Race matrix",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Credit merged #41 Not now/Race Now/tutorial reopening and rail/AI invariant fixes. PR #39 V4/power-up work is already merged (head c4f2f42b792307034e6e343c055c45c26e4ddf0d); do not repeat its merge or restart from the old candidate. Preserve any unique local continuation separately. Validate all eight launch courses, declared modes/items/shoes/boosts/shortcuts, race/countdown/checkpoints/laps/results/rematch/save, PartyLink/controller/Race Director, tutorial rewards and fresh-profile invite entry on exact exports. 768/768 AI and one lap are evidence, not full product completion.",
+      "source_pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/39",
+      "status": "OPEN",
+      "proposed_branch": "release/pur-01-v1"
+    },
+    {
+      "id": "BL-01",
+      "priority": "P0",
+      "repo": "beatlink-party",
+      "title": "Deliver usable rights-safe hosted party/session shell",
+      "base_branch": "main",
+      "base_commit": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Reuse real Socket.IO lifecycle and five modes; prove create/join/ready/react/vote, scoring/calibration/results/rematch, reconnect/host migration/expiry/privacy with two real clients on exact candidate. Validate public join origin and current visual capture; persist sessions only if declared V1 requires it. Rights-safe content inventory and honest server/provider availability. A static Worker door or in-process load harness cannot pass hosted multi-client acceptance; expanded commercial rights are not required.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/bl-01-v1"
+    },
+    {
+      "id": "PAS-01",
+      "priority": "P1",
+      "repo": "gunnchos-site",
+      "title": "Reconcile Passport/Pass2U PR #18 onto taste-pass main",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Preserve source branch v1/passport-pass2u-event-final@3de66816db4be9f8261961cfe8b52659237c8f37, old PR base acd021361c4c3312dd49ebfbe29238f221b6434e. Reconcile onto current main preserving owner-approved taste/JPEG and Passport visual rules. Re-run 35 focused units/10 browser checks, privacy/QR decoding/print/share/focus, Cloudflare runtime and current CI. Produce local free Pass2U ZIP/front/background/logos/QR/fields/iPhone guide/Photos fallback for opted-in profile; no account, signing, payment or automatic publication.",
+      "source_pr": "https://github.com/gunnchOS3k/gunnchos-site/pull/18",
+      "status": "OPEN",
+      "proposed_branch": "release/pas-01-v1"
+    },
+    {
+      "id": "PAS-02",
+      "priority": "P1",
+      "repo": "gunnchos-site",
+      "title": "Bind Passport delivery and physical owner acceptance",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "kind": "OWNER_AND_EXTERNAL",
+      "depends_on": [
+        "PAS-01"
+      ],
+      "acceptance": "After separate future merge/deploy authorization, record exact main/version/hashes. Owner installs free Pass2U on iPhone and scans actual card, checks Photos fallback/share/privacy/event flow; V1_PASSPORT_HUMAN_PASS remains false until explicit approval. Official Apple/Google issuer signing remains external and is not a prerequisite for the authorized free Pass2U path.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/pas-02-v1"
+    },
+    {
+      "id": "INV-01",
+      "priority": "P0",
+      "repo": "gunnchos-site",
+      "title": "Implement shared HTTPS invitation/session protocol",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Recommended service host in existing site ecosystem, subject to architecture choice recorded in scope lock; no new domain attachment here. One https://play.gunnchos.com/i/<opaque-token> contract for Fight/Race/Party/Expedition; minimal safe identity/context references, version/expiry/state/max participants, signed or cryptographically opaque tokens, create/resolve/accept/decline/expired, tamper/version rejection, browser/uninstalled fallback. No private state/phone/contact/credential URL leakage; durable session semantics and idempotent acceptance. Do not build four independent token services.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-01-v1"
+    },
+    {
+      "id": "INV-ANI",
+      "priority": "P0",
+      "repo": "anime-aggressors",
+      "title": "Challenge to Fight",
+      "base_branch": "codex/anime-v1-closure-2026-10-06",
+      "base_commit": "e063b13bcb293ad3ac7b8673c82d8830f8e0b24d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-01",
+        "ANI-03"
+      ],
+      "acceptance": "Create/share/accept/decline correct rules/fighter/stage/version challenge/lobby handoff; no claim of live cross-platform rollback.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-ani-v1"
+    },
+    {
+      "id": "INV-PUR",
+      "priority": "P0",
+      "repo": "pedestrian-pursuit",
+      "title": "Race Me",
+      "base_branch": "main",
+      "base_commit": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-01",
+        "PUR-01"
+      ],
+      "acceptance": "Track/rules/version/ghost reference/expiry; asynchronous ghost/time path where practical, results/rematch. Tutorial must not intercept accepted invite. No live racing claim.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-pur-v1"
+    },
+    {
+      "id": "INV-BL",
+      "priority": "P0",
+      "repo": "beatlink-party",
+      "title": "Join My Party",
+      "base_branch": "main",
+      "base_commit": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-01",
+        "BL-01"
+      ],
+      "acceptance": "Resolve into correct room/session shell; ready/react/vote where supported, safe unavailable-server state and permitted music boundary.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-bl-v1"
+    },
+    {
+      "id": "INV-ARC",
+      "priority": "P0",
+      "repo": "archive-of-life-artifact-world",
+      "title": "Join My Expedition",
+      "base_branch": "main",
+      "base_commit": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-01",
+        "ARC-02"
+      ],
+      "acceptance": "Resolve time/taxon/region/expedition/collection/artifact/challenge references, retain scientific snapshot provenance; unavailable context is explicit. No synchronous multiplayer claim.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-arc-v1"
+    },
+    {
+      "id": "INV-MLV",
+      "priority": "P0",
+      "repo": "3k-mlv",
+      "title": "MLV invitation surface",
+      "base_branch": "main",
+      "base_commit": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-01",
+        "MLV-01"
+      ],
+      "acceptance": "Visible Fight/Race/Party/Expedition create/open surface with correct routes and explicit unavailable friends/presence.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-mlv-v1"
+    },
+    {
+      "id": "INV-DEV",
+      "priority": "P0",
+      "repo": "gunnchos-device-os",
+      "title": "Device OS invite routing",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-01",
+        "DEV-01"
+      ],
+      "acceptance": "Receive/open/route supported native or browser target safely; validate HTTPS universal/app-link configuration where packaging supports it and unsupported/uninstalled fallback. No invented notification backend.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-dev-v1"
+    },
+    {
+      "id": "INV-02",
+      "priority": "P0",
+      "repo": "gunnchos-site",
+      "title": "Earn cross-platform invite matrix and provenance",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "INV-ANI",
+        "INV-PUR",
+        "INV-BL",
+        "INV-ARC",
+        "INV-MLV",
+        "INV-DEV"
+      ],
+      "acceptance": "Behavioral create/resolve/accept/decline/expire/tamper/version mismatch tests, all four title routes, MLV/Device OS, iOS/Android HTTPS and available native link bindings, browser fallback, privacy and truthful service state. Record exact build/source/deployed version for each adapter; all eight required invite automated tokens must pass before FULL_PASS. Human usability remains separate.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/inv-02-v1"
+    },
+    {
+      "id": "DEV-01",
+      "priority": "P0",
+      "repo": "gunnchos-device-os",
+      "title": "Close complete current-pin OS/Capsule/host lifecycle",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Verify Vault/App Center/browser/mail/Wallet/portfolio/verifier/Validation Center, app install/update/rollback/recovery/security and cross-app continuity on final product pins. Publish honest Windows/Linux/macOS/Android supported-host matrix; preserve prior digital passes as historical. Freeze exact APK/native/build hash/signing inventory without uninstall/data clear.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/dev-01-v1"
+    },
+    {
+      "id": "AI-01",
+      "priority": "P1",
+      "repo": "gunnchAI3k",
+      "title": "Close supported student/instructor workflows and human eval",
+      "base_branch": "main",
+      "base_commit": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "kind": "OWNER_AND_ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Validate declared tutoring/assignment assistance/instructor flows, privacy, provider qualification and truthful unavailable fallback. Execute authentic human eval with source/model/provider IDs and record results. No autonomous AI or unqualified live-provider claim.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/ai-01-v1"
+    },
+    {
+      "id": "HW-01",
+      "priority": "P1",
+      "repo": "gunnchos-hardware-industrial-design",
+      "title": "Complete all four digital design concepts",
+      "base_branch": "main",
+      "base_commit": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Repair Student 14.5 disconnected fragment in source mesh; validate all Student 14.5/Handheld Hybrid/DS-XL/Rings design geometry, provenance/roles/controls and shell mappings. Digital review for every concept, export exact assets to public viewer. Physical EVT/DVT/PVT/certification/manufacturing remain out of official software V1.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/hw-01-v1"
+    },
+    {
+      "id": "RES-01",
+      "priority": "P1",
+      "repo": "gunnchos-research-portal",
+      "title": "Audit every included research evidence contract",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "For all cataloged V1 projects, verify public source/reproduce/results/UML/citation links where available, pinned source/build and rights; missing artifacts explicitly unavailable. Include 7GC twin/field-kit/ReadyGary/SpectrumX/NTN/Edge IO/GPU NR/ESIP; no measured-topology/RF/carrier/live RIC claim. Source fixes belong in their repo on exact main from ledger.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-01-v1"
+    },
+    {
+      "id": "RES-TWIN",
+      "priority": "P1",
+      "repo": "7gc-digital-twin",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-twin-v1"
+    },
+    {
+      "id": "RES-FIELD",
+      "priority": "P1",
+      "repo": "gunnchos-7gc-ai-ran-field-kit",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-field-v1"
+    },
+    {
+      "id": "RES-BEAM",
+      "priority": "P1",
+      "repo": "readygary-6g-beam-selection",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-beam-v1"
+    },
+    {
+      "id": "RES-RAN",
+      "priority": "P1",
+      "repo": "spectrumx-ai-ran-gary",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-ran-v1"
+    },
+    {
+      "id": "RES-NTN",
+      "priority": "P1",
+      "repo": "ntn-resilience-sim",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-ntn-v1"
+    },
+    {
+      "id": "RES-EDGE",
+      "priority": "P1",
+      "repo": "edge-io-measurement-node",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-edge-v1"
+    },
+    {
+      "id": "RES-GPU",
+      "priority": "P1",
+      "repo": "gunnchos-gpu-nr-baseband-platform",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "3931f51d43b7bee87db6d710a9df5a7c1136fcfa",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-gpu-v1"
+    },
+    {
+      "id": "RES-ESIP",
+      "priority": "P1",
+      "repo": "gunnchos-emergent-service-intent-protocols",
+      "title": "Bind research evidence and digital integration at final pin",
+      "base_branch": "main",
+      "base_commit": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "RES-01"
+      ],
+      "acceptance": "Run native documented reproduce/build/schema path for included V1 claims; preserve available architecture/results/citations and explicit missing/unmeasured labels. Record integration consumer pins and fix broken links in source repo, without synthetic-to-physical promotion.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/res-esip-v1"
+    },
+    {
+      "id": "HUM-01",
+      "priority": "P0",
+      "repo": "gunnchos-research-portal",
+      "title": "Record full-scope owner product acceptance",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "kind": "OWNER",
+      "depends_on": [
+        "MLV-02",
+        "WAI-02",
+        "ANI-05",
+        "PUR-01",
+        "ARC-03",
+        "BL-01",
+        "AI-01",
+        "HW-01",
+        "PAS-02",
+        "INV-02"
+      ],
+      "acceptance": "Collect explicit build-bound owner approvals for all MLV regions, WAIKE full product/18-track academic review, Anime art/motion/feel/VFX/SFX/Story, all Pursuit courses/modes, Archive scientific/playability review, BeatLink rights-safe party, gunnchAI workflows, digital hardware, Passport and coherent four-title invites. Include accessibility review. Prior site approval is inherited only; no generated approvals or implied waivers.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/hum-01-v1"
+    },
+    {
+      "id": "PIX-01",
+      "priority": "P0",
+      "repo": "gunnchos-device-os",
+      "title": "Physically accept complete frozen Pixel candidate set",
+      "base_branch": "main",
+      "base_commit": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "kind": "OWNER_AND_PHYSICAL",
+      "depends_on": [
+        "ANI-05",
+        "PUR-01",
+        "ARC-03",
+        "BL-01",
+        "WAI-01",
+        "DEV-01",
+        "INV-02"
+      ],
+      "acceptance": "After full software candidates exist, install every declared exact candidate non-destructively; record accepted source/artifact SHA, package/signature, OS/device identifiers and full launch/handoff/core journeys. Resolve signer conflict only with explicit owner-approved safe path, never assume PR118 signer mismatch current. Owner physical acceptance is separate from responsive-browser tests.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/pix-01-v1"
+    },
+    {
+      "id": "REL-02",
+      "priority": "P0",
+      "repo": "gunnchos-research-portal",
+      "title": "Run complete acceptance and freeze RC2 candidate",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "HUM-01",
+        "PIX-01",
+        "RES-TWIN",
+        "RES-FIELD",
+        "RES-BEAM",
+        "RES-RAN",
+        "RES-NTN",
+        "RES-EDGE",
+        "RES-GPU",
+        "RES-ESIP"
+      ],
+      "acceptance": "Refresh all final accepted mains and deployed hashes after future approved merges; run entire declared cross-repo automated/security/a11y/privacy/rights/provenance/current-pin host and integration matrix, never carry a stale green to a new pin. Require every required feature and human/device gate, immutable manifest and rollback/reproduction links. Prepare RC2 only; publication/authorization are separate owner actions.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/rel-02-v1"
+    },
+    {
+      "id": "REL-03",
+      "priority": "P0",
+      "repo": "gunnchos-research-portal",
+      "title": "Owner RC2 and final V1 authorization",
+      "base_branch": "main",
+      "base_commit": "947138fcec929f7f21f1738fb6e2fad11f32661a",
+      "kind": "OWNER",
+      "depends_on": [
+        "REL-02"
+      ],
+      "acceptance": "Owner explicitly authorizes any RC2 publication after full candidate review; then no-new-features final acceptance and explicit v1.0.0 authorization. October 23 is a target, not permission or evidence. Do not publish or merge in this reconciliation.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/rel-03-v1"
+    },
+    {
+      "id": "SITE-01",
+      "priority": "P2",
+      "repo": "gunnchos-site",
+      "title": "Keep approved site and closed Open Lab boundary intact",
+      "base_branch": "main",
+      "base_commit": "3a46b0eb74eab7e41a4960fd5f6621c9d1c7170e",
+      "kind": "ENGINEERING",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Retain exact-main tasteful branding, canonical 278×252 JPEG exception, verified contact/SEO, public routes and closed upload/showcase flags while integrating Passport/invites. Search Console manual owner steps and higher-resolution transparent logo are tracked non-blocking improvements; no implied broad legal/K12/upload approval.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/site-01-v1"
+    },
+    {
+      "id": "PUB-01",
+      "priority": "P2",
+      "repo": "gunnchos-technology-landscape",
+      "title": "Track optional guidebook reader review",
+      "base_branch": "main",
+      "base_commit": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+      "kind": "OWNER",
+      "depends_on": [
+        "REL-01"
+      ],
+      "acceptance": "Preserve reader-preview and rights boundaries; human reader review remains open. Optional guidebook distribution does not become a core V1 blocker without an explicit owner scope decision.",
+      "source_pr": null,
+      "status": "OPEN",
+      "proposed_branch": "release/pub-01-v1"
+    }
+  ],
+  "out_of_scope": [
+    "Physical Quartet EVT/DVT/PVT, RF/FCC/CE/carrier, battery certification, manufacturing/factory/warranty/RMA",
+    "Broad K12/institutional rollout and external OneRoster/QTI/LTI/privacy certification",
+    "Full production Anime cross-platform rollback/ranked/anti-cheat, live Pursuit network racing, synchronous Archive multiplayer, dedicated iMessage extension/full friends backend",
+    "Expanded commercial music rights, autonomous AI, real campus RIC/RF deployment"
+  ],
+  "evidence_limits": [
+    "Historical reports are preserved with date/hash; not regenerated product acceptance.",
+    "Source CI, local runtime probes, exported probes and deployment smoke are distinct.",
+    "Single lap, sample course, one approved fighter, campus reachability and fixture science cannot pass full domain.",
+    "Anime PR118 and Pursuit PR39 are merged per legacy-pr-state.json; stale open-PR/signer notes are historical, not current merge blockers.",
+    "Only recorded site human approval is carried forward. No human gate is newly granted.",
+    "GitHub returned all 77 WAIKE PR-head check runs successfully, superseding the report pending-CI note for that exact head; future changed pins require fresh binding.",
+    "Archive 5M itemStatus says PASS_WITH_EVIDENCE but fiveMillion.pass=false: treat 5M as capacity-limited, not passed. Paleogeography DEFERRED_FUTURE_SOURCE cannot waive required V1 maps.",
+    "Live manifests read October 9 pin Pursuit current main and Anime older development source; this is not a gameplay replay.",
+    "October 23 has 14 calendar days remaining and no supported schedule assurance; unresolved external data and owner decisions can move it."
+  ],
+  "publication_state": {
+    "RC2_PUBLISHED": false,
+    "V1_PUBLISHED": false,
+    "note": "No release publication in reconciliation; historical RC1 remains separate."
+  },
+  "validation": {
+    "release_ledger": "PASS",
+    "portal_tests": "7 passed",
+    "supervisor_validator": "PASS",
+    "portfolio_audit": "AUTOMATABLE_SUPERVISOR_READY=FAIL; CONTACT_SUPERVISOR_READY=BLOCKED; 16 repos present. Diagnostic read only, not a V1 approval."
+  }
+}

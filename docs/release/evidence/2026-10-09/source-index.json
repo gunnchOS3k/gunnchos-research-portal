@@ -1,0 +1,80 @@
+[
+  {
+    "file": "owner-full-completion-policy.md",
+    "source_path": "/Users/gunnchos/Downloads/gunnchOS_V1_Full_Completion_Plan_2026-10-04.md",
+    "sha256": "e3a51984780fbfd514fdee976cbd6fb79d8b01ddc4df0727362ded8d9c4b28c7",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "owner-archive-full-coverage.md",
+    "source_path": "/Users/gunnchos/Downloads/CODEX_ARCHIVE_OF_LIFE_ALL_TIME_ALL_KNOWN_LIFE_V1.md",
+    "sha256": "4fbadfc0e5cb63cedba7f51a1238c9bff25478508829acfbed6b141b3ad5485b",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "owner-invites-addendum.md",
+    "source_path": "/Users/gunnchos/Downloads/GUNNCHOS_V1_INVITES_SHARED_SESSIONS_ADDENDUM.md",
+    "sha256": "6e4e0240e6896a5c8e4c8985b25f206adc4a3b2c27732717d8f8e05b9f3e94f5",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "historical-scope-ledger.csv",
+    "source_path": "/Users/gunnchos/Downloads/gunnchos_v1_final_push_control_pack/02_V1_MASTER_SCOPE_CREEP_LEDGER.csv",
+    "sha256": "c90d004d020ad98eea44a7557729e6d6922c2b0c5e19511385601111b8c21353",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "waike-production-smoke.json",
+    "source_path": "/Users/gunnchos/Downloads/gunnchos-codex-worktrees/waike-production-2641042/reports/artifacts/production-2641042/production-smoke.json",
+    "sha256": "643ee62980cefc8cf34985fc707c4a9cd00636a462b2a642d204da1e2af773b0",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "waike-production-smoke.md",
+    "source_path": "/Users/gunnchos/Downloads/gunnchos-codex-worktrees/waike-production-2641042/reports/artifacts/production-2641042/production-smoke.md",
+    "sha256": "08eaf592344a248ac73b1cb56a519c0d512f6b01c438b13f10a4dc01a70af5b6",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "site-production-closure.md",
+    "source_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_taste_worktrees/gunnchos-site-release/artifacts/production-closure/README.md",
+    "sha256": "b72bbdec42768c59f05d158b8b3ffe31ca6378bca301af73cd3378df9e5bd1ae",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "site-production-verification.json",
+    "source_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_taste_worktrees/gunnchos-site-release/artifacts/production-closure/production-verification.json",
+    "sha256": "b718841f6164462a739e82058a952fb3dfc2dee847f06df6b57ad3877306e150",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "anime-checkpoint-handoff.md",
+    "source_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_anime_v1_closure/CODEX_HANDOFF.md",
+    "sha256": "0f19b0710ebbbd5851b9ab044d55ae3ac20bdb68580d4ae448d9b4fc90e59453",
+    "kind": "preserved source evidence; not a new validation run"
+  },
+  {
+    "file": "archive-global-coverage.json",
+    "source_path": "gunnchOS3k/archive-of-life-artifact-world@23ce4dafc2711449cab43a5bb6f42698c61ed2a1:artifacts/global_ingestion/GLOBAL_COVERAGE_REPORT.json",
+    "sha256": "a5ca8ff2e297a349c14518d20131b492110e8ae808e14ae30112243ec2285a09",
+    "kind": "accepted-main historical report; not fresh source ingestion"
+  },
+  {
+    "file": "archive-ingestion-gates.json",
+    "source_path": "gunnchOS3k/archive-of-life-artifact-world@23ce4dafc2711449cab43a5bb6f42698c61ed2a1:artifacts/global_ingestion/GLOBAL_INGESTION_GATE_STATUS.json",
+    "sha256": "8b48d67cbaeef76ef4217d326d3592270645c729b61f89f3b6b417ac87691a20",
+    "kind": "accepted-main historical report; not fresh source ingestion"
+  },
+  {
+    "file": "archive-production-readiness.json",
+    "source_path": "gunnchOS3k/archive-of-life-artifact-world@23ce4dafc2711449cab43a5bb6f42698c61ed2a1:public/data/status/production_readiness_report.json",
+    "sha256": "5371df354b652a229e4d27984851a12123832abd3b1d46ef2ff525ea3d4c3586",
+    "kind": "accepted-main historical report; not fresh source ingestion"
+  },
+  {
+    "file": "archive-temporal-map-contract.md",
+    "source_path": "gunnchOS3k/archive-of-life-artifact-world@23ce4dafc2711449cab43a5bb6f42698c61ed2a1:docs/TEMPORAL_EARTH_MAPS.md",
+    "sha256": "ba107c04dc7e280e3d4c3db38e775c697513b47ec92536993523c08e3297daf2",
+    "kind": "accepted-main historical report; not fresh source ingestion"
+  }
+]
