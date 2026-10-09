@@ -2,7 +2,8 @@
 
 - `python3 scripts/validate_v1_release_ledger.py`: PASS — 108 retained/expanded feature rows, 38 gates, 43 exact-base implementation tickets; acyclic dependencies, preserved evidence hashes, full-scope overrides and owner/release firewalls verified.
 - `make test` using an isolated temporary pytest environment: PASS — supervisor control-plane validator and seven portfolio tests.
-- `git diff --check`: PASS.
+- `git diff --check`: PASS. Preserved source evidence keeps original line endings and Markdown hard breaks through `.gitattributes`.
+- R5-S1 mutation check: PASS — baseline passed and the return-code mutation was killed; no mutated product files committed.
 - Read-only portfolio audit: `AUTOMATABLE_SUPERVISOR_READY=FAIL`, `CONTACT_SUPERVISOR_READY=BLOCKED`, 16 repositories present. This remains a separate diagnostic; the reconciliation does not rewrite it as ready.
 
 System and bundled Python lacked pytest. Tests were run with pytest installed only in a temporary virtual environment; no product dependency files changed.
