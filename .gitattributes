@@ -1,0 +1,3 @@
+# Preserved source evidence is byte-identical for recorded SHA256 checks.
+# Markdown hard breaks in copied authority documents are intentional.
+docs/release/evidence/** -text whitespace=-blank-at-eol

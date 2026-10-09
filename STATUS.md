@@ -1,5 +1,7 @@
 # Status
 
+Current V1.0.0 authority: [October 9 release matrix](docs/release/V1_0_0_READINESS_2026-10-09.md), [feature/gate ledger](docs/release/V1_0_0_LEDGER_2026-10-09.json), and [execution tickets](docs/release/V1_0_0_EXECUTION_2026-10-09.md). **NOT READY** for the October 23 target; full owner-declared scope and human gates remain required. The Cycle 3A snapshot below is historical.
+
 Snapshot for Cycle 3A WP-012. Not a physical or carrier completion claim.
 
 ## Public view

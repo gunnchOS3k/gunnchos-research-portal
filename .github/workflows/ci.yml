@@ -14,6 +14,8 @@ jobs:
       - run: test -f content/projects.ts
       - run: python3 scripts/audit_portfolio.py --portal-root . --no-write --allow-missing-siblings
       - run: make test
+      - run: python3 scripts/validate_v1_release_ledger.py
+      - run: python3 scripts/validate_v1_snapshot_adoption.py
       - run: make code-health-r5-s1
       - run: test -f docs/uml/README.md
       - run: test -f docs/phd/START_HERE_SUPERVISOR.md

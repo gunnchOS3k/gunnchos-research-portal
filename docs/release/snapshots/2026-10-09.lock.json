@@ -1,0 +1,29 @@
+{
+  "schema": "gunnchos.release.snapshot_lock.v1",
+  "snapshot_commit": "f74521603b039ea40d491f4658dbf09668b38a07",
+  "files": {
+    "docs/release/V1_0_0_LEDGER_2026-10-09.json": "68e5cf38c8215f32d91a9728caddaae32f32a193ff79adfa636cf321b3650112",
+    "docs/release/V1_0_0_READINESS_2026-10-09.md": "1aaed0a14db24195eba190d293f74019d3687602324fe3363a44722249666f34",
+    "docs/release/V1_0_0_EXECUTION_2026-10-09.md": "4b35a089a76c5f5da42bb780e09c07e7489c47bcd6eff2219dfa93475c9571bd",
+    "docs/release/VALIDATION_2026-10-09.md": "cfd5d88645f3ec8b12995ce53bded24a96848d529b927b01da9fe242b823a1d2",
+    "scripts/validate_v1_release_ledger.py": "1ae7680c30eb7d441e5d0c84ee021af7985515e58711f20f394a59bb6f80e65d",
+    "docs/release/evidence/2026-10-09/anime-checkpoint-handoff.md": "0f19b0710ebbbd5851b9ab044d55ae3ac20bdb68580d4ae448d9b4fc90e59453",
+    "docs/release/evidence/2026-10-09/anime-live-manifest.json": "3b42b5180a8ce35335a8f635d4656632653db5dc1efba113641ca824cf64937f",
+    "docs/release/evidence/2026-10-09/archive-global-coverage.json": "a5ca8ff2e297a349c14518d20131b492110e8ae808e14ae30112243ec2285a09",
+    "docs/release/evidence/2026-10-09/archive-ingestion-gates.json": "8b48d67cbaeef76ef4217d326d3592270645c729b61f89f3b6b417ac87691a20",
+    "docs/release/evidence/2026-10-09/archive-production-readiness.json": "5371df354b652a229e4d27984851a12123832abd3b1d46ef2ff525ea3d4c3586",
+    "docs/release/evidence/2026-10-09/archive-temporal-map-contract.md": "ba107c04dc7e280e3d4c3db38e775c697513b47ec92536993523c08e3297daf2",
+    "docs/release/evidence/2026-10-09/github-snapshot.json": "2013e3832c10446aac6f35050c7ba871102dc189c4a3421b3447e6572666167d",
+    "docs/release/evidence/2026-10-09/historical-scope-ledger.csv": "c90d004d020ad98eea44a7557729e6d6922c2b0c5e19511385601111b8c21353",
+    "docs/release/evidence/2026-10-09/legacy-pr-state.json": "8ab96ffc751a9f91abd08a556c94e67d8eb53a5c92b35cfea010df0adfeea5af",
+    "docs/release/evidence/2026-10-09/owner-archive-full-coverage.md": "4fbadfc0e5cb63cedba7f51a1238c9bff25478508829acfbed6b141b3ad5485b",
+    "docs/release/evidence/2026-10-09/owner-full-completion-policy.md": "e3a51984780fbfd514fdee976cbd6fb79d8b01ddc4df0727362ded8d9c4b28c7",
+    "docs/release/evidence/2026-10-09/owner-invites-addendum.md": "6e4e0240e6896a5c8e4c8985b25f206adc4a3b2c27732717d8f8e05b9f3e94f5",
+    "docs/release/evidence/2026-10-09/pursuit-live-manifest.json": "386fa85fef65accfd4189c6da0296766e926e5d6f7b1714ed7c194eacced0020",
+    "docs/release/evidence/2026-10-09/site-production-closure.md": "b72bbdec42768c59f05d158b8b3ffe31ca6378bca301af73cd3378df9e5bd1ae",
+    "docs/release/evidence/2026-10-09/site-production-verification.json": "b718841f6164462a739e82058a952fb3dfc2dee847f06df6b57ad3877306e150",
+    "docs/release/evidence/2026-10-09/source-index.json": "2a2e81812914f2ecf7c99ede4626d2f79ed58ffc8068873928b7cef726b796b7",
+    "docs/release/evidence/2026-10-09/waike-production-smoke.json": "643ee62980cefc8cf34985fc707c4a9cd00636a462b2a642d204da1e2af773b0",
+    "docs/release/evidence/2026-10-09/waike-production-smoke.md": "08eaf592344a248ac73b1cb56a519c0d512f6b01c438b13f10a4dc01a70af5b6"
+  }
+}

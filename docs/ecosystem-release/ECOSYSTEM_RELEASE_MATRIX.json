@@ -287,5 +287,9 @@
       ],
       "evidence_class": "DRAFT_DIGITAL_CANDIDATE"
     }
-  ]
+  ],
+  "authority_status": "HISTORICAL_SUPERSEDED_FOR_V1_0_0",
+  "current_v1_authority": "docs/release/V1_0_0_LEDGER_2026-10-09.json",
+  "superseded_as_of": "2026-10-09",
+  "historical_tokens_are_not_current_acceptance": true
 }

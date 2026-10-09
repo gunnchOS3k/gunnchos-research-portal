@@ -1,5 +1,7 @@
 # RELEASE_BLOCKERS — STREAM P1 RC0 Digital Freeze (Prompt 16)
 
+Historical freeze. Current V1.0.0 blockers, exact bases and dependencies are controlled by the [October 9 full-scope ledger](../docs/release/V1_0_0_READINESS_2026-10-09.md) and [implementation tickets](../docs/release/V1_0_0_EXECUTION_2026-10-09.md). Do not use the old pins/open-PR notes below as current release authority.
+
 Generated: `2026-09-08T04:55:39Z`  
 Owner / sole merge authority: **Edmund Gunn Jr.**  
 Cursor merges nothing. `FULL_ECOSYSTEM_COMPLETE` forbidden.  
