@@ -41,7 +41,7 @@ Paper-II reproduction environments `/private/tmp/paper-ii-original`, `/private/t
 
 ## Exact next actions
 
-1. Push normal recovery branches and record remote SHAs; never force-push.
+1. Recovery branches pushed normally after exact owner approval: I1d83c67, II4e5cc1e, III4608fc7, portal986a520. Continue local milestones; never force-push.
 2. Resume each paper with one authoring agent, first reading recovery notes and committed evidence. Finish full substantive prose, verified bibliography, correct venue class and supporting declarations.
 3. Finish official TNSM template selector download (Original research and Brief -> LaTeX -> Download).
 4. Complete July-lock versus Oulu V3.1 scope reconciliation in this portal.
@@ -51,3 +51,7 @@ Paper-II reproduction environments `/private/tmp/paper-ii-original`, `/private/t
 No active shell process is known: recorded download/compile/clone sessions completed. General OS process enumeration was denied by sandbox, so no stronger claim is made. Child agent status was inspected and all three were errored.
 
 Owner scientific review, additional coauthors/funding/conflict/rights declarations and explicit submission authorization remain pending. No journal submission, public preprint, ORCID write or merge is authorized.
+
+## Post-recovery checkpoint
+
+Four approved recovery SHAs are remote. Source provenance, version1 scope reconciliation, and rights/AI/ORCID review are now saved under `docs/publication/three-paper-2026-10/`. New paper agents own one manuscript each; they read the recovered assets before writing. Exact TNSM template downloaded from selector titleId82/articleId3/fileId264 at `/private/tmp/publication-tools/tnsm-official/`. Citation discrepancies are being resolved from publisher/fulltext sources.

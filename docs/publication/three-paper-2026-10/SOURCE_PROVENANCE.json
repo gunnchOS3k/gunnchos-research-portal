@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "review_date": "2026-10-13",
+  "timezone": "America/Chicago",
+  "sources": [
+    {
+      "id": "july_lock",
+      "local_source": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-7gc-ai-ran-field-kit/GATE1_LOCKED_RESEARCH_THESIS.md",
+      "sha256": "98be47fc5bd936ef2eb84d5fca3552649c3971c6d5ab055c64fe6529f83d3c96",
+      "modified": false
+    },
+    {
+      "id": "july_lock_json",
+      "local_source": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-7gc-ai-ran-field-kit/contracts/gate1_locked_thesis.v1.json",
+      "sha256": "301915f545919db8d8c6d7323a7afe04396bf15f2955e9cafe0caf8435cfbc1f",
+      "modified": false
+    },
+    {
+      "id": "oulu_v3_1",
+      "local_source": "/Users/gunnchos/Downloads/oulu_6g_three_paper_publication_program/sources/Oulu_Research_Plan_V3_1_Source.pdf",
+      "sha256": "a1662d132674fb781c712b27203db4233980dfb9b8d161d9f7994eaa7c75f85f",
+      "modified": false
+    },
+    {
+      "id": "owner_initial_brief",
+      "local_source": "/Users/gunnchos/.codex/attachments/ae3d4c95-4b8e-4df9-9520-48de7e863e1a/Pasted text.txt",
+      "sha256": "ecd7540f80d12da52285f0538bf7e97c07825254ed9a27ff7a1fb433aefb90ed",
+      "modified": false
+    },
+    {
+      "id": "owner_continuation_brief",
+      "local_source": "/Users/gunnchos/.codex/attachments/51acb43a-f899-4c52-b046-1a1710370387/Pasted text.txt",
+      "sha256": "78db182cc3c7339ba4bf33744f2054b935cc81443c55a21113a53c31ee6bd1ad",
+      "modified": false
+    }
+  ],
+  "source_of_truth": {
+    "I": "7gc-digital-twin/paper/",
+    "II": "spectrumx-ai-ran-gary/paper/",
+    "III": "ntn-resilience-sim/paper/"
+  },
+  "source_main_shas": {
+    "7gc-digital-twin": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+    "spectrumx-ai-ran-gary": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+    "ntn-resilience-sim": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+    "portal": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+    "field_kit": "9dfc326647880c244904dd50a47ea80c3d46748e",
+    "edge_io": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+    "readygary": "e04b38b48cd2ebd87243153ca8fad9e914f16b21"
+  },
+  "historical_paper_ii": {
+    "original": "86a5a6f3000fce7593ee1bdfe02bae6bc37d2498",
+    "revised": "b44357f764d440f983132bd44a9c23c180591f70",
+    "protocol_predecessor_short": "72044d4"
+  },
+  "literature_inspection": "paper-specific audit reports; no public fulltext redistribution"
+}
