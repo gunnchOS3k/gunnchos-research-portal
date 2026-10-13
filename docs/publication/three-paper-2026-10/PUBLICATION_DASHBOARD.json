@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-13",
+  "papers": [
+    {
+      "paper": "I",
+      "repository": "gunnchOS3k/7gc-digital-twin",
+      "worktree": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/7gc-digital-twin",
+      "branch": "publication/paper-i-owner-review-2026-10-12",
+      "local_head": "951a91e9927354d5fcb7009819ea7bb16902c718",
+      "remote_tracking_head": "951a91e9927354d5fcb7009819ea7bb16902c718",
+      "experimental_source": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "pdf": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/7gc-digital-twin/paper/submission/manuscript.pdf",
+      "pdf_sha256": "3589f946b38b618eac9e336ece55ea45c517968ed32be7a1663c3a6a84c645a3",
+      "gates": {
+        "schema": "gunnchos.publication.quality_gates.v1",
+        "date": "2026-10-13",
+        "scope": "Owner scientific review, not publication endorsement",
+        "gates": {
+          "MANUSCRIPT_COMPILES": {
+            "status": true,
+            "basis": "Final pdfLaTeX/BibTeX output, 8 pages"
+          },
+          "CITATIONS_VERIFIED": {
+            "status": true,
+            "basis": "Eight current references; source identity and narrow support audit, with partial inspection levels explicitly retained"
+          },
+          "EXPERIMENT_REPRODUCED": {
+            "status": true,
+            "basis": "Fresh full payload equality at 1a5491bf; reproduction records and focused 27-test log"
+          },
+          "STATISTICS_VERIFIED": {
+            "status": true,
+            "basis": "Independent Student-t means/sample SD/CI in reproduction/statistical_audit.json; no paired policy effect claimed"
+          },
+          "CLAIMS_EVIDENCE_ALIGNED": {
+            "status": true,
+            "basis": "Corpus/generator separated, proxy metrics and outage-entry counter qualified, post hoc expectations labeled"
+          },
+          "VENUE_FORMAT_VERIFIED": {
+            "status": true,
+            "basis": "Official IEEE Access template and all-page visual inspection; final portal/declaration review pending"
+          },
+          "AI_DISCLOSURE_PREPARED": {
+            "status": true,
+            "basis": "Full acknowledgment plus tool citation and detailed AI_USE_DISCLOSURE.md"
+          },
+          "AUTHOR_METADATA_VERIFIED": {
+            "status": true,
+            "basis": "Confirmed author name, affiliation, email and ORCID; unknown declarations pending"
+          },
+          "OWNER_REVIEW_READY": {
+            "status": true,
+            "basis": "Complete editable package and reviewed PDF; small novelty and external validity unresolved"
+          },
+          "OWNER_APPROVED": {
+            "status": false,
+            "basis": "Owner has not approved final manuscript"
+          },
+          "SUBMISSION_AUTHORIZED": {
+            "status": false,
+            "basis": "No submission authorization"
+          }
+        }
+      },
+      "contribution": "Declared workload corpus and synthetic generator semantics; independent reproduction and proxy-metric audit.",
+      "experiments": "21 snapshots: 12 target, 8 minimum useful, 1 failed; four degraded Wi-Fi names remain connected. Seeds 1\u201330, four classes, 48 steps/class. Completion 0.427257, CI [0.411720,0.442795]; useful time 0.591493, CI [0.576466,0.606520]. Focused 27 tests pass; recovered reproduction stage 17 checks pass.",
+      "findings": "Offline workload coverage preserves declared service; unsupported wearable coding fails. No degraded state is exercised. Class ordering follows priors, duplicate metrics add no independent validation, recovery count is outage entries.",
+      "limitations": "No executed fair controller contest, real workload completion, calibrated device thresholds or physical twin. Corpus upstream Git source absent; content and file digests retained. Analytic expectations are post hoc.",
+      "primary_venue": "IEEE Access",
+      "backup_venue": "IEEE OJ-COMS"
+    },
+    {
+      "paper": "II",
+      "repository": "gunnchOS3k/spectrumx-ai-ran-gary",
+      "worktree": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/spectrumx-ai-ran-gary",
+      "branch": "publication/paper-ii-owner-review-2026-10-12",
+      "local_head": "f7b07300b5204f4ea1cf44eb925d603fe9705117",
+      "remote_tracking_head": "f7b07300b5204f4ea1cf44eb925d603fe9705117",
+      "experimental_source": "86a5a6f3000fce7593ee1bdfe02bae6bc37d2498; revised b44357f764d440f983132bd44a9c23c180591f70",
+      "pdf": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/spectrumx-ai-ran-gary/paper/submission/manuscript.pdf",
+      "pdf_sha256": "850e4a690fdb53d02536b214ae2bf4e94383a25d6d577cd811ee7c57ac49d5ba",
+      "gates": {
+        "schema": "gunnchos.publication.quality_gates.v1",
+        "date": "2026-10-13",
+        "scope": "Technical completion for owner scientific review; no publication endorsement",
+        "gates": {
+          "MANUSCRIPT_COMPILES": {
+            "status": true,
+            "basis": "Final 8-page PDF and pdfLaTeX/BibTeX log"
+          },
+          "CITATIONS_VERIFIED": {
+            "status": true,
+            "basis": "Eight verified source identities and narrowed contextual support; restricted full texts and inspection levels recorded honestly"
+          },
+          "EXPERIMENT_REPRODUCED": {
+            "status": true,
+            "basis": "Historical full non-timing parity; fresh original/revised held-out exact parity with required SLSQP"
+          },
+          "STATISTICS_VERIFIED": {
+            "status": true,
+            "basis": "Independent paired Student-t mean, SD, intervals at n=5; paired_statistics.json and independent_current_reproduction.json"
+          },
+          "CLAIMS_EVIDENCE_ALIGNED": {
+            "status": true,
+            "basis": "Original negative result and revised negative outcomes retained; baseline loophole, greedy oracle, unequal computation and truth-changing interventions disclosed"
+          },
+          "VENUE_FORMAT_VERIFIED": {
+            "status": true,
+            "basis": "Official IEEEtran TNSM template, 8 pages and all-page QA; final portal/rights review pending"
+          },
+          "AI_DISCLOSURE_PREPARED": {
+            "status": true,
+            "basis": "Manuscript substantive-use acknowledgment and AI_USE_DISCLOSURE.md"
+          },
+          "AUTHOR_METADATA_VERIFIED": {
+            "status": true,
+            "basis": "Confirmed author name/affiliation/email/ORCID; unknown declarations pending"
+          },
+          "OWNER_REVIEW_READY": {
+            "status": true,
+            "basis": "Complete editable owner-review package; journal originality and physical validity unresolved"
+          },
+          "OWNER_APPROVED": {
+            "status": false,
+            "basis": "Owner has not approved this manuscript revision"
+          },
+          "SUBMISSION_AUTHORIZED": {
+            "status": false,
+            "basis": "No journal submission authorized"
+          }
+        }
+      },
+      "contribution": "Preserved negative hypothesis, switch-charge decomposition and source-level baseline/ablation audit.",
+      "experiments": "Each vintage has train seeds 0\u20134 and heldout 100\u2013104, 24 episodes x16 slots per seed. Historical complete non-timing outputs reproduced with SciPy SLSQP; fresh heldout parity retained. Original 5 and revised 31 historical tests pass; current focused 31 tests pass. Paired twin-minus-cloud mean -0.01359863, CI [-0.01477592,-0.01242134].",
+      "findings": "Procedural twin underperforms cloud fallback on heldout utility. Linear selector exceeds twin by 0.0343692; linear versus greedy comparison inconclusive. Other families vary; revised adaptive fidelity/checkpoint outcomes remain unfavorable.",
+      "limitations": "Five seed means; no equal computational budget or feature-use guarantee, unavailable static actions can score, oracle is greedy, some ablations modify scoring truth. Energy/radio metrics uncalibrated; cost crossing at lambda .33766 is retrospective fixed-trace algebra.",
+      "primary_venue": "IEEE TNSM",
+      "backup_venue": "IEEE OJ-COMS"
+    },
+    {
+      "paper": "III",
+      "repository": "gunnchOS3k/ntn-resilience-sim",
+      "worktree": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/ntn-resilience-sim",
+      "branch": "publication/paper-iii-owner-review-2026-10-12",
+      "local_head": "f55c06aee3fbc0664dc8aac0c63f3ca5e030d2a7",
+      "remote_tracking_head": "f55c06aee3fbc0664dc8aac0c63f3ca5e030d2a7",
+      "experimental_source": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "pdf": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/ntn-resilience-sim/paper/submission/manuscript.pdf",
+      "pdf_sha256": "e6977e8b91e4d2a9a6f66036b5ae3d2527ef4b7164e78eccc2803c63923af046",
+      "gates": {
+        "schema": "gunnchos.publication.quality_gates.v1",
+        "date": "2026-10-13",
+        "scope": "Technical completion for owner scientific review; not publication acceptance or authorization",
+        "gates": {
+          "MANUSCRIPT_COMPILES": {
+            "status": true,
+            "basis": "8-page PDF, final compiler log and FINAL_REVIEW.json"
+          },
+          "CITATIONS_VERIFIED": {
+            "status": true,
+            "basis": "All seven identities/identifiers and narrow claim support checked; substantive-inspection depth recorded in CITATION_VERIFICATION.md. Not full-text verification of every reference."
+          },
+          "EXPERIMENT_REPRODUCED": {
+            "status": true,
+            "basis": "Exact numerical payload equality at 05aaa9a; reproduction_audit.json and statistics_audit.json"
+          },
+          "STATISTICS_VERIFIED": {
+            "status": true,
+            "basis": "SciPy Student-t, sample SD, paired dz and eight-state enumeration; statistics_audit.json"
+          },
+          "CLAIMS_EVIDENCE_ALIGNED": {
+            "status": true,
+            "basis": "CLAIM_TO_EVIDENCE.md; narrow synthetic results, equivalence and negative cases retained"
+          },
+          "VENUE_FORMAT_VERIFIED": {
+            "status": true,
+            "basis": "Official IEEEoj class; all 8 pages inspected; mandatory graphical abstract and separate figures supplied. Final live portal/rights review pending."
+          },
+          "AI_DISCLOSURE_PREPARED": {
+            "status": true,
+            "basis": "Acknowledgment identifies OpenAI Codex, sections and substantive use; AI_USE_DISCLOSURE.md"
+          },
+          "AUTHOR_METADATA_VERIFIED": {
+            "status": true,
+            "basis": "Confirmed name, affiliation, email and ORCID consistent; unknown declarations pending"
+          },
+          "OWNER_REVIEW_READY": {
+            "status": true,
+            "basis": "Complete editable package, reviewed PDF, evidence, cover letter and worksheet; journal originality and external validity unresolved"
+          },
+          "OWNER_APPROVED": {
+            "status": false,
+            "basis": "Owner has not reviewed this final revision"
+          },
+          "SUBMISSION_AUTHORIZED": {
+            "status": false,
+            "basis": "No journal submission authorization"
+          }
+        }
+      },
+      "contribution": "Service-qualification counterexample, policy-equivalence characterization and shared-power expectation ceiling, reproduced in a synthetic benchmark.",
+      "experiments": "Seeds 1\u201330 x48 abstract steps. Exact fresh numerical-payload parity; source snapshot hashes verified. Full 37 tests pass, focused 9 pass. TN mean .73750333, NTN-aware .82916333; paired gain .09166, SD .04258833, CI [.07575726,.10756274], dz 2.15223274. Independent enumeration checks all eight P/R/V states for four qualification cases.",
+      "findings": "Qualifying LEO backup helps; all three NTN-aware policies have identical primary seed outcomes. Configured 550ms GEO or .5Mbps capacity makes satellite-first service .1083 while fallback/adaptive retain .7375. Shared power bounds expected service by .85.",
+      "limitations": "Bernoulli priors, capacity/delay constants and threshold uncalibrated; no congestion, switch penalty, orbital dynamics, physical satellite/RF/carrier/device evidence or seeded local/peer recovery. Close disaster simulators limit novelty; elementary analysis may not meet journal originality.",
+      "primary_venue": "IEEE OJ-COMS",
+      "backup_venue": "IEEE Systems Journal"
+    }
+  ]
+}
