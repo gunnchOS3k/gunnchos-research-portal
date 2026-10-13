@@ -1,0 +1,78 @@
+{
+  "checkpoint_date": "2026-10-13",
+  "timezone": "America/Chicago",
+  "repositories": [
+    {
+      "repository": "7gc-digital-twin",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/7gc-digital-twin",
+      "branch": "publication/paper-i-owner-review-2026-10-12",
+      "head": "1d83c6782ea7fdb1852c452ed6a8d7d78e33cec3",
+      "source_main": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/7gc-digital-twin  1d83c67 [publication/paper-i-owner-review-2026-10-12]",
+      "remote_checkpoint": "not yet pushed"
+    },
+    {
+      "repository": "spectrumx-ai-ran-gary",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/spectrumx-ai-ran-gary",
+      "branch": "publication/paper-ii-owner-review-2026-10-12",
+      "head": "4e5cc1ede31ca02cd485cc0cfd9086b1c64c1ca9",
+      "source_main": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/spectrumx-ai-ran-gary  4e5cc1e [publication/paper-ii-owner-review-2026-10-12]",
+      "remote_checkpoint": "not yet pushed"
+    },
+    {
+      "repository": "ntn-resilience-sim",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/ntn-resilience-sim",
+      "branch": "publication/paper-iii-owner-review-2026-10-12",
+      "head": "4608fc7860a69eaef604d274ff57de9c12822e3e",
+      "source_main": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/ntn-resilience-sim  4608fc7 [publication/paper-iii-owner-review-2026-10-12]",
+      "remote_checkpoint": "not yet pushed"
+    },
+    {
+      "repository": "gunnchos-research-portal",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-research-portal",
+      "branch": "publication/three-paper-owner-review-2026-10-12",
+      "head": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+      "source_main": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-research-portal  1cd5819 [publication/three-paper-owner-review-2026-10-12]",
+      "remote_checkpoint": "not yet pushed"
+    },
+    {
+      "repository": "readygary-6g-beam-selection",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/readygary-6g-beam-selection",
+      "branch": "DETACHED",
+      "head": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "source_main": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/readygary-6g-beam-selection  e04b38b (detached HEAD)",
+      "remote_checkpoint": "not yet pushed"
+    },
+    {
+      "repository": "edge-io-measurement-node",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/edge-io-measurement-node",
+      "branch": "DETACHED",
+      "head": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "source_main": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/edge-io-measurement-node  f357b4c (detached HEAD)",
+      "remote_checkpoint": "not yet pushed"
+    },
+    {
+      "repository": "gunnchos-7gc-ai-ran-field-kit",
+      "local_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-7gc-ai-ran-field-kit",
+      "branch": "DETACHED",
+      "head": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "source_main": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "status": "",
+      "worktrees": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-7gc-ai-ran-field-kit  9dfc326 (detached HEAD)",
+      "remote_checkpoint": "not yet pushed"
+    }
+  ],
+  "agents": "three previous paper agents errored with usage limits; no active child work",
+  "process_inspection": "ps denied by sandbox; recorded shell sessions completed; no active shell session known"
+}
