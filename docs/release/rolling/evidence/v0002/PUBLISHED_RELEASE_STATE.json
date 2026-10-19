@@ -1,0 +1,226 @@
+[
+  {
+    "repo": "gunnchos-waike-learning-platform",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:38Z",
+        "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "gunnchos-hardware-industrial-design",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:22Z",
+        "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "readygary-6g-beam-selection",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:13Z",
+        "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "gunnchAI3k",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:33Z",
+        "url": "https://github.com/gunnchOS3k/gunnchAI3k/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "7gc-digital-twin",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:08Z",
+        "url": "https://github.com/gunnchOS3k/7gc-digital-twin/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "anime-aggressors",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:25Z",
+        "url": "https://github.com/gunnchOS3k/anime-aggressors/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "ntn-resilience-sim",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:15Z",
+        "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "pedestrian-pursuit",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:27Z",
+        "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "gunnchos-device-os",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:40Z",
+        "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "spectrumx-ai-ran-gary",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:10Z",
+        "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "beatlink-party",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:31Z",
+        "url": "https://github.com/gunnchOS3k/beatlink-party/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "archive-of-life-artifact-world",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:29Z",
+        "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "edge-io-measurement-node",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:17Z",
+        "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "waike-research-ops",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:35Z",
+        "url": "https://github.com/gunnchOS3k/waike-research-ops/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "gunnchos-7gc-ai-ran-field-kit",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:20Z",
+        "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  },
+  {
+    "repo": "gunnchos-research-portal",
+    "releases": [
+      {
+        "tag": "v1.0.0-rc.1",
+        "prerelease": true,
+        "draft": false,
+        "published_at": "2026-09-22T02:49:42Z",
+        "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/tag/v1.0.0-rc.1"
+      }
+    ],
+    "official_v1_present": false,
+    "rc2_present": false
+  }
+]

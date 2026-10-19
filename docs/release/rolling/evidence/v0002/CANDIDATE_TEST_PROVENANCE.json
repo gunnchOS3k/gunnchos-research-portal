@@ -1,0 +1,53 @@
+[
+  {
+    "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site/artifacts/commercial/workshop-browser-results.json",
+    "sha256": "066f4c8486ff2edf584703d148eb6affabc869fa5f3db73bc3f2b2bf5b95080b",
+    "stats": {
+      "startTime": "2026-10-15T20:44:48.878Z",
+      "duration": 21124.551,
+      "expected": 4,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "scope": null
+  },
+  {
+    "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site/artifacts/commercial/production-browser-results.json",
+    "sha256": "2698073de0fd09e827d41f9a7c94b1998026bf7969cfb87fc37f2051d202d605",
+    "stats": {
+      "startTime": "2026-10-15T20:47:29.713Z",
+      "duration": 11262.863,
+      "expected": 6,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "scope": null
+  },
+  {
+    "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site/artifacts/education-release/library-results.json",
+    "sha256": "ac9543df56985fdb3a006933a489613cb0632bf1436cfc0e9a88be73af67d798",
+    "stats": {
+      "startTime": "2026-10-15T20:49:23.683Z",
+      "duration": 14140.891,
+      "expected": 2,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "scope": null
+  },
+  {
+    "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site/artifacts/education-release/current-controls-audit.json",
+    "sha256": "87bc3343a9ba89165ca94250d4eded24a7148179ed813380196325d46fbeb34d",
+    "stats": null,
+    "scope": "Two representative current control pages after explicit label and chapter remount fixes; automated WCAG checks only."
+  },
+  {
+    "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site/docs/publication/LIBRARY_SOURCE_PROVENANCE.json",
+    "sha256": "2d568de973e07ad586817f23ff0debf407d260753efba830a5dc13507582ffec",
+    "stats": null,
+    "scope": null
+  }
+]

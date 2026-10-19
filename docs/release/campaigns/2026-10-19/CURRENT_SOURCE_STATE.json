@@ -1,0 +1,172 @@
+{
+  "as_of": "2026-10-19",
+  "portal_main": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+  "canonical_membership_source": "releases/v1.0.0-rc.1/FINAL_ACCEPTED_MAIN_MANIFEST.json",
+  "canonical_count": 16,
+  "main_heads": {
+    "gunnchos-research-portal": {
+      "sha": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+      "commit": "Merge pull request #54 from gunnchOS3k/release/v1-readiness-2026-10-09\n\nReconcile full V1.0.0 readiness for the October 23 anniversary",
+      "date": "2026-10-09T20:21:51Z"
+    },
+    "gunnchos-device-os": {
+      "sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "commit": "Merge pull request #168 from gunnchOS3k/eng/v1-hardware-quartet-universal-shell",
+      "date": "2026-09-28T20:15:35Z"
+    },
+    "gunnchos-waike-learning-platform": {
+      "sha": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "commit": "Merge pull request #27 from gunnchOS3k/v1/full-learner-journey",
+      "date": "2026-10-06T12:30:23Z"
+    },
+    "gunnchAI3k": {
+      "sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "commit": "Merge pull request #58 from gunnchOS3k/research/kirby-jev-system-one-adoption-v1",
+      "date": "2026-09-27T01:36:49Z"
+    },
+    "anime-aggressors": {
+      "sha": "887e100114c9741ebc7a449b46116bcb6eef5072",
+      "commit": "Merge pull request #121 from gunnchOS3k/surface/exact-main-web-runtime",
+      "date": "2026-10-04T17:34:30Z"
+    },
+    "pedestrian-pursuit": {
+      "sha": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "commit": "Merge pull request #41 from gunnchOS3k/v1/tutorial-dismiss",
+      "date": "2026-10-06T00:25:48Z"
+    },
+    "archive-of-life-artifact-world": {
+      "sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "commit": "Merge pull request #42 from gunnchOS3k/program/global-knowledge-ingestion-v1",
+      "date": "2026-09-28T20:48:29Z"
+    },
+    "beatlink-party": {
+      "sha": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "commit": "Merge pull request #32 from gunnchOS3k/integration/gunnchos-return-navigation",
+      "date": "2026-10-01T13:18:53Z"
+    },
+    "gunnchos-hardware-industrial-design": {
+      "sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "commit": "Merge pull request #85 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:51:22Z"
+    },
+    "7gc-digital-twin": {
+      "sha": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "commit": "Merge pull request #33 from gunnchOS3k/integration/mlv-campus-network-twin-v2",
+      "date": "2026-09-27T01:29:28Z"
+    },
+    "spectrumx-ai-ran-gary": {
+      "sha": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "commit": "Merge pull request #106 from gunnchOS3k/surface/source-and-reproduce",
+      "date": "2026-10-02T18:14:52Z"
+    },
+    "readygary-6g-beam-selection": {
+      "sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "commit": "Merge pull request #28 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:52:31Z"
+    },
+    "ntn-resilience-sim": {
+      "sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "commit": "Merge pull request #29 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:52:46Z"
+    },
+    "edge-io-measurement-node": {
+      "sha": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "commit": "Merge pull request #41 from gunnchOS3k/integration/campus-calibration-evidence-v2",
+      "date": "2026-09-27T01:30:07Z"
+    },
+    "waike-research-ops": {
+      "sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "commit": "Merge pull request #62 from gunnchOS3k/docs/v1-feedback-hub",
+      "date": "2026-09-21T20:54:01Z"
+    },
+    "gunnchos-7gc-ai-ran-field-kit": {
+      "sha": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "commit": "Merge pull request #121 from gunnchOS3k/fix/code-health-authenticity-current-main-baseline",
+      "date": "2026-09-28T19:02:45Z"
+    },
+    "gunnchos-site": {
+      "sha": "f4f4c85cd5bb924a6bc5ca2d196f159da32c81b9",
+      "commit": "Merge pull request #21 from gunnchOS3k/content/totl-week-2-binaries\n\nAdd Week 2 lecture and carousel binaries",
+      "date": "2026-10-10T22:59:49Z"
+    },
+    "3k-mlv": {
+      "sha": "2c14f13fcb049cb1ea71c9f4900c0abdbc37cd6d",
+      "commit": "Merge pull request #9 from gunnchOS3k/world/spatial-commons-neighborhood-v1",
+      "date": "2026-10-05T16:21:15Z"
+    },
+    "gunnchos-technology-landscape": {
+      "sha": "8d56d214fa6490ba6f99058babea834b5d3bb4ab",
+      "commit": "Merge pull request #10 from gunnchOS3k/cursor/human-validation-launch-prep-001",
+      "date": "2026-09-05T17:32:23Z"
+    }
+  },
+  "local_candidates": {
+    "waike-site": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site",
+      "branch": "delivery/full-learning-2026-10-15",
+      "HEAD": "a6f4cd620123c1d12ac704346fb4a7fe5b51b05e",
+      "dirty": true,
+      "tracked_diff_sha256": "907ac213694b9ffd7a12c05eb36952e79a1a9d83f0322e467d64378717d573ad",
+      "disposition": "UNMERGED_CANDIDATE_NOT_ACCEPTED",
+      "uncommitted_work_preserved": true
+    },
+    "waike-platform": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/platform",
+      "branch": "delivery/full-learning-2026-10-15",
+      "HEAD": "6bdfa0b416ea95b0abb36669faa8059095962281",
+      "dirty": false,
+      "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "disposition": "UNMERGED_CANDIDATE_NOT_ACCEPTED",
+      "uncommitted_work_preserved": true
+    },
+    "waike-curriculum": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/curriculum",
+      "branch": "delivery/full-learning-2026-10-15",
+      "HEAD": "18efa764e4db066fb17d597284557195499f93ea",
+      "dirty": false,
+      "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "disposition": "UNMERGED_CANDIDATE_NOT_ACCEPTED",
+      "uncommitted_work_preserved": true
+    },
+    "publication": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_publication_worktrees/gunnchos-technology-landscape",
+      "branch": "cursor/publication-family-parallel-production-001",
+      "HEAD": "5adb3fd93792e3102e8a0915ac267b053e49e770",
+      "dirty": false,
+      "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "disposition": "UNMERGED_CANDIDATE_NOT_ACCEPTED",
+      "uncommitted_work_preserved": true
+    },
+    "anime": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_anime_v1_closure",
+      "branch": "release/anime-v1-dialogue-and-elemental-performance",
+      "HEAD": "30c6f2c87024eda9a283fe47121c8ce4abc4fa69",
+      "dirty": true,
+      "tracked_diff_sha256": "1b8ae7e279999c7d887c24f00d8e3a39d2202662389c02d4bd11dec3dda106b9",
+      "disposition": "UNMERGED_CANDIDATE_NOT_ACCEPTED",
+      "uncommitted_work_preserved": true
+    },
+    "fieldkit-ci-repair": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_fieldkit_ci_repair",
+      "branch": "release/standards-watch-dependencies-2026-10-19",
+      "HEAD": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+      "dirty": false,
+      "disposition": "VALIDATED_LOCAL_CI_REPAIR_DRAFT_PR123_NOT_ACCEPTED",
+      "uncommitted_work_preserved": true
+    }
+  },
+  "worktree_recovery": {
+    "registered_entries": 395,
+    "dirty_or_untracked": 147,
+    "missing_or_prunable": 23,
+    "complete_local_inventory": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/artifacts/v1-integration-2026-10-19/LOCAL_WORKTREE_RECOVERY.json",
+    "inventory_sha256": "dca2931f71749cf55c3bf3824f425f117c727dea3cb9abfabbd63e760f562153",
+    "limitation": "Registered worktrees recovered from canonical local repositories and discovered site/MLV/book clones. New publication clone additionally inspected. This does not prove all arbitrary folders or other private chat histories were discoverable."
+  },
+  "agent_recovery_method": "Actual Git branches/worktrees, source files and source-bound reports; conversation-history tools unavailable. No completion report alone promoted acceptance.",
+  "source_changes_by_this_campaign": [
+    "Field Kit isolated two-line Standards Watch dependency repair; no product logic or manuscripts changed"
+  ],
+  "no_product_merges_or_deploys": true,
+  "no_tags_or_publications": true
+}

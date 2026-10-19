@@ -1,0 +1,767 @@
+[
+  {
+    "repo": "gunnchos-research-portal",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+    "rc1_source_sha": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 19,
+    "current_candidate_sha": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 1,
+    "ci_failure": 0,
+    "ci_total": 1,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 50,
+        "branch": "surface/staging-worker",
+        "head": "1958693450b3289198ddd3940be7995bde30dc3b",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 49,
+        "branch": "governance/doctrine-control-plane-ingest",
+        "head": "9301e786acffe6bd92c7ada501009fd076034127",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 48,
+        "branch": "acceptance/v3-1-post-salvage-pixel-prehuman",
+        "head": "a55f320ab0af88a71ccdef3d273bc83eb9db7b67",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 46,
+        "branch": "acceptance/master-automation-exhaustion-v1",
+        "head": "f9dbc05ebb2cb5adb1bcb72dc1a0e4f11b05d771",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 38,
+        "branch": "eng/stream-h-cleanroom-verification-v2",
+        "head": "01c617cd7e0a716d0eaa574b0e4c919b3ca44959",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 37,
+        "branch": "eng/stream-h-cleanroom-verification",
+        "head": "4593097b20a90a30b66d232f0507a4995f8b87d0",
+        "draft": false,
+        "mergeable": null,
+        "conflict": "unknown"
+      }
+    ],
+    "working_evidence": "Current governance accepted; final cross-repo acceptance open",
+    "remaining": "owner/release gates; exact RC2 freeze absent",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "gunnchos-device-os",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+    "rc1_source_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 44,
+    "current_candidate_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 42,
+    "ci_failure": 0,
+    "ci_total": 42,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 169,
+        "branch": "surface/staging-worker",
+        "head": "416128f6bf3cd1726fe9138deacf60e40a51a89e",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      }
+    ],
+    "working_evidence": "42 current-main checks successful; historical runtime evidence",
+    "remaining": "no connected physical Android target; final current-pin candidate matrix and RC1 source discrepancy",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "gunnchos-waike-learning-platform",
+    "classification": "RED",
+    "main_branch": "main",
+    "main_sha": "2641042936f3b965daccb11091c80cbc6fa64f91",
+    "rc1_source_sha": "a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 8,
+    "current_candidate_sha": "6bdfa0b416ea95b0abb36669faa8059095962281",
+    "candidate_is_main": false,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 77,
+    "ci_failure": 0,
+    "ci_total": 77,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [],
+    "working_evidence": "77 current-main checks; substantial local 6bdfa0b delivery candidate",
+    "remaining": "deployed Lessons returns Home; full 18-track practical/assessment/offline/native and educational gates open",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "gunnchAI3k",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+    "rc1_source_sha": "04eef2d891a8dda58455acc58a8e93e7865379b8",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 2,
+    "current_candidate_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 29,
+    "ci_failure": 0,
+    "ci_total": 29,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 59,
+        "branch": "surface/staging-worker",
+        "head": "5c6e91ff7e2ba2501db25217b05ec5b30994da54",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      }
+    ],
+    "working_evidence": "Current-main digital CI succeeds",
+    "remaining": "supported real provider/workflow and human evaluation remain required; no universal AI claim",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "anime-aggressors",
+    "classification": "RED",
+    "main_branch": "main",
+    "main_sha": "887e100114c9741ebc7a449b46116bcb6eef5072",
+    "rc1_source_sha": "6cd1b3100a7e467c2c991394576891660deb1162",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 80,
+    "current_candidate_sha": "30c6f2c87024eda9a283fe47121c8ce4abc4fa69",
+    "candidate_is_main": false,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 27,
+    "ci_failure": 0,
+    "ci_total": 27,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 123,
+        "branch": "release/anime-v1-dialogue-and-elemental-performance",
+        "head": "30c6f2c87024eda9a283fe47121c8ce4abc4fa69",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 122,
+        "branch": "release/anime-v1-canon-and-campaign",
+        "head": "c5f3be23bf7376f2a0b71a8aabc1396415ef8186",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 119,
+        "branch": "deploy/custom-domain-pages-base",
+        "head": "d9eb058ed9435f95fd607a05eee095516f00ea2c",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      }
+    ],
+    "working_evidence": "Main 887e100; PR122/123 validated candidates, #123 source0e33ee4 with later dirty probe reports",
+    "remaining": "full ordinary seven-route/roster/forms/acting/OVA/export/device/human gates open; public runtime older0188ea4",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "pedestrian-pursuit",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+    "rc1_source_sha": "3e98106939786c69a64657f4cc2b9a652a3b5fec",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 30,
+    "current_candidate_sha": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 5,
+    "ci_failure": 0,
+    "ci_total": 5,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [],
+    "working_evidence": "Live exact-main 957ff95; boot/time-trial countdown, movement, pause observed",
+    "remaining": "no full lap/all-eight-course/mode/item/invite matrix or human/Pixel approval in this campaign",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "archive-of-life-artifact-world",
+    "classification": "RED",
+    "main_branch": "main",
+    "main_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+    "rc1_source_sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 4,
+    "current_candidate_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 4,
+    "ci_failure": 0,
+    "ci_total": 4,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 43,
+        "branch": "integration/gunnchos-return-navigation",
+        "head": "5c61efd6cbe8a81bc2fe0c5e40f5945ac8098d8a",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      }
+    ],
+    "working_evidence": "Accepted ingestion engine; source/main CI green",
+    "remaining": "full authoritative known-life/ICS coverage and maps still unproven; external sources/licenses/scientific review open",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "beatlink-party",
+    "classification": "RED",
+    "main_branch": "main",
+    "main_sha": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+    "rc1_source_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 2,
+    "current_candidate_sha": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 4,
+    "ci_failure": 0,
+    "ci_total": 4,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [],
+    "working_evidence": "Current-main CI green; public entry responds",
+    "remaining": "public site states room server unavailable and party creation disabled; rights-safe full party/invites and human session not accepted",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "gunnchos-hardware-industrial-design",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+    "rc1_source_sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 0,
+    "current_candidate_sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 4,
+    "ci_failure": 0,
+    "ci_total": 4,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 86,
+        "branch": "surface/staging-worker",
+        "head": "ae6f448c9d85e25b992985180d31563666caf0a7",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 79,
+        "branch": "hardware/exp-student-p100-ai",
+        "head": "753833c98cfee5bef989e160bde87fe2face0430",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 78,
+        "branch": "hardware/exp-dsxl-x100",
+        "head": "7dd2989d225d99966b7da11c7265bc0943448f9f",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 77,
+        "branch": "hardware/exp-com-hpc-modular-product",
+        "head": "47614414f55feac453e90322bf564d7bb6406dd4",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 76,
+        "branch": "hardware/exp-rauc-update",
+        "head": "63ee0f157b2af12479ae8f44a163d6c53a3b64f7",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 75,
+        "branch": "hardware/exp-coreboot",
+        "head": "98fa0117f122ca5d719f49e061bc47f926c4c1eb",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 74,
+        "branch": "hardware/exp-rings-semg-wrist",
+        "head": "f7a954c0ba91647d9ee9858c1d60d002e667666a",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 73,
+        "branch": "hardware/exp-rings-inductive-charge",
+        "head": "0a4fbb0bd8d5de39d3c21392b02269e3bcebf3d3",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 72,
+        "branch": "hardware/exp-dock-usb4-80",
+        "head": "865f45d9e45cce1b78368ff4e59ef74ce8d3f9ae",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 71,
+        "branch": "hardware/exp-dsxl-oled-hybrid",
+        "head": "a16e10ff2afaebb1e24ff4a29cb1fe8bd5d23994",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 70,
+        "branch": "hardware/exp-student-oled",
+        "head": "8964b28a26b0781c82d7199518d7ea7c2ca968bf",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 69,
+        "branch": "hardware/exp-arm-iqx",
+        "head": "d80b7f8ec0a9cf9aa8e4b7fffe31ee3e0eebeccd",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      }
+    ],
+    "working_evidence": "Digital engineering only; current-main CI green",
+    "remaining": "all-four digital design acceptance and Student mesh follow-up; no EVT/DVT/PVT/manufacturing claims",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "7gc-digital-twin",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+    "rc1_source_sha": "9654ac82a722e800193e771556036dbb0df263db",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 2,
+    "current_candidate_sha": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 1,
+    "ci_failure": 0,
+    "ci_total": 1,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 34,
+        "branch": "surface/staging-worker",
+        "head": "5d3e7433c2b729f007b49aac29e5db4ff0dc4b38",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 29,
+        "branch": "operating-cycle-3a/wp-012-readme-contract",
+        "head": "dfcf92e3c7d59ac86329d107cc720a3cc0aec27c",
+        "draft": true,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 23,
+        "branch": "phd-application-readiness-docs",
+        "head": "158e3be6a1d38727898c5dc5a119aeb51c839eff",
+        "draft": false,
+        "mergeable": true,
+        "conflict": "unstable"
+      }
+    ],
+    "working_evidence": "Current-main digital CI green; 2 post-RC1 commits",
+    "remaining": "final public/reproduce/integration review; no measured radio topology claim",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "spectrumx-ai-ran-gary",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+    "rc1_source_sha": "2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 9,
+    "current_candidate_sha": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 1,
+    "ci_failure": 0,
+    "ci_total": 1,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 99,
+        "branch": "operating-cycle-3a/wp-012-readme-contract",
+        "head": "feefc9958f4a50e5c4a191189d088e6d4e2cb044",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 93,
+        "branch": "phd-application-readiness-docs",
+        "head": "f2bd691d585646ba9d1e40b46b622a4e09ec6947",
+        "draft": false,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 92,
+        "branch": "research-artifact-hardening",
+        "head": "9ef22b907ca6cd152115f935196098794d051c55",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 91,
+        "branch": "oulu-wce-alignment-hardening",
+        "head": "8ee649472addc77cf0e3a56296366a30f1d56399",
+        "draft": false,
+        "mergeable": null,
+        "conflict": "unknown"
+      },
+      {
+        "number": 83,
+        "branch": "phase-2-waike-integration",
+        "head": "6651504cb3f9c6fb36d7cdf177d14dd44c92c6e3",
+        "draft": false,
+        "mergeable": null,
+        "conflict": "unknown"
+      }
+    ],
+    "working_evidence": "Current-main digital CI green; 9 post-RC1 commits",
+    "remaining": "final reproducibility/links and owner review; exploratory/synthetic remains synthetic",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "readygary-6g-beam-selection",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+    "rc1_source_sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 0,
+    "current_candidate_sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 2,
+    "ci_failure": 0,
+    "ci_total": 2,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 29,
+        "branch": "surface/staging-worker",
+        "head": "d3c574da8d134ece1c0e3b089220f3ee450ce679",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 22,
+        "branch": "phd-application-readiness-docs",
+        "head": "24f48d2cfdd355b458807be8941aa571517dc0ea",
+        "draft": false,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 21,
+        "branch": "research-artifact-hardening",
+        "head": "94fd7321b8e19967c3f6e8248b63173add15eec7",
+        "draft": true,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 20,
+        "branch": "oulu-wce-alignment-hardening",
+        "head": "fc4719e7cbe2e391b47e790578a44e3142cf683f",
+        "draft": false,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 12,
+        "branch": "phase-2-waike-integration",
+        "head": "8c8185b982d502dfa50a916b70e13bd56d92e86f",
+        "draft": false,
+        "mergeable": true,
+        "conflict": "clean"
+      }
+    ],
+    "working_evidence": "RC1 source equals main; CI green",
+    "remaining": "final integrated evidence review; simulation not carrier/physical acceptance",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "ntn-resilience-sim",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+    "rc1_source_sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 0,
+    "current_candidate_sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 1,
+    "ci_failure": 0,
+    "ci_total": 1,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 30,
+        "branch": "surface/staging-worker",
+        "head": "254e660c1ab8c266e93f91cdf77573b8f34b4756",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 26,
+        "branch": "operating-cycle-3a/wp-012-readme-contract",
+        "head": "b0fb2b5dae33c797a9d412dfc52a55bd5103a450",
+        "draft": true,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 20,
+        "branch": "phd-application-readiness-docs",
+        "head": "9b1383d74f75d0cac9bf8c8382cc6d5318dea2bf",
+        "draft": false,
+        "mergeable": true,
+        "conflict": "unstable"
+      },
+      {
+        "number": 10,
+        "branch": "phase-2-waike-integration",
+        "head": "ac37e7894c7d10302b25d559b75f63484fa84816",
+        "draft": false,
+        "mergeable": false,
+        "conflict": "dirty"
+      }
+    ],
+    "working_evidence": "RC1 source equals main; CI green",
+    "remaining": "final integrated evidence review; no real carrier/RF claim",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "edge-io-measurement-node",
+    "classification": "YELLOW",
+    "main_branch": "main",
+    "main_sha": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+    "rc1_source_sha": "758b14a2c06b70a6678fc761d5360bde5e7cb235",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 2,
+    "current_candidate_sha": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+    "candidate_is_main": true,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 2,
+    "ci_failure": 0,
+    "ci_total": 2,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 42,
+        "branch": "surface/staging-worker",
+        "head": "ad3c02236ce9baf64a4fec4c4891db899ef2c702",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 39,
+        "branch": "release/prompt18-privacy-digital-prep",
+        "head": "0b9ccdb6b0d0c6655a78342b5196bbc41707cda9",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "unstable"
+      },
+      {
+        "number": 18,
+        "branch": "phd-application-readiness-docs",
+        "head": "116fc3ac436554e33408a6b70402cd18c98bd3ac",
+        "draft": false,
+        "mergeable": true,
+        "conflict": "unstable"
+      },
+      {
+        "number": 17,
+        "branch": "research-artifact-hardening",
+        "head": "67ef9ce8a3fa32aff7b0bc7b9559b7b00d8ef36b",
+        "draft": true,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 16,
+        "branch": "oulu-wce-alignment-hardening",
+        "head": "d08d270c43a41aefe8639ac4487ee0115cbe61ab",
+        "draft": false,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 8,
+        "branch": "phase-2-waike-integration",
+        "head": "11648b631c09dfcb91fead65b3e12cdf9c9c2cdf",
+        "draft": false,
+        "mergeable": false,
+        "conflict": "dirty"
+      }
+    ],
+    "working_evidence": "2 post-RC1 commits; gate1/test green",
+    "remaining": "privacy/export/current integration review; physical sensing/EVT separate",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "waike-research-ops",
+    "classification": "RED",
+    "main_branch": "main",
+    "main_sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+    "rc1_source_sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 0,
+    "current_candidate_sha": "18efa764e4db066fb17d597284557195499f93ea",
+    "candidate_is_main": false,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 4,
+    "ci_failure": 0,
+    "ci_total": 4,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 63,
+        "branch": "surface/staging-worker",
+        "head": "0ac444566b99b4fc6981dc6226c0c05680525166",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      }
+    ],
+    "working_evidence": "RC1 source equals public main; local18efa76 workshop/curriculum continuation",
+    "remaining": "all18 program remains incomplete; current content privately developed and not accepted/pushed",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  },
+  {
+    "repo": "gunnchos-7gc-ai-ran-field-kit",
+    "classification": "RED",
+    "main_branch": "main",
+    "main_sha": "9dfc326647880c244904dd50a47ea80c3d46748e",
+    "rc1_source_sha": "4f3095e349f522d6db9901b99101f3fe5dff9f6c",
+    "rc1_tag": "v1.0.0-rc.1",
+    "post_rc1_commits": 8,
+    "current_candidate_sha": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+    "candidate_is_main": false,
+    "release_branch": "See open PR branches in github-state.json; RC1 immutable tag is release baseline, not an assumed active release branch",
+    "ci_success": 25,
+    "ci_failure": 1,
+    "ci_total": 26,
+    "build_status": "Source CI/report evidence only; no new full build this campaign",
+    "open_prs": [
+      {
+        "number": 122,
+        "branch": "surface/staging-worker",
+        "head": "9174aad10f4b354e8b38c860ccab7d44728d664b",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 75,
+        "branch": "operating-cycle-3b/land-74-post-main-merge-vp",
+        "head": "ace229489ff093b880dc8f0445364fa90af65e70",
+        "draft": true,
+        "mergeable": true,
+        "conflict": "clean"
+      },
+      {
+        "number": 71,
+        "branch": "operating-cycle-3b/engineering-burndown",
+        "head": "8715e438874c6a7430e6ad23c824333567ba150a",
+        "draft": true,
+        "mergeable": false,
+        "conflict": "dirty"
+      },
+      {
+        "number": 1,
+        "branch": "portfolio-spine-hardening",
+        "head": "4416b55a26d077efa35c968f5a83429ddaaa7bb6",
+        "draft": true,
+        "mergeable": null,
+        "conflict": "unknown"
+      }
+    ],
+    "working_evidence": "25 success checks plus failed scheduled watch",
+    "remaining": "missing PyYAML reproduced; isolated repair ddf90ab draft PR123; accepted-main watch not repaired yet",
+    "owner_approval": "PENDING for full V1; prior approvals retained only at original scope",
+    "effort": "Not responsibly estimable before full acceptance; no four-day guarantee"
+  }
+]

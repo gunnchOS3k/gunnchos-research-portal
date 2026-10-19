@@ -1,0 +1,19 @@
+{
+  "accepted_main": "9dfc326647880c244904dd50a47ea80c3d46748e",
+  "failed_job": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/actions/runs/36904310777/job/110510893665",
+  "observed_error": "ModuleNotFoundError: No module named 'yaml'",
+  "repair_commit": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+  "branch": "release/standards-watch-dependencies-2026-10-19",
+  "pr": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/123",
+  "change": "Install existing pyyaml>=6.0 requirement before unchanged validators",
+  "validation": {
+    "clean_interpreter_reproduction": "FAIL: missing yaml",
+    "after_dependency_install": {
+      "standards_mapping": "STANDARDS_VALIDATE_PASS",
+      "claim_firewall": "CLAIM_FIREWALL_PASS"
+    },
+    "scheduled_watch_rerun": "NOT_RUN",
+    "accepted_main_repaired": false
+  },
+  "merged": false
+}

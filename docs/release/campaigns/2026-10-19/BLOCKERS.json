@@ -1,0 +1,156 @@
+[
+  {
+    "id": "B01",
+    "severity": "CRITICAL",
+    "repo": "archive-of-life-artifact-world",
+    "failure": "Full scientific denominator, authentic snapshots and maps absent",
+    "reproduction": "Review accepted production-readiness/global-ingestion reports; no fixture denominator",
+    "next_action": "ARC-01 approved acquisition\u2192ARC-02 full ingestion\u2192ARC-03 maps/scientific audit",
+    "acceptance": "All pinned-source records/ICS/maps audits and qualified review",
+    "owner": "External data/license owner plus Archive engineer",
+    "effort": "Unknown; provider/license/ingestion dependent"
+  },
+  {
+    "id": "B02",
+    "severity": "CRITICAL",
+    "repo": "anime-aggressors",
+    "failure": "Full V1 gameplay/presentation/export scope not accepted",
+    "reproduction": "Review PR122 ordinary-review and PR123 spectral feedback; distinguish staged145-node evidence from earned full campaigns",
+    "next_action": "Continue current branch after preserving dirty probes; no restart frome063",
+    "acceptance": "Full ordinary route/form/combat/KO/throw/acting/OVA/export matrix and owner approval",
+    "owner": "Anime engineer and owner",
+    "effort": "Substantial; no credible4-day forecast"
+  },
+  {
+    "id": "B03",
+    "severity": "CRITICAL",
+    "repo": "gunnchos-waike-learning-platform",
+    "failure": "Full18-course program and public delivery path incomplete",
+    "reproduction": "Live Lessons\u2192Home; follow Courses\u2192Modules workaround; inspect canonical course matrix",
+    "next_action": "Review local full-delivery payload privately; repair already exists\u2014do not duplicate; full-course practical gaps remain",
+    "acceptance": "18-track declared assessment/offline/integration/education evidence",
+    "owner": "Curriculum/platform engineers and educator owner",
+    "effort": "Substantial; narrow workshop is not substitute"
+  },
+  {
+    "id": "B04",
+    "severity": "CRITICAL",
+    "repo": "beatlink-party",
+    "failure": "Public party server unavailable",
+    "reproduction": "Public gateway Play states party creation disabled",
+    "next_action": "Accept rights-safe real room/session backend and current party flow",
+    "acceptance": "Two real clients create/join/ready/reconnect/results and explicit human party acceptance",
+    "owner": "BeatLink engineer/operator/owner",
+    "effort": "Host/provider prerequisite; not estimated"
+  },
+  {
+    "id": "B05",
+    "severity": "CRITICAL",
+    "repo": "gunnchos-site + four titles + MLV + Device OS",
+    "failure": "Required unified invite acceptance absent",
+    "reproduction": "Operational https://gunnchos.com/i/<opaque-token>; probe invalid route404, no integrated evidence",
+    "next_action": "INV-01 shared contract\u2192all adapters\u2192mobile/browser acceptance; never assume play host",
+    "acceptance": "Eight invite automated tokens + exact deployment provenance + owner coherent usability",
+    "owner": "Cross-product engineers and owner",
+    "effort": "Protocol and adapter work; not a four-day guarantee"
+  },
+  {
+    "id": "B06",
+    "severity": "EXTERNAL",
+    "repo": "gunnchos-device-os",
+    "failure": "No physical target connected",
+    "reproduction": "adb devices -l yields no devices",
+    "next_action": "Owner supplies authorized device and signer-safe install path; no clear/uninstall",
+    "acceptance": "Exact candidate hash/package/signature launch/handoff and physical owner acceptance",
+    "owner": "Device owner",
+    "effort": "Depends on access and final candidate"
+  },
+  {
+    "id": "B07",
+    "severity": "HIGH",
+    "repo": "gunnchos-device-os",
+    "failure": "RC1 tag/source does not equal APK manifest source",
+    "reproduction": "git annotated RC1\u2192438aaf2; released BUILD_MANIFEST\u21922218ead",
+    "next_action": "Preserve old tag; explicitly reconcile source/artifact identity in new candidate manifest",
+    "acceptance": "Consistent source/tag/build/artifact chain; no retagging history",
+    "owner": "Release engineer/owner",
+    "effort": "Small metadata investigation; rebuild only if necessary"
+  },
+  {
+    "id": "B08",
+    "severity": "HIGH",
+    "repo": "3k-mlv",
+    "failure": "Production auth/full world/private-sharing acceptance absent",
+    "reproduction": "GitHub OAuth unavailable banner; only local test identity; full world ledger required",
+    "next_action": "Full-world and real-auth sharing matrix on authorized host",
+    "acceptance": "Every declared region/campus, private-sharing denial and owner review",
+    "owner": "MLV engineer/operator/owner",
+    "effort": "Full matrix, external auth setup"
+  },
+  {
+    "id": "B09",
+    "severity": "HIGH",
+    "repo": "gunnchos-site/Technology Landscape",
+    "failure": "Eight-edition rights/editorial/accessibility release pending",
+    "reproduction": "8hash-bound EPUBCheck passes; public catalog intentionally empty",
+    "next_action": "Keep manuscripts private; edition-specific review and explicit publication decision",
+    "acceptance": "Rights/editorial/audience/accessibility approvals; separate web/EPUB source hashes",
+    "owner": "Publication owner and reviewers",
+    "effort": "Review-dependent; optional tracked library cannot silently become released"
+  },
+  {
+    "id": "B10",
+    "severity": "HIGH",
+    "repo": "gunnchos-site",
+    "failure": "Passport Pass2U PR18 remains open",
+    "reproduction": "GitHub PR18 branch/mergeability record",
+    "next_action": "Reconcile old candidate with current accepted site; keep iPhone gate open",
+    "acceptance": "Current-head/runtime privacy/QR plus physical Pass2U/event owner check",
+    "owner": "Site engineer and owner",
+    "effort": "Focused but device-dependent"
+  },
+  {
+    "id": "B11",
+    "severity": "HIGH",
+    "repo": "gunnchos-7gc-ai-ran-field-kit",
+    "failure": "Standards Watch fails before claim firewall due missing YAML",
+    "reproduction": "Scheduled job110510893665; reproduce clean interpreter ModuleNotFoundError",
+    "next_action": "Review draft PR123 ddf90ab; targeted local validators now pass",
+    "acceptance": "Accepted repair and scheduled-workflow run, no truth-claim promotion",
+    "owner": "Release/FieldKit maintainer",
+    "effort": "Two-line fix implemented; merge authorization/run pending"
+  },
+  {
+    "id": "B12",
+    "severity": "EXTERNAL",
+    "repo": "cross-repo",
+    "failure": "Insufficient disk for established heavy-export guards",
+    "reproduction": "Recovery2.6GiB, later1.3GiB; Anime guard18GiB",
+    "next_action": "Stop owned local servers; preserve all source/backups; owner-controlled capacity recovery",
+    "acceptance": "Document adequate capacity before heavy export; no unapproved cleanup",
+    "owner": "Workspace owner",
+    "effort": "Capacity action required"
+  },
+  {
+    "id": "B13",
+    "severity": "HIGH",
+    "repo": "cross-repo",
+    "failure": "Full human/security/accessibility/rights and release approvals open",
+    "reproduction": "Inherited38-gate board, source-bound approvals only",
+    "next_action": "Owner review worksheet with exact builds; CI never grants approval",
+    "acceptance": "Explicit scope-bound approvals and all aggregate dependencies",
+    "owner": "Owner/security/rights/educator reviewers",
+    "effort": "Review time unknown"
+  },
+  {
+    "id": "B14",
+    "severity": "CRITICAL",
+    "repo": "gunnchos-research-portal",
+    "failure": "No complete accepted cross-repo RC2 candidate",
+    "reproduction": "New candidates unmerged/private, no full integration/device acceptance",
+    "next_action": "Resolve required blockers then re-pin accepted mains and artifacts",
+    "acceptance": "Complete reproducible source/build/dependency/rollback manifest and owner RC2 decision",
+    "owner": "Release owner",
+    "effort": "October21 target conditional; currently NO-GO"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-10-19",
+  "method": "Live browser UI probes plus explicitly dated recovered engineering evidence; no new human acceptance",
+  "journeys": [
+    {
+      "id": "A",
+      "result": "PARTIAL_LIVE_BLOCKED_FULL_JOURNEY",
+      "executed": "Public gateway\u2192learn\u2192Courses\u2192Digital Confidence\u2192Week1 actual lesson\u2192Lab\u2192authored lab list\u2192gateway. Lessons top navigation returned Home.",
+      "not_proven": "Meaningful practical feedback/evidence export/official completion on public build; Hub unavailable. Local source-bound October15 tests verify narrower practical paths separately."
+    },
+    {
+      "id": "B",
+      "result": "PARTIAL_LOCAL_REVIEW",
+      "executed": "Private loopback library lists all8 editions; opened adult contents/CH01, saw real figures/alt text; text size32; opt-in bookmark/save/resume; search bottleneck returned5 chapters. Public-mode local build /library keeps pending message, private CH01 and ignored catalog404.",
+      "not_proven": "Full8-edition human visual/editorial/rights/accessibility approval; reader projection pin81b7725 is distinct from repaired EPUB head5adb3fd. Read-aloud platform acceptance not claimed."
+    },
+    {
+      "id": "C",
+      "result": "PARTIAL_LIVE_LOCAL_TEST_IDENTITY",
+      "executed": "Public MLV local test identity\u2192Commons\u2192Home Yard\u2192Gallery Lobby\u2192Campus Transit. Runtime loaded and transitions settled; privacy/local-only/no-production-OAuth labels present. No uploads or real accounts.",
+      "not_proven": "Production GitHub auth, friend-to-private-file denial across real accounts, full Home/Gallery interiors/all7campuses or persistence/conflict/encrypted-sync acceptance."
+    },
+    {
+      "id": "D",
+      "result": "PARTIAL_LIVE_GAMEPLAY",
+      "executed": "Pursuit live exact-source957ff95 development runtime loaded; Time Trial clicked, countdown/GO, controls moved actor/scene, speed-lane feedback, Escape pause and Main Menu; browser back to public wrapper.",
+      "not_proven": "Finished lap/results/save recovery, all8 courses/modes/items, physical FPS, complete invites and human fun/visual gates. Washed-out framing/menu clipping observed as review concerns, not a passed quality gate."
+    },
+    {
+      "id": "E",
+      "result": "BLOCKED_EXTERNAL_DEVICE",
+      "executed": "Read-only adb devices -l: zero connected devices. No installs, wipes or emulation substitution.",
+      "not_proven": "Exact-source physical Pixel or other supported-device full runtime matrix."
+    },
+    {
+      "id": "F",
+      "result": "PARTIAL_LOCAL_BUYER",
+      "executed": "Already-built workshop buyer page opened on loopback4197; source-bound lesson links, instructor/participant packet, explicit pending rehearsal/capacity/education/deployment and unsubmitted evidence boundaries inspected. Preserved4 development and6 production-build buyer/privacy checks verified as dated logs.",
+      "not_proven": "Full fresh buyer\u2192HTTPS reader practical flow: retained reader service not running; no cert bypass or synthetic institutional acceptance. Real instructor rehearsal,25-device event/capacity, booking/contract and institution gates open."
+    }
+  ]
+}

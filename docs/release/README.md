@@ -1,5 +1,7 @@
 # Current release authority
 
+Latest progress: [October 19 recovery and acceptance report](campaigns/2026-10-19/RELEASE_READINESS_REPORT.md), [exact source state](campaigns/2026-10-19/CURRENT_SOURCE_STATE.json), and [owner review / anniversary packet](campaigns/2026-10-19/OWNER_REVIEW_AND_DELIVERY.md). Rolling revision 2 records verified progress and remaining blockers. Official V1 and RC2 remain **NOT READY / NOT AUTHORIZED**; the October 9 snapshot is unchanged.
+
 Baseline adoption: [immutable snapshot and rolling-board policy](BASELINE_ADOPTION.md). Subsequent progress is recorded in [separately versioned rolling revisions](rolling/CURRENT.json); the October 9 ledger and evidence remain unchanged. The immediate INV-01 implementation origin is `https://gunnchos.com` with a proposed `/i/<opaque-token>` route, pending implementation and verification. No configured `play.gunnchos.com` host is assumed.
 
 The canonical V1.0.0 release-control source is [the October 9 full feature-and-gate ledger](V1_0_0_LEDGER_2026-10-09.json), rendered as the [release matrix](V1_0_0_READINESS_2026-10-09.md) and [implementation tickets/dependency path](V1_0_0_EXECUTION_2026-10-09.md).

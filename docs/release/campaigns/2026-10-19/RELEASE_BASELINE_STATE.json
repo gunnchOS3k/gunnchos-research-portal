@@ -1,0 +1,526 @@
+{
+  "as_of": "2026-10-19",
+  "release": "v1.0.0-rc.1",
+  "membership": "Canonical 16-component FINAL_ACCEPTED_MAIN_MANIFEST",
+  "components": {
+    "gunnchos-research-portal": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:42Z",
+      "target_commitish": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+      "tag_object": {
+        "sha": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-research-portal/git/commits/bfb211ecfbdd486eed2602c32a5636eb419d4740"
+      },
+      "source_sha": "bfb211ecfbdd486eed2602c32a5636eb419d4740",
+      "assets": [
+        {
+          "name": "APP_VERSION_MAPPING.md",
+          "size": 2342,
+          "digest": "sha256:7a92f844cc0965f152c42cd832a55115ceecdb3127e2d9e9a2e775e96610c265",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/APP_VERSION_MAPPING.md",
+          "state": "uploaded"
+        },
+        {
+          "name": "COMPONENT_VERSION_MATRIX.md",
+          "size": 2334,
+          "digest": "sha256:d257272e8010cb4349ddf4f7cc0e2a454fd42787c8d4923d16453a871617ade6",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/COMPONENT_VERSION_MATRIX.md",
+          "state": "uploaded"
+        },
+        {
+          "name": "FINAL_ACCEPTED_MAIN_MANIFEST.json",
+          "size": 11936,
+          "digest": "sha256:8a09d90b3f79a89b017e3855de60bf58ea3d5f3c2232093ee2e60bb209b55838",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/FINAL_ACCEPTED_MAIN_MANIFEST.json",
+          "state": "uploaded"
+        },
+        {
+          "name": "FRONT_DOOR.png",
+          "size": 878,
+          "digest": "sha256:03c69e5fcd6121a212fc0880e3012ffb5575a925fc65f447aec8818a51d26afe",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/FRONT_DOOR.png",
+          "state": "uploaded"
+        },
+        {
+          "name": "FRONT_DOOR.svg",
+          "size": 20355,
+          "digest": "sha256:11805411a3e6fd1c4edf6fd8b050519bf14885bde31cb861dc35151a7a3275aa",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/FRONT_DOOR.svg",
+          "state": "uploaded"
+        },
+        {
+          "name": "FRONT_DOOR_URL.txt",
+          "size": 525,
+          "digest": "sha256:e78563478f7ec2cab3dd82253fa202ff9ef912505a22e5d806eaf02326c7fded",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/FRONT_DOOR_URL.txt",
+          "state": "uploaded"
+        },
+        {
+          "name": "gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+          "size": 4253,
+          "digest": "sha256:8ac577d8372667b28f6adc5a5e906d40986eb0341f1c32a3059f6b9dd41f83ba",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        },
+        {
+          "name": "RELEASE_ASSET_MANIFEST.json",
+          "size": 6019,
+          "digest": "sha256:06b3491ea4a6c5fa43f2164442e46c0dcb62ae8f7bfc4665989ef4e69785011f",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/RELEASE_ASSET_MANIFEST.json",
+          "state": "uploaded"
+        },
+        {
+          "name": "RELEASE_HASH_VERIFICATION.json",
+          "size": 4403,
+          "digest": "sha256:1c899fe0719a6d925ec0081bd6af06b2be512a6588b39f209255bdfff8d22455",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/RELEASE_HASH_VERIFICATION.json",
+          "state": "uploaded"
+        },
+        {
+          "name": "RELEASE_NOTES_v1.0.0-rc.1.md",
+          "size": 1434,
+          "digest": "sha256:08c306e25e3455166c038d2b2265eae8016723aec281281c7346d38a35a1a43f",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/RELEASE_NOTES_v1.0.0-rc.1.md",
+          "state": "uploaded"
+        },
+        {
+          "name": "research-systems-v1.0.0-rc.1.zip",
+          "size": 53299,
+          "digest": "sha256:a2b227a8f863c06a398569bc143dfa35b1afdff3e4a252d28c7624b9b1729d52",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/research-systems-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 2414,
+          "digest": "sha256:217c4d24f64187dae34fa6927c1b2b6233cd16cc8eb3dc7fe2b07fb0ebdcc62f",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/SHA256SUMS.txt",
+          "state": "uploaded"
+        },
+        {
+          "name": "V1_RC1_GATES.json",
+          "size": 2355,
+          "digest": "sha256:83708e147cc16d0bd6e0127259e809ddfe43cedf89fa029f18e94f4c43d94796",
+          "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/releases/download/v1.0.0-rc.1/V1_RC1_GATES.json",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "gunnchos-device-os": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:40Z",
+      "target_commitish": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0",
+      "tag_object": {
+        "sha": "6acf40f3df35feac66012b74332aabff18fd0eff",
+        "type": "tag",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-device-os/git/tags/6acf40f3df35feac66012b74332aabff18fd0eff"
+      },
+      "peeled_tag": {
+        "node_id": "TA_kwDOSq15w9oAKDZhY2Y0MGYzZGYzNWZlYWM2NjAxMmI3NDMzMmFhYmZmMThmZDBlZmY",
+        "sha": "6acf40f3df35feac66012b74332aabff18fd0eff",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-device-os/git/tags/6acf40f3df35feac66012b74332aabff18fd0eff",
+        "tagger": {
+          "name": "Edmund Gunn, Jr.",
+          "email": "egunnjr@gunnchos.com",
+          "date": "2026-09-18T15:25:47Z"
+        },
+        "object": {
+          "sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+          "type": "commit",
+          "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-device-os/git/commits/438aaf2b54d3365d681dd6eeeb73f6ac58663acc"
+        },
+        "tag": "v1.0.0-rc.1",
+        "message": "gunnchOS software v1.0.0-rc.1 (DRAFT prerelease; human validation pending)\n",
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "source_sha": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+      "assets": [
+        {
+          "name": "BUILD_MANIFEST.json",
+          "size": 536,
+          "digest": "sha256:00cae99ea8fe63ea603cd63c60305f02c2514b91592d5d8be2528ed98461411e",
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/download/v1.0.0-rc.1/BUILD_MANIFEST.json",
+          "state": "uploaded"
+        },
+        {
+          "name": "gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+          "size": 13083400,
+          "digest": "sha256:a0c55be39c407ffd24868a715c9c86bb2da07efbff16dc2ddb90aecebef45826",
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/download/v1.0.0-rc.1/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk",
+          "state": "uploaded"
+        },
+        {
+          "name": "gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk.sha256",
+          "size": 281,
+          "digest": "sha256:8b7f08ae98575b0a0d67813d2416a27784638a505177b4f3df557f5723614855",
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/download/v1.0.0-rc.1/gunnchOS-Capsule-Pixel6a-post-feedback-debug.apk.sha256",
+          "state": "uploaded"
+        },
+        {
+          "name": "INSTALL_UNINSTALL.md",
+          "size": 1077,
+          "digest": "sha256:fa77b89078b84d41092e89a44ca81cafd716cd909e8042b8d8bbb73fc7fc7ca2",
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/download/v1.0.0-rc.1/INSTALL_UNINSTALL.md",
+          "state": "uploaded"
+        },
+        {
+          "name": "RC1_REBUILD_MANIFEST.json",
+          "size": 472,
+          "digest": "sha256:bcf6bb05d6c30b7cc6c89a3e401be29ba337c5c37b66a4207520c2e01aeb42ef",
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/download/v1.0.0-rc.1/RC1_REBUILD_MANIFEST.json",
+          "state": "uploaded"
+        },
+        {
+          "name": "RC1_STAGING_PROVENANCE.json",
+          "size": 793,
+          "digest": "sha256:68d12b14fb67093deda1ca68a580db609f0e88a737e6136b06be67285e59ddf9",
+          "url": "https://github.com/gunnchOS3k/gunnchos-device-os/releases/download/v1.0.0-rc.1/RC1_STAGING_PROVENANCE.json",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "gunnchos-waike-learning-platform": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:38Z",
+      "target_commitish": "a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518",
+      "tag_object": {
+        "sha": "a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-waike-learning-platform/git/commits/a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518"
+      },
+      "source_sha": "a4daa1d07a3ef8f6c00cf2b4a1692053bf99f518",
+      "assets": [
+        {
+          "name": "waike-web-pwa-v1.0.0-rc.1.zip",
+          "size": 76593,
+          "digest": "sha256:0fac59750ff34b4fe8cc369b7e46e359253e28cad21de8490ba03c7937ff22b1",
+          "url": "https://github.com/gunnchOS3k/gunnchos-waike-learning-platform/releases/download/v1.0.0-rc.1/waike-web-pwa-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "gunnchAI3k": {
+      "url": "https://github.com/gunnchOS3k/gunnchAI3k/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:33Z",
+      "target_commitish": "04eef2d891a8dda58455acc58a8e93e7865379b8",
+      "tag_object": {
+        "sha": "04eef2d891a8dda58455acc58a8e93e7865379b8",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchAI3k/git/commits/04eef2d891a8dda58455acc58a8e93e7865379b8"
+      },
+      "source_sha": "04eef2d891a8dda58455acc58a8e93e7865379b8",
+      "assets": [
+        {
+          "name": "gunnchai-runtime-v1.0.0-rc.1.zip",
+          "size": 24429,
+          "digest": "sha256:e173efc2af0e2ad01e346389371b48ffad651976ebd8daefec4c4b0161ef95af",
+          "url": "https://github.com/gunnchOS3k/gunnchAI3k/releases/download/v1.0.0-rc.1/gunnchai-runtime-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "anime-aggressors": {
+      "url": "https://github.com/gunnchOS3k/anime-aggressors/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:25Z",
+      "target_commitish": "6cd1b3100a7e467c2c991394576891660deb1162",
+      "tag_object": {
+        "sha": "6cd1b3100a7e467c2c991394576891660deb1162",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/anime-aggressors/git/commits/6cd1b3100a7e467c2c991394576891660deb1162"
+      },
+      "source_sha": "6cd1b3100a7e467c2c991394576891660deb1162",
+      "assets": [
+        {
+          "name": "anime-aggressors-debug-v1.0.0-rc.1.apk",
+          "size": 90696050,
+          "digest": "sha256:0366c44ed2342c59add6f25412ce011fc7b56ae384fdd1d39b7c6b9c90ee6ce0",
+          "url": "https://github.com/gunnchOS3k/anime-aggressors/releases/download/v1.0.0-rc.1/anime-aggressors-debug-v1.0.0-rc.1.apk",
+          "state": "uploaded"
+        },
+        {
+          "name": "anime-aggressors-debug-v1.0.0-rc.1.apk.sha256",
+          "size": 267,
+          "digest": "sha256:b1b87bf09d84427e29112b0004b67b3beb4d28da7268f0c6439311b73969c314",
+          "url": "https://github.com/gunnchOS3k/anime-aggressors/releases/download/v1.0.0-rc.1/anime-aggressors-debug-v1.0.0-rc.1.apk.sha256",
+          "state": "uploaded"
+        },
+        {
+          "name": "PROVENANCE.json",
+          "size": 518,
+          "digest": "sha256:629c861f6889f7c22b19eacede9d6c3f06bc5bd6a80cb37b790418820f7719df",
+          "url": "https://github.com/gunnchOS3k/anime-aggressors/releases/download/v1.0.0-rc.1/PROVENANCE.json",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "pedestrian-pursuit": {
+      "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:27Z",
+      "target_commitish": "3e98106939786c69a64657f4cc2b9a652a3b5fec",
+      "tag_object": {
+        "sha": "3e98106939786c69a64657f4cc2b9a652a3b5fec",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/pedestrian-pursuit/git/commits/3e98106939786c69a64657f4cc2b9a652a3b5fec"
+      },
+      "source_sha": "3e98106939786c69a64657f4cc2b9a652a3b5fec",
+      "assets": [
+        {
+          "name": "pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+          "size": 118580389,
+          "digest": "sha256:9e8c14db87b3fda51404a2a7d169e80a31ee3a65c5eab9de665724e1e0df29e4",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/releases/download/v1.0.0-rc.1/pedestrian-pursuit-debug-v1.0.0-rc.1.apk",
+          "state": "uploaded"
+        },
+        {
+          "name": "pedestrian-pursuit-debug-v1.0.0-rc.1.apk.sha256",
+          "size": 280,
+          "digest": "sha256:2976b57a4e262ba74765d19fb7709a114ab8f3757c95f3dfc15f50cbf770156a",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/releases/download/v1.0.0-rc.1/pedestrian-pursuit-debug-v1.0.0-rc.1.apk.sha256",
+          "state": "uploaded"
+        },
+        {
+          "name": "PROVENANCE.json",
+          "size": 688,
+          "digest": "sha256:40fe416ee6680ee63d56775a26541e23a72590d65c86aaf7685f727ea094abe9",
+          "url": "https://github.com/gunnchOS3k/pedestrian-pursuit/releases/download/v1.0.0-rc.1/PROVENANCE.json",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "archive-of-life-artifact-world": {
+      "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:29Z",
+      "target_commitish": "03d734453f040e3081e763277e2c15aa62ef095e",
+      "tag_object": {
+        "sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/archive-of-life-artifact-world/git/commits/03d734453f040e3081e763277e2c15aa62ef095e"
+      },
+      "source_sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+      "assets": [
+        {
+          "name": "archive-of-life-debug-v1.0.0-rc.1.apk",
+          "size": 17236015,
+          "digest": "sha256:58697e7e74d3f781bae3552c1ee899ce3f7b0898afd9cba7523f535a01cc546b",
+          "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/releases/download/v1.0.0-rc.1/archive-of-life-debug-v1.0.0-rc.1.apk",
+          "state": "uploaded"
+        },
+        {
+          "name": "archive-of-life-debug-v1.0.0-rc.1.apk.sha256",
+          "size": 268,
+          "digest": "sha256:7aef1a98ae810aa944e454fe0b490e355c13cadc6ecf62fcb0ba09bfd9a318bb",
+          "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/releases/download/v1.0.0-rc.1/archive-of-life-debug-v1.0.0-rc.1.apk.sha256",
+          "state": "uploaded"
+        },
+        {
+          "name": "PROVENANCE.json",
+          "size": 552,
+          "digest": "sha256:293b42b21394aa8a282369f0eae63a62ad5cb3682498d68e9f6b76d364b90f4c",
+          "url": "https://github.com/gunnchOS3k/archive-of-life-artifact-world/releases/download/v1.0.0-rc.1/PROVENANCE.json",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "beatlink-party": {
+      "url": "https://github.com/gunnchOS3k/beatlink-party/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:31Z",
+      "target_commitish": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "tag_object": {
+        "sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/beatlink-party/git/commits/e1a5d9998f93d707440f68673c0da844617dc10e"
+      },
+      "source_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "assets": [
+        {
+          "name": "beatlink-web-v1.0.0-rc.1.zip",
+          "size": 119872,
+          "digest": "sha256:0701ce5f46240661848b8d67f7e6ccebb70e2de8c6b6fb63aba17b406fe78eb0",
+          "url": "https://github.com/gunnchOS3k/beatlink-party/releases/download/v1.0.0-rc.1/beatlink-web-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "gunnchos-hardware-industrial-design": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:22Z",
+      "target_commitish": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "tag_object": {
+        "sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-hardware-industrial-design/git/commits/af5af66a28e36351b3929ef15756b6df6381ff6a"
+      },
+      "source_sha": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "assets": [
+        {
+          "name": "gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+          "size": 4253,
+          "digest": "sha256:8ac577d8372667b28f6adc5a5e906d40986eb0341f1c32a3059f6b9dd41f83ba",
+          "url": "https://github.com/gunnchOS3k/gunnchos-hardware-industrial-design/releases/download/v1.0.0-rc.1/gunnchOS-Hardware-Design-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "7gc-digital-twin": {
+      "url": "https://github.com/gunnchOS3k/7gc-digital-twin/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:08Z",
+      "target_commitish": "9654ac82a722e800193e771556036dbb0df263db",
+      "tag_object": {
+        "sha": "9654ac82a722e800193e771556036dbb0df263db",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/7gc-digital-twin/git/commits/9654ac82a722e800193e771556036dbb0df263db"
+      },
+      "source_sha": "9654ac82a722e800193e771556036dbb0df263db",
+      "assets": []
+    },
+    "spectrumx-ai-ran-gary": {
+      "url": "https://github.com/gunnchOS3k/spectrumx-ai-ran-gary/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:10Z",
+      "target_commitish": "2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a",
+      "tag_object": {
+        "sha": "2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/spectrumx-ai-ran-gary/git/commits/2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a"
+      },
+      "source_sha": "2dc41c73fa0b16cb5703b8876e7e199f9a1b2b0a",
+      "assets": []
+    },
+    "readygary-6g-beam-selection": {
+      "url": "https://github.com/gunnchOS3k/readygary-6g-beam-selection/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:13Z",
+      "target_commitish": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "tag_object": {
+        "sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/readygary-6g-beam-selection/git/commits/e04b38b48cd2ebd87243153ca8fad9e914f16b21"
+      },
+      "source_sha": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "assets": []
+    },
+    "ntn-resilience-sim": {
+      "url": "https://github.com/gunnchOS3k/ntn-resilience-sim/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:15Z",
+      "target_commitish": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "tag_object": {
+        "sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/ntn-resilience-sim/git/commits/05aaa9aec16882f58bac6ce4ff47618d9812f69f"
+      },
+      "source_sha": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "assets": []
+    },
+    "edge-io-measurement-node": {
+      "url": "https://github.com/gunnchOS3k/edge-io-measurement-node/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:17Z",
+      "target_commitish": "758b14a2c06b70a6678fc761d5360bde5e7cb235",
+      "tag_object": {
+        "sha": "758b14a2c06b70a6678fc761d5360bde5e7cb235",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/edge-io-measurement-node/git/commits/758b14a2c06b70a6678fc761d5360bde5e7cb235"
+      },
+      "source_sha": "758b14a2c06b70a6678fc761d5360bde5e7cb235",
+      "assets": []
+    },
+    "waike-research-ops": {
+      "url": "https://github.com/gunnchOS3k/waike-research-ops/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:35Z",
+      "target_commitish": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "tag_object": {
+        "sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/waike-research-ops/git/commits/34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0"
+      },
+      "source_sha": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "assets": [
+        {
+          "name": "waike-curriculum-v1.0.0-rc.1.zip",
+          "size": 22420,
+          "digest": "sha256:a82be46b5e08c062d92aee96b890c297009d9f674d7051e74a14833379a27366",
+          "url": "https://github.com/gunnchOS3k/waike-research-ops/releases/download/v1.0.0-rc.1/waike-curriculum-v1.0.0-rc.1.zip",
+          "state": "uploaded"
+        }
+      ]
+    },
+    "gunnchos-7gc-ai-ran-field-kit": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/releases/tag/v1.0.0-rc.1",
+      "tag": "v1.0.0-rc.1",
+      "draft": false,
+      "prerelease": true,
+      "published_at": "2026-09-22T02:49:20Z",
+      "target_commitish": "4f3095e349f522d6db9901b99101f3fe5dff9f6c",
+      "tag_object": {
+        "sha": "4f3095e349f522d6db9901b99101f3fe5dff9f6c",
+        "type": "commit",
+        "url": "https://api.github.com/repos/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/git/commits/4f3095e349f522d6db9901b99101f3fe5dff9f6c"
+      },
+      "source_sha": "4f3095e349f522d6db9901b99101f3fe5dff9f6c",
+      "assets": []
+    }
+  },
+  "uploaded_assets": 33,
+  "uploaded_asset_byte_verification": "33/33 PASS against GitHub SHA256 digests; no binaries saved/executed",
+  "release_assets_vs_source_archives": "6 component releases have zero uploaded assets; auto-generated source archives are not executable acceptance proof.",
+  "device_os_provenance_conflict": {
+    "annotated_tag_source": "438aaf2b54d3365d681dd6eeeb73f6ac58663acc",
+    "release_target_and_apk_manifest_source": "2218ead0efa0e4b8a622717a0a9bf623ee95ddb0",
+    "apk_sha256": "a0c55be39c407ffd24868a715c9c86bb2da07efbff16dc2ddb90aecebef45826",
+    "signing": "debug_rc1",
+    "action": "Preserve RC1 tag/history; bind RC2 source, build manifest and artifact consistently. Do not silently move the RC1 tag."
+  },
+  "RC2_AUTHORIZED": false,
+  "V1_0_0_RELEASE_AUTHORIZED": false,
+  "old_final_v1_folder_is_not_authorization": true,
+  "source_only_component_count": 6
+}

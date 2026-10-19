@@ -1,0 +1,182 @@
+{
+  "schema": "gunnchos.rc2.preparation_manifest.v1",
+  "as_of": "2026-10-19",
+  "classification": "UNFROZEN_REVIEW_PREPARATION_ONLY",
+  "RC2_READY": false,
+  "RC2_OWNER_AUTHORIZED": false,
+  "V1_0_0_RELEASE_AUTHORIZED": false,
+  "tags_created": [],
+  "published": false,
+  "components": [
+    {
+      "repo": "gunnchos-research-portal",
+      "accepted_main": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+      "provisional_candidate": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "gunnchos-device-os",
+      "accepted_main": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "provisional_candidate": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "gunnchos-waike-learning-platform",
+      "accepted_main": "2641042936f3b965daccb11091c80cbc6fa64f91",
+      "provisional_candidate": "6bdfa0b416ea95b0abb36669faa8059095962281",
+      "candidate_is_accepted_main": false,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "gunnchAI3k",
+      "accepted_main": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "provisional_candidate": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "anime-aggressors",
+      "accepted_main": "887e100114c9741ebc7a449b46116bcb6eef5072",
+      "provisional_candidate": "30c6f2c87024eda9a283fe47121c8ce4abc4fa69",
+      "candidate_is_accepted_main": false,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "pedestrian-pursuit",
+      "accepted_main": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "provisional_candidate": "957ff95b89d0516855ea61ddba19224a0583c3f8",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "archive-of-life-artifact-world",
+      "accepted_main": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "provisional_candidate": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "beatlink-party",
+      "accepted_main": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "provisional_candidate": "e15bc30856c67c508ab0c56b401e05eb34a58595",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "gunnchos-hardware-industrial-design",
+      "accepted_main": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "provisional_candidate": "af5af66a28e36351b3929ef15756b6df6381ff6a",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "7gc-digital-twin",
+      "accepted_main": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "provisional_candidate": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "spectrumx-ai-ran-gary",
+      "accepted_main": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "provisional_candidate": "48eeacb7440af3a72966f3c4d5288d15c7de9617",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "readygary-6g-beam-selection",
+      "accepted_main": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "provisional_candidate": "e04b38b48cd2ebd87243153ca8fad9e914f16b21",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "ntn-resilience-sim",
+      "accepted_main": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "provisional_candidate": "05aaa9aec16882f58bac6ce4ff47618d9812f69f",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "edge-io-measurement-node",
+      "accepted_main": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "provisional_candidate": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+      "candidate_is_accepted_main": true,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "waike-research-ops",
+      "accepted_main": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0",
+      "provisional_candidate": "18efa764e4db066fb17d597284557195499f93ea",
+      "candidate_is_accepted_main": false,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    },
+    {
+      "repo": "gunnchos-7gc-ai-ran-field-kit",
+      "accepted_main": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "provisional_candidate": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+      "candidate_is_accepted_main": false,
+      "artifact_verified_for_rc2": false,
+      "integration_accepted": false,
+      "owner_accepted": false
+    }
+  ],
+  "candidate_sources_do_not_imply_final_membership_or_approval": true,
+  "dependency_pins": {
+    "public_WAIKE_curriculum": "63ba9f25ac6b8d8d1b6dd118923566fd51c57b62",
+    "local_WAIKE_runtime": "c7d1aefd9a641e99c8cf1746c9d6eef841a3096f",
+    "local_WAIKE_curriculum": "33a101852f4fefb0eb239bcffa60a65d71102e2c",
+    "private_web_reader_publication": "81b7725ad65ddf64bb6cc2706c01168630dc156f",
+    "repaired_EPUB_checkpoint": "5adb3fd93792e3102e8a0915ac267b053e49e770",
+    "anime_source_runtime": "0e33ee436b78ebf67079ef044cd73845df9070d3"
+  },
+  "blockers": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12",
+    "B13",
+    "B14"
+  ],
+  "rollback": "See OWNER_REVIEW_AND_DELIVERY.md. No deployment performed; existing production identities and immutable RC1 remain unchanged."
+}
