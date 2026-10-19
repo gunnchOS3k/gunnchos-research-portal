@@ -28,7 +28,7 @@ For each row record exact source/artifact/deployed version, evidence reference, 
 
 | Area | Review requirement | Decision |
 |---|---|---|
-| Full MLV | All declared spaces/seven campuses, navigation, real auth/private sharing, mobile/a11y | PENDING |
+| Full MLV | All declared spaces/seven campuses, navigation, real auth/private sharing, mobile/a11y; separate authorized accounts and fictional records must prove both allowed access and cross-account denial | PENDING |
 | Full WAIKE | All18tracks, practical/independent assessment, native/offline/integration, educator and learner/accessibility review | PENDING |
 | Narrow workshop | Full instructor rehearsal, agreed duration/staffing/venue/device/network/accommodations and source-bound participant materials | PENDING; not full LMS acceptance |
 | Library eight editions | Edition-specific editorial/audience/illustration rights/manual accessibility and web/EPUB release scope | PENDING; keep private |
@@ -38,12 +38,26 @@ For each row record exact source/artifact/deployed version, evidence reference, 
 | BeatLink | Rights-safe current hosted multi-client party and human session | PENDING |
 | Invites | Fight/Race/Party/Expedition coherence, MLV/Device OS, browser/mobile fallback | PENDING |
 | Device OS / Pixel | Final exact candidate package/hash/signer inventory, non-destructive physical install/launch/continuity/security | PENDING; zero attached devices |
+| Passport / Pass2U / QR | Reconcile site PR #18 from v1/passport-pass2u-event-final@3de66816db4be9f8261961cfe8b52659237c8f37 onto current main; exact free kit on physical iPhone, independent QR decode, opt-in profile/privacy, Photos fallback and share/event flow; official issuer signing remains separate | PENDING; no iPhone acceptance performed |
 | gunnchAI | Supported student/instructor functionality, truthful provider boundary and human evaluation | PENDING |
 | Digital hardware | All4concepts/provenance/design approval; physical exclusions visible | PENDING |
 | Research | Reproduce/source/evidence contracts, no synthetic→measured promotion, manuscript independence | PENDING |
 | Security / rights / accessibility | Full candidate-specific review, private artifacts absent, no unearned certification | PENDING |
 | RC2 | Complete frozen candidate and explicit permission to publish | PENDING / NOT AUTHORIZED |
 | Official V1 | Every mandatory gate plus explicit final owner authorization | PENDING / NOT AUTHORIZED |
+
+## Bounded owner checklist
+
+Record exact build/source/hash, actual observation, date, decision and limits for each item. Every item stays **PENDING**; preparing this sequence grants no approval.
+
+- **Pixel:** read-only device/package/signer inventory first. Compare installed and candidate signing certificates; obtain explicit install permission for the exact package. On mismatch stop; never uninstall, wipe or change settings for convenience. Observe launch, continuity/recovery and privacy on the physical device.
+- **Actual games:** ordinary-input play sessions, not staged node sweeps. Pursuit needs a complete lap/session and its remaining course/mode matrix; Anime needs ordinary combat/training/hit/KO/throw, forms/Story and presentation review. Preserve Anime #122 → #123 order and dirty continuations. Archive scientific coverage and human scientific/gameplay review remain mandatory.
+- **Two-client parties/invites:** use distinct authorized clients to host/join/play/leave/reconnect a rights-safe BeatLink party and exercise Fight/Race/Party/Expedition invites plus MLV/Device OS and mobile fallback. Confirm recipient/room isolation and cancellation/expiry. Use the existing gunnchos.com origin; do not assume an unconfigured play.gunnchos.com host.
+- **MLV privacy:** separate authorized accounts, fictional records, positive sharing and negative cross-account/unshared access checks. A local-test identity or a public-room tour does not prove private-account isolation.
+- **WAIKE:** first resolve the current trusted-TLS/environment prerequisites in the [private assessment](continuations/waike-delivery/REVIEW.md). Then observe keyboard-only navigation, actual screen-reader use, zoom/mobile/slow-network recovery, fictional file handling and explicit save/restore/export choices. Instructor rehearsal, educator/learner review and all18-track acceptance remain separate pending gates.
+- **iPhone Pass2U/QR:** inspect the exact source-bound free kit, scan its actual QR independently, verify correct opted-in fields/link/privacy and test Pass2U import, Photos fallback and sharing/event use. Do not create issuer credentials or claim Apple/Google signing acceptance.
+
+Available storage was approximately 2.2 GiB at preflight and 1.0 GiB at close. The **18 GiB heavy-export guard** remains closed. Owner-provided capacity is required before heavy exports; do not delete source, backups or original evidence to create headroom. This checklist prepares review only; no new device/account session or human approval is asserted.
 
 ## Path A — official V1
 

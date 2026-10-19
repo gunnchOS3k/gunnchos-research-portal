@@ -1,0 +1,179 @@
+{
+  "as_of": "2026-10-19",
+  "prs": {
+    "portal_55": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/55",
+      "head": "052f1723df5644156305a5cad99408ef8d8cc61e",
+      "branch": "release/v1-integration-2026-10-19",
+      "base": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "mergeable": true,
+      "changed_files": 25
+    },
+    "fieldkit_123": {
+      "url": "https://github.com/gunnchOS3k/gunnchos-7gc-ai-ran-field-kit/pull/123",
+      "head": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+      "branch": "release/standards-watch-dependencies-2026-10-19",
+      "base": "9dfc326647880c244904dd50a47ea80c3d46748e",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "mergeable": true,
+      "changed_files": 1
+    }
+  },
+  "mains": {
+    "portal": "1cd5819b446a8ba0e0e4d0c24a0305dee4a86e2c",
+    "fieldkit": "9dfc326647880c244904dd50a47ea80c3d46748e",
+    "site": "f4f4c85cd5bb924a6bc5ca2d196f159da32c81b9",
+    "platform": "2641042936f3b965daccb11091c80cbc6fa64f91",
+    "curriculum": "34ae043abbd38c89bd30f7ae1ae7cf8cc06645a0"
+  },
+  "checks": {
+    "portal_checks": [
+      {
+        "id": 118203069247,
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118202816110,
+        "name": "check",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "field_checks": [
+      {
+        "id": 118198840385,
+        "name": "nonphysical",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198818987,
+        "name": "wave006-aggregate",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198818965,
+        "name": "gate4-readiness",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198818725,
+        "name": "gate1",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198818619,
+        "name": "validate",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198818466,
+        "name": "wave007-aggregate",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198818434,
+        "name": "firewall",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817920,
+        "name": "gate4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817883,
+        "name": "wave005-aggregate",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817833,
+        "name": "gate3-readiness",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817766,
+        "name": "wave008-aggregate",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817633,
+        "name": "gate6",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817577,
+        "name": "wave009-aggregate",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817519,
+        "name": "gate5",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817370,
+        "name": "readiness",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817330,
+        "name": "gate2",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198817278,
+        "name": "gate7",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198704701,
+        "name": "firewall",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198704282,
+        "name": "gate2",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198704117,
+        "name": "gate3-readiness",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118198703975,
+        "name": "gate4-readiness",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "field_ref": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0"
+}
