@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-28T17:00:32Z",
+  "note": "Detected from isolated origin/main worktrees. Owner dirty checkouts were not mutated.",
+  "pixel": {
+    "adb": true,
+    "model": "Pixel_6a",
+    "android": "17"
+  },
+  "toolchains_present": [
+    "git",
+    "gh",
+    "python3.11",
+    "node 24.9.0",
+    "pnpm 9.15.9",
+    "npm 11.6.0",
+    "godot (homebrew)",
+    "adb",
+    "cargo",
+    "java"
+  ],
+  "repos": [
+    {
+      "repository": "gunnchos-research-portal",
+      "runtime": "python",
+      "make_test": "make test",
+      "ci": [
+        "ci.yml"
+      ],
+      "local_result": "7 passed"
+    },
+    {
+      "repository": "gunnchos-device-os",
+      "runtime": "python+ts launcher",
+      "make_test": "make test",
+      "ci": "19 workflows green on exact SHA",
+      "local_result": "1286 passed, 1 sibling-layout fail"
+    },
+    {
+      "repository": "3k-mlv",
+      "runtime": "node/pnpm",
+      "scripts": [
+        "test",
+        "test:privacy",
+        "test:hosted",
+        "scan:secrets"
+      ],
+      "local_result": "16/16 privacy tests on main; campus/network twin tests exist only on stacked PR3"
+    },
+    {
+      "repository": "gunnchos-waike-learning-platform",
+      "runtime": "python+ts+rust",
+      "make": [
+        "python-test",
+        "gate-c-test",
+        "gate-d-test"
+      ],
+      "ci": "Gate C/D green on exact SHA"
+    },
+    {
+      "repository": "waike-research-ops",
+      "runtime": "python",
+      "local_result": "45 passed"
+    },
+    {
+      "repository": "gunnchAI3k",
+      "runtime": "node",
+      "local_result": "337 passed, 1 local latency-budget fail; CI green on exact SHA"
+    },
+    {
+      "repository": "gunnchos-7gc-ai-ran-field-kit",
+      "runtime": "python",
+      "local_result": "362 passed + 40 contract; 1 sibling-lock fail in isolated layout; CI mostly green, Code Health authenticity failed"
+    },
+    {
+      "repository": "7gc-digital-twin",
+      "runtime": "python",
+      "local_result": "make test pass; CI green"
+    },
+    {
+      "repository": "spectrumx-ai-ran-gary",
+      "runtime": "python3.11",
+      "local_result": "10 passed, 4 skipped; CI green"
+    },
+    {
+      "repository": "edge-io-measurement-node",
+      "runtime": "python",
+      "local_result": "53 passed, 2 sibling-path fails; CI green"
+    },
+    {
+      "repository": "anime-aggressors",
+      "runtime": "godot+node",
+      "local_result": "validate:godot-fighters 7 fighters OK on main; 161-move stack not on main"
+    },
+    {
+      "repository": "pedestrian-pursuit",
+      "runtime": "godot",
+      "local_result": "headless-smoke segfault locally; CI green on exact SHA"
+    },
+    {
+      "repository": "archive-of-life-artifact-world",
+      "runtime": "node/vitest",
+      "local_result": "134 passed"
+    },
+    {
+      "repository": "beatlink-party",
+      "runtime": "node/pnpm",
+      "local_result": "npm ci blocked (pnpm lockfile); pnpm test launched separately"
+    }
+  ]
+}

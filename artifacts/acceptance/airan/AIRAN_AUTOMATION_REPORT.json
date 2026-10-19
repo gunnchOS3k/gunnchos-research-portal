@@ -1,0 +1,8 @@
+{
+  "field_kit": "4aa2b3228b98ef3b61c10d6385e8aa268f5cf7a3",
+  "digital_twin": "1a5491bf9261f77a75cc0fa7edbb5f25b425c7aa",
+  "spectrumx": "9591d6a135ccdb37dfd1ea489e6837ec3dde288d",
+  "edge_io": "f357b4c0fcfa77ea74d88e3263467dc60ec8cb2a",
+  "all_four_prs_on_main": true,
+  "REAL_ACTUATION_ENABLED": false
+}

@@ -1,0 +1,20 @@
+{
+  "main_sha": "6d57bde0f3f2cfeb1f2afa00319957b6c1c3bb51",
+  "make_test": {
+    "passed": 1286,
+    "failed": 1,
+    "skipped": 9,
+    "seconds": 344,
+    "failing_test": "test_sibling_verify_without_repo_is_non_fatal",
+    "interpretation": "isolated worktree parent contains gunnchai sibling; not a product functional regression. Exact-SHA CI green."
+  },
+  "mlv_bridge_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "pr165_on_main": true,
+  "pr166_on_main": false,
+  "hosted_supabase": false,
+  "pixel_physical": false,
+  "merge_authorized": false
+}

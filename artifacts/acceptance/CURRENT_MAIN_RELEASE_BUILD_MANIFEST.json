@@ -1,0 +1,58 @@
+{
+  "kind": "PRE_HUMAN_ACCEPTANCE_CANDIDATE",
+  "not_an_rc": true,
+  "generated_at": "2026-09-28T17:00:32Z",
+  "pixel": {
+    "connected": true,
+    "model": "Pixel 6a",
+    "physical_acceptance_pass": false
+  },
+  "candidates": [
+    {
+      "product": "gunnchOS",
+      "repository": "gunnchOS3k/gunnchos-device-os",
+      "main_sha": "6d57bde0f3f2cfeb1f2afa00319957b6c1c3bb51",
+      "artifact_path": null,
+      "sha256": null,
+      "physical_install_status": "NOT_REBUILT"
+    },
+    {
+      "product": "3k MLV",
+      "repository": "gunnchOS3k/3k-mlv",
+      "main_sha": "da5bf53e8a89bb331f9a65df1698278dda072871",
+      "artifact_path": "web app via pnpm build (not hosted)",
+      "physical_install_status": "WEB_NOT_DEPLOYED (Pages failed)"
+    },
+    {
+      "product": "WAIKE",
+      "repository": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "main_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "physical_install_status": "NOT_REBUILT"
+    },
+    {
+      "product": "Anime Aggressors",
+      "repository": "gunnchOS3k/anime-aggressors",
+      "main_sha": "f2e69a523e1a773d9a142b0b70f94966a25ffdca",
+      "physical_install_status": "DEVICE_HAS_PACKAGE_IDENTITY_UNVERIFIED"
+    },
+    {
+      "product": "Pedestrian Pursuit",
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "main_sha": "ba87f8368ee0e2296ea0b90ac69c6bc94490e898",
+      "physical_install_status": "DEVICE_HAS_PACKAGE_IDENTITY_UNVERIFIED"
+    },
+    {
+      "product": "Archive of Life",
+      "repository": "gunnchOS3k/archive-of-life-artifact-world",
+      "main_sha": "03d734453f040e3081e763277e2c15aa62ef095e",
+      "physical_install_status": "DEVICE_HAS_PACKAGE_IDENTITY_UNVERIFIED"
+    },
+    {
+      "product": "BeatLink Party",
+      "repository": "gunnchOS3k/beatlink-party",
+      "main_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "physical_install_status": "DEVICE_HAS_PACKAGE_IDENTITY_UNVERIFIED"
+    }
+  ],
+  "claim_boundary": "Do not treat installed Pixel packages as current-main proof. Exact-head APK rebuilds were not completed this run."
+}

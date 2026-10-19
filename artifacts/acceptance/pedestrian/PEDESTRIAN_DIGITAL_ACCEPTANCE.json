@@ -1,0 +1,6 @@
+{
+  "main_sha": "ba87f8368ee0e2296ea0b90ac69c6bc94490e898",
+  "ci_green_exact_sha": true,
+  "local_headless_smoke": "segfault in Godot reimport (exit 139)",
+  "pr35_on_main": false
+}

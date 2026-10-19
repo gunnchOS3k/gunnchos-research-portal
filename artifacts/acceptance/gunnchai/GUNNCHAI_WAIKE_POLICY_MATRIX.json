@@ -1,0 +1,5 @@
+{
+  "waike_policy_tests_included_in_npm_test": true,
+  "answer_key_leakage_prevention": "covered by local suite; not a live tutoring session",
+  "grade_write_policy": "conservative flags remain off"
+}

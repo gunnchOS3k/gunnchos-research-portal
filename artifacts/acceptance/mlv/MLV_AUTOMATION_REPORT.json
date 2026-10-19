@@ -1,0 +1,15 @@
+{
+  "main_sha": "da5bf53e8a89bb331f9a65df1698278dda072871",
+  "privacy_tests_main": {
+    "passed": 16,
+    "failed": 0
+  },
+  "campus_network_twin_on_main": false,
+  "stacked_pr3_tests": {
+    "passed": 43,
+    "failed": 0,
+    "head": "60fd7173d8e2fbe5dabe7f77cdccd2ba3abdcc78"
+  },
+  "pages_deploy": "failure on exact SHA",
+  "hosted_acceptance": "BLOCKED_EXTERNAL"
+}

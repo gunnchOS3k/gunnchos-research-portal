@@ -1,0 +1,23 @@
+ID,Product,Gate,Status,Owner,Next Action,Automation classification
+CORE-001,gunnchOS / MLV / WAIKE,Integrated Pixel journey,PENDING,Owner,Run only after exact-head install; #166 continuity not on main,REQUIRES_HUMAN
+CORE-002,gunnchOS / MLV / Network Twin,Integrated Pixel journey,PENDING,Owner,Requires stacked MLV #3 + device-os #166 on the installed build,REQUIRES_HUMAN
+MLV-001,3k MLV,Seven-campus human acceptance,PENDING,Owner,Campus V2 not on origin/main — promote or NOT_TESTED,REQUIRES_HUMAN
+WAIKE-001,WAIKE,16 READY / 2 PARTIAL decision closure,PENDING,Owner/Product,DIGITAL_CONFIDENCE and IT_SUPPORT_HARDWARE remain PARTIAL (do not invent content),REQUIRES_HUMAN
+WAIKE-002,WAIKE,Learner/instructor usability,PENDING,Owner/Test users,Run role-based journeys on current-main WAIKE,REQUIRES_HUMAN
+WAIKE-003,WAIKE,Accessibility,PENDING,Owner/Test users,Keyboard + screen-reader; HUMAN_SCREEN_READER_PASS stays false,REQUIRES_HUMAN
+AI-001,gunnchAI,Live provider qualification,PENDING,Owner,Credentials absent — BLOCKED_EXTERNAL,BLOCKED_EXTERNAL
+GAME-AA-001,Anime Aggressors,Full 7×23 move Pixel review,PENDING,Owner,161-move V3 not on main (PR #112 stacked),REQUIRES_HUMAN
+GAME-AA-002,Anime Aggressors,Voice/audio rights,PENDING,Owner,Treat announcer as unreviewed/placeholder,REQUIRES_RIGHTS_REVIEW
+GAME-PP-001,Pedestrian Pursuit,Race feel Pixel review,PENDING,Owner,Race V3 not on main (PR #35 stacked),REQUIRES_HUMAN
+GAME-AOL-001,Archive of Life,Final owner acceptance,PENDING,Owner,Current main is in scope; 134 digital tests passed,REQUIRES_HUMAN
+GAME-BLP-001,BeatLink Party,Live multi-client party,PENDING,Owner/Test group,Current main in scope; CI green,REQUIRES_HUMAN
+GAME-BLP-002,BeatLink Party,Music rights,PENDING,Owner,Do not distribute unclear audio,REQUIRES_RIGHTS_REVIEW
+SEC-001,Ecosystem,Security/privacy acceptance,PENDING,Owner/Security,MLV privacy tests passed; owner review still required,REQUIRES_HUMAN
+A11Y-001,Ecosystem,Accessibility acceptance,PENDING,Owner/Test users,Automation exhausted where present; human remains,REQUIRES_HUMAN
+RIGHTS-001,Ecosystem,Rights/provenance manifest,PENDING,Owner,See rights/RIGHTS_REVIEW_QUEUE.md,REQUIRES_RIGHTS_REVIEW
+RC-001,Digital Ecosystem,Release Candidate,PENDING,Owner,This package is PRE_HUMAN_ACCEPTANCE_CANDIDATE not RC,REQUIRES_HUMAN
+PILOT-001,WAIKE,Institutional pilot,NOT_STARTED,Owner/Pilot partner,Start only after pilot-ready gates,REQUIRES_INSTITUTIONAL_PILOT
+FIELD-001,7GC AI-RAN,Real campus measurement,NOT_STARTED,Authorized field team,Keep false,REQUIRES_PHYSICAL
+FIELD-002,7GC AI-RAN,Twin calibration,NOT_STARTED,Research team,Keep false,REQUIRES_PHYSICAL
+FIELD-003,7GC AI-RAN,Authorized canary RIC,NOT_STARTED,Authorized operator,Keep false,REQUIRES_PHYSICAL
+STACK-001,3k MLV / gunnchOS / games,Stacked GitHub merges not on main,OWNER_DECISION,Owner,Promote MLV #2/#3 Device-OS #166 Anime #112 Pedestrian #35 onto main or scope session,REQUIRES_HUMAN

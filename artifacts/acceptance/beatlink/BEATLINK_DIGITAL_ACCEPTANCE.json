@@ -1,0 +1,6 @@
+{
+  "main_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+  "ci_green_exact_sha": true,
+  "local_npm_ci": "blocked (pnpm lockfile; use pnpm)",
+  "local_pnpm_test": {"passed_files": 31, "passed_tests": 151, "failed": 0}
+}

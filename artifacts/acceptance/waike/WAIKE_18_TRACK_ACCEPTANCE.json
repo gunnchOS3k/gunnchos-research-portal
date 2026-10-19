@@ -1,0 +1,13 @@
+{
+  "imported": "18/18",
+  "ready": 16,
+  "partial": [
+    "DIGITAL_CONFIDENCE",
+    "IT_SUPPORT_HARDWARE"
+  ],
+  "DIGITAL_CONFIDENCE_reason": "no authored quizzes/rubrics; empty assessment_plan/revision_policy; AUTHORED_CURRICULUM_CONTENT_REQUIRED",
+  "IT_SUPPORT_HARDWARE_reason": "empty capstones/by_track/general_it.md; otherwise quizzes/labs/rubrics present. Keep PARTIAL; do not invent capstone.",
+  "promotion_by_cursor": false,
+  "human_academic_review": false,
+  "source_artifact": "gunnchos-waike-learning-platform/artifacts/curriculum/WAIKE_18_TRACK_LEARNER_READINESS.json"
+}
