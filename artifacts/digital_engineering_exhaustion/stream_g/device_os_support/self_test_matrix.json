@@ -1,0 +1,54 @@
+{
+  "schema": "gunnchos.device_os.self_test_matrix.v1",
+  "claim_boundary": "DIGITAL_PREP \u2014 host/simulator/device-lab only when executed",
+  "tests": [
+    {
+      "id": "ST-NET",
+      "name": "network reachability",
+      "automatable": true,
+      "physical": false
+    },
+    {
+      "id": "ST-STOR",
+      "name": "storage free + mount health",
+      "automatable": true,
+      "physical": false
+    },
+    {
+      "id": "ST-UPD",
+      "name": "update channel + last verify",
+      "automatable": true,
+      "physical": false
+    },
+    {
+      "id": "ST-RING",
+      "name": "ring software service",
+      "automatable": true,
+      "physical": false
+    },
+    {
+      "id": "ST-DOCK",
+      "name": "dock digital detect",
+      "automatable": true,
+      "physical": false
+    },
+    {
+      "id": "ST-THERM",
+      "name": "thermal sensor soft read",
+      "automatable": true,
+      "physical": "optional_host"
+    },
+    {
+      "id": "ST-DISP",
+      "name": "compositor smoke",
+      "automatable": true,
+      "physical": false
+    },
+    {
+      "id": "ST-AI",
+      "name": "local AI runtime ping",
+      "automatable": true,
+      "physical": false
+    }
+  ]
+}

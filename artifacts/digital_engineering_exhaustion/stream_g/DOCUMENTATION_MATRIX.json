@@ -1,0 +1,483 @@
+{
+  "schema": "gunnchos.stream_g.documentation_matrix.v1",
+  "generated_at": "2026-09-18T18:33:52Z",
+  "required_artifacts": [
+    "README",
+    "one_paragraph",
+    "architecture_diagram",
+    "quick_start",
+    "demo",
+    "glossary",
+    "repo_map",
+    "requirements",
+    "test_commands",
+    "known_limitations",
+    "evidence_status",
+    "CONTRIBUTING",
+    "SECURITY",
+    "LICENSE",
+    "support_boundary"
+  ],
+  "repos": [
+    {
+      "repo": "gunnchos-research-portal",
+      "one_paragraph": "Ecosystem navigation and evidence-map control plane for gunnchOS3k research and product surfaces.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "gunnchos-device-os",
+      "one_paragraph": "Education-first OS and Device Lab stack for affordable first-party devices.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "waike-research-ops",
+      "one_paragraph": "WAIKE research operations, campus tracks, and artifact validation.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "gunnchAI3k",
+      "one_paragraph": "Local-first tutoring / AI skill layer with academic integrity guardrails.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": false,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "SECURITY",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)",
+        "file_missing_pre_pr:CONTRIBUTING (to be added in draft PR)"
+      ]
+    },
+    {
+      "repo": "gunnchos-hardware-industrial-design",
+      "one_paragraph": "CAD/BOM/industrial design source of truth for the first-party device family.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "anime-aggressors",
+      "one_paragraph": "First-party fighting-game workload for device and platform validation.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": false,
+        "SECURITY": false,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)",
+        "file_missing_pre_pr:CONTRIBUTING (to be added in draft PR)",
+        "file_missing_pre_pr:SECURITY (to be added in draft PR)"
+      ]
+    },
+    {
+      "repo": "pedestrian-pursuit",
+      "one_paragraph": "First-party foot-racing game workload for device validation.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": false,
+        "SECURITY": false,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)",
+        "file_missing_pre_pr:CONTRIBUTING (to be added in draft PR)",
+        "file_missing_pre_pr:SECURITY (to be added in draft PR)"
+      ]
+    },
+    {
+      "repo": "archive-of-life-artifact-world",
+      "one_paragraph": "First-party scientific exploration game / Archive of Life workload.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": false,
+        "SECURITY": false,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)",
+        "file_missing_pre_pr:CONTRIBUTING (to be added in draft PR)",
+        "file_missing_pre_pr:SECURITY (to be added in draft PR)"
+      ]
+    },
+    {
+      "repo": "beatlink-party",
+      "one_paragraph": "First-party rhythm/party game workload for device validation.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": false,
+        "SECURITY": false,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)",
+        "file_missing_pre_pr:CONTRIBUTING (to be added in draft PR)",
+        "file_missing_pre_pr:SECURITY (to be added in draft PR)"
+      ]
+    },
+    {
+      "repo": "7gc-digital-twin",
+      "one_paragraph": "Campus digital-twin research for service continuity and community benefit metrics.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "spectrumx-ai-ran-gary",
+      "one_paragraph": "AI-native RAN research prototype for equitable spectrum allocation (SpectrumX).",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "readygary-6g-beam-selection",
+      "one_paragraph": "FR2 beam-selection research benchmarks and deploy harness stubs.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": false,
+        "SECURITY": false,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)",
+        "file_missing_pre_pr:CONTRIBUTING (to be added in draft PR)",
+        "file_missing_pre_pr:SECURITY (to be added in draft PR)"
+      ]
+    },
+    {
+      "repo": "ntn-resilience-sim",
+      "one_paragraph": "Terrestrial + NTN resilience simulation for disrupted communities.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    },
+    {
+      "repo": "edge-io-measurement-node",
+      "one_paragraph": "Privacy-first Ring / Edge I/O measurement and export stack.",
+      "baseline_root_files": {
+        "README": true,
+        "CONTRIBUTING": true,
+        "SECURITY": true,
+        "LICENSE": true
+      },
+      "stream_g_pack": "docs/stream_g/NEWCOMER_PACK.md (or portal mirror)",
+      "gaps_closed_by_stream_g": [
+        "README",
+        "LICENSE",
+        "one_paragraph",
+        "quick_start",
+        "demo",
+        "test_commands",
+        "known_limitations",
+        "evidence_status",
+        "support_boundary",
+        "repo_map",
+        "glossary",
+        "architecture_diagram",
+        "requirements",
+        "CONTRIBUTING",
+        "SECURITY"
+      ],
+      "gaps_remaining": [
+        "HUMAN_VALIDATION_REQUIRED: recruiter/family readability walkthrough",
+        "EXTERNAL_PARTY_REQUIRED: production support contact center (if/when commercial)"
+      ]
+    }
+  ]
+}

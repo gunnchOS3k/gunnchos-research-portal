@@ -1,0 +1,100 @@
+{
+  "schema": "gunnchos.final_accepted_main_pin_manifest.v2",
+  "generated_at_utc": "2026-09-18T21:26:14Z",
+  "stream": "H_v2.1",
+  "pins": {
+    "gunnchos-research-portal": {
+      "sha": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+      "match_expected": true,
+      "subject": "Merge pull request #35 (dee-control-plane-baselines); #36=ea71cb3c ancestor",
+      "materiality": null
+    },
+    "gunnchos-device-os": {
+      "sha": "55f63da0f4555c2f235caeae7d6bc20ab1b15638",
+      "match_expected": true,
+      "subject": "Merge pull request #157 (stream-a digital exhaustion)",
+      "materiality": null
+    },
+    "gunnchos-waike-learning-platform": {
+      "sha": "747e64e6386c10ef8c0f72c50eb5557035e5c9b9",
+      "match_expected": true,
+      "subject": "Merge pull request #18 (stream-b waike telemetry)",
+      "materiality": {
+        "note": "Initial local origin/main lagged at 7ccb6445 until fetch; intentional accepted main is 747e64e"
+      }
+    },
+    "waike-research-ops": {
+      "sha": "c13179eaec0b23cf5a18b7dec9043e193bcb9460",
+      "match_expected": true,
+      "subject": "Merge pull request #58 (stream-b waike-ops exhaustion ledger)",
+      "materiality": null
+    },
+    "gunnchAI3k": {
+      "sha": "076b7ccd7c3f71d3299ead9a72e45291cd33689a",
+      "match_expected": true,
+      "subject": "Merge pull request #49 (stream-b gunnchai pre-human exhaustion)",
+      "materiality": null
+    },
+    "gunnchos-hardware-industrial-design": {
+      "sha": "56125d1738a437f413ee4418c51c2f3a82bcbac8",
+      "match_expected": true,
+      "subject": "Merge pull request #83 (nxp-open-cpb0-eda); union #81+#82+#83 on main",
+      "materiality": null
+    },
+    "anime-aggressors": {
+      "sha": "85418e99b395f56b644e72b7ac91d60e42be5c61",
+      "match_expected": true,
+      "subject": "Merge pull request #100 (stream-c anime headless residual)",
+      "materiality": {
+        "note": "Accepted-main Stream C clean-room PASS with Godot-4.5 + writable Godot user-data; brew godot 4.7.1 MoltenVK SIGABRT is non-canonical on this host"
+      }
+    },
+    "pedestrian-pursuit": {
+      "sha": "e0c21fcc4d4c058eb42a5a9d4c858a77987c3a4e",
+      "match_expected": true,
+      "subject": "Merge pull request #24 (stream-c)",
+      "materiality": null
+    },
+    "archive-of-life-artifact-world": {
+      "sha": "a2145ca61cc3b67749c961010bd0129970f4ca4b",
+      "match_expected": true,
+      "subject": "Merge pull request #37 (stream-c)",
+      "materiality": null
+    },
+    "beatlink-party": {
+      "sha": "22a21a411463344450f121d281b3a0dba27f1c56",
+      "match_expected": true,
+      "subject": "Merge pull request #27 (stream-c)",
+      "materiality": null
+    }
+  },
+  "portal_related": {
+    "main": "ff1325a1a65ebfae5aab5532dcd05876fa643240",
+    "pr_36": "ea71cb3c34a38cdbd2913b26fa703fa259d7bd9c"
+  },
+  "gxe_local_not_production_pin": {
+    "repo": "gunnchos-greenfield-experimental",
+    "branch": "slice/gxe-3-creator-game",
+    "tip": "9d848f03c4aa5ab972912d45c7a8212f99140e97",
+    "tip_match": true,
+    "production_main_dependency": false,
+    "section": "LOCAL_RESEARCH_EVIDENCE_NOT_ACCEPTED_PRODUCTION_MAIN",
+    "gates": {
+      "GXE_SIMULATION_ENGINEERING_EXHAUSTED": true,
+      "GXE_KERNEL_BOOT_IN_SIM": true,
+      "GXE_SIM_EXECUTION_STABILITY_PASS": true,
+      "GXE2_SIM_STABILITY_PASS": true,
+      "GXE3_SIM_STABILITY_PASS": true,
+      "GXE_FPGA_REFERENCE_BOOT_PASS": false,
+      "GXE_PHYSICAL_EVT_PASS": false
+    },
+    "blocks_software_pilot": false
+  },
+  "hardware_union": "#81+#82+#83 on 56125d1738a437f413ee4418c51c2f3a82bcbac8",
+  "refresh": {
+    "reason": "Anime PR #100 merged; refresh accepted-main verification",
+    "anime_pr_100_merge_sha": "85418e99b395f56b644e72b7ac91d60e42be5c61",
+    "anime_pr_100_head_pre_merge": "fb753f168e9b27a612e54403b031ff15f7de0489",
+    "portal_pr_38_prior_head": "ddfbb4097bc213010e66be24d8f58d7b029e04fe"
+  }
+}

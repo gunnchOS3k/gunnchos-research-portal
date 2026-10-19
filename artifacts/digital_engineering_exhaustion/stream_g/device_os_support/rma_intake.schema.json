@@ -1,0 +1,70 @@
+{
+  "schema": "gunnchos.support.rma_intake.v1",
+  "type": "object",
+  "required": [
+    "rma_id",
+    "device_class",
+    "serial_or_devtest_id",
+    "fault_codes",
+    "diagnostic_bundle_sha256",
+    "warranty_path",
+    "created_at"
+  ],
+  "properties": {
+    "rma_id": {
+      "type": "string"
+    },
+    "device_class": {
+      "enum": [
+        "student_14_5",
+        "handheld_hybrid",
+        "ds_xl_coder",
+        "rings",
+        "dock",
+        "unknown"
+      ]
+    },
+    "serial_or_devtest_id": {
+      "type": "string",
+      "description": "DEV/TEST serials only until production factory"
+    },
+    "fault_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "diagnostic_bundle_sha256": {
+      "type": "string"
+    },
+    "symptom_summary": {
+      "type": "string"
+    },
+    "software_recovery_attempted": {
+      "type": "boolean"
+    },
+    "warranty_path": {
+      "enum": [
+        "IN_WARRANTY_CANDIDATE",
+        "OUT_OF_WARRANTY_CANDIDATE",
+        "WARRANTY_EXTERNAL",
+        "UNKNOWN"
+      ]
+    },
+    "escalation_tier": {
+      "enum": [
+        "self_serve",
+        "school_it",
+        "manufacturer",
+        "legal"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "claim_boundary": {
+      "const": "DIGITAL_SCHEMA_ONLY"
+    }
+  }
+}

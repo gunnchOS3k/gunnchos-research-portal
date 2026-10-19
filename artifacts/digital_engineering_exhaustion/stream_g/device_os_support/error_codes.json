@@ -1,0 +1,93 @@
+{
+  "schema": "gunnchos.support.error_codes.v1",
+  "claim_boundary": "DIGITAL_CATALOG \u2014 not field-validated; not commercial SLA",
+  "codes": [
+    {
+      "code": "E-BOOT-001",
+      "severity": "critical",
+      "title": "Boot loop / recovery required",
+      "self_serve": "safe_mode",
+      "repair_tree": "RT-BOOT"
+    },
+    {
+      "code": "E-STOR-001",
+      "severity": "high",
+      "title": "Insufficient storage for update",
+      "self_serve": "free_space",
+      "repair_tree": "RT-STORAGE"
+    },
+    {
+      "code": "E-UPD-001",
+      "severity": "high",
+      "title": "Update package verify failed",
+      "self_serve": "retry_or_rollback",
+      "repair_tree": "RT-UPDATE"
+    },
+    {
+      "code": "E-NET-001",
+      "severity": "medium",
+      "title": "No network for required sync",
+      "self_serve": "offline_continue",
+      "repair_tree": "RT-NETWORK"
+    },
+    {
+      "code": "E-THERM-001",
+      "severity": "high",
+      "title": "Thermal throttle / shutdown",
+      "self_serve": "cool_down",
+      "repair_tree": "RT-THERMAL",
+      "physical": true
+    },
+    {
+      "code": "E-BATT-001",
+      "severity": "high",
+      "title": "Battery health / charge fault",
+      "self_serve": "power_cycle",
+      "repair_tree": "RT-BATTERY",
+      "physical": true
+    },
+    {
+      "code": "E-DISP-001",
+      "severity": "high",
+      "title": "Display / compositor fail",
+      "self_serve": "safe_mode",
+      "repair_tree": "RT-DISPLAY"
+    },
+    {
+      "code": "E-RING-001",
+      "severity": "medium",
+      "title": "Ring pairing / sensor path fail",
+      "self_serve": "re_pair",
+      "repair_tree": "RT-RING"
+    },
+    {
+      "code": "E-DOCK-001",
+      "severity": "medium",
+      "title": "Dock detect / PD negotiation fail",
+      "self_serve": "reseat",
+      "repair_tree": "RT-DOCK",
+      "physical": true
+    },
+    {
+      "code": "E-AI-001",
+      "severity": "low",
+      "title": "Local AI runtime unavailable",
+      "self_serve": "fallback_offline",
+      "repair_tree": "RT-AI"
+    },
+    {
+      "code": "E-WAIKE-001",
+      "severity": "medium",
+      "title": "WAIKE sync outbox stuck",
+      "self_serve": "force_sync_or_export",
+      "repair_tree": "RT-WAIKE"
+    },
+    {
+      "code": "E-SEC-001",
+      "severity": "critical",
+      "title": "Integrity / provenance mismatch",
+      "self_serve": "recovery_image",
+      "repair_tree": "RT-SECURITY"
+    }
+  ]
+}
