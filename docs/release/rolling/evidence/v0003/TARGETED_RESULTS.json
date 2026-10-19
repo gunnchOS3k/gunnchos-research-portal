@@ -1,0 +1,69 @@
+{
+  "schema": "gunnchos.v1.targeted_continuation.v1",
+  "as_of": "2026-10-19",
+  "local_portal_parent": "e26ebd002883c71e564a930ee550356bfbe99a9e",
+  "remote_portal_pr55": "052f1723df5644156305a5cad99408ef8d8cc61e",
+  "remote_fieldkit_pr123": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+  "fieldkit_local_branch": "release/standards-watch-artifact-integrity-2026-10-19",
+  "fieldkit_local_commit": "92d0864ab263d3fbe1b162b2cdda1bb2404ccc55",
+  "fieldkit_parent": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+  "fieldkit_file_hashes": {
+    "standards/watch/validate_watch_report.py": "f407be90b67d8a4345952460ff9d78796e8388ed7154e3faefa6f64295a53fce",
+    "tests/test_standards_watch_report.py": "f1e97c0e1deb23bb8ad34b072aabf524de7bcafcdf0a8e6143a431f6c26cf29c",
+    ".github/workflows/standards-watch.yml": "6eaffaf140283285b4e74c95aa04ba227bd50b7f0a52be38c4957a59341a8ad3"
+  },
+  "fieldkit_tests": {
+    "deterministic_tests": 8,
+    "result": "PASS",
+    "mapping_validator": "PASS",
+    "claim_firewall": "PASS",
+    "sparse_checkout_initial_failures": "Required mapping and snapshot paths initially absent from sparse checkout; added unchanged source paths, validators then pass. No validator relaxed.",
+    "original_watcher_mapping_firewall_changed": false,
+    "actual_external_fetches": 0,
+    "remote_dispatches": 0,
+    "accepted_main_repaired": false
+  },
+  "source_and_artifact_verification": "PASS all retained reader/curriculum tree hashes and gateway artifact hashes against e26ebd0 EVIDENCE.json; source HEAD/diff/untracked hashes unchanged",
+  "TRUSTED_TLS_PASS": false,
+  "LIVE_LEARNER_JOURNEY_PASS": false,
+  "MOCKED_UNIT_TEST_PASS": "Historical five-test result at e26ebd0; not rerun or added to live results",
+  "MANUAL_EDUCATOR_ACCEPTANCE": "PENDING",
+  "HUMAN_ACCESSIBILITY_ACCEPTANCE": "PENDING",
+  "INSTITUTIONAL_DELIVERY_ACCEPTANCE": "PENDING",
+  "TLS": {
+    "renewal_performed": false,
+    "mkcert_executable_found": false,
+    "root_certificate_found_at_two_standard_paths": false,
+    "system_mkcert_certificate_lookup_matches": 0,
+    "lookup_limits": "Not a comprehensive private-key/keychain inventory; no established authorized issuing chain identified",
+    "retained_leaf": "expired self-signed CN/SAN localhost, Oct15\u201317; fingerprint 5CC4CEF6B03288A177349C6562727ED6D7E4ED7087ECF2E39AA92D57CB0F5F18",
+    "key_permissions": "0600; containing directory0700",
+    "browser_validation": "NOT RUN: no current trusted certificate; no bypass",
+    "environment_restoration": "NOT RUN: explicitly conditional on TLS prerequisite"
+  },
+  "capacity": {
+    "measured": {
+      "npm_cache_KiB": 892776,
+      "pip_cache_KiB": 134512,
+      "pnpm_store_KiB": 725096,
+      "playwright_downloads_KiB": 488048,
+      "repos_protected_inclusive_KiB": 58918704,
+      "campaign_artifacts_KiB": 3276,
+      "retained_gateway_build_KiB": 229764,
+      "retained_releases_KiB": 81216,
+      "publication_worktrees_inclusive_KiB": 1248552,
+      "anime_worktree_inclusive_KiB": 7591036
+    },
+    "free_preflight_approx_GiB": 3.5,
+    "free_later_approx_GiB": 4.4,
+    "potential_cache_and_download_candidate_GiB": 2.1366424560546875,
+    "guaranteed_or_authorized_reclaim_GiB": 0,
+    "heavy_export_guard_GiB": 18,
+    "deletions": 0,
+    "new_sparse_worktree_KiB": 2840
+  },
+  "gates_changed": {},
+  "publication_deployment_merge_or_tag_performed": false,
+  "standards_page_fetches_or_learner_file_transmissions": 0,
+  "report_sha256": "d5ca11ae5ef9d2fcf41ae13bd32302b3470a24a5a00cc624670cc7a9b72e5aa0"
+}
