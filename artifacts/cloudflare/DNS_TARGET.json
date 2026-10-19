@@ -1,0 +1,23 @@
+{
+  "ready_to_change_nameservers": false,
+  "cloudflare_zone_created_by_cursor": false,
+  "notes": "Target is a copy of the observed working email records plus an explicit gap list. Web records are absent today, so none are invented. DKIM value must be copied from an owner export before any zone write.",
+  "must_preserve": {
+    "MX": [
+      "1 aspmx.l.google.com.",
+      "5 alt1.aspmx.l.google.com.",
+      "5 alt2.aspmx.l.google.com.",
+      "10 alt3.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com."
+    ],
+    "TXT_apex_spf": "v=spf1 include:_spf.google.com ~all",
+    "DKIM_name": "google._domainkey.gunnchos.com",
+    "DKIM_value": "REQUIRED_FROM_OWNER_EXPORT",
+    "DMARC": "absent in public DNS; do not invent one",
+    "DNSSEC_DS": "present at parent; disable at registrar only as part of an owner nameserver change, then plan Cloudflare DNSSEC separately"
+  },
+  "web": {
+    "apex": "no A/AAAA observed; do not add a production web record until a Worker custom domain is intentionally attached",
+    "www": "NXDOMAIN"
+  }
+}

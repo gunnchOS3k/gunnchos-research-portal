@@ -1,0 +1,27 @@
+{
+  "schema": "gunnchos.v1.master_control.v1",
+  "snapshot_date": "2026-09-30",
+  "release_identity": "gunnchOS Ecosystem v1.0.0 \u2014 Software + Digital Platform Release",
+  "historical_rc": "v1.0.0-rc.1",
+  "v1_scope_frozen": false,
+  "v1_release_authorized": false,
+  "wip_limit": 3,
+  "current_wip": [
+    "Anime PR #118 signer-safe G7 + owner review",
+    "3k MLV Cloudflare deployment",
+    "Pedestrian PR #39 owner review"
+  ],
+  "final_candidate_recommended": "v1.0.0-rc.2",
+  "claim_boundary": {
+    "software_digital_platform_release": true,
+    "physical_evt": false,
+    "dvt": false,
+    "pvt": false,
+    "rf_certification": false,
+    "carrier_certification": false,
+    "mass_manufacturing": false,
+    "k12_institutional_certification": false,
+    "archive_global_scientific_completeness": false,
+    "unlicensed_commercial_music": false
+  }
+}

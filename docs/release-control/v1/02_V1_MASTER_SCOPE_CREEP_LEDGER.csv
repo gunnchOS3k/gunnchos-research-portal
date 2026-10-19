@@ -1,0 +1,69 @@
+id,area,item,disposition,status,repo,gate,next_action
+MLV-001,3k MLV,Home / Campus / Gallery world shell,IN_V1_REQUIRED,IMPLEMENTED_MAIN,gunnchOS3k/3k-mlv,Hosted integration + owner acceptance,Verify in final hosted build
+MLV-002,3k MLV,Selective-sharing privacy model,IN_V1_REQUIRED,IMPLEMENTED_MAIN,gunnchOS3k/3k-mlv,Privacy regression + human UX,Verify private/shared boundaries
+MLV-003,3k MLV,Campus→WAIKE integration,IN_V1_REQUIRED,IMPLEMENTED_INTEGRATION,3k-mlv + WAIKE,Hosted learner journey,Verify on hosted candidate
+MLV-004,3k MLV,Gallery public/shared creation surface,IN_V1_REQUIRED,IMPLEMENTED_PARTIAL,gunnchOS3k/3k-mlv,Human creator flow,Freeze honest Gallery claims
+MLV-005,3k MLV,Universal host shell / capability adapter,IN_V1_REQUIRED,DIGITAL_PASS_MAIN,3k-mlv + device-os,Supported-host matrix,No universal OS claims
+MLV-006,3k MLV,Seven source-traceable 7GC campuses,IN_V1_CANDIDATE_PENDING_OWNER,DRAFT_PR_6,gunnchOS3k/3k-mlv,Pixel/human review,Decide v1 vs v1.1
+MLV-007,Public Web,Cloudflare Workers production + previews,IN_V1_REQUIRED,PROMPT_READY_NOT_DEPLOYED,gunnchOS3k/3k-mlv,Preview/prod smoke,Run deployment hardening then deploy
+MLV-008,Public Web,mlv.gunnchos.com live,IN_V1_REQUIRED,NOT_LIVE,Cloudflare + 3k-mlv,DNS/TLS/prod smoke,Attach after Worker deploy
+MLV-009,Public Web,gunnchos.com ecosystem front door,IN_V1_REQUIRED,NOT_LIVE,portal decision,Root-domain deploy,Choose canonical root portal
+WAIKE-001,WAIKE,Native LMS platform,IN_V1_REQUIRED,IMPLEMENTED_MAIN,gunnchos-waike-learning-platform,Full-platform regression,Re-run final acceptance
+WAIKE-002,WAIKE,Offline sync / durable outbox,IN_V1_REQUIRED,IMPLEMENTED_MAIN,gunnchos-waike-learning-platform,Offline/restart/ack regression,Include in final manifest
+WAIKE-003,WAIKE,Assessments / quizzes / labs / groups,IN_V1_REQUIRED,IMPLEMENTED_SUBSTANTIAL,gunnchos-waike-learning-platform,Current-content audit,Do not overclaim authored content
+WAIKE-004,WAIKE,18 learning tracks,IN_V1_REQUIRED_WITH_CLAIM_BOUNDARY,PLATFORM_AVAILABLE_CONTENT_REVIEW_PENDING,WAIKE + waike-research-ops,Human academic review,No fabricated 18/18 readiness
+WAIKE-005,WAIKE,OneRoster / QTI / LTI interfaces,IN_V1_REQUIRED_FOR_INTERFACE_NOT_CERTIFICATION,IMPLEMENTED_OR_PARTIAL,gunnchos-waike-learning-platform,Interop tests,Keep certification separate
+WAIKE-006,WAIKE,Staff + learner/instructor alpha,IN_V1_HUMAN_GATE,REQUIRES_HUMAN,gunnchos-waike-learning-platform,Authentic sessions,Run targeted alpha or document waiver
+WAIKE-007,WAIKE,K-12 institutional rollout,POST_V1_EXTERNAL,NOT_AUTHORIZED,WAIKE ecosystem,FERPA/privacy/institutional pilot,Exclude from v1 production claims
+AI-001,gunnchAI,Student tutoring / assignment assistance,IN_V1_REQUIRED,DIGITAL_IMPLEMENTED,gunnchOS3k/gunnchAI3k,Human evaluation,Run human eval packet
+AI-002,gunnchAI,Instructor counterpart,IN_V1_REQUIRED_WITH_CLAIM_BOUNDARY,IMPLEMENTED_OR_PARTIAL,gunnchAI3k + WAIKE,Instructor evaluation,Freeze exact supported workflows
+AI-003,gunnchAI,Live provider qualification,IN_V1_OPTIONAL_PROVIDER_GATE,BLOCKED_EXTERNAL,gunnchOS3k/gunnchAI3k,Authorized provider credentials,Do not claim qualified live provider
+ANIME-001,Anime Aggressors,Nine-fighter roster,IN_V1_REQUIRED,DRAFT_PR_118,gunnchOS3k/anime-aggressors,G6/G7/G8/G9,Signer-safe Pixel then owner review
+ANIME-002,Anime Aggressors,18 authored body presentations,IN_V1_REQUIRED,DIGITAL_PASS_PR118,gunnchOS3k/anime-aggressors,Human visual/art review,G6/G9
+ANIME-003,Anime Aggressors,999 animation slots / 216 move routes,IN_V1_REQUIRED,DIGITAL_PASS_PR118,gunnchOS3k/anime-aggressors,Visible runtime + feel,G8
+ANIME-004,Anime Aggressors,Puppet / Essence / Prismatic Gray,IN_V1_REQUIRED,IMPLEMENTED_PR118,gunnchOS3k/anime-aggressors,Pixel/story smoke,Validate exact-head
+ANIME-005,Anime Aggressors,Yin + Yang playable,IN_V1_REQUIRED,TUNING_CANDIDATE_PR118,gunnchOS3k/anime-aggressors,Human tuning,Keep candidate label until reviewed
+ANIME-006,Anime Aggressors,Seven-route Story campaign,IN_V1_REQUIRED,IMPLEMENTED_PR118,gunnchOS3k/anime-aggressors,Pixel Story smoke,Run real encounter progression
+ANIME-007,Anime Aggressors,PartyLink 2/4/6/8-player architecture,IN_V1_REQUIRED,DIGITAL_PASS,gunnchOS3k/anime-aggressors,Human party session,Run owner/friend party test
+ANIME-008,Anime Aggressors,Exact-head Android CI + animectl,IN_V1_REQUIRED,PASS,gunnchOS3k/anime-aggressors,Pixel signer path,Run V1.5.2 signer-safe closure
+ANIME-009,Anime Aggressors,Pixel G7 exact-head physical smoke,IN_V1_REQUIRED,BLOCKED_SIGNER_MISMATCH,gunnchOS3k/anime-aggressors,Non-destructive signer-safe install,Try local matching key then side-by-side review
+ANIME-010,Anime Aggressors,G6 visual / G8 feel / G9 final art,IN_V1_HUMAN_GATE,REQUIRES_HUMAN,gunnchOS3k/anime-aggressors,Owner play session,Complete after G7
+PP-001,Pedestrian Pursuit,Eight V4 course worlds,IN_V1_CANDIDATE_PENDING_OWNER,DRAFT_PR_39,gunnchOS3k/pedestrian-pursuit,Exact-head + Pixel review,One lap on all eight
+PP-002,Pedestrian Pursuit,Power-up/world readability,IN_V1_CANDIDATE_PENDING_OWNER,DIGITAL_PASS_PR39,gunnchOS3k/pedestrian-pursuit,Human readability/fun,Review pods/boosts/pads/effects
+PP-003,Pedestrian Pursuit,PartyLink / Party Race,IN_V1_REQUIRED,DIGITAL_PASS,gunnchOS3k/pedestrian-pursuit,Human controller/Race Director,Run party session
+ARCH-001,Archive of Life,Living Archive playable experience,IN_V1_REQUIRED,IMPLEMENTED_MAIN,gunnchOS3k/archive-of-life-artifact-world,Human usability/fun,Final candidate smoke
+ARCH-002,Archive of Life,Global knowledge ingestion engine,IN_V1_REQUIRED,ENGINEERING_PASS_MAIN,gunnchOS3k/archive-of-life-artifact-world,Engineering gate,Freeze engineering claims
+ARCH-003,Archive of Life,Approved real scientific source snapshots,POST_V1_OR_EXTERNAL_DATA_GATE,BLOCKED_EXTERNAL_DATA,archive-of-life-artifact-world,External data approval,No global completeness claim
+ARCH-004,Archive of Life,Human scientific review,POST_V1_OR_CLAIM_BOUNDARY,REQUIRES_SCIENTIFIC_REVIEW,archive-of-life-artifact-world,Qualified review,Keep science completeness false
+BEAT-001,BeatLink Party,Multi-client Stage Energy experience,IN_V1_REQUIRED,DIGITAL_PASS_MAIN,gunnchOS3k/beatlink-party,Human live-party session,Run current-tip party validation
+BEAT-002,BeatLink Party,Rights-safe audio/catalog mode,IN_V1_REQUIRED,REQUIRED_BOUNDARY,gunnchOS3k/beatlink-party,Rights inventory,Ship only rights-safe catalog
+BEAT-003,BeatLink Party,Spotify/unlicensed commercial music gameplay,POST_V1_RIGHTS_BLOCKED,REQUIRES_RIGHTS_REVIEW,gunnchOS3k/beatlink-party,Licensing/rightsholder approval,Exclude from v1 claims
+DEVOS-001,Device OS,Android Capsule / gunnchOS shell,IN_V1_REQUIRED,DIGITAL_MAIN,gunnchOS3k/gunnchos-device-os,Final exact-head smoke,Include in RC2 matrix
+DEVOS-002,Device OS,Cross-app continuity,IN_V1_REQUIRED,DIGITAL_SUBSTANTIAL,gunnchOS3k/gunnchos-device-os,Current-pin lifecycle matrix,Re-run on final pins
+DEVOS-003,Device OS,Windows host support,IN_V1_REQUIRED,DIGITAL_PASS_HISTORY,gunnchOS3k/gunnchos-device-os,Current-pin revalidation,Refresh host matrix
+DEVOS-004,Device OS,Linux / Android / macOS host adapters,IN_V1_CLAIM_MATRIX,MIXED_VALIDATION,device-os + 3k-mlv,Per-host evidence,Publish honest status matrix
+DEVOS-005,Device OS,Update / recovery / security lifecycle,IN_V1_REQUIRED,DIGITAL_IMPLEMENTED,gunnchOS3k/gunnchos-device-os,Current-tip regression,Final security summary
+HW-001,Hardware,Student 14.5 digital design,IN_V1_DIGITAL_ENGINEERING,DIGITAL_PROFILE,gunnchos-hardware-industrial-design,Digital design/provenance,No fabricated-hardware claim
+HW-002,Hardware,Handheld Hybrid digital design,IN_V1_DIGITAL_ENGINEERING,DIGITAL_PROFILE,gunnchos-hardware-industrial-design,Digital design/provenance,No fabricated-hardware claim
+HW-003,Hardware,DS-XL Coder digital design,IN_V1_DIGITAL_ENGINEERING,DIGITAL_PROFILE,gunnchos-hardware-industrial-design,Digital design/provenance,No fabricated-hardware claim
+HW-004,Hardware,Edge I/O Rings digital design,IN_V1_DIGITAL_ENGINEERING,DIGITAL_PROFILE,hardware + edge-io,Digital privacy/measurement,No physical validation claim
+HW-005,Hardware,EVT / DVT / PVT,POST_V1_PHYSICAL,REQUIRES_PHYSICAL,hardware program,Physical engineering validation,Exclude from v1 authorization
+HW-006,Hardware,RF / FCC / CE / carrier approval,POST_V1_REGULATORY,REGULATORY_PENDING,hardware + device-os,Accredited labs/carriers,No certification claim
+HW-007,Hardware,Battery transport / UN38.3,POST_V1_REGULATORY,EXTERNAL,hardware program,Certification,No shipment claim
+HW-008,Hardware,Manufacturing / warranty / RMA / support,POST_V1_VENDOR,VENDOR_EXTERNAL_PENDING,hardware program,CM/RFQ/legal/staffing,Keep as digital prep only
+R-001,Research / 7GC,7GC Digital Twin,IN_V1_REQUIRED,DIGITAL_RESEARCH_MAIN,gunnchOS3k/7gc-digital-twin,Build/docs,Include in research matrix
+R-002,Research / 7GC,AI-RAN Field Kit,IN_V1_REQUIRED,DIGITAL_RESEARCH_MAIN,gunnchos-7gc-ai-ran-field-kit,Synthetic/digital only,Keep field claims false
+R-003,Research / 7GC,ReadyGary beam selection,IN_V1_REQUIRED,DIGITAL_RESEARCH_MAIN,readygary-6g-beam-selection,Simulation evidence,Include with boundary
+R-004,Research / 7GC,SpectrumX AI-RAN Gary,IN_V1_REQUIRED,DIGITAL_RESEARCH_MAIN,spectrumx-ai-ran-gary,Simulation evidence,Include with boundary
+R-005,Research / 7GC,NTN resilience simulation,IN_V1_REQUIRED,DIGITAL_RESEARCH_MAIN,ntn-resilience-sim,Simulation evidence,Include in portal
+R-006,Research / 7GC,Edge IO measurement node,IN_V1_REQUIRED,DIGITAL_RESEARCH_MAIN,edge-io-measurement-node,Privacy/export + physical later,Keep physical boundary explicit
+R-007,Research / 7GC,Real campus/RIC/carrier validation,POST_V1_PHYSICAL_EXTERNAL,REQUIRES_PHYSICAL,research repos,Authorized field validation,Exclude from v1 claims
+R-008,Research / 7GC,research.gunnchos.com,IN_V1_REQUIRED,NOT_LIVE,gunnchos-research-portal,Cloudflare deploy smoke,Deploy after MLV pattern
+PUB-001,Publication,Technology Landscape guidebook,IN_V1_OPTIONAL_BUT_TRACKED,DIGITAL_READER_EXISTS,gunnchos-technology-landscape,Human reader preview,Do not block core unless owner chooses
+OPS-001,Release Ops,Published v1.0.0-rc.1,HISTORICAL_RELEASE,PUBLISHED,ecosystem,N/A,Preserve immutable history
+OPS-002,Release Ops,Fresh final accepted-main manifest,IN_V1_REQUIRED,STALE_FROM_2026_09_21,gunnchos-research-portal,Re-pin after final merges,Generate new manifest
+OPS-003,Release Ops,v1.0.0-rc.2 / final candidate,IN_V1_REQUIRED_RECOMMENDED,NOT_CREATED,ecosystem,Fresh freeze + smoke,Create after scope freeze
+OPS-004,Release Ops,Feedback/security front doors,IN_V1_REQUIRED,PASS_HISTORY,portal + components,Fresh link/config scan,Re-run in final freeze
+OPS-005,Release Ops,Accessibility automation + human review,IN_V1_REQUIRED_WITH_HUMAN_BOUNDARY,AUTO_PASS_HUMAN_PENDING,ecosystem,Human a11y checklist,Run or document outstanding
+OPS-006,Release Ops,Rights/provenance manifest,IN_V1_REQUIRED,REQUIRES_RIGHTS_REVIEW,ecosystem,Owner/rightsholder review,Complete rights-safe release set
+OPS-007,Release Ops,Final v1.0.0 authorization,IN_V1_REQUIRED,FALSE,control plane,Owner explicit authorization,Only after final candidate review

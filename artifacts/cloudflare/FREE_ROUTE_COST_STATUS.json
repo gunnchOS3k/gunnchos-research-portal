@@ -1,0 +1,23 @@
+{
+  "captured_at": "2026-09-30",
+  "promise": "not zero forever",
+  "paid_features_enabled": false,
+  "services": {
+    "gunnchos.com": "FREE_WITHIN_WORKERS_QUOTA",
+    "mlv.gunnchos.com": "FREE_STATIC",
+    "campus.gunnchos.com": "EXTERNAL_FREE_TIER_DEPENDENCY",
+    "anime.gunnchos.com": "POTENTIAL_PAID_AT_SCALE",
+    "pursuit.gunnchos.com": "POTENTIAL_PAID_AT_SCALE",
+    "archive.gunnchos.com": "FREE_STATIC",
+    "beatlink.gunnchos.com": "KNOWN_PAID_DEPENDENCY",
+    "research.gunnchos.com": "FREE_STATIC",
+    "gunnchAI": "KNOWN_PAID_DEPENDENCY"
+  },
+  "notes": [
+    "Dynamic Worker requests on the published Free plan are 100,000/day.",
+    "Static asset request billing was not re-verified against a live account invoice.",
+    "Model-provider use is not free because the page is on Cloudflare.",
+    "Supabase quotas are separate.",
+    "BeatLink commercial music is a rights cost, not a Cloudflare SKU."
+  ]
+}

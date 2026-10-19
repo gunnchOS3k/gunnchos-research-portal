@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-09-30T18:50:00Z",
+  "method": "authoritative public DNS query to ns-cloud-b1.googledomains.com plus parent DS via 8.8.8.8",
+  "inventory_complete": false,
+  "reason": "Public queries cannot prove a full Squarespace zone export. DKIM TXT was observed at google._domainkey but the full value was not retained. No AXFR was used.",
+  "nameservers": [
+    "ns-cloud-b1.googledomains.com",
+    "ns-cloud-b2.googledomains.com",
+    "ns-cloud-b3.googledomains.com",
+    "ns-cloud-b4.googledomains.com"
+  ],
+  "soa": "ns-cloud-b1.googledomains.com. cloud-dns-hostmaster.google.com. serial 4",
+  "records": {
+    "A": [],
+    "www": "NXDOMAIN",
+    "MX": [
+      "1 aspmx.l.google.com.",
+      "5 alt1.aspmx.l.google.com.",
+      "5 alt2.aspmx.l.google.com.",
+      "10 alt3.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com."
+    ],
+    "TXT_apex": ["v=spf1 include:_spf.google.com ~all"],
+    "DKIM": {
+      "name": "google._domainkey.gunnchos.com",
+      "present": true,
+      "value_retained": false
+    },
+    "DMARC": "NXDOMAIN",
+    "DS_at_parent": {
+      "present": true,
+      "key_tag": 41024,
+      "algorithm": 8,
+      "digest_type": 2,
+      "digest": "A06E615E40B22ADB1DF32E45E164C68E85D461262AFD65C41313B82951DFAE6E"
+    }
+  }
+}
