@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-28T21:54:22Z",
+  "schema": "master_acceptance_matrix.v3_1",
+  "unknown_gate_count": 0,
+  "fixable_digital_failure_count_open_on_main": 0,
+  "fixable_digital_note": "Pedestrian #38 MERGED (77a5413); Gate1 godot-headless green. Pixel still not adb-visible on automation host.",
+  "pixel_connected": true,
+  "pr106_salvage_on_main": true,
+  "census": {
+    "PASS_WITH_EVIDENCE": 13,
+    "REQUIRES_HUMAN": 6,
+    "BLOCKED_EXTERNAL_DATA": 1,
+    "REQUIRES_SCIENTIFIC_REVIEW": 1,
+    "REQUIRES_PHYSICAL": 4,
+    "BLOCKED_EXTERNAL": 1,
+    "REQUIRES_RIGHTS_REVIEW": 2,
+    "REQUIRES_INSTITUTIONAL_PILOT": 1,
+    "FIXABLE_DIGITAL_OPEN": 1
+  },
+  "gates": [
+    {
+      "gate_id": "G0-V3_1-PREFLIGHT",
+      "product": "control-plane",
+      "requirement": "Post-salvage preconditions on origin/main",
+      "classification": "PASS_WITH_EVIDENCE",
+      "evidence_class": "CI",
+      "repository": "control-plane",
+      "commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact": "artifacts/acceptance/v3_1/CURRENT_MAIN_BASELINE.json",
+      "reason": "Anime #115+#116 MERGED; #106 CLOSED; PartyLink/Archive/Quartet ancestors verified; Portal #47 MERGED.",
+      "claim_boundary": "Does not authorize human/physical/release gates."
+    },
+    {
+      "gate_id": "G0-PR106-SALVAGE",
+      "product": "Anime Aggressors",
+      "requirement": "PR106 salvage disposition documented and forward-port on main",
+      "classification": "PASS_WITH_EVIDENCE",
+      "evidence_class": "CI",
+      "repository": "gunnchOS3k/anime-aggressors",
+      "commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact": "https://github.com/gunnchOS3k/anime-aggressors/pull/116",
+      "reason": "Forward-port #116 MERGED; legacy #106 CLOSED as superseded. Aura Clash runtime wiring remain parked (compat false by design).",
+      "claim_boundary": "Does not flip final authored animation / human combat feel / originality."
+    },
+    {
+      "gate_id": "G0-ANIME-WEB-BUILD",
+      "product": "Anime Aggressors",
+      "requirement": "apps/web CI after PartyLink module fix",
+      "classification": "PASS_WITH_EVIDENCE",
+      "evidence_class": "BUILD",
+      "repository": "gunnchOS3k/anime-aggressors",
+      "commit": "1dcbf7af4889ff52203f41cae2be0e0b93d011ca",
+      "artifact": "https://github.com/gunnchOS3k/anime-aggressors/pull/115",
+      "reason": "#115 MERGED to main; closes V3 FIXABLE Anime web failure.",
+      "claim_boundary": "Tip post-#116 CI still settling."
+    },
+    {
+      "gate_id": "G0-PP-GATE1-MAIN",
+      "product": "Pedestrian Pursuit",
+      "requirement": "Gate 1 post-merge integrity on current main",
+      "classification": "PASS_WITH_EVIDENCE",
+      "evidence_class": "CI",
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "commit": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "artifact": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38",
+      "reason": "PR #38 merged; godot-headless-no-false-green success on tip.",
+      "claim_boundary": "Draft only; not merged by Cursor.",
+      "draft_fix_pr": "https://github.com/gunnchOS3k/pedestrian-pursuit/pull/38"
+    },
+    {
+      "gate_id": "G0-PIXEL-EXACT-HEAD",
+      "product": "multi",
+      "requirement": "Exact-head Pixel install/smoke matrix",
+      "classification": "PASS_WITH_EVIDENCE",
+      "evidence_class": "PHYSICAL",
+      "repository": "control-plane",
+      "commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact": "artifacts/acceptance/v3_1/pixel/PIXEL_INSTALL_PROOF.json",
+      "reason": "Pixel connected; Anime+Pedestrian exact-head signer-safe install+launch PASS. Full multi-product matrix still incomplete (device-os/browser).",
+      "claim_boundary": "Does not claim Pixel validation."
+    },
+    {
+      "gate_id": "G2-ANIME-PARTY-HUMAN",
+      "product": "Anime Aggressors",
+      "requirement": "Party Mode usability/fun/controller/Arena human",
+      "classification": "REQUIRES_HUMAN",
+      "evidence_class": "HUMAN",
+      "repository": "gunnchOS3k/anime-aggressors",
+      "commit": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact": "docs/acceptance/v3_1/PIXEL_OWNER_TEST_SCRIPT.md",
+      "reason": "Required-false human gates; topology prepared for \u22652 humans.",
+      "claim_boundary": "Automation cannot certify fun/feel."
+    },
+    {
+      "gate_id": "G2-PP-PARTY-HUMAN",
+      "product": "Pedestrian Pursuit",
+      "requirement": "Party Race usability/fun/phone/Race Director human",
+      "classification": "REQUIRES_HUMAN",
+      "evidence_class": "HUMAN",
+      "repository": "gunnchOS3k/pedestrian-pursuit",
+      "commit": "9505edb6839f75c381054833d7f9989b77ca057b",
+      "artifact": "docs/acceptance/v3_1/PIXEL_OWNER_TEST_SCRIPT.md",
+      "reason": "Required-false human gates.",
+      "claim_boundary": "Automation cannot certify feel."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-28T21:54:22Z",
+  "owner_claimed_connected": true,
+  "pixel_connected": true,
+  "adb_authorized": true,
+  "adb_state": "device",
+  "model": "Pixel 6a",
+  "device_codename": "bluejay",
+  "android_release": "17",
+  "serial_redacted": true,
+  "serial_sha256_16": "6fb6d47ec6650fab",
+  "transport": "usb",
+  "result": "CONNECTED",
+  "installs_attempted": true,
+  "never_without_owner_approval": [
+    "adb uninstall",
+    "pm clear",
+    "factory reset",
+    "wipe",
+    "downgrade"
+  ]
+}

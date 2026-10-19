@@ -1,0 +1,20 @@
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+> archive-of-life-artifact-world@2.0.0 build
+> tsc --noEmit && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 66 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                 20.91 kB │ gzip:  4.41 kB
+dist/assets/index-BUMqT5TD.css                  44.27 kB │ gzip:  9.12 kB
+dist/assets/wave008ScientificDemo-WJw6OQ2-.js    7.87 kB │ gzip:  2.90 kB │ map:  20.46 kB
+dist/assets/index-DzvFhjGr.js                  224.07 kB │ gzip: 61.86 kB │ map: 580.60 kB
+✓ built in 1.27s
+npm notice
+npm notice New minor version of npm available! 11.6.0 -> 11.20.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.20.0
+npm notice To update run: npm install -g npm@11.20.0
+npm notice

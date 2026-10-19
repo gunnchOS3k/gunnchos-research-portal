@@ -1,0 +1,12 @@
+{
+  "captured_at_utc": "2026-09-28T22:16:50Z",
+  "model": "Pixel 6a",
+  "device": "bluejay",
+  "android_version": "17",
+  "product": "bluejay",
+  "transport": "usb",
+  "authorized": true,
+  "serial_sha256_16": "6fb6d47ec6650fab",
+  "adb_devices_ok": true,
+  "PIXEL_CONNECTED_PASS": true
+}

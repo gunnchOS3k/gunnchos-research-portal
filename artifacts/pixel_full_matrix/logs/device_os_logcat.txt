@@ -1,0 +1,40 @@
+09-28 17:25:08.459 18885 18885 W GUNNCH_CAPSULE_NAV: branding asset missing; temporary launcher mark in use
+09-28 17:25:08.495 18885 18885 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+09-28 17:25:08.495 18885 18885 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+09-28 17:25:08.495 18885 18885 I ContentCaptureHelper: Setting logging level to OFF
+09-28 17:25:08.505 18885 18959 D AudioSystem: onNewService: media.audio_policy service obtained 0xb40000773d22ccd0
+09-28 17:25:08.506 18885 18959 D AudioSystem: getService: IAudioPolicyService retrieved: 0xb40000773d22ccd0  cached: 0xb40000773d22ccd0
+09-28 17:25:08.506 18885 18885 D CompatChangeReporter: Compat change id reported: 349153669; UID 10030; state: ENABLED
+09-28 17:25:08.511 18885 18885 D InsetsController: Setting requestedVisibleTypes to 496 (was 503)
+09-28 17:25:08.537 18885 19009 I CameraManagerGlobal: Connecting to camera service
+09-28 17:25:08.542 18885 18885 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+09-28 17:25:08.542 18885 18885 I cr_PolicyProvider: #notifySettingsAvailable() 0
+09-28 17:25:08.542 18885 18885 I cr_CombinedPProvider: #onSettingsAvailable() 0
+09-28 17:25:08.542 18885 18885 I cr_CombinedPProvider: #flushPolicies()
+09-28 17:25:08.559 18885 18885 D VRI[CapsuleActivity]: WindowInsets changed: 1080x2400 statusBars:[0,132,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,164,0,84] 
+09-28 17:25:08.561 18885 18885 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.view.ViewRootImpl$$ExternalSyntheticLambda14@b194391
+09-28 17:25:08.562 18885 18885 I HWUI    : Using FreeType backend (prop=Auto)
+09-28 17:25:08.581 18885 18885 I Surface : Creating surface for consumer unnamed-18885-0 with slotExpansion=1 for 64 slots
+09-28 17:25:08.582 18885 18885 I Surface : Creating surface for consumer VRI[CapsuleActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+09-28 17:25:08.589 18885 18885 D VRI[CapsuleActivity]: WindowInsets changed: statusBars:null navigationBars:null 
+09-28 17:25:08.723 18885 18894 I s.capsule.debug: Compiler allocated 5303KB to compile void android.view.ViewRootImpl.performTraversals(long)
+09-28 17:25:08.795 18885 18885 I ContentCaptureHelper: Setting logging level to OFF
+09-28 17:25:08.825 18885 18885 I GUNNCH_CAPSULE_NAV: onPageStarted url=https://appassets.androidplatform.net/assets/shell/index.html
+09-28 17:25:08.848 18885 18885 D InsetsController: hide(ime())
+09-28 17:25:08.848 18885 18885 I ImeTracker: com.gunnchos.capsule.debug:1fb863e1: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+09-28 17:25:08.877 18885 18885 I GUNNCH_CAPSULE_NAV: onPageCommitVisible url=https://appassets.androidplatform.net/assets/shell/index.html
+09-28 17:25:08.980 18885 18885 I GUNNCH_CAPSULE_NAV: shell_boot_stage=JS_BUNDLE_STARTED
+09-28 17:25:08.982 18885 18885 I GUNNCH_CAPSULE_WEB: [40] GUNNCH_BOOT_STAGE JS_BUNDLE_STARTED (https://appassets.androidplatform.net/assets/shell/assets/index-D388kpUh.js)
+09-28 17:25:08.989 18885 18885 I GUNNCH_CAPSULE_NAV: onPageFinished url=https://appassets.androidplatform.net/assets/shell/index.html
+09-28 17:25:08.997 18885 18885 I GUNNCH_CAPSULE_WEB: [4] GUNNCH_HOST_INJECTED origin=https://appassets.androidplatform.net ()
+09-28 17:25:08.998 18885 18885 I GUNNCH_CAPSULE_WEB: [40] GUNNCH_BOOT_STAGE SESSION_LOADING (https://appassets.androidplatform.net/assets/shell/assets/index-D388kpUh.js)
+09-28 17:25:09.005 18885 18885 I GUNNCH_CAPSULE_NAV: shell_boot_stage=SESSION_LOADING
+09-28 17:25:09.030 18885 18885 E GUNNCH_CAPSULE_ERROR: onReceivedError main=false url=https://appassets.androidplatform.net/favicon.ico desc=net::ERR_NAME_NOT_RESOLVED
+09-28 17:25:09.046 18885 18885 I GUNNCH_CAPSULE_NAV: shell_boot_stage=REACT_ROOT_MOUNTED
+09-28 17:25:09.046 18885 18885 I GUNNCH_CAPSULE_WEB: [40] GUNNCH_BOOT_STAGE REACT_ROOT_MOUNTED (https://appassets.androidplatform.net/assets/shell/assets/index-D388kpUh.js)
+09-28 17:25:09.049 18885 18885 I GUNNCH_CAPSULE_NAV: shell_boot_stage=SHELL_READY
+09-28 17:25:09.052 18885 18885 I GUNNCH_CAPSULE_WEB: [40] GUNNCH_BOOT_STAGE SHELL_READY (https://appassets.androidplatform.net/assets/shell/assets/index-D388kpUh.js)
+09-28 17:25:09.066 18885 18885 I GUNNCH_CAPSULE_NAV: shell_ready — hiding overlay
+09-28 17:25:09.069 18885 19036 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.gunnchos.capsule.debug
+09-28 17:25:09.099 18885 18885 D VRI[CapsuleActivity]: WindowInsets changed: statusBars:[0,132,0,0] navigationBars:[0,0,0,63] 
+09-28 17:25:09.755 18885 18885 D VRI[CapsuleActivity]: visibilityChanged oldVisibility=true newVisibility=false

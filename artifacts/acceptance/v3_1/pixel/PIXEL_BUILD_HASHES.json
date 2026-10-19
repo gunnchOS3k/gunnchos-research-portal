@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-28T21:54:22Z",
+  "builds": [
+    {
+      "product": "Anime Aggressors",
+      "main_sha": "4b54b2c40b10c95e59077055eeba5bba2221bd30",
+      "artifact_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/anime/builds/android/anime-aggressors-debug.apk",
+      "artifact_sha256": "a6f7545e245c963109dcf1f196a50c222f66639f496bc8ba9c9003fa51a8501a",
+      "package_id": "com.gunnchos.animeaggressors",
+      "version_name": "0.3.7",
+      "version_code": 219,
+      "signer_cert_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "embedded_git_sha_verified_in_candidate": true,
+      "embedded_git_sha_verified_on_device": true,
+      "embedded_path_on_device": "assets/data/runtime/build_identity.json",
+      "install_result": "Success",
+      "launch_pid": "16615_then_relaunch",
+      "last_update_time_device": "2026-09-28 16:53:19"
+    },
+    {
+      "product": "Pedestrian Pursuit",
+      "main_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "artifact_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/pedestrian/build/android/pedestrian-pursuit-debug.apk",
+      "artifact_sha256": "a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd",
+      "package_id": "com.gunnchos.pedestrianpursuit",
+      "version_name": "0.4.3-race-experience-v3",
+      "version_code": 18,
+      "signer_cert_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "embedded_git_sha_verified_in_candidate": true,
+      "embedded_git_sha_verified_on_device": true,
+      "embedded_path_on_device": "assets/data/build_identity.json",
+      "install_result": "Success",
+      "launch_pid": "16747",
+      "last_update_time_device": "2026-09-28 16:53:25"
+    }
+  ]
+}

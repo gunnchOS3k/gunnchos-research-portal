@@ -1,0 +1,56 @@
+MLV HEAD=94cba498f7b6b4b78825af16d9ed403bdb617eaf
+Scope: all 3 workspace projects
+(node:62170) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +449
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 449, reused 449, downloaded 0, added 136
+Progress: resolved 449, reused 449, downloaded 0, added 448
+Progress: resolved 449, reused 449, downloaded 0, added 449, done
+
+devDependencies:
++ @electric-sql/pglite 0.3.16
++ @types/node 20.19.43
++ typescript 5.9.3
++ vite 5.4.21
+
+Done in 3s using pnpm v9.15.9
+
+> 3k-mlv@1.0.0 build /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv
+> pnpm --filter mlv-web build
+
+
+> mlv-web@0.0.0 build /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/mlv/apps/mlv-web
+> tsc && vite build
+
+vite v7.3.6 building client environment for production...
+transforming...
+✓ 682 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/registerSW.js                     0.15 kB
+dist/manifest.webmanifest              0.17 kB
+dist/index.html                        1.12 kB │ gzip:   0.46 kB
+dist/assets/campus-A19g4XQw.css        1.50 kB │ gzip:   0.74 kB
+dist/assets/index-dH_XKFLJ.css         1.95 kB │ gzip:   0.88 kB
+dist/assets/index-BVXciRKY.js         27.80 kB │ gzip:   8.82 kB
+dist/assets/campus-G8X0NRRv.js        96.09 kB │ gzip:  22.72 kB
+dist/assets/react-three-bhMuVXt9.js  169.60 kB │ gzip:  54.06 kB
+dist/assets/supabase-CznBku2g.js     217.40 kB │ gzip:  56.93 kB
+dist/assets/vendor-O71xd7Ui.js       355.54 kB │ gzip: 117.27 kB
+dist/assets/three-aUmQp_Et.js        718.49 kB │ gzip: 184.43 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.82s
+
+PWA v1.3.0
+mode      generateSW
+precache  12 entries (1553.84 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-dcde9eb3.js

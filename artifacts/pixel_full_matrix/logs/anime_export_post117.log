@@ -1,0 +1,1808 @@
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+> anime-aggressors@0.1.0 godot:export:android
+> node scripts/export-godot-android.mjs
+
+{
+  "repo": "gunnchOS3k/anime-aggressors",
+  "git_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+  "git_sha_short": "72e5dada4e55",
+  "ref": "HEAD",
+  "version_name": "0.3.7",
+  "version_code": 219,
+  "build_timestamp": "2026-09-28T22:27:50Z",
+  "build_flavor": "owner-review-debug",
+  "package_id": "com.gunnchos.animeaggressors",
+  "watermark": "AA 72e5dada4e55"
+}
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+WARNING: Scan thread aborted...
+     at: _notification (editor/file_system/editor_file_system.cpp:1757)
+Android Gradle template missing; installing from export templates.
+Godot Engine v4.7.1.stable.official.a13da4feb - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (246 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | AnnouncerVoiceProvider[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | CombatSfxResolver[39m[0m
+[   1% ] [90m[1mupdate_scripts_classes[22m | FighterAnnouncer[39m[0m
+[   1% ] [90m[1mupdate_scripts_classes[22m | ProceduralAudioBank[39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | BatchMatchHarness[39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   2% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   3% ] [90m[1mupdate_scripts_classes[22m | BattleSceneCpuEval[39m[0m
+[   3% ] [90m[1mupdate_scripts_classes[22m | BattleSim[39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | HazardItemRuntime[39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[   4% ] [90m[1mupdate_scripts_classes[22m | AuraIdentity[39m[0m
+[   5% ] [90m[1mupdate_scripts_classes[22m | AuraScaler[39m[0m
+[   5% ] [90m[1mupdate_scripts_classes[22m | AuraSpecialRuntime[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | AuraTierContract[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | CombatFeedback[39m[0m
+[   6% ] [90m[1mupdate_scripts_classes[22m | CombatMath[39m[0m
+[   7% ] [90m[1mupdate_scripts_classes[22m | CombatSpaceContract[39m[0m
+[   7% ] [90m[1mupdate_scripts_classes[22m | CompetitiveRules[39m[0m
+[   8% ] [90m[1mupdate_scripts_classes[22m | CriticalLaunchPredictor[39m[0m
+[   8% ] [90m[1mupdate_scripts_classes[22m | DirectionalHitReaction[39m[0m
+[   8% ] [90m[1mupdate_scripts_classes[22m | FighterDefinition[39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | FighterFacingContract[39m[0m
+[   9% ] [90m[1mupdate_scripts_classes[22m | FormDefinition[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | FrameDataTable[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | HitResolver[39m[0m
+[  10% ] [90m[1mupdate_scripts_classes[22m | MoveContentCatalog[39m[0m
+[  11% ] [90m[1mupdate_scripts_classes[22m | MoveExecutionHarness[39m[0m
+[  11% ] [90m[1mupdate_scripts_classes[22m | MoveRunner[39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | AAProjectile[39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | ProjectileSpawner[39m[0m
+[  12% ] [90m[1mupdate_scripts_classes[22m | ThrowResolver[39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | TransformPipeline[39m[0m
+[  13% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | ContentIntegrity[39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  15% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  16% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  16% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | CrossDeviceContractProvider[39m[0m
+[  17% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | DataLoader[39m[0m
+[  18% ] [90m[1mupdate_scripts_classes[22m | DebugHud[39m[0m
+[  19% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  19% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  19% ] [90m[1mupdate_scripts_classes[22m | CpuController[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | AAFighter[39m[0m
+[  20% ] [90m[1mupdate_scripts_classes[22m | FighterAnimator[39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | FighterCharacterLife[39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | FighterModel3D[39m[0m
+[  21% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  22% ] [90m[1mupdate_scripts_classes[22m | FighterStates[39m[0m
+[  22% ] [90m[1mupdate_scripts_classes[22m | FighterStateMachine[39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | ControllerWatchdog[39m[0m
+[  23% ] [90m[1mupdate_scripts_classes[22m | InputPersistenceService[39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  24% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  25% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  26% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  27% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  29% ] [90m[1mupdate_scripts_classes[22m | CharacterSelectFraming[39m[0m
+[  29% ] [90m[1mupdate_scripts_classes[22m | CharacterSelectShowcaseFlourish[39m[0m
+[  29% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  30% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  31% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  31% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  31% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  32% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  32% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  34% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  34% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  34% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  35% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  36% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  37% ] [90m[1mupdate_scripts_classes[22m | Wave020PresentationGates[39m[0m
+[  37% ] [90m[1mupdate_scripts_classes[22m | MotionContributionService[39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | MotionReviewService[39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | AntiTamper[39m[0m
+[  38% ] [90m[1mupdate_scripts_classes[22m | DisconnectPolicy[39m[0m
+[  39% ] [90m[1mupdate_scripts_classes[22m | MatchmakingDev[39m[0m
+[  39% ] [90m[1mupdate_scripts_classes[22m | NetworkSim[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | OnlineMatchmakingArchitecture[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | OnlineProtocol[39m[0m
+[  40% ] [90m[1mupdate_scripts_classes[22m | PrivateNetplayStack[39m[0m
+[  41% ] [90m[1mupdate_scripts_classes[22m | ReplayStore[39m[0m
+[  41% ] [90m[1mupdate_scripts_classes[22m | RollbackLatencyPolicy[39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | RollbackSessionGd[39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | OnlineSessionState[39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | TournamentRooms[39m[0m
+[  43% ] [90m[1mupdate_scripts_classes[22m | ConsolePlatformBridge[39m[0m
+[  43% ] [90m[1mupdate_scripts_classes[22m | PlatformServices[39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  44% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  45% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  46% ] [90m[1mupdate_scripts_classes[22m | TrainingMoveBrowser[39m[0m
+[  47% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  47% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  48% ] [90m[1mupdate_scripts_classes[22m | BattleHudPanel[39m[0m
+[  49% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  49% ] [90m[1mupdate_scripts_classes[22m | ConsoleMenuBase[39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  50% ] [90m[1mupdate_scripts_classes[22m | FighterCardPortrait[39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  51% ] [90m[1mupdate_scripts_classes[22m | LockinNameCallout[39m[0m
+[  52% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  52% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  53% ] [90m[1mupdate_scripts_classes[22m | AnimationEventBridge[39m[0m
+[  54% ] [90m[1mupdate_scripts_classes[22m | ArtDirectionContract[39m[0m
+[  54% ] [90m[1mupdate_scripts_classes[22m | ArtSourceReviewOverlay[39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | CriticalLaunchCue[39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | ElementalMaterialContract[39m[0m
+[  55% ] [90m[1mupdate_scripts_classes[22m | ElementalParticleLibrary[39m[0m
+[  56% ] [90m[1mupdate_scripts_classes[22m | ElementalVfxFamily[39m[0m
+[  56% ] [90m[1mupdate_scripts_classes[22m | FighterAnimationController[39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | FighterAssetResolver[39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | FighterMaterialController[39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | FighterPresentationCache[39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | GeometryAutoFit[39m[0m
+[  58% ] [90m[1mupdate_scripts_classes[22m | LaunchTrailSystem[39m[0m
+[  59% ] [90m[1mupdate_scripts_classes[22m | MoveVfxDirector[39m[0m
+[  59% ] [90m[1mupdate_scripts_classes[22m | PresentationContext[39m[0m
+[  59% ] [90m[1mupdate_scripts_classes[22m | ProceduralBoneMap[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | RuntimeMoveResolver[39m[0m
+[  60% ] [90m[1mupdate_scripts_classes[22m | SignatureMovePresentation[39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | SignatureNameRegistry[39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | Vxp2AccessibilityChrome[39m[0m
+[  61% ] [90m[1mupdate_scripts_classes[22m | Vxp2Brand[39m[0m
+[  62% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  62% ] [90m[1mupdate_scripts_classes[22m | Vxp2GlyphStrip[39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  63% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  64% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  65% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  65% ] [90m[1mupdate_scripts_classes[22m | Wave011EvidenceCommon[39m[0m
+[  65% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  66% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  67% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  67% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  68% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  68% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  68% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  69% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  70% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  72% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  73% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  74% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  74% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  74% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  75% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  76% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  77% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  77% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  78% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  79% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  79% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  80% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  81% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  82% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  83% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  84% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  85% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  86% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  87% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  88% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  89% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  90% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  91% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  92% ] [90m[1mupdate_scripts_classes[22m | SmokeAnimeAlphaExit[39m[0m
+[  92% ] [90m[1mupdate_scripts_classes[22m | SmokeAnimeBetaContent[39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | SmokeAnimeDigitalRc[39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | SmokeAssert[39m[0m
+[  93% ] [90m[1mupdate_scripts_classes[22m | SmokeBattleScene[39m[0m
+[  94% ] [90m[1mupdate_scripts_classes[22m | SmokeBoot[39m[0m
+[  94% ] [90m[1mupdate_scripts_classes[22m | SmokeCombatDepth[39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | SmokeDataLoad[39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | SmokeDeviceA11yTelemetry[39m[0m
+[  95% ] [90m[1mupdate_scripts_classes[22m | SmokeFighterScene[39m[0m
+[  96% ] [90m[1mupdate_scripts_classes[22m | SmokeGameRcAchievements[39m[0m
+[  96% ] [90m[1mupdate_scripts_classes[22m | SmokeMatchLoop[39m[0m
+[  97% ] [90m[1mupdate_scripts_classes[22m | SmokeReleaseMode[39m[0m
+[  97% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  97% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  98% ] [90m[1mupdate_scripts_classes[22m | SmokeTrainingScene[39m[0m
+[  98% ] [90m[1mupdate_scripts_classes[22m | SmokeWaveD2AlphaExit[39m[0m
+[  99% ] [90m[1mupdate_scripts_classes[22m | SmokeWaveDAlpha[39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1m_update_scan_actions[22m | Started Scanning actions... (324 steps)[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | name_motif_ember-vale.wav[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | name_motif_juno-spark.wav[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | name_motif_kaia-windrow.wav[39m[0m
+[   0% ] [90m[1m_update_scan_actions[22m | name_motif_nix-calder.wav[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | name_motif_orion-vell.wav[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | name_motif_rook-ironside.wav[39m[0m
+[   1% ] [90m[1m_update_scan_actions[22m | name_motif_vesper-nyx.wav[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | launch_critical_ember-vale.wav[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | launch_critical_juno-spark.wav[39m[0m
+[   2% ] [90m[1m_update_scan_actions[22m | launch_critical_kaia-windrow.wav[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | launch_critical_nix-calder.wav[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | launch_critical_orion-vell.wav[39m[0m
+[   3% ] [90m[1m_update_scan_actions[22m | launch_critical_rook-ironside.wav[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | launch_critical_vesper-nyx.wav[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[   4% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[   5% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[   6% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[   7% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[   8% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[   9% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  10% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[  11% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[  12% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[  13% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[  14% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[  15% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[  16% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  17% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[  18% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[  19% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[  20% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[  21% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[  22% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[  23% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  24% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[  25% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[  26% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[  27% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[  28% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[  29% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[  30% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  31% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[  32% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[  33% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[  34% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[  35% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[  36% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[  37% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  38% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  39% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[  40% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[  41% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[  42% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[  43% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[  44% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  45% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  46% ] [90m[1m_update_scan_actions[22m | aura_burst.wav[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | aura_charge.wav[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | dash_attack.wav[39m[0m
+[  47% ] [90m[1m_update_scan_actions[22m | down_air.wav[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | down_special.wav[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | down_tilt.wav[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | forward_air.wav[39m[0m
+[  48% ] [90m[1m_update_scan_actions[22m | forward_tilt.wav[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | grab.wav[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | heavy_attack.wav[39m[0m
+[  49% ] [90m[1m_update_scan_actions[22m | jab_1.wav[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | jab_2.wav[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | jab_finisher.wav[39m[0m
+[  50% ] [90m[1m_update_scan_actions[22m | neutral_air.wav[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | neutral_special_projectile.wav[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | side_special.wav[39m[0m
+[  51% ] [90m[1m_update_scan_actions[22m | throw_back.wav[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | throw_down.wav[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | throw_forward.wav[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | throw_up.wav[39m[0m
+[  52% ] [90m[1m_update_scan_actions[22m | up_air.wav[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | up_special_recovery.wav[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | up_tilt.wav[39m[0m
+[  53% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  54% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  55% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  56% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  57% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  58% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  59% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  60% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  61% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  62% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  63% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  64% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  65% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  66% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  67% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  68% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  69% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | signature.wav[39m[0m
+[  70% ] [90m[1m_update_scan_actions[22m | vo_short.wav[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | charge.wav[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | defense.wav[39m[0m
+[  71% ] [90m[1m_update_scan_actions[22m | hit.wav[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | ko.wav[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | launch_critical.wav[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | launch_high.wav[39m[0m
+[  72% ] [90m[1m_update_scan_actions[22m | lockin_stinger.wav[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | move.wav[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | projectile.wav[39m[0m
+[  73% ] [90m[1m_update_scan_actions[22m | ui_back.wav[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | ui_confirm.wav[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | ui_select.wav[39m[0m
+[  74% ] [90m[1m_update_scan_actions[22m | bed.wav[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | bed.wav[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | bed.wav[39m[0m
+[  75% ] [90m[1m_update_scan_actions[22m | bed.wav[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | bed.wav[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | bed.wav[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | glyph_back.png[39m[0m
+[  76% ] [90m[1m_update_scan_actions[22m | glyph_back.svg[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | glyph_confirm.png[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | glyph_confirm.svg[39m[0m
+[  77% ] [90m[1m_update_scan_actions[22m | glyph_fight.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | glyph_fight.svg[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | glyph_menu.png[39m[0m
+[  78% ] [90m[1m_update_scan_actions[22m | glyph_menu.svg[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | glyph_touch.png[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | glyph_touch.svg[39m[0m
+[  79% ] [90m[1m_update_scan_actions[22m | aa_hero_backdrop.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | aa_hero_backdrop.svg[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | aa_seal.png[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | aa_seal.svg[39m[0m
+[  80% ] [90m[1m_update_scan_actions[22m | aa_seal_128.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | aa_seal_256.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | aa_wordmark.png[39m[0m
+[  81% ] [90m[1m_update_scan_actions[22m | aa_wordmark.svg[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | aa_wordmark_960.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | launcher-icon.png[39m[0m
+[  82% ] [90m[1m_update_scan_actions[22m | splash-icon.png[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  83% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  84% ] [90m[1m_update_scan_actions[22m | pipeline_proof.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | ember-vale.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | juno-spark.glb[39m[0m
+[  85% ] [90m[1m_update_scan_actions[22m | kaia-windrow.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | nix-calder.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | orion-vell.glb[39m[0m
+[  86% ] [90m[1m_update_scan_actions[22m | rook-ironside.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | vesper-nyx.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | ember-vale.glb[39m[0m
+[  87% ] [90m[1m_update_scan_actions[22m | juno-spark.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | kaia-windrow.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | nix-calder.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | orion-vell.glb[39m[0m
+[  88% ] [90m[1m_update_scan_actions[22m | rook-ironside.glb[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | vesper-nyx.glb[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | stage_cascade-foundry.svg[39m[0m
+[  89% ] [90m[1m_update_scan_actions[22m | stage_ember-courtyard.svg[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | stage_void-pier.svg[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | cascade-foundry.svg[39m[0m
+[  90% ] [90m[1m_update_scan_actions[22m | ember-courtyard.svg[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | neon-rooftops.svg[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | skyline-arena.svg[39m[0m
+[  91% ] [90m[1m_update_scan_actions[22m | training-grid.svg[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | void-pier.svg[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | ember-vale_procedural_proxy.glb[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | juno-spark_procedural_proxy.glb[39m[0m
+[  92% ] [90m[1m_update_scan_actions[22m | kaia-windrow_procedural_proxy.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | nix-calder_procedural_proxy.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | orion-vell_procedural_proxy.glb[39m[0m
+[  93% ] [90m[1m_update_scan_actions[22m | rook-ironside_procedural_proxy.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | vesper-nyx_procedural_proxy.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | ember-vale.glb[39m[0m
+[  94% ] [90m[1m_update_scan_actions[22m | ember-vale_mage_texture.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | juno-spark.glb[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | juno-spark_rogue_texture.png[39m[0m
+[  95% ] [90m[1m_update_scan_actions[22m | kaia-windrow.glb[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | kaia-windrow_rogue_texture.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | nix-calder.glb[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | nix-calder_skeleton_texture.png[39m[0m
+[  96% ] [90m[1m_update_scan_actions[22m | orion-vell.glb[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | orion-vell_knight_texture.png[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | rook-ironside.glb[39m[0m
+[  97% ] [90m[1m_update_scan_actions[22m | rook-ironside_barbarian_texture.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | vesper-nyx.glb[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | vesper-nyx_skeleton_texture.png[39m[0m
+[  98% ] [90m[1m_update_scan_actions[22m | export_icon.png[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | icon.png[39m[0m
+[  99% ] [90m[1m_update_scan_actions[22m | icon.svg[39m[0m
+[92m[ DONE ][39m [1m_update_scan_actions[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (324 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   1% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   2% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   3% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   4% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   5% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   6% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   7% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   8% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   9% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  10% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  11% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  12% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  13% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  14% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  15% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  16% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  17% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  18% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  19% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  20% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  21% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  22% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  23% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  24% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  25% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  26% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  27% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  28% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  29% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  30% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  31% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  32% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  33% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  34% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  35% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  36% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  37% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  38% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  39% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  40% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  41% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  42% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  43% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  44% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  45% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  46% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  47% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  48% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  49% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  50% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  51% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  52% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  53% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  54% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  55% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  56% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  57% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  58% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  59% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  60% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  61% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  62% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  63% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  64% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  65% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  66% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  67% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  68% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  69% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  70% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  71% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  72% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  73% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  74% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  75% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  76% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  77% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  78% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  79% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  80% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  81% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  82% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  83% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  84% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  85% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  86% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  87% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  88% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  89% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  90% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  91% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  92% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  93% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  94% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  95% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  96% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  97% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  98% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  99% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[  99% ] [90m[1mreimport[22m | Preparing files to reimport...[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing pre-reimport operations...[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Started Preparing scenes for reload (1 steps)[39m[0m
+[   0% ] [90m[1mpreload_reimporting_scene[22m | Analyzing scene [empty][39m[0m
+[  50% ] [90m[1mpreload_reimporting_scene[22m | Preparation done.[39m[0m
+[92m[ DONE ][39m [1mpreload_reimporting_scene[22m
+[0m
+[   0% ] [90m[1mreimport[22m | launcher-icon.png[39m[0m
+[   0% ] [90m[1mreimport[22m | aa_wordmark_960.png[39m[0m
+[   0% ] [90m[1mreimport[22m | aa_wordmark.svg[39m[0m
+[   0% ] [90m[1mreimport[22m | aa_wordmark.png[39m[0m
+[   1% ] [90m[1mreimport[22m | aa_seal_256.png[39m[0m
+[   1% ] [90m[1mreimport[22m | aa_seal_128.png[39m[0m
+[   1% ] [90m[1mreimport[22m | aa_seal.svg[39m[0m
+[   2% ] [90m[1mreimport[22m | aa_seal.png[39m[0m
+[   2% ] [90m[1mreimport[22m | aa_hero_backdrop.svg[39m[0m
+[   2% ] [90m[1mreimport[22m | aa_hero_backdrop.png[39m[0m
+[   3% ] [90m[1mreimport[22m | glyph_touch.svg[39m[0m
+[   3% ] [90m[1mreimport[22m | glyph_touch.png[39m[0m
+[   3% ] [90m[1mreimport[22m | glyph_menu.svg[39m[0m
+[   4% ] [90m[1mreimport[22m | glyph_menu.png[39m[0m
+[   4% ] [90m[1mreimport[22m | glyph_fight.svg[39m[0m
+[   4% ] [90m[1mreimport[22m | glyph_fight.png[39m[0m
+[   4% ] [90m[1mreimport[22m | glyph_confirm.svg[39m[0m
+[   5% ] [90m[1mreimport[22m | glyph_confirm.png[39m[0m
+[   5% ] [90m[1mreimport[22m | glyph_back.svg[39m[0m
+[   5% ] [90m[1mreimport[22m | glyph_back.png[39m[0m
+[   6% ] [90m[1mreimport[22m | icon.svg[39m[0m
+[   6% ] [90m[1mreimport[22m | icon.png[39m[0m
+[   6% ] [90m[1mreimport[22m | export_icon.png[39m[0m
+[   7% ] [90m[1mreimport[22m | vesper-nyx_skeleton_texture.png[39m[0m
+[   7% ] [90m[1mreimport[22m | rook-ironside_barbarian_texture.png[39m[0m
+[   7% ] [90m[1mreimport[22m | orion-vell_knight_texture.png[39m[0m
+[   8% ] [90m[1mreimport[22m | nix-calder_skeleton_texture.png[39m[0m
+[   8% ] [90m[1mreimport[22m | kaia-windrow_rogue_texture.png[39m[0m
+[   8% ] [90m[1mreimport[22m | juno-spark_rogue_texture.png[39m[0m
+[   8% ] [90m[1mreimport[22m | ember-vale_mage_texture.png[39m[0m
+[   9% ] [90m[1mreimport[22m | void-pier.svg[39m[0m
+[   9% ] [90m[1mreimport[22m | training-grid.svg[39m[0m
+[   9% ] [90m[1mreimport[22m | skyline-arena.svg[39m[0m
+[  10% ] [90m[1mreimport[22m | neon-rooftops.svg[39m[0m
+[  10% ] [90m[1mreimport[22m | ember-courtyard.svg[39m[0m
+[  10% ] [90m[1mreimport[22m | cascade-foundry.svg[39m[0m
+[  11% ] [90m[1mreimport[22m | stage_void-pier.svg[39m[0m
+[  11% ] [90m[1mreimport[22m | stage_ember-courtyard.svg[39m[0m
+[  11% ] [90m[1mreimport[22m | stage_cascade-foundry.svg[39m[0m
+[  12% ] [90m[1mreimport[22m | splash-icon.png[39m[0m
+[  12% ] [90m[1mreimport[22m | launcher-icon.png[39m[0m
+[  12% ] [90m[1mreimport[22m | aa_wordmark_960.png[39m[0m
+[  12% ] [90m[1mreimport[22m | aa_wordmark.svg[39m[0m
+[  13% ] [90m[1mreimport[22m | aa_wordmark.png[39m[0m
+[  13% ] [90m[1mreimport[22m | aa_seal_256.png[39m[0m
+[  13% ] [90m[1mreimport[22m | aa_seal_128.png[39m[0m
+[  14% ] [90m[1mreimport[22m | aa_seal.svg[39m[0m
+[  14% ] [90m[1mreimport[22m | aa_seal.png[39m[0m
+[  14% ] [90m[1mreimport[22m | aa_hero_backdrop.svg[39m[0m
+[  15% ] [90m[1mreimport[22m | aa_hero_backdrop.png[39m[0m
+[  15% ] [90m[1mreimport[22m | glyph_touch.svg[39m[0m
+[  15% ] [90m[1mreimport[22m | glyph_touch.png[39m[0m
+[  16% ] [90m[1mreimport[22m | glyph_menu.svg[39m[0m
+[  16% ] [90m[1mreimport[22m | glyph_menu.png[39m[0m
+[  16% ] [90m[1mreimport[22m | glyph_fight.svg[39m[0m
+[  16% ] [90m[1mreimport[22m | glyph_fight.png[39m[0m
+[  17% ] [90m[1mreimport[22m | glyph_confirm.svg[39m[0m
+[  17% ] [90m[1mreimport[22m | glyph_confirm.png[39m[0m
+[  17% ] [90m[1mreimport[22m | glyph_back.svg[39m[0m
+[  18% ] [90m[1mreimport[22m | glyph_back.png[39m[0m
+[  18% ] [90m[1mreimport[22m | icon.svg[39m[0m
+[  18% ] [90m[1mreimport[22m | icon.png[39m[0m
+[  19% ] [90m[1mreimport[22m | export_icon.png[39m[0m
+[  19% ] [90m[1mreimport[22m | vesper-nyx_skeleton_texture.png[39m[0m
+[  19% ] [90m[1mreimport[22m | rook-ironside_barbarian_texture.png[39m[0m
+[  20% ] [90m[1mreimport[22m | orion-vell_knight_texture.png[39m[0m
+[  20% ] [90m[1mreimport[22m | nix-calder_skeleton_texture.png[39m[0m
+[  20% ] [90m[1mreimport[22m | kaia-windrow_rogue_texture.png[39m[0m
+[  20% ] [90m[1mreimport[22m | juno-spark_rogue_texture.png[39m[0m
+[  21% ] [90m[1mreimport[22m | ember-vale_mage_texture.png[39m[0m
+[  21% ] [90m[1mreimport[22m | void-pier.svg[39m[0m
+[  21% ] [90m[1mreimport[22m | training-grid.svg[39m[0m
+[  22% ] [90m[1mreimport[22m | skyline-arena.svg[39m[0m
+[  22% ] [90m[1mreimport[22m | neon-rooftops.svg[39m[0m
+[  22% ] [90m[1mreimport[22m | ember-courtyard.svg[39m[0m
+[  23% ] [90m[1mreimport[22m | cascade-foundry.svg[39m[0m
+[  23% ] [90m[1mreimport[22m | stage_void-pier.svg[39m[0m
+[  23% ] [90m[1mreimport[22m | stage_ember-courtyard.svg[39m[0m
+[  24% ] [90m[1mreimport[22m | stage_cascade-foundry.svg[39m[0m
+[  24% ] [90m[1mreimport[22m | splash-icon.png[39m[0m
+[  24% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  24% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  25% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  25% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  25% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  26% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  26% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  26% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  27% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  27% ] [90m[1mreimport[22m | up_tilt.wav[39m[0m
+[  27% ] [90m[1mreimport[22m | up_special_recovery.wav[39m[0m
+[  28% ] [90m[1mreimport[22m | up_air.wav[39m[0m
+[  28% ] [90m[1mreimport[22m | throw_up.wav[39m[0m
+[  28% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  28% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  29% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  29% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  29% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  30% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  30% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  30% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  31% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  31% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  31% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  32% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  32% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  32% ] [90m[1mreimport[22m | throw_back.wav[39m[0m
+[  32% ] [90m[1mreimport[22m | throw_down.wav[39m[0m
+[  33% ] [90m[1mreimport[22m | throw_forward.wav[39m[0m
+[  33% ] [90m[1mreimport[22m | throw_up.wav[39m[0m
+[  33% ] [90m[1mreimport[22m | up_air.wav[39m[0m
+[  34% ] [90m[1mreimport[22m | up_special_recovery.wav[39m[0m
+[  34% ] [90m[1mreimport[22m | up_tilt.wav[39m[0m
+[  34% ] [90m[1mreimport[22m | aura_burst.wav[39m[0m
+[  35% ] [90m[1mreimport[22m | aura_charge.wav[39m[0m
+[  35% ] [90m[1mreimport[22m | dash_attack.wav[39m[0m
+[  35% ] [90m[1mreimport[22m | down_air.wav[39m[0m
+[  36% ] [90m[1mreimport[22m | down_special.wav[39m[0m
+[  36% ] [90m[1mreimport[22m | down_tilt.wav[39m[0m
+[  36% ] [90m[1mreimport[22m | forward_air.wav[39m[0m
+[  36% ] [90m[1mreimport[22m | forward_tilt.wav[39m[0m
+[  37% ] [90m[1mreimport[22m | grab.wav[39m[0m
+[  37% ] [90m[1mreimport[22m | heavy_attack.wav[39m[0m
+[  37% ] [90m[1mreimport[22m | jab_1.wav[39m[0m
+[  38% ] [90m[1mreimport[22m | jab_2.wav[39m[0m
+[  38% ] [90m[1mreimport[22m | jab_finisher.wav[39m[0m
+[  38% ] [90m[1mreimport[22m | neutral_air.wav[39m[0m
+[  39% ] [90m[1mreimport[22m | neutral_special_projectile.wav[39m[0m
+[  39% ] [90m[1mreimport[22m | side_special.wav[39m[0m
+[  39% ] [90m[1mreimport[22m | throw_back.wav[39m[0m
+[  40% ] [90m[1mreimport[22m | throw_down.wav[39m[0m
+[  40% ] [90m[1mreimport[22m | throw_forward.wav[39m[0m
+[  40% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  40% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  41% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  41% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  41% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  42% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  42% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  42% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  43% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  43% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  43% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  44% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  44% ] [90m[1mreimport[22m | launch_critical.wav[39m[0m
+[  44% ] [90m[1mreimport[22m | launch_high.wav[39m[0m
+[  44% ] [90m[1mreimport[22m | lockin_stinger.wav[39m[0m
+[  45% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  45% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  45% ] [90m[1mreimport[22m | ui_back.wav[39m[0m
+[  46% ] [90m[1mreimport[22m | ui_confirm.wav[39m[0m
+[  46% ] [90m[1mreimport[22m | ui_select.wav[39m[0m
+[  46% ] [90m[1mreimport[22m | bed.wav[39m[0m
+[  47% ] [90m[1mreimport[22m | bed.wav[39m[0m
+[  47% ] [90m[1mreimport[22m | bed.wav[39m[0m
+[  47% ] [90m[1mreimport[22m | bed.wav[39m[0m
+[  48% ] [90m[1mreimport[22m | bed.wav[39m[0m
+[  48% ] [90m[1mreimport[22m | bed.wav[39m[0m
+[  48% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  48% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  49% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  49% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  49% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  50% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  50% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  50% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  51% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  51% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  51% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  52% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  52% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  52% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  52% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  53% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  53% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  53% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  54% ] [90m[1mreimport[22m | charge.wav[39m[0m
+[  54% ] [90m[1mreimport[22m | defense.wav[39m[0m
+[  54% ] [90m[1mreimport[22m | hit.wav[39m[0m
+[  55% ] [90m[1mreimport[22m | ko.wav[39m[0m
+[  55% ] [90m[1mreimport[22m | move.wav[39m[0m
+[  55% ] [90m[1mreimport[22m | projectile.wav[39m[0m
+[  56% ] [90m[1mreimport[22m | signature.wav[39m[0m
+[  56% ] [90m[1mreimport[22m | vo_short.wav[39m[0m
+[  56% ] [90m[1mreimport[22m | throw_back.wav[39m[0m
+[  56% ] [90m[1mreimport[22m | side_special.wav[39m[0m
+[  57% ] [90m[1mreimport[22m | neutral_special_projectile.wav[39m[0m
+[  57% ] [90m[1mreimport[22m | neutral_air.wav[39m[0m
+[  57% ] [90m[1mreimport[22m | jab_finisher.wav[39m[0m
+[  58% ] [90m[1mreimport[22m | jab_2.wav[39m[0m
+[  58% ] [90m[1mreimport[22m | jab_1.wav[39m[0m
+[  58% ] [90m[1mreimport[22m | heavy_attack.wav[39m[0m
+[  59% ] [90m[1mreimport[22m | grab.wav[39m[0m
+[  59% ] [90m[1mreimport[22m | forward_tilt.wav[39m[0m
+[  59% ] [90m[1mreimport[22m | forward_air.wav[39m[0m
+[  60% ] [90m[1mreimport[22m | down_tilt.wav[39m[0m
+[  60% ] [90m[1mreimport[22m | down_special.wav[39m[0m
+[  60% ] [90m[1mreimport[22m | down_air.wav[39m[0m
+[  60% ] [90m[1mreimport[22m | dash_attack.wav[39m[0m
+[  61% ] [90m[1mreimport[22m | aura_charge.wav[39m[0m
+[  61% ] [90m[1mreimport[22m | aura_burst.wav[39m[0m
+[  61% ] [90m[1mreimport[22m | up_tilt.wav[39m[0m
+[  62% ] [90m[1mreimport[22m | jab_2.wav[39m[0m
+[  62% ] [90m[1mreimport[22m | jab_1.wav[39m[0m
+[  62% ] [90m[1mreimport[22m | heavy_attack.wav[39m[0m
+[  63% ] [90m[1mreimport[22m | grab.wav[39m[0m
+[  63% ] [90m[1mreimport[22m | forward_tilt.wav[39m[0m
+[  63% ] [90m[1mreimport[22m | forward_air.wav[39m[0m
+[  64% ] [90m[1mreimport[22m | down_tilt.wav[39m[0m
+[  64% ] [90m[1mreimport[22m | down_special.wav[39m[0m
+[  64% ] [90m[1mreimport[22m | down_air.wav[39m[0m
+[  64% ] [90m[1mreimport[22m | dash_attack.wav[39m[0m
+[  65% ] [90m[1mreimport[22m | aura_charge.wav[39m[0m
+[  65% ] [90m[1mreimport[22m | aura_burst.wav[39m[0m
+[  65% ] [90m[1mreimport[22m | up_tilt.wav[39m[0m
+[  66% ] [90m[1mreimport[22m | up_special_recovery.wav[39m[0m
+[  66% ] [90m[1mreimport[22m | up_air.wav[39m[0m
+[  66% ] [90m[1mreimport[22m | throw_up.wav[39m[0m
+[  67% ] [90m[1mreimport[22m | throw_forward.wav[39m[0m
+[  67% ] [90m[1mreimport[22m | throw_down.wav[39m[0m
+[  67% ] [90m[1mreimport[22m | down_air.wav[39m[0m
+[  68% ] [90m[1mreimport[22m | dash_attack.wav[39m[0m
+[  68% ] [90m[1mreimport[22m | aura_charge.wav[39m[0m
+[  68% ] [90m[1mreimport[22m | aura_burst.wav[39m[0m
+[  68% ] [90m[1mreimport[22m | launch_critical_vesper-nyx.wav[39m[0m
+[  69% ] [90m[1mreimport[22m | launch_critical_rook-ironside.wav[39m[0m
+[  69% ] [90m[1mreimport[22m | launch_critical_orion-vell.wav[39m[0m
+[  69% ] [90m[1mreimport[22m | launch_critical_nix-calder.wav[39m[0m
+[  70% ] [90m[1mreimport[22m | launch_critical_kaia-windrow.wav[39m[0m
+[  70% ] [90m[1mreimport[22m | launch_critical_juno-spark.wav[39m[0m
+[  70% ] [90m[1mreimport[22m | launch_critical_ember-vale.wav[39m[0m
+[  71% ] [90m[1mreimport[22m | name_motif_vesper-nyx.wav[39m[0m
+[  71% ] [90m[1mreimport[22m | name_motif_rook-ironside.wav[39m[0m
+[  71% ] [90m[1mreimport[22m | name_motif_orion-vell.wav[39m[0m
+[  72% ] [90m[1mreimport[22m | name_motif_nix-calder.wav[39m[0m
+[  72% ] [90m[1mreimport[22m | name_motif_kaia-windrow.wav[39m[0m
+[  72% ] [90m[1mreimport[22m | name_motif_juno-spark.wav[39m[0m
+[  72% ] [90m[1mreimport[22m | name_motif_ember-vale.wav[39m[0m
+[  73% ] [90m[1mreimport[22m | up_special_recovery.wav[39m[0m
+[  73% ] [90m[1mreimport[22m | up_air.wav[39m[0m
+[  73% ] [90m[1mreimport[22m | throw_up.wav[39m[0m
+[  74% ] [90m[1mreimport[22m | throw_forward.wav[39m[0m
+[  74% ] [90m[1mreimport[22m | throw_down.wav[39m[0m
+[  74% ] [90m[1mreimport[22m | throw_back.wav[39m[0m
+[  75% ] [90m[1mreimport[22m | side_special.wav[39m[0m
+[  75% ] [90m[1mreimport[22m | neutral_special_projectile.wav[39m[0m
+[  75% ] [90m[1mreimport[22m | neutral_air.wav[39m[0m
+[  76% ] [90m[1mreimport[22m | jab_finisher.wav[39m[0m
+[  76% ] [90m[1mreimport[22m | jab_2.wav[39m[0m
+[  76% ] [90m[1mreimport[22m | jab_1.wav[39m[0m
+[  76% ] [90m[1mreimport[22m | heavy_attack.wav[39m[0m
+[  77% ] [90m[1mreimport[22m | grab.wav[39m[0m
+[  77% ] [90m[1mreimport[22m | forward_tilt.wav[39m[0m
+[  77% ] [90m[1mreimport[22m | forward_air.wav[39m[0m
+[  78% ] [90m[1mreimport[22m | down_tilt.wav[39m[0m
+[  78% ] [90m[1mreimport[22m | down_special.wav[39m[0m
+[  78% ] [90m[1mreimport[22m | up_air.wav[39m[0m
+[  79% ] [90m[1mreimport[22m | throw_up.wav[39m[0m
+[  79% ] [90m[1mreimport[22m | throw_forward.wav[39m[0m
+[  79% ] [90m[1mreimport[22m | throw_down.wav[39m[0m
+[  80% ] [90m[1mreimport[22m | throw_back.wav[39m[0m
+[  80% ] [90m[1mreimport[22m | side_special.wav[39m[0m
+[  80% ] [90m[1mreimport[22m | neutral_special_projectile.wav[39m[0m
+[  80% ] [90m[1mreimport[22m | neutral_air.wav[39m[0m
+[  81% ] [90m[1mreimport[22m | jab_finisher.wav[39m[0m
+[  81% ] [90m[1mreimport[22m | jab_2.wav[39m[0m
+[  81% ] [90m[1mreimport[22m | jab_1.wav[39m[0m
+[  82% ] [90m[1mreimport[22m | heavy_attack.wav[39m[0m
+[  82% ] [90m[1mreimport[22m | grab.wav[39m[0m
+[  82% ] [90m[1mreimport[22m | forward_tilt.wav[39m[0m
+[  83% ] [90m[1mreimport[22m | forward_air.wav[39m[0m
+[  83% ] [90m[1mreimport[22m | down_tilt.wav[39m[0m
+[  83% ] [90m[1mreimport[22m | down_special.wav[39m[0m
+[  84% ] [90m[1mreimport[22m | down_air.wav[39m[0m
+[  84% ] [90m[1mreimport[22m | side_special.wav[39m[0m
+[  84% ] [90m[1mreimport[22m | neutral_special_projectile.wav[39m[0m
+[  84% ] [90m[1mreimport[22m | neutral_air.wav[39m[0m
+[  85% ] [90m[1mreimport[22m | jab_finisher.wav[39m[0m
+[  85% ] [90m[1mreimport[22m | jab_2.wav[39m[0m
+[  85% ] [90m[1mreimport[22m | jab_1.wav[39m[0m
+[  86% ] [90m[1mreimport[22m | heavy_attack.wav[39m[0m
+[  86% ] [90m[1mreimport[22m | grab.wav[39m[0m
+[  86% ] [90m[1mreimport[22m | forward_tilt.wav[39m[0m
+[  87% ] [90m[1mreimport[22m | forward_air.wav[39m[0m
+[  87% ] [90m[1mreimport[22m | down_tilt.wav[39m[0m
+[  87% ] [90m[1mreimport[22m | down_special.wav[39m[0m
+[  88% ] [90m[1mreimport[22m | down_air.wav[39m[0m
+[  88% ] [90m[1mreimport[22m | dash_attack.wav[39m[0m
+[  88% ] [90m[1mreimport[22m | aura_charge.wav[39m[0m
+[  88% ] [90m[1mreimport[22m | ember-vale.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  89% ] [90m[1mreimport[22m | nix-calder.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  89% ] [90m[1mreimport[22m | juno-spark.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  89% ] [90m[1mreimport[22m | kaia-windrow.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | kaia-windrow.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | juno-spark.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  90% ] [90m[1mreimport[22m | nix-calder.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  91% ] [90m[1mreimport[22m | ember-vale.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  91% ] [90m[1mreimport[22m | orion-vell.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  91% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  92% ] [90m[1mreimport[22m | rook-ironside.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  92% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  92% ] [90m[1mreimport[22m | vesper-nyx.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  92% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  93% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  93% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  93% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  94% ] [90m[1mreimport[22m | rook-ironside.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  94% ] [90m[1mreimport[22m | vesper-nyx.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  94% ] [90m[1mreimport[22m | pipeline_proof.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | orion-vell.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | nix-calder.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  95% ] [90m[1mreimport[22m | kaia-windrow.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | juno-spark.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | ember-vale.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | vesper-nyx.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  96% ] [90m[1mreimport[22m | rook-ironside.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | orion-vell.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | ember-vale_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  97% ] [90m[1mreimport[22m | juno-spark_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | kaia-windrow_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | nix-calder_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  98% ] [90m[1mreimport[22m | orion-vell_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | rook-ironside_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | vesper-nyx_procedural_proxy.glb[39m[0m
+[   0% ] [90m[1mimport[22m | Started Import Scene (104 steps)[39m[0m
+[   0% ] [90m[1mimport[22m | Importing Scene...[39m[0m
+[   1% ] [90m[1mimport[22m | Running Custom Script...[39m[0m
+[  99% ] [90m[1mimport[22m | Saving...[39m[0m
+[92m[ DONE ][39m [1mimport[22m
+[0m
+[  99% ] [90m[1mreimport[22m | Finalizing Asset Import...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mreimport[22m | Started (Re)Importing Assets (324 steps)[39m[0m
+[   0% ] [90m[1mreimport[22m | Executing post-reimport operations...[39m[0m
+[92m[ DONE ][39m [1mreimport[22m
+[0m
+[   0% ] [90m[1mexport[22m | Started Exporting for Android (105 steps)[39m[0m
+0 param: --xr_mode_regular
+1 param: --xr-mode
+2 param: off
+3 param: --fullscreen
+4 param: --background_color
+5 param: #000000
+SCRIPT ERROR: Parse Error: Cannot infer the type of "a" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/menus/online_hub_scene.gd:51)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "b" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/menus/online_hub_scene.gd:52)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "a" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/menus/online_hub_scene.gd:58)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "b" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/menus/online_hub_scene.gd:59)
+ERROR: Failed to load script "res://scripts/menus/online_hub_scene.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+ERROR: Export: Building of Android project failed, check output for the error:
+
+Downloading https://services.gradle.org/distributions/gradle-8.11.1-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.11.1!
+
+Here are the highlights of this release:
+ - Parallel load and store for Configuration Cache
+ - Java compilation errors at the end of the build output
+ - Consolidated report for warnings and deprecations
+
+For more details see https://docs.gradle.org/8.11.1/release-notes.html
+
+Starting a Gradle Daemon, 1 stopped Daemon could not be reused, use --status for details
+
+> Configure project :
+WARNING: The option setting 'android.overridePathCheck=true' is experimental.
+The current default is 'false'.
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 36
+
+This Android Gradle plugin (8.6.1) was tested up to compileSdk = 35.
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 36.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 36 is available.
+
+For more information refer to the compatibility table:
+https://d.android.com/r/tools/api-level-support
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=36
+to this project's gradle.properties.
+
+> Task :validateJavaVersion UP-TO-DATE
+> Task :clean UP-TO-DATE
+> Task :assetPackInstallTime:clean UP-TO-DATE
+> Task :preBuild UP-TO-DATE
+> Task :preStandardDebugBuild UP-TO-DATE
+> Task :mergeStandardDebugNativeDebugMetadata NO-SOURCE
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :generateStandardDebugBuildConfig
+> Task :generateStandardDebugResValues
+> Task :checkStandardDebugAarMetadata
+> Task :mapStandardDebugSourceSetPaths
+> Task :generateStandardDebugResources
+> Task :packageStandardDebugResources
+> Task :mergeStandardDebugResources
+> Task :createStandardDebugCompatibleScreenManifests
+> Task :extractDeepLinksStandardDebug
+> Task :parseStandardDebugLocalResources
+
+> Task :processStandardDebugMainManifest
+/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/src/debug/AndroidManifest.xml:13:5-132 Warning:
+	uses-feature#android.hardware.vulkan.level was tagged at AndroidManifest.xml:13 to replace another declaration but no other declaration present
+/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/src/debug/AndroidManifest.xml:14:5-141 Warning:
+	uses-feature#android.hardware.vulkan.version was tagged at AndroidManifest.xml:14 to replace another declaration but no other declaration present
+/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/src/debug/AndroidManifest.xml:25:9-114 Warning:
+	meta-data#org.godotengine.rendering.method was tagged at AndroidManifest.xml:25 to replace another declaration but no other declaration present
+/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/src/debug/AndroidManifest.xml:26:9-118 Warning:
+	meta-data#org.godotengine.editor.version was tagged at AndroidManifest.xml:26 to replace another declaration but no other declaration present
+
+> Task :processStandardDebugManifest
+> Task :javaPreCompileStandardDebug
+> Task :mergeStandardDebugShaders
+> Task :compileStandardDebugShaders NO-SOURCE
+> Task :generateStandardDebugAssets UP-TO-DATE
+> Task :mergeStandardDebugAssets
+> Task :compressStandardDebugAssets
+> Task :checkStandardDebugDuplicateClasses
+> Task :mergeLibDexStandardDebug
+
+> Task :mergeStandardDebugJniLibFolders FAILED
+ERROR: Resource and asset merger: 1 exception was raised by workers:
+A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$RunnableWrapperWorkAction
+
+    Cause 1: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$RunnableWrapperWorkAction
+    	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+    	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+    	at org.gradle.internal.Factories$1.create(Factories.java:31)
+    	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+    	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+    	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+    	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+    	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:88)
+    	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+    	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+    	at org.gradle.workers.internal.DefaultWorkerExecutor.await(DefaultWorkerExecutor.java:203)
+    	at com.android.build.gradle.internal.tasks.Workers$WorkerExecutorAdapter.await(Workers.kt:109)
+    	at com.android.ide.common.resources.MergeWriter.end(MergeWriter.java:48)
+    	at com.android.ide.common.resources.DataMerger.mergeData(DataMerger.java:299)
+    	at com.android.ide.common.resources.AssetMerger.mergeData(AssetMerger.java:28)
+    	at com.android.build.gradle.tasks.MergeSourceSetFolders.doFullTaskAction(MergeSourceSetFolders.kt:160)
+    	at com.android.build.gradle.tasks.MergeSourceSetFolders.doTaskAction(MergeSourceSetFolders.kt:122)
+    	at com.android.build.gradle.internal.tasks.NewIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(BaseTask.kt:70)
+    	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:51)
+    	at com.android.build.gradle.internal.tasks.NewIncrementalTask.taskAction(NewIncrementalTask.kt:46)
+    	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+    	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+    	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+    	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:45)
+    	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+    	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(IncrementalTaskAction.java:26)
+    	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+    	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+    	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+    	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+    	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+    	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+    	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+    	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+    	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+    	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+    	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+    	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+    	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+    	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+    	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+    	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+    	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+    	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+    	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+    	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+    	at org.gradle.internal.Either$Right.fold(Either.java:175)
+    	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+    	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+    	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+    	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+    	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+    	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+    	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+    	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+    	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+    	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+    	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+    	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+    	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+    	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+    	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+    	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+    	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+    	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+    	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+    	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+    	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+    	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+    	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+    	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+    	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+    	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+    	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+    	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+    	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+    	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+    	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+    	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+    	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+    	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+    	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+    	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+    	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+    	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+    	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+    	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+    	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+    	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+    	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+    	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+    	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+    	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+    	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+    	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+    	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+    	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+    	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+    	at java.base/java.lang.Thread.run(Thread.java:840)
+    Caused by: java.lang.RuntimeException: java.nio.file.FileSystemException: /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/libs/debug/godot-lib.template_debug.aar -> /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/build/intermediates/merged_jni_libs/standardDebug/mergeStandardDebugJniLibFolders/out/godot-lib.template_debug.aar: No space left on device
+    	at com.android.ide.common.resources.MergedAssetWriter$AssetWorkAction.run(MergedAssetWriter.java:111)
+    	at com.android.build.gradle.internal.tasks.Workers$RunnableWrapperWorkAction.run(Workers.kt:181)
+    	at com.android.build.gradle.internal.profile.ProfileAwareWorkAction.execute(ProfileAwareWorkAction.kt:74)
+    	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+    	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+    	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+    	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+    	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+    	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+    	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+    	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+    	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+    	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+    	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+    	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+    	at org.gradle.internal.Factories$1.create(Factories.java:31)
+    	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+    	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+    	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+    	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+    	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+    	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+    	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+    	... 5 more
+    Caused by: java.nio.file.FileSystemException: /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/libs/debug/godot-lib.template_debug.aar -> /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/build/intermediates/merged_jni_libs/standardDebug/mergeStandardDebugJniLibFolders/out/godot-lib.template_debug.aar: No space left on device
+    	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+    	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+    	at java.base/sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:256)
+    	at java.base/sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:603)
+    	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:257)
+    	at java.base/java.nio.file.Files.copy(Files.java:1305)
+    	at com.android.utils.FileUtils.copyFile(FileUtils.java:164)
+    	at com.android.utils.FileUtils.copyFile(FileUtils.java:146)
+    	at com.android.ide.common.resources.MergedAssetWriter$AssetWorkAction.run(MergedAssetWriter.java:108)
+    	... 36 more
+    
+
+> Task :processStandardDebugManifestForPackage
+> Task :desugarStandardDebugFileDependencies
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':mergeStandardDebugJniLibFolders'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$RunnableWrapperWorkAction
+   > java.nio.file.FileSystemException: /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/libs/debug/godot-lib.template_debug.aar -> /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot/android/build/build/intermediates/merged_jni_libs/standardDebug/mergeStandardDebugJniLibFolders/out/godot-lib.template_debug.aar: No space left on device
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 20s
+23 actionable tasks: 21 executed, 2 up-to-date
+
+   at: add_message (editor/export/editor_export_platform.h:270)
+[92m[ DONE ][39m [1mexport[22m
+[0m
+ERROR: Project export for preset "Android" failed.
+   at: _fs_changed (editor/editor_node.cpp:1417)
+WARNING: Scan thread aborted...
+     at: _notification (editor/file_system/editor_file_system.cpp:1757)
+Android export failed: Command failed: godot --headless --path /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/game-godot --install-android-build-template --export-debug Android /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/anime/builds/android/anime-aggressors-debug.apk
+See docs/playtest/ANDROID_APK_TESTING.md for SDK setup.

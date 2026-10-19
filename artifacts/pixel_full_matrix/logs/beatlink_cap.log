@@ -1,0 +1,3 @@
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+[error] Could not find the web assets directory: ./dist.
+        Please create it and make sure it has an index.html file. You can change the path of this directory in capacitor.config.ts (webDir option). You may need to compile the web assets for your app (typically npm run build). More info: https://capacitorjs.com/docs/basics/workflow#sync-your-project

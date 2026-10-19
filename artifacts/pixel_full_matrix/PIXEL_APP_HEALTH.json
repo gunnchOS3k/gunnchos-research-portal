@@ -1,0 +1,36 @@
+{
+  "captured_at": "2026-09-28T22:54:51Z",
+  "note": "Sanitized; serial redacted. Crash/ANR not observed during automated launch samples.",
+  "apps": [
+    {
+      "package": "com.gunnchos.capsule.debug",
+      "pid": "18885",
+      "running": true,
+      "crash_anr_sampled": false
+    },
+    {
+      "package": "com.gunnchos.animeaggressors",
+      "pid": "20934",
+      "running": true,
+      "crash_anr_sampled": false
+    },
+    {
+      "package": "com.gunnchos.pedestrianpursuit",
+      "pid": "19585",
+      "running": true,
+      "crash_anr_sampled": false
+    },
+    {
+      "package": "com.gunnchos.archiveoflife",
+      "pid": "19276",
+      "running": true,
+      "crash_anr_sampled": false
+    },
+    {
+      "package": "com.gunnchos.beatlinkparty",
+      "pid": "19785",
+      "running": true,
+      "crash_anr_sampled": false
+    }
+  ]
+}

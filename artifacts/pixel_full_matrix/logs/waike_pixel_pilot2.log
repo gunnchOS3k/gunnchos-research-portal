@@ -1,0 +1,8 @@
+Using CPython 3.9.6 interpreter at: /Library/Developer/CommandLineTools/usr/bin/python3
+Creating virtual environment at: .venv
+Activate with: source .venv/bin/activate
+uv pip install -e tools/course_compiler --python .venv/bin/python3
+error: No solution found when resolving dependencies
+  cause: Because the current Python version (3.9.6) does not satisfy Python>=3.11 and course-compiler==0.1.0 depends on Python>=3.11, we can conclude that course-compiler==0.1.0 cannot be used.
+         And because only course-compiler==0.1.0 is available and you require course-compiler, we can conclude that your requirements are unsatisfiable.
+make: *** [bootstrap] Error 1

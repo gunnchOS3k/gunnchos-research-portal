@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-09-28T22:58:07Z",
+  "PIXEL_CONNECTED_PASS": true,
+  "PIXEL_SIGNER_SAFETY_PASS": true,
+  "PIXEL_EXACT_HEAD_MATRIX_COMPLETE": false,
+  "PIXEL_LATEST_GREATEST_MATRIX_COMPLETE": true,
+  "PIXEL_EXACT_HEAD_CORE_GAMES_INSTALL_PASS": true,
+  "device": {
+    "model": "Pixel 6a",
+    "device": "bluejay",
+    "android_version": "17",
+    "serial_sha256_16": "6fb6d47ec6650fab"
+  },
+  "current_main_shas": {
+    "gunnchOS / device-os": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+    "Anime Aggressors": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+    "Pedestrian Pursuit": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+    "Archive of Life": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+    "BeatLink Party": "e1a5d9998f93d707440f68673c0da844617dc10e",
+    "3k MLV": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+    "WAIKE": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+    "gunnchAI": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+    "7GC / Network Twin": "94cba498f7b6b4b78825af16d9ed403bdb617eaf"
+  },
+  "evidence_root": "artifacts/pixel_full_matrix/",
+  "rows": [
+    {
+      "product": "gunnchOS / device-os",
+      "delivery_mode": "NATIVE_ANDROID_APK",
+      "repo": "gunnchOS3k/gunnchos-device-os",
+      "origin_main_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "candidate_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "installed_or_served_sha": "2ae070fd8b050c3520ed8dac211e0d607bf9f63f",
+      "version_name": "1.0.0-capsule-pilot-debug",
+      "version_code": "1",
+      "package_id": "com.gunnchos.capsule.debug",
+      "artifact_sha256": "57bc2230c5f376c0582a523fc154d8f9e25bde222748aaaeb16e39bb68ee6746",
+      "signer_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "install_or_load_result": "Success",
+      "launch_result": "PASS_PID_RUNNING",
+      "exact_main_match": true,
+      "test_surface": "shell_home_launch_smoke",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "Automated launch/home capture only; custom hardware EVT not claimed"
+      ]
+    },
+    {
+      "product": "Anime Aggressors",
+      "delivery_mode": "NATIVE_ANDROID_APK",
+      "repo": "gunnchOS3k/anime-aggressors",
+      "origin_main_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+      "candidate_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+      "installed_or_served_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+      "version_name": "0.3.7",
+      "version_code": "219",
+      "package_id": "com.gunnchos.animeaggressors",
+      "artifact_sha256": "69c87a30c6b3240fa49e5e703d51218a73bff63d304c617651f7868ca919fa7a",
+      "signer_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "install_or_load_result": "Success",
+      "launch_result": "PASS_PID_RUNNING",
+      "exact_main_match": true,
+      "test_surface": "launch_home_party_entry_attempt",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "#117 merged during run; rebuilt/installed 72e5dada; human Party/8P/fun/animation gates remain false; online_hub_scene.gd typed-inference warnings during export"
+      ]
+    },
+    {
+      "product": "Pedestrian Pursuit",
+      "delivery_mode": "NATIVE_ANDROID_APK",
+      "repo": "gunnchOS3k/pedestrian-pursuit",
+      "origin_main_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "candidate_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "installed_or_served_sha": "77a5413c15e0d25524fe5381e117678aa2d42edf",
+      "version_name": "0.4.3-race-experience-v3",
+      "version_code": "18",
+      "package_id": "com.gunnchos.pedestrianpursuit",
+      "artifact_sha256": "a006f7c80efd0b7da36f2ba9976f40a8682373934939c46e1504d4fd88cbcdfd",
+      "signer_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "install_or_load_result": "Already_installed_exact_main",
+      "launch_result": "PASS_PID_RUNNING",
+      "exact_main_match": true,
+      "test_surface": "launch_home_party_entry_attempt",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "Human race-feel gates remain false"
+      ]
+    },
+    {
+      "product": "Archive of Life",
+      "delivery_mode": "NATIVE_ANDROID_APK",
+      "repo": "gunnchOS3k/archive-of-life-artifact-world",
+      "origin_main_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "candidate_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "installed_or_served_sha": "23ce4dafc2711449cab43a5bb6f42698c61ed2a1",
+      "version_name": "1.1.1",
+      "version_code": "3",
+      "package_id": "com.gunnchos.archiveoflife",
+      "artifact_sha256": "00a65f533e17544b2a819f1575e860cc0dd7ee2f9b45c0421dd48567d401e296",
+      "signer_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "install_or_load_result": "Success",
+      "launch_result": "PASS_PID_RUNNING",
+      "exact_main_match": true,
+      "test_surface": "launch_home_archivedex_capture",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "GLOBAL_DATA_COMPLETE=false; ALL_SPECIES_INGESTED=false"
+      ]
+    },
+    {
+      "product": "BeatLink Party",
+      "delivery_mode": "NATIVE_ANDROID_APK",
+      "repo": "gunnchOS3k/beatlink-party",
+      "origin_main_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "candidate_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "installed_or_served_sha": "e1a5d9998f93d707440f68673c0da844617dc10e",
+      "version_name": "1.1.2",
+      "version_code": "4",
+      "package_id": "com.gunnchos.beatlinkparty",
+      "artifact_sha256": "781537193dbe16a41f648b9a54e32fdba841da02bbf83241e50dc3d8afdb239a",
+      "signer_sha256": "b637ea5f982aa1d3027e346fbfe9f672fdc5dee95407b1608b50b6f1631bd59a",
+      "install_or_load_result": "Success",
+      "launch_result": "PASS_PID_RUNNING",
+      "exact_main_match": true,
+      "test_surface": "launch_room_flow_smoke",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "No Spotify/commercial music rights claimed"
+      ]
+    },
+    {
+      "product": "3k MLV",
+      "delivery_mode": "PWA_BROWSER",
+      "repo": "gunnchOS3k/3k-mlv",
+      "origin_main_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "candidate_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "installed_or_served_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "version_name": "1.0.0",
+      "version_code": "",
+      "package_id": "",
+      "artifact_sha256": "",
+      "signer_sha256": "",
+      "install_or_load_result": "pnpm_preview_4174_adb_reverse",
+      "launch_result": "PASS_HTTP_200_CHROME",
+      "exact_main_match": true,
+      "test_surface": "home_atlas_seven_campuses_network_twin_gallery",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "Local preview via adb reverse; not production OAuth; human campus taste false"
+      ]
+    },
+    {
+      "product": "WAIKE",
+      "delivery_mode": "PWA_BROWSER",
+      "repo": "gunnchOS3k/gunnchos-waike-learning-platform",
+      "origin_main_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "candidate_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "installed_or_served_sha": "9966e95b84a8b008ea50ffebd3f851950c1136be",
+      "version_name": "",
+      "version_code": "",
+      "package_id": "",
+      "artifact_sha256": "",
+      "signer_sha256": "",
+      "install_or_load_result": "pixel_pilot_exact_main_2026-09-28T22:57:10Z",
+      "launch_result": "PASS_WEB_CLIENT",
+      "exact_main_match": true,
+      "test_surface": "pixel_pilot_ports_8000_1420",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "Exact-main pilot captured 2026-09-28T22:57:10Z",
+        "PIXEL_LEARNER_18_TRACK_VISIBILITY_PASS=False",
+        "PIXEL_PILOT_ALL_18_TRACKS_LOADED=True",
+        "PIXEL_WAIKE_AI_SURFACE_PASS=false",
+        "Native Android Phase B DEFER",
+        "Role physical journey gates mostly false this soak-shortened run"
+      ]
+    },
+    {
+      "product": "gunnchAI",
+      "delivery_mode": "INTEGRATED_SURFACE",
+      "repo": "gunnchOS3k/gunnchAI3k",
+      "origin_main_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "candidate_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "installed_or_served_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "version_name": "",
+      "version_code": "",
+      "package_id": "",
+      "artifact_sha256": "",
+      "signer_sha256": "",
+      "install_or_load_result": "TEST_THROUGH_WAIKE",
+      "launch_result": "AI_SURFACE_NOT_EARNED",
+      "exact_main_match": false,
+      "test_surface": "waike_ask_gunnchai",
+      "status": "BLOCKED_REQUIRED_SERVICE",
+      "known_limitations": [
+        "GUNNCHAI_LIVE_PROVIDER_QUALIFICATION_PASS=false",
+        "PIXEL_WAIKE_AI_SURFACE_PASS=false this pass"
+      ]
+    },
+    {
+      "product": "7GC / Network Twin",
+      "delivery_mode": "INTEGRATED_SURFACE",
+      "repo": "gunnchOS3k/3k-mlv",
+      "origin_main_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "candidate_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "installed_or_served_sha": "94cba498f7b6b4b78825af16d9ed403bdb617eaf",
+      "version_name": "",
+      "version_code": "",
+      "package_id": "",
+      "artifact_sha256": "",
+      "signer_sha256": "",
+      "install_or_load_result": "served_via_mlv",
+      "launch_result": "PASS_SCREENSHOTS_SEVEN_CAMPUSES_AND_TWIN",
+      "exact_main_match": true,
+      "test_surface": "mlv_campus_network_twin_lab",
+      "status": "PASS_EXACT_MAIN",
+      "known_limitations": [
+        "Planning twin only; no RF/RIC/carrier claims"
+      ]
+    }
+  ],
+  "anime_pr117_merged": true,
+  "anime_main_sha": "72e5dada4e557b42b6abb8c85f218f0a5b3d2e35",
+  "blockers": [
+    {
+      "product": "gunnchAI",
+      "delivery_mode": "INTEGRATED_SURFACE",
+      "repo": "gunnchOS3k/gunnchAI3k",
+      "origin_main_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "candidate_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "installed_or_served_sha": "e08b68bdbc26715a903bca51a9740f621a3b2dd6",
+      "version_name": "",
+      "version_code": "",
+      "package_id": "",
+      "artifact_sha256": "",
+      "signer_sha256": "",
+      "install_or_load_result": "TEST_THROUGH_WAIKE",
+      "launch_result": "AI_SURFACE_NOT_EARNED",
+      "exact_main_match": false,
+      "test_surface": "waike_ask_gunnchai",
+      "status": "BLOCKED_REQUIRED_SERVICE",
+      "known_limitations": [
+        "GUNNCHAI_LIVE_PROVIDER_QUALIFICATION_PASS=false",
+        "PIXEL_WAIKE_AI_SURFACE_PASS=false this pass"
+      ]
+    }
+  ],
+  "NEXT_MASTER_ACTION": "RUN_OWNER_PIXEL_WALKTHROUGH_THEN_FRIEND_AND_ASYNC_HUMAN_ACCEPTANCE"
+}

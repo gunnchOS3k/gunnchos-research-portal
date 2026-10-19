@@ -1,0 +1,53 @@
+
+> @beatlink/web@0.1.0 build /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/beatlink/apps/web
+> tsc -p tsconfig.json && vite build
+
+src/brand/complianceLabels.ts(1,58): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/brand/glyphs.tsx(2,33): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/api.ts(20,48): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/api.ts(30,39): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/api.ts(36,52): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/deviceSettings.tsx(2,58): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/deviceSettings.tsx(7,8): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/deviceSettings.tsx(15,8): error TS2307: Cannot find module '@beatlink/device-ux' or its corresponding type declarations.
+src/lib/deviceSettings.tsx(59,37): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+src/lib/liveMic.ts(6,8): error TS2307: Cannot find module '@beatlink/game-engine' or its corresponding type declarations.
+src/lib/socket.ts(10,8): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/socket.ts(203,24): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/socket.ts(213,29): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/lib/wp014UiProductionGate.test.ts(17,8): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/pages/AudiencePage.tsx(3,72): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/pages/AudiencePage.tsx(30,41): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/pages/HostPage.tsx(12,8): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/pages/HostPage.tsx(13,54): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/pages/HostPage.tsx(33,8): error TS2307: Cannot find module '@beatlink/game-engine' or its corresponding type declarations.
+src/pages/HostPage.tsx(208,50): error TS7006: Parameter 'opt' implicitly has an 'any' type.
+src/pages/HostPage.tsx(606,41): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/HostPage.tsx(697,43): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/HostPage.tsx(704,45): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/pages/HostPage.tsx(724,47): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/HostPage.tsx(742,44): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/pages/HostPage.tsx(811,63): error TS7006: Parameter 'entry' implicitly has an 'any' type.
+src/pages/HostPage.tsx(904,41): error TS7006: Parameter 'id' implicitly has an 'any' type.
+src/pages/HostPage.tsx(1056,40): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/HostPage.tsx(1062,34): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/pages/HostPage.tsx(1098,37): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/HostPage.tsx(1112,38): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(11,8): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/pages/PlayerPage.tsx(12,23): error TS2307: Cannot find module '@beatlink/shared' or its corresponding type declarations.
+src/pages/PlayerPage.tsx(22,8): error TS2307: Cannot find module '@beatlink/game-engine' or its corresponding type declarations.
+src/pages/PlayerPage.tsx(89,39): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(103,39): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(143,10): error TS7006: Parameter 'v' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(248,38): error TS7006: Parameter 'n' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(255,27): error TS7006: Parameter 'n' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(256,27): error TS7006: Parameter 'n' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(353,25): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(441,26): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(482,35): error TS7006: Parameter 'choice' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(606,44): error TS7006: Parameter 'p' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(607,45): error TS7006: Parameter 'a' implicitly has an 'any' type.
+src/pages/PlayerPage.tsx(623,28): error TS7006: Parameter 'a' implicitly has an 'any' type.
+/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_pixel_full_matrix_worktrees/beatlink/apps/web:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @beatlink/web@0.1.0 build: `tsc -p tsconfig.json && vite build`
+Exit status 2
