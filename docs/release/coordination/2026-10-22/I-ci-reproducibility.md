@@ -28,7 +28,14 @@ Local results in this worktree:
 - `python3 scripts/validate_supervisor_ready.py` — `PASS digital control-plane files present and claim-boundary checks clean`
 - `pytest -q tests/test_audit_portfolio.py` in a temporary virtualenv — `7 passed`
 
-`.github/workflows/ci.yml` also runs `make code-health-r5-s1` on `ubuntu-latest`. That target copies the tree into a temp directory. The copy was not run on this machine because Avail is already under the 18 GiB reserve. The GitHub `ubuntu-latest` job does not use this disk. Requery that run after push; do not inherit #55's green checks.
+`.github/workflows/ci.yml` also runs `make code-health-r5-s1` on `ubuntu-latest`. That target copies the tree into a temp directory. The copy was not run on this machine because Avail is already under the 18 GiB reserve. The GitHub `ubuntu-latest` job does not use this disk. Do not inherit #55's green checks.
+
+This branch's own `check` jobs on `f7a1d2bef4bd7ee12819664eb40bdc7e65ab2b0f` passed:
+
+- https://github.com/gunnchOS3k/gunnchos-research-portal/actions/runs/39868698058/job/120137358081 (14s)
+- https://github.com/gunnchOS3k/gunnchos-research-portal/actions/runs/39868702941/job/120137375376 (18s)
+
+A later documentation-only commit that records these URLs needs its own requery. It does not change the ledger.
 
 ## Commands that were not run
 
