@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-10-22T18:34:03.002723+00:00",
+  "PASS": true,
+  "diff_check": "PASS",
+  "scope": "Additive handoff only; no runtime/asset or approval changes",
+  "new_native_or_device_evidence": false,
+  "validators": {
+    "release_ledger": "PASS108features38gates43tickets",
+    "snapshot_adoption": "PASS23lockedfiles",
+    "campaign_oct19": "PASScanonical16/revision2/approvalboundaries"
+  },
+  "remote_ancestor_of_local": true,
+  "newer_local_documentation_commits_preserved": [
+    "e26ebd002883c71e564a930ee550356bfbe99a9e",
+    "7f848254bf0ba43ec7418d00ec34828573e2b22e"
+  ]
+}

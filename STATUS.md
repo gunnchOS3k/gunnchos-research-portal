@@ -1,5 +1,7 @@
 # Status
 
+October 19 campaign: [current source recovery, canonical 16-component matrix, acceptance results and blockers](docs/release/campaigns/2026-10-19/RELEASE_READINESS_REPORT.md). [Rolling revision 2](docs/release/rolling/board-v0002.json) retains the immutable October 9 baseline and all outstanding gates as false. RC2 and official V1 remain not ready or authorized. No product deployment or main-branch advancement occurred in this campaign.
+
 Current V1.0.0 authority: [October 9 release matrix](docs/release/V1_0_0_READINESS_2026-10-09.md), [feature/gate ledger](docs/release/V1_0_0_LEDGER_2026-10-09.json), and [execution tickets](docs/release/V1_0_0_EXECUTION_2026-10-09.md). **NOT READY** for the October 23 target; full owner-declared scope and human gates remain required. The Cycle 3A snapshot below is historical.
 
 Snapshot for Cycle 3A WP-012. Not a physical or carrier completion claim.

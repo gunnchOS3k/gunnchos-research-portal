@@ -1,0 +1,16 @@
+{
+  "schema": "gunnchos.release.progress_evidence.v1",
+  "revision": 2,
+  "as_of": "2026-10-19",
+  "files": {
+    "ANIME_CANDIDATE_CHECKS.json": "ee56cd4c479100a0115a44360e7fd1af75665bfa424410e9f60ecc89eec27167",
+    "CANDIDATE_TEST_PROVENANCE.json": "7f040ab8c4898f679446134c3dc6ec1e8b84f05b0355d4ab8afab393c549ff40",
+    "FIELDKIT_CI_REPAIR.json": "dde24e57a9873bde03b7dbf19baccd8bece1efae9a19e0e275039e089a525cc2",
+    "HTTP_BOUNDARY_CHECKS.json": "360e1240f0175a115bea01f84349f2dc0186477292d9d10b64e56cece86ae60e",
+    "JOURNEY_RESULTS.json": "932add2163088cb8cde1a75c9919a35307c8f74f32db0a7f2e1b7bd0a38a93e1",
+    "PUBLICATION_VERIFICATION.json": "603420cd690cff45e905b1e9bfa7fc3bd4fdb23bc1be5422bacdd61a2d54a798",
+    "PUBLISHED_RELEASE_STATE.json": "3a352fda3ea185a186d1d2245d2b4d176d42a20982e784fee2896d3a2b09181d",
+    "RC1_ASSET_VERIFICATION.json": "4d5308701c76fa19762ca57e973ca70817f7a76b7352d9c103968a51dc19eb5a",
+    "github-state.json": "4ff6ce3e09d2787aa20682946ce2e44bddb0cf7715b5b6c9c102af7b92952a74"
+  }
+}

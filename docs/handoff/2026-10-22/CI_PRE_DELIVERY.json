@@ -1,0 +1,30 @@
+{
+  "baseRefName": "main",
+  "headRefOid": "b5116094b4f0acfe0ec740e9ba84a55ca15dd53e",
+  "isDraft": true,
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-22T18:34:36Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/gunnchOS3k/gunnchos-research-portal/actions/runs/39832566265/job/120012267611",
+      "name": "check",
+      "startedAt": "2026-10-22T18:34:21Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-22T18:34:39Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/gunnchOS3k/gunnchos-research-portal/actions/runs/39832558575/job/120012240282",
+      "name": "check",
+      "startedAt": "2026-10-22T18:34:18Z",
+      "status": "COMPLETED",
+      "workflowName": "CI"
+    }
+  ],
+  "url": "https://github.com/gunnchOS3k/gunnchos-research-portal/pull/55",
+  "observed_utc": "2026-10-22T18:48:35.234780+00:00",
+  "new_documentation_push_checks": "Requery after final push; these conclusions only bind the recorded head."
+}

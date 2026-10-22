@@ -1,0 +1,249 @@
+{
+  "schema": "gunnchos.private.waike.review.v1",
+  "observed_on": "2026-10-19",
+  "recorded_at_utc": "2026-10-19T18:11:22.810174+00:00",
+  "portal_start_commit": "052f1723df5644156305a5cad99408ef8d8cc61e",
+  "scope": "targeted continuation only; no full workspace inventory",
+  "result": "PARTIAL_REPRODUCTION_TRUSTED_TLS_BLOCKED",
+  "local_sources": {
+    "site": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/site",
+      "branch": "delivery/full-learning-2026-10-15",
+      "HEAD": "a6f4cd620123c1d12ac704346fb4a7fe5b51b05e",
+      "status": [
+        "M docs/commercial/WAIKE_COMMERCIAL_ACCEPTANCE.md",
+        " M docs/commercial/WAIKE_INSTITUTIONAL_READINESS.json",
+        " M docs/full_delivery/WAIKE_PLATFORM_INTEGRATION_STATUS.md",
+        " M next-env.d.ts",
+        "?? artifacts/education-release/current-controls-adult.png",
+        "?? artifacts/education-release/current-controls-audit.json",
+        "?? artifacts/education-release/current-controls-seniors.png",
+        "?? artifacts/education-release/figure-adult.png",
+        "?? artifacts/education-release/figure-seniors.png",
+        "?? docs/full_delivery/WAIKE_RECOVERY_DASHBOARD.md",
+        "?? docs/publication/EIGHT_EDITION_STATUS.md"
+      ],
+      "tracked_diff_sha256": "907ac213694b9ffd7a12c05eb36952e79a1a9d83f0322e467d64378717d573ad",
+      "untracked_sha256": {
+        "artifacts/education-release/current-controls-adult.png": "57a69cf938786dbb14313ea2bfb9728f3c33f06ecc5f576b3468ad32208e9bc0",
+        "artifacts/education-release/current-controls-audit.json": "87bc3343a9ba89165ca94250d4eded24a7148179ed813380196325d46fbeb34d",
+        "artifacts/education-release/current-controls-seniors.png": "98ab5cb59e4c6e5b652d4079175e10042ebf430f1b72bddce1e3c218c24fff60",
+        "artifacts/education-release/figure-adult.png": "e002854a514dffa36392c46b346483d12ed2025af078f12661b832619cbc31da",
+        "artifacts/education-release/figure-seniors.png": "6e47b1de196f3e8bae11ca11c0487dc3c620f8f5f5c02ddbb1b736d1211abe6d",
+        "docs/full_delivery/WAIKE_RECOVERY_DASHBOARD.md": "b12559a9d9c71a37d92378549e2f9412460672e28eaf92b0ce1937cf9d3cf074",
+        "docs/publication/EIGHT_EDITION_STATUS.md": "e5df11ab48084454c0e9dde43b0070696a1c6d6585657b55bc4e2870f8e2faf1"
+      }
+    },
+    "platform": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/platform",
+      "branch": "delivery/full-learning-2026-10-15",
+      "HEAD": "6bdfa0b416ea95b0abb36669faa8059095962281",
+      "status": [],
+      "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "untracked_sha256": {}
+    },
+    "curriculum": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/curriculum",
+      "branch": "delivery/full-learning-2026-10-15",
+      "HEAD": "18efa764e4db066fb17d597284557195499f93ea",
+      "status": [],
+      "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "untracked_sha256": {}
+    }
+  },
+  "retained_release": {
+    "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_waike_full_delivery/platform/.release/candidates/c7d1aef",
+    "manifest": {
+      "format": "waike-runtime-release-v1",
+      "platform_commit": "c7d1aefd9a641e99c8cf1746c9d6eef841a3096f",
+      "curriculum_commit": "33a101852f4fefb0eb239bcffa60a65d71102e2c",
+      "curriculum_tree_sha256": "43d1f53e2ced9d41269f62d21b5f606bad4d81ef85d024b60571221bece07a0b",
+      "reader_tree_sha256": "e3149fe58edd9600ba7df0bb3619e31c2b23d38f5a6fa6ce360a89bbda189a02"
+    },
+    "manifest_sha256": "f52c15afa4f3cfdc2c552bd1e7d70c63d8112f190a9fc29730f54d4c23e6a649",
+    "curriculum_tree_match": true,
+    "reader_tree_match": true,
+    "active_reader_process": false,
+    "later_head_hub_client_pin_diff": ""
+  },
+  "gateway": {
+    "url": "http://127.0.0.1:4197/campus/waike/workshops/technology-discovery",
+    "build_id": "5ZovRgVg-ApL0-J7YMJI1",
+    "node": "24.9.0",
+    "npm": "11.6.0",
+    "next": "15.5.28",
+    "build_reused": true,
+    "builds_performed": 0,
+    "execution_session": 94594,
+    "pid": 13835,
+    "owned_process_stopped": true,
+    "private_library_flag": false,
+    "artifact_hashes": {
+      ".next/BUILD_ID": "d94397497d43a2c35e9a88ac05b41c8d8a81571613d97fcaad9d1b15c1e12a37",
+      ".next/server/app/campus/waike/workshops/technology-discovery.html": "df8b45ac81f04e7110d053176f3b22f8130a384df7f3106e83169870f87ffd82",
+      ".next/server/app/campus/waike/workshops/technology-discovery/instructor.html": "40975b43b8441266bc63f5c34d488461d32138949072ded2acbff3009bb4d081",
+      "package-lock.json": "507f6594408e5e42a6b231b5c5dff49bac1e1101c174f9c5e1415730bc444daa"
+    },
+    "ui_workshop_source": "18efa764e4db066fb17d597284557195499f93ea",
+    "ui_curriculum_source": "33a101852f4fefb0eb239bcffa60a65d71102e2c"
+  },
+  "transport": {
+    "certificate_sha256_fingerprint": "5CC4CEF6B03288A177349C6562727ED6D7E4ED7087ECF2E39AA92D57CB0F5F18",
+    "subject": "CN=localhost",
+    "issuer": "CN=localhost",
+    "SAN": [
+      "DNS:localhost"
+    ],
+    "not_before_utc": "2026-10-15T20:32:20Z",
+    "not_after_utc": "2026-10-17T20:32:20Z",
+    "explicit_verification_time_utc": "2026-10-19T18:05:00Z",
+    "openssl_result": "error 10: certificate has expired",
+    "mac_security_output": "Cert Verify Result: No error",
+    "trusted_browser_tls_pass": false,
+    "browser_TLS_attempted": false,
+    "warnings_bypassed": false,
+    "trust_store_changed": false
+  },
+  "runtime_prerequisites": {
+    "temporary_uvicorn_exists": false,
+    "environment_path": "/private/tmp/waike-recovery-platform-env",
+    "requirements_lock_sha256": "1f6e9f82b819620240dc87e12fd6bdcc88de7e7cbb97cee72c77d08711f85fad",
+    "historical_environment_list_sha256": "57a596b7404742155cdbd2733365fc59692bcbd2ddfb3452271968b2f6f5a819",
+    "database_exists": true,
+    "database_bytes": 1044480,
+    "database_sha256_before_and_after": "126aa7152611e23e2c650fc6df25feb0b004ab64f5268372da41c9cbc62d836b",
+    "database_access": "schema_migrations only; sqlite mode=ro",
+    "database_mutated": false,
+    "preflight_database_process_owners": [],
+    "preflight_port_4194_listeners": [],
+    "preflight_port_4197_listeners": [],
+    "signing_key_exists": true,
+    "tls_key_exists": true,
+    "key_contents_recorded": false
+  },
+  "journey": [
+    {
+      "step": "buyer",
+      "result": "PASS_BOUNDED_GATEWAY_HTTP_ONLY",
+      "detail": "Workshop visible, five expected HTTPS4194 unit links; exact source versions visible"
+    },
+    {
+      "step": "instructor_link_and_return",
+      "result": "PASS_NAVIGATION_ONLY",
+      "detail": "Packet route opens and browser Back returns; no rehearsal approval"
+    },
+    {
+      "step": "lesson",
+      "result": "NOT_RUN_PREREQUISITES_UNAVAILABLE"
+    },
+    {
+      "step": "practical_and_wrong_input_recovery",
+      "result": "NOT_RUN_PREREQUISITES_UNAVAILABLE"
+    },
+    {
+      "step": "live_opt_in_save_restore",
+      "result": "NOT_RUN_PREREQUISITES_UNAVAILABLE"
+    },
+    {
+      "step": "positive_unsubmitted_export",
+      "result": "NOT_RUN_PREREQUISITES_UNAVAILABLE"
+    },
+    {
+      "step": "empty_gateway_export_guard",
+      "result": "PASS_NEGATIVE_ONLY",
+      "detail": "Choose fictional practical evidence and provide each explanation of at least20 characters; no download/submission/completion claimed"
+    }
+  ],
+  "focused_client_tests": {
+    "command": "npm test -- --run src/components/learner/BrowserLearning.test.tsx src/components/learner/DigitalConfidencePractical.test.tsx",
+    "source_commit": "c7d1aefd9a641e99c8cf1746c9d6eef841a3096f",
+    "checkout_head": "6bdfa0b416ea95b0abb36669faa8059095962281",
+    "source_bytes_match_retained_commit": true,
+    "test_files": 2,
+    "passed": 5,
+    "failed": 0,
+    "vitest": "2.1.9",
+    "scope": "jsdom and mocked fetch; no live TLS/API or authentic learner acceptance",
+    "warnings": [
+      "React update outside act in draft restoration test",
+      "npm unknown strict-dep-builds project config"
+    ]
+  },
+  "fieldkit": {
+    "state": {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_fieldkit_ci_repair",
+      "branch": "release/standards-watch-dependencies-2026-10-19",
+      "HEAD": "ddf90ab0c4e4b29e765be73093d0ba91c59249d0",
+      "status": [],
+      "tracked_diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "untracked_sha256": {}
+    },
+    "parent_commit": "9dfc326647880c244904dd50a47ea80c3d46748e",
+    "changed_files": [
+      ".github/workflows/standards-watch.yml"
+    ],
+    "workflow_sha256": "e379c9d99cc48768f88e417bc82115197efd4578f7e6049d690ff20c7a2543dd",
+    "watcher_sha256": "8d3f7beeb419224811c613dbcab6d91aaa332fdae14bd92cb87984125772e84c",
+    "local_python": "3.14.7",
+    "local_pyyaml": "6.0.3",
+    "workflow_python": "3.12",
+    "standards_validator": "PASS",
+    "claim_firewall": "PASS",
+    "offline_probe": {
+      "directory": "/private/tmp/v1-standards-offline-probe-qzqc8pq1",
+      "fetch_implementation": "in-memory fictional URLError stub; original source unmodified",
+      "source_keys": [
+        "ITU-IMT-2030",
+        "ITU-IMT-FAMILY",
+        "3GPP-REL20"
+      ],
+      "error_statuses": 3,
+      "null_hashes": 3,
+      "exit_code": 0,
+      "printed_status": "WATCH_OK",
+      "network_requests": 0,
+      "compliance_claim": "NONE \u2014 do not auto-claim compliance after source change"
+    },
+    "dispatches_or_reruns": 0,
+    "new_run_id": null,
+    "accepted_main_repaired": false
+  },
+  "capacity": {
+    "preflight_available_approx_GiB": 2.2,
+    "heavy_export_minimum_GiB": 18,
+    "heavy_export_allowed": false,
+    "files_deleted": 0,
+    "heavy_exports": 0,
+    "close_available_approx_GiB": 1.0
+  },
+  "release_controls": {
+    "canonical_components": 16,
+    "snapshot_files": 23,
+    "rolling_revision": 2,
+    "new_rolling_revision_created": false,
+    "snapshot_rewritten": false,
+    "historical_evidence_rewritten": false,
+    "validator_changes": false,
+    "pending_gate_changes": {},
+    "scope_changes": [],
+    "new_human_approvals": [],
+    "V1_READY": false,
+    "V1_AUTHORIZED": false,
+    "RC2_READY": false,
+    "RC2_AUTHORIZED": false,
+    "RC2_FROZEN": false,
+    "merges": 0,
+    "deployments": 0,
+    "tags": 0,
+    "publications": 0,
+    "pushes": 0
+  },
+  "control_validation": {
+    "ledger": "PASS 108 features,38 gates,43 tickets",
+    "snapshot_adoption": "PASS 23 locked files unchanged",
+    "campaign": "PASS canonical16 and all revision2 evidence/gates",
+    "supervisor_validator": "PASS",
+    "portfolio_tests_passed": 7,
+    "diff_check": "PASS"
+  }
+}
