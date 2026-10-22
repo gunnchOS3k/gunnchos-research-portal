@@ -1,0 +1,8 @@
+{
+  "docs/release/rolling/CURRENT.json": "76789bccf1455c81ae71404ae2a863881edf2041adaedac8d68693bbb4697801",
+  "docs/release/rolling/board-v0002.json": "aeb3f4d2184e294cc566db8d25ea923f97fde108a06c9ac9fc1448e83967369f",
+  "docs/release/rolling/board-v0003.json": "d29d8f5328f3f7b3629cedc27e9b43def6890378b49b547422d460619b00aeab",
+  "docs/release/campaigns/2026-10-19/RELEASE_MATRIX.json": "3d15b85e5011bef43eb0d9a35e6660dd2b3e755f8a29e7ea517791348f4b2ed1",
+  "docs/release/campaigns/2026-10-19/BLOCKERS.json": "e19ef65eae1ada9ff2fdd08f5db0d42fe364fe91ef7a1c94a780e422a0597344",
+  "releases/v1.0.0-rc.1/FINAL_ACCEPTED_MAIN_MANIFEST.json": "8a09d90b3f79a89b017e3855de60bf58ea3d5f3c2232093ee2e60bb209b55838"
+}

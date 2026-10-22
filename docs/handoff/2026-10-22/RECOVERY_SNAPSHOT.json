@@ -1,0 +1,238 @@
+{
+  "as_of_utc": "2026-10-22T16:17:37.731986+00:00",
+  "branch": "release/v1-integration-2026-10-19",
+  "local_head_before_handoff": "7f848254bf0ba43ec7418d00ec34828573e2b22e",
+  "status_before_handoff": "",
+  "worktrees": [
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal",
+        "HEAD 3f3d07b9996fab50a538a96035b96f2d40154a80",
+        "branch refs/heads/main"
+      ],
+      "status": "?? .cx2h1b_probe\n?? .worktrees/\n?? .wrangler/\n?? artifacts/device_lab/\n?? artifacts/digital_engineering_exhaustion/DIGITAL_EXHAUSTION_BLOCKER_LEDGER.json\n?? artifacts/digital_engineering_exhaustion/DIGITAL_EXHAUSTION_MASTER_REPORT.md\n?? artifacts/digital_engineering_exhaustion/HUMAN_VALIDATION_HANDOFF.md\n?? artifacts/digital_engineering_exhaustion/PHYSICAL_VALIDATION_HANDOFF.md\n?? artifacts/digital_engineering_exhaustion/stream_g/\n?? artifacts/digital_engineering_exhaustion/stream_h/\n?? release/v1.0/\n?? tests/test_device_lab_no_adb_regression.py\n?? tools/__init__.py\n?? tools/device_lab/\n?? validation/",
+      "status_sha256": "5c84fe39aab6362aea0289fc37bcea12379c59d3716da78e7a8f271f68982218"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_acceptance_exhaustion_worktrees/portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_acceptance_exhaustion_worktrees/portal",
+        "HEAD f9dbc05ebb2cb5adb1bcb72dc1a0e4f11b05d771",
+        "branch refs/heads/acceptance/master-automation-exhaustion-v1"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_next_push_worktrees/portal-doctrine-ingest",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_next_push_worktrees/portal-doctrine-ingest",
+        "HEAD 9301e786acffe6bd92c7ada501009fd076034127",
+        "branch refs/heads/governance/doctrine-control-plane-ingest"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_open_lab_worktrees/v1-readiness-portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_open_lab_worktrees/v1-readiness-portal",
+        "HEAD 1ee2824c62bf3c02f81a3d17eb3c11e42c1b8a36",
+        "branch refs/heads/docs/v1-readiness-2026-10"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_continuation_worktrees/research-portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_continuation_worktrees/research-portal",
+        "HEAD e95efae6caee279e656d8e57444c6748458f7790",
+        "branch refs/heads/surfaces/control-plane-v1"
+      ],
+      "status": "?? .wrangler/",
+      "status_sha256": "456838bf086798573323943cfb5a01230eb27f9e00c2ecaf9d5f549d42e6a1b2"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_continuation_worktrees/surfaces/gunnchos-research-portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_continuation_worktrees/surfaces/gunnchos-research-portal",
+        "HEAD 1958693450b3289198ddd3940be7995bde30dc3b",
+        "branch refs/heads/surface/staging-worker"
+      ],
+      "status": "?? web-surface/.wrangler/",
+      "status_sha256": "4475415f455d058ac0a742bddd3406d50aed92d6cb4c2a555f255533b17df1e0"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_integration_2026_10_19",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_integration_2026_10_19",
+        "HEAD 7f848254bf0ba43ec7418d00ec34828573e2b22e",
+        "branch refs/heads/release/v1-integration-2026-10-19"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_release_reconciliation",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_release_reconciliation",
+        "HEAD e2026c2616562335b08b0ad98c9a3182b3b6f087",
+        "branch refs/heads/release/v1-readiness-2026-10-09"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_1_prehuman_worktrees/portal",
+        "HEAD a55f320ab0af88a71ccdef3d273bc83eb9db7b67",
+        "branch refs/heads/acceptance/v3-1-post-salvage-pixel-prehuman"
+      ],
+      "status": "M .gitignore",
+      "status_sha256": "aec6475bab16eaf51d03c4aeb988a2e80b92f3eedcd3e54bf28c4feb2913490f"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_acceptance_worktrees/portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v3_acceptance_worktrees/portal",
+        "HEAD 2cac8fc78a1265481c7916fcb534176878eb0b34",
+        "branch refs/heads/acceptance/master-automation-exhaustion-v3"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/cx5-2-accepted-main-rebind",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/cx5-2-accepted-main-rebind",
+        "HEAD 6467551bbd68732d4681d763c35cc3b5da410879",
+        "detached"
+      ],
+      "status": "M artifacts/complete_experience/cx5_0/CX5_PORTAL_INTEGRATION_CONTROL.json\n M artifacts/complete_experience/cx5_0/CX5_PORTAL_INTEGRATION_PREPARED_PASS.json\n M docs/complete-experience/CX5_ACCEPTED_RELEASE_BASELINE_INTEGRATION_CONTROL.md\n?? artifacts/complete_experience/cx5_0/historical_pre_cx5_2/\n?? artifacts/complete_experience/cx5_2/\n?? docs/complete-experience/CX5_HISTORICAL_CX_PR_SUPERSESSION_PLAN.md\n?? docs/complete-experience/cx4_validation_center/\n?? scripts/cx5_2_phase_a.py\n?? scripts/cx5_2_phase_b.py",
+      "status_sha256": "cfc07026892bdc6269350650364d1cb9f63ba21d591af586024e638dac9e7c29"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/cx5-control-release-baseline",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/cx5-control-release-baseline",
+        "HEAD 1599684e5e4acb6b221a99a2d918a72c2625317d",
+        "branch refs/heads/integration/cx-complete-experience-control-release-baseline"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/device-lab-17f-portal14",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/device-lab-17f-portal14",
+        "HEAD 9a53ffa26ae8c18cd5c571b3e5a17f1437566c0f",
+        "branch refs/heads/release/stream-p1-rc0-digital-freeze"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/eng/stream-g-docs-support-handoff",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/eng/stream-g-docs-support-handoff",
+        "HEAD 6467551bbd68732d4681d763c35cc3b5da410879",
+        "branch refs/heads/eng/stream-g-docs-support-handoff"
+      ],
+      "status": "M README.md\n?? artifacts/digital_engineering_exhaustion/\n?? docs/stream_g/",
+      "status_sha256": "3434a8dd86f1f36790dafb25f559cf14ec7a8c6dc4d69e8dd0e3f1f11bd0d796"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/prompt18-ecosystem-control-tower",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/prompt18-ecosystem-control-tower",
+        "HEAD 35b3bdeba5592a31d6d5c0706c5f812e6117f6c1",
+        "branch refs/heads/release/prompt18-ecosystem-control-tower"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/r5s1-portal-verify",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/r5s1-portal-verify",
+        "HEAD 2a3303d56a71c1f78bfbbf165ed75f1d368fa98f",
+        "branch refs/heads/eng/tmp-r5s1-portal-verify"
+      ],
+      "status": "M artifacts/code_health_r5_s1/portal/MUTATION_REGRESSION_RESULT.json\n M artifacts/code_health_r5_s1/portal/R5_S1_RESULT.json",
+      "status_sha256": "a08f66736ca68d28c4326718a0afffbce3135e73b252f55a2c18f2538f41ce26"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/rc1-publication-evidence",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/rc1-publication-evidence",
+        "HEAD 8c420fb2ccb62cb5d21994d3cfd97efc6e890ecc",
+        "branch refs/heads/rc1-publication-evidence"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/research-source-standard",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/research-source-standard",
+        "HEAD 8498976e2b43520c490e5dcb0cffa14be679740f",
+        "branch refs/heads/surfaces/research-source-standard"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-a-digital-exhaustion",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-a-digital-exhaustion",
+        "HEAD 01cc4ff55766083d0cfb990b781e75163862d251",
+        "branch refs/heads/eng/stream-a-digital-engineering-exhaustion"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-cleanroom-verification",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-cleanroom-verification",
+        "HEAD 4593097b20a90a30b66d232f0507a4995f8b87d0",
+        "branch refs/heads/eng/stream-h-cleanroom-verification"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/portal",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/stream-h-v2-cleanroom-20260918/portal",
+        "HEAD 01c617cd7e0a716d0eaa574b0e4c919b3ca44959",
+        "branch refs/heads/eng/stream-h-cleanroom-verification-v2",
+        "prunable gitdir file points to non-existent location"
+      ],
+      "status": "MISSING_PATH_PRESERVED_REGISTRATION"
+    },
+    {
+      "path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/v1-rc1-ecosystem-freeze",
+      "git_record": [
+        "worktree /Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-research-portal/.worktrees/v1-rc1-ecosystem-freeze",
+        "HEAD 2a99c3cb24f8dee4e372e78c9947a94eb06e8dcc",
+        "branch refs/heads/release/v1.0.0-rc1-ecosystem-freeze"
+      ],
+      "status": "",
+      "status_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "internal_free_bytes": 27402240000,
+  "internal_free_GiB": 25.52032470703125,
+  "reserve_GiB": 18,
+  "margin_GiB_before_allocations": 7.52032470703125,
+  "anticipated_handoff_allocation_bytes": 2097152,
+  "heavy_operations_authorized_by_this_measurement": false,
+  "rules_inspected": "No AGENTS.md/.cursorrules/.cursor/*.mdc found in affected checkouts or checked ancestor directories; historical CODEX_HANDOFF.md preserved.",
+  "owner_saves_accessed": false,
+  "source_media_deleted": false,
+  "agents": "Codex handoff owner; Cursor has no active task or shared branch write lease; legacy subagents not resumed."
+}
