@@ -2,12 +2,20 @@
 
 Official V1 NOT READY / NOT AUTHORIZED. RC2 UNFROZEN / NOT READY / NOT AUTHORIZED. This additive checkpoint does not adopt a board, change canonical scope or approve a gate.
 
+## Final runtime and evidence update
+
+Final bounded facial runtime: `3faa2f2cbfc5d0af57af06655f900784a97886ba`. The original 72 public form checks have also passed on this final controller-owned implementation. Native comparison remains honestly bound to f45f33af; CPU observations/combat-equivalence to f45f33af/3252aca5 versus f230b734. Original score/mesh bytes and visible sampled values are unchanged. All 109 contacts, damage, advancement frames and stock outcomes matched in the bounded pre/post recipe. Cleanup warnings remain; final verbose output identifies ten retained audio stream/playback objects, not proof that raw count variations were caused by the facial helper. Full review and exact source hashes are in Anime `artifacts/v1_closure/production_8d/`. No new binary art, owner approval, ledger adoption or release. The remaining premium source-art work is unchanged.
+
 ## Exact recovered source
 
 Checkout `/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/_v1_integration_2026_10_19`; branch `release/v1-integration-2026-10-19`.
-[Draft PR55](https://github.com/gunnchOS3k/gunnchos-research-portal/pull/55), remote `052f1723df5644156305a5cad99408ef8d8cc61e`; recovered local `7f848254bf0ba43ec7418d00ec34828573e2b22e` is two additive documentation/evidence commits ahead (e26ebd0,7f84825). Both are preserved; clean integration checkout at recovery. Historical main checkout is dirty and was not touched. All portal worktree states in RECOVERY_SNAPSHOT.json. The handoff commit follows7f84825; obtain its actual identity with `git log -1 --format=%H -- docs/handoff/2026-10-22/CODEX_TO_CURSOR.md` and requery remote before work.
+[Draft PR #55](https://github.com/gunnchOS3k/gunnchos-research-portal/pull/55), remote `052f1723df5644156305a5cad99408ef8d8cc61e`; recovered local `7f848254bf0ba43ec7418d00ec34828573e2b22e` is two additive documentation/evidence commits ahead (e26ebd0,7f84825). Both are preserved; clean integration checkout at recovery. Historical main checkout is dirty and was not touched. All portal worktree states in RECOVERY_SNAPSHOT.json. The handoff commit follows7f84825; obtain its actual identity with `git log -1 --format=%H -- docs/handoff/2026-10-22/CODEX_TO_CURSOR.md` and requery remote before work.
 
 Remote052f1723 had two successful CI checks. No production/capture/test process from the Anime lane remains. Cross-product process ownership is not inferred; inspect ports before starting services. No Cursor session/task or simultaneous shared write lease has been started.
+
+## Newer source continuation
+
+Anime technical handoff is committed at6d571eeab6d616b4dc45ed91a5e5473d70bbeee9; bounded8D runtime is nowf45f33afaf24d8b8ab923ec7229fb6765d2fe7e1 on the same draft123/122 stack. Source-morph transformation acting, four-fighter hurt-alias repair,72form configurations,18 real public-hit interruptions and18 matched native-body comparisons are verified. Nine bounded activeCPU cases produced109 contacts/eight second advancements; Kaia first only with interruptions/one stock loss, all body/facing CPUandpremiumartstillopen. No new Blender/GLB/rig production or earned campaign acceptance. Full source/art/storage/negative evidence and owner play instructions: Anime `artifacts/v1_closure/production_8d/OWNER_REVIEW.md`. Portalb5116094b4f0acfe0ec740e9ba84a55ca15dd53e CI checks bothSUCCESS; this additive status update doesnotadoptrevision3orclosegates. Requery subsequent heads ratherthaninheritCI.
 
 ## Canonical release authority
 
@@ -17,13 +25,13 @@ Newer Anime source: [draft123](https://github.com/gunnchOS3k/anime-aggressors/pu
 
 ## Ownership and safe work
 
-Codex leads Anime character/reference fidelity, Blender/rig/advanced source animation, permanent/cosmic/Prism/Puppet/TrueAspect artistry, nine original ultimates, VFX/materials, character audio, camera and aesthetic recommendations. Cursor may independently own tests/CI, controllers, PartyLink/networking, diagnostics/performance instrumentation, saves/replays, accessibility and release reconciliation. Preserve source-art contracts; isolated art defect proposals go to Codex. Separate writable branches/worktrees are mandatory during overlap; no shared branch edits. See both repository AGENTS.md files.
+Codex leads Anime character/reference fidelity, Blender/rig/advanced source animation, permanent/cosmic/Prism/Puppet/True Aspect artistry, nine original ultimates, VFX/materials, character audio, camera and aesthetic recommendations. Cursor may independently own tests/CI, controllers, PartyLink/networking, diagnostics/performance instrumentation, saves/replays, accessibility and release reconciliation. Preserve source-art contracts; isolated art defect proposals go to Codex. Separate writable branches/worktrees are mandatory during overlap; no shared branch edits. See both repository AGENTS.md files.
 
 Cursor next unblocked task: inspect preserved exact-source evidence and reproduce one existing diagnostic/save/network defect on its own task branch, or review the already-tested FieldKit integrity candidate. Do not start another ecosystem audit or rewrite art. Owner trust/device/disclosure dependencies cannot be bypassed by tests.
 
 High-priority existing blockers/dependencies:
 
-- Anime original18rig premium paired/floor/secondary/full form/ultimate acting, full seven earned Story/Convergence, final OVA/variants, genuine LAN and physical/platform acceptance; human gates false. 8D directive now active but no new8D completion inferred.
+- Anime original18-rig premium paired/floor/secondary/full form/ultimate acting, full seven earned Story/Convergence, final OVA/variants, genuine LAN and physical/platform acceptance; human gates false. 8D directive now active but no new8D completion inferred.
 - WAIKE trusted live replay blocked by absent authorized current localhost CA/leaf chain; retained expired self-signed TLS is not acceptance. Owner must provision/identify approved trust. Preserve exact gateway/platform/curriculum pins in `continuations/trusted-replay/REPORT.md`; no TLS bypass/private-key disclosure. Full18track education/accessibility acceptance still open.
 - FieldKit strict-artifact candidate92d0864ab263d3fbe1b162b2cdda1bb2404ccc55 is local, eight tests recorded; no fresh dispatch or accepted-main repair. Separate publication/dispatch authorization from its report remains unmet; this handoff does not execute it.
 - Archive scientific denominator/approved acquisition; BeatLink real server/two clients; unified invites; MLV real auth/private sharing; DeviceOS source/APK provenance and physical target; rights/editorial8edition review; iPhone Pass2U; full human/security/accessibility gates and complete accepted RC2 candidate all open. Exact B01–B14 reproductions remain in BLOCKERS.json and trusted-replay report. No responsible full-release date is asserted.
