@@ -25,6 +25,17 @@ assert board['status'] == 'NOT_READY'
 assert board['operational_overrides'] == original['operational_overrides']
 for key in ['product_deployments_performed', 'RC2_PUBLISHED', 'V1_PUBLISHED']:
     assert board[key] is False
+# CURRENT.json is the adoption pointer. board-v0003.json exists and is explicitly
+# unadopted. Checking only board-v0002.json let a pointer swap pass this campaign.
+current = read(DOCS / 'rolling/CURRENT.json')
+assert current['revision'] == 2 and current['board'] == 'board-v0002.json', 'CURRENT is not the accepted revision 2 ledger'
+unadopted = read(DOCS / 'rolling/board-v0003.json')
+assert unadopted['revision'] == 3 and unadopted['status'] == 'NOT_READY'
+assert unadopted['adoption'] == 'LOCAL_REVIEW_ONLY_NOT_ACCEPTED_MAIN', 'Unadopted review board changed adoption state'
+ledger_hashes = read(ROOT / 'docs/handoff/2026-10-22/LEDGER_HASHES.json')
+for rel, expected in ledger_hashes.items():
+    digest = hashlib.sha256((ROOT / rel).read_bytes()).hexdigest()
+    assert digest == expected, 'Accepted ledger hash drift: ' + rel
 canonical = read(ROOT / 'releases/v1.0.0-rc.1/FINAL_ACCEPTED_MAIN_MANIFEST.json')
 names = {c['repo'].split('/')[-1] for c in canonical['components'] if c['in_v1_rc1']}
 matrix = read(CAMPAIGN / 'RELEASE_MATRIX.json')
@@ -59,4 +70,4 @@ actual = {p.name for p in EVIDENCE.iterdir() if p.is_file() and p.name != 'MANIF
 assert actual == set(manifest['files'])
 for name, expected in manifest['files'].items():
     assert hashlib.sha256((EVIDENCE / name).read_bytes()).hexdigest() == expected, 'Evidence hash mismatch: ' + name
-print('PASS: canonical 16, RC1 assets, eight EPUB bindings, six scoped journeys, revision 2 and unchanged approval boundaries')
+print('PASS: canonical 16, RC1 assets, eight EPUB bindings, six scoped journeys, revision 2 CURRENT pointer, ledger hashes and unchanged approval boundaries')
